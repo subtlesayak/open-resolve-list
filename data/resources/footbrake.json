@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "footbrake",
+  "name": "footbrake",
+  "creator": "veryqiang",
+  "urls": {
+    "canonical": "https://github.com/veryqiang/footbrake",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "aaf",
+    "automation",
+    "rendering",
+    "transcoding",
+    "xml"
+  ],
+  "description": "Archived GUI for media/timeline automation, rendering, transcoding, and XML/AAF workflows.",
+  "display_description": "Archived GUI for media/timeline automation, rendering, transcoding, and XML/AAF workflows.",
+  "access": "Free; archived",
+  "accessGroup": "free",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "Legacy testing covers macOS 10.15 and Resolve 16.1.2/16.2 only.",
+  "display_platforms": "macOS",
+  "display_platform_notes": "Legacy testing covers macOS 10.15 and Resolve 16.1.2/16.2 only.",
+  "platform_source": "https://github.com/veryqiang/footbrake#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 13,
+  "last_pushed_at": "2020-03-09T07:55:01Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "veryqiang/footbrake",
+    "url": "https://github.com/veryqiang/footbrake",
+    "kind": "prerelease",
+    "version": "v0.2alpha",
+    "source": "https://github.com/veryqiang/footbrake/releases/tag/v0.2alpha",
+    "date": "2020-03-08T11:46:21Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/veryqiang/footbrake#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/veryqiang/footbrake/releases/tag/v0.2alpha",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "daa923732b6f"
+}

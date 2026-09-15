@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "shaderfuse",
+  "name": "Shaderfuse",
+  "creator": "nmbr73",
+  "urls": {
+    "canonical": "https://github.com/nmbr73/Shaderfuse",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "fuse",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "fuse",
+    "fusion",
+    "gpu",
+    "shader",
+    "shadertoy"
+  ],
+  "description": "Shadertoy-style GPU shaders converted into Fusion Fuses.",
+  "display_description": "Shadertoy-style GPU shaders converted into Fusion Fuses.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/nmbr73/Shaderfuse#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 78,
+  "last_pushed_at": "2026-09-04T12:52:53Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "nmbr73/Shaderfuse",
+    "url": "https://github.com/nmbr73/Shaderfuse",
+    "kind": "stable-release",
+    "version": "v2.0.0-rc.1",
+    "source": "https://github.com/nmbr73/Shaderfuse/releases/tag/v2.0.0-rc.1",
+    "date": "2024-07-15T19:15:48Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/nmbr73/Shaderfuse#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/nmbr73/Shaderfuse/releases/tag/v2.0.0-rc.1",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "9a7856a8df0a"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "retouch4me-video-plugins",
+  "name": "Retouch4me video plugins",
+  "creator": "Retouch4me",
+  "urls": {
+    "canonical": "https://retouch4.me/videoretouching",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "ofx",
+  "tasks": [],
+  "tags": [
+    "beauty",
+    "dodge and burn",
+    "openfx",
+    "skin retouching"
+  ],
+  "description": "Video skin cleanup and dodge-and-burn tools with OFX editions. Requires Resolve 18+ downloaded from Blackmagic; the Mac App Store build is unsupported. Individual products and installers have separate versions.",
+  "display_description": "Video skin cleanup and dodge-and-burn tools with OFX editions. Requires Resolve 18+ downloaded from Blackmagic; the Mac App Store build is unsupported. Individual products and installers have separate versions.",
+  "access": "💰 Paid plugins; demos available",
+  "accessGroup": "paid",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS",
+  "display_platforms": "🪟 Windows · 🍎 macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://retouch4.me/videoretouching",
+  "platform_checked_at": "2026-09-07",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Retouch4me video plugins",
+    "url": "https://retouch4.me/videoretouching",
+    "kind": "not-applicable",
+    "version": null,
+    "source": "https://retouch4.me/videoretouching",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-07",
+    "note": "Reference or collection with no single software release version."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://retouch4.me/videoretouching",
+      "checked_at": "2026-09-07",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "2c71303bbd99"
+}

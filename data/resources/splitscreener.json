@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "splitscreener",
+  "name": "SplitScreener",
+  "creator": "brunocbreis",
+  "urls": {
+    "canonical": "https://github.com/brunocbreis/SplitScreener",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "template",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "fusion",
+    "generator",
+    "grid",
+    "layout",
+    "split screen"
+  ],
+  "description": "SplitScreener layout generator producing Fusion compositions for split-screen grids; distinct from its in-composition script version.",
+  "display_description": "SplitScreener layout generator producing Fusion compositions for split-screen grids; distinct from its in-composition script version.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/brunocbreis/SplitScreener#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 8,
+  "last_pushed_at": "2022-08-11T15:05:21Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "brunocbreis/SplitScreener",
+    "url": "https://github.com/brunocbreis/SplitScreener",
+    "kind": "commit",
+    "version": "4a1d24c429e69b4d0e6e8249b2e62a2e8f76a37c",
+    "source": "https://github.com/brunocbreis/SplitScreener/commit/4a1d24c429e69b4d0e6e8249b2e62a2e8f76a37c",
+    "date": "2022-08-11T15:05:05Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/brunocbreis/SplitScreener/commit/4a1d24c429e69b4d0e6e8249b2e62a2e8f76a37c",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "111a7d56b730"
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "faded-balancer-dctl",
+  "name": "Faded-Balancer-DCTL",
+  "creator": "fabiocolor",
+  "urls": {
+    "canonical": "https://github.com/fabiocolor/Faded-Balancer-DCTL",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color balance",
+    "film",
+    "film restoration",
+    "film scanning"
+  ],
+  "description": "Rebalances faded film scans.",
+  "display_description": "Rebalances faded film scans.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/fabiocolor/Faded-Balancer-DCTL#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 22,
+  "last_pushed_at": "2026-07-11T17:48:21Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "fabiocolor/Faded-Balancer-DCTL",
+    "url": "https://github.com/fabiocolor/Faded-Balancer-DCTL",
+    "kind": "stable-release",
+    "version": "v1.7.0",
+    "source": "https://github.com/fabiocolor/Faded-Balancer-DCTL/releases/tag/v1.7.0",
+    "date": "2026-07-11T17:18:25Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/fabiocolor/Faded-Balancer-DCTL#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/fabiocolor/Faded-Balancer-DCTL/releases/tag/v1.7.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "87a1b6e11e77"
+}

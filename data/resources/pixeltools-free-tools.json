@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "pixeltools-free-tools",
+  "name": "PixelTools free tools",
+  "creator": "pixeltoolspost.com",
+  "urls": {
+    "canonical": "https://pixeltoolspost.com/collections/free-tools",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color tools",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "charts",
+    "dctl",
+    "diagnostics",
+    "exposure",
+    "hdr",
+    "pq"
+  ],
+  "description": "Checker, Chart/Tool, Exposure/Chart, and PQ Tester DCTLs. Installer supports macOS/Windows. The vendor distinguishes Studio/native-DCTL and DCTL-OFX loading paths; check the exact tool and host requirements.",
+  "display_description": "Checker, Chart/Tool, Exposure/Chart, and PQ Tester DCTLs. Installer supports macOS/Windows. The vendor distinguishes Studio/native-DCTL and DCTL-OFX loading paths; check the exact tool and host requirements.",
+  "access": "🆓 Free; email required for download",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "🪟 🍎",
+  "display_platforms": "🪟 🍎",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:19.490Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "PixelTools free tools",
+    "url": "https://pixeltoolspost.com/collections/free-tools",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://pixeltoolspost.com/collections/free-tools",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:19.490Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://pixeltoolspost.com/collections/free-tools",
+      "checked_at": "2026-09-06T12:10:19.490Z",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "8d921206a011"
+}

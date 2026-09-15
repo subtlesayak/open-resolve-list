@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "powergrade-library",
+  "name": "PowerGrade Library",
+  "creator": "yesjmo",
+  "urls": {
+    "canonical": "https://yesjmo.gumroad.com/l/powergradelibrary",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color and PowerGrades",
+  "kind": "powergrade",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color grading",
+    "dwg",
+    "look development",
+    "powergrade",
+    "rec709"
+  ],
+  "description": "Modular grading library, signature looks, and guides. Resolve 19+ Free or Studio; designed for DaVinci Wide Gamut with Rec.709 output.",
+  "display_description": "Modular grading library, signature looks, and guides. Resolve 19+ Free or Studio; designed for DaVinci Wide Gamut with Rec.709 output.",
+  "access": "💳 Paid",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://yesjmo.gumroad.com/l/powergradelibrary",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "min": "19"
+      }
+    ],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "PowerGrade Library",
+    "url": "https://yesjmo.gumroad.com/l/powergradelibrary",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://yesjmo.gumroad.com/l/powergradelibrary",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:34.772Z"
+  },
+  "evidence": [
+    {
+      "field": "Resolve edition and version range",
+      "level": "documented",
+      "source": "https://yesjmo.gumroad.com/l/powergradelibrary",
+      "checked_at": "2026-09-06T12:10:34.772Z",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Modular grading library, signature looks, and guides. Resolve 19+ Free or Studio; designed for DaVinci Wide Gamut with Rec.709 output."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "4ce3f554214f"
+}

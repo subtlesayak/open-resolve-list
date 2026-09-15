@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "offshoot",
+  "name": "OffShoot",
+  "creator": "Hedge",
+  "urls": {
+    "canonical": "https://hedge.co/products/offshoot",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [],
+  "tags": [
+    "backup",
+    "checksum",
+    "hedge",
+    "ingest",
+    "media management",
+    "offload"
+  ],
+  "description": "Copies and verifies camera media for offload, ingest and backup workflows. Formerly called Hedge; a standalone media-management companion for Resolve and other editors. License tiers and storage workflows vary.",
+  "display_description": "Copies and verifies camera media for offload, ingest and backup workflows. Formerly called Hedge; a standalone media-management companion for Resolve and other editors. License tiers and storage workflows vary.",
+  "access": "💰 Paid; 10-day trial",
+  "accessGroup": "paid",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS",
+  "display_platforms": "🪟 Windows · 🍎 macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://hedge.co/products/offshoot",
+  "platform_checked_at": "2026-09-07",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "OffShoot",
+    "url": "https://hedge.co/products/offshoot",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://hedge.co/products/offshoot",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-07"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://hedge.co/products/offshoot",
+      "checked_at": "2026-09-07",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "7546f2a7d5f6"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "davinciresolvedctl-removecolormask",
+  "name": "DavinciResolveDCTL_RemoveColorMask",
+  "creator": "OwenYou",
+  "urls": {
+    "canonical": "https://github.com/OwenYou/DavinciResolveDCTL_RemoveColorMask",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color mask",
+    "dctl",
+    "film",
+    "negative inversion"
+  ],
+  "description": "Interactive film color-mask removal DCTL. Upstream testing covers Resolve 15; current-version compatibility unverified.",
+  "display_description": "Interactive film color-mask removal DCTL. Upstream testing covers Resolve 15; current-version compatibility unverified.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/OwenYou/DavinciResolveDCTL_RemoveColorMask#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 12,
+  "last_pushed_at": "2023-11-05T18:42:00Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "OwenYou/DavinciResolveDCTL_RemoveColorMask",
+    "url": "https://github.com/OwenYou/DavinciResolveDCTL_RemoveColorMask",
+    "kind": "commit",
+    "version": "371d23c9afc7c5925bcc84e37504817eff7ec5ad",
+    "source": "https://github.com/OwenYou/DavinciResolveDCTL_RemoveColorMask/commit/371d23c9afc7c5925bcc84e37504817eff7ec5ad",
+    "date": "2023-11-05T18:42:00Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/OwenYou/DavinciResolveDCTL_RemoveColorMask/commit/371d23c9afc7c5925bcc84e37504817eff7ec5ad",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "51dc3385d192"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "hushcut",
+  "name": "HushCut",
+  "creator": "oliwoli",
+  "urls": {
+    "canonical": "https://github.com/oliwoli/HushCut",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions",
+    "workflow"
+  ],
+  "tags": [
+    "automatic editing",
+    "dialogue",
+    "silence removal"
+  ],
+  "description": "Silence-based editing helper for Resolve workflows.",
+  "display_description": "Silence-based editing helper for Resolve workflows.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Windows;macOS;Linux",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/oliwoli/HushCut#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 20,
+  "last_pushed_at": "2025-12-30T15:39:27Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "oliwoli/HushCut",
+    "url": "https://github.com/oliwoli/HushCut",
+    "kind": "commit",
+    "version": "160dfffed4739108c5e22fecdf734ab74460105b",
+    "source": "https://github.com/oliwoli/HushCut/commit/160dfffed4739108c5e22fecdf734ab74460105b",
+    "date": "2025-12-30T15:39:02Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/oliwoli/HushCut#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/oliwoli/HushCut/commit/160dfffed4739108c5e22fecdf734ab74460105b",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "ddffc0596b1f"
+}

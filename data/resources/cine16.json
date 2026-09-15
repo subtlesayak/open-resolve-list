@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "cine16",
+  "name": "Cine16",
+  "creator": "open iso",
+  "urls": {
+    "canonical": "https://openiso.sellfy.store/p/film-emulation-powergrade/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color and PowerGrades",
+  "kind": "powergrade",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "16mm",
+    "color grading",
+    "film",
+    "film emulation",
+    "powergrade",
+    "tutorial"
+  ],
+  "description": "16 mm-inspired color PowerGrade with tutorial and test clips. All features require Resolve Studio.",
+  "display_description": "16 mm-inspired color PowerGrade with tutorial and test clips. All features require Resolve Studio.",
+  "access": "💳 Paid",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://openiso.sellfy.store/p/film-emulation-powergrade/",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Cine16",
+    "url": "https://openiso.sellfy.store/p/film-emulation-powergrade/",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://openiso.sellfy.store/p/film-emulation-powergrade/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:33.500Z"
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "9470ad9da5af"
+}

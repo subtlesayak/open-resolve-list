@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "filmconvert-tools",
+  "name": "FilmConvert tools",
+  "creator": "FilmConvert",
+  "urls": {
+    "canonical": "https://www.filmconvert.com/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color / Film",
+  "kind": "other",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color grading",
+    "diffusion",
+    "film",
+    "film emulation",
+    "grain",
+    "halation",
+    "nitrate"
+  ],
+  "description": "Nitrate film emulation, Hazy diffusion, and Halation, with Resolve integrations. Product and host licenses differ; this collection does not establish every product's OS support.",
+  "display_description": "Nitrate film emulation, Hazy diffusion, and Halation, with Resolve integrations. Product and host licenses differ; this collection does not establish every product's OS support.",
+  "access": "Commercial products; trials available",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "❔ Per product",
+  "display_platforms": "❔ Per product",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:22.263Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "FilmConvert tools",
+    "url": "https://www.filmconvert.com/",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.filmconvert.com/download/software-updates",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:22.263Z"
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "4820bdb7a927"
+}

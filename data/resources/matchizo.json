@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "matchizo",
+  "name": "Matchizo",
+  "creator": "Clipizo",
+  "urls": {
+    "canonical": "https://clipizo.com/matchizo",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "fuse",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "fusion",
+    "fuse",
+    "match cut",
+    "newspaper",
+    "word",
+    "transition"
+  ],
+  "description": "Fusion Fuse for multi-image and newspaper-word match cuts, with timing, highlights, camera movement and timeline markers. Distributed through the creator Discord.",
+  "display_description": "Fusion Fuse for multi-image and newspaper-word match cuts, with timing, highlights, camera movement and timeline markers. Distributed through the creator Discord.",
+  "access": "🆓 Free; Discord download",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://clipizo.com/matchizo",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Matchizo",
+    "url": "https://clipizo.com/matchizo",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://clipizo.com/matchizo",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and access",
+      "level": "documented",
+      "source": "https://clipizo.com/matchizo",
+      "checked_at": "2026-09-08",
+      "note": "Creator listing reviewed; not installation tested."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "e988c8f997ce"
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "mtransition-movie-dvr",
+  "name": "mTransition Movie DVR",
+  "creator": "MotionVFX",
+  "urls": {
+    "canonical": "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Effects and animation",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "cinema",
+    "motion graphics",
+    "transitions"
+  ],
+  "description": "Cinema-inspired transition pack. Desktop requires Resolve 18.1.2+; vendor also labels the DVR edition iPad-compatible. Select the DVR product.",
+  "display_description": "Cinema-inspired transition pack. Desktop requires Resolve 18.1.2+; vendor also labels the DVR edition iPad-compatible. Select the DVR product.",
+  "access": "💳 Paid",
+  "accessGroup": "paid",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS · 📱 iPadOS",
+  "display_platforms": "🪟 Windows · 🍎 macOS · 📱 iPadOS",
+  "display_platform_notes": "",
+  "platform_source": "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "mTransition Movie DVR",
+    "url": "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:30.368Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "ac667234441c"
+}

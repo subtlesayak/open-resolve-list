@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "resolve-backup-postgres",
+  "name": "Resolve-backup-Postgres",
+  "creator": "IgorRidanovic",
+  "urls": {
+    "canonical": "https://github.com/IgorRidanovic/Resolve-backup-Postgres",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "backup",
+    "database",
+    "postgresql",
+    "restoration"
+  ],
+  "description": "PostgreSQL backup scripts for Resolve project databases. Legacy documentation warns about cross-OS restoration limitations.",
+  "display_description": "PostgreSQL backup scripts for Resolve project databases. Legacy documentation warns about cross-OS restoration limitations.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Windows;macOS;Linux",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/IgorRidanovic/Resolve-backup-Postgres#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 25,
+  "last_pushed_at": "2018-02-06T21:13:43Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "IgorRidanovic/Resolve-backup-Postgres",
+    "url": "https://github.com/IgorRidanovic/Resolve-backup-Postgres",
+    "kind": "commit",
+    "version": "c2cccfa22c04d33d8d260797eef8f7bd4340b699",
+    "source": "https://github.com/IgorRidanovic/Resolve-backup-Postgres/commit/c2cccfa22c04d33d8d260797eef8f7bd4340b699",
+    "date": "2018-02-06T21:11:30Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/IgorRidanovic/Resolve-backup-Postgres#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/IgorRidanovic/Resolve-backup-Postgres/commit/c2cccfa22c04d33d8d260797eef8f7bd4340b699",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "969ef20562be"
+}

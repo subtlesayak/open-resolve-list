@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "shutter-encoder",
+  "name": "Shutter Encoder",
+  "creator": "shutterencoder.com",
+  "urls": {
+    "canonical": "https://www.shutterencoder.com/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Encoding and delivery",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "dnxhr",
+    "edl",
+    "ffmpeg",
+    "prores",
+    "quality control",
+    "rewrap",
+    "subtitles",
+    "transcoding"
+  ],
+  "description": "Standalone FFmpeg-based media preparation and delivery companion: DNxHR/ProRes conversion, rewrap, subtitles, cut detection, EDL export, and QC functions. Official builds include Windows x64, macOS Intel/Apple Silicon, and Linux. This is a companion application, not a Resolve plugin.",
+  "display_description": "Standalone FFmpeg-based media preparation and delivery companion: DNxHR/ProRes conversion, rewrap, subtitles, cut detection, EDL export, and QC functions. Official builds include Windows x64, macOS Intel/Apple Silicon, and Linux. This is a companion application, not a Resolve plugin.",
+  "access": "🆓 Free; optional donations",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "🪟 🍎 🐧",
+  "display_platforms": "🪟 🍎 🐧",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:21.846Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Shutter Encoder",
+    "url": "https://www.shutterencoder.com/",
+    "kind": "vendor-version",
+    "version": "20.3",
+    "source": "https://www.shutterencoder.com/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:21.846Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://www.shutterencoder.com/",
+      "checked_at": "2026-09-06T12:10:21.846Z",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://www.shutterencoder.com/",
+      "checked_at": "2026-09-06T12:10:21.846Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "cfdbe4643f9e"
+}

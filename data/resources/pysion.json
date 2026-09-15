@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "pysion",
+  "name": "pysion",
+  "creator": "brunocbreis",
+  "urls": {
+    "canonical": "https://github.com/brunocbreis/pysion",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Developer libraries and scripting references",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow",
+    "development",
+    "learning"
+  ],
+  "tags": [
+    "composition generation",
+    "fusion",
+    "procedural",
+    "python"
+  ],
+  "description": "Python framework for generating Fusion compositions from dictionaries and reusable constructs.",
+  "display_description": "Python framework for generating Fusion compositions from dictionaries and reusable constructs.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/brunocbreis/pysion#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 26,
+  "last_pushed_at": "2023-09-18T14:19:50Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "brunocbreis/pysion",
+    "url": "https://github.com/brunocbreis/pysion",
+    "kind": "stable-release",
+    "version": "v0.1.2",
+    "source": "https://github.com/brunocbreis/pysion/releases/tag/v0.1.2",
+    "date": "2023-02-21T21:44:50Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/brunocbreis/pysion/releases/tag/v0.1.2",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "c09c00b338de"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "blackmagic-design-regional-support-contacts",
+  "name": "Blackmagic Design regional support contacts",
+  "creator": "Blackmagic Design",
+  "urls": {
+    "canonical": "https://www.blackmagicdesign.com/support/contact/phone",
+    "previous": []
+  },
+  "origin": "external",
+  "official": true,
+  "reference": true,
+  "category": "Official Blackmagic Design resources",
+  "kind": "reference",
+  "tasks": [
+    "learning"
+  ],
+  "tags": [
+    "support",
+    "phone",
+    "help",
+    "troubleshooting"
+  ],
+  "description": "Official regional telephone support directory. Check local office hours and product support eligibility.",
+  "display_description": "Official regional telephone support directory. Check local office hours and product support eligibility.",
+  "access": "🆓 Public reference; original terms apply",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "📖 Reference",
+  "display_platforms": "📖 Reference",
+  "display_platform_notes": "",
+  "platform_source": "https://www.blackmagicdesign.com/support/contact/phone",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Blackmagic Design regional support contacts",
+    "url": "https://www.blackmagicdesign.com/support/contact/phone",
+    "kind": "not-applicable",
+    "version": null,
+    "source": "https://www.blackmagicdesign.com/support/contact/phone",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08",
+    "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+  },
+  "evidence": [
+    {
+      "field": "reference scope",
+      "level": "documented",
+      "source": "https://www.blackmagicdesign.com/support/contact/phone",
+      "checked_at": "2026-09-08",
+      "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "30224576035f"
+}

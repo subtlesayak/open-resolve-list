@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "boris-fx-syntheyes",
+  "name": "Boris FX SynthEyes",
+  "creator": "Boris FX",
+  "urls": {
+    "canonical": "https://borisfx.com/products/syntheyes/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Effects / Fusion",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "3d",
+    "camera tracking",
+    "matchmoving",
+    "object tracking",
+    "scene export"
+  ],
+  "description": "Camera/object tracking and matchmoving with Fusion/Resolve scene export. This is a standalone pipeline companion. Linux documentation specifies RHEL 8+ or compatible x86_64 distributions.",
+  "display_description": "Camera/object tracking and matchmoving with Fusion/Resolve scene export. This is a standalone pipeline companion. Linux documentation specifies RHEL 8+ or compatible x86_64 distributions.",
+  "access": "Commercial standalone tool",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:24.793Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Boris FX SynthEyes",
+    "url": "https://borisfx.com/products/syntheyes/",
+    "kind": "vendor-version",
+    "version": "2026, build 4679",
+    "source": "https://borisfx.com/release-notes?page=1",
+    "date": "2026-05-19",
+    "date_kind": "release",
+    "checked_at": "2026-09-06T12:10:24.793Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://borisfx.com/products/syntheyes/",
+      "checked_at": "2026-09-06T12:10:24.793Z",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://borisfx.com/release-notes?page=1",
+      "checked_at": "2026-09-06T12:10:24.793Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "2b23714aa229"
+}

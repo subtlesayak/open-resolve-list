@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "resolve-textplus-srt-importer",
+  "name": "resolve-textplus-srt-importer",
+  "creator": "JiginJayaprakash",
+  "urls": {
+    "canonical": "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions",
+    "workflow"
+  ],
+  "tags": [
+    "captions",
+    "fusion",
+    "srt",
+    "subtitle import",
+    "text plus"
+  ],
+  "description": "Imports SRT subtitles as styled Fusion Text+ clips.",
+  "display_description": "Imports SRT subtitles as styled Fusion Text+ clips.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 2,
+  "last_pushed_at": "2026-03-19T16:51:41Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "JiginJayaprakash/resolve-textplus-srt-importer",
+    "url": "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer",
+    "kind": "commit",
+    "version": "1e5a0ddbe000016d53b436f72a28a0e31c03580f",
+    "source": "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer/commit/1e5a0ddbe000016d53b436f72a28a0e31c03580f",
+    "date": "2026-03-19T16:51:41Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer/commit/1e5a0ddbe000016d53b436f72a28a0e31c03580f",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "6975078a38f0"
+}

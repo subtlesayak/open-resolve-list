@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "resolver",
+  "name": "resolver",
+  "creator": "DMiradakis",
+  "urls": {
+    "canonical": "https://github.com/DMiradakis/resolver",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "archive",
+    "cli",
+    "project management",
+    "render export"
+  ],
+  "description": "CLI for self-contained Resolve project workflows: scaffold project folders, export render artifacts, and archive projects.",
+  "display_description": "CLI for self-contained Resolve project workflows: scaffold project folders, export render artifacts, and archive projects.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/DMiradakis/resolver#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 5,
+  "last_pushed_at": "2026-06-09T08:00:50Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "DMiradakis/resolver",
+    "url": "https://github.com/DMiradakis/resolver",
+    "kind": "stable-release",
+    "version": "v0.0.17",
+    "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.0.17",
+    "date": "2026-05-19T20:22:06Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.0.17",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "6729fb9b6651"
+}

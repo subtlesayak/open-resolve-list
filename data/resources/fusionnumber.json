@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "fusionnumber",
+  "name": "fusionnumber",
+  "creator": "Spicy-Acorn",
+  "urls": {
+    "canonical": "https://github.com/Spicy-Acorn/fusionnumber",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "fuse",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "arithmetic",
+    "fuse",
+    "fusion",
+    "nodes",
+    "numbers"
+  ],
+  "description": "Fusion numeric arithmetic nodes exposed as a Fuse library.",
+  "display_description": "Fusion numeric arithmetic nodes exposed as a Fuse library.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/Spicy-Acorn/fusionnumber#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 6,
+  "last_pushed_at": "2020-11-24T23:50:52Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Spicy-Acorn/fusionnumber",
+    "url": "https://github.com/Spicy-Acorn/fusionnumber",
+    "kind": "stable-release",
+    "version": "v0.8.0",
+    "source": "https://github.com/Spicy-Acorn/fusionnumber/releases/tag/v0.8.0",
+    "date": "2020-03-30T21:40:59Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/Spicy-Acorn/fusionnumber/releases/tag/v0.8.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "364c75195964"
+}

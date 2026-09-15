@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "davinci-resolve-postgresql-workflow-tools",
+  "name": "davinci-resolve-postgresql-workflow-tools",
+  "creator": "sethgoldin",
+  "urls": {
+    "canonical": "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "backup",
+    "database",
+    "maintenance",
+    "postgresql"
+  ],
+  "description": "Automatic project-database backups and maintenance.",
+  "display_description": "Automatic project-database backups and maintenance.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "PostgreSQL server hosts; macOS and RHEL workflows.",
+  "display_platforms": "macOS;Linux",
+  "display_platform_notes": "PostgreSQL server hosts; macOS and RHEL workflows.",
+  "platform_source": "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 102,
+  "last_pushed_at": "2023-03-16T23:06:19Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "sethgoldin/davinci-resolve-postgresql-workflow-tools",
+    "url": "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools",
+    "kind": "stable-release",
+    "version": "v2.0",
+    "source": "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools/releases/tag/v2.0",
+    "date": "2023-03-16T23:06:19Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools/releases/tag/v2.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "596677fc41aa"
+}

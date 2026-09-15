@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "superpapertear",
+  "name": "SuperPaperTear",
+  "creator": "Akascape",
+  "urls": {
+    "canonical": "https://akascape.gumroad.com/l/superpapertear",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Effects and animation",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "cutout",
+    "fold",
+    "paper tear",
+    "procedural",
+    "texture"
+  ],
+  "description": "Procedural paper-tear and cutout effects with edge fibers, texture, fold marks and shadows. Requires Resolve 17+ Free or Studio.",
+  "display_description": "Procedural paper-tear and cutout effects with edge fibers, texture, fold marks and shadows. Requires Resolve 17+ Free or Studio.",
+  "access": "💰 Paid",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://akascape.gumroad.com/l/superpapertear",
+  "platform_checked_at": "2026-09-07",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "min": "17"
+      }
+    ],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "SuperPaperTear",
+    "url": "https://akascape.gumroad.com/l/superpapertear",
+    "kind": "vendor-version",
+    "version": "0.1",
+    "source": "https://akascape.gumroad.com/l/superpapertear",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-07"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://akascape.gumroad.com/l/superpapertear",
+      "checked_at": "2026-09-07",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "Resolve edition and version range",
+      "level": "documented",
+      "source": "https://akascape.gumroad.com/l/superpapertear",
+      "checked_at": "2026-09-07",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Procedural paper-tear and cutout effects with edge fibers, texture, fold marks and shadows. Requires Resolve 17+ Free or Studio."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "a11a0cb49bff"
+}

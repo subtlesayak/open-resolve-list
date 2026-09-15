@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "asteroid-city-lut",
+  "name": "Asteroid City LUT",
+  "creator": "Veres Deni Alex",
+  "urls": {
+    "canonical": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color / Film",
+  "kind": "lut",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "lut",
+    "asteroid city",
+    "kodak",
+    "vision 200t",
+    "sony",
+    "s-log3",
+    "rec709",
+    "film emulation"
+  ],
+  "description": "Kodak Vision 200T-inspired LUT variations for Sony S-Log3/S-Gamut3.Cine to Rec.709, with natural and vibrant teal-orange treatments.",
+  "display_description": "Kodak Vision 200T-inspired LUT variations for Sony S-Log3/S-Gamut3.Cine to Rec.709, with natural and vibrant teal-orange treatments.",
+  "access": "💰 Paid",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "one-time",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Asteroid City LUT",
+    "url": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and requirements",
+      "level": "documented",
+      "source": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+      "checked_at": "2026-09-08",
+      "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "e02c915fe970"
+}

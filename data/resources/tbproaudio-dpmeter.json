@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "tbproaudio-dpmeter",
+  "name": "TBProAudio dpMeter",
+  "creator": "tbproaudio.de",
+  "urls": {
+    "canonical": "https://www.tbproaudio.de/products/dpmeter",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Audio / Fairlight companions",
+  "kind": "other",
+  "tasks": [
+    "audio"
+  ],
+  "tags": [
+    "au",
+    "audio metering",
+    "loudness",
+    "multichannel",
+    "vst"
+  ],
+  "description": "Multichannel audio metering with VST/VST3/AU builds; macOS Intel and ARM downloads are listed. Choose a 64-bit format supported by the installed Resolve host.",
+  "display_description": "Multichannel audio metering with VST/VST3/AU builds; macOS Intel and ARM downloads are listed. Choose a 64-bit format supported by the installed Resolve host.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS",
+  "display_platforms": "🪟 Windows · 🍎 macOS",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:27.377Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "TBProAudio dpMeter",
+    "url": "https://www.tbproaudio.de/products/dpmeter",
+    "kind": "vendor-version",
+    "version": "5.3.9",
+    "source": "https://www.tbproaudio.de/products/dpmeter",
+    "date": "2026-06-22",
+    "date_kind": "release",
+    "checked_at": "2026-09-06T12:10:27.377Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://www.tbproaudio.de/products/dpmeter",
+      "checked_at": "2026-09-06T12:10:27.377Z",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://www.tbproaudio.de/products/dpmeter",
+      "checked_at": "2026-09-06T12:10:27.377Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "2703a992d75c"
+}

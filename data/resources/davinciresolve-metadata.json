@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "davinciresolve-metadata",
+  "name": "DaVinciResolve-metadata",
+  "creator": "deric",
+  "urls": {
+    "canonical": "https://github.com/deric/DaVinciResolve-metadata",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "camera metadata",
+    "exif",
+    "exiftool",
+    "media pool",
+    "metadata"
+  ],
+  "description": "Synchronize camera EXIF metadata into the Resolve Media Pool using ExifTool.",
+  "display_description": "Synchronize camera EXIF metadata into the Resolve Media Pool using ExifTool.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Windows;macOS;Linux",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/deric/DaVinciResolve-metadata#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 70,
+  "last_pushed_at": "2025-10-13T08:04:47Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "deric/DaVinciResolve-metadata",
+    "url": "https://github.com/deric/DaVinciResolve-metadata",
+    "kind": "stable-release",
+    "version": "v2.0.0",
+    "source": "https://github.com/deric/DaVinciResolve-metadata/releases/tag/v2.0.0",
+    "date": "2023-11-28T08:52:37Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/deric/DaVinciResolve-metadata#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/deric/DaVinciResolve-metadata/releases/tag/v2.0.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "3feb0f320848"
+}

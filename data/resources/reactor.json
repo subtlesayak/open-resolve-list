@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "reactor",
+  "name": "Reactor",
+  "creator": "gitlab.com",
+  "urls": {
+    "canonical": "https://gitlab.com/WeSuckLess/Reactor",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, animation, and effects",
+  "kind": "reactor-package",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "atoms",
+    "fusion",
+    "package manager",
+    "plugins",
+    "reactor"
+  ],
+  "description": "Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the Atom tree and community forum. The browser tree returned a loading shell; the current API inventory contains 711 package folders. See the package inventory; compatibility still varies by package. Related standalone tooling is already in the GitHub catalogue.",
+  "display_description": "Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the [Atom tree](https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms) and [community forum](https://www.steakunderwater.com/wesuckless/). The browser tree returned a loading shell; the current API inventory contains 711 package folders. See the [package inventory](https://github.com/subtlesayak/subtle-resolve-list/blob/main/data/reactor-inventory.md); compatibility still varies by package. Related standalone tooling is already in the GitHub catalogue.",
+  "access": "📦 Public package manager; package terms vary",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "❔ Per package",
+  "display_platforms": "❔ Per package",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:19.552Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Reactor",
+    "url": "https://gitlab.com/WeSuckLess/Reactor",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://gitlab.com/WeSuckLess/Reactor",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:19.552Z"
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "c12b609be9a4"
+}

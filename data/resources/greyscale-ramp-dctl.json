@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "greyscale-ramp-dctl",
+  "name": "Greyscale Ramp DCTL",
+  "creator": "Cullen Kelly Color",
+  "urls": {
+    "canonical": "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "dctl",
+    "grayscale",
+    "ramp",
+    "lut",
+    "look development"
+  ],
+  "description": "Grayscale diagnostic ramp for assessing LUTs, exposure bias and split-tone behavior during look development.",
+  "display_description": "Grayscale diagnostic ramp for assessing LUTs, exposure bias and split-tone behavior during look development.",
+  "access": "🆓 Free; creator download form required",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Greyscale Ramp DCTL",
+    "url": "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and access",
+      "level": "documented",
+      "source": "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",
+      "checked_at": "2026-09-08",
+      "note": "Creator listing reviewed; not installation tested."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "77cba97c9004"
+}

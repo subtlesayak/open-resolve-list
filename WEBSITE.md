@@ -27,6 +27,8 @@ Open `http://127.0.0.1:4173`. Stop the preview with Ctrl+C. There are no package
 
 The site combines `data/repositories.csv`, `data/external-tools.md`, `data/versions.json` and their existing evidence ledgers. Add reviewed structured requirements to `data/resource-details.json`, with field, source URL, review date and limitations. Empty arrays and `unknown` mean not established. Do not derive edition, version, architecture or offline compatibility from a programming language or a file extension.
 
+The canonical records are generated locally under `data/resources/`. They carry permanent IDs, URL aliases, category, format `kind`, tasks, and the existing evidence blocks. `scripts/build-site.mjs` and `scripts/build-catalogue.mjs` consume these records through compatibility adapters. Run `node scripts/migrate-resources.mjs --check` to validate the canonical records without writing. Do not treat inferred `kind` values as evidence.
+
 Use `documented` for provider documentation, `creator` only for a direct attributable confirmation of the named facts, and `tested` only for a reviewed test report describing exact setup and results. A public creator claim that they tested a product is documentation until this catalogue reviews an attributable test report. Notifications, email drafts and acknowledgements do not establish confirmation.
 
 Tested starting points require a `recommendation` with `reason` and `tested_setup`, backed by `tested` evidence. This view intentionally begins empty. A creator confirmation does not imply a recommendation. Review public submissions through the creator-confirmation and testing issue forms; never copy private outreach addresses into catalogue data.

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "amalgam",
+  "name": "Amalgam",
+  "creator": "Gabriel Grenier",
+  "urls": {
+    "canonical": "https://aescripts.com/amalgam/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Effects and animation",
+  "kind": "ofx",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "compositing",
+    "frequency blending",
+    "openfx"
+  ],
+  "description": "Frequency-based image blending OFX; compatibility lists Resolve 16–21. Mac support is evidenced by the release notes. The separate Premiere transition feature is not a Resolve guarantee.",
+  "display_description": "Frequency-based image blending OFX; compatibility lists Resolve 16–21. Mac support is evidenced by the release notes. The separate Premiere transition feature is not a Resolve guarantee.",
+  "access": "💳 Paid; trial available",
+  "accessGroup": "paid",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "🍎 macOS confirmed; other OS unverified",
+  "display_platforms": "🍎 macOS confirmed; other OS unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://aescripts.com/amalgam/",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Amalgam",
+    "url": "https://aescripts.com/amalgam/",
+    "kind": "vendor-version",
+    "version": "1.4.6",
+    "source": "https://aescripts.com/amalgam/",
+    "date": "2026-09-01",
+    "date_kind": "release",
+    "checked_at": "2026-09-06T12:10:30.146Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://aescripts.com/amalgam/",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://aescripts.com/amalgam/",
+      "checked_at": "2026-09-06T12:10:30.146Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "a12b00c9500c"
+}

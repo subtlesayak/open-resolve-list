@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "fualign",
+  "name": "FuAlign",
+  "creator": "brunocbreis",
+  "urls": {
+    "canonical": "https://github.com/brunocbreis/FuAlign",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "alignment",
+    "distribution",
+    "fusion",
+    "layout"
+  ],
+  "description": "Align and distribute visual elements in Fusion compositions.",
+  "display_description": "Align and distribute visual elements in Fusion compositions.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/brunocbreis/FuAlign#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 33,
+  "last_pushed_at": "2022-08-22T20:18:15Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "brunocbreis/FuAlign",
+    "url": "https://github.com/brunocbreis/FuAlign",
+    "kind": "stable-release",
+    "version": "v0.2",
+    "source": "https://github.com/brunocbreis/FuAlign/releases/tag/v0.2",
+    "date": "2022-08-22T20:16:51Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/brunocbreis/FuAlign#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/brunocbreis/FuAlign/releases/tag/v0.2",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "3f860771e17e"
+}

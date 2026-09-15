@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "shumai",
+  "name": "shumai",
+  "creator": "shumaiOne",
+  "urls": {
+    "canonical": "https://github.com/shumaiOne/shumai",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "review",
+    "collaboration",
+    "assets",
+    "feedback",
+    "media",
+    "self hosted",
+    "resolve",
+    "comments",
+    "nle export"
+  ],
+  "description": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Version 0.4.5 adds comment export for Resolve and other NLEs, space-key previews and comment-count badges. Hosting and optional AI services have separate requirements.",
+  "display_description": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Version 0.4.5 adds comment export for Resolve and other NLEs, space-key previews and comment-count badges. Hosting and optional AI services have separate requirements.",
+  "access": "Free; hosting and AI services separate",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Docker Compose or npm deployment; PostgreSQL with pgvector required for npm setup. Optional AI services have separate requirements.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "Docker Compose or npm deployment; PostgreSQL with pgvector required for npm setup. Optional AI services have separate requirements.",
+  "platform_source": "https://github.com/shumaiOne/shumai#readme",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": "2026-09-08",
+  "stars": 199,
+  "last_pushed_at": "2026-09-15T04:01:44Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": "Docker Compose, or npm with PostgreSQL/pgvector",
+    "installation": null
+  },
+  "version": {
+    "name": "shumaiOne/shumai",
+    "url": "https://github.com/shumaiOne/shumai",
+    "kind": "stable-release",
+    "version": "v0.4.5",
+    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5",
+    "date": "2026-09-13T13:54:21Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/shumaiOne/shumai",
+      "checked_at": "2026-09-08",
+      "note": "Docker Compose or npm deployment; PostgreSQL with pgvector required for npm setup. Optional AI services have separate requirements."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.3",
+      "to": "v0.4.5",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-13",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5",
+      "summary": "Adds NLE comment export, including Resolve, and faster preview navigation.",
+      "changes": [
+        "Exports feedback to Resolve, Final Cut Pro, Premiere and Media Composer.",
+        "Adds space-key previews and comment-count badges."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5"
+        }
+      ]
+    }
+  ],
+  "legacy_id": "60f28f7087ca"
+}

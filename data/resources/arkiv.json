@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "arkiv",
+  "name": "arkiv",
+  "creator": "vulture-s",
+  "urls": {
+    "canonical": "https://github.com/vulture-s/arkiv",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "ai",
+    "footage search",
+    "media indexing",
+    "metadata",
+    "semantic search"
+  ],
+  "description": "Local-first footage indexing, semantic search, metadata, and Resolve import/marker workflows. PolyForm Perimeter source-available licence; not MIT. Requires external local AI/media dependencies.",
+  "display_description": "Local-first footage indexing, semantic search, metadata, and Resolve import/marker workflows. PolyForm Perimeter source-available licence; not MIT. Requires external local AI/media dependencies.",
+  "access": "Free; source-available, restricted competing-product use",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Prebuilt apps: Windows x64 and macOS Apple Silicon. Linux and Intel Mac require source setup.",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "Prebuilt apps: Windows x64 and macOS Apple Silicon. Linux and Intel Mac require source setup.",
+  "platform_source": "https://github.com/vulture-s/arkiv#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 72,
+  "last_pushed_at": "2026-09-14T21:08:43Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "vulture-s/arkiv",
+    "url": "https://github.com/vulture-s/arkiv",
+    "kind": "stable-release",
+    "version": "v1.3.0",
+    "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.3.0",
+    "date": "2026-09-05T05:48:38Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/vulture-s/arkiv#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.3.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "baba99ad1ef5"
+}

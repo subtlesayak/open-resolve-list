@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "flenser",
+  "name": "flenser",
+  "creator": "stoatworks-labs",
+  "urls": {
+    "canonical": "https://github.com/stoatworks-labs/flenser",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "ofx",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "liquid",
+    "oil",
+    "light show",
+    "psychedelic",
+    "ofx",
+    "experimental"
+  ],
+  "description": "Experimental oil/liquid-light-show effect with OFX and FFGL builds. Provider has not loaded it in Resolve and has not run the Linux build. Host probes and another host do not establish Resolve compatibility.",
+  "display_description": "Experimental oil/liquid-light-show effect with OFX and FFGL builds. Provider has not loaded it in Resolve and has not run the Linux build. Host probes and another host do not establish Resolve compatibility.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "platform_source": "https://github.com/stoatworks-labs/flenser#readme",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": "2026-09-15",
+  "stars": 0,
+  "last_pushed_at": "2026-09-09T01:48:09Z",
+  "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "stoatworks-labs/flenser",
+    "url": "https://github.com/stoatworks-labs/flenser",
+    "kind": "stable-release",
+    "version": "v0.1.4",
+    "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4",
+    "date": "2026-09-04T22:02:56Z",
+    "checked_at": "2026-09-15T11:10:30.401Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/flenser#readme",
+      "checked_at": "2026-09-15",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4",
+      "checked_at": "2026-09-15T11:10:30.401Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/flenser#readme",
+      "checked_at": "2026-09-15",
+      "note": "Experimental oil/liquid-light-show effect with OFX and FFGL builds. Provider has not loaded it in Resolve and has not run the Linux build. Host probes and another host do not establish Resolve compatibility."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "e74f3643adfe"
+}

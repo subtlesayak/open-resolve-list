@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "audio-visualiser-plugin",
+  "name": "Audio Visualiser Plugin",
+  "creator": "sh4rk",
+  "urls": {
+    "canonical": "https://sh4rkk.com/visualiser-plugin",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Effects and animation",
+  "kind": "workflow-app",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "audio reactive",
+    "audio visualizer",
+    "fusion",
+    "music visualization"
+  ],
+  "description": "Audio-reactive Fusion toolkit and Edit-page visualizers. Supports Resolve 19.1–21 Free and Studio. Uses the supplied audio-converter workflow; current creator site supersedes the Ko-fi listing.",
+  "display_description": "Audio-reactive Fusion toolkit and Edit-page visualizers. Supports Resolve 19.1–21 Free and Studio. Uses the supplied audio-converter workflow; current creator site supersedes the Ko-fi listing.",
+  "access": "💰 Free edition / paid full edition",
+  "accessGroup": "mixed",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://sh4rkk.com/visualiser-plugin",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Audio Visualiser Plugin",
+    "url": "https://sh4rkk.com/visualiser-plugin",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://sh4rkk.com/visualiser-plugin",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:30.612Z"
+  },
+  "evidence": [
+    {
+      "field": "Resolve edition",
+      "level": "documented",
+      "source": "https://sh4rkk.com/visualiser-plugin",
+      "checked_at": "2026-09-06T12:10:30.612Z",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Audio-reactive Fusion toolkit and Edit-page visualizers. Supports Resolve 19.1–21 Free and Studio. Uses the supplied audio-converter workflow; current creator site supersedes the Ko-fi listing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "7f8a4ff0678c"
+}

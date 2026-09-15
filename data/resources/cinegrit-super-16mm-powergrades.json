@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "cinegrit-super-16mm-powergrades",
+  "name": "CineGrit Super 16mm PowerGrades",
+  "creator": "Veres Deni Alex",
+  "urls": {
+    "canonical": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color / Film",
+  "kind": "powergrade",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "powergrade",
+    "cinegrit",
+    "super 16",
+    "16mm",
+    "grain",
+    "halation"
+  ],
+  "description": "Twenty-three editable 16mm-inspired Resolve grades with controls for color, contrast, grain and halation. Supports log and Rec.709 workflows; requirements for individual effect nodes are not established.",
+  "display_description": "Twenty-three editable 16mm-inspired Resolve grades with controls for color, contrast, grain and halation. Supports log and Rec.709 workflows; requirements for individual effect nodes are not established.",
+  "access": "💰 Paid",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "one-time",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "CineGrit Super 16mm PowerGrades",
+    "url": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and requirements",
+      "level": "documented",
+      "source": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+      "checked_at": "2026-09-08",
+      "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "de0753b84779"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "gpx-visualization-davinci",
+  "name": "GPX-Visualization-Davinci",
+  "creator": "VladasTamosiunas",
+  "urls": {
+    "canonical": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "fusion",
+    "gps",
+    "gpx",
+    "map",
+    "overlay",
+    "route"
+  ],
+  "description": "Generate Fusion map and GPS-track overlays from GPX data synchronized to video.",
+  "display_description": "Generate Fusion map and GPS-track overlays from GPX data synchronized to video.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Windows;macOS;Linux",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 14,
+  "last_pushed_at": "2025-03-12T19:34:07Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "VladasTamosiunas/GPX-Visualization-Davinci",
+    "url": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci",
+    "kind": "commit",
+    "version": "be0d17d13eccc1d5781fdfab9e24b53cda27080c",
+    "source": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci/commit/be0d17d13eccc1d5781fdfab9e24b53cda27080c",
+    "date": "2025-03-12T19:34:07Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci/commit/be0d17d13eccc1d5781fdfab9e24b53cda27080c",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "0fdd1c9a7677"
+}

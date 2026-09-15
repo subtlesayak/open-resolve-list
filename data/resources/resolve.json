@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "resolve",
+  "name": "resolve",
+  "creator": "fat-tire",
+  "urls": {
+    "canonical": "https://github.com/fat-tire/resolve",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Linux installation, compatibility, and troubleshooting",
+  "kind": "workflow-app",
+  "tasks": [
+    "linux"
+  ],
+  "tags": [
+    "containers",
+    "installation",
+    "linux"
+  ],
+  "description": "Container scripts for building and running Resolve on Linux.",
+  "display_description": "Container scripts for building and running Resolve on Linux.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Linux x86-64 with NVIDIA.",
+  "display_platforms": "Linux",
+  "display_platform_notes": "Linux x86-64 with NVIDIA.",
+  "platform_source": "https://github.com/fat-tire/resolve#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 298,
+  "last_pushed_at": "2025-08-30T23:31:06Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "fat-tire/resolve",
+    "url": "https://github.com/fat-tire/resolve",
+    "kind": "commit",
+    "version": "1c96f7c10caa810afc18311334541960a2a74207",
+    "source": "https://github.com/fat-tire/resolve/commit/1c96f7c10caa810afc18311334541960a2a74207",
+    "date": "2025-08-09T00:50:30Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/fat-tire/resolve#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/fat-tire/resolve/commit/1c96f7c10caa810afc18311334541960a2a74207",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "70088ff6068d"
+}

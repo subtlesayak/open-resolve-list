@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "fringe-fighter-turbo",
+  "name": "Fringe Fighter Turbo",
+  "creator": "Dan De'Etremont",
+  "urls": {
+    "canonical": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "other",
+  "tasks": [],
+  "tags": [
+    "compositing",
+    "disjoint over",
+    "edge artifacts",
+    "holdout",
+    "smoke"
+  ],
+  "description": "Emulates a Disjoint Over composite to address edge artifacts when combining smoke and rendered holdout geometry.",
+  "display_description": "Emulates a Disjoint Over composite to address edge artifacts when combining smoke and rendered holdout geometry.",
+  "access": "📦 Public Reactor package; check package license",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Fringe Fighter Turbo",
+    "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom",
+    "kind": "package-version",
+    "version": "1.1",
+    "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom",
+    "date": "2020-07-02",
+    "date_kind": "Reactor manifest date",
+    "checked_at": "2026-09-06"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom",
+      "checked_at": "2026-09-06",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "c03e78b63f64"
+}

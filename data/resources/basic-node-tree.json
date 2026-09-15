@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "basic-node-tree",
+  "name": "Basic Node Tree",
+  "creator": "Veres Deni Alex",
+  "urls": {
+    "canonical": "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color / Film",
+  "kind": "powergrade",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color grading",
+    "node tree",
+    "powergrade",
+    "workflow"
+  ],
+  "description": "Reusable fixed grading node tree imported through the PowerGrades gallery. The product page does not establish an OS support matrix.",
+  "display_description": "Reusable fixed grading node tree imported through the PowerGrades gallery. The product page does not establish an OS support matrix.",
+  "access": "Free; store download",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Unverified",
+  "display_platforms": "❔ Unverified",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:22.744Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Basic Node Tree",
+    "url": "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:22.744Z"
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "d02db554c1d8"
+}

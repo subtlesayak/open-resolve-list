@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "breathe-in-35mm-powergrades",
+  "name": "Breathe In 35mm PowerGrades",
+  "creator": "Veres Deni Alex",
+  "urls": {
+    "canonical": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color / Film",
+  "kind": "powergrade",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "powergrade",
+    "35mm",
+    "film emulation",
+    "aerochrome",
+    "log"
+  ],
+  "description": "35mm-inspired Resolve grading pack for log and Rec.709 footage, with customizable looks and an included Aerochrome emulation. Exact edition and effect-node requirements are not established.",
+  "display_description": "35mm-inspired Resolve grading pack for log and Rec.709 footage, with customizable looks and an included Aerochrome emulation. Exact edition and effect-node requirements are not established.",
+  "access": "💰 Paid",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "one-time",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Breathe In 35mm PowerGrades",
+    "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and requirements",
+      "level": "documented",
+      "source": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+      "checked_at": "2026-09-08",
+      "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "59454dd7a0a9"
+}

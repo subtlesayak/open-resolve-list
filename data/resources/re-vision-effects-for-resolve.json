@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "re-vision-effects-for-resolve",
+  "name": "RE:Vision Effects for Resolve",
+  "creator": "revisionfx.com",
+  "urls": {
+    "canonical": "https://revisionfx.com/products/for/resolve/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Effects / Fusion",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "deflicker",
+    "denoise",
+    "motion blur",
+    "retiming",
+    "slow motion"
+  ],
+  "description": "Resolve-specific product directory covering Twixtor retiming, ReelSmart Motion Blur, DEFlicker, DE:Noise, and other effects. Compatibility and licensing vary by product.",
+  "display_description": "Resolve-specific product directory covering Twixtor retiming, ReelSmart Motion Blur, DEFlicker, DE:Noise, and other effects. Compatibility and licensing vary by product.",
+  "access": "Commercial products and bundles",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "❔ Per product",
+  "display_platforms": "❔ Per product",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:25.506Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "RE:Vision Effects for Resolve",
+    "url": "https://revisionfx.com/products/for/resolve/",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://revisionfx.com/products/for/resolve/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:25.506Z"
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "085df514d200"
+}

@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { parseCsv } from './build-catalogue.mjs';
+import { loadCanonicalResources, toCatalogueEntry } from './canonical-source.mjs';
 import { gumroadVersion } from './update-evidence.mjs';
 import {cleanUpdateUrl,readTextResponse,needsRenderedPage} from './page-evidence.mjs';
 
@@ -12,8 +13,9 @@ process.chdir(root);
 const dir='.research/update-check';
 fs.mkdirSync(dir,{recursive:true});
 const checkedAt=new Date().toISOString();
-const entries=parseCsv(fs.readFileSync('data/repositories.csv','utf8'));
-const external=[...fs.readFileSync('data/external-tools.md','utf8').matchAll(/^\| \[([^\]]+)\]\((https:\/\/[^)]+)\)/gm)].map(m=>({name:m[1],url:m[2]}));
+const canonical=fs.existsSync('data/resources/index.json')?loadCanonicalResources(root):null;
+const entries=canonical?canonical.filter(e=>e.origin==='github').map(toCatalogueEntry):parseCsv(fs.readFileSync('data/repositories.csv','utf8'));
+const external=canonical?canonical.filter(e=>e.origin==='external').map(toCatalogueEntry):[...fs.readFileSync('data/external-tools.md','utf8').matchAll(/^\| \[([^\]]+)\]\((https:\/\/[^)]+)\)/gm)].map(m=>({name:m[1],url:m[2]}));
 const save=(name,value)=>{
  const target=`${dir}/${name}.json`,temporary=target+'.tmp';
  fs.writeFileSync(temporary,JSON.stringify(value,null,2)+'\n');

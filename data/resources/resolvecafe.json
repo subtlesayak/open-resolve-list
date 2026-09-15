@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "resolvecafe",
+  "name": "ResolveCafe",
+  "creator": "CommandPost",
+  "urls": {
+    "canonical": "https://github.com/CommandPost/ResolveCafe",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": true,
+  "category": "Directories covering free and commercial products",
+  "kind": "other",
+  "tasks": [
+    "learning"
+  ],
+  "tags": [
+    "archive",
+    "community",
+    "developer resources",
+    "reference"
+  ],
+  "description": "Community references, developer material, and website source. Archived in May 2025.",
+  "display_description": "Community references, developer material, and website source. Archived in May 2025.",
+  "access": "Free reference; archived",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Reference",
+  "display_platforms": "Reference",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/CommandPost/ResolveCafe#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 20,
+  "last_pushed_at": "2024-05-23T18:28:26Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "CommandPost/ResolveCafe",
+    "url": "https://github.com/CommandPost/ResolveCafe",
+    "kind": "commit",
+    "version": "61e0f8d1d3564a6f9a6ebb1d93be7c2bb0f843ad",
+    "source": "https://github.com/CommandPost/ResolveCafe/commit/61e0f8d1d3564a6f9a6ebb1d93be7c2bb0f843ad",
+    "date": "2024-05-23T18:27:49Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/CommandPost/ResolveCafe/commit/61e0f8d1d3564a6f9a6ebb1d93be7c2bb0f843ad",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "0b82d7446bbf"
+}

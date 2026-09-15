@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "davinci-resolve-timeline-utility",
+  "name": "DaVinci-Resolve-Timeline-Utility",
+  "creator": "bryanrandell",
+  "urls": {
+    "canonical": "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "encoder",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "filtering",
+    "timeline management",
+    "workflow"
+  ],
+  "description": "List, filter, and switch Resolve timelines. Documentation targets Resolve 17 and FFmpeg 5.0.",
+  "display_description": "List, filter, and switch Resolve timelines. Documentation targets Resolve 17 and FFmpeg 5.0.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 22,
+  "last_pushed_at": "2022-11-05T12:58:35Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "bryanrandell/DaVinci-Resolve-Timeline-Utility",
+    "url": "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility",
+    "kind": "commit",
+    "version": "b1991b409d93511cbe6287f9a686b3ed826d2ac2",
+    "source": "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility/commit/b1991b409d93511cbe6287f9a686b3ed826d2ac2",
+    "date": "2022-11-05T12:58:35Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility/commit/b1991b409d93511cbe6287f9a686b3ed826d2ac2",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "a8d1c4c811d9"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "davinciresolve-exportprojects",
+  "name": "DaVinciResolve-ExportProjects",
+  "creator": "IgorRidanovic",
+  "urls": {
+    "canonical": "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "drp",
+    "project archive",
+    "project export",
+    "project management"
+  ],
+  "description": "Export projects as DRP files and then DELETE the source projects from the project manager. Resolve Studio 16+; this is a destructive archive/move workflow.",
+  "display_description": "Export projects as DRP files and then DELETE the source projects from the project manager. Resolve Studio 16+; this is a destructive archive/move workflow.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 19,
+  "last_pushed_at": "2022-02-02T23:17:10Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "IgorRidanovic/DaVinciResolve-ExportProjects",
+    "url": "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects",
+    "kind": "commit",
+    "version": "fd8cfa347892839b8e06457b017d366df5564b7d",
+    "source": "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects/commit/fd8cfa347892839b8e06457b017d366df5564b7d",
+    "date": "2022-02-02T23:17:10Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects/commit/fd8cfa347892839b8e06457b017d366df5564b7d",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "6d5e6bd5dd6f"
+}

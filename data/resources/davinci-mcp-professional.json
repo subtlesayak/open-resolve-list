@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "davinci-mcp-professional",
+  "name": "davinci-mcp-professional",
+  "creator": "hoyt-harness",
+  "urls": {
+    "canonical": "https://github.com/hoyt-harness/davinci-mcp-professional",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "AI assistants, MCP servers, and ComfyUI integrations",
+  "kind": "mcp-server",
+  "tasks": [
+    "workflow",
+    "media"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "mcp",
+    "workflow"
+  ],
+  "description": "MCP automation organized around Resolve workflows/domains. “Professional” is the project name, not proof of a paid license.",
+  "display_description": "MCP automation organized around Resolve workflows/domains. “Professional” is the project name, not proof of a paid license.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Windows;macOS;Linux",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/hoyt-harness/davinci-mcp-professional#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 25,
+  "last_pushed_at": "2026-09-03T15:55:16Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "hoyt-harness/davinci-mcp-professional",
+    "url": "https://github.com/hoyt-harness/davinci-mcp-professional",
+    "kind": "stable-release",
+    "version": "v5.0.1",
+    "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.0.1",
+    "date": "2026-09-01T00:43:52Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/hoyt-harness/davinci-mcp-professional#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.0.1",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "8120dd26f26e"
+}

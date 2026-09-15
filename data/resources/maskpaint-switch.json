@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "maskpaint-switch",
+  "name": "MaskPaint Switch",
+  "creator": "Jacob Danell",
+  "urls": {
+    "canonical": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "mask",
+    "paint",
+    "alpha",
+    "shortcut",
+    "roto",
+    "fusion"
+  ],
+  "description": "Fusion shortcut script that switches MaskPaint alpha for adding or removing painted areas. Default shortcut is X with the MaskPaint node and viewer selected. Its September 2026 manifest date is separate from the embedded January 2023 initial-release note.",
+  "display_description": "Fusion shortcut script that switches MaskPaint alpha for adding or removing painted areas. Default shortcut is X with the MaskPaint node and viewer selected. Its September 2026 manifest date is separate from the embedded January 2023 initial-release note.",
+  "access": "📦 Public Reactor package; check package license",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "MaskPaint Switch",
+    "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+    "kind": "package-version",
+    "version": "1",
+    "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+    "date": "2026-09-11",
+    "date_kind": "Reactor manifest date",
+    "checked_at": "2026-09-15"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+      "checked_at": "2026-09-15",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+      "checked_at": "2026-09-15",
+      "note": "Fusion shortcut script that switches MaskPaint alpha for adding or removing painted areas. Default shortcut is X with the MaskPaint node and viewer selected. Its September 2026 manifest date is separate from the embedded January 2023 initial-release note."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "eee0622d3554"
+}

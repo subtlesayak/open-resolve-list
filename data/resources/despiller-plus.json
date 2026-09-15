@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "despiller-plus",
+  "name": "Despiller Plus",
+  "creator": "Jacob Danell",
+  "urls": {
+    "canonical": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "other",
+  "tasks": [],
+  "tags": [
+    "color spill",
+    "compositing",
+    "despill",
+    "keying",
+    "luminance"
+  ],
+  "description": "Removes color spill, restores luminance and recolors spill areas using a background image. Manifest states Resolve/Fusion 16 to 20+.",
+  "display_description": "Removes color spill, restores luminance and recolors spill areas using a background image. Manifest states Resolve/Fusion 16 to 20+.",
+  "access": "📦 Public Reactor package; check package license",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Despiller Plus",
+    "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
+    "kind": "package-version",
+    "version": "1.3",
+    "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
+    "date": "2022-07-30",
+    "date_kind": "Reactor manifest date",
+    "checked_at": "2026-09-06"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
+      "checked_at": "2026-09-06",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "39e55b251f3e"
+}

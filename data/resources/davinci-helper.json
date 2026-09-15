@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "davinci-helper",
+  "name": "davinci-helper",
+  "creator": "H3rz3n",
+  "urls": {
+    "canonical": "https://github.com/H3rz3n/davinci-helper",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Linux installation, compatibility, and troubleshooting",
+  "kind": "other",
+  "tasks": [
+    "linux"
+  ],
+  "tags": [
+    "linux",
+    "setup",
+    "utilities"
+  ],
+  "description": "Linux companion utilities for Resolve.",
+  "display_description": "Linux companion utilities for Resolve.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Fedora family only; Debian support is planned.",
+  "display_platforms": "Linux",
+  "display_platform_notes": "Fedora family only; Debian support is planned.",
+  "platform_source": "https://github.com/H3rz3n/davinci-helper#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 313,
+  "last_pushed_at": "2025-07-29T10:48:25Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "H3rz3n/davinci-helper",
+    "url": "https://github.com/H3rz3n/davinci-helper",
+    "kind": "stable-release",
+    "version": "v2.4.7",
+    "source": "https://github.com/H3rz3n/davinci-helper/releases/tag/v2.4.7",
+    "date": "2025-05-08T19:09:26Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/H3rz3n/davinci-helper#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/H3rz3n/davinci-helper/releases/tag/v2.4.7",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "f3295ffc839b"
+}

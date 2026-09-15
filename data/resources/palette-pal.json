@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "palette-pal",
+  "name": "Palette Pal",
+  "creator": "Tangenten",
+  "urls": {
+    "canonical": "https://tangenten.gumroad.com/l/PalettePal",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "template",
+  "tasks": [],
+  "tags": [
+    "color harmony",
+    "color sampling",
+    "fusion",
+    "palette",
+    "shades"
+  ],
+  "description": "Fusion color-palette generator with harmonies, image extraction, shade ladders and RGB controls for connected nodes. Requires Resolve 21+ Free or Studio, or Fusion Studio 21+.",
+  "display_description": "Fusion color-palette generator with harmonies, image extraction, shade ladders and RGB controls for connected nodes. Requires Resolve 21+ Free or Studio, or Fusion Studio 21+.",
+  "access": "💰 Paid individual-seat license",
+  "accessGroup": "paid",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://tangenten.gumroad.com/l/PalettePal",
+  "platform_checked_at": "2026-09-07",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "min": "21"
+      }
+    ],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Palette Pal",
+    "url": "https://tangenten.gumroad.com/l/PalettePal",
+    "kind": "vendor-version",
+    "version": "1.0.0",
+    "source": "https://tangenten.gumroad.com/l/PalettePal",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-07"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://tangenten.gumroad.com/l/PalettePal",
+      "checked_at": "2026-09-07",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://tangenten.gumroad.com/l/PalettePal",
+      "checked_at": "2026-09-07",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "Resolve edition and version range",
+      "level": "documented",
+      "source": "https://tangenten.gumroad.com/l/PalettePal",
+      "checked_at": "2026-09-07",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Fusion color-palette generator with harmonies, image extraction, shade ladders and RGB controls for connected nodes. Requires Resolve 21+ Free or Studio, or Fusion Studio 21+."
+    }
+  ],
+  "unknownFields": [
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "4c7e89ba46b7"
+}

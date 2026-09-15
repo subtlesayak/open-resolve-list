@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "resolve-linux-studio-aac-fdk-encoder-plugin",
+  "name": "Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+  "creator": "hexitnz",
+  "urls": {
+    "canonical": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "aac",
+    "audio encoding",
+    "codec",
+    "fdk",
+    "linux"
+  ],
+  "description": "FDK-based AAC audio encoding on Linux. Studio required.",
+  "display_description": "FDK-based AAC audio encoding on Linux. Studio required.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Linux",
+  "display_platforms": "Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 30,
+  "last_pushed_at": "2026-06-21T21:59:55Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [
+      "Studio"
+    ],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+    "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+    "kind": "commit",
+    "version": "232a5e04cb605236541cf0cd08bde3eed9f1f20a",
+    "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/232a5e04cb605236541cf0cd08bde3eed9f1f20a",
+    "date": "2026-06-21T21:59:38Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/232a5e04cb605236541cf0cd08bde3eed9f1f20a",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    },
+    {
+      "field": "Resolve edition",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
+      "checked_at": "2026-09-06",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: FDK-based AAC audio encoding on Linux. Studio required."
+    }
+  ],
+  "unknownFields": [
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "5a8c9583887f"
+}

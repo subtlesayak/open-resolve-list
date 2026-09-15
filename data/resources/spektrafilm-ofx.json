@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "spektrafilm-ofx",
+  "name": "spektrafilm OFX",
+  "creator": "Aedan / spektrafilm OFX",
+  "urls": {
+    "canonical": "https://spektrafilm.114c.de/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "ofx",
+  "tasks": [],
+  "tags": [
+    "color grading",
+    "film",
+    "film emulation",
+    "negative",
+    "openfx",
+    "print",
+    "scan",
+    "spectral"
+  ],
+  "description": "Beta spectral film-emulation OFX with negative, print and scan stages. Official install instructions require Resolve Studio; possible macOS Free behavior is unconfirmed. Linux packaging information differs between the site and repository instructions.",
+  "display_description": "Beta spectral film-emulation OFX with negative, print and scan stages. Official install instructions require Resolve Studio; possible macOS Free behavior is unconfirmed. Linux packaging information differs between the site and repository instructions.",
+  "access": "🆓 Free beta",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://spektrafilm.114c.de/",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "spektrafilm OFX",
+    "url": "https://spektrafilm.114c.de/",
+    "kind": "vendor-version",
+    "version": "macOS 0.4.6; Windows/Linux 0.3.11",
+    "source": "https://spektrafilm.114c.de/",
+    "date": "2026-09-04",
+    "date_kind": "macOS plugin update",
+    "checked_at": "2026-09-06"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://spektrafilm.114c.de/",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://spektrafilm.114c.de/",
+      "checked_at": "2026-09-06",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "ac12cefb9434"
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "davinci-aac-support",
+  "name": "davinci-aac-support",
+  "creator": "broskisworld",
+  "urls": {
+    "canonical": "https://github.com/broskisworld/davinci-aac-support",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Linux installation, compatibility, and troubleshooting",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "aac",
+    "pcm",
+    "linux",
+    "ffmpeg",
+    "relink",
+    "audio",
+    "watch folder"
+  ],
+  "description": "Linux background watcher that detects imported AAC media, converts audio to PCM with FFmpeg and relinks clips through Resolve scripting. Leaves compatible video streams unchanged. Requires Python 3, FFmpeg/ffprobe and a systemd user service. Creator claims Free/Studio support; Resolve 21.1 scripting restrictions require a separate compatibility check.",
+  "display_description": "Linux background watcher that detects imported AAC media, converts audio to PCM with FFmpeg and relinks clips through Resolve scripting. Leaves compatible video streams unchanged. Requires Python 3, FFmpeg/ffprobe and a systemd user service. Creator claims Free/Studio support; Resolve 21.1 scripting restrictions require a separate compatibility check.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "display_platforms": "Linux",
+  "display_platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "platform_source": "https://github.com/broskisworld/davinci-aac-support#readme",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": "2026-09-15",
+  "stars": 1,
+  "last_pushed_at": "2026-09-14T05:43:27Z",
+  "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": "Python 3, FFmpeg/ffprobe, systemd user service and Resolve scripting access",
+    "installation": null
+  },
+  "version": {
+    "name": "broskisworld/davinci-aac-support",
+    "url": "https://github.com/broskisworld/davinci-aac-support",
+    "kind": "commit",
+    "version": "454deca4d1597851d5a7292c166fbe55a9e221e5",
+    "source": "https://github.com/broskisworld/davinci-aac-support/commit/454deca4d1597851d5a7292c166fbe55a9e221e5",
+    "date": "2026-09-14T03:25:46Z",
+    "checked_at": "2026-09-15T11:10:28.438Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/broskisworld/davinci-aac-support#readme",
+      "checked_at": "2026-09-15",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/broskisworld/davinci-aac-support/commit/454deca4d1597851d5a7292c166fbe55a9e221e5",
+      "checked_at": "2026-09-15T11:10:28.438Z",
+      "note": "Source revision, not a software release."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/broskisworld/davinci-aac-support#readme",
+      "checked_at": "2026-09-15",
+      "note": "Linux background watcher that detects imported AAC media, converts audio to PCM with FFmpeg and relinks clips through Resolve scripting. Leaves compatible video streams unchanged. Requires Python 3, FFmpeg/ffprobe and a systemd user service. Creator claims Free/Studio support; Resolve 21.1 scripting restrictions require a separate compatibility check."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "7c2122704b38"
+}

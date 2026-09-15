@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "tetra-dctlofx",
+  "name": "Tetra-DCTLOFX",
+  "creator": "npeason",
+  "urls": {
+    "canonical": "https://github.com/npeason/Tetra-DCTLOFX",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color manipulation",
+    "dctl",
+    "openfx",
+    "tetrahedral interpolation"
+  ],
+  "description": "Tetrahedral color manipulation through Resolve’s DCTL effect interface.",
+  "display_description": "Tetrahedral color manipulation through Resolve’s DCTL effect interface.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/npeason/Tetra-DCTLOFX#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 197,
+  "last_pushed_at": "2021-03-13T19:39:17Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "npeason/Tetra-DCTLOFX",
+    "url": "https://github.com/npeason/Tetra-DCTLOFX",
+    "kind": "commit",
+    "version": "b5c80da5957de5f0837b120e67f05d7ad0da9ec8",
+    "source": "https://github.com/npeason/Tetra-DCTLOFX/commit/b5c80da5957de5f0837b120e67f05d7ad0da9ec8",
+    "date": "2021-03-13T19:39:17Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/npeason/Tetra-DCTLOFX/commit/b5c80da5957de5f0837b120e67f05d7ad0da9ec8",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "3d153ec77c79"
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "davinci-resolve-whisper",
+  "name": "DaVinci-Resolve-Whisper",
+  "creator": "2445868686",
+  "urls": {
+    "canonical": "https://github.com/2445868686/DaVinci-Resolve-Whisper",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions"
+  ],
+  "tags": [
+    "speech to text",
+    "subtitles",
+    "transcription",
+    "whisper"
+  ],
+  "description": "Whisper transcription through local or cloud-backed workflows.",
+  "display_description": "Whisper transcription through local or cloud-backed workflows.",
+  "access": "Public; optional service costs",
+  "accessGroup": "mixed",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/2445868686/DaVinci-Resolve-Whisper#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 10,
+  "last_pushed_at": "2025-09-03T06:33:04Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "hybrid",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "2445868686/DaVinci-Resolve-Whisper",
+    "url": "https://github.com/2445868686/DaVinci-Resolve-Whisper",
+    "kind": "commit",
+    "version": "e21eb7e1e50bf6f50fa9cef37e9df5c225eda97c",
+    "source": "https://github.com/2445868686/DaVinci-Resolve-Whisper/commit/e21eb7e1e50bf6f50fa9cef37e9df5c225eda97c",
+    "date": "2025-09-03T06:32:52Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/2445868686/DaVinci-Resolve-Whisper#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/2445868686/DaVinci-Resolve-Whisper/commit/e21eb7e1e50bf6f50fa9cef37e9df5c225eda97c",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/2445868686/DaVinci-Resolve-Whisper",
+      "checked_at": "2026-09-06",
+      "note": "Local and cloud-backed Whisper workflows are documented; optional services can cost money."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "324244c56faa"
+}

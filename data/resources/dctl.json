@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "dctl",
+  "name": "DCTL",
+  "creator": "caryknoop",
+  "urls": {
+    "canonical": "https://github.com/caryknoop/DCTL",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "dctl",
+    "diagnostics",
+    "node analysis"
+  ],
+  "description": "Diagnostic tools for marking and analyzing image changes through nodes.",
+  "display_description": "Diagnostic tools for marking and analyzing image changes through nodes.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/caryknoop/DCTL#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 30,
+  "last_pushed_at": "2025-01-15T04:53:47Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "caryknoop/DCTL",
+    "url": "https://github.com/caryknoop/DCTL",
+    "kind": "commit",
+    "version": "dfb2c166ceddd18f103765bd469d8d5685c3285e",
+    "source": "https://github.com/caryknoop/DCTL/commit/dfb2c166ceddd18f103765bd469d8d5685c3285e",
+    "date": "2025-01-15T04:53:47Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/caryknoop/DCTL/commit/dfb2c166ceddd18f103765bd469d8d5685c3285e",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "8389e006054d"
+}

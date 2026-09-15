@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "safeframe-for-davinci-resolve",
+  "name": "SafeFrame for DaVinci Resolve",
+  "creator": "Creovanta",
+  "urls": {
+    "canonical": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "safe area",
+    "safe zone",
+    "vertical",
+    "social",
+    "reels",
+    "shorts",
+    "tiktok",
+    "overlay"
+  ],
+  "description": "Social-video safe-zone overlays for TikTok, Reels, Shorts and Snapchat, launched through Workspace Scripts. Creator lists Resolve 18+ Free/Studio, but exact later-version behavior is not independently tested. Current download costs $2.99+; version 2.0.1 improves installation lookup, errors and success checks.",
+  "display_description": "Social-video safe-zone overlays for TikTok, Reels, Shorts and Snapchat, launched through Workspace Scripts. Creator lists Resolve 18+ Free/Studio, but exact later-version behavior is not independently tested. Current download costs $2.99+; version 2.0.1 improves installation lookup, errors and success checks.",
+  "access": "💰 Paid download",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❓ Unverified",
+  "display_platforms": "❓ Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "min": "18"
+      }
+    ],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "one-time",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "SafeFrame for DaVinci Resolve",
+    "url": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+    "kind": "vendor-version",
+    "version": "2.0.1",
+    "source": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08",
+    "note": "Version named by original provider. "
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+      "checked_at": "2026-09-08",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+      "checked_at": "2026-09-08",
+      "note": "Social-video safe-zone overlays for TikTok, Reels, Shorts and Snapchat, launched through Workspace Scripts. Creator lists Resolve 18+ Free/Studio, but exact later-version behavior is not independently tested. Current download costs $2.99+; version 2.0.1 improves installation lookup, errors and success checks."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "74d95080ef72"
+}

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {versionLabel, versionFor} from './versions.mjs';
+import {loadCanonicalResources,toCatalogueEntry} from './canonical-source.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export function parseCsv(text) {
@@ -178,8 +179,11 @@ function catalogueTable(entries) {
 }
 
 export function build() {
-  const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
-  const external = parseExternalResources(fs.readFileSync(path.join(root, 'data/external-tools.md'), 'utf8'));
+  const canonicalPath = path.join(root, 'data/resources/index.json');
+  const canonical = fs.existsSync(canonicalPath) ? loadCanonicalResources(root) : null;
+  const sourceEntries = canonical ? canonical.map(toCatalogueEntry) : parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
+  const entries = sourceEntries.filter(entry => entry.repository);
+  const external = sourceEntries.filter(entry => !entry.repository);
   const official = external.filter(isOfficialResource);
   const thirdParty = external.filter(e => !isOfficialResource(e));
   if (new Set(entries.map(e => e.url)).size !== entries.length) throw new Error('Duplicate repository');

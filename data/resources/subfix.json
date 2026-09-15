@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "subfix",
+  "name": "SubFix",
+  "creator": "HooperH",
+  "urls": {
+    "canonical": "https://github.com/HooperH/SubFix",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions"
+  ],
+  "tags": [
+    "subtitles",
+    "transcription",
+    "qwen",
+    "alignment",
+    "chinese",
+    "translation",
+    "batch"
+  ],
+  "description": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established.",
+  "display_description": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "display_platforms": "macOS",
+  "display_platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "platform_source": "https://github.com/HooperH/SubFix#readme",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": "2026-09-15",
+  "stars": 26,
+  "last_pushed_at": "2026-09-11T05:43:14Z",
+  "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [
+      "arm64"
+    ],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": "Initial Qwen model downloads",
+    "installation": null
+  },
+  "version": {
+    "name": "HooperH/SubFix",
+    "url": "https://github.com/HooperH/SubFix",
+    "kind": "stable-release",
+    "version": "v3.3.1",
+    "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.1",
+    "date": "2026-09-11T05:47:59Z",
+    "checked_at": "2026-09-15T11:10:26.592Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/HooperH/SubFix#readme",
+      "checked_at": "2026-09-15",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.1",
+      "checked_at": "2026-09-15T11:10:26.592Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/HooperH/SubFix#readme",
+      "checked_at": "2026-09-15",
+      "note": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "15ead622aa83"
+}

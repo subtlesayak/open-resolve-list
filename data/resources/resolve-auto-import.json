@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "resolve-auto-import",
+  "name": "resolve_auto_import",
+  "creator": "ChristyKail",
+  "urls": {
+    "canonical": "https://github.com/ChristyKail/resolve_auto_import",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "automation",
+    "bins",
+    "finder",
+    "media import"
+  ],
+  "description": "Finder Quick Action that imports camera rolls into bins and creates per-card timelines. Studio external scripting; tested 19.0.3–20.2.2.",
+  "display_description": "Finder Quick Action that imports camera rolls into bins and creates per-card timelines. Studio external scripting; tested 19.0.3–20.2.2.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "macOS",
+  "display_platforms": "macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/ChristyKail/resolve_auto_import#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 10,
+  "last_pushed_at": "2026-06-13T18:33:45Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "ChristyKail/resolve_auto_import",
+    "url": "https://github.com/ChristyKail/resolve_auto_import",
+    "kind": "commit",
+    "version": "f6172544f660c8c024450c89043b0958bb004648",
+    "source": "https://github.com/ChristyKail/resolve_auto_import/commit/f6172544f660c8c024450c89043b0958bb004648",
+    "date": "2026-06-13T18:33:40Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/ChristyKail/resolve_auto_import#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/ChristyKail/resolve_auto_import/commit/f6172544f660c8c024450c89043b0958bb004648",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "71a757321677"
+}

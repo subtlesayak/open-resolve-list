@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "rembg-fuse",
+  "name": "Rembg-Fuse",
+  "creator": "Akascape",
+  "urls": {
+    "canonical": "https://github.com/Akascape/Rembg-Fuse",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "fuse",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "ai",
+    "background removal",
+    "fusion",
+    "matte",
+    "segmentation"
+  ],
+  "description": "AI background removal inside Fusion using external Python/model dependencies.",
+  "display_description": "AI background removal inside Fusion using external Python/model dependencies.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/Akascape/Rembg-Fuse#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 213,
+  "last_pushed_at": "2026-07-05T20:40:39Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Akascape/Rembg-Fuse",
+    "url": "https://github.com/Akascape/Rembg-Fuse",
+    "kind": "commit",
+    "version": "9726f575d044494c66c70611109d90559191985f",
+    "source": "https://github.com/Akascape/Rembg-Fuse/commit/9726f575d044494c66c70611109d90559191985f",
+    "date": "2026-07-05T20:40:39Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/Akascape/Rembg-Fuse/commit/9726f575d044494c66c70611109d90559191985f",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "c40af9ff9273"
+}

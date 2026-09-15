@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "macroblock",
+  "name": "macroblock",
+  "creator": "stoatworks-labs",
+  "urls": {
+    "canonical": "https://github.com/stoatworks-labs/macroblock",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "ofx",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "mosaic",
+    "pixelation",
+    "macroblock",
+    "chroma",
+    "luminance",
+    "ofx",
+    "glitch"
+  ],
+  "description": "Experimental OpenFX/FFGL effect for separate luminance and chroma mosaic grids. Offers desktop builds; OFX host compatibility and final Resolve renders need validation. Audio-reactive FFGL features should not be assumed available in Resolve.",
+  "display_description": "Experimental OpenFX/FFGL effect for separate luminance and chroma mosaic grids. Offers desktop builds; OFX host compatibility and final Resolve renders need validation. Audio-reactive FFGL features should not be assumed available in Resolve.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "platform_source": "https://github.com/stoatworks-labs/macroblock#readme",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": "2026-09-15",
+  "stars": 2,
+  "last_pushed_at": "2026-09-15T10:19:59Z",
+  "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "stoatworks-labs/macroblock",
+    "url": "https://github.com/stoatworks-labs/macroblock",
+    "kind": "stable-release",
+    "version": "v0.1.2",
+    "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2",
+    "date": "2026-09-04T22:02:28Z",
+    "checked_at": "2026-09-15T11:10:26.592Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/macroblock#readme",
+      "checked_at": "2026-09-15",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2",
+      "checked_at": "2026-09-15T11:10:26.592Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/macroblock#readme",
+      "checked_at": "2026-09-15",
+      "note": "Experimental OpenFX/FFGL effect for separate luminance and chroma mosaic grids. Offers desktop builds; OFX host compatibility and final Resolve renders need validation. Audio-reactive FFGL features should not be assumed available in Resolve."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "46ddfa86a074"
+}

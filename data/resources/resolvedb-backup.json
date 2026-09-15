@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "resolvedb-backup",
+  "name": "ResolveDB_backup",
+  "creator": "walter-arrighetti",
+  "urls": {
+    "canonical": "https://github.com/walter-arrighetti/ResolveDB_backup",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "backup",
+    "postgresql",
+    "project server",
+    "scheduling"
+  ],
+  "description": "Scheduled PostgreSQL project-server backups. Requires server administration and matching PostgreSQL configuration.",
+  "display_description": "Scheduled PostgreSQL project-server backups. Requires server administration and matching PostgreSQL configuration.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Windows;macOS;Linux",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/walter-arrighetti/ResolveDB_backup#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 13,
+  "last_pushed_at": "2020-10-01T09:02:48Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "walter-arrighetti/ResolveDB_backup",
+    "url": "https://github.com/walter-arrighetti/ResolveDB_backup",
+    "kind": "commit",
+    "version": "495275320ab74434e733d7fc159b3c8417225307",
+    "source": "https://github.com/walter-arrighetti/ResolveDB_backup/commit/495275320ab74434e733d7fc159b3c8417225307",
+    "date": "2018-08-23T15:54:45Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/walter-arrighetti/ResolveDB_backup#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/walter-arrighetti/ResolveDB_backup/commit/495275320ab74434e733d7fc159b3c8417225307",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "cbb24bc0ac24"
+}

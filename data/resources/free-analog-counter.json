@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "free-analog-counter",
+  "name": "Free Analog Counter",
+  "creator": "A Blackbird Called Sue",
+  "urls": {
+    "canonical": "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "template",
+  "tasks": [],
+  "tags": [
+    "analog display",
+    "animated numbers",
+    "counter",
+    "fusion"
+  ],
+  "description": "Animated analog-counter Fusion composition. Creator explicitly shares a free template; current host/edition compatibility is not specified.",
+  "display_description": "Animated analog-counter Fusion composition. Creator explicitly shares a free template; current host/edition compatibility is not specified.",
+  "access": "🆓 Free template",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Free Analog Counter",
+    "url": "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066",
+    "kind": "vendor-version",
+    "version": "v3 attachment",
+    "source": "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066",
+      "checked_at": "2026-09-06",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "bc8e5e2cc1ef"
+}

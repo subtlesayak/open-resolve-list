@@ -443,6 +443,14 @@ dialog::backdrop {
 .evidence-list li {
   margin:12px 0
 }
+.evidence-coverage-list {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:6px 28px;
+  padding-inline-start:20px;
+  margin-block:0 20px;
+}
+.evidence-coverage-list li { margin:0; }
 .notice:not(:empty) {
   position:fixed;
   z-index:5;
@@ -644,6 +652,7 @@ dialog::backdrop {
   .facts dd {
     margin-bottom:12px
   }
+  .evidence-coverage-list { grid-template-columns:1fr; }
   .dialog-top h2 {
     font-size:20px
   }

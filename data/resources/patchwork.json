@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "patchwork",
+  "name": "patchwork",
+  "creator": "in03",
+  "urls": {
+    "canonical": "https://github.com/in03/patchwork",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "ffmpeg",
+    "incremental rendering",
+    "render patching"
+  ],
+  "description": "Early prototype for patching changed render segments with Resolve and FFmpeg. Roadmap still lists codec patching and automatic change detection as unfinished.",
+  "display_description": "Early prototype for patching changed render segments with Resolve and FFmpeg. Roadmap still lists codec patching and automatic change detection as unfinished.",
+  "access": "Free; prototype",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/in03/patchwork#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 7,
+  "last_pushed_at": "2024-05-30T10:51:19Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "in03/patchwork",
+    "url": "https://github.com/in03/patchwork",
+    "kind": "commit",
+    "version": "836f8b2b676bf8b7b2aab78c248e9888894b2d43",
+    "source": "https://github.com/in03/patchwork/commit/836f8b2b676bf8b7b2aab78c248e9888894b2d43",
+    "date": "2023-03-06T01:44:53Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/in03/patchwork/commit/836f8b2b676bf8b7b2aab78c248e9888894b2d43",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "799debd34092"
+}

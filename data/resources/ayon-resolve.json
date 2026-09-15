@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "ayon-resolve",
+  "name": "ayon-resolve",
+  "creator": "ynput",
+  "urls": {
+    "canonical": "https://github.com/ynput/ayon-resolve",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "ayon",
+    "integration",
+    "production pipeline"
+  ],
+  "description": "Resolve integration addon for the AYON production pipeline. Requires an AYON deployment; infrastructure terms are separate.",
+  "display_description": "Resolve integration addon for the AYON production pipeline. Requires an AYON deployment; infrastructure terms are separate.",
+  "access": "Free; AYON infrastructure separate",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/ynput/ayon-resolve#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 13,
+  "last_pushed_at": "2026-09-14T18:21:06Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "ynput/ayon-resolve",
+    "url": "https://github.com/ynput/ayon-resolve",
+    "kind": "stable-release",
+    "version": "0.6.3",
+    "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.3",
+    "date": "2026-09-03T10:21:54Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.3",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "32c4f04820f2"
+}

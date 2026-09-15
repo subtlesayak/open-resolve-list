@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "resolve-markers-to-render-queue",
+  "name": "resolve-markers-to-render-queue",
+  "creator": "postflows",
+  "urls": {
+    "canonical": "https://github.com/postflows/resolve-markers-to-render-queue",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "batch export",
+    "markers",
+    "render queue"
+  ],
+  "description": "Queue renders from single or duration markers, with naming presets and per-render folders. Requires Studio and a configured render preset.",
+  "display_description": "Queue renders from single or duration markers, with naming presets and per-render folders. Requires Studio and a configured render preset.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/postflows/resolve-markers-to-render-queue#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 1,
+  "last_pushed_at": "2026-03-12T13:53:13Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [
+      "Studio"
+    ],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "postflows/resolve-markers-to-render-queue",
+    "url": "https://github.com/postflows/resolve-markers-to-render-queue",
+    "kind": "commit",
+    "version": "331dc5776df572f5b59dd8bbf743d0792b169a44",
+    "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/331dc5776df572f5b59dd8bbf743d0792b169a44",
+    "date": "2026-03-12T13:53:13Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/331dc5776df572f5b59dd8bbf743d0792b169a44",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    },
+    {
+      "field": "Resolve edition",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue#readme",
+      "checked_at": "2026-09-06",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Queue renders from single or duration markers, with naming presets and per-render folders. Requires Studio and a configured render preset."
+    }
+  ],
+  "unknownFields": [
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "e891c852fc61"
+}

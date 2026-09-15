@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "place-it",
+  "name": "Place it",
+  "creator": "Soundly",
+  "urls": {
+    "canonical": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "other",
+  "tasks": [
+    "audio"
+  ],
+  "tags": [
+    "audio",
+    "speaker",
+    "convolution",
+    "reverb",
+    "diegetic",
+    "sound design"
+  ],
+  "description": "Free audio plugin for speaker simulation and convolution environments. Soundly documents Resolve stability improvements in its plugin update announcement.",
+  "display_description": "Free audio plugin for speaker simulation and convolution environments. Soundly documents Resolve stability improvements in its plugin update announcement.",
+  "access": "🆓 Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Place it",
+    "url": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and access",
+      "level": "documented",
+      "source": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+      "checked_at": "2026-09-08",
+      "note": "Creator listing reviewed; not installation tested."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "91e11862bf67"
+}

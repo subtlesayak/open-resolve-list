@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "filmworkz-ofx-dvo",
+  "name": "Filmworkz OFX DVO",
+  "creator": "filmworkz.com",
+  "urls": {
+    "canonical": "https://filmworkz.com/ofx/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Effects / Fusion",
+  "kind": "ofx",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "despeckle",
+    "image repair",
+    "openfx",
+    "restoration"
+  ],
+  "description": "Restoration and correction plugin pack for Resolve, Mistika, and Scratch. Current vendor page documents desktop OS support and the updated Performance Pack with DVO Despeckle.",
+  "display_description": "Restoration and correction plugin pack for Resolve, Mistika, and Scratch. Current vendor page documents desktop OS support and the updated Performance Pack with DVO Despeckle.",
+  "access": "Commercial; subscription options",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:24.922Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Filmworkz OFX DVO",
+    "url": "https://filmworkz.com/ofx/",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://filmworkz.com/ofx/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:24.922Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://filmworkz.com/ofx/",
+      "checked_at": "2026-09-06T12:10:24.922Z",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "83b1528d893f"
+}

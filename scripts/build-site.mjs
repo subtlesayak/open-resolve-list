@@ -4,11 +4,13 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {parseCsv,parseExternalResources,isOfficialResource} from './build-catalogue.mjs';
 import {TASKS} from '../site/model.mjs';
+import {loadCanonicalResources,toSiteEntry} from './canonical-source.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const plain=s=>s.replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/<[^>]*>/g,'').replace(/\*\*/g,'').trim();
 const safeUrl=u=>{try{return new URL(u).protocol==='https:';}catch{return false;}};
 export function buildSite(){
+ const canonicalRecords=fs.existsSync(path.join(root,'data/resources/index.json'))?loadCanonicalResources(root):null;
  const csv=parseCsv(fs.readFileSync(path.join(root,'data/repositories.csv'),'utf8')),md=fs.readFileSync(path.join(root,'data/external-tools.md'),'utf8'),external=parseExternalResources(md);
  const versions=new Map(read('data/versions.json').entries.map(e=>[e.url,e]));
  const details=read('data/resource-details.json'),history=read('data/provider-updates.json');
@@ -17,7 +19,7 @@ export function buildSite(){
  const creators=new Map();let creator=null;for(const line of md.split('\n')){if(/^#{2,3} |^#### Other/.test(line))creator=null;if(/^#### 👤 /.test(line))creator=line.replace(/^#### 👤 /,'').trim();const m=line.match(/^\| \[([^\]]+)\]\((https:[^)]+)\)/);if(m&&creator)creators.set(m[2],creator);}
  const sources=new Map([...read('data/marketplace-discoveries.json').additions,...read('data/community-discoveries.json').additions].map(e=>[e.url,e]));
  const audit=new Map(read('data/update-audit.json').external.map(e=>[e.url,e]));
- const entries=[...csv.map(e=>({...e,name:e.repository.split('/')[1],creator:e.repository.split('/')[0],origin:'github'})),...external.map(e=>({...e,creator:creators.get(e.url)||new URL(e.url).hostname.replace(/^www\./,''),origin:'external'}))].map(e=>{
+ const entries=canonicalRecords?canonicalRecords.map(toSiteEntry):[...csv.map(e=>({...e,name:e.repository.split('/')[1],creator:e.repository.split('/')[0],origin:'github'})),...external.map(e=>({...e,creator:creators.get(e.url)||new URL(e.url).hostname.replace(/^www\./,''),origin:'external'}))].map(e=>{
   const v=versions.get(e.url);if(!v)throw Error('Missing version '+e.url);
   const tags=tagMap.get(e.url);if(!tags)throw Error('Missing search tags '+e.url);
   const original=sources.get(e.url)||audit.get(e.url),d=details.entries.find(d=>d.url===e.url);

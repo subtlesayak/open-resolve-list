@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "drwrap",
+  "name": "drwrap",
+  "creator": "fedsfarm",
+  "urls": {
+    "canonical": "https://github.com/fedsfarm/drwrap",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Linux installation, compatibility, and troubleshooting",
+  "kind": "workflow-app",
+  "tasks": [
+    "linux"
+  ],
+  "tags": [
+    "clipboard",
+    "codec conversion",
+    "drag and drop",
+    "workflow"
+  ],
+  "description": "Resolve wrapper for codec conversion, clipboard, and drag-and-drop workarounds.",
+  "display_description": "Resolve wrapper for codec conversion, clipboard, and drag-and-drop workarounds.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Tested on Arch/Hyprland with Studio 21; feature support varies by desktop.",
+  "display_platforms": "Linux",
+  "display_platform_notes": "Tested on Arch/Hyprland with Studio 21; feature support varies by desktop.",
+  "platform_source": "https://github.com/fedsfarm/drwrap#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 26,
+  "last_pushed_at": "2026-07-21T20:53:08Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "fedsfarm/drwrap",
+    "url": "https://github.com/fedsfarm/drwrap",
+    "kind": "commit",
+    "version": "2477d9d2eddfe2b96ce15b0221c91cbb5be3673c",
+    "source": "https://github.com/fedsfarm/drwrap/commit/2477d9d2eddfe2b96ce15b0221c91cbb5be3673c",
+    "date": "2026-07-21T20:53:08Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/fedsfarm/drwrap#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/fedsfarm/drwrap/commit/2477d9d2eddfe2b96ce15b0221c91cbb5be3673c",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "9bc2d73803d4"
+}

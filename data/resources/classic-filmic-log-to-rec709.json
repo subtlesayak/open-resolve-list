@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "classic-filmic-log-to-rec709",
+  "name": "Classic Filmic Log to Rec709",
+  "creator": "Veres Deni Alex",
+  "urls": {
+    "canonical": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color / Film",
+  "kind": "powergrade",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "powergrade",
+    "lut",
+    "log",
+    "rec709",
+    "cst",
+    "color management"
+  ],
+  "description": "Free pack of two editable .drx PowerGrades and a .cube LUT for a filmic starting grade. Set the PowerGrade CST node to the source camera color space and log curve.",
+  "display_description": "Free pack of two editable .drx PowerGrades and a .cube LUT for a filmic starting grade. Set the PowerGrade CST node to the source camera color space and log curve.",
+  "access": "🆓 Free; creator download",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Classic Filmic Log to Rec709",
+    "url": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and requirements",
+      "level": "documented",
+      "source": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+      "checked_at": "2026-09-08",
+      "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "c03861571dc5"
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "super-style-transfer-fuse",
+  "name": "Super-Style-Transfer-Fuse",
+  "creator": "Akascape",
+  "urls": {
+    "canonical": "https://github.com/Akascape/Super-Style-Transfer-Fuse",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "fuse",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "ai",
+    "artistic",
+    "fusion",
+    "neural",
+    "style transfer"
+  ],
+  "description": "Neural artistic style transfer inside Fusion.",
+  "display_description": "Neural artistic style transfer inside Fusion.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/Akascape/Super-Style-Transfer-Fuse#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 4,
+  "last_pushed_at": "2026-08-23T17:06:54Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Akascape/Super-Style-Transfer-Fuse",
+    "url": "https://github.com/Akascape/Super-Style-Transfer-Fuse",
+    "kind": "stable-release",
+    "version": "dist",
+    "source": "https://github.com/Akascape/Super-Style-Transfer-Fuse/releases/tag/dist",
+    "date": "2026-08-23T07:37:56Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/Akascape/Super-Style-Transfer-Fuse/releases/tag/dist",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "6526579729c6"
+}

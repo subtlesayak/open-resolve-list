@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "unbound-editor-device-customizer",
+  "name": "Unbound-editor-device-customizer",
+  "creator": "PuzzleEmptyM",
+  "urls": {
+    "canonical": "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+  "kind": "control-surface",
+  "tasks": [
+    "hardware"
+  ],
+  "tags": [
+    "controller",
+    "hardware",
+    "jog wheel",
+    "remapping"
+  ],
+  "description": "Remaps controller buttons and jog-wheel actions outside Resolve; Windows/macOS builds.",
+  "display_description": "Remaps controller buttons and jog-wheel actions outside Resolve; Windows/macOS builds.",
+  "access": "Public; hardware separate",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows 10/11; macOS 13+ with Intel and Apple Silicon builds.",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "Windows 10/11; macOS 13+ with Intel and Apple Silicon builds.",
+  "platform_source": "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 43,
+  "last_pushed_at": "2026-04-01T20:36:56Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "PuzzleEmptyM/Unbound-editor-device-customizer",
+    "url": "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer",
+    "kind": "stable-release",
+    "version": "latest",
+    "source": "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/releases/tag/latest",
+    "date": "2026-03-15T20:34:07Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/releases/tag/latest",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "d0d514851947"
+}

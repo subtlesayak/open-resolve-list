@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "kartaverse-docs",
+  "name": "Kartaverse-Docs",
+  "creator": "Kartaverse",
+  "urls": {
+    "canonical": "https://github.com/Kartaverse/Kartaverse-Docs",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": true,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "reactor-package",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "360 video",
+    "documentation",
+    "immersive",
+    "kartavr",
+    "vr"
+  ],
+  "description": "KartaVR and immersive-workflow documentation. KartaVR active support ended in January 2026, although packages remain available through Reactor.",
+  "display_description": "KartaVR and immersive-workflow documentation. KartaVR active support ended in January 2026, although packages remain available through Reactor.",
+  "access": "Free reference",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Reference",
+  "display_platforms": "Reference",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/Kartaverse/Kartaverse-Docs#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 11,
+  "last_pushed_at": "2026-07-08T14:10:33Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Kartaverse/Kartaverse-Docs",
+    "url": "https://github.com/Kartaverse/Kartaverse-Docs",
+    "kind": "commit",
+    "version": "035fa0addc6669167cf740a326fa9be5bbebb3cf",
+    "source": "https://github.com/Kartaverse/Kartaverse-Docs/commit/035fa0addc6669167cf740a326fa9be5bbebb3cf",
+    "date": "2026-07-08T14:10:33Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/Kartaverse/Kartaverse-Docs/commit/035fa0addc6669167cf740a326fa9be5bbebb3cf",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "e022b5b3ae93"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "fusion-tools",
+  "name": "Fusion-tools",
+  "creator": "fabiof17",
+  "urls": {
+    "canonical": "https://github.com/fabiof17/Fusion-tools",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "fusion-macro",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "color compression",
+    "color expansion",
+    "fusion",
+    "macros"
+  ],
+  "description": "Fusion macros including color compression and expansion helpers.",
+  "display_description": "Fusion macros including color compression and expansion helpers.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/fabiof17/Fusion-tools#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 15,
+  "last_pushed_at": "2020-12-09T09:04:10Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "fabiof17/Fusion-tools",
+    "url": "https://github.com/fabiof17/Fusion-tools",
+    "kind": "commit",
+    "version": "c4a27b381603815537e672714c0e0a597cc13452",
+    "source": "https://github.com/fabiof17/Fusion-tools/commit/c4a27b381603815537e672714c0e0a597cc13452",
+    "date": "2020-12-09T09:04:03Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/fabiof17/Fusion-tools/commit/c4a27b381603815537e672714c0e0a597cc13452",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "5f544b79b0b9"
+}

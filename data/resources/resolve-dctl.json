@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "resolve-dctl",
+  "name": "resolve-dctl",
+  "creator": "xtremestuff",
+  "urls": {
+    "canonical": "https://github.com/xtremestuff/resolve-dctl",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color grading",
+    "dctl",
+    "utilities"
+  ],
+  "description": "Technical and utility DCTL library.",
+  "display_description": "Technical and utility DCTL library.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "iPadOS"
+  ],
+  "platform_notes": "Windows;macOS;Linux;iPadOS",
+  "display_platforms": "Windows;macOS;Linux;iPadOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/xtremestuff/resolve-dctl#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 163,
+  "last_pushed_at": "2026-04-10T07:30:35Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "xtremestuff/resolve-dctl",
+    "url": "https://github.com/xtremestuff/resolve-dctl",
+    "kind": "commit",
+    "version": "c465db3398e0533112f2b97aac27ab05976ca540",
+    "source": "https://github.com/xtremestuff/resolve-dctl/commit/c465db3398e0533112f2b97aac27ab05976ca540",
+    "date": "2026-04-10T07:30:30Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/xtremestuff/resolve-dctl#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/xtremestuff/resolve-dctl/commit/c465db3398e0533112f2b97aac27ab05976ca540",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "628257c78e0d"
+}

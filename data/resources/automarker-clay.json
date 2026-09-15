@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "automarker-clay",
+  "name": "automarker-clay",
+  "creator": "acrilique",
+  "urls": {
+    "canonical": "https://github.com/acrilique/automarker-clay",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions",
+    "workflow"
+  ],
+  "tags": [
+    "beat detection",
+    "markers",
+    "music sync",
+    "tempo"
+  ],
+  "description": "Music-tempo beat detection and timeline markers for Resolve Studio, Premiere Pro, and After Effects. Successor to the archived AutoMarker.",
+  "display_description": "Music-tempo beat detection and timeline markers for Resolve Studio, Premiere Pro, and After Effects. Successor to the archived AutoMarker.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Linux AppImage exists, but upstream discourages Linux use because testing is limited.",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "Linux AppImage exists, but upstream discourages Linux use because testing is limited.",
+  "platform_source": "https://github.com/acrilique/automarker-clay#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 10,
+  "last_pushed_at": "2025-12-16T12:27:17Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "acrilique/automarker-clay",
+    "url": "https://github.com/acrilique/automarker-clay",
+    "kind": "stable-release",
+    "version": "v2.2.0",
+    "source": "https://github.com/acrilique/automarker-clay/releases/tag/v2.2.0",
+    "date": "2025-12-16T11:40:33Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/acrilique/automarker-clay#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/acrilique/automarker-clay/releases/tag/v2.2.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "2bd84d1ebeb5"
+}

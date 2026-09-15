@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "dise",
+  "name": "DiSE",
+  "creator": "shaise",
+  "urls": {
+    "canonical": "https://github.com/shaise/DiSE",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+  "kind": "control-surface",
+  "tasks": [
+    "hardware"
+  ],
+  "tags": [
+    "controller",
+    "diy",
+    "hardware",
+    "speed editor"
+  ],
+  "description": "DIY speed-editor hardware for Resolve and other video-editing applications.",
+  "display_description": "DIY speed-editor hardware for Resolve and other video-editing applications.",
+  "access": "Public; build cost",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/shaise/DiSE#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 60,
+  "last_pushed_at": "2023-02-08T18:16:03Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "shaise/DiSE",
+    "url": "https://github.com/shaise/DiSE",
+    "kind": "stable-release",
+    "version": "DISE-V1.1",
+    "source": "https://github.com/shaise/DiSE/releases/tag/DISE-V1.1",
+    "date": "2022-09-24T19:45:23Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/shaise/DiSE/releases/tag/DISE-V1.1",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "f42cf386732c"
+}

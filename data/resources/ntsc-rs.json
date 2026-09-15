@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "ntsc-rs",
+  "name": "ntsc-rs",
+  "creator": "ntsc-rs",
+  "urls": {
+    "canonical": "https://github.com/ntsc-rs/ntsc-rs",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "ofx",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "analog video",
+    "ntsc",
+    "openfx",
+    "retro",
+    "vhs"
+  ],
+  "description": "VHS, NTSC, and analog-video effects, including an OpenFX plugin.",
+  "display_description": "VHS, NTSC, and analog-video effects, including an OpenFX plugin.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Windows;macOS;Linux",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/ntsc-rs/ntsc-rs/releases/latest",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 2576,
+  "last_pushed_at": "2026-09-06T18:14:58Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "ntsc-rs/ntsc-rs",
+    "url": "https://github.com/ntsc-rs/ntsc-rs",
+    "kind": "stable-release",
+    "version": "v0.9.6",
+    "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.6",
+    "date": "2026-09-05T21:29:35Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/ntsc-rs/ntsc-rs/releases/latest",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.6",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "8bfed5b76ed6"
+}

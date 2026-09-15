@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "dctl-utils",
+  "name": "dctl-utils",
+  "creator": "ra100",
+  "urls": {
+    "canonical": "https://github.com/ra100/dctl-utils",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "dctl",
+    "hue",
+    "luminance",
+    "saturation",
+    "skin tones"
+  ],
+  "description": "Skin-tone indicator DCTL with hue, saturation, and luminance tolerances.",
+  "display_description": "Skin-tone indicator DCTL with hue, saturation, and luminance tolerances.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/ra100/dctl-utils#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 19,
+  "last_pushed_at": "2023-12-20T15:57:13Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "ra100/dctl-utils",
+    "url": "https://github.com/ra100/dctl-utils",
+    "kind": "commit",
+    "version": "cdd8037e8988d8112d7a1f6a3fda97a2ddd129e8",
+    "source": "https://github.com/ra100/dctl-utils/commit/cdd8037e8988d8112d7a1f6a3fda97a2ddd129e8",
+    "date": "2023-12-20T15:55:02Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/ra100/dctl-utils/commit/cdd8037e8988d8112d7a1f6a3fda97a2ddd129e8",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "bd38200361ed"
+}

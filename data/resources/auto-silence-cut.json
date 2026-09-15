@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "auto-silence-cut",
+  "name": "auto-silence-cut",
+  "creator": "YourAverageMo",
+  "urls": {
+    "canonical": "https://github.com/YourAverageMo/auto-silence-cut",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions",
+    "workflow"
+  ],
+  "tags": [
+    "automatic editing",
+    "dialogue",
+    "silence removal"
+  ],
+  "description": "Automatic silence cutting with an editable Resolve workflow.",
+  "display_description": "Automatic silence cutting with an editable Resolve workflow.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/YourAverageMo/auto-silence-cut#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 24,
+  "last_pushed_at": "2025-09-24T20:40:15Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "YourAverageMo/auto-silence-cut",
+    "url": "https://github.com/YourAverageMo/auto-silence-cut",
+    "kind": "stable-release",
+    "version": "v2.1.0",
+    "source": "https://github.com/YourAverageMo/auto-silence-cut/releases/tag/v2.1.0",
+    "date": "2025-09-05T00:17:42Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/YourAverageMo/auto-silence-cut#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/YourAverageMo/auto-silence-cut/releases/tag/v2.1.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "9f90e5fc6d3b"
+}

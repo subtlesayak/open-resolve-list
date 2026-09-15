@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "nintendo-direct-graphics-pack",
+  "name": "Nintendo Direct Graphics Pack",
+  "creator": "Catharsis",
+  "urls": {
+    "canonical": "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "other",
+  "tasks": [],
+  "tags": [
+    "bumper",
+    "graphics",
+    "lower thirds",
+    "nintendo",
+    "transitions"
+  ],
+  "description": "Bumper, lower-third and transition assets with three editable Fusion compositions. Creator calls the pack free/public but has not confirmed Resolve Free compatibility.",
+  "display_description": "Bumper, lower-third and transition assets with three editable Fusion compositions. Creator calls the pack free/public but has not confirmed Resolve Free compatibility.",
+  "access": "🆓 Free public pack",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Nintendo Direct Graphics Pack",
+    "url": "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06"
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "5090803be2c0"
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "dctl-mlaa",
+  "name": "DCTL-MLAA",
+  "creator": "olduvai-jp",
+  "urls": {
+    "canonical": "https://github.com/olduvai-jp/DCTL-MLAA",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "anti aliasing",
+    "dctl",
+    "fuse",
+    "image processing"
+  ],
+  "description": "Morphological anti-aliasing in DCTL and Fuse forms.",
+  "display_description": "Morphological anti-aliasing in DCTL and Fuse forms.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/olduvai-jp/DCTL-MLAA#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 15,
+  "last_pushed_at": "2026-03-06T04:28:59Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "olduvai-jp/DCTL-MLAA",
+    "url": "https://github.com/olduvai-jp/DCTL-MLAA",
+    "kind": "commit",
+    "version": "b657a702357adb8eb56177434698bf533c222160",
+    "source": "https://github.com/olduvai-jp/DCTL-MLAA/commit/b657a702357adb8eb56177434698bf533c222160",
+    "date": "2026-03-06T04:28:38Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/olduvai-jp/DCTL-MLAA#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/olduvai-jp/DCTL-MLAA/commit/b657a702357adb8eb56177434698bf533c222160",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "62aae0f2bdd9"
+}

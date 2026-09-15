@@ -1,7 +1,23 @@
 export const TASKS = { captions:'Captions & dialogue', color:'Color & film looks', fusion:'Fusion & animation', workflow:'Workflow & automation', media:'Media & delivery', audio:'Audio', development:'Development', learning:'Learning & references', hardware:'Hardware', linux:'Linux setup' };
 export const LEVELS = { documented:'Source documented', creator:'Creator confirmed', tested:'Community tested', unknown:'Not established' };
+export const EVIDENCE_FIELDS = [
+ {key:'platforms',label:'Platforms',known:e=>e.platforms.length>0},
+ {key:'resolve',label:'Resolve version',known:e=>e.requirements.resolve.length>0},
+ {key:'editions',label:'Resolve edition',known:e=>e.requirements.editions.length>0},
+ {key:'architectures',label:'Architecture',known:e=>e.requirements.architectures.length>0},
+ {key:'processing',label:'Processing',known:e=>e.requirements.processing!=='unknown'},
+ {key:'version',label:'Tool version',known:e=>Boolean(e.version.version)||e.version.kind==='not-applicable'},
+ {key:'installation',label:'Installation',known:e=>Boolean(e.requirements.installation)},
+];
+export function evidenceCoverage(entry) {
+ const fields=EVIDENCE_FIELDS.map(field=>({key:field.key,label:field.label,known:field.known(entry),evidence:entry.evidence.filter(item=>item.field===field.key||item.field===field.label.toLowerCase())}));
+ return {total:fields.length,established:fields.filter(field=>field.known).length,fields};
+}
 export const DEFAULTS = { q:'', task:'', platform:'', edition:'Free', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', official:'', sort:'name', mode:'all' };
 export const UNFILTERED = {...DEFAULTS,edition:''};
+export const MAX_COMPARE = 3;
+export function comparisonFromUrl(search) { return [...new Set(String(search).match(/(?:^|[?&])compare=([^&]*)/)?.[1]?.split(',').map(value=>decodeURIComponent(value)).filter(Boolean) || [])].slice(0,MAX_COMPARE); }
+export function comparisonToUrl(ids) { return ids.slice(0,MAX_COMPARE).join(','); }
 export function compareVersions(a,b) { const x=String(a).split('.').map(Number), y=String(b).split('.').map(Number); for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]||0)-(y[i]||0);if(d)return Math.sign(d);}return 0; }
 export function matchesVersion(entry,version,edition) { const ranges=entry.requirements.resolve;const inheritFree=edition==='Studio'&&!ranges.some(r=>r.edition==='Studio');return ranges.some(r=>(!r.edition||!edition||r.edition===edition||(inheritFree&&r.edition==='Free'))&&(!r.min||compareVersions(version,r.min)>=0)&&(!r.max||compareVersions(version,r.max)<=0)); }
 export function normalizeSearch(value) {
@@ -21,6 +37,20 @@ function searchIndex(entry){
  let index=searchIndexes.get(entry);
  if(index===undefined){index=normalizeSearch([entry.name,entry.creator,entry.description,...(entry.tags||[])].join(' '));searchIndexes.set(entry,index);}
  return index;
+}
+export function searchScore(entry, query) {
+ const normalized=normalizeSearch(query);
+ if(!normalized) return 0;
+ const name=normalizeSearch(entry.name), creator=normalizeSearch(entry.creator), description=normalizeSearch(entry.description), tags=(entry.tags||[]).map(normalizeSearch);
+ const words=normalized.split(' ').filter(Boolean), all=value=>words.every(word=>value.includes(word));
+ let score=0;
+ if(name===normalized) score+=120;
+ else if(name.includes(normalized)) score+=100;
+ if(tags.some(tag=>tag===normalized)) score+=50;
+ else if(tags.some(tag=>all(tag))) score+=40;
+ if(all(description)) score+=20;
+ if(all(creator)) score+=10;
+ return score;
 }
 export function filterEntries(entries,state) {
  const words=normalizeSearch(state.q||'').split(/\s+/).filter(Boolean);
@@ -76,9 +106,9 @@ export function recoveryOptions(entries, state) {
  if(count) return [{key:'taskOnly',patch:taskOnly,count}];
  return [{key:'clear',patch:{...DEFAULTS,sort:state.sort},count:filterEntries(entries,DEFAULTS).length}];
 }
-export function sortEntries(entries,key='name') {
+export function sortEntries(entries,key='name',query='') {
  const cmp=(a,b)=>a.localeCompare(b,'en',{sensitivity:'base'}),time=x=>Number.isFinite(Date.parse(x))?Date.parse(x):0;
- return [...entries].sort((a,b)=>Number(b.official)-Number(a.official)||(key==='updated'?time(b.releaseDate)-time(a.releaseDate):key==='activity'?time(b.activityDate)-time(a.activityDate):key==='stars'?(b.stars??-1)-(a.stars??-1):key==='creator'?cmp(a.creator,b.creator):key==='type'?cmp(a.category,b.category):0)||cmp(a.name,b.name)||cmp(a.id,b.id));
+ return [...entries].sort((a,b)=>Number(b.official)-Number(a.official)||(key==='relevance'?searchScore(b,query)-searchScore(a,query):key==='updated'?time(b.releaseDate)-time(a.releaseDate):key==='activity'?time(b.activityDate)-time(a.activityDate):key==='stars'?(b.stars??-1)-(a.stars??-1):key==='creator'?cmp(a.creator,b.creator):key==='type'?cmp(a.category,b.category):0)||cmp(a.name,b.name)||cmp(a.id,b.id));
 }
 export function relativeDate(value,now=new Date()) {if(!value||!Number.isFinite(Date.parse(value)))return 'Unknown';const days=Math.max(0,Math.floor((+now-Date.parse(value))/86400000));if(!days)return 'Today';const [n,unit]=days<7?[days,'day']:days<30?[Math.floor(days/7),'week']:days<365?[Math.floor(days/30),'month']:[Math.floor(days/365),'year'];return `${n} ${unit}${n===1?'':'s'} back`;}
 export function versionText(v) {if(v.kind==='not-applicable')return 'Not applicable';if(!v.version)return 'Version unknown';if(v.kind==='commit')return 'Revision '+v.version.slice(0,12);return v.version+(v.kind==='prerelease'?' (prerelease)':'');}

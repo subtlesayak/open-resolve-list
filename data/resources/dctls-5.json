@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "dctls-5",
+  "name": "DCTLs",
+  "creator": "kubabar",
+  "urls": {
+    "canonical": "https://github.com/kubabar/DCTLs",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color conversion",
+    "color space",
+    "dctl",
+    "xyz"
+  ],
+  "description": "Technical color-space conversion tools, including XYZ conversion.",
+  "display_description": "Technical color-space conversion tools, including XYZ conversion.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/kubabar/DCTLs#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 2,
+  "last_pushed_at": "2024-03-03T00:23:47Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "kubabar/DCTLs",
+    "url": "https://github.com/kubabar/DCTLs",
+    "kind": "commit",
+    "version": "0236a8b8d57560f36592407f73b82f4410a52276",
+    "source": "https://github.com/kubabar/DCTLs/commit/0236a8b8d57560f36592407f73b82f4410a52276",
+    "date": "2024-03-03T00:23:47Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/kubabar/DCTLs/commit/0236a8b8d57560f36592407f73b82f4410a52276",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "d185c4ff7f03"
+}

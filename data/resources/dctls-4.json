@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "dctls-4",
+  "name": "DCTLS",
+  "creator": "jai-panjwani",
+  "urls": {
+    "canonical": "https://github.com/jai-panjwani/DCTLS",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color grading",
+    "dctl",
+    "scripts"
+  ],
+  "description": "Additional Resolve DCTL scripts.",
+  "display_description": "Additional Resolve DCTL scripts.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/jai-panjwani/DCTLS#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 23,
+  "last_pushed_at": "2024-10-05T06:39:53Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "jai-panjwani/DCTLS",
+    "url": "https://github.com/jai-panjwani/DCTLS",
+    "kind": "commit",
+    "version": "5a9834144b96fca8bc6b3c8f0d4fd71ebfabe4ef",
+    "source": "https://github.com/jai-panjwani/DCTLS/commit/5a9834144b96fca8bc6b3c8f0d4fd71ebfabe4ef",
+    "date": "2024-10-05T06:39:52Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/jai-panjwani/DCTLS/commit/5a9834144b96fca8bc6b3c8f0d4fd71ebfabe4ef",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "e03c2dbbdd6d"
+}

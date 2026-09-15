@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "davinci-resolve-api",
+  "name": "davinci-resolve-api",
+  "creator": "diop",
+  "urls": {
+    "canonical": "https://github.com/diop/davinci-resolve-api",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": true,
+  "category": "Developer libraries and scripting references",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow",
+    "development",
+    "learning"
+  ],
+  "tags": [
+    "api",
+    "documentation",
+    "python",
+    "reference"
+  ],
+  "description": "Community Python API documentation. Treat it as a reference, not the latest official SDK.",
+  "display_description": "Community Python API documentation. Treat it as a reference, not the latest official SDK.",
+  "access": "Free reference",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Reference",
+  "display_platforms": "Reference",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/diop/davinci-resolve-api#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 98,
+  "last_pushed_at": "2019-03-12T19:11:24Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "diop/davinci-resolve-api",
+    "url": "https://github.com/diop/davinci-resolve-api",
+    "kind": "commit",
+    "version": "a75fd3d22a921cd1a749dbb36bb9e1ae6f5ce781",
+    "source": "https://github.com/diop/davinci-resolve-api/commit/a75fd3d22a921cd1a749dbb36bb9e1ae6f5ce781",
+    "date": "2019-03-12T19:11:17Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/diop/davinci-resolve-api/commit/a75fd3d22a921cd1a749dbb36bb9e1ae6f5ce781",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "edb920e9b3cf"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "aces-lite-iphone-kit",
+  "name": "ACES Lite iPhone Kit",
+  "creator": "Joo.Works",
+  "urls": {
+    "canonical": "https://www.joo.works/iphone",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "powergrade",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "iphone",
+    "apple log",
+    "arri",
+    "lut",
+    "powergrade",
+    "rec709",
+    "calibration"
+  ],
+  "description": "Resolve Free/Studio kit with Apple Log calibration LUTs, a De-Phone PowerGrade, an ARRI-based output LUT and an input transform for non-Pro iPhone models. Download form requests contact details and promotional-email consent. Version, release date and desktop OS support are not established.",
+  "display_description": "Resolve Free/Studio kit with Apple Log calibration LUTs, a De-Phone PowerGrade, an ARRI-based output LUT and an input transform for non-Pro iPhone models. Download form requests contact details and promotional-email consent. Version, release date and desktop OS support are not established.",
+  "access": "🆓 Free download; email signup required",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://www.joo.works/iphone",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "required",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "ACES Lite iPhone Kit",
+    "url": "https://www.joo.works/iphone",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.joo.works/iphone",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-15"
+  },
+  "evidence": [
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://www.joo.works/iphone",
+      "checked_at": "2026-09-15",
+      "note": "Resolve Free/Studio kit with Apple Log calibration LUTs, a De-Phone PowerGrade, an ARRI-based output LUT and an input transform for non-Pro iPhone models. Download form requests contact details and promotional-email consent. Version, release date and desktop OS support are not established."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "374ed6d1881c"
+}

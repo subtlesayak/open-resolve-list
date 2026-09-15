@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "fedora-resolve",
+  "name": "fedora-resolve",
+  "creator": "yioannides",
+  "urls": {
+    "canonical": "https://github.com/yioannides/fedora-resolve",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Linux installation, compatibility, and troubleshooting",
+  "kind": "workflow-app",
+  "tasks": [
+    "linux"
+  ],
+  "tags": [
+    "fedora",
+    "installation",
+    "linux"
+  ],
+  "description": "Fedora installation scripts. The maintainer warns the method may already be obsolete.",
+  "display_description": "Fedora installation scripts. The maintainer warns the method may already be obsolete.",
+  "access": "Free; legacy warning",
+  "accessGroup": "free",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Fedora; legacy method may be obsolete.",
+  "display_platforms": "Linux",
+  "display_platform_notes": "Fedora; legacy method may be obsolete.",
+  "platform_source": "https://github.com/yioannides/fedora-resolve#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 26,
+  "last_pushed_at": "2026-08-08T05:46:40Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "yioannides/fedora-resolve",
+    "url": "https://github.com/yioannides/fedora-resolve",
+    "kind": "commit",
+    "version": "a7a990d72ca8695718c02a8cf1d2063e54c1ed5a",
+    "source": "https://github.com/yioannides/fedora-resolve/commit/a7a990d72ca8695718c02a8cf1d2063e54c1ed5a",
+    "date": "2026-08-08T05:46:40Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/yioannides/fedora-resolve#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/yioannides/fedora-resolve/commit/a7a990d72ca8695718c02a8cf1d2063e54c1ed5a",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "df4ccb422227"
+}

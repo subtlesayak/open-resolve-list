@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "resolve-media-organizer",
+  "name": "resolve-media-organizer",
+  "creator": "postflows",
+  "urls": {
+    "canonical": "https://github.com/postflows/resolve-media-organizer",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "bins",
+    "keywords",
+    "media organization",
+    "media pool"
+  ],
+  "description": "Organize Media Pool clips into bins by type and keyword, with optional empty-bin cleanup. Resolve Studio 20+.",
+  "display_description": "Organize Media Pool clips into bins by type and keyword, with optional empty-bin cleanup. Resolve Studio 20+.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/postflows/resolve-media-organizer#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 0,
+  "last_pushed_at": "2026-03-11T17:58:39Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "edition": "Studio",
+        "min": "20"
+      }
+    ],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "postflows/resolve-media-organizer",
+    "url": "https://github.com/postflows/resolve-media-organizer",
+    "kind": "commit",
+    "version": "2e5fa47669f6770e00e992127a8862a6341e10ab",
+    "source": "https://github.com/postflows/resolve-media-organizer/commit/2e5fa47669f6770e00e992127a8862a6341e10ab",
+    "date": "2026-03-11T17:58:39Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-media-organizer#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-media-organizer/commit/2e5fa47669f6770e00e992127a8862a6341e10ab",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    },
+    {
+      "field": "Resolve edition and version range",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-media-organizer#readme",
+      "checked_at": "2026-09-06",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Organize Media Pool clips into bins by type and keyword, with optional empty-bin cleanup. Resolve Studio 20+."
+    }
+  ],
+  "unknownFields": [
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "839752475df1"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "protune-transforms",
+  "name": "protune-transforms",
+  "creator": "xtremestuff",
+  "urls": {
+    "canonical": "https://github.com/xtremestuff/protune-transforms",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "camera transform",
+    "color management",
+    "gopro",
+    "gp log",
+    "protune"
+  ],
+  "description": "GoPro Protune and GP-Log transforms for managed color workflows.",
+  "display_description": "GoPro Protune and GP-Log transforms for managed color workflows.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "iPadOS"
+  ],
+  "platform_notes": "iPad workflow restrictions vary with Resolve version.",
+  "display_platforms": "Windows;macOS;Linux;iPadOS",
+  "display_platform_notes": "iPad workflow restrictions vary with Resolve version.",
+  "platform_source": "https://github.com/xtremestuff/protune-transforms#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 177,
+  "last_pushed_at": "2026-05-24T01:22:53Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "xtremestuff/protune-transforms",
+    "url": "https://github.com/xtremestuff/protune-transforms",
+    "kind": "stable-release",
+    "version": "4.0",
+    "source": "https://github.com/xtremestuff/protune-transforms/releases/tag/4.0",
+    "date": "2026-05-24T01:22:53Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/xtremestuff/protune-transforms#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/xtremestuff/protune-transforms/releases/tag/4.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "603339639e0f"
+}

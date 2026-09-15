@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "srt-to-textplus",
+  "name": "srt_to_textplus",
+  "creator": "atmosfar",
+  "urls": {
+    "canonical": "https://github.com/atmosfar/srt_to_textplus",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions",
+    "workflow"
+  ],
+  "tags": [
+    "animated text",
+    "fusion",
+    "srt",
+    "subtitles",
+    "text plus"
+  ],
+  "description": "Generate animated Fusion TextPlus titles from SRT subtitles. Legacy external Python 2.7 workflow.",
+  "display_description": "Generate animated Fusion TextPlus titles from SRT subtitles. Legacy external Python 2.7 workflow.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/atmosfar/srt_to_textplus#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 12,
+  "last_pushed_at": "2020-09-10T23:11:31Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "atmosfar/srt_to_textplus",
+    "url": "https://github.com/atmosfar/srt_to_textplus",
+    "kind": "commit",
+    "version": "2e3486423a2a6342dcb049a19908cc755ef4a27a",
+    "source": "https://github.com/atmosfar/srt_to_textplus/commit/2e3486423a2a6342dcb049a19908cc755ef4a27a",
+    "date": "2020-09-10T23:11:06Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/atmosfar/srt_to_textplus/commit/2e3486423a2a6342dcb049a19908cc755ef4a27a",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "711590c98424"
+}

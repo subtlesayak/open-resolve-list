@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "dvcp-vaapi",
+  "name": "dvcp-vaapi",
+  "creator": "nowrep",
+  "urls": {
+    "canonical": "https://github.com/nowrep/dvcp-vaapi",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+  "kind": "encoder",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "hardware encoding",
+    "vaapi",
+    "video encoding"
+  ],
+  "description": "VAAPI video encoder plugin. Check hardware, driver, and Resolve requirements.",
+  "display_description": "VAAPI video encoder plugin. Check hardware, driver, and Resolve requirements.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Linux",
+  "display_platforms": "Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/nowrep/dvcp-vaapi#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 40,
+  "last_pushed_at": "2025-05-18T08:57:44Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "nowrep/dvcp-vaapi",
+    "url": "https://github.com/nowrep/dvcp-vaapi",
+    "kind": "stable-release",
+    "version": "v0.3",
+    "source": "https://github.com/nowrep/dvcp-vaapi/releases/tag/v0.3",
+    "date": "2025-05-18T13:44:02Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/nowrep/dvcp-vaapi#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/nowrep/dvcp-vaapi/releases/tag/v0.3",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "7ed2b4005474"
+}

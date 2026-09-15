@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "dctl-tutorial",
+  "name": "dctl-tutorial",
+  "creator": "thatcherfreeman",
+  "urls": {
+    "canonical": "https://github.com/thatcherfreeman/dctl-tutorial",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": true,
+  "category": "Developer libraries and scripting references",
+  "kind": "dctl",
+  "tasks": [
+    "workflow",
+    "development",
+    "learning"
+  ],
+  "tags": [
+    "dctl",
+    "learning",
+    "programming",
+    "tutorial"
+  ],
+  "description": "DCTL programming tutorial notes and supporting code.",
+  "display_description": "DCTL programming tutorial notes and supporting code.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Reference",
+  "display_platforms": "Reference",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/thatcherfreeman/dctl-tutorial#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 30,
+  "last_pushed_at": "2025-08-04T21:19:58Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "thatcherfreeman/dctl-tutorial",
+    "url": "https://github.com/thatcherfreeman/dctl-tutorial",
+    "kind": "commit",
+    "version": "ea3aafa7bf9f83718dbe3bfcc152aabf2f367b21",
+    "source": "https://github.com/thatcherfreeman/dctl-tutorial/commit/ea3aafa7bf9f83718dbe3bfcc152aabf2f367b21",
+    "date": "2025-08-04T21:19:57Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/thatcherfreeman/dctl-tutorial/commit/ea3aafa7bf9f83718dbe3bfcc152aabf2f367b21",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "f97892819e9c"
+}

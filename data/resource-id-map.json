@@ -1,0 +1,3604 @@
+{
+  "schema_version": 1,
+  "policy": "Permanent IDs are stable; URLs are aliases and never identity.",
+  "entries": {
+    "https://github.com/thatcherfreeman/utility-dctls": {
+      "id": "utility-dctls",
+      "legacy_id": "bf02e048a224",
+      "name": "utility-dctls",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/baldavenger/DCTLs": {
+      "id": "dctls",
+      "legacy_id": "cbb24d9968fb",
+      "name": "DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/baldavenger/ACES_DCTL": {
+      "id": "aces-dctl",
+      "legacy_id": "462700f2cda8",
+      "name": "ACES_DCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Demystify-Color/DCTLs": {
+      "id": "dctls-2",
+      "legacy_id": "95bc5b079260",
+      "name": "DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/xtremestuff/resolve-dctl": {
+      "id": "resolve-dctl",
+      "legacy_id": "628257c78e0d",
+      "name": "resolve-dctl",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/xtremestuff/protune-transforms": {
+      "id": "protune-transforms",
+      "legacy_id": "603339639e0f",
+      "name": "protune-transforms",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/xtremestuff/resolve-aces": {
+      "id": "resolve-aces",
+      "legacy_id": "ce6568f5c467",
+      "name": "resolve-aces",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/MoazElgabry/DCTLs": {
+      "id": "dctls-3",
+      "legacy_id": "69010ace2a1b",
+      "name": "DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/hotgluebanjo/TetraInterp-DCTL": {
+      "id": "tetrainterp-dctl",
+      "legacy_id": "acce4c78f6b2",
+      "name": "TetraInterp-DCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/npeason/Tetra-DCTLOFX": {
+      "id": "tetra-dctlofx",
+      "legacy_id": "3d153ec77c79",
+      "name": "Tetra-DCTLOFX",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/sobotka/AgX-Resolve": {
+      "id": "agx-resolve",
+      "legacy_id": "e3496e933521",
+      "name": "AgX-Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/jedypod/open-display-transform": {
+      "id": "open-display-transform",
+      "legacy_id": "c9e7d6287b20",
+      "name": "open-display-transform",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/jedypod/gamut-compress": {
+      "id": "gamut-compress",
+      "legacy_id": "04f926bb281e",
+      "name": "gamut-compress",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/mikaelsundell/photographic-dctls": {
+      "id": "photographic-dctls",
+      "legacy_id": "52cc397c18ad",
+      "name": "photographic-dctls",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Wavechaser/NamiColor": {
+      "id": "namicolor",
+      "legacy_id": "622189c37f60",
+      "name": "NamiColor",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/fabiocolor/Faded-Balancer-DCTL": {
+      "id": "faded-balancer-dctl",
+      "legacy_id": "87a1b6e11e77",
+      "name": "Faded-Balancer-DCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/caryknoop/DCTL": {
+      "id": "dctl",
+      "legacy_id": "8389e006054d",
+      "name": "DCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/jai-panjwani/DCTLS": {
+      "id": "dctls-4",
+      "legacy_id": "e03c2dbbdd6d",
+      "name": "DCTLS",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Senthil360/RenderHub-DCTLs": {
+      "id": "renderhub-dctls",
+      "legacy_id": "e232f73c61d4",
+      "name": "RenderHub-DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/thatcherfreeman/aces-transforms": {
+      "id": "aces-transforms",
+      "legacy_id": "f7b4d0ec294f",
+      "name": "aces-transforms",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/exones/davinci": {
+      "id": "davinci",
+      "legacy_id": "60c037bc7e5c",
+      "name": "davinci",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Georj01/davinci-dctl": {
+      "id": "davinci-dctl",
+      "legacy_id": "7d33bf7fafaa",
+      "name": "davinci-dctl",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/kubabar/DCTLs": {
+      "id": "dctls-5",
+      "legacy_id": "d185c4ff7f03",
+      "name": "DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/olduvai-jp/DCTL-MLAA": {
+      "id": "dctl-mlaa",
+      "legacy_id": "62aae0f2bdd9",
+      "name": "DCTL-MLAA",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio": {
+      "id": "uffy-photochemical-look-process-for-davinci-resolve-studio",
+      "legacy_id": "57dab3836918",
+      "name": "Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/lakravana/Martis-Bleach-Bypass": {
+      "id": "martis-bleach-bypass",
+      "legacy_id": "f366d66b0e0c",
+      "name": "Martis-Bleach-Bypass",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/shenmintao/V-Log-Alchemy": {
+      "id": "v-log-alchemy",
+      "legacy_id": "292b9099278b",
+      "name": "V-Log-Alchemy",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Kartaverse/Reactor-Standalone": {
+      "id": "reactor-standalone",
+      "legacy_id": "b6ddd8ad09ed",
+      "name": "Reactor-Standalone",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Kartaverse/VonkUltra": {
+      "id": "vonkultra",
+      "legacy_id": "74f2b71c12d1",
+      "name": "VonkUltra",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Kartaverse/Kartaverse-Docs": {
+      "id": "kartaverse-docs",
+      "legacy_id": "e022b5b3ae93",
+      "name": "Kartaverse-Docs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/nmbr73/Shaderfuse": {
+      "id": "shaderfuse",
+      "legacy_id": "9a7856a8df0a",
+      "name": "Shaderfuse",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/J-i-P-i/Shadertoys": {
+      "id": "shadertoys",
+      "legacy_id": "785f55f6e831",
+      "name": "Shadertoys",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/baldavenger/BaldavengerPlugins": {
+      "id": "baldavengerplugins",
+      "legacy_id": "ba1ba08443f9",
+      "name": "BaldavengerPlugins",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ntsc-rs/ntsc-rs": {
+      "id": "ntsc-rs",
+      "legacy_id": "8bfed5b76ed6",
+      "name": "ntsc-rs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/gyroflow/gyroflow-plugins": {
+      "id": "gyroflow-plugins",
+      "legacy_id": "0ce647a6e093",
+      "name": "gyroflow-plugins",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime": {
+      "id": "corridorkey-runtime",
+      "legacy_id": "ccfef07534f6",
+      "name": "CorridorKey-Runtime",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Akascape/Rembg-Fuse": {
+      "id": "rembg-fuse",
+      "legacy_id": "c40af9ff9273",
+      "name": "Rembg-Fuse",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Akascape/Super-Style-Transfer-Fuse": {
+      "id": "super-style-transfer-fuse",
+      "legacy_id": "6526579729c6",
+      "name": "Super-Style-Transfer-Fuse",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Akascape/RemObj-Fuse": {
+      "id": "remobj-fuse",
+      "legacy_id": "e167862d17a6",
+      "name": "RemObj-Fuse",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/brunocbreis/FuAlign": {
+      "id": "fualign",
+      "legacy_id": "3f860771e17e",
+      "name": "FuAlign",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/EmberLightVFX/Tetrahedral-Interpolation-for-Fusion": {
+      "id": "tetrahedral-interpolation-for-fusion",
+      "legacy_id": "e12c9f4d1985",
+      "name": "Tetrahedral-Interpolation-for-Fusion",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/AntonChernov86/Fuses": {
+      "id": "fuses",
+      "legacy_id": "b91a7ede7163",
+      "name": "Fuses",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ChrisRidings/GifSaverFuse": {
+      "id": "gifsaverfuse",
+      "legacy_id": "715c62da1bb7",
+      "name": "GifSaverFuse",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/rne1223/DaFusion": {
+      "id": "dafusion",
+      "legacy_id": "74324d08f40b",
+      "name": "DaFusion",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Mr-Robby/chat-generator-fuse": {
+      "id": "chat-generator-fuse",
+      "legacy_id": "128ad0032fc2",
+      "name": "chat-generator-fuse",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve": {
+      "id": "midi-based-animation-iterator-for-davinci-resolve",
+      "legacy_id": "db3a69ec3efb",
+      "name": "Midi-based-Animation-Iterator-For-DaVinci-Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions": {
+      "id": "davinci-resolve-fusion-expressions",
+      "legacy_id": "d9ceab3d26d6",
+      "name": "davinci-resolve-fusion-expressions",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/EmberLightVFX/Gyroflow-to-CSV": {
+      "id": "gyroflow-to-csv",
+      "legacy_id": "fd65b9bf8c21",
+      "name": "Gyroflow-to-CSV",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/raghavdhin/CapitalEase": {
+      "id": "capitalease",
+      "legacy_id": "a76af850ca46",
+      "name": "CapitalEase",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/tmoroney/auto-subs": {
+      "id": "auto-subs",
+      "legacy_id": "6e7b9633e870",
+      "name": "auto-subs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/octimot/StoryToolkitAI": {
+      "id": "storytoolkitai",
+      "legacy_id": "1259e2721836",
+      "name": "StoryToolkitAI",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/david-ca6/Resolve-OpenCaptions": {
+      "id": "resolve-opencaptions",
+      "legacy_id": "3a155e70609c",
+      "name": "Resolve-OpenCaptions",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/cutbypham/snap-captions": {
+      "id": "snap-captions",
+      "legacy_id": "2fdd98b9596b",
+      "name": "snap-captions",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/veritus-git/BadWords": {
+      "id": "badwords",
+      "legacy_id": "86069ddd4264",
+      "name": "BadWords",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/oliwoli/HushCut": {
+      "id": "hushcut",
+      "legacy_id": "ddffc0596b1f",
+      "name": "HushCut",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/YourAverageMo/auto-silence-cut": {
+      "id": "auto-silence-cut",
+      "legacy_id": "9f90e5fc6d3b",
+      "name": "auto-silence-cut",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/2445868686/DaVinci-Resolve-TTS": {
+      "id": "davinci-resolve-tts",
+      "legacy_id": "3824dd60d9d1",
+      "name": "DaVinci-Resolve-TTS",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/2445868686/DaVinci-Resolve-Whisper": {
+      "id": "davinci-resolve-whisper",
+      "legacy_id": "324244c56faa",
+      "name": "DaVinci-Resolve-Whisper",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Nusscookie/clautter": {
+      "id": "clautter",
+      "legacy_id": "7094e7183422",
+      "name": "clautter",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ikm-san/autotitles-community": {
+      "id": "autotitles-community",
+      "legacy_id": "88e55fbc89ed",
+      "name": "autotitles-community",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/WyattBlue/auto-editor": {
+      "id": "auto-editor",
+      "legacy_id": "6596d4caae50",
+      "name": "auto-editor",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer": {
+      "id": "resolve-textplus-srt-importer",
+      "legacy_id": "6975078a38f0",
+      "name": "resolve-textplus-srt-importer",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/samuelgursky/davinci-resolve-mcp": {
+      "id": "davinci-resolve-mcp",
+      "legacy_id": "72499ec56c00",
+      "name": "davinci-resolve-mcp",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/barckley75/resolve-claude-mcp": {
+      "id": "resolve-claude-mcp",
+      "legacy_id": "8bd83ea0a459",
+      "name": "resolve-claude-mcp",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/apvlv/davinci-resolve-mcp": {
+      "id": "davinci-resolve-mcp-2",
+      "legacy_id": "edb6b26ecfcb",
+      "name": "davinci-resolve-mcp",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/hoyt-harness/davinci-mcp-professional": {
+      "id": "davinci-mcp-professional",
+      "legacy_id": "8120dd26f26e",
+      "name": "davinci-mcp-professional",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/barckley75/comfyUI_DaVinciResolve": {
+      "id": "comfyui-davinciresolve",
+      "legacy_id": "8953cc24c3dd",
+      "name": "comfyUI_DaVinciResolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/CelaviiHQ/cutmaster-ai": {
+      "id": "cutmaster-ai",
+      "legacy_id": "8e89fa0ef998",
+      "name": "cutmaster-ai",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/thatcherfreeman/resolve-scripts": {
+      "id": "resolve-scripts",
+      "legacy_id": "c53c8c5a7d7c",
+      "name": "resolve-scripts",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/X-Raym/DaVinci-Resolve-Scripts": {
+      "id": "davinci-resolve-scripts",
+      "legacy_id": "fe6666cb07c3",
+      "name": "DaVinci-Resolve-Scripts",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/jjsawdon/DaVinci-Resolve-Utilities": {
+      "id": "davinci-resolve-utilities",
+      "legacy_id": "e0568bbf14b0",
+      "name": "DaVinci-Resolve-Utilities",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/fukco/DaVinciResolveScript": {
+      "id": "davinciresolvescript",
+      "legacy_id": "9f94831db54d",
+      "name": "DaVinciResolveScript",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/VilleOlof/Toolbox": {
+      "id": "toolbox",
+      "legacy_id": "c5fe1f17b91f",
+      "name": "Toolbox",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/jdanna/Resolve_Tools_Public": {
+      "id": "resolve-tools-public",
+      "legacy_id": "a34007c84794",
+      "name": "Resolve_Tools_Public",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve": {
+      "id": "aftereffects-to-davinci-resolve",
+      "legacy_id": "4b57c25047de",
+      "name": "AfterEffects_to_DaVinci_Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText": {
+      "id": "davinciresolve-dynamictext",
+      "legacy_id": "1c35bf9422bf",
+      "name": "DaVinciResolve-DynamicText",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/FranzWegner/multicam-logger": {
+      "id": "multicam-logger",
+      "legacy_id": "e36a4698c4f7",
+      "name": "multicam-logger",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/eric-with-a-c/resolve-otio": {
+      "id": "resolve-otio",
+      "legacy_id": "b9258ae41b60",
+      "name": "resolve-otio",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/tin2tin/VSE_OTIO_Export": {
+      "id": "vse-otio-export",
+      "legacy_id": "e11baf66cb5e",
+      "name": "VSE_OTIO_Export",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/MansiVisuals/Font-Scanner-and-Installer-for-DaVinci-Resolve": {
+      "id": "font-scanner-and-installer-for-davinci-resolve",
+      "legacy_id": "486889efd2e8",
+      "name": "Font-Scanner-and-Installer-for-DaVinci-Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/LucasHT22/davinci-resolve-wakatime": {
+      "id": "davinci-resolve-wakatime",
+      "legacy_id": "8e21feb3fdd1",
+      "name": "davinci-resolve-wakatime",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin": {
+      "id": "ffmpeg-encoder-plugin",
+      "legacy_id": "0115fbab0926",
+      "name": "ffmpeg_encoder_plugin",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Toxblh/davinci-linux-aac-codec": {
+      "id": "davinci-linux-aac-codec",
+      "legacy_id": "bb2624c8242c",
+      "name": "davinci-linux-aac-codec",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin": {
+      "id": "resolve-linux-studio-aac-fdk-encoder-plugin",
+      "legacy_id": "5a8c9583887f",
+      "name": "Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/nowrep/dvcp-vaapi": {
+      "id": "dvcp-vaapi",
+      "legacy_id": "7ed2b4005474",
+      "name": "dvcp-vaapi",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/in03/proxima": {
+      "id": "proxima",
+      "legacy_id": "040dec651908",
+      "name": "proxima",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Puppetworks-Animation-Studio/deadline-davinci-resolve": {
+      "id": "deadline-davinci-resolve",
+      "legacy_id": "aa8e4d2a8476",
+      "name": "deadline-davinci-resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server": {
+      "id": "docker-davinci-resolve-project-server",
+      "legacy_id": "321dd9c108df",
+      "name": "Docker-Davinci-Resolve-Project-Server",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools": {
+      "id": "davinci-resolve-postgresql-workflow-tools",
+      "legacy_id": "596677fc41aa",
+      "name": "davinci-resolve-postgresql-workflow-tools",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/jonnyhyman/ResolveCollaboration": {
+      "id": "resolvecollaboration",
+      "legacy_id": "fb0bb6ccf3cb",
+      "name": "ResolveCollaboration",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/zelikos/davincibox": {
+      "id": "davincibox",
+      "legacy_id": "18fb0d66cdc6",
+      "name": "davincibox",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/fat-tire/resolve": {
+      "id": "resolve",
+      "legacy_id": "70088ff6068d",
+      "name": "resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/H3rz3n/davinci-helper": {
+      "id": "davinci-helper",
+      "legacy_id": "f3295ffc839b",
+      "name": "davinci-helper",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/flolu/davinci-resolve-linux": {
+      "id": "davinci-resolve-linux",
+      "legacy_id": "a875d6afa2db",
+      "name": "davinci-resolve-linux",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Ashark/davinci-resolve-checker": {
+      "id": "davinci-resolve-checker",
+      "legacy_id": "647e659471d0",
+      "name": "davinci-resolve-checker",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/psygreg/autoresolvedeb": {
+      "id": "autoresolvedeb",
+      "legacy_id": "e504b55bff83",
+      "name": "autoresolvedeb",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/yioannides/fedora-resolve": {
+      "id": "fedora-resolve",
+      "legacy_id": "df4ccb422227",
+      "name": "fedora-resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Chillsmeit/resolve-tumbleweed": {
+      "id": "resolve-tumbleweed",
+      "legacy_id": "3a2806998636",
+      "name": "resolve-tumbleweed",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/pedrolabonia/pydavinci": {
+      "id": "pydavinci",
+      "legacy_id": "8432a072ff13",
+      "name": "pydavinci",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/WheheoHu/pybmd": {
+      "id": "pybmd",
+      "legacy_id": "cccc8f2f508a",
+      "name": "pybmd",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/diop/davinci-resolve-api": {
+      "id": "davinci-resolve-api",
+      "legacy_id": "edb920e9b3cf",
+      "name": "davinci-resolve-api",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/MokshC/easyDCTL": {
+      "id": "easydctl",
+      "legacy_id": "8e6a6b6c1294",
+      "name": "easyDCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/AndrewHazelden/Fusion-Studio-FuScript-IDE-Tools-and-Pipeline-Scripts": {
+      "id": "fusion-studio-fuscript-ide-tools-and-pipeline-scripts",
+      "legacy_id": "340686ba7b26",
+      "name": "Fusion-Studio-FuScript-IDE-Tools-and-Pipeline-Scripts",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer": {
+      "id": "unbound-editor-device-customizer",
+      "legacy_id": "d0d514851947",
+      "name": "Unbound-editor-device-customizer",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter": {
+      "id": "xtouchmini-davinci-resolve-midi-adapter",
+      "legacy_id": "a68c579f7767",
+      "name": "XTouchMini-Davinci-Resolve-Midi-Adapter",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/RudyB24/AutoHotKey_Bome_MIDI_2_Key": {
+      "id": "autohotkey-bome-midi-2-key",
+      "legacy_id": "a79475054a86",
+      "name": "AutoHotKey_Bome_MIDI_2_Key",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/shaise/DiSE": {
+      "id": "dise",
+      "legacy_id": "f42cf386732c",
+      "name": "DiSE",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/KipJM/blackmacro-hardware": {
+      "id": "blackmacro-hardware",
+      "legacy_id": "39ace338b5b7",
+      "name": "blackmacro-hardware",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/derwok/SpeedEditorCheatSheet": {
+      "id": "speededitorcheatsheet",
+      "legacy_id": "0c1a0fbd0aff",
+      "name": "SpeedEditorCheatSheet",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Greenysmac/awesome-davinci-resolve": {
+      "id": "awesome-davinci-resolve",
+      "legacy_id": "123ca1aff8fe",
+      "name": "awesome-davinci-resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/cutbypham/awesome-davinci-resolve": {
+      "id": "awesome-davinci-resolve-2",
+      "legacy_id": "5bbe221ac41d",
+      "name": "awesome-davinci-resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Akascape/PluginLibrary-Resolve": {
+      "id": "pluginlibrary-resolve",
+      "legacy_id": "be99c3361f7a",
+      "name": "PluginLibrary-Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/hassaancode/Fx-Library": {
+      "id": "fx-library",
+      "legacy_id": "c03002e0e3e4",
+      "name": "Fx-Library",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/CommandPost/ResolveCafe": {
+      "id": "resolvecafe",
+      "legacy_id": "0b82d7446bbf",
+      "name": "ResolveCafe",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/vulture-s/arkiv": {
+      "id": "arkiv",
+      "legacy_id": "baba99ad1ef5",
+      "name": "arkiv",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/abhirup780/fast-autocut": {
+      "id": "fast-autocut",
+      "legacy_id": "3bd988470f1a",
+      "name": "fast-autocut",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Creative-Crafter/davinci-shortform-overlays": {
+      "id": "davinci-shortform-overlays",
+      "legacy_id": "91a58d3121a4",
+      "name": "davinci-shortform-overlays",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/JaySNL/VSTForResolveLinux": {
+      "id": "vstforresolvelinux",
+      "legacy_id": "2c8805743c1a",
+      "name": "VSTForResolveLinux",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/roukou3/DCTL": {
+      "id": "dctl-2",
+      "legacy_id": "1a7e2cc17922",
+      "name": "DCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Xaryen/DCTLs": {
+      "id": "dctls-6",
+      "legacy_id": "1cb724a41eb2",
+      "name": "DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/mitkunz/resolve_DCTLs": {
+      "id": "resolve-dctls",
+      "legacy_id": "e99799757c8b",
+      "name": "resolve_DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/xavijulez/Tetrahedral-Interpolation-DCTL": {
+      "id": "tetrahedral-interpolation-dctl",
+      "legacy_id": "03a2c6900aed",
+      "name": "Tetrahedral-Interpolation-DCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/hotgluebanjo/halation-dctl": {
+      "id": "halation-dctl",
+      "legacy_id": "9068eaf10ed9",
+      "name": "halation-dctl",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/EaryChow/Blender-AgX-Resolve": {
+      "id": "blender-agx-resolve",
+      "legacy_id": "93e59ecae7f3",
+      "name": "Blender-AgX-Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/thatcherfreeman/dwg-transforms": {
+      "id": "dwg-transforms",
+      "legacy_id": "b716ffc5915f",
+      "name": "dwg-transforms",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/DMiradakis/resolver": {
+      "id": "resolver",
+      "legacy_id": "6729fb9b6651",
+      "name": "resolver",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/adrian-goe/resolve-immich-export": {
+      "id": "resolve-immich-export",
+      "legacy_id": "8f366c90a47f",
+      "name": "resolve-immich-export",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Googleholic/Media_Relinker_for_Davinci_Resolve": {
+      "id": "media-relinker-for-davinci-resolve",
+      "legacy_id": "fd05b65e355c",
+      "name": "Media_Relinker_for_Davinci_Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Pinionist/Resolve-Conform-tools": {
+      "id": "resolve-conform-tools",
+      "legacy_id": "ebc5d77859ef",
+      "name": "Resolve-Conform-tools",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/nikita-petrovich/OFX-QRCoder": {
+      "id": "ofx-qrcoder",
+      "legacy_id": "8448834c5d4a",
+      "name": "OFX-QRCoder",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/JuanPabloZambrano/DCTL": {
+      "id": "dctl-3",
+      "legacy_id": "4e23f228f2b6",
+      "name": "DCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/KaurHendrikson/DaVinci-Resolve-DCTLs": {
+      "id": "davinci-resolve-dctls",
+      "legacy_id": "d6d53c30071f",
+      "name": "DaVinci-Resolve-DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/geoffsmithBK/primera-suite": {
+      "id": "primera-suite",
+      "legacy_id": "be45368591e5",
+      "name": "primera-suite",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/LCS-VSP/LCS-DCTLs": {
+      "id": "lcs-dctls",
+      "legacy_id": "b9e3276862dc",
+      "name": "LCS-DCTLs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/bobtronic73/free-DCTL": {
+      "id": "free-dctl",
+      "legacy_id": "78297d9fabe4",
+      "name": "free-DCTL",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ra100/dctl-utils": {
+      "id": "dctl-utils",
+      "legacy_id": "bd38200361ed",
+      "name": "dctl-utils",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/OwenYou/DavinciResolveDCTL_HKEstimation": {
+      "id": "davinciresolvedctl-hkestimation",
+      "legacy_id": "990347bf92ff",
+      "name": "DavinciResolveDCTL_HKEstimation",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/OwenYou/DavinciResolveDCTL_RemoveColorMask": {
+      "id": "davinciresolvedctl-removecolormask",
+      "legacy_id": "51dc3385d192",
+      "name": "DavinciResolveDCTL_RemoveColorMask",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/OwenYou/DavinciResolveDCTL_ChromaticAdaptation": {
+      "id": "davinciresolvedctl-chromaticadaptation",
+      "legacy_id": "0ec26c223676",
+      "name": "DavinciResolveDCTL_ChromaticAdaptation",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/helios1138/filmeon": {
+      "id": "filmeon",
+      "legacy_id": "a45960f4e180",
+      "name": "filmeon",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/50asa/shitsukan-diffusion-kit": {
+      "id": "shitsukan-diffusion-kit",
+      "legacy_id": "3cac088dd4d2",
+      "name": "shitsukan-diffusion-kit",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/nikita-petrovich/np-public-dctl": {
+      "id": "np-public-dctl",
+      "legacy_id": "6dde77bb170e",
+      "name": "np-public-dctl",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ctcwired/dctl-matrix-maker": {
+      "id": "dctl-matrix-maker",
+      "legacy_id": "598ed2196fec",
+      "name": "dctl-matrix-maker",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/thatcherfreeman/dctl-tutorial": {
+      "id": "dctl-tutorial",
+      "legacy_id": "f97892819e9c",
+      "name": "dctl-tutorial",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/thatcherfreeman/dctl-text-rendering": {
+      "id": "dctl-text-rendering",
+      "legacy_id": "330dcb1fdf98",
+      "name": "dctl-text-rendering",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Kartopod/BMD-FusionExtras": {
+      "id": "bmd-fusionextras",
+      "legacy_id": "d7017aa6dee6",
+      "name": "BMD-FusionExtras",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/brunocbreis/SplitScreener": {
+      "id": "splitscreener",
+      "legacy_id": "111a7d56b730",
+      "name": "SplitScreener",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/brunocbreis/SS-CompScript": {
+      "id": "ss-compscript",
+      "legacy_id": "ade2d4a0227c",
+      "name": "SS-CompScript",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/brunocbreis/pysion": {
+      "id": "pysion",
+      "legacy_id": "c09c00b338de",
+      "name": "pysion",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Spicy-Acorn/fusiontext": {
+      "id": "fusiontext",
+      "legacy_id": "4bba334c7832",
+      "name": "fusiontext",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Spicy-Acorn/fusionjson": {
+      "id": "fusionjson",
+      "legacy_id": "88a6f2074656",
+      "name": "fusionjson",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Spicy-Acorn/fusionmatrix": {
+      "id": "fusionmatrix",
+      "legacy_id": "e7d759d49ccb",
+      "name": "fusionmatrix",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Spicy-Acorn/fusionnumber": {
+      "id": "fusionnumber",
+      "legacy_id": "364c75195964",
+      "name": "fusionnumber",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Spicy-Acorn/fusionvector": {
+      "id": "fusionvector",
+      "legacy_id": "30f8abe9a61d",
+      "name": "fusionvector",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/andrewbry/DasGrainFusion": {
+      "id": "dasgrainfusion",
+      "legacy_id": "dfb2ad333c02",
+      "name": "DasGrainFusion",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/bryab/fusion-for-cartoons": {
+      "id": "fusion-for-cartoons",
+      "legacy_id": "58880a6e6b94",
+      "name": "fusion-for-cartoons",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/fabiof17/Fusion-tools": {
+      "id": "fusion-tools",
+      "legacy_id": "5f544b79b0b9",
+      "name": "Fusion-tools",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/hiroshisaito/HS_fusionTools": {
+      "id": "hs-fusiontools",
+      "legacy_id": "eddb7f1be36e",
+      "name": "HS_fusionTools",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Microck/boilify": {
+      "id": "boilify",
+      "legacy_id": "3bf1b7b0d306",
+      "name": "boilify",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/purzbeats/purzos-ofx": {
+      "id": "purzos-ofx",
+      "legacy_id": "e55e1cf01bd7",
+      "name": "purzos-ofx",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/MoazElgabry/ME_OpenDRT-OFX": {
+      "id": "me-opendrt-ofx",
+      "legacy_id": "ed7501dd912f",
+      "name": "ME_OpenDRT-OFX",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Demystify-Color/DMC-BaldavengerOFX-MacOSarm64": {
+      "id": "dmc-baldavengerofx-macosarm64",
+      "legacy_id": "e92fac0d1d95",
+      "name": "DMC-BaldavengerOFX-MacOSarm64",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ciqueira/ColorEqualizer": {
+      "id": "colorequalizer",
+      "legacy_id": "c4e7da53aef1",
+      "name": "ColorEqualizer",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/murtazatunio/lenscorrect-ofx": {
+      "id": "lenscorrect-ofx",
+      "legacy_id": "27f2d7890f98",
+      "name": "lenscorrect-ofx",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/LudwigKienle/buckswood-post-plugins": {
+      "id": "buckswood-post-plugins",
+      "legacy_id": "10e8f54028cd",
+      "name": "buckswood-post-plugins",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/lightsailvr/ResolveOFX_NDIOutput": {
+      "id": "resolveofx-ndioutput",
+      "legacy_id": "9aec3f3d530f",
+      "name": "ResolveOFX_NDIOutput",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/oliwiergesla/editorscripts": {
+      "id": "editorscripts",
+      "legacy_id": "bd9cbabb5da3",
+      "name": "editorscripts",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/tonyflo/videoflo": {
+      "id": "videoflo",
+      "legacy_id": "6a2c348a4ca3",
+      "name": "videoflo",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/deric/DaVinciResolve-metadata": {
+      "id": "davinciresolve-metadata",
+      "legacy_id": "3feb0f320848",
+      "name": "DaVinciResolve-metadata",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Poechant/davinci-resolve-cli": {
+      "id": "davinci-resolve-cli",
+      "legacy_id": "8eef3608beb4",
+      "name": "davinci-resolve-cli",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ambustion/Useful.Resolve": {
+      "id": "useful-resolve",
+      "legacy_id": "d037d4716074",
+      "name": "Useful.Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ambustion/CDL2Resolve": {
+      "id": "cdl2resolve",
+      "legacy_id": "8a02598bcaf3",
+      "name": "CDL2Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ambustion/BSafe_Resolve": {
+      "id": "bsafe-resolve",
+      "legacy_id": "ef1cbeb637e9",
+      "name": "BSafe_Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/in03/snapper": {
+      "id": "snapper",
+      "legacy_id": "ed27ba493476",
+      "name": "snapper",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility": {
+      "id": "davinci-resolve-timeline-utility",
+      "legacy_id": "a8d1c4c811d9",
+      "name": "DaVinci-Resolve-Timeline-Utility",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/bryanrandell/DaVinci-Resolve-LUT-Explorer": {
+      "id": "davinci-resolve-lut-explorer",
+      "legacy_id": "3b30cdad7a30",
+      "name": "DaVinci-Resolve-LUT-Explorer",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve": {
+      "id": "auto-rename-for-davinci-resolve",
+      "legacy_id": "1ee20711e114",
+      "name": "Auto-Rename-for-DaVinci-Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/neezr/Anchor-Point-Corners-for-DaVinci-Resolve": {
+      "id": "anchor-point-corners-for-davinci-resolve",
+      "legacy_id": "6590853367ac",
+      "name": "Anchor-Point-Corners-for-DaVinci-Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/horshack-dpreview/RefreshResolveMedia": {
+      "id": "refreshresolvemedia",
+      "legacy_id": "d435323a1bda",
+      "name": "RefreshResolveMedia",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/austinwitherspoon/resolve-bulk-exporter": {
+      "id": "resolve-bulk-exporter",
+      "legacy_id": "4d1aafec939a",
+      "name": "resolve-bulk-exporter",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/IgorRidanovic/DaVinciResolve-ClipLister": {
+      "id": "davinciresolve-cliplister",
+      "legacy_id": "487203fc7816",
+      "name": "DaVinciResolve-ClipLister",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects": {
+      "id": "davinciresolve-exportprojects",
+      "legacy_id": "6d5e6bd5dd6f",
+      "name": "DaVinciResolve-ExportProjects",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/IgorRidanovic/ChangeClipTimecode": {
+      "id": "changecliptimecode",
+      "legacy_id": "4ef43606f480",
+      "name": "ChangeClipTimecode",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ChristyKail/resolve_auto_import": {
+      "id": "resolve-auto-import",
+      "legacy_id": "71a757321677",
+      "name": "resolve_auto_import",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/heyJordanParker/resolve-advanced-importer": {
+      "id": "resolve-advanced-importer",
+      "legacy_id": "b81634709893",
+      "name": "resolve-advanced-importer",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ynput/ayon-resolve": {
+      "id": "ayon-resolve",
+      "legacy_id": "32c4f04820f2",
+      "name": "ayon-resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci": {
+      "id": "gpx-visualization-davinci",
+      "legacy_id": "0fdd1c9a7677",
+      "name": "GPX-Visualization-Davinci",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/silverqsy/cine-immersive-stabilizer": {
+      "id": "cine-immersive-stabilizer",
+      "legacy_id": "d4aefaa31e23",
+      "name": "cine-immersive-stabilizer",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/in03/patchwork": {
+      "id": "patchwork",
+      "legacy_id": "799debd34092",
+      "name": "patchwork",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/walter-arrighetti/ResolveDB_backup": {
+      "id": "resolvedb-backup",
+      "legacy_id": "cbb24bc0ac24",
+      "name": "ResolveDB_backup",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/IgorRidanovic/Resolve-backup-Postgres": {
+      "id": "resolve-backup-postgres",
+      "legacy_id": "969ef20562be",
+      "name": "Resolve-backup-Postgres",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/veryqiang/footbrake": {
+      "id": "footbrake",
+      "legacy_id": "daa923732b6f",
+      "name": "footbrake",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/fedsfarm/drwrap": {
+      "id": "drwrap",
+      "legacy_id": "9bc2d73803d4",
+      "name": "drwrap",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/gohny/davinconv": {
+      "id": "davinconv",
+      "legacy_id": "6567a5177a32",
+      "name": "davinconv",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ctsrc/ffmpeg-extract-clips-davinci-resolve-edl": {
+      "id": "ffmpeg-extract-clips-davinci-resolve-edl",
+      "legacy_id": "af85aca430c9",
+      "name": "ffmpeg-extract-clips-davinci-resolve-edl",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/in03/squawk": {
+      "id": "squawk",
+      "legacy_id": "9ac26c1b5c85",
+      "name": "squawk",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/randyrektor/DaVinci-Gate": {
+      "id": "davinci-gate",
+      "legacy_id": "3de8a9427f07",
+      "name": "DaVinci-Gate",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/atmosfar/srt_to_textplus": {
+      "id": "srt-to-textplus",
+      "legacy_id": "711590c98424",
+      "name": "srt_to_textplus",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/czukowski/fusionscript-stubs": {
+      "id": "fusionscript-stubs",
+      "legacy_id": "d1ce910964bf",
+      "name": "fusionscript-stubs",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/FusionPixelStudio/Davinci-Resolve-Functions-Toolkit": {
+      "id": "davinci-resolve-functions-toolkit",
+      "legacy_id": "17f6b53debcf",
+      "name": "Davinci-Resolve-Functions-Toolkit",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/gingray/openfx-template": {
+      "id": "openfx-template",
+      "legacy_id": "0b1ceb997b18",
+      "name": "openfx-template",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/KipJM/blackmacro-lib": {
+      "id": "blackmacro-lib",
+      "legacy_id": "2ef71955e417",
+      "name": "blackmacro-lib",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/JamesBalazs/speed-editor-client": {
+      "id": "speed-editor-client",
+      "legacy_id": "ea2bba998d42",
+      "name": "speed-editor-client",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ra100/micro-color-panel-controller": {
+      "id": "micro-color-panel-controller",
+      "legacy_id": "64667e27f300",
+      "name": "micro-color-panel-controller",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/OlliV/resolve-hui-tc-updater": {
+      "id": "resolve-hui-tc-updater",
+      "legacy_id": "6616841c6d34",
+      "name": "resolve-hui-tc-updater",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/FoxDanger/Control-Booster-OpenSourceCode": {
+      "id": "control-booster-opensourcecode",
+      "legacy_id": "a00354ff1f5c",
+      "name": "Control-Booster-OpenSourceCode",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/WDegan/metafootage-davinci-resolve": {
+      "id": "metafootage-davinci-resolve",
+      "legacy_id": "29464132f937",
+      "name": "metafootage-davinci-resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/wassermanproductions/unofficial-davinci-mcp": {
+      "id": "unofficial-davinci-mcp",
+      "legacy_id": "65bd79b1efe6",
+      "name": "unofficial-davinci-mcp",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Lo1s-pgn/Simple-LUT-Generator": {
+      "id": "simple-lut-generator",
+      "legacy_id": "b74256dd534b",
+      "name": "Simple-LUT-Generator",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Dec18studios/Dec18-Plugin-Manager": {
+      "id": "dec18-plugin-manager",
+      "legacy_id": "01bb78253b2d",
+      "name": "Dec18-Plugin-Manager",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/acrilique/automarker-clay": {
+      "id": "automarker-clay",
+      "legacy_id": "2bd84d1ebeb5",
+      "name": "automarker-clay",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve": {
+      "id": "marker-madness-suite-for-davinci-resolve",
+      "legacy_id": "4842ce710c81",
+      "name": "Marker-Madness-Suite-for-Davinci-Resolve",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/Fusion-MediaIn-ID-Update-": {
+      "id": "fusion-mediain-id-update",
+      "legacy_id": "2d96ba32db06",
+      "name": "Fusion-MediaIn-ID-Update-",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-batch-rename": {
+      "id": "resolve-batch-rename",
+      "legacy_id": "076ad357dc0e",
+      "name": "resolve-batch-rename",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-clip-marker-tool": {
+      "id": "resolve-clip-marker-tool",
+      "legacy_id": "1e2a1665fb20",
+      "name": "resolve-clip-marker-tool",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-find-clip-on-timelines": {
+      "id": "resolve-find-clip-on-timelines",
+      "legacy_id": "960f12d98924",
+      "name": "resolve-find-clip-on-timelines",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-font-fallback": {
+      "id": "resolve-font-fallback",
+      "legacy_id": "15ced9262ae0",
+      "name": "resolve-font-fallback",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-marker-metadata-workflow": {
+      "id": "resolve-marker-metadata-workflow",
+      "legacy_id": "fa5dc1cd1fff",
+      "name": "resolve-marker-metadata-workflow",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-markers-to-render-queue": {
+      "id": "resolve-markers-to-render-queue",
+      "legacy_id": "e891c852fc61",
+      "name": "resolve-markers-to-render-queue",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-media-organizer": {
+      "id": "resolve-media-organizer",
+      "legacy_id": "839752475df1",
+      "name": "resolve-media-organizer",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-multicam-angle-colorizer": {
+      "id": "resolve-multicam-angle-colorizer",
+      "legacy_id": "2ef9a8fce1c4",
+      "name": "resolve-multicam-angle-colorizer",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-text-index": {
+      "id": "resolve-text-index",
+      "legacy_id": "492b322813d5",
+      "name": "resolve-text-index",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-timeline-creator": {
+      "id": "resolve-timeline-creator",
+      "legacy_id": "f1e4a1025158",
+      "name": "resolve-timeline-creator",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-title-manager": {
+      "id": "resolve-title-manager",
+      "legacy_id": "78c82c3cc8b2",
+      "name": "resolve-title-manager",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/postflows/resolve-vfx-marker-tool": {
+      "id": "resolve-vfx-marker-tool",
+      "legacy_id": "63f640576977",
+      "name": "resolve-vfx-marker-tool",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses": {
+      "id": "polyamath-vonk-ultra-fuses",
+      "legacy_id": "e75439cadece",
+      "name": "PolyaMath-Vonk-Ultra-Fuses",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/DhaliwalX/fotufilm-engine": {
+      "id": "fotufilm-engine",
+      "legacy_id": "5ed6124c1195",
+      "name": "fotufilm-engine",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/francozanardi/tscaps": {
+      "id": "tscaps",
+      "legacy_id": "222ea3354263",
+      "name": "tscaps",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/BambooYC123/SubtitleYC": {
+      "id": "subtitleyc",
+      "legacy_id": "66ee60e177fd",
+      "name": "SubtitleYC",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ciqueira/BaldavengerOFX": {
+      "id": "baldavengerofx",
+      "legacy_id": "7ff99f5352ce",
+      "name": "BaldavengerOFX",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/elpideus/DavinciResolveRPC": {
+      "id": "davinciresolverpc",
+      "legacy_id": "d697d4f34155",
+      "name": "DavinciResolveRPC",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/anuzdhk/flow-studio": {
+      "id": "flow-studio",
+      "legacy_id": "3d58ae890fde",
+      "name": "flow-studio",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/debuxxed/lowcat": {
+      "id": "lowcat",
+      "legacy_id": "afd7f85d2a81",
+      "name": "lowcat",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/shumaiOne/shumai": {
+      "id": "shumai",
+      "legacy_id": "60f28f7087ca",
+      "name": "shumai",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/ming-qiu/theia": {
+      "id": "theia",
+      "legacy_id": "d57148ea1d47",
+      "name": "theia",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/vkastrup/sub-translator": {
+      "id": "sub-translator",
+      "legacy_id": "e9c5eb4e21a2",
+      "name": "sub-translator",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/lupoter/Openfilmpipe": {
+      "id": "openfilmpipe",
+      "legacy_id": "851489157a3f",
+      "name": "Openfilmpipe",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter": {
+      "id": "ultimate-lut-converter",
+      "legacy_id": "973fd76f94cf",
+      "name": "Ultimate-LUT-Converter",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Kemerd/premiere-agent": {
+      "id": "premiere-agent",
+      "legacy_id": "2963c98c3a73",
+      "name": "premiere-agent",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Gianluca-Improta/cinekive": {
+      "id": "cinekive",
+      "legacy_id": "cce447407c85",
+      "name": "cinekive",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/HooperH/SubFix": {
+      "id": "subfix",
+      "legacy_id": "15ead622aa83",
+      "name": "SubFix",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/mhadifilms/dvr": {
+      "id": "dvr",
+      "legacy_id": "1d29242a1e14",
+      "name": "dvr",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/erik-sutton95/dji-clip-color": {
+      "id": "dji-clip-color",
+      "legacy_id": "eb57e6d6f789",
+      "name": "dji-clip-color",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/TeddieWang/BarkTed": {
+      "id": "barkted",
+      "legacy_id": "3491934d243a",
+      "name": "BarkTed",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/Distortions81/DaVinci-Resolve-Container": {
+      "id": "davinci-resolve-container",
+      "legacy_id": "2236e55ae071",
+      "name": "DaVinci-Resolve-Container",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/zirmila/vm-cursor": {
+      "id": "vm-cursor",
+      "legacy_id": "73efc5aab89a",
+      "name": "vm-cursor",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/gordasgdc/gdc-plugin-manager": {
+      "id": "gdc-plugin-manager",
+      "legacy_id": "ddf92ac81b47",
+      "name": "gdc-plugin-manager",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/broskisworld/davinci-aac-support": {
+      "id": "davinci-aac-support",
+      "legacy_id": "7c2122704b38",
+      "name": "davinci-aac-support",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/pacoestrada/galactic-crawl-fusion-title": {
+      "id": "galactic-crawl-fusion-title",
+      "legacy_id": "e2452a80e5c0",
+      "name": "galactic-crawl-fusion-title",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/OSideMedia/oside-resolve-mcp": {
+      "id": "oside-resolve-mcp",
+      "legacy_id": "3d0301d433dd",
+      "name": "oside-resolve-mcp",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/amsomr/davinci-resolve-linux-toolkit": {
+      "id": "davinci-resolve-linux-toolkit",
+      "legacy_id": "8bbd982ad08c",
+      "name": "davinci-resolve-linux-toolkit",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery": {
+      "id": "davinci-resolve-textplus-style-gallery",
+      "legacy_id": "559e109baa37",
+      "name": "DaVinci-Resolve-TextPlus-Style-Gallery",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard": {
+      "id": "enlightened-pickleball-scoreboard",
+      "legacy_id": "d35c475bb606",
+      "name": "Enlightened-Pickleball-Scoreboard",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/stoatworks-labs/resolve-configurator": {
+      "id": "resolve-configurator",
+      "legacy_id": "eebaeefd2354",
+      "name": "resolve-configurator",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/jpmontez/fx3-ingest": {
+      "id": "fx3-ingest",
+      "legacy_id": "0d5610bd97f2",
+      "name": "fx3-ingest",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/titasmallick/DaVinci-ConsoleBinding": {
+      "id": "davinci-consolebinding",
+      "legacy_id": "89288fade8f2",
+      "name": "DaVinci-ConsoleBinding",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/stoatworks-labs/macroblock": {
+      "id": "macroblock",
+      "legacy_id": "46ddfa86a074",
+      "name": "macroblock",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/stoatworks-labs/compander": {
+      "id": "compander",
+      "legacy_id": "a8da84ef3f8a",
+      "name": "compander",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/stoatworks-labs/flenser": {
+      "id": "flenser",
+      "legacy_id": "e74f3643adfe",
+      "name": "flenser",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/stoatworks-labs/tilter": {
+      "id": "tilter",
+      "legacy_id": "4f866af083ae",
+      "name": "tilter",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/stoatworks-labs/cogwheel": {
+      "id": "cogwheel",
+      "legacy_id": "07fbce77b656",
+      "name": "cogwheel",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/MohammedBoulifa/Resolve-Codec-Converter": {
+      "id": "resolve-codec-converter",
+      "legacy_id": "9aee9ae01078",
+      "name": "Resolve-Codec-Converter",
+      "origin": "github",
+      "previous": []
+    },
+    "https://github.com/KeibiSoft/KeibiDrop": {
+      "id": "keibidrop",
+      "legacy_id": "f6ae306dd974",
+      "name": "KeibiDrop",
+      "origin": "github",
+      "previous": []
+    },
+    "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/": {
+      "id": "blackmagic-cloud-manual",
+      "legacy_id": "63f49d1a124e",
+      "name": "Blackmagic Cloud Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.blackmagicdesign.com/support/contact/email": {
+      "id": "blackmagic-design-email-support",
+      "legacy_id": "4a0b80e18009",
+      "name": "Blackmagic Design email support",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.blackmagicdesign.com/support/contact/phone": {
+      "id": "blackmagic-design-regional-support-contacts",
+      "legacy_id": "30224576035f",
+      "name": "Blackmagic Design regional support contacts",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview": {
+      "id": "blackmagic-developer-resources",
+      "legacy_id": "4cbb76956478",
+      "name": "Blackmagic developer resources",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf": {
+      "id": "blackmagic-raw-sdk-manual",
+      "legacy_id": "877bdd28671b",
+      "name": "Blackmagic RAW SDK Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf": {
+      "id": "davinci-advanced-panel-keycaps-installation-guide",
+      "legacy_id": "0f00d1dd763c",
+      "name": "DaVinci Advanced Panel Keycaps Installation Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.blackmagicdesign.com/products/davinciresolve": {
+      "id": "davinci-resolve-official-downloads",
+      "legacy_id": "0ba1074a19f2",
+      "name": "DaVinci Resolve — official downloads",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf": {
+      "id": "davinci-resolve-20-supported-codecs",
+      "legacy_id": "b76c552e7cea",
+      "name": "DaVinci Resolve 20 Supported Codecs",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf": {
+      "id": "davinci-resolve-21-new-features-guide",
+      "legacy_id": "4136062c9f90",
+      "name": "DaVinci Resolve 21 New Features Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf": {
+      "id": "davinci-resolve-21-1-manual",
+      "legacy_id": "09cf75222135",
+      "name": "DaVinci Resolve 21.1 Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf": {
+      "id": "davinci-resolve-advanced-panel-manual",
+      "legacy_id": "b06f193f57b8",
+      "name": "DaVinci Resolve Advanced Panel Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf": {
+      "id": "davinci-resolve-immersive-workflow-guide",
+      "legacy_id": "d9984c5d761a",
+      "name": "DaVinci Resolve Immersive Workflow Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf": {
+      "id": "davinci-resolve-micro-color-panel-manual",
+      "legacy_id": "832ba953f21d",
+      "name": "DaVinci Resolve Micro Color Panel Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf": {
+      "id": "davinci-resolve-micro-color-panel-quick-start-guide",
+      "legacy_id": "f0ed0e5dd340",
+      "name": "DaVinci Resolve Micro Color Panel Quick Start Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars": {
+      "id": "davinci-resolve-online-seminars",
+      "legacy_id": "9e99f3c5fbd9",
+      "name": "DaVinci Resolve Online Seminars",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf": {
+      "id": "davinci-resolve-replay-editor-operation-manual",
+      "legacy_id": "8402f59a96aa",
+      "name": "DaVinci Resolve Replay Editor Operation Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf": {
+      "id": "davinci-resolve-studio-and-ipad-features",
+      "legacy_id": "7180a558a5e0",
+      "name": "DaVinci Resolve Studio and iPad Features",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.blackmagicdesign.com/products/davinciresolve/training": {
+      "id": "davinci-resolve-training-and-lesson-files",
+      "legacy_id": "f1e23c2a9e58",
+      "name": "DaVinci Resolve training and lesson files",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf": {
+      "id": "davinci-resolve-wide-gamut-intermediate",
+      "legacy_id": "4f1df9edc476",
+      "name": "DaVinci Resolve Wide Gamut Intermediate",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf": {
+      "id": "desktop-video-manual",
+      "legacy_id": "8ddc937b9a7d",
+      "name": "Desktop Video Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf": {
+      "id": "fairlight-console-assembly-instruction-manual",
+      "legacy_id": "afad1286a7c6",
+      "name": "Fairlight Console Assembly Instruction Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf": {
+      "id": "fairlight-desktop-console-operation-manual",
+      "legacy_id": "6a4ea10d1e42",
+      "name": "Fairlight Desktop Console Operation Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf": {
+      "id": "fairlight-sound-library-and-audio-guide",
+      "legacy_id": "dfb39ac25220",
+      "name": "Fairlight Sound Library and audio guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf": {
+      "id": "fusion-18-gpu-accelerated-tool-comparison-guide",
+      "legacy_id": "e09d505ce509",
+      "name": "Fusion 18 GPU Accelerated Tool Comparison Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf": {
+      "id": "fusion-21-1-user-manual",
+      "legacy_id": "cb18eb16908e",
+      "name": "Fusion 21.1 User Manual",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf": {
+      "id": "fusion-8-scripting-guide",
+      "legacy_id": "4b75a060cc32",
+      "name": "Fusion 8 Scripting Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf": {
+      "id": "fusion-fuse-sdk-guide-and-reference",
+      "legacy_id": "b543cde8a547",
+      "name": "Fusion Fuse SDK guide and reference",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.blackmagicdesign.com/products/fusion": {
+      "id": "fusion-studio-official-product",
+      "legacy_id": "b1d88d97c450",
+      "name": "Fusion Studio — official product",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion": {
+      "id": "resolve-and-fusion-support-center",
+      "legacy_id": "4e3d9a3b9cb3",
+      "name": "Resolve and Fusion Support Center",
+      "origin": "external",
+      "previous": []
+    },
+    "https://player.vimeo.com/video/1224498809?dnt=1": {
+      "id": "what-s-new-in-davinci-resolve-21-1",
+      "legacy_id": "5421cd7eca2f",
+      "name": "What’s New in DaVinci Resolve 21.1",
+      "origin": "external",
+      "previous": []
+    },
+    "https://pixeltoolspost.com/collections/free-tools": {
+      "id": "pixeltools-free-tools",
+      "legacy_id": "8d921206a011",
+      "name": "PixelTools free tools",
+      "origin": "external",
+      "previous": []
+    },
+    "https://709mediaroom.com/en/new-davinci-dctls-available-for-free-download/": {
+      "id": "709-media-room-dctls",
+      "legacy_id": "d3d1f29ddeea",
+      "name": "709 Media Room DCTLs",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.komkomdoorn.com/krokodove/": {
+      "id": "krokodove",
+      "legacy_id": "8a926901ae19",
+      "name": "Krokodove",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.metafide.com/?product=computer-vision": {
+      "id": "meta-fide-computer-vision",
+      "legacy_id": "49f1cf5cbbe7",
+      "name": "Meta Fide Computer Vision",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.mralextech.com/": {
+      "id": "mralextech-toolkit",
+      "legacy_id": "e7ead6a3bb76",
+      "name": "MrAlexTech toolkit",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor": {
+      "id": "reactor",
+      "legacy_id": "c12b609be9a4",
+      "name": "Reactor",
+      "origin": "external",
+      "previous": []
+    },
+    "https://resolve-tools.com/": {
+      "id": "resolve-tools-marker-madness-suite",
+      "legacy_id": "1d42f28c9972",
+      "name": "Resolve Tools / Marker Madness Suite",
+      "origin": "external",
+      "previous": []
+    },
+    "https://retrograde.tools/tools": {
+      "id": "retrograde-tools",
+      "legacy_id": "84c8b74223c5",
+      "name": "Retrograde Tools",
+      "origin": "external",
+      "previous": []
+    },
+    "https://postflows.github.io/": {
+      "id": "postflows",
+      "legacy_id": "a781507ec2f6",
+      "name": "PostFlows",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.shutterencoder.com/": {
+      "id": "shutter-encoder",
+      "legacy_id": "cfdbe4643f9e",
+      "name": "Shutter Encoder",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.voukoder.org/": {
+      "id": "voukoder-pro",
+      "legacy_id": "808210029963",
+      "name": "Voukoder Pro",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.filmconvert.com/plugin/cinematch": {
+      "id": "cinematch",
+      "legacy_id": "51128a9544dd",
+      "name": "CineMatch",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.filmconvert.com/": {
+      "id": "filmconvert-tools",
+      "legacy_id": "4820bdb7a927",
+      "name": "FilmConvert tools",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree": {
+      "id": "basic-node-tree",
+      "legacy_id": "d02db554c1d8",
+      "name": "Basic Node Tree",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade": {
+      "id": "aerochrome-emulation-powergrade",
+      "legacy_id": "fd9c20c05a53",
+      "name": "Aerochrome Emulation PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t": {
+      "id": "asteroid-city-lut",
+      "legacy_id": "e02c915fe970",
+      "name": "Asteroid City LUT",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look": {
+      "id": "breathe-in-35mm-powergrades",
+      "legacy_id": "59454dd7a0a9",
+      "name": "Breathe In 35mm PowerGrades",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade": {
+      "id": "cinegrit-super-16mm-powergrades",
+      "legacy_id": "de0753b84779",
+      "name": "CineGrit Super 16mm PowerGrades",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709": {
+      "id": "classic-filmic-log-to-rec709",
+      "legacy_id": "c03861571dc5",
+      "name": "Classic Filmic Log to Rec709",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709": {
+      "id": "feel-free-cinema-luts",
+      "legacy_id": "0d0b6c6e9005",
+      "name": "Feel Free Cinema LUTs",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one": {
+      "id": "film-halation-guide",
+      "legacy_id": "7f5dec19a31f",
+      "name": "Film Halation Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/classic-negative-lut": {
+      "id": "fujifilm-classic-negative-lut",
+      "legacy_id": "6da3d2ed9c45",
+      "name": "Fujifilm Classic Negative LUT",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/kodachrome-luts": {
+      "id": "kodachrome-lut-pack",
+      "legacy_id": "1b381b53a973",
+      "name": "Kodachrome LUT Pack",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/kodachrome-power-grades": {
+      "id": "kodachrome-powergrades",
+      "legacy_id": "fb639f4da437",
+      "name": "Kodachrome PowerGrades",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/red-x": {
+      "id": "red-x-luts",
+      "legacy_id": "7215654b33e7",
+      "name": "Red-X LUTs",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/red-x-power-grades": {
+      "id": "red-x-powergrades",
+      "legacy_id": "5b7ae13323e1",
+      "name": "RED-X PowerGrades",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade": {
+      "id": "super-8-film-emulation-powergrades",
+      "legacy_id": "8dab75d3400e",
+      "name": "Super 8 Film Emulation PowerGrades",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.veresdenialex.com/product-page/vhs-emulation": {
+      "id": "vhs-retro-camcorder-powergrades",
+      "legacy_id": "73d42a9b424b",
+      "name": "VHS Retro Camcorder PowerGrades",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.tombolles.net/cineprint35": {
+      "id": "cineprint35",
+      "legacy_id": "d6e4ba4c93e7",
+      "name": "CinePrint35",
+      "origin": "external",
+      "previous": []
+    },
+    "https://videovillage.com/filmbox/": {
+      "id": "filmbox-pro",
+      "legacy_id": "2b6b555792a0",
+      "name": "Filmbox Pro",
+      "origin": "external",
+      "previous": []
+    },
+    "https://mononodes.com/dctl-and-more/": {
+      "id": "mononodes",
+      "legacy_id": "6c018c7ab606",
+      "name": "MONONODES",
+      "origin": "external",
+      "previous": []
+    },
+    "https://borisfx.com/products/sapphire/": {
+      "id": "boris-fx-sapphire",
+      "legacy_id": "fecf408bb0c1",
+      "name": "Boris FX Sapphire",
+      "origin": "external",
+      "previous": []
+    },
+    "https://borisfx.com/products/syntheyes/": {
+      "id": "boris-fx-syntheyes",
+      "legacy_id": "2b23714aa229",
+      "name": "Boris FX SynthEyes",
+      "origin": "external",
+      "previous": []
+    },
+    "https://digitalanarchy.com/": {
+      "id": "digital-anarchy-resolve-tools",
+      "legacy_id": "1f2509e447d2",
+      "name": "Digital Anarchy Resolve tools",
+      "origin": "external",
+      "previous": []
+    },
+    "https://filmworkz.com/ofx/": {
+      "id": "filmworkz-ofx-dvo",
+      "legacy_id": "83b1528d893f",
+      "name": "Filmworkz OFX DVO",
+      "origin": "external",
+      "previous": []
+    },
+    "https://aescripts.com/gaussian-splatting-for-davinci-resolve/": {
+      "id": "gaussian-splatting-for-davinci-resolve",
+      "legacy_id": "a87a99881df8",
+      "name": "Gaussian Splatting for DaVinci Resolve",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.neatvideo.com/": {
+      "id": "neat-video",
+      "legacy_id": "5ba6000bb89b",
+      "name": "Neat Video",
+      "origin": "external",
+      "previous": []
+    },
+    "https://revisionfx.com/products/for/resolve/": {
+      "id": "re-vision-effects-for-resolve",
+      "legacy_id": "085df514d200",
+      "name": "RE:Vision Effects for Resolve",
+      "origin": "external",
+      "previous": []
+    },
+    "https://wipptemplates.com/products/editorcollection": {
+      "id": "wipptemplates-editorcollection",
+      "legacy_id": "237a64aba44f",
+      "name": "WippTemplates EditorCollection",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.auburnsounds.com/products/Renegate.html": {
+      "id": "auburn-sounds-renegate",
+      "legacy_id": "28a7dd491372",
+      "name": "Auburn Sounds Renegate",
+      "origin": "external",
+      "previous": []
+    },
+    "https://alexaudiobutler.com/": {
+      "id": "end-boost",
+      "legacy_id": "c89c1945e55a",
+      "name": "End Boost",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.tbproaudio.de/products/dpmeter": {
+      "id": "tbproaudio-dpmeter",
+      "legacy_id": "2703a992d75c",
+      "name": "TBProAudio dpMeter",
+      "origin": "external",
+      "previous": []
+    },
+    "https://valhalladsp.com/shop/reverb/valhalla-supermassive/": {
+      "id": "valhalla-supermassive",
+      "legacy_id": "a8a2cde364ae",
+      "name": "Valhalla Supermassive",
+      "origin": "external",
+      "previous": []
+    },
+    "https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/": {
+      "id": "editshare-flow-panel",
+      "legacy_id": "66a441602d0a",
+      "name": "EditShare FLOW panel",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.simonsaysai.com/blackmagic-davinci-resolve-extension": {
+      "id": "simon-says-for-resolve",
+      "legacy_id": "dae8c1c784aa",
+      "name": "Simon Says for Resolve",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.studionetworksolutions.com/sns-unveils-sharebrowser-workflow-integration-plugin-for-davinci-resolve/": {
+      "id": "sns-sharebrowser-integration",
+      "legacy_id": "18e84daf6bd3",
+      "name": "SNS ShareBrowser integration",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/blobtracker": {
+      "id": "blobtrackingfuse",
+      "legacy_id": "c2396bb29e41",
+      "name": "BlobTrackingFuse",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/blockglitch": {
+      "id": "blockglitch",
+      "legacy_id": "da3962310559",
+      "name": "BlockGlitch",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/supascale": {
+      "id": "supascale",
+      "legacy_id": "9be166405e39",
+      "name": "SupaScale",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superglitch": {
+      "id": "superglitch",
+      "legacy_id": "6ae605ccccb7",
+      "name": "SuperGlitch",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/supermodulation": {
+      "id": "supermodulation",
+      "legacy_id": "89d6f4ac00d7",
+      "name": "SuperModulation",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superpixelsort": {
+      "id": "superpixelsort",
+      "legacy_id": "03e3cc08b5d7",
+      "name": "SuperPixelSort",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/super-polygons-beta": {
+      "id": "superpolygons",
+      "legacy_id": "82ae4696f763",
+      "name": "SuperPolygons",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superslitscanner": {
+      "id": "superslitscanner",
+      "legacy_id": "cb9d1b9242a0",
+      "name": "SuperSlitScanner",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/supertrails": {
+      "id": "supertrails",
+      "legacy_id": "0e4189180ddc",
+      "name": "SuperTrails",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/supervhs": {
+      "id": "supervhs",
+      "legacy_id": "4f42207c7131",
+      "name": "SuperVHS",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/datamoshfuse": {
+      "id": "datamoshfuse",
+      "legacy_id": "d301f12f7cfa",
+      "name": "DatamoshFuse",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/dreamyflare": {
+      "id": "dreamyflare",
+      "legacy_id": "7c1d2c74190c",
+      "name": "DreamyFlare",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/extremeglitch": {
+      "id": "extremeglitch",
+      "legacy_id": "77c2e6efa382",
+      "name": "ExtremeGlitch",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/pixeldither": {
+      "id": "pixel-dither",
+      "legacy_id": "07a3c2ace0fa",
+      "name": "Pixel Dither",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/ruttetra": {
+      "id": "ruttetra",
+      "legacy_id": "12c086c1b994",
+      "name": "RuttEtra",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/shakeglitch": {
+      "id": "shakeglitch",
+      "legacy_id": "5e068403db99",
+      "name": "ShakeGlitch",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superascii": {
+      "id": "superascii-fuse",
+      "legacy_id": "9ff5f8f25796",
+      "name": "SuperASCII Fuse",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superbokeh": {
+      "id": "superbokeh",
+      "legacy_id": "3b7a38e54c6a",
+      "name": "SuperBokeh",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/supercrt": {
+      "id": "supercrt",
+      "legacy_id": "f226506360de",
+      "name": "SuperCRT",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superdelusion": {
+      "id": "superdelusion",
+      "legacy_id": "a12e5184f3a0",
+      "name": "SuperDelusion",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superlcd": {
+      "id": "superlcd",
+      "legacy_id": "5a80244f44be",
+      "name": "SuperLCD",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/supermatrixrain": {
+      "id": "supermatrixrain",
+      "legacy_id": "a9e426c845f1",
+      "name": "SuperMatrixRain",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/supermesh": {
+      "id": "supermesh",
+      "legacy_id": "e89c9f015c8e",
+      "name": "SuperMesh",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superntsc": {
+      "id": "superntsc",
+      "legacy_id": "79fb8af9c470",
+      "name": "SuperNTSC",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superpapertear": {
+      "id": "superpapertear",
+      "legacy_id": "a11a0cb49bff",
+      "name": "SuperPaperTear",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/superprintfx": {
+      "id": "superprintfx",
+      "legacy_id": "976cfa7bb7b0",
+      "name": "SuperPrintFX",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/upscaler": {
+      "id": "upscaler-fuse",
+      "legacy_id": "808b97642aea",
+      "name": "Upscaler Fuse",
+      "origin": "external",
+      "previous": []
+    },
+    "https://akascape.gumroad.com/l/watermemory": {
+      "id": "watermemory",
+      "legacy_id": "38da170217fe",
+      "name": "WaterMemory",
+      "origin": "external",
+      "previous": []
+    },
+    "https://aescripts.com/amalgam/": {
+      "id": "amalgam",
+      "legacy_id": "a12b00c9500c",
+      "name": "Amalgam",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.motionvfx.com/store,mtitle-refined-dvr,p4849.html": {
+      "id": "mtitle-refined-dvr",
+      "legacy_id": "5f197b06ccae",
+      "name": "mTitle Refined DVR",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html": {
+      "id": "mtransition-movie-dvr",
+      "legacy_id": "ac667234441c",
+      "name": "mTransition Movie DVR",
+      "origin": "external",
+      "previous": []
+    },
+    "https://sh4rkk.com/visualiser-plugin": {
+      "id": "audio-visualiser-plugin",
+      "legacy_id": "7f8a4ff0678c",
+      "name": "Audio Visualiser Plugin",
+      "origin": "external",
+      "previous": []
+    },
+    "https://stirlingsupply.co/products/easier-ease": {
+      "id": "easier-ease",
+      "legacy_id": "7686259f130f",
+      "name": "Easier Ease",
+      "origin": "external",
+      "previous": []
+    },
+    "https://stirlingsupply.co/products/edit-page-masks": {
+      "id": "edit-page-masks",
+      "legacy_id": "f6cba5042ea7",
+      "name": "Edit Page Masks",
+      "origin": "external",
+      "previous": []
+    },
+    "https://stirlingsupply.co/products/proto-v3": {
+      "id": "proto-v3",
+      "legacy_id": "2560a9f09276",
+      "name": "Proto V3",
+      "origin": "external",
+      "previous": []
+    },
+    "https://stirlingsupply.co/products/textbox": {
+      "id": "textbox",
+      "legacy_id": "875703edda96",
+      "name": "TextBox+",
+      "origin": "external",
+      "previous": []
+    },
+    "https://colourlab.ai/colourlab-ai-for-davinci-resolve/": {
+      "id": "colourlab-ai-for-resolve",
+      "legacy_id": "aafb886f95d5",
+      "name": "Colourlab AI for Resolve",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.dehancer.com/shop/davinci_resolve/pro": {
+      "id": "dehancer-pro",
+      "legacy_id": "36fe436f2230",
+      "name": "Dehancer Pro",
+      "origin": "external",
+      "previous": []
+    },
+    "https://jamesmiller.sellfy.store/p/davinci-resolve-studio-dctl/": {
+      "id": "deluts-universe-dctls",
+      "legacy_id": "b295976488ad",
+      "name": "DELUTS Universe DCTLs",
+      "origin": "external",
+      "previous": []
+    },
+    "https://mark-bone.sellfy.store/p/power-grade-mbnp/": {
+      "id": "mb-np-powergrade",
+      "legacy_id": "ba1a62d846a0",
+      "name": "MB+NP PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://nightowlstories.gumroad.com/l/craft-powergrade": {
+      "id": "c-r-a-f-t-powergrade",
+      "legacy_id": "63f2bbbe555a",
+      "name": "C.R.A.F.T. PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ko-fi.com/s/8d429085e2": {
+      "id": "nx-liquidglass",
+      "legacy_id": "9c29d055e0ca",
+      "name": "Nx LiquidGlass",
+      "origin": "external",
+      "previous": []
+    },
+    "https://openiso.sellfy.store/p/film-emulation-powergrade/": {
+      "id": "cine16",
+      "legacy_id": "9470ad9da5af",
+      "name": "Cine16",
+      "origin": "external",
+      "previous": []
+    },
+    "https://openiso.sellfy.store/p/timeless-film-emulation-powergrade/": {
+      "id": "timeless",
+      "legacy_id": "a9d80c0fa5ff",
+      "name": "Timeless",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ravengrade.com/": {
+      "id": "ravengrade-tools",
+      "legacy_id": "e66436a164f1",
+      "name": "Ravengrade tools",
+      "origin": "external",
+      "previous": []
+    },
+    "https://thejakefisher.sellfy.store/p/tjf-powergrade/": {
+      "id": "tjf-powergrade",
+      "legacy_id": "e65f5a641ef1",
+      "name": "TJF PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://toolandkits.gumroad.com/l/wfczb": {
+      "id": "sony-s-log3-cine-film-emulation-powergrade",
+      "legacy_id": "8c8bd4dc7edd",
+      "name": "Sony S-Log3 Cine Film Emulation PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://yesjmo.gumroad.com/l/powergradelibrary": {
+      "id": "powergrade-library",
+      "legacy_id": "4ce3f554214f",
+      "name": "PowerGrade Library",
+      "origin": "external",
+      "previous": []
+    },
+    "https://editorslab.store/": {
+      "id": "editors-lab",
+      "legacy_id": "aebc6d603c53",
+      "name": "Editors Lab",
+      "origin": "external",
+      "previous": []
+    },
+    "https://elements.envato.com/video-templates/compatible-with-davinci-resolve": {
+      "id": "envato-resolve-templates",
+      "legacy_id": "ccf56145b145",
+      "name": "Envato Resolve templates",
+      "origin": "external",
+      "previous": []
+    },
+    "https://mixkit.co/free-davinci-resolve-templates/": {
+      "id": "mixkit-resolve-templates",
+      "legacy_id": "57146ed1f366",
+      "name": "Mixkit Resolve templates",
+      "origin": "external",
+      "previous": []
+    },
+    "https://motionarray.com/davinci-resolve-templates/free/": {
+      "id": "motion-array-free-resolve-templates",
+      "legacy_id": "cf4d0146e6e7",
+      "name": "Motion Array free Resolve templates",
+      "origin": "external",
+      "previous": []
+    },
+    "https://superhivemarket.com/products/blenderexr": {
+      "id": "blenderexr",
+      "legacy_id": "8fa26243c315",
+      "name": "BlenderEXR",
+      "origin": "external",
+      "previous": []
+    },
+    "https://superhivemarket.com/products/pipeline-studio-manager": {
+      "id": "pipeline-studio-manager",
+      "legacy_id": "941e694fb0db",
+      "name": "Pipeline Studio Manager",
+      "origin": "external",
+      "previous": []
+    },
+    "https://aescripts.com/ae-fusion-3d-bridge/": {
+      "id": "ae-fusion-3d-bridge",
+      "legacy_id": "b8f8761113aa",
+      "name": "AE Fusion 3D Bridge",
+      "origin": "external",
+      "previous": []
+    },
+    "https://getjumper.io/": {
+      "id": "jumper",
+      "legacy_id": "eef6a55ca0a7",
+      "name": "Jumper",
+      "origin": "external",
+      "previous": []
+    },
+    "https://superhivemarket.com/products/blender-to-resolve-bridge": {
+      "id": "blender-to-resolve-bridge",
+      "legacy_id": "84df78d06e50",
+      "name": "Blender to Resolve Bridge",
+      "origin": "external",
+      "previous": []
+    },
+    "https://valuef.itch.io/videoremap": {
+      "id": "videoremap",
+      "legacy_id": "3ca9b675e281",
+      "name": "VideoRemap",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066": {
+      "id": "free-analog-counter",
+      "legacy_id": "bc8e5e2cc1ef",
+      "name": "Free Analog Counter",
+      "origin": "external",
+      "previous": []
+    },
+    "https://spektrafilm.114c.de/": {
+      "id": "spektrafilm-ofx",
+      "legacy_id": "ac12cefb9434",
+      "name": "spektrafilm OFX",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ColorLabels/com.AlbertoGZ.ColorLabels.atom": {
+      "id": "colorlabels",
+      "legacy_id": "e0ec66324e55",
+      "name": "ColorLabels",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ReloadLoaders/com.AlbertoGZ.ReloadLoaders.atom": {
+      "id": "reloadloaders",
+      "legacy_id": "14dc94545973",
+      "name": "ReloadLoaders",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom": {
+      "id": "attribute-spreadsheet",
+      "legacy_id": "39e74efd6e22",
+      "name": "Attribute Spreadsheet",
+      "origin": "external",
+      "previous": []
+    },
+    "https://analator.gumroad.com/l/rhlmj": {
+      "id": "instant-saver",
+      "legacy_id": "0371f624e56b",
+      "name": "Instant Saver",
+      "origin": "external",
+      "previous": []
+    },
+    "https://anamorphictool.gumroad.com/l/ofx": {
+      "id": "anamorphictool-ofx-suite",
+      "legacy_id": "a32c064a96bb",
+      "name": "AnamorphicTool OFX Suite",
+      "origin": "external",
+      "previous": []
+    },
+    "https://arisdabridge.com/": {
+      "id": "arisda-bridge",
+      "legacy_id": "2c9cd4f62438",
+      "name": "ARISDA Bridge",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.autocut.com/en/": {
+      "id": "autocut",
+      "legacy_id": "56c236f64bd2",
+      "name": "AutoCut",
+      "origin": "external",
+      "previous": []
+    },
+    "https://forum.blackmagicdesign.com/viewtopic.php?t=175315": {
+      "id": "creating-scripts-for-davinci-resolve-examples-thread",
+      "legacy_id": "aa64fdb4a3b6",
+      "name": "Creating Scripts for DaVinci Resolve — examples thread",
+      "origin": "external",
+      "previous": []
+    },
+    "https://brovfx.com/en": {
+      "id": "brovfx-packs",
+      "legacy_id": "80c45d72a047",
+      "name": "BroVFX packs",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.butteryluts.com/": {
+      "id": "buttery-luts-collections",
+      "legacy_id": "c0cb7ce1a255",
+      "name": "BUTTERY LUTs collections",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.patreon.com/calverschool/posts/calver-glow-v2-123021297": {
+      "id": "calver-glow-v2-lite",
+      "legacy_id": "b95be56d3534",
+      "name": "Calver Glow V2 Lite",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139": {
+      "id": "nintendo-direct-graphics-pack",
+      "legacy_id": "5090803be2c0",
+      "name": "Nintendo Direct Graphics Pack",
+      "origin": "external",
+      "previous": []
+    },
+    "https://chrisroyfilms.com/postsync/": {
+      "id": "postsync",
+      "legacy_id": "a841a20e284b",
+      "name": "PostSync",
+      "origin": "external",
+      "previous": []
+    },
+    "https://chrisroyfilms.com/postwatch/": {
+      "id": "postwatch",
+      "legacy_id": "dc31687d261e",
+      "name": "PostWatch",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cinepacks.store/collections/free-packs": {
+      "id": "cinepacks-free-samples",
+      "legacy_id": "f0afbc76f573",
+      "name": "CinePacks free samples",
+      "origin": "external",
+      "previous": []
+    },
+    "https://clipizo.com/animizo": {
+      "id": "animizo",
+      "legacy_id": "92258bdc35d2",
+      "name": "Animizo",
+      "origin": "external",
+      "previous": []
+    },
+    "https://clipizo.com/exprizo": {
+      "id": "exprizo",
+      "legacy_id": "1c299f664e4c",
+      "name": "Exprizo",
+      "origin": "external",
+      "previous": []
+    },
+    "https://clipizo.com/matchizo": {
+      "id": "matchizo",
+      "legacy_id": "e988c8f997ce",
+      "name": "Matchizo",
+      "origin": "external",
+      "previous": []
+    },
+    "https://creovanta.com/plugins/safeframe-davinci-resolve": {
+      "id": "safeframe-for-davinci-resolve",
+      "legacy_id": "74d95080ef72",
+      "name": "SafeFrame for DaVinci Resolve",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/exposure-chart-dctl": {
+      "id": "exposure-chart-dctl",
+      "legacy_id": "9ed1e974ae22",
+      "name": "Exposure Chart DCTL",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl": {
+      "id": "greyscale-ramp-dctl",
+      "legacy_id": "77cba97c9004",
+      "name": "Greyscale Ramp DCTL",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/macos-viewing-transform": {
+      "id": "macos-viewing-transform",
+      "legacy_id": "f4a0a7176a0c",
+      "name": "macOS Viewing Transform",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet": {
+      "id": "mid-gray-cheatsheet",
+      "legacy_id": "000d17c16cb7",
+      "name": "Mid-Gray Cheatsheet",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/phantom-idt": {
+      "id": "phantom-idt",
+      "legacy_id": "72d3a398a135",
+      "name": "Phantom IDT",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide": {
+      "id": "pro-colorist-prep-guide",
+      "legacy_id": "ceeab1cf4514",
+      "name": "Pro Colorist Prep Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/referent": {
+      "id": "referent",
+      "legacy_id": "6258d1a2b0d9",
+      "name": "Referent",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/sweet-spot": {
+      "id": "sweet-spot",
+      "legacy_id": "67058f8ab806",
+      "name": "Sweet Spot",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cullenkellycolor.com/toolkit/template-node-tree-powergrade": {
+      "id": "template-node-tree-powergrade",
+      "legacy_id": "25eb713999b1",
+      "name": "Template Node Tree PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cutpointlabs.com/cutdetect/": {
+      "id": "cutdetect",
+      "legacy_id": "443fdbe7e824",
+      "name": "CutDetect",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cutpointlabs.com/cutmatch/": {
+      "id": "cutmatch",
+      "legacy_id": "47e568c14fee",
+      "name": "CutMatch",
+      "origin": "external",
+      "previous": []
+    },
+    "https://cutpointlabs.com/lut-tuner/": {
+      "id": "lut-tuner",
+      "legacy_id": "535d53cae910",
+      "name": "LUT Tuner",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom": {
+      "id": "fringe-fighter-turbo",
+      "legacy_id": "c03e78b63f64",
+      "name": "Fringe Fighter Turbo",
+      "origin": "external",
+      "previous": []
+    },
+    "https://davincikit.com/product/map-engine/": {
+      "id": "map-engine",
+      "legacy_id": "d2e24389ccf3",
+      "name": "Map Engine",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom": {
+      "id": "propagate",
+      "legacy_id": "8cbf007119e9",
+      "name": "PROPAGATE",
+      "origin": "external",
+      "previous": []
+    },
+    "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips": {
+      "id": "halation-in-resolve-18-guide",
+      "legacy_id": "ad27dbdf119c",
+      "name": "Halation in Resolve 18 Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.FastExpoGlow/com.Millolab.FastExpoGlow.atom": {
+      "id": "fastexpoglow",
+      "legacy_id": "5f7369cb3ab8",
+      "name": "FastExpoGlow",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom": {
+      "id": "skincorrector",
+      "legacy_id": "0ceb4ad2c5f1",
+      "name": "SkinCorrector",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom": {
+      "id": "volumehaze",
+      "legacy_id": "873480606f88",
+      "name": "VolumeHaze",
+      "origin": "external",
+      "previous": []
+    },
+    "https://filmkid.com/products/filmkid-16": {
+      "id": "filmkid-16-powergrade-and-lut",
+      "legacy_id": "c3c57a80aef9",
+      "name": "Filmkid 16 PowerGrade and LUT",
+      "origin": "external",
+      "previous": []
+    },
+    "https://firecut.ai/pricing/davinci-resolve/": {
+      "id": "firecut",
+      "legacy_id": "d3112259162a",
+      "name": "FireCut",
+      "origin": "external",
+      "previous": []
+    },
+    "https://fractale.itch.io/cheetah-video-proxy-generator": {
+      "id": "cheetah-video-proxy-generator",
+      "legacy_id": "8edd53f5483f",
+      "name": "Cheetah Video Proxy Generator",
+      "origin": "external",
+      "previous": []
+    },
+    "https://framechart.com/": {
+      "id": "framechart",
+      "legacy_id": "a7afe3a20090",
+      "name": "framechart",
+      "origin": "external",
+      "previous": []
+    },
+    "https://frameseek.app/": {
+      "id": "frameseek",
+      "legacy_id": "a0ad14a9e6d9",
+      "name": "FrameSeek",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FrameTools.CapCutCaptions/com.FrameTools.CapCutCaptions.atom": {
+      "id": "frametools-capcut-caption-pack",
+      "legacy_id": "e96c4c8239aa",
+      "name": "FrameTools CapCut Caption Pack",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FusionPixelStudios.FlowCharacterRigger/com.FusionPixelStudios.FlowCharacterRigger.atom": {
+      "id": "flow-character-rigger",
+      "legacy_id": "fe9cd62763dc",
+      "name": "Flow Character Rigger",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.fxphd.com/resolve18/": {
+      "id": "warren-eagles-resolve-18-training",
+      "legacy_id": "d2d6619ae314",
+      "name": "Warren Eagles Resolve 18 training",
+      "origin": "external",
+      "previous": []
+    },
+    "https://nomadicgeorge.sellfy.store/p/k83powergrade/": {
+      "id": "k83-cinematic-powergrade",
+      "legacy_id": "f827b6beb509",
+      "name": "K83 Cinematic PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.GradientMatch/com.GregoryChalenko.GradientMatch.atom": {
+      "id": "gradient-match",
+      "legacy_id": "023c7678f9c2",
+      "name": "Gradient Match",
+      "origin": "external",
+      "previous": []
+    },
+    "https://hedge.co/products/editready": {
+      "id": "editready",
+      "legacy_id": "895685e236d5",
+      "name": "EditReady",
+      "origin": "external",
+      "previous": []
+    },
+    "https://hedge.co/products/offshoot": {
+      "id": "offshoot",
+      "legacy_id": "7546f2a7d5f6",
+      "name": "OffShoot",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ko-fi.com/s/b36e40dd54": {
+      "id": "davinci-image-ai",
+      "legacy_id": "5232d496ff22",
+      "name": "DaVinci Image AI",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ko-fi.com/s/5e9dcdeae5": {
+      "id": "davinci-sub-tool-edit-and-translate",
+      "legacy_id": "22280565b68f",
+      "name": "DaVinci Sub Tool (Edit & Translate)",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ko-fi.com/s/706feb3730": {
+      "id": "davinci-sub-translator",
+      "legacy_id": "0adbf4957941",
+      "name": "DaVinci Sub Translator",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ko-fi.com/s/9e769243b5": {
+      "id": "davinci-tts",
+      "legacy_id": "bc839981a8fe",
+      "name": "DaVinci TTS",
+      "origin": "external",
+      "previous": []
+    },
+    "https://hkeys.app/apps/davinci-resolve/macos": {
+      "id": "resolve-keyboard-shortcuts-and-drills",
+      "legacy_id": "f449aafe1570",
+      "name": "Resolve keyboard shortcuts and drills",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.illkoncept.com/shop/powergrade": {
+      "id": "cinematic-reality-powergrade",
+      "legacy_id": "64043d2e4aed",
+      "name": "Cinematic Reality Powergrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom": {
+      "id": "chroma-compress",
+      "legacy_id": "1890634b9d69",
+      "name": "Chroma Compress",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom": {
+      "id": "despiller-plus",
+      "legacy_id": "39e55b251f3e",
+      "name": "Despiller Plus",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom": {
+      "id": "maskpaint-switch",
+      "legacy_id": "eee0622d3554",
+      "name": "MaskPaint Switch",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom": {
+      "id": "oidn-denoiser",
+      "legacy_id": "3eff5a87afaf",
+      "name": "Oidn Denoiser",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom": {
+      "id": "retimer-and-retimer3d",
+      "legacy_id": "9d163f4bd546",
+      "name": "Retimer and Retimer3D",
+      "origin": "external",
+      "previous": []
+    },
+    "https://jklediting.com/syncpass": {
+      "id": "syncpass",
+      "legacy_id": "7a1e3a0f0e7e",
+      "name": "SyncPass",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.joo.works/iphone": {
+      "id": "aces-lite-iphone-kit",
+      "legacy_id": "374ed6d1881c",
+      "name": "ACES Lite iPhone Kit",
+      "origin": "external",
+      "previous": []
+    },
+    "https://juanmelara.com.au/products/kodak-2383-powergrade": {
+      "id": "kodak-2383-powergrade",
+      "legacy_id": "9f7d2fe3340c",
+      "name": "Kodak 2383 PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades": {
+      "id": "rcm-wide-gamut-print-film-powergrades",
+      "legacy_id": "f67504397184",
+      "name": "RCM Wide Gamut Print Film PowerGrades",
+      "origin": "external",
+      "previous": []
+    },
+    "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades": {
+      "id": "yrgb-print-film-emulation-powergrades",
+      "legacy_id": "796beb024e82",
+      "name": "YRGB Print Film Emulation PowerGrades",
+      "origin": "external",
+      "previous": []
+    },
+    "https://kevinvandermarliere.gumroad.com/l/Aivideostudio": {
+      "id": "ai-video-studio",
+      "legacy_id": "4e4c68286707",
+      "name": "AI Video Studio",
+      "origin": "external",
+      "previous": []
+    },
+    "https://getkeycut.com/": {
+      "id": "keycut",
+      "legacy_id": "36371868cd45",
+      "name": "KeyCut",
+      "origin": "external",
+      "previous": []
+    },
+    "https://lacertafilmlab.com/": {
+      "id": "lacerta-film-lab",
+      "legacy_id": "8da46bf011da",
+      "name": "Lacerta Film Lab",
+      "origin": "external",
+      "previous": []
+    },
+    "https://davidkohen.gumroad.com/l/FusionMirage": {
+      "id": "mirage-heat-distortion",
+      "legacy_id": "d2495f84cb20",
+      "name": "Mirage Heat Distortion",
+      "origin": "external",
+      "previous": []
+    },
+    "https://davidkohen.gumroad.com/l/Fusion-Nova": {
+      "id": "nova-particle-background-builder",
+      "legacy_id": "c17c735afb69",
+      "name": "Nova Particle Background Builder",
+      "origin": "external",
+      "previous": []
+    },
+    "https://lowepost.com/home/": {
+      "id": "lowepost-training",
+      "legacy_id": "79279718352a",
+      "name": "Lowepost training",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ko-fi.com/s/6a120fb931": {
+      "id": "outline-plugin",
+      "legacy_id": "cbf26c4ae4bf",
+      "name": "Outline plugin",
+      "origin": "external",
+      "previous": []
+    },
+    "https://lumicosmos.gumroad.com/l/lumifx": {
+      "id": "lumifx-cinematic-optics",
+      "legacy_id": "0b1dfb49f0ca",
+      "name": "LUMIFX Cinematic Optics",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.maxon.net/en/red-giant": {
+      "id": "red-giant-tools-for-resolve",
+      "legacy_id": "f8cde4a685a6",
+      "name": "Red Giant tools for Resolve",
+      "origin": "external",
+      "previous": []
+    },
+    "https://mediaarea.net/en/MediaInfo": {
+      "id": "mediainfo",
+      "legacy_id": "914d29587f2e",
+      "name": "MediaInfo",
+      "origin": "external",
+      "previous": []
+    },
+    "https://meliorstudios.com/digifilm": {
+      "id": "digifilm-powergrade",
+      "legacy_id": "5505c18e812f",
+      "name": "DIGIFILM PowerGrade",
+      "origin": "external",
+      "previous": []
+    },
+    "https://deliveryqc.com/": {
+      "id": "deliveryqc-beta",
+      "legacy_id": "d49287605d70",
+      "name": "DeliveryQC Beta",
+      "origin": "external",
+      "previous": []
+    },
+    "https://mixinglight.com/": {
+      "id": "mixing-light-resolve-training",
+      "legacy_id": "896624c884a1",
+      "name": "Mixing Light Resolve training",
+      "origin": "external",
+      "previous": []
+    },
+    "https://mononodes.com/3d-cube/": {
+      "id": "3d-cube-dctl-and-cube-slice",
+      "legacy_id": "e548aa04e4c5",
+      "name": "3D Cube DCTL and Cube Slice",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.motioncamapp.com/tools": {
+      "id": "motioncam-tools",
+      "legacy_id": "57cfcc8f7478",
+      "name": "MotionCam Tools",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ko-fi.com/s/aed8dd3b04": {
+      "id": "magicgradient",
+      "legacy_id": "175be91355b1",
+      "name": "MagicGradient",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.muglalb.mug-advanced-halftone/com.muglalb.mug-advanced-halftone.atom": {
+      "id": "mug-advanced-halftone",
+      "legacy_id": "cd2bdf92e45e",
+      "name": "Mug Advanced Halftone",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom": {
+      "id": "nbv-lightwrap",
+      "legacy_id": "f493da5145a1",
+      "name": "NBV-Lightwrap",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.cdfinder.de/": {
+      "id": "neofinder",
+      "legacy_id": "8ba4834c509a",
+      "name": "NeoFinder",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom": {
+      "id": "change-strings",
+      "legacy_id": "ade1867d5d18",
+      "name": "Change Strings",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.overview-app.com/chime": {
+      "id": "chime",
+      "legacy_id": "3184086b9a23",
+      "name": "Chime",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom": {
+      "id": "suck-less-audio",
+      "legacy_id": "7c987fc9011a",
+      "name": "Suck Less Audio",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.prosoundeffects.com/soundq/": {
+      "id": "soundq",
+      "legacy_id": "c12b19c0aaae",
+      "name": "SoundQ",
+      "origin": "external",
+      "previous": []
+    },
+    "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/": {
+      "id": "stocksilo",
+      "legacy_id": "f9139bba8a0f",
+      "name": "StockSilo",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ravinmaddhatter.itch.io/youtube-prep-tool": {
+      "id": "youtube-prep-tool",
+      "legacy_id": "4b3caf86e4d0",
+      "name": "YouTube Prep Tool",
+      "origin": "external",
+      "previous": []
+    },
+    "https://resolve.directory/": {
+      "id": "resolve-directory",
+      "legacy_id": "06d1f388ac6e",
+      "name": "Resolve Directory",
+      "origin": "external",
+      "previous": []
+    },
+    "https://retouch4.me/videoretouching": {
+      "id": "retouch4me-video-plugins",
+      "legacy_id": "2c71303bbd99",
+      "name": "Retouch4me video plugins",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/": {
+      "id": "resolve-learning-path",
+      "legacy_id": "2bb768e12182",
+      "name": "Resolve learning path",
+      "origin": "external",
+      "previous": []
+    },
+    "https://fcp2aaf.com/": {
+      "id": "fcp2aaf",
+      "legacy_id": "7d842530952d",
+      "name": "fcp2aaf",
+      "origin": "external",
+      "previous": []
+    },
+    "https://getsoundly.com/news/place-it-as-a-standalone-plugin/": {
+      "id": "place-it",
+      "legacy_id": "91e11862bf67",
+      "name": "Place it",
+      "origin": "external",
+      "previous": []
+    },
+    "https://getsoundly.com/tools/": {
+      "id": "shape-it",
+      "legacy_id": "22c7fece6d5a",
+      "name": "Shape it",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FastLightWrap/com.MuseVFX.FastLightWrap.atom": {
+      "id": "fastlightwrap",
+      "legacy_id": "d77ea907870d",
+      "name": "FastLightWrap",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.ExponentialGlow/com.StefanIhringer.ExponentialGlow.atom": {
+      "id": "exponentialglow",
+      "legacy_id": "7361f7b27db8",
+      "name": "ExponentialGlow",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom": {
+      "id": "xfchroma-fuse",
+      "legacy_id": "c1135e906396",
+      "name": "XfChroma Fuse",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.stibs_fuses.displaceplusplus/com.pureandapplied.stibs_fuses.displaceplusplus.atom": {
+      "id": "displace-plus-plus",
+      "legacy_id": "89622099fc5c",
+      "name": "displace plus plus",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.colourise/com.pureandapplied.colourise.atom": {
+      "id": "pna-colourise",
+      "legacy_id": "8777084753f7",
+      "name": "pna_colourise",
+      "origin": "external",
+      "previous": []
+    },
+    "https://tagger.mov/": {
+      "id": "tagger-for-resolve",
+      "legacy_id": "fcf0063c8881",
+      "name": "Tagger for Resolve",
+      "origin": "external",
+      "previous": []
+    },
+    "https://tagger.mov/typeflare/": {
+      "id": "typeflare",
+      "legacy_id": "72d7880c4a8b",
+      "name": "TypeFlare",
+      "origin": "external",
+      "previous": []
+    },
+    "https://tangenten.gumroad.com/l/FlowLooper": {
+      "id": "flow-looper",
+      "legacy_id": "4e3c3679377f",
+      "name": "Flow Looper",
+      "origin": "external",
+      "previous": []
+    },
+    "https://tangenten.gumroad.com/l/PalettePal": {
+      "id": "palette-pal",
+      "legacy_id": "4c7e89ba46b7",
+      "name": "Palette Pal",
+      "origin": "external",
+      "previous": []
+    },
+    "https://tangenten.gumroad.com/l/PuppetPinTool": {
+      "id": "puppet-pin-tool",
+      "legacy_id": "e2113f190aa0",
+      "name": "Puppet Pin Tool",
+      "origin": "external",
+      "previous": []
+    },
+    "https://tdcat.com/downloads/filmgrain": {
+      "id": "dci-4k-film-grain-plates",
+      "legacy_id": "8a47ab5bda03",
+      "name": "DCI 4K Film Grain Plates",
+      "origin": "external",
+      "previous": []
+    },
+    "https://tdcat.com/downloads/free-lut-packs": {
+      "id": "free-lut-packs",
+      "legacy_id": "8daa1031a5da",
+      "name": "Free LUT Packs",
+      "origin": "external",
+      "previous": []
+    },
+    "https://tikastudio.gumroad.com/l/filmtitlepack": {
+      "id": "36-cinematic-film-titles",
+      "legacy_id": "f2fd2625fecf",
+      "name": "36 Cinematic Film Titles",
+      "origin": "external",
+      "previous": []
+    },
+    "https://www.patreon.com/posts/mograph-tools-26571904": {
+      "id": "eric-s-keyframes",
+      "legacy_id": "fb54ea090a21",
+      "name": "Eric’s Keyframes",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ves-on-set-data.org/dashboard/": {
+      "id": "ves-on-set-vfx-data-collection-and-usage-guide",
+      "legacy_id": "3311c120a767",
+      "name": "VES On-Set VFX Data Collection and Usage Guide",
+      "origin": "external",
+      "previous": []
+    },
+    "https://vocalslice.com/": {
+      "id": "vocalslice",
+      "legacy_id": "6312cc4142ce",
+      "name": "VocalSlice",
+      "origin": "external",
+      "previous": []
+    },
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom": {
+      "id": "readexr-ultra",
+      "legacy_id": "710c060ffbc6",
+      "name": "ReadEXR Ultra",
+      "origin": "external",
+      "previous": []
+    },
+    "https://ko-fi.com/s/cb7b432737": {
+      "id": "just-highlighter-plus",
+      "legacy_id": "419b2c0bca35",
+      "name": "Just Highlighter Plus",
+      "origin": "external",
+      "previous": []
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "vstforresolvelinux",
+  "name": "VSTForResolveLinux",
+  "creator": "JaySNL",
+  "urls": {
+    "canonical": "https://github.com/JaySNL/VSTForResolveLinux",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Linux installation, compatibility, and troubleshooting",
+  "kind": "other",
+  "tasks": [
+    "linux"
+  ],
+  "tags": [
+    "audio plugins",
+    "clap",
+    "linux",
+    "vst",
+    "vst3",
+    "yabridge"
+  ],
+  "description": "Community Linux Fairlight host for VST2, VST3 and CLAP effects. Version 0.3.0.1 adds a guarded lock-order patch; the provider has not yet confirmed the original freeze is resolved. Resolve 21.1 requires the gate library and dedicated launcher; follow version-specific instructions.",
+  "display_description": "Community Linux Fairlight host for VST2, VST3 and CLAP effects. Version 0.3.0.1 adds a guarded lock-order patch; the provider has not yet confirmed the original freeze is resolved. Resolve 21.1 requires the gate library and dedicated launcher; follow version-specific instructions.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Unofficial integration; upstream targets Resolve Studio 21.",
+  "display_platforms": "Linux",
+  "display_platform_notes": "Unofficial integration; upstream targets Resolve Studio 21.",
+  "platform_source": "https://github.com/JaySNL/VSTForResolveLinux#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 9,
+  "last_pushed_at": "2026-09-12T13:31:50Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "JaySNL/VSTForResolveLinux",
+    "url": "https://github.com/JaySNL/VSTForResolveLinux",
+    "kind": "stable-release",
+    "version": "v0.3.0.1",
+    "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1",
+    "date": "2026-09-12T13:31:58Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/JaySNL/VSTForResolveLinux#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [
+    {
+      "name": "JaySNL/VSTForResolveLinux",
+      "url": "https://github.com/JaySNL/VSTForResolveLinux",
+      "from": "v0.2.11",
+      "to": "v0.3.0.1",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-12",
+      "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1",
+      "summary": "Adds a proposed lock-order repair for Fairlight freezes. Provider has not yet confirmed the formerly freezing session is fixed.",
+      "changes": [
+        "Introduces guarded lock-order patching for the reported Fairlight deadlock.",
+        "Resolve 21.1 also needs the gate library and dedicated launcher.",
+        "Provider verified loading on 21.1.0.0014, but has not verified a ResetHistory call through the wrapper or a formerly freezing session."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1"
+        }
+      ]
+    }
+  ],
+  "legacy_id": "2c8805743c1a"
+}

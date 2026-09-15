@@ -34,6 +34,14 @@ Platform links open the supporting source. Notes preserve partial or untested su
 
 Each README category lists all repositories A–Z, followed by repeated groups for creators with multiple entries. Deduplicate by URL when importing. All five sorted views include external resources and keep official sources first; inapplicable stars and unknown dates sort last.
 
-The [repository CSV](data/repositories.csv) and [external directory](data/external-tools.md) provide catalogue entries. [Version overrides](data/version-overrides.json) take precedence over earlier evidence. Read the [historical update ledger](data/update-audit.json) with [later discoveries](data/community-discoveries.json). The [Reactor inventory](data/reactor-inventory.md) includes dependencies and non-Resolve companions; it is not a list of 707 verified Resolve plugins.
+The [repository CSV](data/repositories.csv) and [external directory](data/external-tools.md) remain the migration inputs for catalogue generation. [Version overrides](data/version-overrides.json) take precedence over earlier evidence. Read the [historical update ledger](data/update-audit.json) with [later discoveries](data/community-discoveries.json). The [Reactor inventory](data/reactor-inventory.md) includes dependencies and non-Resolve companions; it is not a list of 707 verified Resolve plugins.
+
+## Canonical resource records
+
+The canonical records live in [`data/resources/`](data/resources/) and are indexed by [`data/resources/index.json`](data/resources/index.json). Each record has a permanent `id`, a canonical URL, optional previous URL aliases, a broad `category`, a separate `kind`/format, and task labels. The site and README/views builders consume these records through compatibility adapters; the CSV/Markdown files remain legacy-compatible inputs for migration and review.
+
+Run `node scripts/migrate-resources.mjs --check` to validate all 514 records without writing. IDs are not derived from URLs, so a documented provider rename must preserve the ID and move the old URL to `urls.previous`. Do not use inferred `kind` values as compatibility, licensing, or installation evidence.
+
+Consumers should resolve a resource through its permanent ID first, then its canonical or documented previous URL alias. The shared resolver is available from `scripts/canonical-source.mjs`; duplicate aliases fail validation.
 
 Check current creator documentation before relying on compatibility, pricing or a version. Use [TOOL-FINDER.md](TOOL-FINDER.md) for detailed matching guidance and [CONTRIBUTING.md](CONTRIBUTING.md) to correct an entry.

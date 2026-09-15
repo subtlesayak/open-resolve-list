@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "uffy-photochemical-look-process-for-davinci-resolve-studio",
+  "name": "Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio",
+  "creator": "RichardUffy",
+  "urls": {
+    "canonical": "https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "powergrade",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color grading",
+    "dctl",
+    "dwg",
+    "film",
+    "film emulation",
+    "lut",
+    "photochemical",
+    "powergrade"
+  ],
+  "description": "Film-look system combining DCTLs, LUTs, and PowerGrades in a Studio/DWG workflow.",
+  "display_description": "Film-look system combining DCTLs, LUTs, and PowerGrades in a Studio/DWG workflow.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 0,
+  "last_pushed_at": "2025-04-10T00:37:52Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio",
+    "url": "https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio",
+    "kind": "commit",
+    "version": "8287e8eada918dcbbd0ab924b8b3a567f8255777",
+    "source": "https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio/commit/8287e8eada918dcbbd0ab924b8b3a567f8255777",
+    "date": "2025-04-10T00:37:52Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio/commit/8287e8eada918dcbbd0ab924b8b3a567f8255777",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "57dab3836918"
+}

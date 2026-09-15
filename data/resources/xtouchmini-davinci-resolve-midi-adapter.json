@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "xtouchmini-davinci-resolve-midi-adapter",
+  "name": "XTouchMini-Davinci-Resolve-Midi-Adapter",
+  "creator": "fashberg",
+  "urls": {
+    "canonical": "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+  "kind": "control-surface",
+  "tasks": [
+    "hardware"
+  ],
+  "tags": [
+    "behringer",
+    "controller",
+    "hotkeys",
+    "midi",
+    "x touch"
+  ],
+  "description": "Uses a Behringer X-Touch Mini to control Resolve through Windows hotkeys.",
+  "display_description": "Uses a Behringer X-Touch Mini to control Resolve through Windows hotkeys.",
+  "access": "Public; hardware separate",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows"
+  ],
+  "platform_notes": "Windows",
+  "display_platforms": "Windows",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 30,
+  "last_pushed_at": "2021-02-14T19:52:23Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter",
+    "url": "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter",
+    "kind": "stable-release",
+    "version": "v1.0",
+    "source": "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter/releases/tag/v1.0",
+    "date": "2021-02-07T17:13:08Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter/releases/tag/v1.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "a68c579f7767"
+}

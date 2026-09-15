@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "gamut-compress",
+  "name": "gamut-compress",
+  "creator": "jedypod",
+  "urls": {
+    "canonical": "https://github.com/jedypod/gamut-compress",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color management",
+    "dctl",
+    "fusion",
+    "gamut compression"
+  ],
+  "description": "Out-of-gamut color handling; includes DCTL and Fusion implementations.",
+  "display_description": "Out-of-gamut color handling; includes DCTL and Fusion implementations.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/jedypod/gamut-compress#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 111,
+  "last_pushed_at": "2022-05-27T17:07:00Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "jedypod/gamut-compress",
+    "url": "https://github.com/jedypod/gamut-compress",
+    "kind": "stable-release",
+    "version": "v0.7",
+    "source": "https://github.com/jedypod/gamut-compress/releases/tag/v0.7",
+    "date": "2021-04-11T20:44:35Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/jedypod/gamut-compress/releases/tag/v0.7",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "04f926bb281e"
+}

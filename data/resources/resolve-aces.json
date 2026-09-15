@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "resolve-aces",
+  "name": "resolve-aces",
+  "creator": "xtremestuff",
+  "urls": {
+    "canonical": "https://github.com/xtremestuff/resolve-aces",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "aces",
+    "color management",
+    "input transform",
+    "output transform"
+  ],
+  "description": "Custom ACES input and output transforms.",
+  "display_description": "Custom ACES input and output transforms.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "iPadOS"
+  ],
+  "platform_notes": "iPad requires Resolve 18.6.2 or newer.",
+  "display_platforms": "Windows;macOS;Linux;iPadOS",
+  "display_platform_notes": "iPad requires Resolve 18.6.2 or newer.",
+  "platform_source": "https://github.com/xtremestuff/resolve-aces#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 22,
+  "last_pushed_at": "2023-10-25T03:29:30Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "xtremestuff/resolve-aces",
+    "url": "https://github.com/xtremestuff/resolve-aces",
+    "kind": "commit",
+    "version": "39bc03711340f7d34feed2e2993e78a081516517",
+    "source": "https://github.com/xtremestuff/resolve-aces/commit/39bc03711340f7d34feed2e2993e78a081516517",
+    "date": "2023-10-25T03:29:27Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/xtremestuff/resolve-aces#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/xtremestuff/resolve-aces/commit/39bc03711340f7d34feed2e2993e78a081516517",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "ce6568f5c467"
+}

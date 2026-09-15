@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "valhalla-supermassive",
+  "name": "Valhalla Supermassive",
+  "creator": "valhalladsp.com",
+  "urls": {
+    "canonical": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Audio / Fairlight companions",
+  "kind": "workflow-app",
+  "tasks": [
+    "audio"
+  ],
+  "tags": [
+    "audio effects",
+    "delay",
+    "echo",
+    "reverb"
+  ],
+  "description": "Reverb and delay effect with official Windows and native Intel/Apple Silicon Mac builds. Resolve host compatibility still depends on plugin format and host version.",
+  "display_description": "Reverb and delay effect with official Windows and native Intel/Apple Silicon Mac builds. Resolve host compatibility still depends on plugin format and host version.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS",
+  "display_platforms": "🪟 Windows · 🍎 macOS",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:27.497Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Valhalla Supermassive",
+    "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
+    "kind": "vendor-version",
+    "version": "5.0.0",
+    "source": "https://valhalladsp.com/demos-downloads/",
+    "date": "2025-11-26",
+    "date_kind": "installer update",
+    "checked_at": "2026-09-06T12:10:27.497Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
+      "checked_at": "2026-09-06T12:10:27.497Z",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://valhalladsp.com/demos-downloads/",
+      "checked_at": "2026-09-06T12:10:27.497Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "a8a2cde364ae"
+}

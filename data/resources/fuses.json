@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "fuses",
+  "name": "Fuses",
+  "creator": "AntonChernov86",
+  "urls": {
+    "canonical": "https://github.com/AntonChernov86/Fuses",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "fuse",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "fuse",
+    "fusion",
+    "nodes"
+  ],
+  "description": "Custom Fusion Fuse collection.",
+  "display_description": "Custom Fusion Fuse collection.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows"
+  ],
+  "platform_notes": "Windows",
+  "display_platforms": "Windows",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/AntonChernov86/Fuses#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 0,
+  "last_pushed_at": "2023-11-09T15:14:43Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "AntonChernov86/Fuses",
+    "url": "https://github.com/AntonChernov86/Fuses",
+    "kind": "commit",
+    "version": "c24d8a4483f02530a0fa14c52f15ff3f93b66046",
+    "source": "https://github.com/AntonChernov86/Fuses/commit/c24d8a4483f02530a0fa14c52f15ff3f93b66046",
+    "date": "2023-11-09T15:14:37Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/AntonChernov86/Fuses#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/AntonChernov86/Fuses/commit/c24d8a4483f02530a0fa14c52f15ff3f93b66046",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "b91a7ede7163"
+}

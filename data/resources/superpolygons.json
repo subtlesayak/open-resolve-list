@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "superpolygons",
+  "name": "SuperPolygons",
+  "creator": "Akascape",
+  "urls": {
+    "canonical": "https://akascape.gumroad.com/l/super-polygons-beta",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Effects and animation",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "fusion",
+    "low poly",
+    "tiles",
+    "triangulation",
+    "voronoi"
+  ],
+  "description": "Low-poly, triangulation, Voronoi, and tile effects inside Fusion. Resolve 17+ Free or Studio; suggested donations are optional.",
+  "display_description": "Low-poly, triangulation, Voronoi, and tile effects inside Fusion. Resolve 17+ Free or Studio; suggested donations are optional.",
+  "access": "🆓 Free; store download",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://akascape.gumroad.com/l/super-polygons-beta",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "min": "17"
+      }
+    ],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "SuperPolygons",
+    "url": "https://akascape.gumroad.com/l/super-polygons-beta",
+    "kind": "vendor-version",
+    "version": "0.3",
+    "source": "https://akascape.gumroad.com/l/super-polygons-beta",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:29.600Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://akascape.gumroad.com/l/super-polygons-beta",
+      "checked_at": "2026-09-06T12:10:29.600Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "Resolve edition and version range",
+      "level": "documented",
+      "source": "https://akascape.gumroad.com/l/super-polygons-beta",
+      "checked_at": "2026-09-06T12:10:29.600Z",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Low-poly, triangulation, Voronoi, and tile effects inside Fusion. Resolve 17+ Free or Studio; suggested donations are optional."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "82ae4696f763"
+}

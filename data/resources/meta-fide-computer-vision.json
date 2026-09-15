@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "meta-fide-computer-vision",
+  "name": "Meta Fide Computer Vision",
+  "creator": "metafide.com",
+  "urls": {
+    "canonical": "https://www.metafide.com/?product=computer-vision",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, animation, and effects",
+  "kind": "fuse",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "art",
+    "ascii",
+    "fuse",
+    "fusion"
+  ],
+  "description": "ASCII-art Fusion Effect and Fuse for Resolve 15+. Version 1.1 addresses Resolve 19 compatibility; Linux is available by custom order.",
+  "display_description": "ASCII-art Fusion Effect and Fuse for Resolve 15+. Version 1.1 addresses Resolve 19 compatibility; Linux is available by custom order.",
+  "access": "🆓 Free product; checkout workflow",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "🪟 🍎 🐧",
+  "display_platforms": "🪟 🍎 🐧",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:19.548Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Meta Fide Computer Vision",
+    "url": "https://www.metafide.com/?product=computer-vision",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://www.metafide.com/?product=computer-vision",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:19.548Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://www.metafide.com/?product=computer-vision",
+      "checked_at": "2026-09-06T12:10:19.548Z",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "49f1cf5cbbe7"
+}

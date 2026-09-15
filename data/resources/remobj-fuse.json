@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "remobj-fuse",
+  "name": "RemObj-Fuse",
+  "creator": "Akascape",
+  "urls": {
+    "canonical": "https://github.com/Akascape/RemObj-Fuse",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "fuse",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "ai",
+    "cleanup",
+    "fusion",
+    "inpainting",
+    "object removal"
+  ],
+  "description": "Masked object removal/inpainting using LaMa; README supports Free and Studio.",
+  "display_description": "Masked object removal/inpainting using LaMa; README supports Free and Studio.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/Akascape/RemObj-Fuse#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 20,
+  "last_pushed_at": "2026-07-05T20:40:57Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Akascape/RemObj-Fuse",
+    "url": "https://github.com/Akascape/RemObj-Fuse",
+    "kind": "stable-release",
+    "version": "dist",
+    "source": "https://github.com/Akascape/RemObj-Fuse/releases/tag/dist",
+    "date": "2026-07-05T08:13:03Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/Akascape/RemObj-Fuse/releases/tag/dist",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "Resolve edition",
+      "level": "documented",
+      "source": "https://github.com/Akascape/RemObj-Fuse",
+      "checked_at": "2026-09-07T09:22:47.337Z",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Masked object removal/inpainting using LaMa; README supports Free and Studio."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "e167862d17a6"
+}

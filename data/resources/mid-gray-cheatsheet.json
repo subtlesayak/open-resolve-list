@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "mid-gray-cheatsheet",
+  "name": "Mid-Gray Cheatsheet",
+  "creator": "Cullen Kelly Color",
+  "urls": {
+    "canonical": "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": true,
+  "category": "Community discoveries",
+  "kind": "reference",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "reference",
+    "middle gray",
+    "color space",
+    "exposure"
+  ],
+  "description": "Reference middle-gray values for 14 color spaces in normalized, 10-bit and 12-bit notation.",
+  "display_description": "Reference middle-gray values for 14 color spaces in normalized, 10-bit and 12-bit notation.",
+  "access": "🆓 Free; creator download form required",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "📖 Reference",
+  "display_platforms": "📖 Reference",
+  "display_platform_notes": "",
+  "platform_source": "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Mid-Gray Cheatsheet",
+    "url": "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and access",
+      "level": "documented",
+      "source": "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet",
+      "checked_at": "2026-09-08",
+      "note": "Creator listing reviewed; not installation tested."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "000d17c16cb7"
+}

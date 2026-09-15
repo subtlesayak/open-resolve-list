@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "vonkultra",
+  "name": "VonkUltra",
+  "creator": "Kartaverse",
+  "urls": {
+    "canonical": "https://github.com/Kartaverse/VonkUltra",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "data driven",
+    "fusion",
+    "generative",
+    "nodes",
+    "procedural"
+  ],
+  "description": "Data-driven and generative node tools for Fusion.",
+  "display_description": "Data-driven and generative node tools for Fusion.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/Kartaverse/VonkUltra#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 11,
+  "last_pushed_at": "2026-07-27T22:05:11Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Kartaverse/VonkUltra",
+    "url": "https://github.com/Kartaverse/VonkUltra",
+    "kind": "commit",
+    "version": "4d10c55df1c1c5200cf479dd773b784584986981",
+    "source": "https://github.com/Kartaverse/VonkUltra/commit/4d10c55df1c1c5200cf479dd773b784584986981",
+    "date": "2026-07-27T22:05:07Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/Kartaverse/VonkUltra/commit/4d10c55df1c1c5200cf479dd773b784584986981",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "74f2b71c12d1"
+}

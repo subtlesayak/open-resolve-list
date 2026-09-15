@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "postsync",
+  "name": "PostSync",
+  "creator": "Chris Roy Films",
+  "urls": {
+    "canonical": "https://chrisroyfilms.com/postsync/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "other",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "backup",
+    "cache cleanup",
+    "preferences",
+    "presets",
+    "settings sync"
+  ],
+  "description": "Synchronizes workstation presets and settings and backs up or transfers Resolve preferences. Includes scheduling, share mounting and configurable cache cleanup; review selected folders before enabling cleanup.",
+  "display_description": "Synchronizes workstation presets and settings and backs up or transfers Resolve preferences. Includes scheduling, share mounting and configurable cache cleanup; review selected folders before enabling cleanup.",
+  "access": "💰 Paid; 30-day trial",
+  "accessGroup": "paid",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "🍎 macOS",
+  "display_platforms": "🍎 macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://chrisroyfilms.com/postsync/version-history/",
+  "platform_checked_at": "2026-09-07",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": "Review selected folders before enabling cache cleanup. Network or cloud synchronization setup depends on the chosen destination.",
+    "installation": null
+  },
+  "version": {
+    "name": "PostSync",
+    "url": "https://chrisroyfilms.com/postsync/",
+    "kind": "vendor-version",
+    "version": "2.5",
+    "source": "https://chrisroyfilms.com/postsync/version-history/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-07"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://chrisroyfilms.com/postsync/version-history/",
+      "checked_at": "2026-09-07",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://chrisroyfilms.com/postsync/version-history/",
+      "checked_at": "2026-09-07",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://chrisroyfilms.com/postsync/",
+      "checked_at": "2026-09-07",
+      "note": "Settings synchronization, scheduling and configurable cleanup; no exact host-version requirement established."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [
+    {
+      "name": "PostSync",
+      "url": "https://chrisroyfilms.com/postsync/",
+      "from": "2.4.1",
+      "to": "2.5",
+      "release": "v1.14",
+      "catalogue_date": "2026-09-07",
+      "upstream_date": null,
+      "source": "https://chrisroyfilms.com/postsync/version-history/",
+      "summary": "Native Swift conversion, permissions onboarding and scheduled-operation controls.",
+      "changes": [
+        "Native Swift conversion, permissions onboarding and scheduled-operation controls."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://chrisroyfilms.com/postsync/version-history/"
+        }
+      ]
+    }
+  ],
+  "legacy_id": "a841a20e284b"
+}

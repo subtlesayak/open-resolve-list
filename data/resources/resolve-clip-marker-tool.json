@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "resolve-clip-marker-tool",
+  "name": "resolve-clip-marker-tool",
+  "creator": "postflows",
+  "urls": {
+    "canonical": "https://github.com/postflows/resolve-clip-marker-tool",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "clip markers",
+    "duration markers",
+    "markers"
+  ],
+  "description": "Create and modify clip/duration markers by clip type, track, and color. Resolve Studio 20+.",
+  "display_description": "Create and modify clip/duration markers by clip type, track, and color. Resolve Studio 20+.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Windows;macOS",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/postflows/resolve-clip-marker-tool#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 0,
+  "last_pushed_at": "2026-03-11T17:58:19Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "edition": "Studio",
+        "min": "20"
+      }
+    ],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "postflows/resolve-clip-marker-tool",
+    "url": "https://github.com/postflows/resolve-clip-marker-tool",
+    "kind": "commit",
+    "version": "5f3ec56c77255290769f3756bd70691df17b8405",
+    "source": "https://github.com/postflows/resolve-clip-marker-tool/commit/5f3ec56c77255290769f3756bd70691df17b8405",
+    "date": "2026-03-11T17:58:19Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-clip-marker-tool#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-clip-marker-tool/commit/5f3ec56c77255290769f3756bd70691df17b8405",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    },
+    {
+      "field": "Resolve edition and version range",
+      "level": "documented",
+      "source": "https://github.com/postflows/resolve-clip-marker-tool#readme",
+      "checked_at": "2026-09-06",
+      "note": "Structured from the existing source-backed catalogue description; no new installation test: Create and modify clip/duration markers by clip type, track, and color. Resolve Studio 20+."
+    }
+  ],
+  "unknownFields": [
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "1e2a1665fb20"
+}

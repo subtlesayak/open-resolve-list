@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "davinci-resolve-linux-toolkit",
+  "name": "davinci-resolve-linux-toolkit",
+  "creator": "amsomr",
+  "urls": {
+    "canonical": "https://github.com/amsomr/davinci-resolve-linux-toolkit",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Linux installation, compatibility, and troubleshooting",
+  "kind": "fuse",
+  "tasks": [
+    "linux"
+  ],
+  "tags": [
+    "linux",
+    "installation",
+    "fedora",
+    "ubuntu",
+    "debian",
+    "arch",
+    "opencl",
+    "fuse2"
+  ],
+  "description": "Community installation and compatibility helpers for Fedora, Debian/Ubuntu and Arch. Covers FUSE2, library/ABI conflicts and OpenCL or GPU setup. Scripts can modify host libraries and drivers; follow the distribution-specific instructions. Not an official Blackmagic installer.",
+  "display_description": "Community installation and compatibility helpers for Fedora, Debian/Ubuntu and Arch. Covers FUSE2, library/ABI conflicts and OpenCL or GPU setup. Scripts can modify host libraries and drivers; follow the distribution-specific instructions. Not an official Blackmagic installer.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "display_platforms": "Linux",
+  "display_platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "platform_source": "https://github.com/amsomr/davinci-resolve-linux-toolkit#readme",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": "2026-09-15",
+  "stars": 0,
+  "last_pushed_at": "2026-09-13T17:04:34Z",
+  "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": "Distribution-specific packages and supported GPU drivers",
+    "installation": null
+  },
+  "version": {
+    "name": "amsomr/davinci-resolve-linux-toolkit",
+    "url": "https://github.com/amsomr/davinci-resolve-linux-toolkit",
+    "kind": "commit",
+    "version": "9b6107c69a31244d066abb2e70f6cad13e0a4f4c",
+    "source": "https://github.com/amsomr/davinci-resolve-linux-toolkit/commit/9b6107c69a31244d066abb2e70f6cad13e0a4f4c",
+    "date": "2026-09-13T17:04:32Z",
+    "checked_at": "2026-09-15T11:10:28.438Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/amsomr/davinci-resolve-linux-toolkit#readme",
+      "checked_at": "2026-09-15",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/amsomr/davinci-resolve-linux-toolkit/commit/9b6107c69a31244d066abb2e70f6cad13e0a4f4c",
+      "checked_at": "2026-09-15T11:10:28.438Z",
+      "note": "Source revision, not a software release."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/amsomr/davinci-resolve-linux-toolkit#readme",
+      "checked_at": "2026-09-15",
+      "note": "Community installation and compatibility helpers for Fedora, Debian/Ubuntu and Arch. Covers FUSE2, library/ABI conflicts and OpenCL or GPU setup. Scripts can modify host libraries and drivers; follow the distribution-specific instructions. Not an official Blackmagic installer."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "8bbd982ad08c"
+}

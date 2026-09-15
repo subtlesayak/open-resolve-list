@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "fairlight-sound-library-and-audio-guide",
+  "name": "Fairlight Sound Library and audio guide",
+  "creator": "Blackmagic Design",
+  "urls": {
+    "canonical": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf",
+    "previous": []
+  },
+  "origin": "external",
+  "official": true,
+  "reference": true,
+  "category": "Official Blackmagic Design resources",
+  "kind": "reference",
+  "tasks": [],
+  "tags": [
+    "audio library",
+    "fairlight",
+    "foley",
+    "sound effects",
+    "training"
+  ],
+  "description": "Official Resolve 20 audio guide explains downloading the Fairlight Sound Library from the Sound Library panel. Includes over 500 Foley sounds; project-use permission does not establish permission to redistribute the library.",
+  "display_description": "Official Resolve 20 audio guide explains downloading the Fairlight Sound Library from the Sound Library panel. Includes over 500 Foley sounds; project-use permission does not establish permission to redistribute the library.",
+  "access": "🆓 Library for use in projects; original terms apply",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "📖 Reference; library installation requirements vary",
+  "display_platforms": "📖 Reference; library installation requirements vary",
+  "display_platform_notes": "",
+  "platform_source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Fairlight Sound Library and audio guide",
+    "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06"
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "dfb39ac25220"
+}

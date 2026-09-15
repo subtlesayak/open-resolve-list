@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "davinciresolve-dynamictext",
+  "name": "DaVinciResolve-DynamicText",
+  "creator": "IgorRidanovic",
+  "urls": {
+    "canonical": "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "dynamic text",
+    "scripting",
+    "titles"
+  ],
+  "description": "Dynamic title/text scripting.",
+  "display_description": "Dynamic title/text scripting.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 25,
+  "last_pushed_at": "2020-07-05T22:13:01Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "IgorRidanovic/DaVinciResolve-DynamicText",
+    "url": "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText",
+    "kind": "commit",
+    "version": "28dd86bc156be6bafd97c4cd0686c2747905f676",
+    "source": "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText/commit/28dd86bc156be6bafd97c4cd0686c2747905f676",
+    "date": "2020-07-05T22:13:00Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText/commit/28dd86bc156be6bafd97c4cd0686c2747905f676",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "1c35bf9422bf"
+}

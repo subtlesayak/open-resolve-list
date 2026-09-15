@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "resolve-advanced-importer",
+  "name": "resolve-advanced-importer",
+  "creator": "heyJordanParker",
+  "urls": {
+    "canonical": "https://github.com/heyJordanParker/resolve-advanced-importer",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "automation",
+    "bins",
+    "media import",
+    "watch folder"
+  ],
+  "description": "Watch a folder and import new media into a selected Resolve bin. Requires external scripting enabled locally.",
+  "display_description": "Watch a folder and import new media into a selected Resolve bin. Requires external scripting enabled locally.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/heyJordanParker/resolve-advanced-importer#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 16,
+  "last_pushed_at": "2022-01-11T05:23:26Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "heyJordanParker/resolve-advanced-importer",
+    "url": "https://github.com/heyJordanParker/resolve-advanced-importer",
+    "kind": "stable-release",
+    "version": "1.3",
+    "source": "https://github.com/heyJordanParker/resolve-advanced-importer/releases/tag/1.3",
+    "date": "2022-01-01T12:59:22Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/heyJordanParker/resolve-advanced-importer/releases/tag/1.3",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "b81634709893"
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "phantom-idt",
+  "name": "Phantom IDT",
+  "creator": "Cullen Kelly Color",
+  "urls": {
+    "canonical": "https://cullenkellycolor.com/toolkit/phantom-idt",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "dctl",
+    "phantom",
+    "log",
+    "input transform",
+    "davinci wide gamut"
+  ],
+  "description": "DCTL input transform from Phantom Log 1 or Log 2 footage into DaVinci Wide Gamut.",
+  "display_description": "DCTL input transform from Phantom Log 1 or Log 2 footage into DaVinci Wide Gamut.",
+  "access": "🆓 Free; creator download form required",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://cullenkellycolor.com/toolkit/phantom-idt",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Phantom IDT",
+    "url": "https://cullenkellycolor.com/toolkit/phantom-idt",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://cullenkellycolor.com/toolkit/phantom-idt",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "purpose and access",
+      "level": "documented",
+      "source": "https://cullenkellycolor.com/toolkit/phantom-idt",
+      "checked_at": "2026-09-08",
+      "note": "Creator listing reviewed; not installation tested."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "72d3a398a135"
+}

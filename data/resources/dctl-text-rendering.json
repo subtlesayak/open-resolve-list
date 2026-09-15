@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "dctl-text-rendering",
+  "name": "dctl-text-rendering",
+  "creator": "thatcherfreeman",
+  "urls": {
+    "canonical": "https://github.com/thatcherfreeman/dctl-text-rendering",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Developer libraries and scripting references",
+  "kind": "dctl",
+  "tasks": [
+    "workflow",
+    "development",
+    "learning"
+  ],
+  "tags": [
+    "dctl",
+    "development",
+    "fonts",
+    "python",
+    "text rendering"
+  ],
+  "description": "DCTL text-rendering example and Python font-header generator for tool developers.",
+  "display_description": "DCTL text-rendering example and Python font-header generator for tool developers.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/thatcherfreeman/dctl-text-rendering#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 11,
+  "last_pushed_at": "2025-07-23T03:01:06Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "thatcherfreeman/dctl-text-rendering",
+    "url": "https://github.com/thatcherfreeman/dctl-text-rendering",
+    "kind": "commit",
+    "version": "17312c2fc96f835ac0df80d4a440c8c41049f781",
+    "source": "https://github.com/thatcherfreeman/dctl-text-rendering/commit/17312c2fc96f835ac0df80d4a440c8c41049f781",
+    "date": "2025-07-23T03:01:01Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/thatcherfreeman/dctl-text-rendering/commit/17312c2fc96f835ac0df80d4a440c8c41049f781",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "330dcb1fdf98"
+}

@@ -47,6 +47,10 @@ Relative ages (such as `1 week back`) are calculated as of the metadata-check ti
 
 Run `node --test scripts/catalogue.test.mjs` to verify sorting, relative dates, data preservation, and generated links before submitting.
 
+### Canonical records migration
+
+The canonical per-resource records are generated locally under `data/resources/`, with the ID map in `data/resource-id-map.json`. Update the CSV/Markdown and existing evidence ledgers, then run `node scripts/migrate-resources.mjs --check` and `node scripts/migrate-resources.mjs`; the site, README/views, version builder and update checks consume the resulting records through compatibility adapters. Permanent IDs must survive provider URL changes; place old URLs in `urls.previous` only when the rename or redirect is documented. The `kind` field is a discovery taxonomy, not compatibility or licensing evidence. Keep migration reports and raw research local.
+
 To audit upstream updates, run `node scripts/check-updates.mjs --github`, then `node scripts/check-updates.mjs --github-changelogs`, and `node scripts/check-updates.mjs --external`. These read-only checks write research output under `.research/update-check`; keep raw research out of commits. GitHub checks require authenticated `gh`. External checks use unauthenticated public pages and may encounter challenges or JavaScript shells. Root changelog discovery is deliberately bounded and does not crawl every nested documentation link.
 
 Community additions live in `data/community-discoveries.json`; the separate Reactor manifest inventory is `data/reactor-inventory.json`. Run `node scripts/build-community-report.mjs` after reviewed edits. Do not count inventory folders as curated plugins: many are dependencies, host installers or legacy companions. Preserve historical audit scope; later additions have their own dated evidence rather than retroactively claiming an earlier audit checked them. Run `node --test --test-concurrency=1 scripts/*.test.mjs` for the complete validation suite.

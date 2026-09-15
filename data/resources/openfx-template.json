@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "openfx-template",
+  "name": "openfx-template",
+  "creator": "gingray",
+  "urls": {
+    "canonical": "https://github.com/gingray/openfx-template",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Developer libraries and scripting references",
+  "kind": "ofx",
+  "tasks": [
+    "workflow",
+    "development",
+    "learning"
+  ],
+  "tags": [
+    "cpp",
+    "development",
+    "openfx",
+    "plugin template"
+  ],
+  "description": "C++ OpenFX starter template for plugin developers.",
+  "display_description": "C++ OpenFX starter template for plugin developers.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "Only macOS builds documented; Windows support is future work.",
+  "display_platforms": "macOS",
+  "display_platform_notes": "Only macOS builds documented; Windows support is future work.",
+  "platform_source": "https://github.com/gingray/openfx-template#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 16,
+  "last_pushed_at": "2021-08-10T21:40:48Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "gingray/openfx-template",
+    "url": "https://github.com/gingray/openfx-template",
+    "kind": "commit",
+    "version": "a7dfd39f33cceeafa30273561292718dfd0d7f32",
+    "source": "https://github.com/gingray/openfx-template/commit/a7dfd39f33cceeafa30273561292718dfd0d7f32",
+    "date": "2021-08-09T23:01:10Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/gingray/openfx-template#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/gingray/openfx-template/commit/a7dfd39f33cceeafa30273561292718dfd0d7f32",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "0b1ceb997b18"
+}

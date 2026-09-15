@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "gyroflow-to-csv",
+  "name": "Gyroflow-to-CSV",
+  "creator": "EmberLightVFX",
+  "urls": {
+    "canonical": "https://github.com/EmberLightVFX/Gyroflow-to-CSV",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "workflow-app",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "camera data",
+    "csv",
+    "fusion",
+    "gyro",
+    "telemetry"
+  ],
+  "description": "Gyro telemetry export for Fusion camera/data-driven workflows.",
+  "display_description": "Gyro telemetry export for Fusion camera/data-driven workflows.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/EmberLightVFX/Gyroflow-to-CSV#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 18,
+  "last_pushed_at": "2023-01-05T11:39:24Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "EmberLightVFX/Gyroflow-to-CSV",
+    "url": "https://github.com/EmberLightVFX/Gyroflow-to-CSV",
+    "kind": "commit",
+    "version": "7a3e6674fc8d9915a1f1195ea3c5d015c6a788a3",
+    "source": "https://github.com/EmberLightVFX/Gyroflow-to-CSV/commit/7a3e6674fc8d9915a1f1195ea3c5d015c6a788a3",
+    "date": "2023-01-05T11:39:24Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/EmberLightVFX/Gyroflow-to-CSV/commit/7a3e6674fc8d9915a1f1195ea3c5d015c6a788a3",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "fd65b9bf8c21"
+}

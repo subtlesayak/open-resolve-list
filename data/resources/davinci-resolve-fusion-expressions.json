@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "davinci-resolve-fusion-expressions",
+  "name": "davinci-resolve-fusion-expressions",
+  "creator": "mrJohnHolt",
+  "urls": {
+    "canonical": "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "fusion-macro",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "expressions",
+    "fusion",
+    "macros",
+    "templates"
+  ],
+  "description": "Expressions, macros, and reusable visual templates.",
+  "display_description": "Expressions, macros, and reusable visual templates.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 2,
+  "last_pushed_at": "2026-06-05T08:11:06Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "mrJohnHolt/davinci-resolve-fusion-expressions",
+    "url": "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions",
+    "kind": "commit",
+    "version": "c1c5b7866f14a7b6bf3b6ee8064a3f0e48653783",
+    "source": "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions/commit/c1c5b7866f14a7b6bf3b6ee8064a3f0e48653783",
+    "date": "2026-06-05T08:11:06Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions/commit/c1c5b7866f14a7b6bf3b6ee8064a3f0e48653783",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "d9ceab3d26d6"
+}

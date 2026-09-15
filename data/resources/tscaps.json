@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "tscaps",
+  "name": "tscaps",
+  "creator": "francozanardi",
+  "urls": {
+    "canonical": "https://github.com/francozanardi/tscaps",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions"
+  ],
+  "tags": [
+    "captions",
+    "subtitles",
+    "whisper",
+    "srt",
+    "animation",
+    "browser",
+    "transcription"
+  ],
+  "description": "Browser subtitle editor with local Whisper transcription, animated captions, SRT export and burned-in video export. Useful alongside Resolve through subtitle/media files; it does not create editable Fusion captions.",
+  "display_description": "Browser subtitle editor with local Whisper transcription, animated captions, SRT export and burned-in video export. Useful alongside Resolve through subtitle/media files; it does not create editable Fusion captions.",
+  "access": "Free; separate paid cloud service",
+  "accessGroup": "mixed",
+  "platforms": [],
+  "platform_notes": "Requires a supported WebCodecs browser. Editor is AGPL-3.0; engine/templates MIT. First use downloads transcription models.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "Requires a supported WebCodecs browser. Editor is AGPL-3.0; engine/templates MIT. First use downloads transcription models.",
+  "platform_source": "https://github.com/francozanardi/tscaps#readme",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": "2026-09-08",
+  "stars": 51,
+  "last_pushed_at": "2026-08-30T18:48:30Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "free",
+    "account": "not-required",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "francozanardi/tscaps",
+    "url": "https://github.com/francozanardi/tscaps",
+    "kind": "stable-release",
+    "version": "web-v0.3.0",
+    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
+    "date": "2026-08-30T15:44:34Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/francozanardi/tscaps",
+      "checked_at": "2026-09-08",
+      "note": "Requires a supported WebCodecs browser. Editor is AGPL-3.0; engine/templates MIT. First use downloads transcription models."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "222ea3354263"
+}

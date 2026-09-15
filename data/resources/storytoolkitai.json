@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "storytoolkitai",
+  "name": "StoryToolkitAI",
+  "creator": "octimot",
+  "urls": {
+    "canonical": "https://github.com/octimot/StoryToolkitAI",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+  "kind": "subtitle-tool",
+  "tasks": [
+    "captions"
+  ],
+  "tags": [
+    "speech to text",
+    "story editing",
+    "transcription",
+    "translation"
+  ],
+  "description": "Transcription, translation, search, and story-oriented editing. Local features are free; direct Resolve integration requires Studio.",
+  "display_description": "Transcription, translation, search, and story-oriented editing. Local features are free; direct Resolve integration requires Studio.",
+  "access": "Free; optional paid services",
+  "accessGroup": "mixed",
+  "platforms": [],
+  "platform_notes": "Unverified",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/octimot/StoryToolkitAI#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 1011,
+  "last_pushed_at": "2026-07-28T06:37:10Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [
+      "Studio"
+    ],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "mixed",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "octimot/StoryToolkitAI",
+    "url": "https://github.com/octimot/StoryToolkitAI",
+    "kind": "stable-release",
+    "version": "v0.25.1",
+    "source": "https://github.com/octimot/StoryToolkitAI/releases/tag/v0.25.1",
+    "date": "2025-02-20T11:20:24Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/octimot/StoryToolkitAI/releases/tag/v0.25.1",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/octimot/StoryToolkitAI",
+      "checked_at": "2026-09-06",
+      "note": "Direct Resolve integration requires Studio. Local features are free; optional paid services are separate."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "1259e2721836"
+}

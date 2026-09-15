@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "toolbox",
+  "name": "Toolbox",
+  "creator": "VilleOlof",
+  "urls": {
+    "canonical": "https://github.com/VilleOlof/Toolbox",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "legacy",
+    "productivity",
+    "toolbox",
+    "workflow"
+  ],
+  "description": "Modular Resolve productivity toolbox. Archived—treat as legacy.",
+  "display_description": "Modular Resolve productivity toolbox. Archived—treat as legacy.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Archived. Upstream excludes Linux workflow integrations.",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "Archived. Upstream excludes Linux workflow integrations.",
+  "platform_source": "https://github.com/VilleOlof/Toolbox#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 61,
+  "last_pushed_at": "2024-09-27T22:45:55Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "VilleOlof/Toolbox",
+    "url": "https://github.com/VilleOlof/Toolbox",
+    "kind": "stable-release",
+    "version": "V1.0.6",
+    "source": "https://github.com/VilleOlof/Toolbox/releases/tag/V1.0.6",
+    "date": "2023-05-06T21:59:35Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/VilleOlof/Toolbox#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/VilleOlof/Toolbox/releases/tag/V1.0.6",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "c5fe1f17b91f"
+}

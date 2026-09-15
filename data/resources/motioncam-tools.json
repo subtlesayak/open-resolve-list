@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "motioncam-tools",
+  "name": "MotionCam Tools",
+  "creator": "MotionCam",
+  "urls": {
+    "canonical": "https://www.motioncamapp.com/tools",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "fuse",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "motioncam",
+    "mcraw",
+    "raw video",
+    "dng",
+    "cinemadng",
+    "proxy",
+    "preview",
+    "media",
+    "log"
+  ],
+  "description": "Mounts .mcraw footage as DNG sequences for Resolve, with GPU preview, proxy mode, per-clip settings and saved sessions. Version 2.0 beta. Windows needs NTFS, ProjectedFS and a Vulkan GPU; macOS uses fuse-t. Companion desktop utility.",
+  "display_description": "Mounts .mcraw footage as DNG sequences for Resolve, with GPU preview, proxy mode, per-clip settings and saved sessions. Version 2.0 beta. Windows needs NTFS, ProjectedFS and a Vulkan GPU; macOS uses fuse-t. Companion desktop utility.",
+  "access": "🆓 Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS",
+  "display_platforms": "🪟 Windows · 🍎 macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://www.motioncamapp.com/tools",
+  "platform_checked_at": "2026-09-08",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": "Windows 10 1809+, NTFS, ProjectedFS and Vulkan-compatible GPU; macOS 12+, Intel or Apple Silicon and fuse-t. Minimum 8 GB RAM.",
+    "installation": null
+  },
+  "version": {
+    "name": "MotionCam Tools",
+    "url": "https://www.motioncamapp.com/tools",
+    "kind": "vendor-version",
+    "version": "2.0 beta",
+    "source": "https://www.motioncamapp.com/tools",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-08"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://www.motioncamapp.com/tools",
+      "checked_at": "2026-09-08",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://www.motioncamapp.com/tools",
+      "checked_at": "2026-09-08",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "platforms, purpose, access and dependencies",
+      "level": "documented",
+      "source": "https://www.motioncamapp.com/tools",
+      "checked_at": "2026-09-08",
+      "note": "Official tools page reviewed. Beta; exact Resolve edition/version and installation behavior not tested."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "57cfcc8f7478"
+}

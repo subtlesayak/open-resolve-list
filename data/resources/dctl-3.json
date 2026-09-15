@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "dctl-3",
+  "name": "DCTL",
+  "creator": "JuanPabloZambrano",
+  "urls": {
+    "canonical": "https://github.com/JuanPabloZambrano/DCTL",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Color grading, DCTLs, film looks, and color science",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "color grading",
+    "dctl",
+    "display transform",
+    "fuse"
+  ],
+  "description": "Creative and technical DCTLs and Fusion Fuses, including the 2499 display rendering transform.",
+  "display_description": "Creative and technical DCTLs and Fusion Fuses, including the 2499 display rendering transform.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Installation paths documented; individual tools have separate requirements.",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "Installation paths documented; individual tools have separate requirements.",
+  "platform_source": "https://github.com/JuanPabloZambrano/DCTL#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 320,
+  "last_pushed_at": "2025-11-06T20:39:32Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "JuanPabloZambrano/DCTL",
+    "url": "https://github.com/JuanPabloZambrano/DCTL",
+    "kind": "commit",
+    "version": "88b5fbcfdb4354b9b54e99eceac813483b355cad",
+    "source": "https://github.com/JuanPabloZambrano/DCTL/commit/88b5fbcfdb4354b9b54e99eceac813483b355cad",
+    "date": "2025-11-06T20:39:31Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/JuanPabloZambrano/DCTL#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/JuanPabloZambrano/DCTL/commit/88b5fbcfdb4354b9b54e99eceac813483b355cad",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "4e23f228f2b6"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "cinepacks-free-samples",
+  "name": "CinePacks free samples",
+  "creator": "CinePacks",
+  "urls": {
+    "canonical": "https://cinepacks.store/collections/free-packs",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "other",
+  "tasks": [],
+  "tags": [
+    "assets",
+    "lut",
+    "overlays",
+    "sound effects",
+    "textures"
+  ],
+  "description": "Free sample collections of overlays, textures, LUTs and sound effects for editing. These are media assets rather than a shared Resolve plugin; check each pack’s format and usage terms.",
+  "display_description": "Free sample collections of overlays, textures, LUTs and sound effects for editing. These are media assets rather than a shared Resolve plugin; check each pack’s format and usage terms.",
+  "access": "🆓 Sample packs; 💰 Full collections",
+  "accessGroup": "public",
+  "platforms": [],
+  "platform_notes": "❔ Check individual asset formats",
+  "display_platforms": "❔ Check individual asset formats",
+  "display_platform_notes": "",
+  "platform_source": "https://cinepacks.store/collections/free-packs",
+  "platform_checked_at": "2026-09-07",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "CinePacks free samples",
+    "url": "https://cinepacks.store/collections/free-packs",
+    "kind": "not-applicable",
+    "version": null,
+    "source": "https://cinepacks.store/collections/free-packs",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-07",
+    "note": "Reference or collection with no single software release version."
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "f0afbc76f573"
+}

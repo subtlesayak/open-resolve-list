@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "resolve-learning-path",
+  "name": "Resolve learning path",
+  "creator": "Ripple Training",
+  "urls": {
+    "canonical": "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": true,
+  "category": "Community discoveries",
+  "kind": "reference",
+  "tasks": [],
+  "tags": [
+    "color grading",
+    "editing",
+    "learning",
+    "media management",
+    "training"
+  ],
+  "description": "Resolve learning pathway covering editing, color and media management. Reviewed listings include Resolve 20 color grading and Resolve 19 media management; lesson and exercise compatibility follows each course.",
+  "display_description": "Resolve learning pathway covering editing, color and media management. Reviewed listings include Resolve 20 color grading and Resolve 19 media management; lesson and exercise compatibility follows each course.",
+  "access": "💰 Paid courses",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "📖 Browser reference; lesson requirements vary",
+  "display_platforms": "📖 Browser reference; lesson requirements vary",
+  "display_platform_notes": "",
+  "platform_source": "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/",
+  "platform_checked_at": "2026-09-07",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Resolve learning path",
+    "url": "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/",
+    "kind": "not-applicable",
+    "version": null,
+    "source": "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-07",
+    "note": "Reference or collection with no single software release version."
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "2bb768e12182"
+}

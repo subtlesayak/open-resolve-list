@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "fusionvector",
+  "name": "fusionvector",
+  "creator": "Spicy-Acorn",
+  "urls": {
+    "canonical": "https://github.com/Spicy-Acorn/fusionvector",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "other",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "fuse",
+    "fusion",
+    "nodes",
+    "vector math"
+  ],
+  "description": "Fusion vector-math nodes; requires the FusionMatrix dependency.",
+  "display_description": "Fusion vector-math nodes; requires the FusionMatrix dependency.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/Spicy-Acorn/fusionvector#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 4,
+  "last_pushed_at": "2020-03-30T21:27:29Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Spicy-Acorn/fusionvector",
+    "url": "https://github.com/Spicy-Acorn/fusionvector",
+    "kind": "stable-release",
+    "version": "v0.3.0",
+    "source": "https://github.com/Spicy-Acorn/fusionvector/releases/tag/v0.3.0",
+    "date": "2020-03-30T21:27:29Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/Spicy-Acorn/fusionvector/releases/tag/v0.3.0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "30f8abe9a61d"
+}

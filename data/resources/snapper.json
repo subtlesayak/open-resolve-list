@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "snapper",
+  "name": "snapper",
+  "creator": "in03",
+  "urls": {
+    "canonical": "https://github.com/in03/snapper",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "scripting",
+    "snapshot",
+    "timeline"
+  ],
+  "description": "Timeline snapshot utility using the Resolve scripting API. Studio with local scripting; current documentation targets Resolve 18.",
+  "display_description": "Timeline snapshot utility using the Resolve scripting API. Studio with local scripting; current documentation targets Resolve 18.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/in03/snapper#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 8,
+  "last_pushed_at": "2026-09-14T20:09:42Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "in03/snapper",
+    "url": "https://github.com/in03/snapper",
+    "kind": "stable-release",
+    "version": "v0.3.2",
+    "source": "https://github.com/in03/snapper/releases/tag/v0.3.2",
+    "date": "2023-04-13T04:33:28Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/in03/snapper/releases/tag/v0.3.2",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "ed27ba493476"
+}

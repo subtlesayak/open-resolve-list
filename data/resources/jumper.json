@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "jumper",
+  "name": "Jumper",
+  "creator": "Jumper",
+  "urls": {
+    "canonical": "https://getjumper.io/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Workflow and pipeline",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "footage search",
+    "semantic search",
+    "spoken content",
+    "visual search"
+  ],
+  "description": "Local visual and spoken-content search for editors, with Resolve integration. Vendor states processing stays on device. Confirm current host/version requirements for the chosen installer.",
+  "display_description": "Local visual and spoken-content search for editors, with Resolve integration. Vendor states processing stays on device. Confirm current host/version requirements for the chosen installer.",
+  "access": "💳 Commercial; free trial",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS",
+  "display_platforms": "🪟 Windows · 🍎 macOS",
+  "display_platform_notes": "",
+  "platform_source": "https://getjumper.io/",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Jumper",
+    "url": "https://getjumper.io/",
+    "kind": "vendor-version",
+    "version": "macOS 3361/3362; Windows 1628",
+    "source": "https://docs.getjumper.io/release-notes/macos",
+    "date": "2026-08-27",
+    "date_kind": "release",
+    "checked_at": "2026-09-06T12:10:35.620Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://getjumper.io/",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://docs.getjumper.io/release-notes/macos",
+      "checked_at": "2026-09-06T12:10:35.620Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "eef6a55ca0a7"
+}

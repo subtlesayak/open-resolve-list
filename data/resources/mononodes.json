@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "mononodes",
+  "name": "MONONODES",
+  "creator": "mononodes.com",
+  "urls": {
+    "canonical": "https://mononodes.com/dctl-and-more/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Color / Film",
+  "kind": "dctl",
+  "tasks": [
+    "color"
+  ],
+  "tags": [
+    "border",
+    "color science",
+    "dctl",
+    "middle gray",
+    "test ramp"
+  ],
+  "description": "DCTL collection and technical reference; free examples include Middle Gray, Border, and Color Gradient Test Ramps. Confirm each tool's edition and GPU requirements.",
+  "display_description": "DCTL collection and technical reference; free examples include Middle Gray, Border, and Color Gradient Test Ramps. Confirm each tool's edition and GPU requirements.",
+  "access": "Mixed; free tools and demos alongside commercial tools",
+  "accessGroup": "mixed",
+  "platforms": [],
+  "platform_notes": "❔ Per tool",
+  "display_platforms": "❔ Per tool",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:23.772Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "MONONODES",
+    "url": "https://mononodes.com/dctl-and-more/",
+    "kind": "vendor-version",
+    "version": "LOOK / LAB / PRINT 4.0",
+    "source": "https://mononodes.com/version-history/",
+    "date": "2026-02-04",
+    "date_kind": "listed product-group update",
+    "checked_at": "2026-09-06T12:10:23.772Z"
+  },
+  "evidence": [
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://mononodes.com/version-history/",
+      "checked_at": "2026-09-06T12:10:23.772Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "6c018c7ab606"
+}

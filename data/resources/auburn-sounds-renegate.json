@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "auburn-sounds-renegate",
+  "name": "Auburn Sounds Renegate",
+  "creator": "auburnsounds.com",
+  "urls": {
+    "canonical": "https://www.auburnsounds.com/products/Renegate.html",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Audio / Fairlight companions",
+  "kind": "other",
+  "tasks": [
+    "audio"
+  ],
+  "tags": [
+    "au",
+    "audio dynamics",
+    "audio gate",
+    "vst"
+  ],
+  "description": "Audio gate with VST/AU and other builds. Icons describe available plugin builds; Linux availability does not establish native Fairlight Linux hosting compatibility.",
+  "display_description": "Audio gate with VST/AU and other builds. Icons describe available plugin builds; Linux availability does not establish native Fairlight Linux hosting compatibility.",
+  "access": "Free edition; paid full edition",
+  "accessGroup": "mixed",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+  "display_platform_notes": "",
+  "platform_source": null,
+  "platform_checked_at": "2026-09-06T12:10:26.319Z",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Auburn Sounds Renegate",
+    "url": "https://www.auburnsounds.com/products/Renegate.html",
+    "kind": "vendor-version",
+    "version": "1.6",
+    "source": "https://www.auburnsounds.com/blog/The-Mouse-Wheel-Update.html",
+    "date": "2026-02-11",
+    "date_kind": "release",
+    "checked_at": "2026-09-06T12:10:26.319Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://www.auburnsounds.com/products/Renegate.html",
+      "checked_at": "2026-09-06T12:10:26.319Z",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://www.auburnsounds.com/blog/The-Mouse-Wheel-Update.html",
+      "checked_at": "2026-09-06T12:10:26.319Z",
+      "note": "Recorded version evidence, not installation testing."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "28a7dd491372"
+}

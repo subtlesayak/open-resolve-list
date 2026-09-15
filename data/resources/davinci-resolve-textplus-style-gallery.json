@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "davinci-resolve-textplus-style-gallery",
+  "name": "DaVinci-Resolve-TextPlus-Style-Gallery",
+  "creator": "tetsutaroh0",
+  "urls": {
+    "canonical": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "workflow-app",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "text plus",
+    "text+",
+    "style",
+    "typography",
+    "gallery",
+    "presets",
+    "lua",
+    "gradient"
+  ],
+  "description": "Lua gallery for capturing and reapplying Text+ styles while preserving the text. Offers 100 slots, thumbnails, shading/gradient styles and a JSON library. Installation paths are documented for Windows and macOS; exact Resolve edition/version requirements are not established.",
+  "display_description": "Lua gallery for capturing and reapplying Text+ styles while preserving the text. Offers 100 slots, thumbnails, shading/gradient styles and a JSON library. Installation paths are documented for Windows and macOS; exact Resolve edition/version requirements are not established.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "display_platforms": "Windows;macOS",
+  "display_platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "platform_source": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery#readme",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": "2026-09-15",
+  "stars": 0,
+  "last_pushed_at": "2026-09-13T07:08:04Z",
+  "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+    "url": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+    "kind": "stable-release",
+    "version": "v1.1.0",
+    "source": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery/releases/tag/v1.1.0",
+    "date": "2026-09-13T07:04:23Z",
+    "checked_at": "2026-09-15T11:10:28.438Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery#readme",
+      "checked_at": "2026-09-15",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery/releases/tag/v1.1.0",
+      "checked_at": "2026-09-15T11:10:28.438Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery#readme",
+      "checked_at": "2026-09-15",
+      "note": "Lua gallery for capturing and reapplying Text+ styles while preserving the text. Offers 100 slots, thumbnails, shading/gradient styles and a JSON library. Installation paths are documented for Windows and macOS; exact Resolve edition/version requirements are not established."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "559e109baa37"
+}

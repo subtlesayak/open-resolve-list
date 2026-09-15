@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "lowepost-training",
+  "name": "Lowepost training",
+  "creator": "Lowepost",
+  "urls": {
+    "canonical": "https://lowepost.com/home/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": true,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [],
+  "tags": [
+    "beauty retouching",
+    "color grading",
+    "film",
+    "fusion",
+    "training"
+  ],
+  "description": "Post-production training with Resolve grading, film-look development, beauty retouching and Fusion lessons. The provider also teaches other applications; select the Resolve course and review its exercise requirements.",
+  "display_description": "Post-production training with Resolve grading, film-look development, beauty retouching and Fusion lessons. The provider also teaches other applications; select the Resolve course and review its exercise requirements.",
+  "access": "💰 Paid course access",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "📖 Browser reference; lesson requirements vary",
+  "display_platforms": "📖 Browser reference; lesson requirements vary",
+  "display_platform_notes": "",
+  "platform_source": "https://lowepost.com/home/",
+  "platform_checked_at": "2026-09-07",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Lowepost training",
+    "url": "https://lowepost.com/home/",
+    "kind": "not-applicable",
+    "version": null,
+    "source": "https://lowepost.com/home/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-07",
+    "note": "Reference or collection with no single software release version."
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "79279718352a"
+}

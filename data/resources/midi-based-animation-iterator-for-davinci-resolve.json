@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "midi-based-animation-iterator-for-davinci-resolve",
+  "name": "Midi-based-Animation-Iterator-For-DaVinci-Resolve",
+  "creator": "BasketOfNekos",
+  "urls": {
+    "canonical": "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "control-surface",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "animation",
+    "audio reactive",
+    "fusion",
+    "midi"
+  ],
+  "description": "Drives Fusion animation from MIDI data.",
+  "display_description": "Drives Fusion animation from MIDI data.",
+  "access": "Public",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Windows;macOS;Linux",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 7,
+  "last_pushed_at": "2026-07-22T22:52:12Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve",
+    "url": "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve",
+    "kind": "commit",
+    "version": "c046391200fbaff6938f1c9737822281289161d0",
+    "source": "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve/commit/c046391200fbaff6938f1c9737822281289161d0",
+    "date": "2026-07-22T22:52:12Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve#readme",
+      "checked_at": "2026-09-06",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve/commit/c046391200fbaff6938f1c9737822281289161d0",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "db3a69ec3efb"
+}

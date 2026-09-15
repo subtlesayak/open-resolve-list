@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "useful-resolve",
+  "name": "Useful.Resolve",
+  "creator": "ambustion",
+  "urls": {
+    "canonical": "https://github.com/ambustion/Useful.Resolve",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "colorist",
+    "gallery",
+    "markers",
+    "stills",
+    "workflow"
+  ],
+  "description": "Colorist workflow helpers including gallery still capture at markers. Legacy Python 3.6-era setup.",
+  "display_description": "Colorist workflow helpers including gallery still capture at markers. Legacy Python 3.6-era setup.",
+  "access": "Free",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "OS support not established by the reviewed documentation.",
+  "display_platforms": "Unverified",
+  "display_platform_notes": "OS support not established by the reviewed documentation.",
+  "platform_source": "https://github.com/ambustion/Useful.Resolve#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 23,
+  "last_pushed_at": "2022-01-22T19:04:15Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "ambustion/Useful.Resolve",
+    "url": "https://github.com/ambustion/Useful.Resolve",
+    "kind": "commit",
+    "version": "89d368bde6c836535c21babf8bc9c3f8fee53735",
+    "source": "https://github.com/ambustion/Useful.Resolve/commit/89d368bde6c836535c21babf8bc9c3f8fee53735",
+    "date": "2022-01-22T19:03:28Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/ambustion/Useful.Resolve/commit/89d368bde6c836535c21babf8bc9c3f8fee53735",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "d037d4716074"
+}

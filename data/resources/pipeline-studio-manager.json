@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "pipeline-studio-manager",
+  "name": "Pipeline Studio Manager",
+  "creator": "CStudio.ao",
+  "urls": {
+    "canonical": "https://superhivemarket.com/products/pipeline-studio-manager",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Workflow and pipeline",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "blender",
+    "handoff",
+    "pipeline",
+    "production management"
+  ],
+  "description": "Blender production-management add-on with structured Resolve handoff packages. A pipeline companion, not an in-Resolve plugin. Listing specifies Blender 4.0–5.2; live collaboration is beta.",
+  "display_description": "Blender production-management add-on with structured Resolve handoff packages. A pipeline companion, not an in-Resolve plugin. Listing specifies Blender 4.0–5.2; live collaboration is beta.",
+  "access": "💳 Paid",
+  "accessGroup": "paid",
+  "platforms": [],
+  "platform_notes": "❔ Not established",
+  "display_platforms": "❔ Not established",
+  "display_platform_notes": "",
+  "platform_source": "https://superhivemarket.com/products/pipeline-studio-manager",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "Pipeline Studio Manager",
+    "url": "https://superhivemarket.com/products/pipeline-studio-manager",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://superhivemarket.com/products/pipeline-studio-manager",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-09-06T12:10:35.461Z"
+  },
+  "evidence": [],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing",
+    "tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "941e694fb0db"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "speededitorcheatsheet",
+  "name": "SpeedEditorCheatSheet",
+  "creator": "derwok",
+  "urls": {
+    "canonical": "https://github.com/derwok/SpeedEditorCheatSheet",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": true,
+  "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+  "kind": "control-surface",
+  "tasks": [
+    "hardware"
+  ],
+  "tags": [
+    "cheat sheet",
+    "keyboard shortcuts",
+    "reference",
+    "speed editor"
+  ],
+  "description": "Printable Speed Editor reference/cheat sheet.",
+  "display_description": "Printable Speed Editor reference/cheat sheet.",
+  "access": "Free reference",
+  "accessGroup": "free",
+  "platforms": [],
+  "platform_notes": "Reference",
+  "display_platforms": "Reference",
+  "display_platform_notes": "",
+  "platform_source": "https://github.com/derwok/SpeedEditorCheatSheet#readme",
+  "platform_checked_at": "2026-09-06",
+  "research_snapshot": "2026-09-06",
+  "stars": 41,
+  "last_pushed_at": "2024-01-09T00:33:46Z",
+  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "unknown",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": null,
+    "installation": null
+  },
+  "version": {
+    "name": "derwok/SpeedEditorCheatSheet",
+    "url": "https://github.com/derwok/SpeedEditorCheatSheet",
+    "kind": "commit",
+    "version": "7d6067f22054c6f7c4ad286936ea5c2a63dd1a51",
+    "source": "https://github.com/derwok/SpeedEditorCheatSheet/commit/7d6067f22054c6f7c4ad286936ea5c2a63dd1a51",
+    "date": "2024-01-09T00:33:44Z",
+    "checked_at": "2026-09-15T05:06:04.860Z"
+  },
+  "evidence": [
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/derwok/SpeedEditorCheatSheet/commit/7d6067f22054c6f7c4ad286936ea5c2a63dd1a51",
+      "checked_at": "2026-09-15T05:06:04.860Z",
+      "note": "Source revision, not a software release."
+    }
+  ],
+  "unknownFields": [
+    "platforms",
+    "Resolve edition",
+    "Resolve version",
+    "architecture",
+    "processing"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "0c1a0fbd0aff"
+}

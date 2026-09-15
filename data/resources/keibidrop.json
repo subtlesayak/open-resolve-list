@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "keibidrop",
+  "name": "KeibiDrop",
+  "creator": "KeibiSoft",
+  "urls": {
+    "canonical": "https://github.com/KeibiSoft/KeibiDrop",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "nas",
+    "remote editing",
+    "file sharing",
+    "peer to peer",
+    "relay",
+    "media",
+    "handoff"
+  ],
+  "description": "Mounts remote shared media folders for on-demand editing, with a documented Resolve/NAS workflow. Supports desktop systems plus a separate Android app. Direct peer connections can fall back to a relay; network quality affects editing. Engine is MPL-2.0, while UI/mobile components have separate terms. Paid relay data packs are optional.",
+  "display_description": "Mounts remote shared media folders for on-demand editing, with a documented Resolve/NAS workflow. Supports desktop systems plus a separate Android app. Direct peer connections can fall back to a relay; network quality affects editing. Engine is MPL-2.0, while UI/mobile components have separate terms. Paid relay data packs are optional.",
+  "access": "Mixed: free direct sharing; optional relay data packs",
+  "accessGroup": "mixed",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "platform_source": "https://github.com/KeibiSoft/KeibiDrop#readme",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": "2026-09-15",
+  "stars": 59,
+  "last_pushed_at": "2026-09-14T13:55:22Z",
+  "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "hybrid",
+    "pricing": "mixed",
+    "account": "unknown",
+    "dependencies": "Network connection and platform mount integration (FUSE/WinFsp)",
+    "installation": null
+  },
+  "version": {
+    "name": "KeibiSoft/KeibiDrop",
+    "url": "https://github.com/KeibiSoft/KeibiDrop",
+    "kind": "stable-release",
+    "version": "v0.4.7",
+    "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.7",
+    "date": "2026-09-10T10:25:59Z",
+    "checked_at": "2026-09-15T11:10:30.401Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/KeibiSoft/KeibiDrop#readme",
+      "checked_at": "2026-09-15",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.7",
+      "checked_at": "2026-09-15T11:10:30.401Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/KeibiSoft/KeibiDrop#readme",
+      "checked_at": "2026-09-15",
+      "note": "Mounts remote shared media folders for on-demand editing, with a documented Resolve/NAS workflow. Supports desktop systems plus a separate Android app. Direct peer connections can fall back to a relay; network quality affects editing. Engine is MPL-2.0, while UI/mobile components have separate terms. Paid relay data packs are optional."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version",
+    "architecture"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "f6ae306dd974"
+}

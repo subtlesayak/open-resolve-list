@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "cinekive",
+  "name": "cinekive",
+  "creator": "Gianluca-Improta",
+  "urls": {
+    "canonical": "https://github.com/Gianluca-Improta/cinekive",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "stills",
+    "reference",
+    "moodboard",
+    "lookbook",
+    "semantic search",
+    "film",
+    "archive"
+  ],
+  "description": "Local cinematic stills archive with lookbooks, moodboards and semantic image search. Companion reference tool for edit and grading work. Windows and macOS installers include the engine; Linux requires Docker. Initial model downloads need internet. Free community edition and optional paid Pro features.",
+  "display_description": "Local cinematic stills archive with lookbooks, moodboards and semantic image search. Companion reference tool for edit and grading work. Windows and macOS installers include the engine; Linux requires Docker. Initial model downloads need internet. Free community edition and optional paid Pro features.",
+  "access": "Mixed: free community edition; paid Pro",
+  "accessGroup": "mixed",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "display_platforms": "Windows;macOS;Linux",
+  "display_platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+  "platform_source": "https://github.com/Gianluca-Improta/cinekive#readme",
+  "platform_checked_at": "2026-09-15",
+  "research_snapshot": "2026-09-15",
+  "stars": 104,
+  "last_pushed_at": "2026-09-08T08:58:32Z",
+  "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [
+      "x64",
+      "arm64"
+    ],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "mixed",
+    "account": "unknown",
+    "dependencies": "Initial search-model downloads; Docker on Linux",
+    "installation": null
+  },
+  "version": {
+    "name": "Gianluca-Improta/cinekive",
+    "url": "https://github.com/Gianluca-Improta/cinekive",
+    "kind": "stable-release",
+    "version": "v0.5.3",
+    "source": "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.5.3",
+    "date": "2026-09-08T04:52:19Z",
+    "checked_at": "2026-09-15T11:10:26.592Z"
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/Gianluca-Improta/cinekive#readme",
+      "checked_at": "2026-09-15",
+      "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.5.3",
+      "checked_at": "2026-09-15T11:10:26.592Z",
+      "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/Gianluca-Improta/cinekive#readme",
+      "checked_at": "2026-09-15",
+      "note": "Local cinematic stills archive with lookbooks, moodboards and semantic image search. Companion reference tool for edit and grading work. Windows and macOS installers include the engine; Linux requires Docker. Initial model downloads need internet. Free community edition and optional paid Pro features."
+    }
+  ],
+  "unknownFields": [
+    "Resolve edition",
+    "Resolve version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "legacy_id": "cce447407c85"
+}
