@@ -29,7 +29,7 @@ export function toSiteEntry(record) {
   return {
     id: record.id, name: record.name, creator: record.creator, url: record.urls.canonical,
     origin: record.origin, official: record.official, reference: record.reference,
-    category: record.category, tasks: record.tasks, tags: record.tags, description: record.description,
+    category: record.category, kind: record.kind, tasks: record.tasks, tags: record.tags, description: record.description,
     access: record.access, accessGroup: record.accessGroup || accessGroup(record.access), platforms: record.platforms,
     platformNotes: record.platform_notes, requirements: record.requirements, evidence: record.evidence,
     unknownFields: record.unknownFields, recommended: record.recommended, recommendation: record.recommendation,

@@ -72,6 +72,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -171,6 +172,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -239,6 +241,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -306,6 +309,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -374,6 +378,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -451,6 +456,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -530,6 +536,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -608,6 +615,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -685,6 +693,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -751,6 +760,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -818,6 +828,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -885,6 +896,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -954,6 +966,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1021,6 +1034,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1099,6 +1113,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1184,6 +1199,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1260,6 +1276,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1326,6 +1343,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1392,6 +1410,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1468,6 +1487,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1565,6 +1585,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1641,6 +1662,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1716,6 +1738,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1783,6 +1806,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1859,6 +1883,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -1930,6 +1955,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -1997,6 +2023,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -2064,6 +2091,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "reactor-package",
       "tasks": [
         "fusion"
       ],
@@ -2141,6 +2169,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -2209,6 +2238,7 @@
       "official": false,
       "reference": true,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "reactor-package",
       "tasks": [
         "fusion"
       ],
@@ -2277,6 +2307,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -2354,6 +2385,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -2421,6 +2453,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -2497,6 +2530,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -2575,6 +2609,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -2652,6 +2687,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -2735,6 +2771,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -2803,6 +2840,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -2871,6 +2909,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -2948,6 +2987,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -3024,6 +3064,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -3100,6 +3141,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -3174,6 +3216,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -3250,6 +3293,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -3317,6 +3361,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -3394,6 +3439,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "control-surface",
       "tasks": [
         "fusion"
       ],
@@ -3471,6 +3517,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fusion-macro",
       "tasks": [
         "fusion"
       ],
@@ -3538,6 +3585,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -3606,6 +3654,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -3682,6 +3731,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -3766,6 +3816,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -3840,6 +3891,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -3926,6 +3978,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -3993,6 +4046,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -4077,6 +4131,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -4154,6 +4209,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -4230,6 +4286,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -4312,6 +4369,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -4394,6 +4452,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -4472,6 +4531,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -4548,6 +4608,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "media"
@@ -4648,6 +4709,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -4717,6 +4779,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow",
         "media"
@@ -4887,6 +4950,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow",
         "media"
@@ -4963,6 +5027,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow",
         "media"
@@ -5031,6 +5096,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow",
         "media"
@@ -5109,6 +5175,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow",
         "media"
@@ -5178,6 +5245,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow",
         "media"
@@ -5256,6 +5324,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -5376,6 +5445,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -5453,6 +5523,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "template",
       "tasks": [
         "workflow"
       ],
@@ -5530,6 +5601,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -5605,6 +5677,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -5681,6 +5754,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "dctl",
       "tasks": [
         "workflow"
       ],
@@ -5748,6 +5822,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -5822,6 +5897,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -5888,6 +5964,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -5955,6 +6032,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -6032,6 +6110,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -6108,6 +6187,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -6185,6 +6265,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -6259,6 +6340,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6336,6 +6418,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6411,6 +6494,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6495,6 +6579,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6569,6 +6654,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6646,6 +6732,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6712,6 +6799,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6789,6 +6877,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6865,6 +6954,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -6940,6 +7030,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "other",
       "tasks": [
         "linux"
       ],
@@ -7016,6 +7107,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -7090,6 +7182,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "other",
       "tasks": [
         "linux"
       ],
@@ -7164,6 +7257,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "other",
       "tasks": [
         "linux"
       ],
@@ -7239,6 +7333,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "other",
       "tasks": [
         "linux"
       ],
@@ -7313,6 +7408,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "other",
       "tasks": [
         "linux"
       ],
@@ -7410,6 +7506,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -7484,6 +7581,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "other",
       "tasks": [
         "linux"
       ],
@@ -7559,6 +7657,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "development",
@@ -7628,6 +7727,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "development",
@@ -7706,6 +7806,7 @@
       "official": false,
       "reference": true,
       "category": "Developer libraries and scripting references",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "development",
@@ -7775,6 +7876,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "dctl",
       "tasks": [
         "workflow",
         "development",
@@ -7844,6 +7946,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "development",
@@ -7922,6 +8025,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -7998,6 +8102,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -8074,6 +8179,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -8149,6 +8255,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -8216,6 +8323,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "fusion-macro",
       "tasks": [
         "hardware"
       ],
@@ -8284,6 +8392,7 @@
       "official": false,
       "reference": true,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -8351,6 +8460,7 @@
       "official": false,
       "reference": true,
       "category": "Directories covering free and commercial products",
+      "kind": "dctl",
       "tasks": [
         "learning"
       ],
@@ -8418,6 +8528,7 @@
       "official": false,
       "reference": true,
       "category": "Directories covering free and commercial products",
+      "kind": "workflow-app",
       "tasks": [
         "learning"
       ],
@@ -8486,6 +8597,7 @@
       "official": false,
       "reference": false,
       "category": "Directories covering free and commercial products",
+      "kind": "other",
       "tasks": [
         "learning"
       ],
@@ -8553,6 +8665,7 @@
       "official": false,
       "reference": false,
       "category": "Directories covering free and commercial products",
+      "kind": "other",
       "tasks": [
         "learning"
       ],
@@ -8620,6 +8733,7 @@
       "official": false,
       "reference": true,
       "category": "Directories covering free and commercial products",
+      "kind": "other",
       "tasks": [
         "learning"
       ],
@@ -8687,6 +8801,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -8765,6 +8880,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -8852,6 +8968,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fusion-macro",
       "tasks": [
         "fusion"
       ],
@@ -8932,6 +9049,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "other",
       "tasks": [
         "linux"
       ],
@@ -9032,6 +9150,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -9099,6 +9218,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -9167,6 +9287,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -9236,6 +9357,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -9303,6 +9425,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -9371,6 +9494,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -9438,6 +9562,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -9507,6 +9632,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -9574,6 +9700,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -9662,6 +9789,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -9751,6 +9879,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -9819,6 +9948,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -9893,6 +10023,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -9969,6 +10100,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10046,6 +10178,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10115,6 +10248,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10181,6 +10315,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10248,6 +10383,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10316,6 +10452,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10384,6 +10521,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10451,6 +10589,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10518,6 +10657,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10594,6 +10734,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10680,6 +10821,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -10770,6 +10912,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "dctl",
       "tasks": [
         "workflow",
         "development",
@@ -10840,6 +10983,7 @@
       "official": false,
       "reference": true,
       "category": "Developer libraries and scripting references",
+      "kind": "dctl",
       "tasks": [
         "workflow",
         "development",
@@ -10909,6 +11053,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "dctl",
       "tasks": [
         "workflow",
         "development",
@@ -10979,6 +11124,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -11046,6 +11192,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],
@@ -11114,6 +11261,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -11191,6 +11339,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "development",
@@ -11260,6 +11409,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -11327,6 +11477,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -11395,6 +11546,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -11462,6 +11614,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -11530,6 +11683,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -11597,6 +11751,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -11664,6 +11819,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fusion-macro",
       "tasks": [
         "fusion"
       ],
@@ -11732,6 +11888,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fusion-macro",
       "tasks": [
         "fusion"
       ],
@@ -11799,6 +11956,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fusion-macro",
       "tasks": [
         "fusion"
       ],
@@ -11877,6 +12035,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -11967,6 +12126,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -12046,6 +12206,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -12123,6 +12284,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -12198,6 +12360,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -12297,6 +12460,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -12374,6 +12538,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "dctl",
       "tasks": [
         "fusion"
       ],
@@ -12453,6 +12618,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "ofx",
       "tasks": [
         "media"
       ],
@@ -12530,6 +12696,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -12620,6 +12787,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -12687,6 +12855,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -12765,6 +12934,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -12843,6 +13013,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -12911,6 +13082,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -12978,6 +13150,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -13046,6 +13219,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -13112,6 +13286,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "encoder",
       "tasks": [
         "workflow"
       ],
@@ -13187,6 +13362,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "lut",
       "tasks": [
         "workflow"
       ],
@@ -13263,6 +13439,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -13340,6 +13517,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -13417,6 +13595,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -13492,6 +13671,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -13567,6 +13747,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -13635,6 +13816,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -13702,6 +13884,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -13776,6 +13959,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -13851,6 +14035,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -13918,6 +14103,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -13984,6 +14170,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -14063,6 +14250,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -14141,6 +14329,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -14207,6 +14396,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -14284,6 +14474,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -14361,6 +14552,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -14437,6 +14629,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -14512,6 +14705,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "encoder",
       "tasks": [
         "linux"
       ],
@@ -14587,6 +14781,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -14654,6 +14849,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -14722,6 +14918,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -14801,6 +14998,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -14870,6 +15068,7 @@
       "official": false,
       "reference": true,
       "category": "Developer libraries and scripting references",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "development",
@@ -14940,6 +15139,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "template",
       "tasks": [
         "workflow",
         "development",
@@ -15011,6 +15211,7 @@
       "official": false,
       "reference": false,
       "category": "Developer libraries and scripting references",
+      "kind": "ofx",
       "tasks": [
         "workflow",
         "development",
@@ -15088,6 +15289,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "fusion-macro",
       "tasks": [
         "hardware"
       ],
@@ -15156,6 +15358,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -15233,6 +15436,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -15309,6 +15513,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -15377,6 +15582,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -15452,6 +15658,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow",
         "media"
@@ -15532,6 +15739,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow",
         "media"
@@ -15611,6 +15819,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -15687,6 +15896,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -15785,6 +15995,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -15863,6 +16074,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -15940,6 +16152,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16017,6 +16230,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16104,6 +16318,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16191,6 +16406,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16278,6 +16494,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16366,6 +16583,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16456,6 +16674,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -16539,6 +16758,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16627,6 +16847,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16736,6 +16957,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions",
         "workflow"
@@ -16826,6 +17048,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -16910,6 +17133,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "fusion-macro",
       "tasks": [
         "workflow"
       ],
@@ -16994,6 +17218,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "template",
       "tasks": [
         "workflow"
       ],
@@ -17082,6 +17307,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -17198,6 +17424,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -17308,6 +17535,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -17384,6 +17612,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -17467,6 +17696,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -17553,6 +17783,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -17644,6 +17875,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -17730,6 +17962,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "audio"
       ],
@@ -17815,6 +18048,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -17916,6 +18150,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -18008,6 +18243,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -18084,6 +18320,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -18161,6 +18398,7 @@
       "official": false,
       "reference": false,
       "category": "Color grading, DCTLs, film looks, and color science",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -18238,6 +18476,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "subtitle-tool",
       "tasks": [
         "workflow"
       ],
@@ -18315,6 +18554,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "media"
       ],
@@ -18403,6 +18643,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -18489,6 +18730,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow"
       ],
@@ -18580,6 +18822,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -18666,6 +18909,7 @@
       "official": false,
       "reference": false,
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -18754,6 +18998,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "other",
       "tasks": [
         "linux"
       ],
@@ -18846,6 +19091,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -18930,6 +19176,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "dctl",
       "tasks": [
         "fusion"
       ],
@@ -19015,6 +19262,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -19099,6 +19347,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "fusion-macro",
       "tasks": [
         "fusion"
       ],
@@ -19187,6 +19436,7 @@
       "official": false,
       "reference": false,
       "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "mcp-server",
       "tasks": [
         "workflow"
       ],
@@ -19277,6 +19527,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
+      "kind": "fuse",
       "tasks": [
         "linux"
       ],
@@ -19363,6 +19614,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -19449,6 +19701,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -19535,6 +19788,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -19622,6 +19876,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -19707,6 +19962,7 @@
       "official": false,
       "reference": false,
       "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -19791,6 +20047,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -19877,6 +20134,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -19962,6 +20220,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -20047,6 +20306,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -20132,6 +20392,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -20218,6 +20479,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -20307,6 +20569,7 @@
       "official": false,
       "reference": false,
       "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
       "tasks": [
         "media"
       ],
@@ -20393,6 +20656,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "learning"
       ],
@@ -20462,6 +20726,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -20531,6 +20796,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -20600,6 +20866,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "capture",
@@ -20660,6 +20927,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "learning"
       ],
@@ -20730,6 +20998,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -20799,6 +21068,7 @@
       "official": true,
       "reference": false,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "learning"
       ],
@@ -20966,6 +21236,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -21043,6 +21314,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -21118,6 +21390,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning",
         "color"
@@ -21197,6 +21470,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "control-surface",
       "tasks": [
         "learning",
         "color"
@@ -21267,6 +21541,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "learning"
       ],
@@ -21336,6 +21611,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning",
         "color"
@@ -21406,6 +21682,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -21475,6 +21752,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -21548,6 +21826,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "control-surface",
       "tasks": [
         "learning"
       ],
@@ -21617,6 +21896,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -21694,6 +21974,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [],
       "tags": [
         "color grading",
@@ -21756,6 +22037,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "learning",
         "color"
@@ -21834,6 +22116,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "learning"
       ],
@@ -21904,6 +22187,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -21973,6 +22257,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "learning"
       ],
@@ -22043,6 +22328,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [],
       "tags": [
         "audio library",
@@ -22103,6 +22389,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning",
         "fusion"
@@ -22181,6 +22468,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning",
         "fusion"
@@ -22259,6 +22547,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "learning"
       ],
@@ -22336,6 +22625,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "fuse",
       "tasks": [],
       "tags": [
         "api",
@@ -22405,6 +22695,7 @@
       "official": true,
       "reference": false,
       "category": "Official Blackmagic Design resources",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -22542,6 +22833,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [],
       "tags": [
         "downloads",
@@ -22602,6 +22894,7 @@
       "official": true,
       "reference": true,
       "category": "Official Blackmagic Design resources",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -22680,6 +22973,7 @@
       "official": false,
       "reference": false,
       "category": "Color tools",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -22753,6 +23047,7 @@
       "official": false,
       "reference": false,
       "category": "Color tools",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -22826,6 +23121,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, animation, and effects",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -22904,6 +23200,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, animation, and effects",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -22976,6 +23273,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, animation, and effects",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -23038,6 +23336,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, animation, and effects",
+      "kind": "reactor-package",
       "tasks": [
         "fusion"
       ],
@@ -23100,6 +23399,7 @@
       "official": false,
       "reference": false,
       "category": "Script collections and workflow tools",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -23172,6 +23472,7 @@
       "official": false,
       "reference": false,
       "category": "Script collections and workflow tools",
+      "kind": "dctl",
       "tasks": [
         "workflow"
       ],
@@ -23246,6 +23547,7 @@
       "official": false,
       "reference": false,
       "category": "Script collections and workflow tools",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -23309,6 +23611,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding and delivery",
+      "kind": "subtitle-tool",
       "tasks": [
         "media"
       ],
@@ -23391,6 +23694,7 @@
       "official": false,
       "reference": false,
       "category": "Encoding and delivery",
+      "kind": "encoder",
       "tasks": [
         "media"
       ],
@@ -23459,6 +23763,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -23528,6 +23833,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "other",
       "tasks": [
         "color"
       ],
@@ -23592,6 +23898,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -23653,6 +23960,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -23723,6 +24031,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -23796,6 +24105,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -23866,6 +24176,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -23937,6 +24248,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -24008,6 +24320,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "other",
       "tasks": [
         "color"
       ],
@@ -24078,6 +24391,7 @@
       "official": false,
       "reference": true,
       "category": "Color / Film",
+      "kind": "workflow-app",
       "tasks": [
         "learning",
         "color"
@@ -24149,6 +24463,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -24220,6 +24535,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -24291,6 +24607,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -24361,6 +24678,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "workflow-app",
       "tasks": [
         "color"
       ],
@@ -24431,6 +24749,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -24502,6 +24821,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -24573,6 +24893,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -24643,6 +24964,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -24720,6 +25042,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "workflow-app",
       "tasks": [
         "color"
       ],
@@ -24791,6 +25114,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -24860,6 +25184,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -24938,6 +25263,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -25017,6 +25343,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -25079,6 +25406,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -25151,6 +25479,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -25220,6 +25549,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -25288,6 +25618,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -25350,6 +25681,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],
@@ -25421,6 +25753,7 @@
       "official": false,
       "reference": false,
       "category": "Audio / Fairlight companions",
+      "kind": "other",
       "tasks": [
         "audio"
       ],
@@ -25499,6 +25832,7 @@
       "official": false,
       "reference": false,
       "category": "Audio / Fairlight companions",
+      "kind": "workflow-app",
       "tasks": [
         "audio"
       ],
@@ -25570,6 +25904,7 @@
       "official": false,
       "reference": false,
       "category": "Audio / Fairlight companions",
+      "kind": "other",
       "tasks": [
         "audio"
       ],
@@ -25648,6 +25983,7 @@
       "official": false,
       "reference": false,
       "category": "Audio / Fairlight companions",
+      "kind": "workflow-app",
       "tasks": [
         "audio"
       ],
@@ -25725,6 +26061,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow / Media management",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "media"
@@ -25788,6 +26125,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow / Media management",
+      "kind": "subtitle-tool",
       "tasks": [
         "workflow",
         "media"
@@ -25861,6 +26199,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow / Media management",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "media"
@@ -25924,6 +26263,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -26005,6 +26345,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -26079,6 +26420,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -26170,6 +26512,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -26250,6 +26593,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -26326,6 +26670,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -26406,6 +26751,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -26487,6 +26833,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -26568,6 +26915,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -26648,6 +26996,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -26729,6 +27078,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -26807,6 +27157,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -26887,6 +27238,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -26968,6 +27320,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27048,6 +27401,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27128,6 +27482,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27202,6 +27557,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -27282,6 +27638,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -27362,6 +27719,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27442,6 +27800,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27522,6 +27881,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27603,6 +27963,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27683,6 +28044,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27763,6 +28125,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27843,6 +28206,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -27924,6 +28288,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -28005,6 +28370,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -28074,6 +28440,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -28154,6 +28521,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -28229,6 +28597,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -28300,6 +28669,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -28370,6 +28740,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -28441,6 +28812,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -28503,6 +28875,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -28564,6 +28937,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -28632,6 +29006,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -28692,6 +29067,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -28770,6 +29146,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -28854,6 +29231,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -28927,6 +29305,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -28989,6 +29368,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -29063,6 +29443,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -29147,6 +29528,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -29210,6 +29592,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -29272,6 +29655,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -29335,6 +29719,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -29398,6 +29783,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -29462,6 +29848,7 @@
       "official": false,
       "reference": false,
       "category": "Color and PowerGrades",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -29537,6 +29924,7 @@
       "official": false,
       "reference": false,
       "category": "Templates and discovery",
+      "kind": "fuse",
       "tasks": [],
       "tags": [
         "community",
@@ -29598,6 +29986,7 @@
       "official": false,
       "reference": false,
       "category": "Templates and discovery",
+      "kind": "template",
       "tasks": [],
       "tags": [
         "marketplace",
@@ -29656,6 +30045,7 @@
       "official": false,
       "reference": false,
       "category": "Templates and discovery",
+      "kind": "template",
       "tasks": [],
       "tags": [
         "callouts",
@@ -29717,6 +30107,7 @@
       "official": false,
       "reference": false,
       "category": "Templates and discovery",
+      "kind": "template",
       "tasks": [],
       "tags": [
         "logos",
@@ -29777,6 +30168,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow and pipeline",
+      "kind": "template",
       "tasks": [
         "workflow"
       ],
@@ -29856,6 +30248,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow and pipeline",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -29917,6 +30310,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow and pipeline",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -29996,6 +30390,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow and pipeline",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -30073,6 +30468,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow and pipeline",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -30143,6 +30539,7 @@
       "official": false,
       "reference": false,
       "category": "Workflow and pipeline",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -30229,6 +30626,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "template",
       "tasks": [],
       "tags": [
         "analog display",
@@ -30295,6 +30693,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "ofx",
       "tasks": [],
       "tags": [
         "color grading",
@@ -30375,6 +30774,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "fusion",
@@ -30441,6 +30841,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "fusion",
@@ -30507,6 +30908,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "expressions",
@@ -30573,6 +30975,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fuse",
       "tasks": [
         "media"
       ],
@@ -30645,6 +31048,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -30736,6 +31140,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "hardware",
         "workflow"
@@ -30827,6 +31232,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -30921,6 +31327,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "api",
@@ -30981,6 +31388,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -31061,6 +31469,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "lut",
       "tasks": [],
       "tags": [
         "camera matching",
@@ -31121,6 +31530,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "drfx",
@@ -31187,6 +31597,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "bumper",
@@ -31247,6 +31658,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "workflow"
       ],
@@ -31352,6 +31764,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "export alerts",
@@ -31426,6 +31839,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "assets",
@@ -31486,6 +31900,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -31557,6 +31972,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -31643,6 +32059,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -31714,6 +32131,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -31799,6 +32217,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -31870,6 +32289,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -31940,6 +32360,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -32018,6 +32439,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "reference",
       "tasks": [
         "color"
       ],
@@ -32087,6 +32509,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -32157,6 +32580,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "reference",
       "tasks": [
         "color"
       ],
@@ -32226,6 +32650,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -32296,6 +32721,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -32365,6 +32791,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -32434,6 +32861,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "conform",
@@ -32502,6 +32930,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "conform",
@@ -32570,6 +32999,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "dctl",
       "tasks": [],
       "tags": [
         "color grading",
@@ -32640,6 +33070,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "compositing",
@@ -32707,6 +33138,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "animation",
@@ -32796,6 +33228,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "reactor-package",
       "tasks": [
         "fusion"
       ],
@@ -32874,6 +33307,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "reference",
       "tasks": [
         "learning",
         "color"
@@ -32950,6 +33384,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "fusion",
@@ -33016,6 +33451,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "beauty",
@@ -33082,6 +33518,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "atmosphere",
@@ -33148,6 +33585,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -33220,6 +33658,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -33301,6 +33740,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "encoder",
       "tasks": [],
       "tags": [
         "dnxhr",
@@ -33381,6 +33821,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "ofx",
       "tasks": [
         "fusion"
       ],
@@ -33464,6 +33905,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -33589,6 +34031,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "subtitle-tool",
       "tasks": [],
       "tags": [
         "animated text",
@@ -33655,6 +34098,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "2d animation",
@@ -33722,6 +34166,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "reference",
       "tasks": [],
       "tags": [
         "color grading",
@@ -33781,6 +34226,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -33854,6 +34300,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "color matching",
@@ -33920,6 +34367,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "lut",
       "tasks": [],
       "tags": [
         "dnxhd",
@@ -33990,6 +34438,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "backup",
@@ -34061,6 +34510,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "ai",
@@ -34121,6 +34571,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "subtitle-tool",
       "tasks": [],
       "tags": [
         "batch editing",
@@ -34180,6 +34631,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "subtitle-tool",
       "tasks": [],
       "tags": [
         "language",
@@ -34239,6 +34691,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "subtitle-tool",
       "tasks": [],
       "tags": [
         "narration",
@@ -34298,6 +34751,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "cheat sheet",
@@ -34357,6 +34811,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color",
         "learning"
@@ -34435,6 +34890,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "reactor-package",
       "tasks": [
         "color"
       ],
@@ -34513,6 +34969,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "color spill",
@@ -34580,6 +35037,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -34657,6 +35115,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "reactor-package",
       "tasks": [
         "fusion"
       ],
@@ -34768,6 +35227,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -34846,6 +35306,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "captions"
       ],
@@ -34937,6 +35398,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -35011,6 +35473,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -35082,6 +35545,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -35158,6 +35622,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -35234,6 +35699,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -35328,6 +35794,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "control-surface",
       "tasks": [
         "hardware"
       ],
@@ -35398,6 +35865,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "ofx",
       "tasks": [
         "color"
       ],
@@ -35483,6 +35951,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -35558,6 +36027,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fuse",
       "tasks": [
         "fusion"
       ],
@@ -35628,6 +36098,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "beauty retouching",
@@ -35688,6 +36159,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "edges",
@@ -35747,6 +36219,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "ofx",
       "tasks": [
         "color"
       ],
@@ -35831,6 +36304,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "color grading",
@@ -35906,6 +36380,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "media"
       ],
@@ -36013,6 +36488,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "color"
       ],
@@ -36091,6 +36567,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "audio"
       ],
@@ -36163,6 +36640,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "reference",
       "tasks": [],
       "tags": [
         "color grading",
@@ -36222,6 +36700,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "dctl",
       "tasks": [
         "color"
       ],
@@ -36322,6 +36801,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fuse",
       "tasks": [
         "media"
       ],
@@ -36410,6 +36890,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [
         "fusion"
       ],
@@ -36483,6 +36964,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "template",
       "tasks": [],
       "tags": [
         "dots",
@@ -36550,6 +37032,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "reactor-package",
       "tasks": [
         "fusion"
       ],
@@ -36627,6 +37110,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "media"
       ],
@@ -36713,6 +37197,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "reactor-package",
       "tasks": [
         "workflow"
       ],
@@ -36791,6 +37276,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -36871,6 +37357,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "animation",
@@ -36938,6 +37425,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "audio organization",
@@ -37013,6 +37501,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "workflow"
       ],
@@ -37129,6 +37618,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "subtitle-tool",
       "tasks": [],
       "tags": [
         "gameplay",
@@ -37189,6 +37679,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "powergrade",
       "tasks": [
         "learning"
       ],
@@ -37260,6 +37751,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "ofx",
       "tasks": [],
       "tags": [
         "beauty",
@@ -37329,6 +37821,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "reference",
       "tasks": [],
       "tags": [
         "color grading",
@@ -37389,6 +37882,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "audio"
       ],
@@ -37513,6 +38007,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "audio"
       ],
@@ -37584,6 +38079,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "audio"
       ],
@@ -37653,6 +38149,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "compositing",
@@ -37718,6 +38215,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "fusion",
@@ -37784,6 +38282,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fuse",
       "tasks": [],
       "tags": [
         "chromatic aberration",
@@ -37850,6 +38349,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fuse",
       "tasks": [],
       "tags": [
         "displacement",
@@ -37917,6 +38417,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "reactor-package",
       "tasks": [
         "color"
       ],
@@ -37995,6 +38496,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "workflow",
         "captions"
@@ -38075,6 +38577,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "subtitle-tool",
       "tasks": [
         "captions"
       ],
@@ -38153,6 +38656,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -38244,6 +38748,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "template",
       "tasks": [],
       "tags": [
         "color harmony",
@@ -38333,6 +38838,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -38425,6 +38931,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "color"
       ],
@@ -38497,6 +39004,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -38568,6 +39076,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [
         "fusion"
       ],
@@ -38644,6 +39153,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fusion-macro",
       "tasks": [],
       "tags": [
         "animation",
@@ -38703,6 +39213,7 @@
       "official": false,
       "reference": true,
       "category": "Community discoveries",
+      "kind": "reference",
       "tasks": [
         "learning"
       ],
@@ -38776,6 +39287,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "workflow-app",
       "tasks": [
         "audio"
       ],
@@ -38902,6 +39414,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "fuse",
       "tasks": [],
       "tags": [
         "exr",
@@ -38968,6 +39481,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
+      "kind": "other",
       "tasks": [],
       "tags": [
         "animated lines",
