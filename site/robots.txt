@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://subtlesayak.github.io/subtle-resolve-list/sitemap.xml
