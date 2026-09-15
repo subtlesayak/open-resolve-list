@@ -49,7 +49,8 @@ export function buildSite(){
  const releases=read('data/catalogue-releases.json').releases;
  const latestUpdate=read('data/latest-update.json');
  if(new Set(latestUpdate.added_urls).size!==latestUpdate.added_urls.length||latestUpdate.added_urls.some(url=>!entries.some(e=>e.url===url))||!releases.some(r=>r.version===latestUpdate.release))throw Error('Invalid latest update');
- const data={latestUpdate:{...latestUpdate,addedCount:latestUpdate.added_urls.length},schema_version:1,title:'Subtle Resolve List',tagline:'Find tools for your Resolve setup.',description:'Source-backed compatibility, version history and clear requirements.',catalogue:'https://github.com/subtlesayak/subtle-resolve-list',tasks:TASKS,entries,releases,updates:history.entries,inventoryCount:707};
+ const inventory=JSON.parse(fs.readFileSync(path.join(root,'data/reactor-inventory.json'),'utf8'));
+ const data={latestUpdate:{...latestUpdate,addedCount:latestUpdate.added_urls.length},schema_version:1,title:'Subtle Resolve List',tagline:'Find tools for your Resolve setup.',description:'Source-backed compatibility, version history and clear requirements.',catalogue:'https://github.com/subtlesayak/subtle-resolve-list',tasks:TASKS,entries,releases,updates:history.entries,inventoryCount:inventory.folder_count};
  fs.mkdirSync(path.join(root,'site'),{recursive:true});fs.writeFileSync(path.join(root,'site/catalogue.json'),JSON.stringify(data,null,2)+'\n');console.log(`Built searchable site data for ${entries.length} resources; ${details.entries.length} reviewed requirement records.`);return data;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))buildSite();

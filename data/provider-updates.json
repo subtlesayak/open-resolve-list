@@ -272,6 +272,365 @@
           "url": "https://chrisroyfilms.com/postsync/version-history/"
         }
       ]
+    },
+    {
+      "name": "thatcherfreeman/utility-dctls",
+      "url": "https://github.com/thatcherfreeman/utility-dctls",
+      "from": "a495531de3e4704a0a6e0113daa69be303172ed0",
+      "to": "5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-13",
+      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
+      "summary": "Fixes a NaN issue in the source revision. This is a repository revision, not a published release.",
+      "changes": [
+        "Latest commit addresses NaN handling; consult the source diff for affected code."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1"
+        }
+      ]
+    },
+    {
+      "name": "thatcherfreeman/aces-transforms",
+      "url": "https://github.com/thatcherfreeman/aces-transforms",
+      "from": "e72d6de9a7328005956e5fc597c8b603614ea309",
+      "to": "50b385ae3b0dfe35e8179ed57960a690a3242525",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-13",
+      "source": "https://github.com/thatcherfreeman/aces-transforms/commit/50b385ae3b0dfe35e8179ed57960a690a3242525",
+      "summary": "Adds a linear-to-log DCTL header. This is a source revision, not a published release.",
+      "changes": [
+        "New linear-to-log header recorded from the latest upstream commit."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/thatcherfreeman/aces-transforms/commit/50b385ae3b0dfe35e8179ed57960a690a3242525"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v2.213.2",
+      "to": "v4.5.2",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-14",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.5.2",
+      "summary": "Corrects granular-tool risk ratings and audit outcomes in the latest release.",
+      "changes": [
+        "Aligns 20 granular-tool classifications with the compound-server assessments.",
+        "Raises destructive clip deletion to critical risk and grade copying/scene-cut detection to high risk.",
+        "Distinguishes pending confirmation from completed operations and records failed calls."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.5.2"
+        }
+      ]
+    },
+    {
+      "name": "psygreg/autoresolvedeb",
+      "url": "https://github.com/psygreg/autoresolvedeb",
+      "from": "7ce8250a78d4f5cd2f4dfd5fcca7221b568b9542",
+      "to": "7b403e1055c6db70ddd93aa18aa1d0433349957f",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-11",
+      "source": "https://github.com/psygreg/autoresolvedeb/commit/7b403e1055c6db70ddd93aa18aa1d0433349957f",
+      "summary": "Adds an AUR PKGBUILD patch in the source revision.",
+      "changes": [
+        "Latest commit assembles a packaging patch; no new published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/psygreg/autoresolvedeb/commit/7b403e1055c6db70ddd93aa18aa1d0433349957f"
+        }
+      ]
+    },
+    {
+      "name": "JaySNL/VSTForResolveLinux",
+      "url": "https://github.com/JaySNL/VSTForResolveLinux",
+      "from": "v0.2.11",
+      "to": "v0.3.0.1",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-12",
+      "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1",
+      "summary": "Adds a proposed lock-order repair for Fairlight freezes. Provider has not yet confirmed the formerly freezing session is fixed.",
+      "changes": [
+        "Introduces guarded lock-order patching for the reported Fairlight deadlock.",
+        "Resolve 21.1 also needs the gate library and dedicated launcher.",
+        "Provider verified loading on 21.1.0.0014, but has not verified a ResetHistory call through the wrapper or a formerly freezing session."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1"
+        }
+      ]
+    },
+    {
+      "name": "ciqueira/ColorEqualizer",
+      "url": "https://github.com/ciqueira/ColorEqualizer",
+      "from": "eq-v0.1.0",
+      "to": "eq-v0.6.1",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-02",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.1",
+      "summary": "Records the previously missed eq-v0.6.1 release. Upstream supplies only a brief SDK production note.",
+      "changes": [
+        "No detailed feature changelog was published with this release."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.1"
+        }
+      ]
+    },
+    {
+      "name": "Dec18studios/Dec18-Plugin-Manager",
+      "url": "https://github.com/Dec18studios/Dec18-Plugin-Manager",
+      "from": "plugin-manager-v0.1.20",
+      "to": "plugin-manager-v0.1.21",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-14",
+      "source": "https://github.com/Dec18studios/Dec18-Plugin-Manager/releases/tag/plugin-manager-v0.1.21",
+      "summary": "Updates the plugin manager desktop release to 0.1.21.",
+      "changes": [
+        "Upstream directs users to desktop build artifacts; no detailed feature notes supplied."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/Dec18studios/Dec18-Plugin-Manager/releases/tag/plugin-manager-v0.1.21"
+        }
+      ]
+    },
+    {
+      "name": "postflows/resolve-multicam-angle-colorizer",
+      "url": "https://github.com/postflows/resolve-multicam-angle-colorizer",
+      "from": "d3888d671b415b53f0a609eedd693a2398638dbd",
+      "to": "e696dc7a5d966374510b26557707a7305a1af453",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-13",
+      "source": "https://github.com/postflows/resolve-multicam-angle-colorizer/commit/e696dc7a5d966374510b26557707a7305a1af453",
+      "summary": "Expands angle-detection documentation. This is a documentation revision, not a new software release.",
+      "changes": [
+        "README explains angle detection in more detail."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/postflows/resolve-multicam-angle-colorizer/commit/e696dc7a5d966374510b26557707a7305a1af453"
+        }
+      ]
+    },
+    {
+      "name": "NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
+      "url": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
+      "from": "84a83d263e05a5d4f6c22458aaf0fd703459026b",
+      "to": "5aea4c478056b6e6becacbe0148ebe67996b63cf",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-08",
+      "source": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses/commit/5aea4c478056b6e6becacbe0148ebe67996b63cf",
+      "summary": "Revises the documented Vonk Ultra dependency. This is a README revision.",
+      "changes": [
+        "Current README requires Vonk Ultra through Reactor without assigning a numeric minimum."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses/commit/5aea4c478056b6e6becacbe0148ebe67996b63cf"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.7.1-build12",
+      "to": "v1.8.1",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-11",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.1",
+      "summary": "Revises cinema-print timing, source illumination and channel contrast behavior. Existing edits may render differently.",
+      "changes": [
+        "Corrects print-layer sensitivity and density targets.",
+        "Defaults source illumination to Stock Native, with daylight, tungsten and custom choices.",
+        "Separates source light, viewing illumination and print development.",
+        "Makes Channel Contrast Match optional and off by default while preserving saved nonzero settings."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.1"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.3",
+      "to": "v0.4.5",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-13",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5",
+      "summary": "Adds NLE comment export, including Resolve, and faster preview navigation.",
+      "changes": [
+        "Exports feedback to Resolve, Final Cut Pro, Premiere and Media Composer.",
+        "Adds space-key previews and comment-count badges."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5"
+        }
+      ]
+    },
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
+      "from": "26.9.17",
+      "to": "26.9.21",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-14",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Improves preview-track exclusion, interface behavior and AAF preparation feedback.",
+      "changes": [
+        "Excluded tracks stop playing immediately and their clip cards are hidden.",
+        "Locks preparation controls during conversion and keeps Stop available.",
+        "Intermediate releases improve AAF-writing progress, effect reports, fades and volume parsing."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
+    {
+      "name": "FrameSeek",
+      "url": "https://frameseek.app/",
+      "from": "0.2.0",
+      "to": "0.2.1",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-06",
+      "source": "https://frameseek.app/updates",
+      "summary": "Records the previously missed 0.2.1 release with new transcription and search controls.",
+      "changes": [
+        "Uses Apple SpeechAnalyzer on macOS 26 while retaining WhisperKit on macOS 15.",
+        "Adds table/list views with sortable columns, multi-folder filters and configurable Quick Search shortcuts.",
+        "Fixes macOS 15 local indexing and hybrid search scoring."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://frameseek.app/updates"
+        }
+      ]
+    },
+    {
+      "name": "VocalSlice",
+      "url": "https://vocalslice.com/",
+      "from": "1.462.0",
+      "to": "1.475.0",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-08-27",
+      "source": "https://vocalslice.com/changelog.html",
+      "summary": "Records the previously missed 1.475.0 release and the earlier move to a perpetual license.",
+      "changes": [
+        "First-run tour explains how selecting a phrase finds other takes of the same line.",
+        "Version 1.474.0 introduced a one-time license including future versions and removed recurring activation checks.",
+        "Earlier changes add Whisper Medium, clearer model downloads and multi-core CPU transcription."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://vocalslice.com/changelog.html"
+        }
+      ]
+    },
+    {
+      "name": "StockSilo",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
+      "from": "1.3.7 (Firefox)",
+      "to": "1.4.1",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-13",
+      "source": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/",
+      "summary": "Updates the recorded browser-extension release to 1.4.1.",
+      "changes": [
+        "Store notes describe corrected CSV naming and permission-request timing in Chrome.",
+        "Adds project recovery from Chrome download history and safeguards against overwriting incomplete logs.",
+        "Firefox publishes the same version and notes; do not assume all Chrome capabilities exist in Firefox."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/"
+        }
+      ]
+    },
+    {
+      "name": "MediaInfo",
+      "url": "https://mediaarea.net/en/MediaInfo",
+      "from": "Not established",
+      "to": "26.05",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-05-12",
+      "source": "https://mediaarea.net/MediaInfo/ChangeLog",
+      "summary": "Establishes the previously unrecorded MediaInfo 26.05 release.",
+      "changes": [
+        "Adds or improves AV2/APV, MotionPhoto, animated PNG, HLG+ and other metadata support.",
+        "Updates desktop/mobile integration and fixes media-container parsing issues."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://mediaarea.net/MediaInfo/ChangeLog"
+        }
+      ]
+    },
+    {
+      "name": "Oidn Denoiser",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom",
+      "from": "1.1",
+      "to": "2.0501",
+      "release": "v1.22",
+      "catalogue_date": "2026-09-15",
+      "upstream_date": "2026-09-11",
+      "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom",
+      "summary": "Updates the OIDN dependency and library loading, with expanded platform support.",
+      "changes": [
+        "Bundles Open Image Denoise 2.5.1 and updates library loading.",
+        "Documents Windows, macOS Intel/Apple Silicon and Linux, with supported CPU/GPU devices.",
+        "Version 2.0501 is Reactor’s literal package version; its September 11 date is a manifest date."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom"
+        }
+      ]
     }
   ]
 }

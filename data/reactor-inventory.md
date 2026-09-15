@@ -2,7 +2,7 @@
 
 [🎬 Catalogue](../README.md) · [🔎 Source data](community-discoveries.json) · [📥 Inventory JSON](reactor-inventory.json)
 
-Snapshot **2026-09-06**: **707 package folders**, **707 manifests retrieved** through GitLab’s public API. One manifest used different filename capitalization; its actual path is retained.
+Snapshot **2026-09-15**: **711 package folders**, **711 manifests retrieved** through GitLab’s public API. One manifest used different filename capitalization; its actual path is retained.
 
 This is an inventory, not a compatibility or license endorsement. It includes application installers, dependencies, legacy tools and non-Resolve companions. Names, authors, categories, versions and dates are literal manifest metadata. A package Date is not proof of its latest release. OS support and price must be checked per package. Raw descriptions and executable payloads are excluded.
 
@@ -731,7 +731,7 @@ This is an inventory, not a compatibility or license endorsement. It includes ap
 | Package | Creator | Version | Manifest date |
 |---|---|---|---|
 | [Create Grid Collage](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.CreateGridCollage/com.DominikBargiel.CreateGridCollage.atom) <br> com.DominikBargiel.CreateGridCollage | Dominik Bargiel | 1.2 | 2025-02-28 |
-| [PROPAGATE - change parameters across multiple nodes](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom) <br> com.DominikBargiel.Propagate | Dominik Bargiel | 1.2 | 2026-03-15 |
+| [PROPAGATE - change parameters across multiple nodes](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom) <br> com.DominikBargiel.Propagate | Dominik Bargiel | 1.3 | 2026-09-13 |
 | [Make Local Button Script](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.Loaders_MakeLocal/com.MuseVFX.Loaders_MakeLocal.atom) <br> com.MuseVFX.Loaders_MakeLocal | Bryan Ray | 2.5 | 2023-07-31 |
 | [Eyeon Legacy Scripts](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.EyeonLegacy/com.wesuckless.EyeonLegacy.atom) <br> com.wesuckless.EyeonLegacy | Eyeon | 2.6 | 2025-04-02 |
 
@@ -772,7 +772,7 @@ This is an inventory, not a compatibility or license endorsement. It includes ap
 | [Toggle Tracker Paths](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.toggleTrackerPaths/com.MuseVFX.toggleTrackerPaths.atom) <br> com.MuseVFX.toggleTrackerPaths | Bryan Ray | 1 | 2021-09-06 |
 | [Unlock Comp](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.unlockComp/com.MuseVFX.unlockComp.atom) <br> com.MuseVFX.unlockComp | Bryan Ray | 1 | 2021-09-06 |
 | [Update Comp Data](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.updateData/com.MuseVFX.updateData.atom) <br> com.MuseVFX.updateData | Bryan Ray | 1 | 2021-09-06 |
-| [ChangeStrings](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom) <br> com.NoahH.ChangeStrings | Noah Hähnel | 3 | 2025-08-09 |
+| [ChangeStrings](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom) <br> com.NoahH.ChangeStrings | Noah Hähnel | 3.2 | 2026-08-01 |
 | [TransferResolution](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.TransferResolution/com.PieterVanHoute.TransferResolution.atom) <br> com.PieterVanHoute.TransferResolution | Pieter Van Houte | 6.4 | 2026-01-12 |
 | [Convert to Relative Paths](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Protean.ConvertToRelativePaths/com.Protean.ConvertToRelativePaths.atom) <br> com.Protean.ConvertToRelativePaths | Protean | 5 | 2021-12-06 |
 | [Class Browser](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.RogerMagnusson.ClassBrowser/com.RogerMagnusson.ClassBrowser.atom) <br> com.RogerMagnusson.ClassBrowser | Roger Magnusson | 1.3 | 2022-02-23 |
@@ -871,6 +871,7 @@ This is an inventory, not a compatibility or license endorsement. It includes ap
 | [Star Glow](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DavidKohen.StarGlow/com.DavidKohen.StarGlow.atom) <br> com.DavidKohen.StarGlow | Bryan Ray and David Kohen | 1 | 2020-01-01 |
 | [Redshift Utilities](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.RedshiftUtilities/com.MuseVFX.RedshiftUtilities.atom) <br> com.MuseVFX.RedshiftUtilities | Bryan Ray | 3 | 2020-05-26 |
 | [XGlow](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.XGlow/com.MuseVFX.XGlow.atom) <br> com.MuseVFX.XGlow | Bryan Ray | 1.02 | 2019-12-03 |
+| [pna_colourise](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.colourise/com.pureandapplied.colourise.atom) <br> com.pureandapplied.colourise | stib | 1.01 | 2026-09-10 |
 | [HexBG](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.SirEdric.HexBG/com.SirEdric.HexBG.atom) <br> com.SirEdric.HexBG | SirEdric | 1.0 | 2017-12-02 |
 | [se_Normalator](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.SirEdric.se_Normalator/com.SirEdric.se_Normalator.atom) <br> com.SirEdric.se_Normalator | Eric 'SirEdric' Westphal | 1 | 2019-06-02 |
 | [se_YATS](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.SirEdric.se_YATS/com.SirEdric.se_YATS.atom) <br> com.SirEdric.se_YATS | Eric 'SirEdric' Westphal | 1 | 2019-06-02 |
@@ -908,7 +909,9 @@ This is an inventory, not a compatibility or license endorsement. It includes ap
 
 | Package | Creator | Version | Manifest date |
 |---|---|---|---|
+| [Chroma Compress](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom) <br> com.JacobDanell.ChromaCompress | Jacob Danell | 1.1 | 2026-09-11 |
 | [Color Analyzer](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ColorAnalyzer/com.JacobDanell.ColorAnalyzer.atom) <br> com.JacobDanell.ColorAnalyzer | Jacob Danell | 1 | 2020-09-24 |
+| [MaskPaint Switch](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom) <br> com.JacobDanell.MaskPaintSwitch | Jacob Danell | 1 | 2026-09-11 |
 | [Match Tint](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.LearnNowFX.MatchTint/com.LearnNowFX.MatchTint.atom) <br> com.LearnNowFX.MatchTint | David Kohen \| Learn Now FX | 1.3 | 2022-04-21 |
 | [Tintensity](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.LearnNowFX.Tintensity/com.LearnNowFX.Tintensity.atom) <br> com.LearnNowFX.Tintensity | Bryan Ray, Sam Treadway, David Kohen & Dominic Bargiel | 1.6 | 2025-04-04 |
 | [AdvancedDespill](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.AdvancedDespill/com.Millolab.AdvancedDespill.atom) <br> com.Millolab.AdvancedDespill | Emilio Sapia - Millolab | 2.0 | 2020-06-01 |
@@ -937,6 +940,7 @@ This is an inventory, not a compatibility or license endorsement. It includes ap
 | [VolumeHaze](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom) <br> com.Millolab.VolumeHaze | Emilio Sapia - Millolab | 2.1 | 2019-12-04 |
 | [Fringe Fighter Turbo](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom) <br> com.MuseVFX.FringeFighterTurbo | Dan De'Etremont | 1.1 | 2020-07-02 |
 | [MT_MultiMerge](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.MultiMerge/com.MuseVFX.MultiMerge.atom) <br> com.MuseVFX.MultiMerge | Bryan Ray/MuseVFX | 1.1 | 2017-09-19 |
+| [NBV-Lightwrap](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom) <br> com.NBVFilms.Lightwrap | NBVFilms | 1 | 2026-09-11 |
 
 ## Tools/Creator
 
@@ -1004,6 +1008,7 @@ This is an inventory, not a compatibility or license endorsement. It includes ap
 
 | Package | Creator | Version | Manifest date |
 |---|---|---|---|
+| [Oidn Denoiser](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom) <br> com.JacobDanell.OidnDenoiser | Jacob Danell | 2.0501 | 2026-09-11 |
 | [ml_ReGrain](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.ml_ReGrain/com.Millolab.ml_ReGrain.atom) <br> com.Millolab.ml_ReGrain | Emilio Sapia - Millolab | 1.3 | 2020-05-22 |
 
 ## Tools/Filter
@@ -1011,7 +1016,6 @@ This is an inventory, not a compatibility or license endorsement. It includes ap
 | Package | Creator | Version | Manifest date |
 |---|---|---|---|
 | [Extend Edges](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.ExtendEdges/com.GregoryChalenko.ExtendEdges.atom) <br> com.GregoryChalenko.ExtendEdges | Gregory Chalenko | 1.1 | 2018-04-20 |
-| [Oidn Denoiser](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom) <br> com.JacobDanell.OidnDenoiser | Jacob Danell | 1.1 | 2020-04-19 |
 | [AdvancedEdgeExtend](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.AdvancedEdgeExtend/com.Millolab.AdvancedEdgeExtend.atom) <br> com.Millolab.AdvancedEdgeExtend | Emilio Sapia - Millolab | 2.2 | 2020-06-18 |
 | [ml_SpotRemover](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.ml_SpotRemover/com.Millolab.ml_SpotRemover.atom) <br> com.Millolab.ml_SpotRemover | Emilio Sapia - Millolab | 2 | 2021-02-17 |
 | [SkinCorrector](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom) <br> com.Millolab.SkinCorrector | Emilio Sapia - Millolab | 5 | 2021-02-17 |
@@ -1084,7 +1088,7 @@ This is an inventory, not a compatibility or license endorsement. It includes ap
 | [Flux Super Transform](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DunnLewis.Flux_Super_Transform/com.DunnLewis.Flux_Super_Transform.atom) <br> com.DunnLewis.Flux_Super_Transform | Dunn Lewis | 1.02 | 2018-01-16 |
 | [Flux Transform](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DunnLewis.Flux_Transform/com.DunnLewis.Flux_Transform.atom) <br> com.DunnLewis.Flux_Transform | Dunn Lewis | 1.02 | 2018-01-16 |
 | [PlotScanline](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.PlotScanline/com.JacobDanell.PlotScanline.atom) <br> com.JacobDanell.PlotScanline | Jacob Danell | 1 | 2020-09-24 |
-| [Retimer](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom) <br> com.JacobDanell.Retimer | Jacob Danell | 1.21 | 2024-07-12 |
+| [Retimer](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom) <br> com.JacobDanell.Retimer | Jacob Danell | 1.5 | 2026-09-10 |
 | [Snapshot](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Snapshot/com.JacobDanell.Snapshot.atom) <br> com.JacobDanell.Snapshot | Jacob Danell | 1.1 | 2020-01-20 |
 | [AudioWaveform](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JiPi.AudioWaveform/com.JiPi.AudioWaveform.atom) <br> com.JiPi.AudioWaveform | JiPi | 2.0 | 2024-10-02 |
 | [Jellyshell](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JiPi.Jellyshell/com.JiPi.Jellyshell.atom) <br> com.JiPi.Jellyshell | JiPi | 0.3 | 2021-02-16 |

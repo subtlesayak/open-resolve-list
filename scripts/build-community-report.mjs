@@ -22,7 +22,7 @@ export function buildCommunityReport(){
  if(!directory.includes(officialMarker)) directory=directory.replace('## 🎨 Color tools',officialMarker+'\n<!-- end official resources -->\n\n## 🎨 Color tools');
  directory=replaceGeneratedSection(directory,officialMarker,'<!-- end official resources -->','\n'+tablesFor(entries.filter(isOfficialResource))+'\n');
  directory=directory.replace(/\*\*\d+ external destinations\*\*/,`**${c.total_count} external destinations**`).replace('Versions, updates and changelogs for all 72 resources','Earlier update audit: 72 resources');
- directory=directory.replace('The tree returned a loading shell during this pass, so individual package compatibility was not audited.','The browser tree returned a loading shell; a later API scan retrieved all 707 manifests. See the [package inventory](reactor-inventory.md); compatibility still varies by package.');
+ directory=directory.replace('The tree returned a loading shell during this pass, so individual package compatibility was not audited.',`The public API inventory contains ${r.folder_count} package folders. See the [package inventory](reactor-inventory.md); compatibility still varies by package.`).replace(/a later API scan retrieved all \d+ manifests/g,`the current API inventory contains ${r.folder_count} package folders`);
  directory=directory.replace('[package inventory](reactor-inventory.md)','[package inventory](https://github.com/subtlesayak/subtle-resolve-list/blob/main/data/reactor-inventory.md)');
  // Keep later products from an existing creator under that creator's heading.
  const placedCreators=new Set();
@@ -41,7 +41,7 @@ export function buildCommunityReport(){
  }
  write('data/external-tools.md',replaceGeneratedSection(directory,marker,'<!-- end community discoveries -->',`\n**${c.added_count} later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). ${link('Versions and package dates','community-discoveries.json')} are recorded separately from the earlier audit.\n\n`+tablesFor(entries.filter(e=>!isOfficialResource(e)&&!placedCreators.has(e.creator)))));
  const coverage=[
- ['🧩 Reactor / GitLab','https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms',`${r.folder_count} folders enumerated through all API pages; ${r.retrieved_count} manifests read. Full inventory published separately; 19 packages curated.`],
+ ['🧩 Reactor / GitLab','https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms',`${r.folder_count} folders enumerated through all API pages; ${r.retrieved_count} manifest records retained. Full inventory published separately; ${entries.filter(e=>e.package_id).length} packages curated.`],
  ['💬 We Suck Less','https://www.steakunderwater.com/wesuckless/viewtopic.php?t=4176','Searched Fuse/release discussions and followed EXRIO and Reactor references. Manifest 0.6 supersedes older ReadEXR thread versions.'],
  ['🎨 Lift Gamma Gain','https://www.liftgammagain.com/forum/','Searched DCTL and development discussions. Followed spektrafilm to its official site; CAS_Sharp, Max Sat and 2499 DRT remain leads.'],
  ['☕ Ko-fi','https://ko-fi.com/davinciresolvetipstricks/shop','Searched creator/product listings; six additions. Deduplicated sh4rk and NxColor storefronts. Template placeholders cannot establish price or sold-out status.'],
@@ -55,7 +55,7 @@ export function buildCommunityReport(){
  `Checked **${c.checked_at}**. Added **${c.added_count} external entries**, bringing the external directory from **${c.baseline_count} to ${c.total_count}**. The GitHub catalogue remains at **225 repositories**.`, '',
  'All seven proposed source families were searched, plus itch.io. This is a bounded public-source search, not a claim to have exhausted every post or website. No purchases, account access, plugin installations, or binary downloads were performed. Reactor manifests were read as text, never executed.', '',
  '## Search coverage','', '| Source | Work completed |','|---|---|',...coverage.map(([n,u,d])=>`| ${link(n,u)} | ${d} |`),'',
- 'The 707-folder Reactor inventory includes host installers, dependencies, documentation, legacy packages and tools for other applications. It is not 707 new Resolve plugins and is not added to the catalogue total. Selected individual packages expand the existing Reactor umbrella entry; this relationship is explicit rather than treated as an independent ecosystem.', '',
+ `The ${r.folder_count}-folder Reactor inventory includes host installers, dependencies, documentation, legacy packages and tools for other applications. It is not ${r.folder_count} new Resolve plugins and is not added to the catalogue total. Selected individual packages expand the existing Reactor umbrella entry; this relationship is explicit rather than treated as an independent ecosystem.`, '',
  '## 🕒 Versions and update evidence','',
  'Relative ages use the research date. Reactor dates are the manifest’s declared Date field, not independently verified release or last-commit timestamps. Store post dates are not promoted to product updates. Missing dates and platforms remain unassigned. Listed versions describe the checked distribution; another channel may have a newer build.', '',
  '| Creator / resource | Version found | Date evidence | Sources / retrieval |','|---|---|---|',

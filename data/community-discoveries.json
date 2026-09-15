@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-09-08",
+  "checked_at": "2026-09-15",
   "baseline_count": 72,
-  "added_count": 165,
-  "total_count": 237,
-  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added. Follow-up 2026-09-08: targeted deeper search across eleven Reddit communities, accessible comments and highlighted threads; eleven external additions verified against original sources. This is not a complete archive or all-comments crawl.",
+  "added_count": 179,
+  "total_count": 251,
+  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added. Follow-up 2026-09-08: targeted deeper search across eleven Reddit communities, accessible comments and highlighted threads; eleven external additions verified against original sources. This is not a complete archive or all-comments crawl. Follow-up 2026-09-15: accumulated sources revisited, including five GitHub directories, creator stores, Reactor and eleven Reddit communities. Direct Reddit feeds and some forums were inaccessible; indexed and selected rendered checks are partial. Only verified additions and provider changes are published.",
   "additions": [
     {
       "creator": "heiba",
@@ -432,16 +432,16 @@
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom",
       "category": "Community tools and resources",
       "access": "📦 Public Reactor package; check package license",
-      "platforms": "🪟 Windows · 🍎 macOS (legacy packages)",
-      "description": "Denoises ray-traced renders using beauty, albedo and normal passes. This legacy package embeds OIDN 1.2 and requires an SSE4.1-capable CPU; no Apple Silicon-native claim.",
-      "version": "1.1",
-      "updated": "2020-04-19",
+      "platforms": "🪟 Windows · 🍎 macOS Intel/Apple Silicon · 🐧 Linux",
+      "description": "Fusion Fuse for denoising ray-traced renders using Intel Open Image Denoise, optionally with albedo and normal passes. Current package bundles OIDN 2.5.1 and documents CPU/GPU processing on Windows, macOS Intel/Apple Silicon and Linux. Reactor version field is 2.0501; embedded changelog names the bundled OIDN release as 2.5.1.",
+      "version": "2.0501",
+      "updated": "2026-09-11",
       "date_kind": "Reactor manifest date",
       "evidence_mode": "Direct GitLab manifest",
       "sources": [
         "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom"
       ],
-      "checked_at": "2026-09-06",
+      "checked_at": "2026-09-15",
       "package_id": "com.JacobDanell.OidnDenoiser"
     },
     {
@@ -1931,17 +1931,18 @@
       "description": "Standalone media inspector for codec, stream and technical metadata. Useful when diagnosing Resolve footage problems; it is a companion utility, not a Resolve plugin.",
       "access": "🆓 Free and open source",
       "platforms": "❔ Not established",
-      "version": null,
-      "updated": null,
-      "date_kind": null,
+      "version": "26.05",
+      "updated": "2026-05-12",
+      "date_kind": "release",
       "evidence_mode": "Reviewed primary creator page",
       "sources": [
-        "https://mediaarea.net/en/MediaInfo"
+        "https://mediaarea.net/en/MediaInfo",
+        "https://mediaarea.net/MediaInfo/ChangeLog"
       ],
       "discovery_sources": [
         "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
       ],
-      "checked_at": "2026-09-08"
+      "checked_at": "2026-09-15"
     },
     {
       "creator": "MotionCam",
@@ -3069,11 +3070,11 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "category": "Community tools and resources",
-      "description": "Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Version 26.9.17 adds a marker panel, selective marker delivery and optional CSV/MIDI marker files.",
+      "description": "Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Version 26.9.21 refines the UI and keeps excluded tracks out of the preview.",
       "access": "🆓 Up to 5 minutes; 💰 paid passes or perpetual license",
       "platforms": "🍎 macOS",
-      "version": "26.9.17",
-      "updated": "2026-09-04",
+      "version": "26.9.21",
+      "updated": "2026-09-14",
       "date_kind": "release",
       "evidence_mode": "Original source reviewed; no installation testing. Published release date recorded.",
       "sources": [
@@ -3083,18 +3084,18 @@
       "discovery_sources": [
         "https://www.reddit.com/r/AudioPost/comments/1w48lr4/the_audiopost_mine_september_2026_tell_us_about/"
       ],
-      "checked_at": "2026-09-08"
+      "checked_at": "2026-09-15"
     },
     {
       "creator": "FrameSeek",
       "name": "FrameSeek",
       "url": "https://frameseek.app/",
       "category": "Community tools and resources",
-      "description": "Searches local footage by visual content, speech and on-screen text, then exports FCPXML or EDL for Resolve. Requires Apple Silicon and macOS 15+. Local AI is the default; optional Gemini API mode uses cloud processing. Current price is $59 for two Macs and one year of updates. Version 0.2.0 adds Quick Search, improved ranking and saved searches.",
+      "description": "Searches local footage by visual content, speech and on-screen text, then exports FCPXML or EDL for Resolve. Requires Apple Silicon and macOS 15+. Local AI is the default; optional Gemini API mode uses cloud processing. Paid license covers two Macs and one year of updates. Version 0.2.1 adds SpeechAnalyzer on macOS 26, sortable views and multi-folder filtering.",
       "access": "💰 Paid one-time license",
       "platforms": "🍎 macOS",
-      "version": "0.2.0",
-      "updated": "2026-08-01",
+      "version": "0.2.1",
+      "updated": "2026-09-06",
       "date_kind": "release",
       "evidence_mode": "Original source reviewed; no installation testing. Published release date recorded.",
       "sources": [
@@ -3104,7 +3105,7 @@
       "discovery_sources": [
         "https://www.reddit.com/r/davinciresolve/comments/1t0uqd3/may_devtools_monthly_megathread_for_tool_builders/"
       ],
-      "checked_at": "2026-09-08"
+      "checked_at": "2026-09-15"
     },
     {
       "creator": "Filmkid",
@@ -3151,11 +3152,11 @@
       "name": "VocalSlice",
       "url": "https://vocalslice.com/",
       "category": "Community tools and resources",
-      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool. Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon; initial model download and license activation need internet. $29 license covers three machines. Version 1.462.0 adds in-app release notes and fixes trial-expiry behavior.",
+      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool for Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon. Initial model download and license activation need internet. One-time license includes future versions and no recurring activation checks. Version 1.475.0 adds guidance for finding repeated phrases.",
       "access": "💰 Paid license with 7-day trial",
       "platforms": "🪟 Windows · 🍎 macOS",
-      "version": "1.462.0",
-      "updated": "2026-08-18",
+      "version": "1.475.0",
+      "updated": "2026-08-27",
       "date_kind": "release",
       "evidence_mode": "Original source reviewed; no installation testing. Published release date recorded.",
       "sources": [
@@ -3165,7 +3166,7 @@
       "discovery_sources": [
         "https://www.reddit.com/r/AudioPost/comments/1vckcq7/the_audiopost_mine_august_2026_tell_us_about_your/"
       ],
-      "checked_at": "2026-09-08"
+      "checked_at": "2026-09-15"
     },
     {
       "creator": "Overview",
@@ -3253,11 +3254,11 @@
       "name": "StockSilo",
       "url": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
       "category": "Community tools and resources",
-      "description": "Tracks stock-comp download origins and exports a CSV for later licensing and relinking. Companion browser utility; it does not grant stock-media licenses. Firefox 1.3.7 adds clickable CSV hyperlinks; Chrome remains 1.3.6 and also offers download-folder routing, which Firefox does not.",
+      "description": "Tracks stock-comp download origins and exports a CSV for licensing and relinking. Companion browser utility; it does not grant stock-media licenses. Firefox and Chrome list version 1.4.1. Release notes describe Chrome logging, permission and project-history fixes; browser capabilities differ.",
       "access": "🆓 Free browser extension",
       "platforms": "❓ Unverified",
-      "version": "1.3.7 (Firefox)",
-      "updated": "2026-07-17",
+      "version": "1.4.1",
+      "updated": "2026-09-13",
       "date_kind": "release",
       "evidence_mode": "Original source reviewed; no installation testing. Published release date recorded.",
       "sources": [
@@ -3268,7 +3269,296 @@
       "discovery_sources": [
         "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
       ],
-      "checked_at": "2026-09-08"
+      "checked_at": "2026-09-15"
+    },
+    {
+      "creator": "Kevin Vandermarliere",
+      "name": "AI Video Studio",
+      "url": "https://kevinvandermarliere.gumroad.com/l/Aivideostudio",
+      "category": "Community tools and resources",
+      "description": "Generates video and images through Fal.ai or ComfyUI from Resolve 21, with node workflows, bin integration and batch rendering. Creator lists Free and Studio on Windows/macOS; Linux is a separate early standalone build. Local models require suitable GPU resources; cloud providers and optional agents have separate costs. Version 3.1.7; no unambiguous release date.",
+      "access": "💰 Paid plugin; cloud generation billed separately",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "version": "3.1.7",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original creator page reviewed; no installation testing.",
+      "sources": [
+        "https://kevinvandermarliere.gumroad.com/l/Aivideostudio"
+      ],
+      "discovery_sources": [
+        "https://kevinvandermarliere.gumroad.com/l/Aivideostudio"
+      ],
+      "checked_at": "2026-09-15"
+    },
+    {
+      "creator": "AnamorphicTool",
+      "name": "AnamorphicTool OFX Suite",
+      "url": "https://anamorphictool.gumroad.com/l/ofx",
+      "category": "Community tools and resources",
+      "description": "AnamorphicFX and AnamorphicUtility OFX effects for Resolve 17+: lens geometry, astigmatism, chromatic aberration, vignette, horizontal sharpening and alignment. Both components are listed as v1.1. Windows/macOS distribution; Metal on Apple Silicon, NVIDIA CUDA and CPU fallback are documented. Exact Resolve edition and release date are not established.",
+      "access": "💰 Paid two-seat license",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "version": "1.1",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original creator page reviewed; no installation testing.",
+      "sources": [
+        "https://anamorphictool.gumroad.com/l/ofx"
+      ],
+      "discovery_sources": [
+        "https://anamorphictool.gumroad.com/l/ofx"
+      ],
+      "checked_at": "2026-09-15"
+    },
+    {
+      "creator": "LUMIFX",
+      "name": "LUMIFX Cinematic Optics",
+      "url": "https://lumicosmos.gumroad.com/l/lumifx",
+      "category": "Community tools and resources",
+      "description": "OpenFX toolkit with bloom, halation, highlight roll-off, grain, vignette, denoising and optical/transitional effects. Requires Resolve Studio 18+, Windows 10/11, NVIDIA CUDA, at least 4 GB VRAM and 16 GB RAM. macOS and V2 are advertised as upcoming, not available releases; current numeric version is unverified.",
+      "access": "💰 One-time purchase",
+      "platforms": "🪟 Windows",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original creator page reviewed; no installation testing.",
+      "sources": [
+        "https://lumicosmos.gumroad.com/l/lumifx"
+      ],
+      "discovery_sources": [
+        "https://lumicosmos.gumroad.com/l/lumifx"
+      ],
+      "checked_at": "2026-09-15"
+    },
+    {
+      "creator": "Analator",
+      "name": "Instant Saver",
+      "url": "https://analator.gumroad.com/l/rhlmj",
+      "category": "Community tools and resources",
+      "description": "Fusion Fuse for image-sequence export, automatic Loader creation and timestamped output folders. Exports PNG, JPEG, TIFF and EXR; MP4/MOV/AVI export is specifically listed for Fusion Studio. Exact Resolve edition, OS support and numeric release version are not established.",
+      "access": "💰 Paid download",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original creator page reviewed; no installation testing.",
+      "sources": [
+        "https://analator.gumroad.com/l/rhlmj",
+        "https://sh4rkk.com/instant-saver"
+      ],
+      "discovery_sources": [
+        "https://analator.gumroad.com/l/rhlmj"
+      ],
+      "checked_at": "2026-09-15"
+    },
+    {
+      "creator": "Learn Now FX",
+      "name": "Nova Particle Background Builder",
+      "url": "https://davidkohen.gumroad.com/l/Fusion-Nova",
+      "category": "Community tools and resources",
+      "description": "Procedural Fusion particle-background Fuse with GPU acceleration through Metal, CUDA or OpenCL. Creator lists Resolve/Fusion 15+ and Free support, but the Lua installer may be affected by later Studio-only UIManager restrictions. Current-version installation and OS compatibility are not verified.",
+      "access": "🆓 Free / pay what you want",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original creator page reviewed; no installation testing.",
+      "sources": [
+        "https://davidkohen.gumroad.com/l/Fusion-Nova"
+      ],
+      "discovery_sources": [
+        "https://davidkohen.gumroad.com/l/Fusion-Nova"
+      ],
+      "checked_at": "2026-09-15"
+    },
+    {
+      "creator": "Learn Now FX",
+      "name": "Mirage Heat Distortion",
+      "url": "https://davidkohen.gumroad.com/l/FusionMirage",
+      "category": "Community tools and resources",
+      "description": "GPU-accelerated heat-distortion effect using procedural noise, height-map displacement and wind controls. Creator documents Resolve/Fusion 16 and 17; later-version and desktop OS compatibility are not established. No current numeric tool version or release date is stated.",
+      "access": "💰 Paid download",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original creator page reviewed; no installation testing.",
+      "sources": [
+        "https://davidkohen.gumroad.com/l/FusionMirage"
+      ],
+      "discovery_sources": [
+        "https://davidkohen.gumroad.com/l/FusionMirage"
+      ],
+      "checked_at": "2026-09-15"
+    },
+    {
+      "creator": "Joo.Works",
+      "name": "ACES Lite iPhone Kit",
+      "url": "https://www.joo.works/iphone",
+      "category": "Community tools and resources",
+      "description": "Resolve Free/Studio kit with Apple Log calibration LUTs, a De-Phone PowerGrade, an ARRI-based output LUT and an input transform for non-Pro iPhone models. Download form requests contact details and promotional-email consent. Version, release date and desktop OS support are not established.",
+      "access": "🆓 Free download; email signup required",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original creator page reviewed; no installation testing.",
+      "sources": [
+        "https://www.joo.works/iphone"
+      ],
+      "discovery_sources": [
+        "https://www.joo.works/iphone"
+      ],
+      "checked_at": "2026-09-15"
+    },
+    {
+      "creator": "Dominik Bargiel",
+      "name": "PROPAGATE",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom",
+      "category": "Community tools and resources",
+      "description": "Captures parameter edits on an active Fusion node and applies them to other selected nodes, including connections, expressions and animation. Reactor manifest version 1.3. Exact host edition and OS requirements are not established.",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "version": "1.3",
+      "updated": "2026-09-13",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Current original Reactor manifest reviewed; package dates are not independently verified release dates.",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom"
+      ],
+      "discovery_sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms"
+      ],
+      "checked_at": "2026-09-15",
+      "package_id": "com.DominikBargiel.Propagate"
+    },
+    {
+      "creator": "Jacob Danell",
+      "name": "Chroma Compress",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom",
+      "category": "Community tools and resources",
+      "description": "Fusion Fuse for soft-knee chroma compression with directional targets, per-channel strength and a matte view. Reactor declares package version 1.1, while the embedded changelog mentions 1.2; that discrepancy is unresolved.",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "version": "1.1",
+      "updated": "2026-09-11",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Current original Reactor manifest reviewed; package dates are not independently verified release dates.",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom"
+      ],
+      "discovery_sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms"
+      ],
+      "checked_at": "2026-09-15",
+      "package_id": "com.JacobDanell.ChromaCompress"
+    },
+    {
+      "creator": "Jacob Danell",
+      "name": "MaskPaint Switch",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+      "category": "Community tools and resources",
+      "description": "Fusion shortcut script that switches MaskPaint alpha for adding or removing painted areas. Default shortcut is X with the MaskPaint node and viewer selected. Its September 2026 manifest date is separate from the embedded January 2023 initial-release note.",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "version": "1",
+      "updated": "2026-09-11",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Current original Reactor manifest reviewed; package dates are not independently verified release dates.",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom"
+      ],
+      "discovery_sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms"
+      ],
+      "checked_at": "2026-09-15",
+      "package_id": "com.JacobDanell.MaskPaintSwitch"
+    },
+    {
+      "creator": "Jacob Danell",
+      "name": "Retimer and Retimer3D",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom",
+      "category": "Community tools and resources",
+      "description": "Retimes Fusion footage or 3D scenes by accumulating frame steps. Provides nearest, blend and existing-subframe modes; it does not generate new subframes. Manifest version 1.5 has a September 2026 package date, while its embedded 1.5 changelog is dated December 2023.",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "version": "1.5",
+      "updated": "2026-09-10",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Current original Reactor manifest reviewed; package dates are not independently verified release dates.",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom"
+      ],
+      "discovery_sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms"
+      ],
+      "checked_at": "2026-09-15",
+      "package_id": "com.JacobDanell.Retimer"
+    },
+    {
+      "creator": "NBVFilms",
+      "name": "NBV-Lightwrap",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom",
+      "category": "Community tools and resources",
+      "description": "Fusion light-wrap macro with edge controls and a color-cast option for matching foreground edges to background luminance and hue. Distributed through Reactor; exact Resolve edition and OS requirements are not established.",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "version": "1",
+      "updated": "2026-09-11",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Current original Reactor manifest reviewed; package dates are not independently verified release dates.",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom"
+      ],
+      "discovery_sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms"
+      ],
+      "checked_at": "2026-09-15",
+      "package_id": "com.NBVFilms.Lightwrap"
+    },
+    {
+      "creator": "Noah Hähnel",
+      "name": "Change Strings",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom",
+      "category": "Community tools and resources",
+      "description": "Fusion batch search/replace for node names, file paths, expressions and text inputs. Includes version stepping, dynamic variables, a preview mode and an operation summary. Version 3.2 preserves Loader/Saver settings when paths change. Reactor package numbering is 3.2; creator changelog calls it 3.2.0.",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "version": "3.2",
+      "updated": "2026-08-01",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Current original Reactor manifest reviewed; package dates are not independently verified release dates.",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom",
+        "https://novfx.de/changelog/change-strings/"
+      ],
+      "discovery_sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms"
+      ],
+      "checked_at": "2026-09-15",
+      "package_id": "com.NoahH.ChangeStrings"
+    },
+    {
+      "creator": "stib",
+      "name": "pna_colourise",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.colourise/com.pureandapplied.colourise.atom",
+      "category": "Community tools and resources",
+      "description": "GPU Fusion Fuse for solid-color luminance mapping, alpha-aware color multiplication, duotone and tritone looks. Part of stib’s Fuses and distributed through Reactor. Platform and exact host compatibility remain unverified.",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "version": "1.01",
+      "updated": "2026-09-10",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Current original Reactor manifest reviewed; package dates are not independently verified release dates.",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.colourise/com.pureandapplied.colourise.atom"
+      ],
+      "discovery_sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms"
+      ],
+      "checked_at": "2026-09-15",
+      "package_id": "com.pureandapplied.colourise"
     }
   ],
   "held_candidates": [

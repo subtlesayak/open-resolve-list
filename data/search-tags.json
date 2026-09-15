@@ -6249,10 +6249,14 @@
         "assets",
         "feedback",
         "media",
-        "self hosted"
+        "self hosted",
+        "resolve",
+        "comments",
+        "nle export"
       ],
       "sources": [
-        "https://github.com/shumaiOne/shumai"
+        "https://github.com/shumaiOne/shumai",
+        "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5"
       ]
     },
     {
@@ -6582,6 +6586,645 @@
         "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
         "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/",
         "https://chromewebstore.google.com/detail/stocksilo/hcedobnjefgpoijlpfibidbkfifohonn"
+      ]
+    },
+    {
+      "url": "https://github.com/Gianluca-Improta/cinekive",
+      "name": "Cinekive",
+      "tags": [
+        "stills",
+        "reference",
+        "moodboard",
+        "lookbook",
+        "semantic search",
+        "film",
+        "archive"
+      ],
+      "sources": [
+        "https://github.com/Gianluca-Improta/cinekive#readme",
+        "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.5.3"
+      ]
+    },
+    {
+      "url": "https://github.com/HooperH/SubFix",
+      "name": "SubFix",
+      "tags": [
+        "subtitles",
+        "transcription",
+        "qwen",
+        "alignment",
+        "chinese",
+        "translation",
+        "batch"
+      ],
+      "sources": [
+        "https://github.com/HooperH/SubFix#readme",
+        "https://github.com/HooperH/SubFix/releases/tag/v3.3.1"
+      ]
+    },
+    {
+      "url": "https://github.com/mhadifilms/dvr",
+      "name": "dvr",
+      "tags": [
+        "cli",
+        "mcp",
+        "python",
+        "automation",
+        "timeline",
+        "json",
+        "grading"
+      ],
+      "sources": [
+        "https://github.com/mhadifilms/dvr#readme",
+        "https://github.com/mhadifilms/dvr/releases/tag/v1.6.4"
+      ]
+    },
+    {
+      "url": "https://github.com/erik-sutton95/dji-clip-color",
+      "name": "DJI Clip Color",
+      "tags": [
+        "dji",
+        "d log",
+        "d log m",
+        "hlg",
+        "metadata",
+        "clip color",
+        "camera",
+        "organization"
+      ],
+      "sources": [
+        "https://github.com/erik-sutton95/dji-clip-color#readme",
+        "https://github.com/erik-sutton95/dji-clip-color/commit/db33e02ddf41fcf650aebd4fae19dc86bd70cc61"
+      ]
+    },
+    {
+      "url": "https://github.com/TeddieWang/BarkTed",
+      "name": "BarkTed",
+      "tags": [
+        "whisper",
+        "subtitles",
+        "transcription",
+        "translation",
+        "multilingual",
+        "translategemma",
+        "apple silicon"
+      ],
+      "sources": [
+        "https://github.com/TeddieWang/BarkTed#readme",
+        "https://github.com/TeddieWang/BarkTed/releases/tag/v1.0.0"
+      ]
+    },
+    {
+      "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
+      "name": "DaVinci Resolve Container",
+      "tags": [
+        "linux",
+        "container",
+        "docker",
+        "distrobox",
+        "fedora",
+        "amd",
+        "nvidia",
+        "rocm"
+      ],
+      "sources": [
+        "https://github.com/Distortions81/DaVinci-Resolve-Container#readme",
+        "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/3a2831dc925133dc1613cc17a7501b15c7d01d6d"
+      ]
+    },
+    {
+      "url": "https://github.com/zirmila/vm-cursor",
+      "name": "VM Cursor",
+      "tags": [
+        "cursor",
+        "screen recording",
+        "zoom",
+        "tutorial",
+        "keystrokes",
+        "ofx",
+        "cuda"
+      ],
+      "sources": [
+        "https://github.com/zirmila/vm-cursor#readme",
+        "https://github.com/zirmila/vm-cursor/releases/tag/v1.0.1"
+      ]
+    },
+    {
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "name": "GDC Plugin Manager",
+      "tags": [
+        "plugin manager",
+        "installer",
+        "updates",
+        "dctl",
+        "lut",
+        "fuse"
+      ],
+      "sources": [
+        "https://github.com/gordasgdc/gdc-plugin-manager#readme",
+        "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.37.1"
+      ]
+    },
+    {
+      "url": "https://github.com/broskisworld/davinci-aac-support",
+      "name": "DaVinci AAC Support",
+      "tags": [
+        "aac",
+        "pcm",
+        "linux",
+        "ffmpeg",
+        "relink",
+        "audio",
+        "watch folder"
+      ],
+      "sources": [
+        "https://github.com/broskisworld/davinci-aac-support#readme",
+        "https://github.com/broskisworld/davinci-aac-support/commit/454deca4d1597851d5a7292c166fbe55a9e221e5"
+      ]
+    },
+    {
+      "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title",
+      "name": "Galactic Crawl Fusion Title",
+      "tags": [
+        "title",
+        "text",
+        "crawl",
+        "stars",
+        "space",
+        "perspective",
+        "drfx"
+      ],
+      "sources": [
+        "https://github.com/pacoestrada/galactic-crawl-fusion-title#readme",
+        "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.1.0"
+      ]
+    },
+    {
+      "url": "https://github.com/OSideMedia/oside-resolve-mcp",
+      "name": "OSIDE Resolve MCP",
+      "tags": [
+        "mcp",
+        "manifest",
+        "json",
+        "timeline",
+        "markers",
+        "cdl",
+        "automation",
+        "narration"
+      ],
+      "sources": [
+        "https://github.com/OSideMedia/oside-resolve-mcp#readme",
+        "https://github.com/OSideMedia/oside-resolve-mcp/releases/tag/v0.6.1"
+      ]
+    },
+    {
+      "url": "https://github.com/amsomr/davinci-resolve-linux-toolkit",
+      "name": "DaVinci Resolve Linux Toolkit",
+      "tags": [
+        "linux",
+        "installation",
+        "fedora",
+        "ubuntu",
+        "debian",
+        "arch",
+        "opencl",
+        "fuse2"
+      ],
+      "sources": [
+        "https://github.com/amsomr/davinci-resolve-linux-toolkit#readme",
+        "https://github.com/amsomr/davinci-resolve-linux-toolkit/commit/9b6107c69a31244d066abb2e70f6cad13e0a4f4c"
+      ]
+    },
+    {
+      "url": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+      "name": "TextPlus Style Gallery",
+      "tags": [
+        "text plus",
+        "text+",
+        "style",
+        "typography",
+        "gallery",
+        "presets",
+        "lua",
+        "gradient"
+      ],
+      "sources": [
+        "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery#readme",
+        "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery/releases/tag/v1.1.0"
+      ]
+    },
+    {
+      "url": "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard",
+      "name": "Enlightened Pickleball Scoreboard",
+      "tags": [
+        "pickleball",
+        "scoreboard",
+        "sports",
+        "score",
+        "keyframes",
+        "titles",
+        "python"
+      ],
+      "sources": [
+        "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard#readme",
+        "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard/commit/202ac6b0fed79a8ff6c6a716df0c1f89ea50e0ef"
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/resolve-configurator",
+      "name": "Resolve Configurator",
+      "tags": [
+        "csv",
+        "project setup",
+        "bins",
+        "timeline",
+        "session",
+        "scaffold",
+        "automation"
+      ],
+      "sources": [
+        "https://github.com/stoatworks-labs/resolve-configurator#readme",
+        "https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.5"
+      ]
+    },
+    {
+      "url": "https://github.com/jpmontez/fx3-ingest",
+      "name": "FX3 Ingest",
+      "tags": [
+        "sony",
+        "fx3",
+        "ingest",
+        "offload",
+        "checksum",
+        "sha256",
+        "gyro",
+        "metadata"
+      ],
+      "sources": [
+        "https://github.com/jpmontez/fx3-ingest#readme",
+        "https://github.com/jpmontez/fx3-ingest/commit/56a8cb3a0fa130cb8e822d59d23b9e80e25f2a2f"
+      ]
+    },
+    {
+      "url": "https://github.com/titasmallick/DaVinci-ConsoleBinding",
+      "name": "DaVinci ConsoleBinding",
+      "tags": [
+        "gamepad",
+        "controller",
+        "xinput",
+        "keyboard",
+        "mouse",
+        "shortcuts",
+        "control surface"
+      ],
+      "sources": [
+        "https://github.com/titasmallick/DaVinci-ConsoleBinding#readme",
+        "https://github.com/titasmallick/DaVinci-ConsoleBinding/commit/56e9759af9d44219cdc9a53b8adcab1926fa2055"
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/macroblock",
+      "name": "Macroblock",
+      "tags": [
+        "mosaic",
+        "pixelation",
+        "macroblock",
+        "chroma",
+        "luminance",
+        "ofx",
+        "glitch"
+      ],
+      "sources": [
+        "https://github.com/stoatworks-labs/macroblock#readme",
+        "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2"
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/compander",
+      "name": "Compander",
+      "tags": [
+        "compander",
+        "analog",
+        "compression",
+        "video",
+        "ofx",
+        "experimental"
+      ],
+      "sources": [
+        "https://github.com/stoatworks-labs/compander#readme",
+        "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.2"
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/flenser",
+      "name": "Flenser",
+      "tags": [
+        "liquid",
+        "oil",
+        "light show",
+        "psychedelic",
+        "ofx",
+        "experimental"
+      ],
+      "sources": [
+        "https://github.com/stoatworks-labs/flenser#readme",
+        "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4"
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/tilter",
+      "name": "Tilter",
+      "tags": [
+        "tilt shift",
+        "depth of field",
+        "blur",
+        "miniature",
+        "ofx",
+        "experimental"
+      ],
+      "sources": [
+        "https://github.com/stoatworks-labs/tilter#readme",
+        "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.5"
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "name": "Cogwheel",
+      "tags": [
+        "spirograph",
+        "gears",
+        "generator",
+        "subtractive",
+        "ink",
+        "ofx",
+        "geometry"
+      ],
+      "sources": [
+        "https://github.com/stoatworks-labs/cogwheel#readme",
+        "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.0"
+      ]
+    },
+    {
+      "url": "https://github.com/MohammedBoulifa/Resolve-Codec-Converter",
+      "name": "Resolve Codec Converter",
+      "tags": [
+        "codec",
+        "transcode",
+        "h264",
+        "h265",
+        "dnxhr",
+        "prores",
+        "pcm",
+        "linux",
+        "ffmpeg"
+      ],
+      "sources": [
+        "https://github.com/MohammedBoulifa/Resolve-Codec-Converter#readme",
+        "https://github.com/MohammedBoulifa/Resolve-Codec-Converter/releases/tag/ResolveCodecConverter-x86_64"
+      ]
+    },
+    {
+      "url": "https://github.com/KeibiSoft/KeibiDrop",
+      "name": "KeibiDrop",
+      "tags": [
+        "nas",
+        "remote editing",
+        "file sharing",
+        "peer to peer",
+        "relay",
+        "media",
+        "handoff"
+      ],
+      "sources": [
+        "https://github.com/KeibiSoft/KeibiDrop#readme",
+        "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.7"
+      ]
+    },
+    {
+      "url": "https://kevinvandermarliere.gumroad.com/l/Aivideostudio",
+      "name": "AI Video Studio",
+      "tags": [
+        "ai video",
+        "comfyui",
+        "fal ai",
+        "generation",
+        "batch",
+        "images",
+        "gpu",
+        "workflow"
+      ],
+      "sources": [
+        "https://kevinvandermarliere.gumroad.com/l/Aivideostudio"
+      ]
+    },
+    {
+      "url": "https://anamorphictool.gumroad.com/l/ofx",
+      "name": "AnamorphicTool OFX Suite",
+      "tags": [
+        "anamorphic",
+        "lens",
+        "astigmatism",
+        "chromatic aberration",
+        "vignette",
+        "sharpen",
+        "alignment",
+        "ofx"
+      ],
+      "sources": [
+        "https://anamorphictool.gumroad.com/l/ofx"
+      ]
+    },
+    {
+      "url": "https://lumicosmos.gumroad.com/l/lumifx",
+      "name": "LUMIFX Cinematic Optics",
+      "tags": [
+        "film",
+        "bloom",
+        "halation",
+        "grain",
+        "vignette",
+        "denoise",
+        "ofx",
+        "cuda"
+      ],
+      "sources": [
+        "https://lumicosmos.gumroad.com/l/lumifx"
+      ]
+    },
+    {
+      "url": "https://analator.gumroad.com/l/rhlmj",
+      "name": "Instant Saver",
+      "tags": [
+        "saver",
+        "export",
+        "image sequence",
+        "exr",
+        "png",
+        "loader",
+        "fusion",
+        "automation"
+      ],
+      "sources": [
+        "https://analator.gumroad.com/l/rhlmj",
+        "https://sh4rkk.com/instant-saver"
+      ]
+    },
+    {
+      "url": "https://davidkohen.gumroad.com/l/Fusion-Nova",
+      "name": "Nova Particle Background Builder",
+      "tags": [
+        "particles",
+        "background",
+        "procedural",
+        "gpu",
+        "abstract",
+        "fuse"
+      ],
+      "sources": [
+        "https://davidkohen.gumroad.com/l/Fusion-Nova"
+      ]
+    },
+    {
+      "url": "https://davidkohen.gumroad.com/l/FusionMirage",
+      "name": "Mirage Heat Distortion",
+      "tags": [
+        "heat",
+        "distortion",
+        "mirage",
+        "noise",
+        "displacement",
+        "wind",
+        "fusion"
+      ],
+      "sources": [
+        "https://davidkohen.gumroad.com/l/FusionMirage"
+      ]
+    },
+    {
+      "url": "https://www.joo.works/iphone",
+      "name": "ACES Lite iPhone Kit",
+      "tags": [
+        "iphone",
+        "apple log",
+        "arri",
+        "lut",
+        "powergrade",
+        "rec709",
+        "calibration"
+      ],
+      "sources": [
+        "https://www.joo.works/iphone"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom",
+      "name": "PROPAGATE",
+      "tags": [
+        "nodes",
+        "parameters",
+        "batch",
+        "expressions",
+        "keyframes",
+        "connections",
+        "propagate"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom",
+      "name": "Chroma Compress",
+      "tags": [
+        "chroma",
+        "saturation",
+        "compression",
+        "soft knee",
+        "matte",
+        "color",
+        "fuse"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+      "name": "MaskPaint Switch",
+      "tags": [
+        "mask",
+        "paint",
+        "alpha",
+        "shortcut",
+        "roto",
+        "fusion"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom",
+      "name": "Retimer and Retimer3D",
+      "tags": [
+        "retime",
+        "speed",
+        "time",
+        "3d",
+        "frames",
+        "interpolation",
+        "fuse"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom",
+      "name": "NBV-Lightwrap",
+      "tags": [
+        "light wrap",
+        "compositing",
+        "edges",
+        "color cast",
+        "keying",
+        "macro"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom",
+      "name": "Change Strings",
+      "tags": [
+        "search replace",
+        "batch",
+        "paths",
+        "rename",
+        "versioning",
+        "expressions",
+        "text"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom",
+        "https://novfx.de/changelog/change-strings/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.colourise/com.pureandapplied.colourise.atom",
+      "name": "pna_colourise",
+      "tags": [
+        "colorize",
+        "colourise",
+        "duotone",
+        "tritone",
+        "luminance",
+        "gpu",
+        "fuse"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.colourise/com.pureandapplied.colourise.atom"
       ]
     }
   ]

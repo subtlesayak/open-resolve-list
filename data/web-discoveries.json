@@ -1,8 +1,8 @@
 {
   "checked_at": "2026-09-06T11:36:20Z",
   "baseline_count": 130,
-  "added_count": 109,
-  "total_count": 239,
+  "added_count": 133,
+  "total_count": 263,
   "searches": [
     {
       "query": "topic:davinci-resolve fork:false",
@@ -2367,7 +2367,7 @@
       "category": "Productivity scripts, workflow bridges, and integrations",
       "repository": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
-      "description": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Companion post-production service; no direct Resolve timeline integration is documented.",
+      "description": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Version 0.4.5 adds comment export for Resolve and other NLEs, space-key previews and comment-count badges. Hosting and optional AI services have separate requirements.",
       "access": "Free; hosting and AI services separate",
       "research_snapshot": "2026-09-08",
       "platforms": "Unverified",
@@ -2475,6 +2475,510 @@
       "evidence_source": "https://github.com/Kemerd/premiere-agent#readme",
       "discovery_sources": [
         "https://www.reddit.com/r/VideoEditing/comments/1s9xqhx/april_developertool_creator_thread_building_or/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "Gianluca-Improta/cinekive",
+      "url": "https://github.com/Gianluca-Improta/cinekive",
+      "description": "Local cinematic stills archive with lookbooks, moodboards and semantic image search. Companion reference tool for edit and grading work. Windows and macOS installers include the engine; Linux requires Docker. Initial model downloads need internet. Free community edition and optional paid Pro features.",
+      "access": "Mixed: free community edition; paid Pro",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/Gianluca-Improta/cinekive#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "104",
+      "last_pushed_at": "2026-09-08T08:58:32Z",
+      "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/Gianluca-Improta/cinekive#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "repository": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "description": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established.",
+      "access": "Public",
+      "research_snapshot": "2026-09-15",
+      "platforms": "macOS",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/HooperH/SubFix#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "26",
+      "last_pushed_at": "2026-09-11T05:43:14Z",
+      "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+      "upstream_license": null,
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/HooperH/SubFix#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "repository": "mhadifilms/dvr",
+      "url": "https://github.com/mhadifilms/dvr",
+      "description": "CLI, Python client and MCP interface for Resolve projects, timelines, media and grading operations, with structured JSON output. Requires Resolve Studio 18.5+ and Python 3.10+. Any connected AI assistant has separate processing and access terms.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/mhadifilms/dvr#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "14",
+      "last_pushed_at": "2026-09-08T08:46:10Z",
+      "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/mhadifilms/dvr#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "erik-sutton95/dji-clip-color",
+      "url": "https://github.com/erik-sutton95/dji-clip-color",
+      "description": "Identifies DJI camera profiles from clip metadata and assigns Resolve clip colors for D-Log, D-Log 2, D-Log M and HLG. It organizes media rather than applying a color transform. Windows requires 64-bit Python 3. Python scripting requires Studio in Resolve 21.1.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/erik-sutton95/dji-clip-color#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "9",
+      "last_pushed_at": "2026-09-08T19:18:15Z",
+      "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+      "upstream_license": "Apache-2.0",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/erik-sutton95/dji-clip-color#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "repository": "TeddieWang/BarkTed",
+      "url": "https://github.com/TeddieWang/BarkTed",
+      "description": "Local Whisper transcription and subtitle translation for Apple Silicon Macs running Resolve Studio 21+. Installer bundles the runtime and transcription model. Optional TranslateGemma translation runs locally; API translation sends subtitle text to the chosen provider and may incur charges. Intel Macs, Windows and Linux are not supported by this installer.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "macOS",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/TeddieWang/BarkTed#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "2",
+      "last_pushed_at": "2026-09-12T07:16:09Z",
+      "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/TeddieWang/BarkTed#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Linux installation, compatibility, and troubleshooting",
+      "repository": "Distortions81/DaVinci-Resolve-Container",
+      "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
+      "description": "Community Fedora container setup for Resolve Free or Studio 21.1 on Linux using Docker or Distrobox. Documents AMD ROCm/OpenCL and NVIDIA container setup. Provider tested AMD/X11; NVIDIA and Wayland validation remains incomplete. Supply the official Resolve installer and any required Studio license separately.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/Distortions81/DaVinci-Resolve-Container#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "2",
+      "last_pushed_at": "2026-09-10T14:24:54Z",
+      "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/Distortions81/DaVinci-Resolve-Container#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "zirmila/vm-cursor",
+      "url": "https://github.com/zirmila/vm-cursor",
+      "description": "Windows screen-capture companion and OFX effect for cursor-following zooms, highlights and keystroke overlays. The plugin requires NVIDIA CUDA; capture can use other hardware. Creator reports Resolve 21 Studio testing but only assumes Free support. Portrait/letterboxed recordings have known positioning limitations.",
+      "access": "Public download; license terms need review",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/zirmila/vm-cursor#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "2",
+      "last_pushed_at": "2026-09-10T06:52:44Z",
+      "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+      "upstream_license": "NOASSERTION",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/zirmila/vm-cursor#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "description": "Apple Silicon app for installing and updating GDC DCTLs, LUTs and Fusion Fuses. The manager is free; individual GDC products retain their own prices and licenses. Exact Resolve compatibility varies by installed tool.",
+      "access": "Mixed: free manager; separately licensed products",
+      "research_snapshot": "2026-09-15",
+      "platforms": "macOS",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/gordasgdc/gdc-plugin-manager#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "1",
+      "last_pushed_at": "2026-09-15T03:41:12Z",
+      "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/gordasgdc/gdc-plugin-manager#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Linux installation, compatibility, and troubleshooting",
+      "repository": "broskisworld/davinci-aac-support",
+      "url": "https://github.com/broskisworld/davinci-aac-support",
+      "description": "Linux background watcher that detects imported AAC media, converts audio to PCM with FFmpeg and relinks clips through Resolve scripting. Leaves compatible video streams unchanged. Requires Python 3, FFmpeg/ffprobe and a systemd user service. Creator claims Free/Studio support; Resolve 21.1 scripting restrictions require a separate compatibility check.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/broskisworld/davinci-aac-support#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "1",
+      "last_pushed_at": "2026-09-14T05:43:27Z",
+      "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/broskisworld/davinci-aac-support#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "pacoestrada/galactic-crawl-fusion-title",
+      "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title",
+      "description": "Editable perspective text crawl with a star-field background, distributed as a Fusion title/DRFX package for Resolve 21 on Linux. Initial provider checks are limited; not every control, export format or platform has been validated.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/pacoestrada/galactic-crawl-fusion-title#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "1",
+      "last_pushed_at": "2026-09-08T12:05:48Z",
+      "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/pacoestrada/galactic-crawl-fusion-title#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "repository": "OSideMedia/oside-resolve-mcp",
+      "url": "https://github.com/OSideMedia/oside-resolve-mcp",
+      "description": "MCP workflow that builds Resolve projects from JSON manifests and a user-supplied DRP template: bins, ordered timelines, markers, narration and CDL look data. Requires Resolve Studio; provider documents Studio 21.1 checks on macOS. Includes read-back acceptance checks, with no service account required for the local server.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "macOS",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/OSideMedia/oside-resolve-mcp#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-13T18:36:38Z",
+      "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/OSideMedia/oside-resolve-mcp#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Linux installation, compatibility, and troubleshooting",
+      "repository": "amsomr/davinci-resolve-linux-toolkit",
+      "url": "https://github.com/amsomr/davinci-resolve-linux-toolkit",
+      "description": "Community installation and compatibility helpers for Fedora, Debian/Ubuntu and Arch. Covers FUSE2, library/ABI conflicts and OpenCL or GPU setup. Scripts can modify host libraries and drivers; follow the distribution-specific instructions. Not an official Blackmagic installer.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/amsomr/davinci-resolve-linux-toolkit#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-13T17:04:34Z",
+      "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/amsomr/davinci-resolve-linux-toolkit#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+      "url": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+      "description": "Lua gallery for capturing and reapplying Text+ styles while preserving the text. Offers 100 slots, thumbnails, shading/gradient styles and a JSON library. Installation paths are documented for Windows and macOS; exact Resolve edition/version requirements are not established.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-13T07:08:04Z",
+      "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "captainch0mpy/Enlightened-Pickleball-Scoreboard",
+      "url": "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard",
+      "description": "Fusion scoreboard assets and a Python scorekeeping panel for pickleball match edits, including keyframed score changes. Provider developed and tested on Windows; macOS/Linux paths are supplied without native tests. Python scripting requires Studio in Resolve 21.1.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-12T04:47:06Z",
+      "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "stoatworks-labs/resolve-configurator",
+      "url": "https://github.com/stoatworks-labs/resolve-configurator",
+      "description": "Builds project bins and empty timeline scaffolds from session CSV files, with background media and smart-bin recipes. Uses Resolve Studio external scripting. Provides desktop packages plus a Python 3.11+ source installation; Intel Mac users follow the Python installation path.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/stoatworks-labs/resolve-configurator#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-10T13:42:27Z",
+      "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/stoatworks-labs/resolve-configurator#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "repository": "jpmontez/fx3-ingest",
+      "url": "https://github.com/jpmontez/fx3-ingest",
+      "description": "macOS Bash/ExifTool companion for Sony FX3 footage offload, date-based folders, SHA-256 verification and gyro-metadata checks. Prepares media for editing; it is not a Resolve plugin. Review its verification results before erasing any camera card.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "macOS",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/jpmontez/fx3-ingest#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-08T20:47:56Z",
+      "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/jpmontez/fx3-ingest#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "repository": "titasmallick/DaVinci-ConsoleBinding",
+      "url": "https://github.com/titasmallick/DaVinci-ConsoleBinding",
+      "description": "Windows XInput controller bindings for Resolve using PowerShell/C# keyboard and mouse automation. Supports configurable gamepad actions and limits input to the foreground Resolve window; no Resolve scripting bridge is required.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/titasmallick/DaVinci-ConsoleBinding#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-08T18:17:42Z",
+      "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/titasmallick/DaVinci-ConsoleBinding#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "stoatworks-labs/macroblock",
+      "url": "https://github.com/stoatworks-labs/macroblock",
+      "description": "Experimental OpenFX/FFGL effect for separate luminance and chroma mosaic grids. Offers desktop builds; OFX host compatibility and final Resolve renders need validation. Audio-reactive FFGL features should not be assumed available in Resolve.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/stoatworks-labs/macroblock#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "2",
+      "last_pushed_at": "2026-09-15T10:19:59Z",
+      "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/stoatworks-labs/macroblock#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "stoatworks-labs/compander",
+      "url": "https://github.com/stoatworks-labs/compander",
+      "description": "Experimental analog-companding video effect with OFX and FFGL builds. Provider reports host-probe checks but has not opened the OFX plugin in Resolve. Treat Resolve use as unverified until tested on the intended setup.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/stoatworks-labs/compander#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-15T10:19:51Z",
+      "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/stoatworks-labs/compander#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "stoatworks-labs/flenser",
+      "url": "https://github.com/stoatworks-labs/flenser",
+      "description": "Experimental oil/liquid-light-show effect with OFX and FFGL builds. Provider has not loaded it in Resolve and has not run the Linux build. Host probes and another host do not establish Resolve compatibility.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/stoatworks-labs/flenser#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-09T01:48:09Z",
+      "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/stoatworks-labs/flenser#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "stoatworks-labs/tilter",
+      "url": "https://github.com/stoatworks-labs/tilter",
+      "description": "Experimental tilt-shift/depth-of-field effect with OFX and FFGL builds for desktop systems. Provider reports probe-level OFX checks; use in Resolve is not yet verified.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/stoatworks-labs/tilter#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-09T01:48:06Z",
+      "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/stoatworks-labs/tilter#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "stoatworks-labs/cogwheel",
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "description": "Spirograph and gear-based generative graphics with subtractive-ink controls, distributed as OFX and FFGL plugins. Provider registered the OFX plugin in Resolve Studio 21.0.2.4 but did not render it over a clip there; render and platform validation remain incomplete.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/stoatworks-labs/cogwheel#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-15T10:18:50Z",
+      "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/stoatworks-labs/cogwheel#readme",
+      "discovery_sources": [
+        "https://github.com/search?q=davinci-resolve&type=repositories"
+      ]
+    },
+    {
+      "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "repository": "MohammedBoulifa/Resolve-Codec-Converter",
+      "url": "https://github.com/MohammedBoulifa/Resolve-Codec-Converter",
+      "description": "Linux batch transcoding GUI for H.264/H.265, DNxHR and ProRes, including PCM audio conversion and a video-passthrough audio mode. Useful for preparing footage for Resolve Free on Linux. The x64 AppImage bundles PyQt5/Qt5; FFmpeg must be installed separately. Release tag is a build label, not a numeric version.",
+      "access": "Free",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/MohammedBoulifa/Resolve-Codec-Converter#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "0",
+      "last_pushed_at": "2026-09-12T19:50:05Z",
+      "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+      "upstream_license": "GPL-3.0",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/MohammedBoulifa/Resolve-Codec-Converter#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1wenm5u/davinci_resolve_free_on_linux_cant_decode/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "KeibiSoft/KeibiDrop",
+      "url": "https://github.com/KeibiSoft/KeibiDrop",
+      "description": "Mounts remote shared media folders for on-demand editing, with a documented Resolve/NAS workflow. Supports desktop systems plus a separate Android app. Direct peer connections can fall back to a relay; network quality affects editing. Engine is MPL-2.0, while UI/mobile components have separate terms. Paid relay data packs are optional.",
+      "access": "Mixed: free direct sharing; optional relay data packs",
+      "research_snapshot": "2026-09-15",
+      "platforms": "Windows;macOS;Linux",
+      "platform_notes": "Provider-documented distribution targets; no installation testing. See description for platform and host caveats.",
+      "platform_source": "https://github.com/KeibiSoft/KeibiDrop#readme",
+      "platform_checked_at": "2026-09-15",
+      "stars": "59",
+      "last_pushed_at": "2026-09-14T13:55:22Z",
+      "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+      "upstream_license": "NOASSERTION",
+      "upstream_archived": false,
+      "evidence_source": "https://github.com/KeibiSoft/KeibiDrop#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1w6ilmv/comment/p8azoms/"
       ]
     }
   ],

@@ -2061,6 +2061,13 @@
           "source": "https://mediaarea.net/en/MediaInfo",
           "checked_at": "2026-09-08",
           "note": "Creator listing reviewed; not installation tested."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://mediaarea.net/MediaInfo/ChangeLog",
+          "checked_at": "2026-09-15",
+          "note": "Establishes the previously unrecorded MediaInfo 26.05 release."
         }
       ]
     },
@@ -3432,6 +3439,13 @@
           "source": "https://fcp2aaf.com/changelog/",
           "checked_at": "2026-09-08",
           "note": "Original provider release notes for 26.9.17."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://fcp2aaf.com/changelog/",
+          "checked_at": "2026-09-15",
+          "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
         }
       ]
     },
@@ -3465,6 +3479,13 @@
           "source": "https://frameseek.app/updates",
           "checked_at": "2026-09-08",
           "note": "Original provider release notes for 0.2.0."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://frameseek.app/updates",
+          "checked_at": "2026-09-15",
+          "note": "Records the previously missed 0.2.1 release with new transcription and search controls."
         }
       ]
     },
@@ -3545,6 +3566,13 @@
           "source": "https://vocalslice.com/changelog.html",
           "checked_at": "2026-09-08",
           "note": "Original provider release notes for 1.462.0."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://vocalslice.com/changelog.html",
+          "checked_at": "2026-09-15",
+          "note": "Records the previously missed 1.475.0 release and the earlier move to a perpetual license."
         }
       ]
     },
@@ -3670,6 +3698,961 @@
           "source": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/",
           "checked_at": "2026-09-08",
           "note": "Original provider release notes for 1.3.7 (Firefox)."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/",
+          "checked_at": "2026-09-15",
+          "note": "Updates the recorded browser-extension release to 1.4.1."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Gianluca-Improta/cinekive",
+      "tasks": [
+        "media"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "mixed",
+        "processing": "local",
+        "architectures": [
+          "x64",
+          "arm64"
+        ],
+        "dependencies": "Initial search-model downloads; Docker on Linux"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/Gianluca-Improta/cinekive#readme",
+          "checked_at": "2026-09-15",
+          "note": "Local cinematic stills archive with lookbooks, moodboards and semantic image search. Companion reference tool for edit and grading work. Windows and macOS installers include the engine; Linux requires Docker. Initial model downloads need internet. Free community edition and optional paid Pro features."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/HooperH/SubFix",
+      "tasks": [
+        "captions"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "architectures": [
+          "arm64"
+        ],
+        "dependencies": "Initial Qwen model downloads"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix#readme",
+          "checked_at": "2026-09-15",
+          "note": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/mhadifilms/dvr",
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18.5"
+          }
+        ],
+        "pricing": "free",
+        "dependencies": "Python 3.10+ and Resolve Studio scripting API"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/mhadifilms/dvr#readme",
+          "checked_at": "2026-09-15",
+          "note": "CLI, Python client and MCP interface for Resolve projects, timelines, media and grading operations, with structured JSON output. Requires Resolve Studio 18.5+ and Python 3.10+. Any connected AI assistant has separate processing and access terms."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/erik-sutton95/dji-clip-color",
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "Python 3; Resolve scripting access, requiring Studio in 21.1"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/erik-sutton95/dji-clip-color#readme",
+          "checked_at": "2026-09-15",
+          "note": "Identifies DJI camera profiles from clip metadata and assigns Resolve clip colors for D-Log, D-Log 2, D-Log M and HLG. It organizes media rather than applying a color transform. Windows requires 64-bit Python 3. Python scripting requires Studio in Resolve 21.1."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/TeddieWang/BarkTed",
+      "tasks": [
+        "captions"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21"
+          }
+        ],
+        "pricing": "free",
+        "processing": "hybrid",
+        "architectures": [
+          "arm64"
+        ],
+        "dependencies": "Optional translation model download or external translation API"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/TeddieWang/BarkTed#readme",
+          "checked_at": "2026-09-15",
+          "note": "Local Whisper transcription and subtitle translation for Apple Silicon Macs running Resolve Studio 21+. Installer bundles the runtime and transcription model. Optional TranslateGemma translation runs locally; API translation sends subtitle text to the chosen provider and may incur charges. Intel Macs, Windows and Linux are not supported by this installer."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
+      "tasks": [
+        "linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21.1",
+            "max": "21.1"
+          }
+        ],
+        "pricing": "free",
+        "dependencies": "Docker or Distrobox, matching GPU drivers and official Resolve installer"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/Distortions81/DaVinci-Resolve-Container#readme",
+          "checked_at": "2026-09-15",
+          "note": "Community Fedora container setup for Resolve Free or Studio 21.1 on Linux using Docker or Distrobox. Documents AMD ROCm/OpenCL and NVIDIA container setup. Provider tested AMD/X11; NVIDIA and Wayland validation remains incomplete. Supply the official Resolve installer and any required Studio license separately."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/zirmila/vm-cursor",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "gpu": "NVIDIA CUDA for the OFX plugin",
+        "dependencies": "Windows 10/11 and VM Capture cursor recording"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/zirmila/vm-cursor#readme",
+          "checked_at": "2026-09-15",
+          "note": "Windows screen-capture companion and OFX effect for cursor-following zooms, highlights and keystroke overlays. The plugin requires NVIDIA CUDA; capture can use other hardware. Creator reports Resolve 21 Studio testing but only assumes Free support. Portrait/letterboxed recordings have known positioning limitations."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "mixed",
+        "architectures": [
+          "arm64"
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager#readme",
+          "checked_at": "2026-09-15",
+          "note": "Apple Silicon app for installing and updating GDC DCTLs, LUTs and Fusion Fuses. The manager is free; individual GDC products retain their own prices and licenses. Exact Resolve compatibility varies by installed tool."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/broskisworld/davinci-aac-support",
+      "tasks": [
+        "media"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "Python 3, FFmpeg/ffprobe, systemd user service and Resolve scripting access"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/broskisworld/davinci-aac-support#readme",
+          "checked_at": "2026-09-15",
+          "note": "Linux background watcher that detects imported AAC media, converts audio to PCM with FFmpeg and relinks clips through Resolve scripting. Leaves compatible video streams unchanged. Requires Python 3, FFmpeg/ffprobe and a systemd user service. Creator claims Free/Studio support; Resolve 21.1 scripting restrictions require a separate compatibility check."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "resolve": [
+          {
+            "min": "21",
+            "max": "21"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title#readme",
+          "checked_at": "2026-09-15",
+          "note": "Editable perspective text crawl with a star-field background, distributed as a Fusion title/DRFX package for Resolve 21 on Linux. Initial provider checks are limited; not every control, export format or platform has been validated."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/OSideMedia/oside-resolve-mcp",
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21.1",
+            "max": "21.1"
+          }
+        ],
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "Python environment, Resolve Studio scripting modules and project template"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/OSideMedia/oside-resolve-mcp#readme",
+          "checked_at": "2026-09-15",
+          "note": "MCP workflow that builds Resolve projects from JSON manifests and a user-supplied DRP template: bins, ordered timelines, markers, narration and CDL look data. Requires Resolve Studio; provider documents Studio 21.1 checks on macOS. Includes read-back acceptance checks, with no service account required for the local server."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/amsomr/davinci-resolve-linux-toolkit",
+      "tasks": [
+        "linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "dependencies": "Distribution-specific packages and supported GPU drivers"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/amsomr/davinci-resolve-linux-toolkit#readme",
+          "checked_at": "2026-09-15",
+          "note": "Community installation and compatibility helpers for Fedora, Debian/Ubuntu and Arch. Covers FUSE2, library/ABI conflicts and OpenCL or GPU setup. Scripts can modify host libraries and drivers; follow the distribution-specific instructions. Not an official Blackmagic installer."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery#readme",
+          "checked_at": "2026-09-15",
+          "note": "Lua gallery for capturing and reapplying Text+ styles while preserving the text. Offers 100 slots, thumbnails, shading/gradient styles and a JSON library. Installation paths are documented for Windows and macOS; exact Resolve edition/version requirements are not established."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "Python and Resolve scripting access; Studio required for Python in 21.1"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/captainch0mpy/Enlightened-Pickleball-Scoreboard#readme",
+          "checked_at": "2026-09-15",
+          "note": "Fusion scoreboard assets and a Python scorekeeping panel for pickleball match edits, including keyframed score changes. Provider developed and tested on Windows; macOS/Linux paths are supplied without native tests. Python scripting requires Studio in Resolve 21.1."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/resolve-configurator",
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "Resolve Studio; Python 3.11+ for source installation"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/resolve-configurator#readme",
+          "checked_at": "2026-09-15",
+          "note": "Builds project bins and empty timeline scaffolds from session CSV files, with background media and smart-bin recipes. Uses Resolve Studio external scripting. Provides desktop packages plus a Python 3.11+ source installation; Intel Mac users follow the Python installation path."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/jpmontez/fx3-ingest",
+      "tasks": [
+        "media"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "Bash and ExifTool"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/jpmontez/fx3-ingest#readme",
+          "checked_at": "2026-09-15",
+          "note": "macOS Bash/ExifTool companion for Sony FX3 footage offload, date-based folders, SHA-256 verification and gyro-metadata checks. Prepares media for editing; it is not a Resolve plugin. Review its verification results before erasing any camera card."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/titasmallick/DaVinci-ConsoleBinding",
+      "tasks": [
+        "hardware"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "Windows PowerShell and an XInput controller"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/titasmallick/DaVinci-ConsoleBinding#readme",
+          "checked_at": "2026-09-15",
+          "note": "Windows XInput controller bindings for Resolve using PowerShell/C# keyboard and mouse automation. Supports configurable gamepad actions and limits input to the foreground Resolve window; no Resolve scripting bridge is required."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/macroblock",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/macroblock#readme",
+          "checked_at": "2026-09-15",
+          "note": "Experimental OpenFX/FFGL effect for separate luminance and chroma mosaic grids. Offers desktop builds; OFX host compatibility and final Resolve renders need validation. Audio-reactive FFGL features should not be assumed available in Resolve."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/compander",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/compander#readme",
+          "checked_at": "2026-09-15",
+          "note": "Experimental analog-companding video effect with OFX and FFGL builds. Provider reports host-probe checks but has not opened the OFX plugin in Resolve. Treat Resolve use as unverified until tested on the intended setup."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/flenser",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/flenser#readme",
+          "checked_at": "2026-09-15",
+          "note": "Experimental oil/liquid-light-show effect with OFX and FFGL builds. Provider has not loaded it in Resolve and has not run the Linux build. Host probes and another host do not establish Resolve compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/tilter",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/tilter#readme",
+          "checked_at": "2026-09-15",
+          "note": "Experimental tilt-shift/depth-of-field effect with OFX and FFGL builds for desktop systems. Provider reports probe-level OFX checks; use in Resolve is not yet verified."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/cogwheel#readme",
+          "checked_at": "2026-09-15",
+          "note": "Spirograph and gear-based generative graphics with subtractive-ink controls, distributed as OFX and FFGL plugins. Provider registered the OFX plugin in Resolve Studio 21.0.2.4 but did not render it over a clip there; render and platform validation remain incomplete."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/MohammedBoulifa/Resolve-Codec-Converter",
+      "tasks": [
+        "media"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "pricing": "free",
+        "processing": "local",
+        "architectures": [
+          "x64"
+        ],
+        "dependencies": "FFmpeg"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/MohammedBoulifa/Resolve-Codec-Converter#readme",
+          "checked_at": "2026-09-15",
+          "note": "Linux batch transcoding GUI for H.264/H.265, DNxHR and ProRes, including PCM audio conversion and a video-passthrough audio mode. Useful for preparing footage for Resolve Free on Linux. The x64 AppImage bundles PyQt5/Qt5; FFmpeg must be installed separately. Release tag is a build label, not a numeric version."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/KeibiSoft/KeibiDrop",
+      "tasks": [
+        "media"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "mixed",
+        "processing": "hybrid",
+        "dependencies": "Network connection and platform mount integration (FUSE/WinFsp)"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/KeibiSoft/KeibiDrop#readme",
+          "checked_at": "2026-09-15",
+          "note": "Mounts remote shared media folders for on-demand editing, with a documented Resolve/NAS workflow. Supports desktop systems plus a separate Android app. Direct peer connections can fall back to a relay; network quality affects editing. Engine is MPL-2.0, while UI/mobile components have separate terms. Paid relay data packs are optional."
+        }
+      ]
+    },
+    {
+      "url": "https://kevinvandermarliere.gumroad.com/l/Aivideostudio",
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21",
+            "max": "21"
+          }
+        ],
+        "pricing": "one-time",
+        "processing": "hybrid",
+        "dependencies": "ComfyUI/model downloads for local generation or third-party API access"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://kevinvandermarliere.gumroad.com/l/Aivideostudio",
+          "checked_at": "2026-09-15",
+          "note": "Generates video and images through Fal.ai or ComfyUI from Resolve 21, with node workflows, bin integration and batch rendering. Creator lists Free and Studio on Windows/macOS; Linux is a separate early standalone build. Local models require suitable GPU resources; cloud providers and optional agents have separate costs. Version 3.1.7; no unambiguous release date."
+        }
+      ]
+    },
+    {
+      "url": "https://anamorphictool.gumroad.com/l/ofx",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ],
+        "pricing": "one-time",
+        "processing": "local",
+        "gpu": "Apple Silicon Metal or NVIDIA CUDA (RTX 20+); CPU fallback"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://anamorphictool.gumroad.com/l/ofx",
+          "checked_at": "2026-09-15",
+          "note": "AnamorphicFX and AnamorphicUtility OFX effects for Resolve 17+: lens geometry, astigmatism, chromatic aberration, vignette, horizontal sharpening and alignment. Both components are listed as v1.1. Windows/macOS distribution; Metal on Apple Silicon, NVIDIA CUDA and CPU fallback are documented. Exact Resolve edition and release date are not established."
+        }
+      ]
+    },
+    {
+      "url": "https://lumicosmos.gumroad.com/l/lumifx",
+      "tasks": [
+        "color"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18"
+          }
+        ],
+        "pricing": "one-time",
+        "processing": "local",
+        "gpu": "NVIDIA CUDA; 4 GB VRAM minimum",
+        "dependencies": "Windows 10/11 and 16 GB RAM minimum"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://lumicosmos.gumroad.com/l/lumifx",
+          "checked_at": "2026-09-15",
+          "note": "OpenFX toolkit with bloom, halation, highlight roll-off, grain, vignette, denoising and optical/transitional effects. Requires Resolve Studio 18+, Windows 10/11, NVIDIA CUDA, at least 4 GB VRAM and 16 GB RAM. macOS and V2 are advertised as upcoming, not available releases; current numeric version is unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://analator.gumroad.com/l/rhlmj",
+      "tasks": [
+        "media"
+      ],
+      "requirements": {
+        "pricing": "one-time",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://analator.gumroad.com/l/rhlmj",
+          "checked_at": "2026-09-15",
+          "note": "Fusion Fuse for image-sequence export, automatic Loader creation and timestamped output folders. Exports PNG, JPEG, TIFF and EXR; MP4/MOV/AVI export is specifically listed for Fusion Studio. Exact Resolve edition, OS support and numeric release version are not established."
+        }
+      ]
+    },
+    {
+      "url": "https://davidkohen.gumroad.com/l/Fusion-Nova",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "gpu": "Metal, CUDA or OpenCL"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://davidkohen.gumroad.com/l/Fusion-Nova",
+          "checked_at": "2026-09-15",
+          "note": "Procedural Fusion particle-background Fuse with GPU acceleration through Metal, CUDA or OpenCL. Creator lists Resolve/Fusion 15+ and Free support, but the Lua installer may be affected by later Studio-only UIManager restrictions. Current-version installation and OS compatibility are not verified."
+        }
+      ]
+    },
+    {
+      "url": "https://davidkohen.gumroad.com/l/FusionMirage",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {
+        "pricing": "one-time",
+        "processing": "local",
+        "resolve": [
+          {
+            "min": "16",
+            "max": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://davidkohen.gumroad.com/l/FusionMirage",
+          "checked_at": "2026-09-15",
+          "note": "GPU-accelerated heat-distortion effect using procedural noise, height-map displacement and wind controls. Creator documents Resolve/Fusion 16 and 17; later-version and desktop OS compatibility are not established. No current numeric tool version or release date is stated."
+        }
+      ]
+    },
+    {
+      "url": "https://www.joo.works/iphone",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "pricing": "free",
+        "account": "required"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.joo.works/iphone",
+          "checked_at": "2026-09-15",
+          "note": "Resolve Free/Studio kit with Apple Log calibration LUTs, a De-Phone PowerGrade, an ARRI-based output LUT and an input transform for non-Pro iPhone models. Download form requests contact details and promotional-email consent. Version, release date and desktop OS support are not established."
+        }
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {},
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom",
+          "checked_at": "2026-09-15",
+          "note": "Captures parameter edits on an active Fusion node and applies them to other selected nodes, including connections, expressions and animation. Reactor manifest version 1.3. Exact host edition and OS requirements are not established."
+        }
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {},
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom",
+          "checked_at": "2026-09-15",
+          "note": "Fusion Fuse for soft-knee chroma compression with directional targets, per-channel strength and a matte view. Reactor declares package version 1.1, while the embedded changelog mentions 1.2; that discrepancy is unresolved."
+        }
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {},
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.MaskPaintSwitch/com.JacobDanell.MaskPaintSwitch.atom",
+          "checked_at": "2026-09-15",
+          "note": "Fusion shortcut script that switches MaskPaint alpha for adding or removing painted areas. Default shortcut is X with the MaskPaint node and viewer selected. Its September 2026 manifest date is separate from the embedded January 2023 initial-release note."
+        }
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {},
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom",
+          "checked_at": "2026-09-15",
+          "note": "Retimes Fusion footage or 3D scenes by accumulating frame steps. Provides nearest, blend and existing-subframe modes; it does not generate new subframes. Manifest version 1.5 has a September 2026 package date, while its embedded 1.5 changelog is dated December 2023."
+        }
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {},
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom",
+          "checked_at": "2026-09-15",
+          "note": "Fusion light-wrap macro with edge controls and a color-cast option for matching foreground edges to background luminance and hue. Distributed through Reactor; exact Resolve edition and OS requirements are not established."
+        }
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom",
+      "tasks": [
+        "workflow"
+      ],
+      "requirements": {},
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom",
+          "checked_at": "2026-09-15",
+          "note": "Fusion batch search/replace for node names, file paths, expressions and text inputs. Includes version stepping, dynamic variables, a preview mode and an operation summary. Version 3.2 preserves Loader/Saver settings when paths change. Reactor package numbering is 3.2; creator changelog calls it 3.2.0."
+        }
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.colourise/com.pureandapplied.colourise.atom",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {},
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.colourise/com.pureandapplied.colourise.atom",
+          "checked_at": "2026-09-15",
+          "note": "GPU Fusion Fuse for solid-color luminance mapping, alpha-aware color multiplication, duotone and tritone looks. Part of stib’s Fuses and distributed through Reactor. Platform and exact host compatibility remain unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom",
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "processing": "local",
+        "architectures": [
+          "x64",
+          "arm64"
+        ],
+        "gpu": "CPU or supported Intel, NVIDIA, AMD or Apple Silicon GPU",
+        "dependencies": "Bundled Open Image Denoise 2.5.1 libraries"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom",
+          "checked_at": "2026-09-15",
+          "note": "Fusion Fuse for denoising ray-traced renders using Intel Open Image Denoise, optionally with albedo and normal passes. Current package bundles OIDN 2.5.1 and documents CPU/GPU processing on Windows, macOS Intel/Apple Silicon and Linux. Reactor version field is 2.0501; embedded changelog names the bundled OIDN release as 2.5.1."
         }
       ]
     }
