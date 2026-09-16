@@ -16,6 +16,17 @@ export function evidenceCoverage(entry) {
 export const DEFAULTS = { q:'', task:'', platform:'', edition:'Free', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', official:'', sort:'name', mode:'all' };
 export const UNFILTERED = {...DEFAULTS,edition:''};
 export const MAX_COMPARE = 3;
+const GENERIC_COMPARE_KINDS = new Set(['other','reference','guide','directory']);
+export function comparableResources(a,b) {
+ if(!a||!b||a.id===b.id)return false;
+ const kindA=String(a.kind||'').toLowerCase(),kindB=String(b.kind||'').toLowerCase();
+ if(kindA===kindB&&!GENERIC_COMPARE_KINDS.has(kindA))return true;
+ const tasksA=new Set(a.tasks||[]);
+ return a.category&&a.category===b.category&&(b.tasks||[]).some(task=>tasksA.has(task));
+}
+export function comparisonCompatible(entry,selected) {
+ return selected.length===0||selected.every(other=>comparableResources(entry,other));
+}
 export function comparisonFromUrl(search) {
  const raw=String(search).match(/(?:^|[?&])compare=([^&]*)/)?.[1]||'';
  let decoded='';
