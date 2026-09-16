@@ -1,6 +1,6 @@
 # Reading the catalogue
 
-[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Catalogue](README.md) · [🧭 Start with a task](START-HERE.md)
+[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Catalogue](CATALOGUE.md) · [🧭 Start with a task](START-HERE.md)
 
 ## Access labels
 
@@ -43,5 +43,17 @@ The canonical records live in [`data/resources/`](data/resources/) and are index
 Run `node scripts/migrate-resources.mjs --check` to validate all 514 records without writing. IDs are not derived from URLs, so a documented provider rename must preserve the ID and move the old URL to `urls.previous`. Do not use inferred `kind` values as compatibility, licensing, or installation evidence.
 
 Consumers should resolve a resource through its permanent ID first, then its canonical or documented previous URL alias. The shared resolver is available from `scripts/canonical-source.mjs`; duplicate aliases fail validation.
+
+The generated site feed at [`site/resources.json`](site/resources.json) is the machine-readable presentation of these records. It preserves permanent IDs and source-backed fields for standalone resource pages and downstream local consumers; edit canonical records and maintained evidence inputs instead of editing the generated feed.
+
+The generated API snapshot lives under [`site/api/v1/`](site/api/v1/) and the RSS-compatible snapshot is [`site/feed.xml`](site/feed.xml). Both are deterministic outputs of `node scripts/build-site.mjs`; they must not be edited by hand or treated as evidence.
+
+Use `node scripts/rebuild.mjs` for the ordinary local rebuild path. It validates canonical records first, then regenerates the Markdown views and site-derived outputs without performing publication or external research.
+
+Records with `kind: other` can be listed for manual review with `node scripts/review-kinds.mjs --kind other`. Reviewers must verify an upstream format claim before changing a kind; the helper itself never edits records.
+
+The optional npm scripts are wrappers around the same zero-dependency Node commands; installing packages is not required.
+
+`node scripts/add-resource.mjs` is an interactive draft helper, not an importer. It emits a record with empty compatibility/evidence blocks and a review marker, so a contributor must verify upstream sources and run the canonical migration before inclusion.
 
 Check current creator documentation before relying on compatibility, pricing or a version. Use [TOOL-FINDER.md](TOOL-FINDER.md) for detailed matching guidance and [CONTRIBUTING.md](CONTRIBUTING.md) to correct an entry.

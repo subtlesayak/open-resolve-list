@@ -9,6 +9,17 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const plain=s=>s.replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/<[^>]*>/g,'').replace(/\*\*/g,'').trim();
 const safeUrl=u=>{try{return new URL(u).protocol==='https:';}catch{return false;}};
+const xmlEscape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&apos;');
+const htmlEscape=value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+const htmlList=values=>Array.isArray(values)&&values.length?values.map(value=>`<li>${htmlEscape(value)}</li>`).join(''):'<li>Not established</li>';
+function staticResourcePage(entry){
+ const requirements=entry.requirements||{},version=entry.version||{},evidence=entry.evidence||[];
+ const versionText=version.version||version.kind||'Not established';
+ const original=safeUrl(entry.url)?`<a href="${htmlEscape(entry.url)}">Open original resource ↗</a>`:'Original resource unavailable';
+ const evidenceItems=evidence.length?evidence.map(item=>`<li><strong>${htmlEscape(item.level)}</strong> — ${htmlEscape(item.field)} · <a href="${htmlEscape(item.source)}">Source</a>${item.note?`<br>${htmlEscape(item.note)}`:''}</li>`).join(''):'<li>No field-level evidence recorded.</li>';
+ const jsonLd=JSON.stringify({"@context":"https://schema.org","@type":"SoftwareApplication",name:entry.name,description:entry.description,url:entry.url,applicationCategory:entry.category}).replaceAll('<','\\u003c').replaceAll('>','\\u003e').replaceAll('&','\\u0026');
+ return `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="description" content="${htmlEscape(entry.description)}"><link rel="canonical" href="../../resource/${encodeURIComponent(entry.id)}/">\n<title>${htmlEscape(entry.name)} — Subtle Resolve List</title><link rel="stylesheet" href="../../style.css?v=24"><script type="application/ld+json">${jsonLd}</script></head>\n<body><header><a class="brand" href="../../">Subtle Resolve List</a><nav aria-label="Main"><a href="../../">Catalogue</a><a href="../../updates.html">Updates</a><a href="../../about.html">About</a></nav></header>\n<main><p><a href="../../">← Back to catalogue</a></p><article><p class="eyebrow">${htmlEscape(entry.category)}</p><h1>${htmlEscape(entry.name)}</h1><p class="lede">${htmlEscape(entry.description)}</p><p>${original}</p><dl class="facts"><dt>Creator</dt><dd>${htmlEscape(entry.creator)}</dd><dt>Format</dt><dd>${htmlEscape(entry.kind)}</dd><dt>Access</dt><dd>${htmlEscape(entry.access)}</dd><dt>Platforms</dt><dd>${htmlEscape((entry.platforms||[]).join(' · ')||'Not established')}</dd><dt>Resolve edition</dt><dd>${htmlEscape((requirements.editions||[]).join(' · ')||'Not established')}</dd><dt>Tool version</dt><dd>${htmlEscape(versionText)}</dd></dl><h2>Tasks</h2><ul>${htmlList(entry.tasks)}</ul><h2>Evidence</h2><p>${evidence.length} field-level source record${evidence.length===1?'':'s'}.</p><ul>${evidenceItems}</ul><p class="muted">This page reports maintained source evidence; it does not imply blanket compatibility or installation testing.</p></article></main><footer class="site-footer"><p>Source-backed catalogue maintained locally.</p></footer></body></html>\n`;
+}
 export function buildSite(){
  const canonicalRecords=fs.existsSync(path.join(root,'data/resources/index.json'))?loadCanonicalResources(root):null;
  const csv=parseCsv(fs.readFileSync(path.join(root,'data/repositories.csv'),'utf8')),md=fs.readFileSync(path.join(root,'data/external-tools.md'),'utf8'),external=parseExternalResources(md);
@@ -53,6 +64,28 @@ export function buildSite(){
  if(new Set(latestUpdate.added_urls).size!==latestUpdate.added_urls.length||latestUpdate.added_urls.some(url=>!entries.some(e=>e.url===url))||!releases.some(r=>r.version===latestUpdate.release))throw Error('Invalid latest update');
  const inventory=JSON.parse(fs.readFileSync(path.join(root,'data/reactor-inventory.json'),'utf8'));
  const data={latestUpdate:{...latestUpdate,addedCount:latestUpdate.added_urls.length},schema_version:1,title:'Subtle Resolve List',tagline:'Find tools for your Resolve setup.',description:'Source-backed compatibility, version history and clear requirements.',catalogue:'https://github.com/subtlesayak/subtle-resolve-list',tasks:TASKS,entries,releases,updates:history.entries,inventoryCount:inventory.folder_count};
- fs.mkdirSync(path.join(root,'site'),{recursive:true});fs.writeFileSync(path.join(root,'site/catalogue.json'),JSON.stringify(data,null,2)+'\n');console.log(`Built searchable site data for ${entries.length} resources; ${details.entries.length} reviewed requirement records.`);return data;
+ const resources=entries.map(entry=>({id:entry.id,name:entry.name,creator:entry.creator,url:entry.url,category:entry.category,kind:entry.kind,tasks:entry.tasks,description:entry.description,access:entry.access,platforms:entry.platforms,requirements:entry.requirements,version:entry.version,evidence:entry.evidence.map(item=>({field:item.field,level:item.level,source:item.source,checked_at:item.checked_at}))}));
+ const feed={schema_version:1,title:data.title,description:data.description,resources};
+ const api={schema_version:1,title:data.title,description:data.description,resources};
+ const categories=[...new Set(entries.map(entry=>entry.category))].sort((a,b)=>a.localeCompare(b));
+ const tasks=Object.entries(TASKS).map(([id,label])=>({id,label,count:entries.filter(entry=>entry.tasks.includes(id)).length}));
+ const apiReleases=releasesForApi(data.releases);
+ const apiRoot=path.join(root,'site/api/v1');
+ fs.mkdirSync(apiRoot,{recursive:true});
+ fs.mkdirSync(path.join(root,'site'),{recursive:true});
+ fs.writeFileSync(path.join(root,'site/catalogue.json'),JSON.stringify(data,null,2)+'\n');
+ fs.writeFileSync(path.join(root,'site/resources.json'),JSON.stringify(feed,null,2)+'\n');
+ fs.writeFileSync(path.join(apiRoot,'resources.json'),JSON.stringify(api,null,2)+'\n');
+ fs.writeFileSync(path.join(apiRoot,'categories.json'),JSON.stringify({schema_version:1,categories},null,2)+'\n');
+ fs.writeFileSync(path.join(apiRoot,'tasks.json'),JSON.stringify({schema_version:1,tasks},null,2)+'\n');
+ fs.writeFileSync(path.join(apiRoot,'releases.json'),JSON.stringify({schema_version:1,releases:apiReleases},null,2)+'\n');
+ const items=resources.slice(0,50).map(entry=>`<item><title>${xmlEscape(entry.name)}</title><link>${xmlEscape(entry.url)}</link><guid isPermaLink="true">${xmlEscape(entry.url)}</guid><description>${xmlEscape(entry.description)}</description></item>`).join('');
+ fs.writeFileSync(path.join(root,'site/feed.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>${xmlEscape(data.title)}</title><link>https://subtlesayak.github.io/subtle-resolve-list/</link><description>${xmlEscape(data.description)}</description>${items}</channel></rss>\n`);
+ const resourceRoot=path.join(root,'site/resource');
+ fs.mkdirSync(resourceRoot,{recursive:true});
+ for(const entry of resources){const directory=path.join(resourceRoot,entry.id);fs.mkdirSync(directory,{recursive:true});fs.writeFileSync(path.join(directory,'index.html'),staticResourcePage(entry));}
+ console.log(`Built searchable site data for ${entries.length} resources; ${details.entries.length} reviewed requirement records.`);return data;
 }
+
+function releasesForApi(releases){return releases.map(release=>({version:release.version,date:release.date,source:release.url}));}
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))buildSite();

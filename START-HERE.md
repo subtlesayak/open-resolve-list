@@ -1,20 +1,20 @@
 # Find a Resolve resource
 
-[🌐 Search and filter](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Full catalogue](README.md) · [🏢 Official resources](README.md#official-resources) · [🔤 All entries by name](views/name.md)
+[🌐 Search and filter](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Full catalogue](CATALOGUE.md) · [🏢 Official resources](CATALOGUE.md#official-resources) · [🔤 All entries by name](views/name.md)
 
 Start with your task, then check the entry's Free/Studio requirements, operating system and access conditions. These routes help you explore the catalogue; they are not installation-tested recommendations.
 
 | I want to… | Start here | Check before choosing |
 | --- | --- | --- |
-| Learn Resolve or find official downloads | [Blackmagic resources](README.md#official-resources) | Match the training edition or installer to your Resolve version. |
-| Create captions or edit spoken dialogue | [Subtitles and editing](README.md#category-3) | Language support, Studio requirements and whether audio leaves your computer. |
-| Grade footage or build a film look | [Color and DCTL tools](README.md#category-1) | Input color space, GPU requirements and Free/Studio restrictions. |
-| Animate text or build visual effects | [Fusion and motion graphics](README.md#category-2) | Fusion page versus standalone Fusion, host version and dependencies. |
-| Automate repetitive editing work | [Scripts and workflow tools](README.md#category-5) | Scripting setup, affected project data and backup requirements. |
-| Make proxies, transcode or render | [Encoding and delivery](README.md#category-6) | Supported formats, OS and whether the tool runs outside Resolve. |
-| Use Resolve on Linux | [Linux resources](README.md#category-7) | Distribution, driver and GPU support for the exact Resolve version. |
-| Develop an integration | [Developer references](README.md#category-8) | API version, licensing and documented examples. |
-| Find paid plugins or creator packs | [External resources](README.md#external-resources) | Price, edition, licensing and platform-specific builds. |
+| Learn Resolve or find official downloads | [Blackmagic resources](CATALOGUE.md#official-resources) | Match the training edition or installer to your Resolve version. |
+| Create captions or edit spoken dialogue | [Subtitles and editing](CATALOGUE.md#category-3) | Language support, Studio requirements and whether audio leaves your computer. |
+| Grade footage or build a film look | [Color and DCTL tools](CATALOGUE.md#category-1) | Input color space, GPU requirements and Free/Studio restrictions. |
+| Animate text or build visual effects | [Fusion and motion graphics](CATALOGUE.md#category-2) | Fusion page versus standalone Fusion, host version and dependencies. |
+| Automate repetitive editing work | [Scripts and workflow tools](CATALOGUE.md#category-5) | Scripting setup, affected project data and backup requirements. |
+| Make proxies, transcode or render | [Encoding and delivery](CATALOGUE.md#category-6) | Supported formats, OS and whether the tool runs outside Resolve. |
+| Use Resolve on Linux | [Linux resources](CATALOGUE.md#category-7) | Distribution, driver and GPU support for the exact Resolve version. |
+| Develop an integration | [Developer references](CATALOGUE.md#category-8) | API version, licensing and documented examples. |
+| Find paid plugins or creator packs | [External resources](CATALOGUE.md#external-resources) | Price, edition, licensing and platform-specific builds. |
 
 ## Narrow the choices
 

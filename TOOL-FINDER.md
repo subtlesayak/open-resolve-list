@@ -2,7 +2,7 @@
 
 [🌐 Search and filter the catalogue](https://subtlesayak.github.io/subtle-resolve-list/) · [📖 Catalogue guide](CATALOGUE-GUIDE.md)
 
-This guide helps readers and AI assistants use [Subtle Resolve List](README.md) to recommend tools for a stated need. It describes how to interpret the catalogue; it does not establish new compatibility claims. Follow the user's requirements and use current provider documentation to resolve uncertain details.
+This guide helps readers and AI assistants use [Subtle Resolve List](CATALOGUE.md) to recommend tools for a stated need. It describes how to interpret the catalogue; it does not establish new compatibility claims. Follow the user's requirements and use current provider documentation to resolve uncertain details.
 
 ## Understand the requirement
 
@@ -24,18 +24,18 @@ Search descriptions and caveats as well as names. Use the route below to build a
 
 | Desired outcome or search terms | Start here |
 | --- | --- |
-| Official downloads, manuals, training, SDKs and support | [Official Blackmagic Design resources](README.md#official-resources) |
-| Color grading, film emulation, LUTs, PowerGrades, DCTLs, color transforms | [Color and DCTL tools](README.md#category-1) |
-| Motion graphics, keying, tracking, background removal, shaders, Fuses, effects | [Fusion and VFX](README.md#category-2) |
-| Subtitles, transcription, captions, silence removal, dialogue editing | [Captions and editing](README.md#category-3) |
-| AI assistants, MCP, ComfyUI, natural-language automation | [AI integrations](README.md#category-4) |
-| Markers, timelines, bins, metadata, fonts, batch operations, workflow bridges | [Scripts and workflow tools](README.md#category-5) |
-| Codecs, AAC, export, proxies, render queues, project servers, backups | [Encoding and servers](README.md#category-6) |
-| Linux installation, containers, dependencies, distribution troubleshooting | [Linux tools](README.md#category-7) |
-| Scripting API, Python/Lua development, DCTL development, code examples | [Developer libraries and references](README.md#category-8) |
-| MIDI, control surfaces, Speed Editor, shortcut devices | [Hardware tools](README.md#category-9) |
-| Wider collections and community discovery | [Directories](README.md#category-10) |
-| Commercial plugins, creator stores, audio effects, PowerGrades, companion apps | [Community and third-party resources](README.md#external-resources) |
+| Official downloads, manuals, training, SDKs and support | [Official Blackmagic Design resources](CATALOGUE.md#official-resources) |
+| Color grading, film emulation, LUTs, PowerGrades, DCTLs, color transforms | [Color and DCTL tools](CATALOGUE.md#category-1) |
+| Motion graphics, keying, tracking, background removal, shaders, Fuses, effects | [Fusion and VFX](CATALOGUE.md#category-2) |
+| Subtitles, transcription, captions, silence removal, dialogue editing | [Captions and editing](CATALOGUE.md#category-3) |
+| AI assistants, MCP, ComfyUI, natural-language automation | [AI integrations](CATALOGUE.md#category-4) |
+| Markers, timelines, bins, metadata, fonts, batch operations, workflow bridges | [Scripts and workflow tools](CATALOGUE.md#category-5) |
+| Codecs, AAC, export, proxies, render queues, project servers, backups | [Encoding and servers](CATALOGUE.md#category-6) |
+| Linux installation, containers, dependencies, distribution troubleshooting | [Linux tools](CATALOGUE.md#category-7) |
+| Scripting API, Python/Lua development, DCTL development, code examples | [Developer libraries and references](CATALOGUE.md#category-8) |
+| MIDI, control surfaces, Speed Editor, shortcut devices | [Hardware tools](CATALOGUE.md#category-9) |
+| Wider collections and community discovery | [Directories](CATALOGUE.md#category-10) |
+| Commercial plugins, creator stores, audio effects, PowerGrades, companion apps | [Community and third-party resources](CATALOGUE.md#external-resources) |
 
 ## Read the catalogue accurately
 

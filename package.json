@@ -1,0 +1,10 @@
+{
+  "name": "subtle-resolve-list",
+  "private": true,
+  "description": "Local build and validation commands for Subtle Resolve List",
+  "scripts": {
+    "build": "node scripts/rebuild.mjs",
+    "validate": "node scripts/migrate-resources.mjs --check && node --test --test-concurrency=1 scripts/*.test.mjs",
+    "review:kinds": "node scripts/review-kinds.mjs --kind other"
+  }
+}

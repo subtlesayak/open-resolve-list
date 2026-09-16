@@ -37,6 +37,6 @@ test('GitHub transformation distinguishes stable releases, prereleases and sourc
  assert.throws(()=>githubVersion('a/b','https://github.com/a/b',null),/Missing metadata/);
 });
 test('every public README entry displays version evidence or explicit uncertainty',()=>{
- const readme=read('README.md');
+  const readme=read('CATALOGUE.md');
  for(const e of versions){const row=readme.split('\n').find(l=>l.startsWith('| [')&&l.includes(']('+e.url+')'));assert.ok(row?.includes(versionLabel(e.url)),e.name);}
 });

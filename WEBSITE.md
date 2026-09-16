@@ -29,6 +29,18 @@ The site combines `data/repositories.csv`, `data/external-tools.md`, `data/versi
 
 The canonical records are generated locally under `data/resources/`. They carry permanent IDs, URL aliases, category, format `kind`, tasks, and the existing evidence blocks. `scripts/build-site.mjs` and `scripts/build-catalogue.mjs` consume these records through compatibility adapters. Run `node scripts/migrate-resources.mjs --check` to validate the canonical records without writing. Do not treat inferred `kind` values as evidence.
 
+The site builder also emits `site/resources.json`, a deterministic machine-readable feed containing the 514 canonical resource IDs, source URLs, descriptions, formats, tasks, requirements, versions and field-level evidence. Standalone resource pages at `site/resource.html?id=<permanent-id>` consume this smaller feed rather than the full `site/catalogue.json` payload. The feed is locally generated and should be regenerated with `node scripts/build-site.mjs`; it is not a research report or a source for changing facts.
+
+The same build emits local static API files under `site/api/v1/`: `resources.json`, `categories.json`, `tasks.json`, and `releases.json`, plus `site/feed.xml` containing the latest 50 catalogue entries. These are generated presentation artifacts, not independent sources of truth; contributors edit canonical records and maintained evidence inputs, then regenerate and validate them.
+
+For a local rebuild of the canonical validation, Markdown views, site payloads, API snapshots and feed, run `node scripts/rebuild.mjs`. This command is deliberately local-only and does not publish, upload or run external research.
+
+To inspect conservative taxonomy candidates without changing records, run `node scripts/review-kinds.mjs --kind other` or add `--json` for machine-readable output. The command is read-only and intentionally does not infer or rewrite formats.
+
+The repository has a dependency-free `package.json` for convenience: `npm run build` runs the local rebuild, `npm run validate` runs canonical validation plus the full test suite, and `npm run review:kinds` lists taxonomy candidates.
+
+To create a conservative local draft without changing the catalogue, run `node scripts/add-resource.mjs` interactively, or pass explicit `--name`, `--url`, `--creator`, `--category`, `--kind`, and `--description` values. Optional `--tasks` and `--access` values are accepted. The command prints JSON only; it does not fetch, submit, or add the resource.
+
 Use `documented` for provider documentation, `creator` only for a direct attributable confirmation of the named facts, and `tested` only for a reviewed test report describing exact setup and results. A public creator claim that they tested a product is documentation until this catalogue reviews an attributable test report. Notifications, email drafts and acknowledgements do not establish confirmation.
 
 Tested starting points require a `recommendation` with `reason` and `tested_setup`, backed by `tested` evidence. This view intentionally begins empty. A creator confirmation does not imply a recommendation. Review public submissions through the creator-confirmation and testing issue forms; never copy private outreach addresses into catalogue data.

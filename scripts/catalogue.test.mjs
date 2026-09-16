@@ -17,7 +17,7 @@ test('activity marker uses exact dates and requires more than 2 years (730 days)
   assert.equal(olderThanTwoYears(new Date(cutoff - 1).toISOString(), now), true);
   for (const date of ['', 'invalid', '2026-09-07T12:00:00Z']) assert.equal(olderThanTwoYears(date, now), false);
   assert.equal(olderThanTwoYears('2020-01-01', 'invalid'), false);
-  for (const file of ['README.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
+  for (const file of ['CATALOGUE.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
     const text = fs.readFileSync(path.join(root, file), 'utf8');
     assert.ok(text.includes('**†** No repository push for more than 2 years (730 days)'));
     for (const entry of entries) {
@@ -69,7 +69,7 @@ test('platform labels retain evidence and caveats without guessing support', () 
   assert.match(platformLabel(entries.find(e => e.repository === 'elliotmatson/Docker-Davinci-Resolve-Project-Server')), /server hosts/);
 });
 test('compact tables retain every field and allow long repository names to wrap', () => {
-  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  const readme = fs.readFileSync(path.join(root, 'CATALOGUE.md'), 'utf8');
   assert.ok(readme.includes('| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |'));
   assert.ok(readme.includes('| :--- | :--- | :--- | :--- | ---: | :--- |'));
   for (const entry of entries) {
@@ -93,7 +93,7 @@ test('compact tables retain every field and allow long repository names to wrap'
 test('generated views preserve all entries, sort order and valid local links', () => {
   assert.equal(entries.length, discovery.total_count);
   assert.equal(new Set(entries.map(e => e.url.toLowerCase())).size, entries.length);
-  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  const readme = fs.readFileSync(path.join(root, 'CATALOGUE.md'), 'utf8');
   const defaultUrls = [...readme.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^/)]+\/[^/)]+)\)/gm)].map(m => m[1]);
   assert.deepEqual(defaultUrls, categories.flatMap(([, , category]) => {
     const members = entries.filter(e => e.category === category);
@@ -118,7 +118,7 @@ test('generated views preserve all entries, sort order and valid local links', (
     const urls = [...text.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^)]+)\)/gm)].map(m => m[1]);
     assert.deepEqual(urls, sorted(entries, key).map(e => e.url));
   }
-  for (const file of ['README.md', 'TOOL-FINDER.md', 'CHANGELOG.md', 'data/external-tools.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
+  for (const file of ['CATALOGUE.md', 'TOOL-FINDER.md', 'CHANGELOG.md', 'data/external-tools.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
     const text = fs.readFileSync(path.join(root, file), 'utf8');
     for (const [, link] of text.matchAll(/\]\(([^)]+)\)/g)) {
       if (/^https?:/.test(link)) continue;
@@ -149,7 +149,7 @@ test('web additions have matching catalogue records and traceable upstream evide
   for (const held of discovery.held_candidates) assert.ok(!additions.has(held.repository.toLowerCase()));
   assert.match(entries.find(e => e.repository === 'IgorRidanovic/DaVinciResolve-ExportProjects').description, /DELETE the source projects/);
   assert.match(entries.find(e => e.repository === 'in03/patchwork').description, /unfinished/);
-  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  const readme = fs.readFileSync(path.join(root, 'CATALOGUE.md'), 'utf8');
   assert.ok(readme.includes(`**${entries.length} public GitHub repositories**`));
 });
 test('marketplace additions are unique, traceable, and present in the external directory', () => {
@@ -208,7 +208,7 @@ test('alternate views contain the whole catalogue once with official resources f
 
 test('official resources precede all other categories and external entries appear once', () => {
   const source = parseExternalResources(fs.readFileSync(path.join(root, 'data/external-tools.md'), 'utf8'));
-  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  const readme = fs.readFileSync(path.join(root, 'CATALOGUE.md'), 'utf8');
   assert.equal(readme.split('## 🌐 External resources').length - 1, 1);
   assert.ok(readme.indexOf('## 🏢 Official Blackmagic Design resources') < readme.indexOf('<a id="category-1">'));
   assert.equal(isOfficialResource({url:'https://forum.blackmagicdesign.com/viewtopic.php?t=175315'}),false);
@@ -225,7 +225,7 @@ test('official resources precede all other categories and external entries appea
 });
 
 test('regeneration is deterministic and preserves CSV', () => {
-  const files = ['README.md', 'data/repositories.csv', 'views/legacy.md', ...Object.keys(sorts).map(k => `views/${k}.md`)];
+  const files = ['README.md', 'CATALOGUE.md', 'data/repositories.csv', 'views/legacy.md', ...Object.keys(sorts).map(k => `views/${k}.md`)];
   const before = files.map(f => fs.readFileSync(path.join(root, f), 'utf8'));
   build();
   assert.deepEqual(files.map(f => fs.readFileSync(path.join(root, f), 'utf8')), before);

@@ -16,7 +16,12 @@ export function evidenceCoverage(entry) {
 export const DEFAULTS = { q:'', task:'', platform:'', edition:'Free', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', official:'', sort:'name', mode:'all' };
 export const UNFILTERED = {...DEFAULTS,edition:''};
 export const MAX_COMPARE = 3;
-export function comparisonFromUrl(search) { return [...new Set(String(search).match(/(?:^|[?&])compare=([^&]*)/)?.[1]?.split(',').map(value=>decodeURIComponent(value)).filter(Boolean) || [])].slice(0,MAX_COMPARE); }
+export function comparisonFromUrl(search) {
+ const raw=String(search).match(/(?:^|[?&])compare=([^&]*)/)?.[1]||'';
+ let decoded='';
+ try { decoded=decodeURIComponent(raw); } catch { decoded=raw; }
+ return [...new Set(decoded.split(',').map(value=>value.trim()).filter(Boolean))].slice(0,MAX_COMPARE);
+}
 export function comparisonToUrl(ids) { return ids.slice(0,MAX_COMPARE).join(','); }
 export function compareVersions(a,b) { const x=String(a).split('.').map(Number), y=String(b).split('.').map(Number); for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]||0)-(y[i]||0);if(d)return Math.sign(d);}return 0; }
 export function matchesVersion(entry,version,edition) { const ranges=entry.requirements.resolve;const inheritFree=edition==='Studio'&&!ranges.some(r=>r.edition==='Studio');return ranges.some(r=>(!r.edition||!edition||r.edition===edition||(inheritFree&&r.edition==='Free'))&&(!r.min||compareVersions(version,r.min)>=0)&&(!r.max||compareVersions(version,r.max)<=0)); }

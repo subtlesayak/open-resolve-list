@@ -51,7 +51,7 @@ export function buildCommunityReport(){
  ['🎮 itch.io','https://fractale.itch.io/cheetah-video-proxy-generator','Additional marketplace pass: Cheetah and YouTube Prep Tool added; VideoRemap duplicate; Resolve MCP Pro held.']
  ];
  write('data/community-discovery-report.md',[
- '# 🔎 Community discovery report','', '[🎬 Catalogue](../README.md) · [🌐 External tools](external-tools.md) · [🧩 Reactor inventory](reactor-inventory.md) · [📥 Evidence](community-discoveries.json)','',
+ '# 🔎 Community discovery report','', '[🎬 Catalogue](../CATALOGUE.md) · [🌐 External tools](external-tools.md) · [🧩 Reactor inventory](reactor-inventory.md) · [📥 Evidence](community-discoveries.json)','',
  `Checked **${c.checked_at}**. Added **${c.added_count} external entries**, bringing the external directory from **${c.baseline_count} to ${c.total_count}**. The GitHub catalogue remains at **225 repositories**.`, '',
  'All seven proposed source families were searched, plus itch.io. This is a bounded public-source search, not a claim to have exhausted every post or website. No purchases, account access, plugin installations, or binary downloads were performed. Reactor manifests were read as text, never executed.', '',
  '## Search coverage','', '| Source | Work completed |','|---|---|',...coverage.map(([n,u,d])=>`| ${link(n,u)} | ${d} |`),'',
@@ -64,7 +64,7 @@ export function buildCommunityReport(){
  '## Duplicate destinations','',...c.duplicates.map(e=>`- ${link(e.name,e.source)} — ${e.existing_url?'Already catalogued at '+link('the current developer site',e.existing_url)+'.':e.reason}`),''].join('\n'));
  const cats=Map.groupBy([...r.packages].sort((a,b)=>(a.category||'Unknown').localeCompare(b.category||'Unknown')||a.id.localeCompare(b.id)),e=>e.category||'Unresolved metadata');
  write('data/reactor-inventory.md',[
- '# 🧩 Reactor package inventory','', '[🎬 Catalogue](../README.md) · [🔎 Source data](community-discoveries.json) · [📥 Inventory JSON](reactor-inventory.json)','',
+ '# 🧩 Reactor package inventory','', '[🎬 Catalogue](../CATALOGUE.md) · [🔎 Source data](community-discoveries.json) · [📥 Inventory JSON](reactor-inventory.json)','',
  `Snapshot **${r.checked_at}**: **${r.folder_count} package folders**, **${r.retrieved_count} manifests retrieved** through GitLab’s public API. One manifest used different filename capitalization; its actual path is retained.`, '',
  'This is an inventory, not a compatibility or license endorsement. It includes application installers, dependencies, legacy tools and non-Resolve companions. Names, authors, categories, versions and dates are literal manifest metadata. A package Date is not proof of its latest release. OS support and price must be checked per package. Raw descriptions and executable payloads are excluded.', '',
  ...[...cats].flatMap(([cat,items])=>[`## ${clean(cat)}`,'','| Package | Creator | Version | Manifest date |','|---|---|---|---|',...items.map(e=>`| ${link(e.name||e.id,e.url)} <br> ${clean(e.id)} | ${clean(e.creator||'Not established')} | ${clean(e.version||'Not established')} | ${validDate(e.manifest_date)?e.manifest_date:'Not established'} |`),''])].join('\n'));

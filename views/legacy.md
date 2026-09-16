@@ -1,6 +1,6 @@
 # 🗄️ Legacy resources
 
-[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Full catalogue](../README.md) · [🧭 Start with a task](../START-HERE.md)
+[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Full catalogue](../CATALOGUE.md) · [🧭 Start with a task](../START-HERE.md)
 
 4 repositories with explicit archived or deprecated status. All remain in the full catalogue. Inactivity alone is not a reason for inclusion. Status is a dated observation; check upstream before choosing a resource.
 

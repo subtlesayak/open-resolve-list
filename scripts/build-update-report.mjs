@@ -12,7 +12,7 @@ export function buildUpdateReport(){
  const age=d=>d?`${relativeDate(d,a.checked_at)} (${d.slice(0,10)})`:'Not established';
  const stable=a.github.filter(e=>e.latest_stable_release).length;
  const release=r=>r?`${link(r.tag,r.url)} · ${age(r.published_at)}`:'None published';
- const lines=['# 🕒 Updates and changelogs','', '[🎬 Catalogue](../README.md) · [🌐 External directory](external-tools.md) · [📥 Evidence JSON](update-audit.json)','',
+ const lines=['# 🕒 Updates and changelogs','', '[🎬 Catalogue](../CATALOGUE.md) · [🌐 External directory](external-tools.md) · [📥 Evidence JSON](update-audit.json)','',
  `This historical audit covers the ${a.scope.external} external entries available at its snapshot. See [community discovery evidence](community-discoveries.json) for the ${later.additions.length} subsequently added resources.`,'',
  `Reviewed **${a.reviewed_on}**: **${a.scope.github} GitHub repositories + ${a.scope.external} external destinations**. GitHub snapshot: **${a.checked_at}**. Individual page-check timestamps are in the evidence JSON.`, '',
  `**${stable}** repositories have a GitHub-designated stable release; **${a.github.filter(e=>e.newest_created_release).length}** have any release. **${a.github.filter(e=>e.archived).length}** are archived. **${a.github.reduce((n,e)=>n+e.changelogs.length,0)}** root changelog files were read. **${a.external.filter(e=>e.http_status!==200).length}** external destinations blocked direct retrieval; primary-source web results resolved some of their update information.`, '',

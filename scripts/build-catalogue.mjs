@@ -190,8 +190,8 @@ export function build() {
   for (const e of entries) {
     if (!categoryFor(e) || !/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+$/.test(e.url) || !/^\d+$/.test(e.stars)) throw new Error('Invalid entry');
   }
-  const readmePath = path.join(root, 'README.md');
-  const old = fs.readFileSync(readmePath, 'utf8');
+  const cataloguePath = path.join(root, 'CATALOGUE.md');
+  const old = fs.readFileSync(cataloguePath, 'utf8');
   const start = old.indexOf('## Contents');
   const end = old.indexOf('## Compatibility notes');
   if (start < 0 || end < start) throw new Error('README section markers missing');
@@ -228,11 +228,29 @@ export function build() {
     '<a id="access-labels"></a>', '<a id="platforms-supported"></a>', '',
     'See the [access and platform guide](CATALOGUE-GUIDE.md) for label definitions, version evidence and browsing conventions.', '',
   ].join('\n');
-  fs.writeFileSync(readmePath, intro + content + '\n' + old.slice(end));
+  fs.writeFileSync(cataloguePath, intro + content + '\n' + old.slice(end));
+  fs.writeFileSync(path.join(root, 'README.md'), [
+    '# 🎬 Subtle Resolve List', '',
+    `Find tools for your Resolve setup across **${entries.length} public GitHub repositories** and **${external.length} external resources** with source-backed compatibility, version history and clear requirements.`, '',
+    '[🌐 Browse the searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md)', '',
+    '## Start here', '',
+    '- [Browse the full catalogue](CATALOGUE.md)',
+    '- [Find tools by task](START-HERE.md)',
+    '- [Read access, platform and evidence labels](CATALOGUE-GUIDE.md)',
+    '- [Use sorted catalogue views](views/latest-updated.md)',
+    '- [Suggest or correct a resource](CONTRIBUTING.md)', '',
+    '## Local maintenance', '',
+    'The maintained records live in [`data/resources/`](data/resources/). Build and validation are local-only:', '',
+    '```text',
+    'npm run build',
+    'npm run validate',
+    '```', '',
+    'See [website maintenance and hosting](WEBSITE.md) for local preview and source-evidence rules.', '',
+  ].join('\n'));
   fs.mkdirSync(path.join(root, 'views'), { recursive: true });
   for (const [key, [label, description]] of Object.entries(sorts)) {
     fs.writeFileSync(path.join(root, 'views', key + '.md'), [
-      `# ${label}`, '', '[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Catalogue home](../README.md) · [📥 CSV download](../data/repositories.csv)', '',
+      `# ${label}`, '', '[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Catalogue home](../CATALOGUE.md) · [📥 CSV download](../data/repositories.csv)', '',
       navigation(''), '', `**${entries.length} repositories + ${external.length} external resources · ${description}.**`, '',
       'Official Blackmagic resources come first. The selected sort applies within the official group and across all remaining entries. Unknown dates and inapplicable stars sort last; — means stars do not apply.', '',
       activityLegend, '',
@@ -245,11 +263,11 @@ export function build() {
   const byUrl=new Map(entries.map(e=>[e.url,e]));
   for(const item of legacy)if(!byUrl.has(item.url)||!['archived','deprecated'].includes(item.status)||!item.source||!Number.isFinite(Date.parse(item.checked_at)))throw Error('Invalid legacy evidence');
   fs.writeFileSync(path.join(root,'views/legacy.md'),[
-    '# 🗄️ Legacy resources','', '[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Full catalogue](../README.md) · [🧭 Start with a task](../START-HERE.md)','',
+    '# 🗄️ Legacy resources','', '[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Full catalogue](../CATALOGUE.md) · [🧭 Start with a task](../START-HERE.md)','',
     `${legacy.length} repositories with explicit archived or deprecated status. All remain in the full catalogue. Inactivity alone is not a reason for inclusion. Status is a dated observation; check upstream before choosing a resource.`,'',
     ...legacy.map(e=>`- [${e.repository}](${e.source}) — **${e.status}**; checked ${e.checked_at.slice(0,10)}. ${e.reason}`),'',
     table(sorted(legacy.map(e=>byUrl.get(e.url)),'name'),'../',true),'',
   ].join('\n'));
-  console.log(`Built README and ${Object.keys(sorts).length} sorted views for ${entries.length} repositories.`);
+  console.log(`Built README, CATALOGUE.md and ${Object.keys(sorts).length} sorted views for ${entries.length} repositories.`);
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) build();
