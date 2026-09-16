@@ -46,11 +46,11 @@ Consumers should resolve a resource through its permanent ID first, then its can
 
 The generated site feed at [`site/resources.json`](site/resources.json) is the machine-readable presentation of these records. It preserves permanent IDs and source-backed fields for standalone resource pages and downstream local consumers; edit canonical records and maintained evidence inputs instead of editing the generated feed.
 
-The generated API snapshot lives under [`site/api/v1/`](site/api/v1/) and the RSS-compatible snapshot is [`site/feed.xml`](site/feed.xml). Both are deterministic outputs of `node scripts/build-site.mjs`; they must not be edited by hand or treated as evidence.
+The generated API snapshot lives under [`site/api/v1/`](site/api/v1/). It includes the compact collection at `resources.json`, category/task/release indexes, and one detailed `resources/<permanent-id>.json` document per resource. The RSS-compatible snapshot is [`site/feed.xml`](site/feed.xml). All are deterministic outputs of `node scripts/build-site.mjs`; they must not be edited by hand or treated as evidence.
 
 Use `node scripts/rebuild.mjs` for the ordinary local rebuild path. It validates canonical records first, then regenerates the Markdown views and site-derived outputs without performing publication or external research.
 
-Records with `kind: other` can be listed for manual review with `node scripts/review-kinds.mjs --kind other`. Reviewers must verify an upstream format claim before changing a kind; the helper itself never edits records.
+Records with `kind: other` can be listed for manual review with `node scripts/review-kinds.mjs --kind other`. Thirty-four explicit mappings have been applied from maintained descriptions and source URLs; 43 records remain unresolved. Reviewers must verify an upstream format claim before changing a kind. The read-only listing helper never edits records; the reviewed mappings are opt-in and recorded in `scripts/apply-kind-review.mjs`.
 
 The optional npm scripts are wrappers around the same zero-dependency Node commands; installing packages is not required.
 

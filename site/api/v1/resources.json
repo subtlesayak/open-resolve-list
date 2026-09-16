@@ -4413,7 +4413,7 @@
       "creator": "zelikos",
       "url": "https://github.com/zelikos/davincibox",
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -4513,7 +4513,7 @@
       "creator": "H3rz3n",
       "url": "https://github.com/H3rz3n/davinci-helper",
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -4563,7 +4563,7 @@
       "creator": "flolu",
       "url": "https://github.com/flolu/davinci-resolve-linux",
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -4613,7 +4613,7 @@
       "creator": "Ashark",
       "url": "https://github.com/Ashark/davinci-resolve-checker",
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -4663,7 +4663,7 @@
       "creator": "psygreg",
       "url": "https://github.com/psygreg/autoresolvedeb",
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -4763,7 +4763,7 @@
       "creator": "Chillsmeit",
       "url": "https://github.com/Chillsmeit/resolve-tumbleweed",
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -5411,7 +5411,7 @@
       "creator": "Akascape",
       "url": "https://github.com/Akascape/PluginLibrary-Resolve",
       "category": "Directories covering free and commercial products",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "learning"
       ],
@@ -5453,7 +5453,7 @@
       "creator": "hassaancode",
       "url": "https://github.com/hassaancode/Fx-Library",
       "category": "Directories covering free and commercial products",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "learning"
       ],
@@ -5495,7 +5495,7 @@
       "creator": "CommandPost",
       "url": "https://github.com/CommandPost/ResolveCafe",
       "category": "Directories covering free and commercial products",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "learning"
       ],
@@ -5705,7 +5705,7 @@
       "creator": "JaySNL",
       "url": "https://github.com/JaySNL/VSTForResolveLinux",
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -10072,7 +10072,7 @@
       "creator": "Dec18studios",
       "url": "https://github.com/Dec18studios/Dec18-Plugin-Manager",
       "category": "Fusion, motion graphics, visual effects, and package management",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -12105,7 +12105,7 @@
       "creator": "Distortions81",
       "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -15131,7 +15131,7 @@
       "creator": "FilmConvert",
       "url": "https://www.filmconvert.com/",
       "category": "Color / Film",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "color"
       ],
@@ -15418,7 +15418,7 @@
       "creator": "Veres Deni Alex",
       "url": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
       "category": "Color / Film",
-      "kind": "other",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -15993,7 +15993,7 @@
       "creator": "Boris FX",
       "url": "https://borisfx.com/products/syntheyes/",
       "category": "Effects / Fusion",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -16215,7 +16215,7 @@
       "creator": "revisionfx.com",
       "url": "https://revisionfx.com/products/for/resolve/",
       "category": "Effects / Fusion",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "fusion"
       ],
@@ -18217,7 +18217,7 @@
       "creator": "MotionVFX",
       "url": "https://www.motionvfx.com/store,mtitle-refined-dvr,p4849.html",
       "category": "Effects and animation",
-      "kind": "other",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],
@@ -18263,7 +18263,7 @@
       "creator": "MotionVFX",
       "url": "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html",
       "category": "Effects and animation",
-      "kind": "other",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],
@@ -18470,7 +18470,7 @@
       "creator": "StirlingSupplyCo.",
       "url": "https://stirlingsupply.co/products/textbox",
       "category": "Effects and animation",
-      "kind": "other",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],
@@ -19638,7 +19638,7 @@
       "creator": "Alexey Bogomolov",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [],
       "description": "Edits and links multiple Fusion node inputs in a spreadsheet. Requires Fusion/Resolve 18, Python 3.8+ and PySide6. Avoid circular expression links: the author documents a crash.",
       "access": "🆓 MIT",
@@ -20083,7 +20083,7 @@
       "creator": "Catharsis",
       "url": "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [],
       "description": "Bumper, lower-third and transition assets with three editable Fusion compositions. Creator calls the pack free/public but has not confirmed Resolve Free compatibility.",
       "access": "🆓 Free public pack",
@@ -20117,7 +20117,7 @@
       "creator": "Chris Roy Films",
       "url": "https://chrisroyfilms.com/postsync/",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -20223,7 +20223,7 @@
       "creator": "CinePacks",
       "url": "https://cinepacks.store/collections/free-packs",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [],
       "description": "Free sample collections of overlays, textures, LUTs and sound effects for editing. These are media assets rather than a shared Resolve plugin; check each pack’s format and usage terms.",
       "access": "🆓 Sample packs; 💰 Full collections",
@@ -20983,7 +20983,7 @@
       "creator": "Dan De'Etremont",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [],
       "description": "Emulates a Disjoint Over composite to address edge artifacts when combining smoke and rendered holdout geometry.",
       "access": "📦 Public Reactor package; check package license",
@@ -22146,7 +22146,7 @@
       "creator": "Jacob Danell",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [],
       "description": "Removes color spill, restores luminance and recolors spill areas using a background image. Manifest states Resolve/Fusion 16 to 20+.",
       "access": "📦 Public Reactor package; check package license",
@@ -22298,7 +22298,7 @@
       "creator": "Jacob Danell",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.Retimer/com.JacobDanell.Retimer.atom",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [
         "fusion"
       ],
@@ -22969,7 +22969,7 @@
       "creator": "Maxon",
       "url": "https://www.maxon.net/en/red-giant",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [],
       "description": "Effects and color tools, including supported Universe effects. The current host table lists Resolve 19 and 20; support is per effect, so After Effects-only tools in the wider suite are excluded from the Resolve claim.",
       "access": "💰 Paid subscription",
@@ -23019,7 +23019,7 @@
       "creator": "MediaArea",
       "url": "https://mediaarea.net/en/MediaInfo",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "media"
       ],
@@ -23124,7 +23124,7 @@
       "creator": "MeterPlugs Audio",
       "url": "https://deliveryqc.com/",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "audio"
       ],
@@ -23631,7 +23631,7 @@
       "creator": "Pieter Van Houte",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [],
       "description": "Drives numeric and point parameters from WAV audio. Requires Microsoft WAV signed 16-bit PCM; other audio formats are not interchangeable.",
       "access": "📦 Public Reactor package; check package license",
@@ -23672,7 +23672,7 @@
       "creator": "Pro Sound Effects",
       "url": "https://www.prosoundeffects.com/soundq/",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [],
       "description": "Searches and organizes sound libraries with metadata editing and drag-and-drop into editors. Account required. Dedicated Spot to Timeline integration is listed for other hosts; do not assume that integration for Resolve.",
       "access": "🆓 App and starter library; 💰 Additional sound libraries",
@@ -23722,7 +23722,7 @@
       "creator": "Rampant Octopus Softworks",
       "url": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -24616,7 +24616,7 @@
       "creator": "tdcat",
       "url": "https://tdcat.com/downloads/filmgrain",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "color"
       ],
@@ -24702,7 +24702,7 @@
       "creator": "TiKa-Studios",
       "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],

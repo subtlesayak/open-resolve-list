@@ -7030,7 +7030,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -7182,7 +7182,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -7257,7 +7257,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -7333,7 +7333,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -7408,7 +7408,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -7581,7 +7581,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -8597,7 +8597,7 @@
       "official": false,
       "reference": false,
       "category": "Directories covering free and commercial products",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "learning"
       ],
@@ -8665,7 +8665,7 @@
       "official": false,
       "reference": false,
       "category": "Directories covering free and commercial products",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "learning"
       ],
@@ -8733,7 +8733,7 @@
       "official": false,
       "reference": true,
       "category": "Directories covering free and commercial products",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "learning"
       ],
@@ -9049,7 +9049,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -15896,7 +15896,7 @@
       "official": false,
       "reference": false,
       "category": "Fusion, motion graphics, visual effects, and package management",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -18998,7 +18998,7 @@
       "official": false,
       "reference": false,
       "category": "Linux installation, compatibility, and troubleshooting",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "linux"
       ],
@@ -23833,7 +23833,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "color"
       ],
@@ -24320,7 +24320,7 @@
       "official": false,
       "reference": false,
       "category": "Color / Film",
-      "kind": "other",
+      "kind": "lut",
       "tasks": [
         "color"
       ],
@@ -25263,7 +25263,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "fusion"
       ],
@@ -25618,7 +25618,7 @@
       "official": false,
       "reference": false,
       "category": "Effects / Fusion",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "fusion"
       ],
@@ -28597,7 +28597,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
-      "kind": "other",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],
@@ -28669,7 +28669,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
-      "kind": "other",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],
@@ -29006,7 +29006,7 @@
       "official": false,
       "reference": false,
       "category": "Effects and animation",
-      "kind": "other",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],
@@ -30908,7 +30908,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [],
       "tags": [
         "expressions",
@@ -31597,7 +31597,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [],
       "tags": [
         "bumper",
@@ -31658,7 +31658,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -31839,7 +31839,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [],
       "tags": [
         "assets",
@@ -33070,7 +33070,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [],
       "tags": [
         "compositing",
@@ -34969,7 +34969,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [],
       "tags": [
         "color spill",
@@ -35227,7 +35227,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [
         "fusion"
       ],
@@ -36304,7 +36304,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [],
       "tags": [
         "color grading",
@@ -36380,7 +36380,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "media"
       ],
@@ -36567,7 +36567,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "audio"
       ],
@@ -37357,7 +37357,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "reactor-package",
       "tasks": [],
       "tags": [
         "animation",
@@ -37425,7 +37425,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [],
       "tags": [
         "audio organization",
@@ -37501,7 +37501,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "workflow-app",
       "tasks": [
         "workflow"
       ],
@@ -38931,7 +38931,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "collection",
       "tasks": [
         "color"
       ],
@@ -39076,7 +39076,7 @@
       "official": false,
       "reference": false,
       "category": "Community discoveries",
-      "kind": "other",
+      "kind": "template",
       "tasks": [
         "fusion"
       ],

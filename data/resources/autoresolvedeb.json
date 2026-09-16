@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Linux installation, compatibility, and troubleshooting",
-  "kind": "other",
+  "kind": "workflow-app",
   "tasks": [
     "linux"
   ],

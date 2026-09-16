@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Fusion, motion graphics, visual effects, and package management",
-  "kind": "other",
+  "kind": "workflow-app",
   "tasks": [
     "fusion"
   ],

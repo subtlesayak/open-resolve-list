@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Color / Film",
-  "kind": "other",
+  "kind": "lut",
   "tasks": [
     "color"
   ],

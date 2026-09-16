@@ -72,10 +72,13 @@ export function buildSite(){
  const apiReleases=releasesForApi(data.releases);
  const apiRoot=path.join(root,'site/api/v1');
  fs.mkdirSync(apiRoot,{recursive:true});
+ const resourceApiRoot=path.join(apiRoot,'resources');
+ fs.mkdirSync(resourceApiRoot,{recursive:true});
  fs.mkdirSync(path.join(root,'site'),{recursive:true});
  fs.writeFileSync(path.join(root,'site/catalogue.json'),JSON.stringify(data,null,2)+'\n');
  fs.writeFileSync(path.join(root,'site/resources.json'),JSON.stringify(feed,null,2)+'\n');
  fs.writeFileSync(path.join(apiRoot,'resources.json'),JSON.stringify(api,null,2)+'\n');
+ for(const entry of entries)fs.writeFileSync(path.join(resourceApiRoot,entry.id+'.json'),JSON.stringify({schema_version:1,resource:entry},null,2)+'\n');
  fs.writeFileSync(path.join(apiRoot,'categories.json'),JSON.stringify({schema_version:1,categories},null,2)+'\n');
  fs.writeFileSync(path.join(apiRoot,'tasks.json'),JSON.stringify({schema_version:1,tasks},null,2)+'\n');
  fs.writeFileSync(path.join(apiRoot,'releases.json'),JSON.stringify({schema_version:1,releases:apiReleases},null,2)+'\n');
@@ -84,6 +87,10 @@ export function buildSite(){
  const resourceRoot=path.join(root,'site/resource');
  fs.mkdirSync(resourceRoot,{recursive:true});
  for(const entry of resources){const directory=path.join(resourceRoot,entry.id);fs.mkdirSync(directory,{recursive:true});fs.writeFileSync(path.join(directory,'index.html'),staticResourcePage(entry));}
+ const siteBase='https://subtlesayak.github.io/subtle-resolve-list/';
+ const sitemap=[`<?xml version="1.0" encoding="UTF-8"?>`,`<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`,`<url><loc>${siteBase}</loc></url>`,`<url><loc>${siteBase}about.html</loc></url>`,`<url><loc>${siteBase}updates.html</loc></url>`,...resources.map(entry=>`<url><loc>${siteBase}resource/${xmlEscape(entry.id)}/</loc></url>`),'</urlset>'].join('');
+ fs.writeFileSync(path.join(root,'site/sitemap.xml'),sitemap+'\n');
+ fs.writeFileSync(path.join(root,'site/robots.txt'),'User-agent: *\nAllow: /\nSitemap: '+siteBase+'sitemap.xml\n');
  console.log(`Built searchable site data for ${entries.length} resources; ${details.entries.length} reviewed requirement records.`);return data;
 }
 

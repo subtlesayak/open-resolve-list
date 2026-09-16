@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Community discoveries",
-  "kind": "other",
+  "kind": "workflow-app",
   "tasks": [
     "media"
   ],
