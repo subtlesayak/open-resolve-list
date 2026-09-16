@@ -28,7 +28,7 @@ try{
  page.on('pageerror',error=>errors.push(error));
 
  await page.goto(base+'/',{waitUntil:'networkidle'});
- assert.match(await page.title(),/Subtle Resolve List/);
+ assert.match(await page.title(),/Open Resolve List/);
  assert.equal(await page.locator('main').count(),1);
  assert.equal(await page.getByRole('searchbox',{name:'Search tools'}).count(),1);
  await page.locator('#results article.resource').first().waitFor();

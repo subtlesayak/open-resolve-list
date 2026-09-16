@@ -1,7 +1,7 @@
 const endpoint = 'https://countapi.mileshilliard.com/api/v1';
 const key = 'subtlesayak-subtle-resolve-list-visits-20260908';
 export function counterUrl(location) {
- if(location.protocol!=='https:' || location.hostname!=='subtlesayak.github.io' || !location.pathname.startsWith('/subtle-resolve-list/')) return null;
+ if(location.protocol!=='https:' || location.hostname!=='subtlesayak.github.io' || !location.pathname.startsWith('/open-resolve-list/')) return null;
  return endpoint+'/hit/'+key;
 }
 export function parseCount(data) {

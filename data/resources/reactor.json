@@ -23,7 +23,7 @@
     "reactor"
   ],
   "description": "Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the Atom tree and community forum. The browser tree returned a loading shell; the current API inventory contains 711 package folders. See the package inventory; compatibility still varies by package. Related standalone tooling is already in the GitHub catalogue.",
-  "display_description": "Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the [Atom tree](https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms) and [community forum](https://www.steakunderwater.com/wesuckless/). The browser tree returned a loading shell; the current API inventory contains 711 package folders. See the [package inventory](https://github.com/subtlesayak/subtle-resolve-list/blob/main/data/reactor-inventory.md); compatibility still varies by package. Related standalone tooling is already in the GitHub catalogue.",
+  "display_description": "Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the [Atom tree](https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms) and [community forum](https://www.steakunderwater.com/wesuckless/). The browser tree returned a loading shell; the current API inventory contains 711 package folders. See the [package inventory](https://github.com/subtlesayak/open-resolve-list/blob/main/data/reactor-inventory.md); compatibility still varies by package. Related standalone tooling is already in the GitHub catalogue.",
   "access": "📦 Public package manager; package terms vary",
   "accessGroup": "public",
   "platforms": [],

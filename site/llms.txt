@@ -1,13 +1,13 @@
-# Subtle Resolve List
+# Open Resolve List
 
-Subtle Resolve List is a source-backed catalogue of DaVinci Resolve and Fusion tools, plugins, scripts, DCTLs, LUTs, templates, workflow utilities, learning resources, and companion applications.
+Open Resolve List is a source-backed catalogue of DaVinci Resolve and Fusion tools, plugins, scripts, DCTLs, LUTs, templates, workflow utilities, learning resources, and companion applications.
 
 ## Best pages
 
-- Catalogue: https://subtlesayak.github.io/subtle-resolve-list/
-- Updates and version history: https://subtlesayak.github.io/subtle-resolve-list/updates.html
-- Evidence and methodology: https://subtlesayak.github.io/subtle-resolve-list/about.html
-- Machine-readable catalogue: https://subtlesayak.github.io/subtle-resolve-list/catalogue.json
+- Catalogue: https://subtlesayak.github.io/open-resolve-list/
+- Updates and version history: https://subtlesayak.github.io/open-resolve-list/updates.html
+- Evidence and methodology: https://subtlesayak.github.io/open-resolve-list/about.html
+- Machine-readable catalogue: https://subtlesayak.github.io/open-resolve-list/catalogue.json
 
 ## How to use the catalogue
 

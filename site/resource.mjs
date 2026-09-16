@@ -6,7 +6,7 @@ const field=(label,value)=>`<dt>${label}</dt><dd>${value}</dd>`;
 function safeLink(url,label){try{return new URL(url).protocol==='https:'?`<a href="${escapeHtml(url)}">${label}</a>`:label;}catch{return label;}}
 function setPageMetadata(record){const pageUrl=new URL(`resource/${encodeURIComponent(record.id)}/`,location.href).href;let canonical=document.querySelector('link[rel="canonical"]');if(!canonical){canonical=document.createElement('link');canonical.rel='canonical';document.head.append(canonical);}canonical.href=pageUrl;let description=document.querySelector('meta[name="description"]');if(!description){description=document.createElement('meta');description.name='description';document.head.append(description);}description.content=record.description||'Source-backed details for a DaVinci Resolve resource.';}
 function render(record){
- document.title=`${record.name} — Subtle Resolve List`;
+ document.title=`${record.name} — Open Resolve List`;
  setPageMetadata(record);
  const requirements=record.requirements||{},version=record.version||{};
  const evidence=record.evidence||[];

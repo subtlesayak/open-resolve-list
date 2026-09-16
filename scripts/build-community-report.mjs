@@ -23,7 +23,7 @@ export function buildCommunityReport(){
  directory=replaceGeneratedSection(directory,officialMarker,'<!-- end official resources -->','\n'+tablesFor(entries.filter(isOfficialResource))+'\n');
  directory=directory.replace(/\*\*\d+ external destinations\*\*/,`**${c.total_count} external destinations**`).replace('Versions, updates and changelogs for all 72 resources','Earlier update audit: 72 resources');
  directory=directory.replace('The tree returned a loading shell during this pass, so individual package compatibility was not audited.',`The public API inventory contains ${r.folder_count} package folders. See the [package inventory](reactor-inventory.md); compatibility still varies by package.`).replace(/a later API scan retrieved all \d+ manifests/g,`the current API inventory contains ${r.folder_count} package folders`);
- directory=directory.replace('[package inventory](reactor-inventory.md)','[package inventory](https://github.com/subtlesayak/subtle-resolve-list/blob/main/data/reactor-inventory.md)');
+ directory=directory.replace('[package inventory](reactor-inventory.md)','[package inventory](https://github.com/subtlesayak/open-resolve-list/blob/main/data/reactor-inventory.md)');
  // Keep later products from an existing creator under that creator's heading.
  const placedCreators=new Set();
  for(const [creator,items] of Map.groupBy(entries.filter(e=>!isOfficialResource(e)),e=>e.creator)){

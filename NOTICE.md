@@ -1,6 +1,6 @@
 # Licensing and attribution
 
-Original work by Subtle Resolve List contributors, 2026.
+Original work by Open Resolve List contributors, 2026.
 
 To the extent the contributors hold the relevant rights, this project's original scripts, documentation and original catalogue contributions are dedicated to the public domain under **CC0 1.0 Universal (CC0-1.0)**. See [LICENSE](LICENSE). New original contributions are accepted under those terms. Attribution to this project is appreciated but is not required by CC0.
 

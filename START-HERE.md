@@ -1,6 +1,6 @@
 # Find a Resolve resource
 
-[🌐 Search and filter](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Full catalogue](CATALOGUE.md) · [🏢 Official resources](CATALOGUE.md#official-resources) · [🔤 All entries by name](views/name.md)
+[🌐 Search and filter](https://subtlesayak.github.io/open-resolve-list/) · [🎬 Full catalogue](CATALOGUE.md) · [🏢 Official resources](CATALOGUE.md#official-resources) · [🔤 All entries by name](views/name.md)
 
 Start with your task, then check the entry's Free/Studio requirements, operating system and access conditions. These routes help you explore the catalogue; they are not installation-tested recommendations.
 
@@ -30,4 +30,4 @@ Share the [tool-finder guide](TOOL-FINDER.md) and a concrete request, for exampl
 
 ## Share first-hand experience
 
-Use the [resource submission form](https://github.com/subtlesayak/subtle-resolve-list/issues/new?template=resource.yml) to explain what worked, the exact setup you used, limitations and any affiliation. Mark “Not tested” when appropriate. A tool becomes a recommended starting choice only after a maintainer reviews evidence of contributor experience; discovery alone does not qualify it.
+Use the [resource submission form](https://github.com/subtlesayak/open-resolve-list/issues/new?template=resource.yml) to explain what worked, the exact setup you used, limitations and any affiliation. Mark “Not tested” when appropriate. A tool becomes a recommended starting choice only after a maintainer reviews evidence of contributor experience; discovery alone does not qualify it.

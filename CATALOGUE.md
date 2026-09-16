@@ -1,12 +1,12 @@
-# 🎬 Subtle Resolve List
+# 🎬 Open Resolve List
 
 Find tools for your Resolve setup—with source-backed compatibility, version history and clear requirements.
 
 Explore a directory of **263 public GitHub repositories** and **251 external resources** for DaVinci Resolve and Fusion, with version evidence, platform requirements and access labels.
 
-[🌐 Browse the searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md) · [🤝 Suggest or correct a resource](CONTRIBUTING.md)
+[🌐 Browse the searchable website](https://subtlesayak.github.io/open-resolve-list/) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md) · [🤝 Suggest or correct a resource](CONTRIBUTING.md)
 
-Search and filter the [website](https://subtlesayak.github.io/subtle-resolve-list/) by task, platform, Resolve version and requirements. See [website maintenance and hosting](WEBSITE.md) for the source and local preview instructions.
+Search and filter the [website](https://subtlesayak.github.io/open-resolve-list/) by task, platform, Resolve version and requirements. See [website maintenance and hosting](WEBSITE.md) for the source and local preview instructions.
 
 ## Contents
 
@@ -805,7 +805,7 @@ Updated ages use the same days/weeks/months/years format as repository rows, cal
 | [Ravengrade tools](https://ravengrade.com/) | Collection of Resolve film-look, contrast, subtractive-color tools, and LUTs. Check each product’s Studio, GPU, and version requirements; collection membership does not establish shared compatibility.<br><sub>🏷️ Version not established</sub> | 💳 Paid perpetual licenses or subscription | ❔ Not established | Unknown |
 | [RCM Wide Gamut Print Film PowerGrades](https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades) | Kodak and Fujifilm print-film PowerGrades for Resolve Color Management and DaVinci Wide Gamut, covering SDR and HDR workflows. Includes setup and node-graph guidance.<br><sub>🏷️ Version not established</sub> | 💰 Paid | ❔ Not established | Unknown |
 | [RE:Vision Effects for Resolve](https://revisionfx.com/products/for/resolve/) | Resolve-specific product directory covering Twixtor retiming, ReelSmart Motion Blur, DEFlicker, DE:Noise, and other effects. Compatibility and licensing vary by product.<br><sub>🏷️ Version not established</sub> | Commercial products and bundles | ❔ Per product | Unknown |
-| [Reactor](https://gitlab.com/WeSuckLess/Reactor) | Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the [Atom tree](https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms) and [community forum](https://www.steakunderwater.com/wesuckless/). The browser tree returned a loading shell; the current API inventory contains 711 package folders. See the [package inventory](https://github.com/subtlesayak/subtle-resolve-list/blob/main/data/reactor-inventory.md); compatibility still varies by package. Related standalone tooling is already in the GitHub catalogue.<br><sub>🏷️ Version not established</sub> | 📦 Public package manager; package terms vary | ❔ Per package | Unknown |
+| [Reactor](https://gitlab.com/WeSuckLess/Reactor) | Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the [Atom tree](https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms) and [community forum](https://www.steakunderwater.com/wesuckless/). The browser tree returned a loading shell; the current API inventory contains 711 package folders. See the [package inventory](https://github.com/subtlesayak/open-resolve-list/blob/main/data/reactor-inventory.md); compatibility still varies by package. Related standalone tooling is already in the GitHub catalogue.<br><sub>🏷️ Version not established</sub> | 📦 Public package manager; package terms vary | ❔ Per package | Unknown |
 | [ReadEXR Ultra](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom) | EXR-reading Fuse with scriptable filename input and optional Vonk text input. The author explicitly describes it as pre-alpha.<br><sub>🏷️ [0.6 (package)](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom)</sub> | 📦 Public Reactor package; check package license | ❔ Not established | [3&nbsp;years&nbsp;back](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom "2023-04-01")&nbsp;†<br><sub>Reactor manifest date</sub> |
 | [Red Giant tools for Resolve](https://www.maxon.net/en/red-giant) | Effects and color tools, including supported Universe effects. The current host table lists Resolve 19 and 20; support is per effect, so After Effects-only tools in the wider suite are excluded from the Resolve claim.<br><sub>🏷️ [2026.5.1](https://support.maxon.net/hc/en-us/articles/13764887933596-Red-Giant-2026-5-1-August-12-2026)</sub> | 💰 Paid subscription | 🪟 Windows · 🍎 macOS | [3&nbsp;weeks&nbsp;back](https://support.maxon.net/hc/en-us/articles/13764887933596-Red-Giant-2026-5-1-August-12-2026 "2026-08-12")<br><sub>release</sub> |
 | [Red-X LUTs](https://www.veresdenialex.com/product-page/red-x) | Five creative LUTs that emphasize red tones and strong contrast for log workflows.<br><sub>🏷️ Version not established</sub> | 💰 Paid | ❔ Not established | Unknown |
@@ -904,7 +904,7 @@ Browse the [catalogue by access](views/access.md) for entries labelled **Free**,
 
 Requirements vary by tool. A free plugin can still require a paid Resolve Studio licence. Read the entry's description, platform notes, and upstream documentation for edition, version, GPU, and operating-system requirements.
 
-### Does Subtle Resolve List list only AI tools?
+### Does Open Resolve List list only AI tools?
 
 No. AI assists the directory's research and organization. The collection covers color grading, Fusion effects, subtitles, encoding, hardware, and other workflows. [AI assistants, MCP servers, and ComfyUI integrations](#category-4) have their own category.
 

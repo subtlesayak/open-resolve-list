@@ -1,10 +1,10 @@
 # Contributing
 
-[🌐 Browse the website](https://subtlesayak.github.io/subtle-resolve-list/) · [Website maintenance](WEBSITE.md)
+[🌐 Browse the website](https://subtlesayak.github.io/open-resolve-list/) · [Website maintenance](WEBSITE.md)
 
 Suggest additions and corrections through an issue or pull request.
 
-Use the resource or correction form under [New issue](https://github.com/subtlesayak/subtle-resolve-list/issues/new/choose). The pull request template asks for the same source evidence and practical context.
+Use the resource or correction form under [New issue](https://github.com/subtlesayak/open-resolve-list/issues/new/choose). The pull request template asks for the same source evidence and practical context.
 
 Write descriptions in plain language: lead with the task a resource helps accomplish, explain its distinguishing feature, and keep important requirements in the entry. Use consistent capitalization, full sentences and final punctuation. Avoid promotional claims, unsupported superlatives and quality rankings based on stars. Preserve upstream names and technical identifiers.
 

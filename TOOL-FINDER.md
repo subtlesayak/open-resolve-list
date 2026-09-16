@@ -1,8 +1,8 @@
 # Find DaVinci Resolve tools for a specific workflow
 
-[🌐 Search and filter the catalogue](https://subtlesayak.github.io/subtle-resolve-list/) · [📖 Catalogue guide](CATALOGUE-GUIDE.md)
+[🌐 Search and filter the catalogue](https://subtlesayak.github.io/open-resolve-list/) · [📖 Catalogue guide](CATALOGUE-GUIDE.md)
 
-This guide helps readers and AI assistants use [Subtle Resolve List](CATALOGUE.md) to recommend tools for a stated need. It describes how to interpret the catalogue; it does not establish new compatibility claims. Follow the user's requirements and use current provider documentation to resolve uncertain details.
+This guide helps readers and AI assistants use [Open Resolve List](CATALOGUE.md) to recommend tools for a stated need. It describes how to interpret the catalogue; it does not establish new compatibility claims. Follow the user's requirements and use current provider documentation to resolve uncertain details.
 
 ## Understand the requirement
 

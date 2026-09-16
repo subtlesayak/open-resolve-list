@@ -4,7 +4,7 @@ The header Theme button cycles through System, Light and Dark appearances. Its l
 
 The resource count shows additions from the latest listings update. The number stays unchanged while filtering and until the next listings update; `data/latest-update.json` supplies the date and added URLs.
 
-[🌐 Open Subtle Resolve List](https://subtlesayak.github.io/subtle-resolve-list/)
+[🌐 Open Open Resolve List](https://subtlesayak.github.io/open-resolve-list/)
 
 The website in `site/` provides combined search and filters for tasks, platform, Resolve edition and version, access, payment model, processing, architecture and evidence. Official resources remain first. Resource details show field-specific sources, check dates, limitations and unknown requirements. Product releases and repository activity are separate sort options.
 
@@ -58,7 +58,7 @@ git diff --check
 
 ## Hosting
 
-Live on [GitHub Pages](https://subtlesayak.github.io/subtle-resolve-list/). The deployment workflow publishes only `site/`, never the repository root or local research. To publish reviewed changes, run **Publish catalogue website** from the repository's Actions tab on `main`; a normal push validates the catalogue but does not redeploy the website. No custom domain, third-party scripts or fonts are configured. The footer displays a plain-text shared page-view count using [CountAPI](https://countapi.mileshilliard.com/), only on the production site. Counts start with the replacement counter on September 8, 2026; they are approximate page loads, not unique visitors or historical traffic. The fixed public key contains no query, filters or personal visitor data; requests omit credentials and referrers. The service still receives the network request and IP address. A failed increment falls back to a read-only request, never a second increment. If offline, a previously retrieved count is labelled last recorded; without one, the counter is hidden. The public counter is not an audited analytics metric. Catalogue freshness follows reviewed deployments.
+Live on [GitHub Pages](https://subtlesayak.github.io/open-resolve-list/). The deployment workflow publishes only `site/`, never the repository root or local research. To publish reviewed changes, run **Publish catalogue website** from the repository's Actions tab on `main`; a normal push validates the catalogue but does not redeploy the website. No custom domain, third-party scripts or fonts are configured. The footer displays a plain-text shared page-view count using [CountAPI](https://countapi.mileshilliard.com/), only on the production site. Counts start with the replacement counter on September 8, 2026; they are approximate page loads, not unique visitors or historical traffic. The fixed public key contains no query, filters or personal visitor data; requests omit credentials and referrers. The service still receives the network request and IP address. A failed increment falls back to a read-only request, never a second increment. If offline, a previously retrieved count is labelled last recorded; without one, the counter is hidden. The public counter is not an audited analytics metric. Catalogue freshness follows reviewed deployments.
 
 Shareable URLs contain the search terms and filter values. The website stores no browsing history or selections in browser storage. Avoid including private project names in links you share.
 

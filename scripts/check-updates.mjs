@@ -61,7 +61,7 @@ const updateWords=/change\s*log|release\s*notes|version\s*history|what[’']?s\s
 async function fetchPage(url){
  const started=new Date().toISOString();
  try{
-  const response=await fetch(url,{signal:AbortSignal.timeout(25000),headers:{'User-Agent':'Subtle-Resolve-List-Link-Check/1.0','Accept':'text/html,application/json;q=0.9,*/*;q=0.5'}});
+  const response=await fetch(url,{signal:AbortSignal.timeout(25000),headers:{'User-Agent':'Open-Resolve-List-Link-Check/1.0','Accept':'text/html,application/json;q=0.9,*/*;q=0.5'}});
   const {raw,...extraction}=await readTextResponse(response);
   const text=textOf(raw);
   const links=[];

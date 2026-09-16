@@ -1,8 +1,8 @@
-# 🎬 Subtle Resolve List
+# 🎬 Open Resolve List — DaVinci Resolve Plugins & Tools
 
-Find tools for your Resolve setup across **263 public GitHub repositories** and **251 external resources** with source-backed compatibility, version history and clear requirements.
+An open, curated database of **DaVinci Resolve plugins, Fusion tools, DCTLs, LUTs, PowerGrades, scripts and templates**, spanning **263 public GitHub repositories** and **251 external resources** with source-backed compatibility, version history and clear requirements.
 
-[🌐 Browse the searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md)
+[🌐 Browse the searchable website](https://subtlesayak.github.io/open-resolve-list/) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md)
 
 ## Start here
 

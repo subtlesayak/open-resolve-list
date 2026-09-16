@@ -1,7 +1,7 @@
 {
-  "name": "subtle-resolve-list",
+  "name": "open-resolve-list",
   "private": true,
-  "description": "Local build and validation commands for Subtle Resolve List",
+  "description": "Local build and validation commands for Open Resolve List",
   "scripts": {
     "build": "node scripts/rebuild.mjs",
     "serve": "node scripts/serve-site.mjs",
