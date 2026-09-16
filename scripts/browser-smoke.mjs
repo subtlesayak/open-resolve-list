@@ -4,7 +4,7 @@ import {chromium} from 'playwright';
 
 const port=18766;
 const base=`http://127.0.0.1:${port}`;
-const executable=process.env.RESOLVE_BROWSER||'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const executable=process.env.RESOLVE_BROWSER||(process.platform==='win32'?'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe':'');
 let server;
 let browser;
 let page;
@@ -22,7 +22,7 @@ const waitForServer=()=>new Promise((resolve,reject)=>{
 try{
  server=spawn(process.execPath,['scripts/serve-site.mjs'],{cwd:new URL('..',import.meta.url),env:{...process.env,RESOLVE_SITE_PORT:String(port)},stdio:['ignore','pipe','pipe']});
  await waitForServer();
- browser=await chromium.launch({headless:true,executablePath:executable,args:['--no-sandbox']});
+ browser=await chromium.launch({headless:true,...(executable?{executablePath:executable}:{}),args:['--no-sandbox']});
  page=await browser.newPage();
  const errors=[];
  page.on('pageerror',error=>errors.push(error));
@@ -47,6 +47,17 @@ try{
  await page.locator('#compare-dialog').waitFor({state:'visible'});
  assert.equal(await page.locator('.compare-table').count(),1);
  assert.match(await page.locator('#compare-body').textContent(),/Side-by-side comparison/);
+ assert.equal(await page.getByRole('button',{name:'Export CSV'}).count(),1);
+ const downloadPromise=page.waitForEvent('download');
+ await page.getByRole('button',{name:'Export CSV'}).click();
+ const download=await downloadPromise;
+ assert.equal(download.suggestedFilename(),'resolve-resource-comparison.csv');
+ assert.equal(await download.failure(),null);
+ const stream=await download.createReadStream();
+ let csv='';for await(const chunk of stream)csv+=chunk.toString();
+ assert.match(csv,/^"Field",/);
+ assert.match(csv,/"Resolve version"/);
+ assert.match(await page.locator('#compare-body').textContent(),/Related resources/);
  await page.getByRole('button',{name:'Close comparison'}).click();
 
  await page.goto(base+'/resource/36-cinematic-film-titles/',{waitUntil:'networkidle'});

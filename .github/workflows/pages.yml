@@ -1,5 +1,15 @@
 name: Publish catalogue website
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'site/**'
+      - 'scripts/build-site.mjs'
+      - 'scripts/canonical-source.mjs'
+      - 'scripts/rebuild.mjs'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 permissions:
   contents: read

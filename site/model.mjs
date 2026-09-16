@@ -27,6 +27,9 @@ export function comparableResources(a,b) {
 export function comparisonCompatible(entry,selected) {
  return selected.length===0||selected.every(other=>comparableResources(entry,other));
 }
+export function relatedResources(entry,entries,limit=3) {
+ return entries.filter(other=>other.id!==entry.id).map(other=>({entry:other,score:(other.kind===entry.kind&&!GENERIC_COMPARE_KINDS.has(String(entry.kind||'').toLowerCase())?5:0)+(other.category===entry.category?3:0)+((other.tasks||[]).some(task=>(entry.tasks||[]).includes(task))?2:0)})).filter(item=>item.score>0).sort((a,b)=>b.score-a.score||a.entry.name.localeCompare(b.entry.name)).slice(0,limit).map(item=>item.entry);
+}
 export function comparisonFromUrl(search) {
  const raw=String(search).match(/(?:^|[?&])compare=([^&]*)/)?.[1]||'';
  let decoded='';

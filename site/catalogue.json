@@ -47,8 +47,8 @@
   },
   "schema_version": 1,
   "title": "Subtle Resolve List",
-  "tagline": "Find tools for your Resolve setup.",
-  "description": "Source-backed compatibility, version history and clear requirements.",
+  "tagline": "The open Resolve ecosystem database.",
+  "description": "Curated, source-backed DaVinci Resolve and Fusion tools with compatibility evidence, version tracking and clear uncertainty.",
   "catalogue": "https://github.com/subtlesayak/subtle-resolve-list",
   "tasks": {
     "captions": "Captions & dialogue",

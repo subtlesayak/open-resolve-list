@@ -1012,5 +1012,8 @@ nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; t
 .compare-table caption { text-align:left; font-weight:700; padding-bottom:12px; }
 .compare-table th, .compare-table td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; }
 .compare-table thead th { background:var(--surface); }
+.compare-note,.related-resources { margin:12px 0; }
+.related-resources { border-top:1px solid var(--line); padding-top:12px; }
+.related-resources h3 { margin:0 0 8px; }
 #compare-dialog { max-width:min(94vw,1000px); overflow:auto; }
 @media (max-width:700px) { .compare-tray { align-items:flex-start; flex-direction:column; } #compare-dialog { max-width:96vw; } }

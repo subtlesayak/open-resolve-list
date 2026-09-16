@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "title": "Subtle Resolve List",
-  "description": "Source-backed compatibility, version history and clear requirements.",
+  "description": "Curated, source-backed DaVinci Resolve and Fusion tools with compatibility evidence, version tracking and clear uncertainty.",
   "resources": [
     {
       "id": "utility-dctls",
