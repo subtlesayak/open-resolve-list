@@ -2,6 +2,7 @@
 .research/
 .release-notes/
 node_modules/
+.legacy-site/
 # Audit and research reports are local-only; catalogue data remains public.
 PROJECT-AUDIT.md
 data/*-report.md

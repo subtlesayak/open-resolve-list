@@ -105,3 +105,8 @@ Catalogue, Updates (`updates.html`) and About (`about.html`) are separate pages.
 After publishing a catalogue release, refresh `data/catalogue-releases.json` with `node scripts/update-catalogue-releases.mjs`, rebuild the site and deploy. The cached public release data keeps browsing independent of GitHub API availability.
 
 The theme palette uses Blackmagic Design's public stylesheet orange (`#f48c00`) with neutral white and charcoal surfaces. Light-mode links use a darker orange (`#a64b00`) for contrast; filled orange buttons use dark text. Reference: https://css.blackmagicdesign.com/css/global.css. Automated contrast checks cover both themes.
+## Preserved website address
+
+The previous website at https://subtlesayak.github.io/subtle-resolve-list/ remains available for saved apps and bookmarks. It serves a compatibility copy with a migration notice and an explicit link to the maintained site; it must not force an automatic redirect. Canonical metadata continues to point to https://subtlesayak.github.io/open-resolve-list/.
+
+Generate the compatibility copy with `node scripts/build-legacy-site.mjs` after building the main site. Only the generated public assets in the ignored `.legacy-site/` directory belong in the separate `subtlesayak/subtle-resolve-list` hosting repository. That repository uses branch-based Pages hosting from `main` at `/`. Main-site updates do not automatically refresh this compatibility copy; the notice directs visitors to the new address for the latest catalogue.
