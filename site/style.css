@@ -159,6 +159,11 @@ nav a.submit-link {
   font-size:14px;
   letter-spacing:.01em;
 }
+.compare-hint {
+  margin:4px 0 0;
+  color:var(--muted);
+  font-size:13px;
+}
 nav a:last-child {
   border-inline-start:1px solid var(--line);
   padding-inline-start:30px
