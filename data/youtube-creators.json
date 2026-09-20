@@ -1,17 +1,108 @@
 {
   "schema_version": 1,
   "reviewed_at": "2026-09-20",
-  "scope": "Community YouTube channels that publish DaVinci Resolve or Fusion education and workflow material. Links point to the creators' public channels; this is a discovery guide, not an endorsement.",
+  "scope": "Public Resolve, Fusion and color creators, educators and training providers. Links point to public channels or educator sites; this is a discovery guide, not an endorsement.",
   "sources": [
     "https://jayaretv.com/docs/",
     "https://www.reddit.com/r/davinciresolve/wiki/resources/",
-    "https://curtinmcasi.atlassian.net/wiki/spaces/POS/pages/3364356101/YouTube%2BResources"
+    "https://curtinmcasi.atlassian.net/wiki/spaces/POS/pages/3364356101/YouTube%2BResources",
+    "https://vfxstudy.com/about/",
+    "https://www.reddit.com/r/davinciresolve/comments/1v7bsce/",
+    "https://icolorist.com/training-and-support/",
+    "https://www.jamiedickinson.net/training",
+    "https://diegoyhama.com/home/"
   ],
   "creators": [
-    {"name":"Casey Faris","channel":"https://www.youtube.com/@CaseyFaris","focus":"Resolve editing, Fusion, color and complete beginner-to-advanced courses","website":"https://groundcontrol.film/","evidence":"https://www.youtube.com/watch?v=qDHnCFMZ9HA"},
-    {"name":"Cullen Kelly","channel":"https://www.youtube.com/c/CullenKelly","focus":"Professional color management, grading and look development","website":"https://www.cullenkellycolor.com/","evidence":"https://www.youtube.com/watch?v=TxCGR_gNTME"},
-    {"name":"Darren Mostyn","channel":"https://www.youtube.com/@DarrenMostyn","focus":"Color grading, color management and professional Resolve workflows","website":"https://www.darrenmostyn.com/","evidence":"https://curtinmcasi.atlassian.net/wiki/spaces/POS/pages/3364356101/YouTube%2BResources"},
-    {"name":"MrAlexTech","channel":"https://www.youtube.com/@MrAlexTech","focus":"Practical Resolve tips, Fusion effects, editing workflows and tools","website":"https://www.mralextech.com/","evidence":"https://www.reddit.com/r/davinciresolve/comments/1go98sy"},
-    {"name":"JayAreTV","channel":"https://www.youtube.com/@JayAreTV","focus":"Fusion, expressions, scripting, workflow and Resolve tools","website":"https://jayaretv.com/docs/","evidence":"https://jayaretv.com/docs/"}
+    {
+      "name": "Casey Faris",
+      "channel": "https://www.youtube.com/@CaseyFaris",
+      "focus": "Resolve editing, Fusion, color and complete beginner-to-advanced courses",
+      "website": "https://groundcontrol.film/",
+      "evidence": "https://www.youtube.com/watch?v=qDHnCFMZ9HA"
+    },
+    {
+      "name": "Cullen Kelly",
+      "channel": "https://www.youtube.com/c/CullenKelly",
+      "focus": "Professional color management, grading and look development",
+      "website": "https://www.cullenkellycolor.com/",
+      "evidence": "https://www.youtube.com/watch?v=TxCGR_gNTME"
+    },
+    {
+      "name": "Darren Mostyn",
+      "channel": "https://www.youtube.com/@DarrenMostyn",
+      "focus": "Color grading, color management and professional Resolve workflows",
+      "website": "https://www.darrenmostyn.com/",
+      "evidence": "https://curtinmcasi.atlassian.net/wiki/spaces/POS/pages/3364356101/YouTube%2BResources"
+    },
+    {
+      "name": "MrAlexTech",
+      "channel": "https://www.youtube.com/@MrAlexTech",
+      "focus": "Practical Resolve tips, Fusion effects, editing workflows and tools",
+      "website": "https://www.mralextech.com/",
+      "evidence": "https://www.reddit.com/r/davinciresolve/comments/1go98sy"
+    },
+    {
+      "name": "JayAreTV",
+      "channel": "https://www.youtube.com/@JayAreTV",
+      "focus": "Fusion, expressions, scripting, workflow and Resolve tools",
+      "website": "https://jayaretv.com/docs/",
+      "evidence": "https://jayaretv.com/docs/"
+    },
+    {
+      "name": "VFXstudy · Bernd Klimm",
+      "channel": "https://www.youtube.com/@VFXstudy",
+      "focus": "Fusion compositing, VFX and motion graphics tutorials from a Blackmagic Design Master Trainer",
+      "website": "https://vfxstudy.com/",
+      "evidence": "https://vfxstudy.com/about/"
+    },
+    {
+      "name": "Chetal Gazdar VFX",
+      "channel": "https://www.youtube.com/@ChetalGazdarVFX",
+      "focus": "Fusion fundamentals, node-based compositing and Blackmagic Design Fusion tutorials",
+      "website": "https://www.youtube.com/@ChetalGazdarVFX",
+      "evidence": "https://www.reddit.com/r/davinciresolve/comments/1nmefzw/"
+    },
+    {
+      "name": "Pirates of ConFusion",
+      "channel": "https://www.youtube.com/@ConFusion",
+      "focus": "Advanced Fusion compositing, 3D workflows, visual effects and creative motion graphics",
+      "website": "https://www.piratesofconfusion.com/home",
+      "evidence": "https://www.piratesofconfusion.com/home"
+    },
+    {
+      "name": "Diego Yhamá",
+      "channel": "https://www.youtube.com/channel/UC7MZWXYEPGioqeryN7HsHJg",
+      "focus": "Spanish-language color grading, color science and professional DaVinci Resolve workflows",
+      "website": "https://diegoyhama.com/home/",
+      "evidence": "https://icolorist.com/instructors/diego-yhama/"
+    },
+    {
+      "name": "Kaur Hendrikson",
+      "channel": "https://www.youtube.com/@KaurH",
+      "focus": "Color grading, DCTL development, Python automation and Resolve training",
+      "website": "https://kaurhendrikson.github.io/",
+      "evidence": "https://kaurhendrikson.github.io/"
+    },
+    {
+      "name": "Jamie Dickinson",
+      "channel": "https://vimeo.com/channels/420531",
+      "focus": "Colour grading, finishing, Fusion and professional Resolve training",
+      "website": "https://www.jamiedickinson.net/training",
+      "evidence": "https://www.jamiedickinson.net/"
+    },
+    {
+      "name": "Andrea Vassalini · AV Training",
+      "channel": "https://www.andrea.training/",
+      "focus": "Italian and English DaVinci Resolve, editing, color and post-production masterclasses",
+      "website": "https://www.andrea.training/",
+      "evidence": "https://icolorist.com/instructors/andrea-vassalini/"
+    },
+    {
+      "name": "iColorist · International Colorist Academy",
+      "channel": "https://icolorist.com/training-and-support/",
+      "focus": "Structured Resolve color, HDR, color science and professional grading education",
+      "website": "https://icolorist.com/training-and-support/",
+      "evidence": "https://icolorist.com/training-and-support/"
+    }
   ]
 }
