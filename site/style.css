@@ -108,6 +108,12 @@ nav a {
   color:var(--ink);
   text-decoration:none
 }
+nav a.submit-link {
+  color:var(--accent);
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:4px
+}
 nav a:last-child {
   border-inline-start:1px solid var(--line);
   padding-inline-start:30px
