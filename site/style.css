@@ -191,6 +191,12 @@ p {
   border-bottom-color:var(--accent);
   font-weight:650
 }
+.mode-help {
+  max-width: 70rem;
+  margin: .75rem 0 1.5rem;
+  color: var(--muted);
+  font-size: .95rem;
+}
 .workspace {
   display:grid;
   grid-template-columns:250px minmax(0,1fr);
