@@ -268,6 +268,11 @@ select {
   gap:24px;
   align-items:start
 }
+.resource > .source-link {
+  grid-column:3;
+  grid-row:1;
+  align-self:start;
+}
 .resource h3 a {
   text-decoration:none
 }
@@ -309,6 +314,10 @@ select {
   align-items:stretch;
   font-size:13px
 }
+.resource > .row-actions {
+  grid-column:3;
+  grid-row:2;
+}
 .source-link {
   margin: 12px 0 0;
   font-size: 13px;
@@ -318,6 +327,9 @@ select {
 }
 .row-actions button {
   padding:7px 10px
+}
+.row-actions .outline {
+  min-height:40px;
 }
 .mode-note {
   padding:15px;
@@ -550,14 +562,18 @@ dialog::backdrop {
   }
   .metadata {
     grid-column:1;
-    grid-row:2;
+    grid-row:3;
     flex-direction:row;
     flex-wrap:wrap;
     gap:5px 14px
   }
+  .resource > .source-link {
+    grid-column:1;
+    grid-row:2;
+  }
   .row-actions {
     grid-column:2;
-    grid-row:1 / span 2
+    grid-row:1 / span 3
   }
   h1 {
     font-size:35px
@@ -885,12 +901,16 @@ dialog[open] {
   }
   .metadata {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
     flex-direction: column;
+  }
+  .resource > .source-link {
+    grid-column: 1 / -1;
+    grid-row: 2;
   }
   .row-actions {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
   }
 }
 @media (max-width: 700px) {
