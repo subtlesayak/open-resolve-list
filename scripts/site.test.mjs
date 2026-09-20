@@ -93,7 +93,7 @@ test('two edition choices include unknowns, exclude Studio requirements from Fre
  const html=fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8');
  assert.doesNotMatch(html,/edition-help|edition-unknown-control|name="editionUnknown"/);
  const select=html.match(/<select name="edition"[\s\S]*?<\/select>/)[0];
- assert.equal((select.match(/<option/g)||[]).length,2);
+ assert.equal((select.match(/<option/g)||[]).length,3);
  assert.ok(!filterEntries(data.entries,state).some(e=>e.name==='NamiColor'));
  assert.ok(filterEntries(data.entries,{...state,edition:'Studio'}).some(e=>e.name==='NamiColor'));
  assert.equal(filterEntries([find('Map Engine')],{...state,resolve:'21'}).length,0);
