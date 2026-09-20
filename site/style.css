@@ -120,6 +120,23 @@ nav a.submit-link {
 .setup-yes { color:var(--success, #216e39); }
 .setup-maybe { color:var(--muted); }
 .setup-no { color:var(--accent); }
+.resource-tags {
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  margin:10px 0 0;
+}
+.resource-tag {
+  display:inline-flex;
+  align-items:center;
+  min-height:24px;
+  padding:3px 9px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.2;
+}
 .search-examples {
   margin:10px 0 0;
   color:var(--muted);
