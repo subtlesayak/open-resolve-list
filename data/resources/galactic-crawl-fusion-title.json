@@ -38,8 +38,8 @@
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
   "stars": 1,
-  "last_pushed_at": "2026-09-08T12:05:48Z",
-  "metadata_checked_at": "2026-09-15T11:10:28.438Z",
+  "last_pushed_at": "2026-09-18T18:27:34Z",
+  "metadata_checked_at": "2026-09-20T07:05:00Z",
   "requirements": {
     "editions": [],
     "resolve": [
@@ -60,10 +60,10 @@
     "name": "pacoestrada/galactic-crawl-fusion-title",
     "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title",
     "kind": "stable-release",
-    "version": "v0.1.0",
-    "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.1.0",
-    "date": "2026-09-08T12:05:48Z",
-    "checked_at": "2026-09-15T11:10:28.438Z"
+    "version": "v0.2.0",
+    "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.2.0",
+    "date": "2026-09-18T00:00:00Z",
+    "checked_at": "2026-09-20T07:05:00Z"
   },
   "evidence": [
     {
@@ -74,18 +74,18 @@
       "note": "Provider-listed platforms; see limitations and exact builds."
     },
     {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.1.0",
-      "checked_at": "2026-09-15T11:10:28.438Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
-    {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title#readme",
       "checked_at": "2026-09-15",
       "note": "Editable perspective text crawl with a star-field background, distributed as a Fusion title/DRFX package for Resolve 21 on Linux. Initial provider checks are limited; not every control, export format or platform has been validated."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.2.0",
+      "checked_at": "2026-09-20T07:05:00Z",
+      "note": "Recorded provider release evidence, not installation testing."
     }
   ],
   "unknownFields": [
@@ -94,7 +94,26 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "from": "v0.1.0",
+      "to": "v0.2.0",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-18",
+      "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.2.0",
+      "summary": "# Galactic Crawl v0.2.0  Nueva presentación de Paco Estrada para el título Fusion con texto en perspectiva y estrellas editables de DaVinci Resolve 21.  El texto genérico de aventura espacial se sustituye por una presentación breve de Paco: comunicación y producción sonora, divul",
+      "changes": [
+        "# Galactic Crawl v0.2.0  Nueva presentación de Paco Estrada para el título Fusion con texto en perspectiva y estrellas editables de DaVinci Resolve 21.  El texto genérico de aventura espacial se sustituye por una presentación breve de Paco: comunicación y producción sonora, divul"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title/blob/main/CHANGELOG.md"
+        }
+      ]
+    }
+  ],
   "legacy_id": "e2452a80e5c0",
   "search_sources": [
     "https://github.com/pacoestrada/galactic-crawl-fusion-title#readme",

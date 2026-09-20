@@ -39,9 +39,9 @@
   "platform_source": "https://github.com/mhadifilms/dvr#readme",
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
-  "stars": 14,
-  "last_pushed_at": "2026-09-08T08:46:10Z",
-  "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+  "stars": 15,
+  "last_pushed_at": "2026-09-19T22:44:22Z",
+  "metadata_checked_at": "2026-09-20T07:05:00Z",
   "requirements": {
     "editions": [
       "Studio"
@@ -63,10 +63,10 @@
     "name": "mhadifilms/dvr",
     "url": "https://github.com/mhadifilms/dvr",
     "kind": "stable-release",
-    "version": "v1.6.4",
-    "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.6.4",
-    "date": "2026-09-08T08:46:48Z",
-    "checked_at": "2026-09-15T11:10:26.592Z"
+    "version": "v1.7.0",
+    "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.7.0",
+    "date": "2026-09-19T00:00:00Z",
+    "checked_at": "2026-09-20T07:05:00Z"
   },
   "evidence": [
     {
@@ -77,18 +77,18 @@
       "note": "Provider-listed platforms; see limitations and exact builds."
     },
     {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.6.4",
-      "checked_at": "2026-09-15T11:10:26.592Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
-    {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/mhadifilms/dvr#readme",
       "checked_at": "2026-09-15",
       "note": "CLI, Python client and MCP interface for Resolve projects, timelines, media and grading operations, with structured JSON output. Requires Resolve Studio 18.5+ and Python 3.10+. Any connected AI assistant has separate processing and access terms."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.7.0",
+      "checked_at": "2026-09-20T07:05:00Z",
+      "note": "Recorded provider release evidence, not installation testing."
     }
   ],
   "unknownFields": [
@@ -97,7 +97,26 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "from": "v1.6.4",
+      "to": "v1.7.0",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.7.0",
+      "summary": "## What's Changed * v1.7.0: close native-MCP capability gaps, stop enum drift by @mhadifilms in https://github.com/mhadifilms/dvr/pull/6   Full Changelog: https://github.com/mhadifilms/dvr/compare/v1.6.4...v1.7.0",
+      "changes": [
+        "## What's Changed * v1.7.0: close native-MCP capability gaps, stop enum drift by @mhadifilms in https://github.com/mhadifilms/dvr/pull/6   Full Changelog: https://github.com/mhadifilms/dvr/compare/v1.6.4...v1.7.0"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/mhadifilms/dvr/blob/main/CHANGELOG.md"
+        }
+      ]
+    }
+  ],
   "legacy_id": "1d29242a1e14",
   "search_sources": [
     "https://github.com/mhadifilms/dvr#readme",

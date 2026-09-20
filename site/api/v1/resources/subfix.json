@@ -51,18 +51,18 @@
         "note": "Provider-listed platforms; see limitations and exact builds."
       },
       {
-        "field": "version",
-        "level": "documented",
-        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.1",
-        "checked_at": "2026-09-15T11:10:26.592Z",
-        "note": "Recorded version evidence, not installation testing."
-      },
-      {
         "field": "requirements",
         "level": "documented",
         "source": "https://github.com/HooperH/SubFix#readme",
         "checked_at": "2026-09-15",
         "note": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
+        "checked_at": "2026-09-20T07:05:00Z",
+        "note": "Recorded provider release evidence, not installation testing."
       }
     ],
     "unknownFields": [
@@ -77,16 +77,35 @@
       "name": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",
       "kind": "stable-release",
-      "version": "v3.3.1",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.1",
-      "date": "2026-09-11T05:47:59Z",
-      "checked_at": "2026-09-15T11:10:26.592Z"
+      "version": "v3.3.2",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
+      "date": "2026-09-16T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
-    "releaseDate": "2026-09-11T05:47:59Z",
-    "activityDate": "2026-09-11T05:43:14Z",
-    "stars": 26,
-    "metadataChecked": "2026-09-15T11:10:26.592Z",
-    "history": [],
+    "releaseDate": "2026-09-16T00:00:00Z",
+    "activityDate": "2026-09-10T10:26:46Z",
+    "stars": 29,
+    "metadataChecked": "2026-09-20T07:05:00Z",
+    "history": [
+      {
+        "from": "v3.3.1",
+        "to": "v3.3.2",
+        "release": "v1.24",
+        "catalogue_date": "2026-09-20",
+        "upstream_date": "2026-09-16",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
+        "summary": "# SubFix v3.3.2  - 完整窗口右下角显示当前版本号，状态信息不会覆盖版本标签。 - 修复旧版应用内更新时的“更新包包含未授权文件”：默认更新包兼容最早 v3.1.0 的固定文件清单，新更新器优先选择包含 FFmpeg 的完整更新包。 - 保留 v3.3.1 的本地 Qwen 内存保护、进程管理及其他现有功能。  安装更新后请完全退出并重新启动 DaVinci Resolve。  首次安装请下载 `SubFix-v3.3.2-Full-macOS.zip`（Apple Silicon，未签名安装包）；已有用户可点击“检查更新”。",
+        "changes": [
+          "# SubFix v3.3.2  - 完整窗口右下角显示当前版本号，状态信息不会覆盖版本标签。 - 修复旧版应用内更新时的“更新包包含未授权文件”：默认更新包兼容最早 v3.1.0 的固定文件清单，新更新器优先选择包含 FFmpeg 的完整更新包。 - 保留 v3.3.1 的本地 Qwen 内存保护、进程管理及其他现有功能。  安装更新后请完全退出并重新启动 DaVinci Resolve。  首次安装请下载 `SubFix-v3.3.2-Full-macOS.zip`（Apple Silicon，未签名安装包）；已有用户可点击“检查更新”。"
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/HooperH/SubFix/blob/main/CHANGELOG.md"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.24",

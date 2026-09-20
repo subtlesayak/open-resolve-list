@@ -51,9 +51,9 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.2.0",
-        "checked_at": "2026-09-15T05:06:04.860Z",
-        "note": "Recorded version evidence, not installation testing."
+        "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
+        "checked_at": "2026-09-20T07:05:00Z",
+        "note": "Recorded provider release evidence, not installation testing."
       }
     ],
     "unknownFields": [
@@ -69,16 +69,35 @@
       "name": "WheheoHu/pybmd",
       "url": "https://github.com/WheheoHu/pybmd",
       "kind": "stable-release",
-      "version": "v2026.2.0",
-      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.2.0",
-      "date": "2026-07-10T06:34:58Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v2026.3.0",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
+      "date": "2026-09-18T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
-    "releaseDate": "2026-07-10T06:34:58Z",
-    "activityDate": "2026-07-10T06:54:16Z",
-    "stars": 34,
-    "metadataChecked": "2026-09-15T05:06:04.860Z",
-    "history": [],
+    "releaseDate": "2026-09-18T00:00:00Z",
+    "activityDate": "2026-09-18T09:47:40Z",
+    "stars": 35,
+    "metadataChecked": "2026-09-20T07:05:00Z",
+    "history": [
+      {
+        "from": "v2026.2.0",
+        "to": "v2026.3.0",
+        "release": "v1.24",
+        "catalogue_date": "2026-09-20",
+        "upstream_date": "2026-09-18",
+        "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
+        "summary": "## API ### Changes for DaVinci Resolve 21.0.3 / 21.0.4 / 21.1.0  ### Resolve - Add `get_layout_preset_list()` - Returns the list of UI layout presets (DR 21.0.3) - Add `get_burn_in_preset_list()` - Returns the list of data burn-in presets (DR 21.0.3) - Add `delete_burn_in_preset(",
+        "changes": [
+          "## API ### Changes for DaVinci Resolve 21.0.3 / 21.0.4 / 21.1.0  ### Resolve - Add `get_layout_preset_list()` - Returns the list of UI layout presets (DR 21.0.3) - Add `get_burn_in_preset_list()` - Returns the list of data burn-in presets (DR 21.0.3) - Add `delete_burn_in_preset("
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/WheheoHu/pybmd/blob/master/CHANGELOG.md"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.24",

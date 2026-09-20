@@ -35,8 +35,8 @@
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
   "stars": 0,
-  "last_pushed_at": "2026-07-22T13:29:06Z",
-  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "last_pushed_at": "2026-09-18T08:27:17Z",
+  "metadata_checked_at": "2026-09-20T07:05:00Z",
   "requirements": {
     "editions": [
       "Studio"
@@ -54,10 +54,10 @@
     "name": "vkastrup/sub-translator",
     "url": "https://github.com/vkastrup/sub-translator",
     "kind": "commit",
-    "version": "130e3850b01a7840d739b60e10e5add7c2323dda",
-    "source": "https://github.com/vkastrup/sub-translator/commit/130e3850b01a7840d739b60e10e5add7c2323dda",
-    "date": "2026-07-22T13:25:09Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "4168d474f34ec20b427f476ad39845c1669549a7",
+    "source": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7",
+    "date": "2026-09-18T00:00:00Z",
+    "checked_at": "2026-09-20T07:05:00Z"
   },
   "evidence": [
     {
@@ -73,6 +73,13 @@
       "source": "https://github.com/vkastrup/sub-translator",
       "checked_at": "2026-09-08",
       "note": "Resolve integration requires Studio. CLI output can be imported separately. Cloud providers need their own accounts/keys; local Ollama is separate."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7",
+      "checked_at": "2026-09-20T07:05:00Z",
+      "note": "Recorded source revision, not a published software release."
     }
   ],
   "unknownFields": [
@@ -82,7 +89,26 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "from": "130e3850b01a7840d739b60e10e5add7c2323dda",
+      "to": "4168d474f34ec20b427f476ad39845c1669549a7",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-18",
+      "source": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7",
+      "summary": "Windows support: PowerShell installer and cross-platform plugin",
+      "changes": [
+        "Windows support: PowerShell installer and cross-platform plugin"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7"
+        }
+      ]
+    }
+  ],
   "legacy_id": "e9c5eb4e21a2",
   "search_sources": [
     "https://github.com/vkastrup/sub-translator"

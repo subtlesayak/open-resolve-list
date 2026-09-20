@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/TeddieWang/BarkTed#readme",
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
-  "stars": 2,
-  "last_pushed_at": "2026-09-12T07:16:09Z",
-  "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+  "stars": 3,
+  "last_pushed_at": "2026-09-19T17:20:19Z",
+  "metadata_checked_at": "2026-09-20T07:05:00Z",
   "requirements": {
     "editions": [
       "Studio"
@@ -63,10 +63,10 @@
     "name": "TeddieWang/BarkTed",
     "url": "https://github.com/TeddieWang/BarkTed",
     "kind": "stable-release",
-    "version": "v1.0.0",
-    "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.0.0",
-    "date": "2026-09-12T07:16:10Z",
-    "checked_at": "2026-09-15T11:10:26.592Z"
+    "version": "v1.1.0",
+    "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.1.0",
+    "date": "2026-09-19T00:00:00Z",
+    "checked_at": "2026-09-20T07:05:00Z"
   },
   "evidence": [
     {
@@ -77,24 +77,43 @@
       "note": "Provider-listed platforms; see limitations and exact builds."
     },
     {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.0.0",
-      "checked_at": "2026-09-15T11:10:26.592Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
-    {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/TeddieWang/BarkTed#readme",
       "checked_at": "2026-09-15",
       "note": "Local Whisper transcription and subtitle translation for Apple Silicon Macs running Resolve Studio 21+. Installer bundles the runtime and transcription model. Optional TranslateGemma translation runs locally; API translation sends subtitle text to the chosen provider and may incur charges. Intel Macs, Windows and Linux are not supported by this installer."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.1.0",
+      "checked_at": "2026-09-20T07:05:00Z",
+      "note": "Recorded provider release evidence, not installation testing."
     }
   ],
   "unknownFields": [],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "from": "v1.0.0",
+      "to": "v1.1.0",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.1.0",
+      "summary": "# BarkTed 1.1 | Subtitles for DaVinci Resolve Studio  Free GitHub edition for Apple Silicon Macs. Requires paid DaVinci Resolve Studio 21 or later; Studio 21.0.4 or newer is recommended. The free edition of Resolve is not supported.  ## Download  Choose BarkTed-1.1-Apple-Silicon-",
+      "changes": [
+        "# BarkTed 1.1 | Subtitles for DaVinci Resolve Studio  Free GitHub edition for Apple Silicon Macs. Requires paid DaVinci Resolve Studio 21 or later; Studio 21.0.4 or newer is recommended. The free edition of Resolve is not supported.  ## Download  Choose BarkTed-1.1-Apple-Silicon-"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/TeddieWang/BarkTed/blob/main/CHANGELOG.md"
+        }
+      ]
+    }
+  ],
   "legacy_id": "3491934d243a",
   "search_sources": [
     "https://github.com/TeddieWang/BarkTed#readme",

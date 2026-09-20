@@ -49,18 +49,18 @@
         "note": "Provider-listed platforms; see limitations and exact builds."
       },
       {
-        "field": "version",
-        "level": "documented",
-        "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.8.0",
-        "checked_at": "2026-09-15T05:06:04.860Z",
-        "note": "Recorded version evidence, not installation testing."
-      },
-      {
         "field": "requirements",
         "level": "documented",
         "source": "https://github.com/tmoroney/auto-subs",
         "checked_at": "2026-09-06",
         "note": "Local transcription is documented; Resolve edition and host-version requirements are not inferred."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
+        "checked_at": "2026-09-20T07:05:00Z",
+        "note": "Recorded provider release evidence, not installation testing."
       }
     ],
     "unknownFields": [
@@ -75,16 +75,35 @@
       "name": "tmoroney/auto-subs",
       "url": "https://github.com/tmoroney/auto-subs",
       "kind": "stable-release",
-      "version": "v3.8.0",
-      "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.8.0",
-      "date": "2026-07-21T18:41:14Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v3.10.1",
+      "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
+      "date": "2026-09-19T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
-    "releaseDate": "2026-07-21T18:41:14Z",
-    "activityDate": "2026-09-12T16:39:00Z",
-    "stars": 4207,
-    "metadataChecked": "2026-09-15T05:06:04.860Z",
-    "history": [],
+    "releaseDate": "2026-09-19T00:00:00Z",
+    "activityDate": "2026-09-19T16:13:44Z",
+    "stars": 4249,
+    "metadataChecked": "2026-09-20T07:05:00Z",
+    "history": [
+      {
+        "from": "v3.8.0",
+        "to": "v3.10.1",
+        "release": "v1.24",
+        "catalogue_date": "2026-09-20",
+        "upstream_date": "2026-09-19",
+        "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
+        "summary": "Resolve users: this fixes a serious 3.10.0 bug where AutoSubs froze the Fusion page and messed with other scripts. The automatic start logic that caused this is gone.  To connect, run Workspace → Scripts → AutoSubs once per session, like before 3.10.0. Note the script can no long",
+        "changes": [
+          "Resolve users: this fixes a serious 3.10.0 bug where AutoSubs froze the Fusion page and messed with other scripts. The automatic start logic that caused this is gone.  To connect, run Workspace → Scripts → AutoSubs once per session, like before 3.10.0. Note the script can no long"
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.24",

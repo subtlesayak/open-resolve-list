@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/shumaiOne/shumai#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 199,
-  "last_pushed_at": "2026-09-15T04:01:44Z",
-  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "stars": 209,
+  "last_pushed_at": "2026-09-20T03:46:13Z",
+  "metadata_checked_at": "2026-09-20T07:05:00Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,25 +55,25 @@
     "name": "shumaiOne/shumai",
     "url": "https://github.com/shumaiOne/shumai",
     "kind": "stable-release",
-    "version": "v0.4.5",
-    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5",
-    "date": "2026-09-13T13:54:21Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "v0.4.7",
+    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
+    "date": "2026-09-19T00:00:00Z",
+    "checked_at": "2026-09-20T07:05:00Z"
   },
   "evidence": [
-    {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5",
-      "checked_at": "2026-09-15T05:06:04.860Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
     {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/shumaiOne/shumai",
       "checked_at": "2026-09-08",
       "note": "Docker Compose or npm deployment; PostgreSQL with pgvector required for npm setup. Optional AI services have separate requirements."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
+      "checked_at": "2026-09-20T07:05:00Z",
+      "note": "Recorded provider release evidence, not installation testing."
     }
   ],
   "unknownFields": [
@@ -104,6 +104,24 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5"
+        }
+      ]
+    },
+    {
+      "from": "v0.4.5",
+      "to": "v0.4.7",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
+      "summary": "### Added  - changelog: Introduce Keep a Changelog support, historical release summaries, and automated release notes extraction - release: Automatically populate GitHub release bodies from CHANGELOG.md and promote unreleased notes during version bumps - settings: Add FFmpeg thre",
+      "changes": [
+        "### Added  - changelog: Introduce Keep a Changelog support, historical release summaries, and automated release notes extraction - release: Automatically populate GitHub release bodies from CHANGELOG.md and promote unreleased notes during version bumps - settings: Add FFmpeg thre"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/blob/main/CHANGELOG.md"
         }
       ]
     }

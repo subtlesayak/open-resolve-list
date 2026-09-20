@@ -943,18 +943,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.8.0",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/tmoroney/auto-subs",
           "checked_at": "2026-09-06",
           "note": "Local transcription is documented; Resolve edition and host-version requirements are not inferred."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -1415,18 +1415,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.0.0",
-          "checked_at": "2026-09-15T11:10:26.592Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/TeddieWang/BarkTed#readme",
           "checked_at": "2026-09-15",
           "note": "Local Whisper transcription and subtitle translation for Apple Silicon Macs running Resolve Studio 21+. Installer bundles the runtime and transcription model. Optional TranslateGemma translation runs locally; API translation sends subtitle text to the chosen provider and may incur charges. Intel Macs, Windows and Linux are not supported by this installer."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.1.0",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -4232,9 +4232,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.5.2",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -6390,18 +6390,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.6.4",
-          "checked_at": "2026-09-15T11:10:26.592Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/mhadifilms/dvr#readme",
           "checked_at": "2026-09-15",
           "note": "CLI, Python client and MCP interface for Resolve projects, timelines, media and grading operations, with structured JSON output. Requires Resolve Studio 18.5+ and Python 3.10+. Any connected AI assistant has separate processing and access terms."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.7.0",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -7786,18 +7786,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.1",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/DhaliwalX/fotufilm-engine",
           "checked_at": "2026-09-08",
           "note": "Mac app requires Apple Silicon and macOS 14+; plugin guide also documents universal builds. Exact Resolve edition/version is not established."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -8755,18 +8755,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.1.0",
-          "checked_at": "2026-09-15T11:10:28.438Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title#readme",
           "checked_at": "2026-09-15",
           "note": "Editable perspective text crawl with a star-field background, distributed as a Fusion title/DRFX package for Resolve 21 on Linux. Initial provider checks are limited; not every control, export format or platform has been validated."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.2.0",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -9395,18 +9395,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.7",
-          "checked_at": "2026-09-15T11:10:30.401Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/KeibiSoft/KeibiDrop#readme",
           "checked_at": "2026-09-15",
           "note": "Mounts remote shared media folders for on-demand editing, with a documented Resolve/NAS workflow. Supports desktop systems plus a separate Android app. Direct peer connections can fall back to a relay; network quality affects editing. Engine is MPL-2.0, while UI/mobile components have separate terms. Paid relay data packs are optional."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -12243,9 +12243,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.2.0",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
+          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -13173,18 +13173,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.5",
-          "checked_at": "2026-09-15T11:10:28.438Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/stoatworks-labs/resolve-configurator#readme",
           "checked_at": "2026-09-15",
           "note": "Builds project bins and empty timeline scaffolds from session CSV files, with background media and smart-bin recipes. Uses Resolve Studio external scripting. Provides desktop packages plus a Python 3.11+ source installation; Intel Mac users follow the Python installation path."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.6",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -13674,6 +13674,13 @@
           "source": "https://github.com/postflows/resolve-markers-to-render-queue#readme",
           "checked_at": "2026-09-06",
           "note": "Structured from the existing source-backed catalogue description; no new installation test: Queue renders from single or duration markers, with naming presets and per-render folders. Requires Studio and a configured render preset."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded source revision, not a published software release."
         }
       ]
     },
@@ -14845,18 +14852,18 @@
       "accessGroup": "free",
       "evidence": [
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/shumaiOne/shumai",
           "checked_at": "2026-09-08",
           "note": "Docker Compose or npm deployment; PostgreSQL with pgvector required for npm setup. Optional AI services have separate requirements."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },
@@ -15477,6 +15484,13 @@
           "source": "https://github.com/vkastrup/sub-translator",
           "checked_at": "2026-09-08",
           "note": "Resolve integration requires Studio. CLI output can be imported separately. Cloud providers need their own accounts/keys; local Ollama is separate."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded source revision, not a published software release."
         }
       ]
     },
@@ -15511,18 +15525,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.1",
-          "checked_at": "2026-09-15T11:10:26.592Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/HooperH/SubFix#readme",
           "checked_at": "2026-09-15",
           "note": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
+          "checked_at": "2026-09-20T07:05:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },

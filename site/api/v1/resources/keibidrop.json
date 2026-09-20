@@ -51,18 +51,18 @@
         "note": "Provider-listed platforms; see limitations and exact builds."
       },
       {
-        "field": "version",
-        "level": "documented",
-        "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.7",
-        "checked_at": "2026-09-15T11:10:30.401Z",
-        "note": "Recorded version evidence, not installation testing."
-      },
-      {
         "field": "requirements",
         "level": "documented",
         "source": "https://github.com/KeibiSoft/KeibiDrop#readme",
         "checked_at": "2026-09-15",
         "note": "Mounts remote shared media folders for on-demand editing, with a documented Resolve/NAS workflow. Supports desktop systems plus a separate Android app. Direct peer connections can fall back to a relay; network quality affects editing. Engine is MPL-2.0, while UI/mobile components have separate terms. Paid relay data packs are optional."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
+        "checked_at": "2026-09-20T07:05:00Z",
+        "note": "Recorded provider release evidence, not installation testing."
       }
     ],
     "unknownFields": [
@@ -77,16 +77,35 @@
       "name": "KeibiSoft/KeibiDrop",
       "url": "https://github.com/KeibiSoft/KeibiDrop",
       "kind": "stable-release",
-      "version": "v0.4.7",
-      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.7",
-      "date": "2026-09-10T10:25:59Z",
-      "checked_at": "2026-09-15T11:10:30.401Z"
+      "version": "v0.4.8",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
+      "date": "2026-09-15T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
-    "releaseDate": "2026-09-10T10:25:59Z",
-    "activityDate": "2026-09-14T13:55:22Z",
-    "stars": 59,
-    "metadataChecked": "2026-09-15T11:10:30.401Z",
-    "history": [],
+    "releaseDate": "2026-09-15T00:00:00Z",
+    "activityDate": "2026-09-15T20:28:19Z",
+    "stars": 60,
+    "metadataChecked": "2026-09-20T07:05:00Z",
+    "history": [
+      {
+        "from": "v0.4.7",
+        "to": "v0.4.8",
+        "release": "v1.24",
+        "catalogue_date": "2026-09-20",
+        "upstream_date": "2026-09-15",
+        "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
+        "summary": "Two computers on the same network connect to each other again.  A session no longer dies a few seconds after it connects.  A lost heartbeat reconnects instead of ending the session.  Each one broke a connection that should have worked, so update.  Send one link instead of a code.",
+        "changes": [
+          "Two computers on the same network connect to each other again.  A session no longer dies a few seconds after it connects.  A lost heartbeat reconnects instead of ending the session.  Each one broke a connection that should have worked, so update.  Send one link instead of a code."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.24",

@@ -21,6 +21,20 @@ This release records catalogue and presentation changes. Listed third-party tool
 
 Thirteen provider updates were recorded from original release or source revision pages: AutoSubs 3.10.1, BarkTed 1.1.0, DaVinci Resolve MCP 4.8.13, dvr 1.7.0, FotuFilm Engine 1.8.2, Galactic Crawl 0.2.0, KeibiDrop 0.4.8, pybmd 2026.3.0, Resolve Configurator 0.1.6, Resolve Markers to Render Queue, Shumai 0.4.7, sub-translator, and SubFix 3.3.2. Each resource page links its provider release or changelog. Commit revisions are labelled as revisions, not software releases.
 
+- **AutoSubs**: v3.8.0 → v3.10.1. [Source changelog](https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1).
+- **BarkTed**: v1.0.0 → v1.1.0. [Source changelog](https://github.com/TeddieWang/BarkTed/releases/tag/v1.1.0).
+- **DaVinci Resolve MCP**: v4.5.2 → v4.8.13. [Source changelog](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13).
+- **dvr**: v1.6.4 → v1.7.0. [Source changelog](https://github.com/mhadifilms/dvr/releases/tag/v1.7.0).
+- **FotuFilm Engine**: v1.8.1 → v1.8.2. [Source changelog](https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2).
+- **Galactic Crawl Fusion Title**: v0.1.0 → v0.2.0. [Source changelog](https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.2.0).
+- **KeibiDrop**: v0.4.7 → v0.4.8. [Source changelog](https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8).
+- **pybmd**: v2026.2.0 → v2026.3.0. [Source changelog](https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0).
+- **Resolve Configurator**: v0.1.5 → v0.1.6. [Source changelog](https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.6).
+- **Resolve Markers to Render Queue**: 331dc5776df572f5b59dd8bbf743d0792b169a44 → e8be7924b74755a0cfd64e28519f30461d0ea751. This is a source revision, not a published release. [Source changelog](https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751).
+- **Shumai**: v0.4.5 → v0.4.7. [Source changelog](https://github.com/shumaiOne/shumai/releases/tag/v0.4.7).
+- **sub-translator**: 130e3850b01a7840d739b60e10e5add7c2323dda → 4168d474f34ec20b427f476ad39845c1669549a7. This is a source revision, not a published release. [Source changelog](https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7).
+- **SubFix**: v3.3.1 → v3.3.2. [Source changelog](https://github.com/HooperH/SubFix/releases/tag/v3.3.2).
+
 ## [v1.22](https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22) — 2026-09-15
 
 ### Updated tools

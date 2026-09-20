@@ -60,6 +60,13 @@
         "source": "https://github.com/postflows/resolve-markers-to-render-queue#readme",
         "checked_at": "2026-09-06",
         "note": "Structured from the existing source-backed catalogue description; no new installation test: Queue renders from single or duration markers, with naming presets and per-render folders. Requires Studio and a configured render preset."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
+        "checked_at": "2026-09-20T07:05:00Z",
+        "note": "Recorded source revision, not a published software release."
       }
     ],
     "unknownFields": [
@@ -74,16 +81,35 @@
       "name": "postflows/resolve-markers-to-render-queue",
       "url": "https://github.com/postflows/resolve-markers-to-render-queue",
       "kind": "commit",
-      "version": "331dc5776df572f5b59dd8bbf743d0792b169a44",
-      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/331dc5776df572f5b59dd8bbf743d0792b169a44",
-      "date": "2026-03-12T13:53:13Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "date": "2026-09-18T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     "releaseDate": null,
-    "activityDate": "2026-03-12T13:53:13Z",
+    "activityDate": "2026-09-18T08:25:50Z",
     "stars": 1,
-    "metadataChecked": "2026-09-15T05:06:04.860Z",
-    "history": [],
+    "metadataChecked": "2026-09-20T07:05:00Z",
+    "history": [
+      {
+        "from": "331dc5776df572f5b59dd8bbf743d0792b169a44",
+        "to": "e8be7924b74755a0cfd64e28519f30461d0ea751",
+        "release": "v1.24",
+        "catalogue_date": "2026-09-20",
+        "upstream_date": "2026-09-18",
+        "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
+        "summary": "Update README with new features and usage instructions",
+        "changes": [
+          "Update README with new features and usage instructions"
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.24",

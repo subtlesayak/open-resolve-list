@@ -240,10 +240,10 @@
       "name": "tmoroney/auto-subs",
       "url": "https://github.com/tmoroney/auto-subs",
       "kind": "stable-release",
-      "version": "v3.8.0",
-      "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.8.0",
-      "date": "2026-07-21T18:41:14Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v3.10.1",
+      "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
+      "date": "2026-09-19T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "AutoCut",
@@ -349,10 +349,10 @@
       "name": "TeddieWang/BarkTed",
       "url": "https://github.com/TeddieWang/BarkTed",
       "kind": "stable-release",
-      "version": "v1.0.0",
-      "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.0.0",
-      "date": "2026-09-12T07:16:10Z",
-      "checked_at": "2026-09-15T11:10:26.592Z"
+      "version": "v1.1.0",
+      "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.1.0",
+      "date": "2026-09-19T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "Basic Node Tree",
@@ -1153,10 +1153,10 @@
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.5.2",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.5.2",
-      "date": "2026-09-14T20:58:48Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v4.8.13",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
+      "date": "2026-09-19T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "DaVinci Resolve Micro Color Panel Manual",
@@ -1768,10 +1768,10 @@
       "name": "mhadifilms/dvr",
       "url": "https://github.com/mhadifilms/dvr",
       "kind": "stable-release",
-      "version": "v1.6.4",
-      "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.6.4",
-      "date": "2026-09-08T08:46:48Z",
-      "checked_at": "2026-09-15T11:10:26.592Z"
+      "version": "v1.7.0",
+      "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.7.0",
+      "date": "2026-09-19T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "thatcherfreeman/dwg-transforms",
@@ -2176,10 +2176,10 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.8.1",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.1",
-      "date": "2026-09-11T23:22:56Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v1.8.2",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
+      "date": "2026-09-19T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "framechart",
@@ -2446,10 +2446,10 @@
       "name": "pacoestrada/galactic-crawl-fusion-title",
       "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title",
       "kind": "stable-release",
-      "version": "v0.1.0",
-      "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.1.0",
-      "date": "2026-09-08T12:05:48Z",
-      "checked_at": "2026-09-15T11:10:28.438Z"
+      "version": "v0.2.0",
+      "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.2.0",
+      "date": "2026-09-18T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "jedypod/gamut-compress",
@@ -2625,10 +2625,10 @@
       "name": "KeibiSoft/KeibiDrop",
       "url": "https://github.com/KeibiSoft/KeibiDrop",
       "kind": "stable-release",
-      "version": "v0.4.7",
-      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.7",
-      "date": "2026-09-10T10:25:59Z",
-      "checked_at": "2026-09-15T11:10:30.401Z"
+      "version": "v0.4.8",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
+      "date": "2026-09-15T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "KeyCut",
@@ -3418,10 +3418,10 @@
       "name": "WheheoHu/pybmd",
       "url": "https://github.com/WheheoHu/pybmd",
       "kind": "stable-release",
-      "version": "v2026.2.0",
-      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.2.0",
-      "date": "2026-07-10T06:34:58Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v2026.3.0",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
+      "date": "2026-09-18T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "pedrolabonia/pydavinci",
@@ -3682,10 +3682,10 @@
       "name": "stoatworks-labs/resolve-configurator",
       "url": "https://github.com/stoatworks-labs/resolve-configurator",
       "kind": "stable-release",
-      "version": "v0.1.5",
-      "source": "https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.5",
-      "date": "2026-09-04T22:48:51Z",
-      "checked_at": "2026-09-15T11:10:28.438Z"
+      "version": "v0.1.6",
+      "source": "https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.6",
+      "date": "2026-09-17T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "Pinionist/Resolve-Conform-tools",
@@ -3805,10 +3805,10 @@
       "name": "postflows/resolve-markers-to-render-queue",
       "url": "https://github.com/postflows/resolve-markers-to-render-queue",
       "kind": "commit",
-      "version": "331dc5776df572f5b59dd8bbf743d0792b169a44",
-      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/331dc5776df572f5b59dd8bbf743d0792b169a44",
-      "date": "2026-03-12T13:53:13Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "date": "2026-09-18T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "postflows/resolve-media-organizer",
@@ -4085,10 +4085,10 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.4.5",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5",
-      "date": "2026-09-13T13:54:21Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v0.4.7",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
+      "date": "2026-09-19T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "Shutter Encoder",
@@ -4265,19 +4265,19 @@
       "name": "vkastrup/sub-translator",
       "url": "https://github.com/vkastrup/sub-translator",
       "kind": "commit",
-      "version": "130e3850b01a7840d739b60e10e5add7c2323dda",
-      "source": "https://github.com/vkastrup/sub-translator/commit/130e3850b01a7840d739b60e10e5add7c2323dda",
-      "date": "2026-07-22T13:25:09Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "4168d474f34ec20b427f476ad39845c1669549a7",
+      "source": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7",
+      "date": "2026-09-18T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",
       "kind": "stable-release",
-      "version": "v3.3.1",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.1",
-      "date": "2026-09-11T05:47:59Z",
-      "checked_at": "2026-09-15T11:10:26.592Z"
+      "version": "v3.3.2",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
+      "date": "2026-09-16T00:00:00Z",
+      "checked_at": "2026-09-20T07:05:00Z"
     },
     {
       "name": "BambooYC123/SubtitleYC",
