@@ -114,6 +114,12 @@ nav a.submit-link {
   text-decoration:underline;
   text-underline-offset:4px
 }
+.setup-status {
+  font-weight:650;
+}
+.setup-yes { color:var(--success, #216e39); }
+.setup-maybe { color:var(--muted); }
+.setup-no { color:var(--accent); }
 nav a:last-child {
   border-inline-start:1px solid var(--line);
   padding-inline-start:30px
