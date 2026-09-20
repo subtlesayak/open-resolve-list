@@ -2,7 +2,7 @@ import {createDetailLoader} from './detail-loader.mjs?v=1';
 const loadDetail=createDetailLoader();
 let detailRequest=0;
 if(['#updates','#about'].includes(location.hash))location.replace(location.hash.slice(1)+'.html');
-import {DEFAULTS,UNFILTERED,TASKS,FORMAT_LABELS,collectResolveVersions,LEVELS,MAX_COMPARE,evidenceCoverage,filterEntries,sortEntries,relativeDate,versionText,stateFromUrl,stateToUrl,comparisonFromUrl,comparisonToUrl,comparisonCompatible,relatedResources,facetCounts,adaptTaskSelection,recoveryOptions} from './model.mjs?v=14';
+import {DEFAULTS,UNFILTERED,TASKS,FORMAT_LABELS,collectResolveVersions,LEVELS,MAX_COMPARE,evidenceCoverage,filterEntries,sortEntries,relativeDate,versionText,stateFromUrl,stateToUrl,comparisonFromUrl,comparisonToUrl,comparisonCompatible,relatedResources,facetCounts,adaptTaskSelection,recoveryOptions} from './model.mjs?v=15';
 const $=s=>document.querySelector(s), make=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const link=(text,url)=>{if(url==='https://www.blackmagicdesign.com/api/support/us/downloads.json'){url='https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion';if(text==='Upstream source')text='Official downloads & release notes';}const a=make('a',text);try{if(new URL(url,location.href).protocol==='https:')a.href=url;}catch{}return a;};
 let data,state={...DEFAULTS},comparison=[],limit=30,lastFocus=null,lastCompareFocus=null;
