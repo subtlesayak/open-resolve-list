@@ -120,6 +120,28 @@ nav a.submit-link {
 .setup-yes { color:var(--success, #216e39); }
 .setup-maybe { color:var(--muted); }
 .setup-no { color:var(--accent); }
+.search-examples {
+  margin:10px 0 0;
+  color:var(--muted);
+  font-size:14px;
+}
+.search-examples button {
+  appearance:none;
+  border:0;
+  padding:0;
+  background:none;
+  color:var(--accent);
+  font:inherit;
+  text-decoration:underline;
+  text-underline-offset:3px;
+  cursor:pointer;
+}
+.site-stats {
+  margin:18px 0 0;
+  color:var(--muted);
+  font-size:14px;
+  letter-spacing:.01em;
+}
 nav a:last-child {
   border-inline-start:1px solid var(--line);
   padding-inline-start:30px
