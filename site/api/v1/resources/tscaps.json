@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",

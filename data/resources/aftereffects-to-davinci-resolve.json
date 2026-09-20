@@ -81,5 +81,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "4b57c25047de"
+  "legacy_id": "4b57c25047de",
+  "search_sources": [
+    "https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

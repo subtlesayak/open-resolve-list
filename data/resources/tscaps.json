@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "222ea3354263"
+  "legacy_id": "222ea3354263",
+  "search_sources": [
+    "https://github.com/francozanardi/tscaps"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

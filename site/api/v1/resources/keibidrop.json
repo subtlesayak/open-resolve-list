@@ -72,6 +72,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "KeibiSoft/KeibiDrop",
       "url": "https://github.com/KeibiSoft/KeibiDrop",

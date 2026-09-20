@@ -19,5 +19,6 @@ const entries=repos.map(e=>{
  return githubVersion(e.repository,e.url,item);
 });
 entries.push(...externalVersions(external,audit,community,read('data/version-overrides.json')));
-fs.writeFileSync(path.join(root,'data/versions.json'),JSON.stringify({schema_version:1,entries},null,2)+'\n');
-console.log(`Recorded ${entries.length} version states.`);
+fs.mkdirSync(path.join(root,'.research/update-check'),{recursive:true});
+fs.writeFileSync(path.join(root,'.research/update-check/version-candidates.json'),JSON.stringify({schema_version:1,entries},null,2)+'\n');
+console.log(`Prepared ${entries.length} version candidates for canonical-record review; no public records changed.`);

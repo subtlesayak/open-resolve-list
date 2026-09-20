@@ -91,5 +91,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "0b1dfb49f0ca"
+  "legacy_id": "0b1dfb49f0ca",
+  "search_sources": [
+    "https://lumicosmos.gumroad.com/l/lumifx"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

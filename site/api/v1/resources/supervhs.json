@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Effects and animation",
-    "kind": "other",
+    "kind": "fuse",
     "tasks": [
       "fusion"
     ],
@@ -57,6 +57,13 @@
         "source": "https://akascape.gumroad.com/l/supervhs",
         "checked_at": "2026-09-06T12:10:30.090Z",
         "note": "Structured from the existing source-backed catalogue description; no new installation test: VHS-style bloom, distortion, and color damage inside Fusion. Resolve 17+ Free or Studio. Previously unresolved wiki lead, now supported by its indexed creator listing."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://akascape.gumroad.com/l/supervhs",
+        "checked_at": "2026-09-16T15:58:29.413Z",
+        "note": "Creator product listing explicitly identifies the delivered Fuse."
       }
     ],
     "unknownFields": [
@@ -66,6 +73,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "SuperVHS",
       "url": "https://akascape.gumroad.com/l/supervhs",

@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "jdanna/Resolve_Tools_Public",
       "url": "https://github.com/jdanna/Resolve_Tools_Public",

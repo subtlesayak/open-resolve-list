@@ -42,7 +42,7 @@
     }
     const control = document.querySelector('#theme');
     apply();
-    control.addEventListener('click', () => {
+    control?.addEventListener('click', () => {
       choice = choices[(choices.indexOf(choice) + 1) % choices.length];
       apply();
       try { localStorage.setItem(key, choice); } catch {}

@@ -72,6 +72,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
       "url": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",

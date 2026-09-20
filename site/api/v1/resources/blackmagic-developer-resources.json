@@ -44,6 +44,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Blackmagic developer resources",
       "url": "https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview",

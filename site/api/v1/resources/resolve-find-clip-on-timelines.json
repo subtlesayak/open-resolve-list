@@ -73,6 +73,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "postflows/resolve-find-clip-on-timelines",
       "url": "https://github.com/postflows/resolve-find-clip-on-timelines",

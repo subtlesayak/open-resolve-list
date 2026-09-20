@@ -1,5 +1,11 @@
 export const TASKS = { captions:'Captions & dialogue', color:'Color & film looks', fusion:'Fusion & animation', workflow:'Workflow & automation', media:'Media & delivery', audio:'Audio', development:'Development', learning:'Learning & references', hardware:'Hardware', linux:'Linux setup' };
 export const LEVELS = { documented:'Source documented', creator:'Creator confirmed', tested:'Community tested', unknown:'Not established' };
+export const FORMAT_LABELS={dctl:'DCTL',ofx:'OFX plugin',powergrade:'PowerGrade',fuse:'Fuse','fusion-macro':'Fusion macro','reactor-package':'Reactor package',lut:'LUT','resolve-script':'Resolve script','mcp-server':'MCP server','workflow-app':'Workflow app','subtitle-tool':'Subtitle tool',template:'Template',encoder:'Encoder','control-surface':'Control surface','audio-plugin':'Audio plugin',library:'Developer library',training:'Training',reference:'Reference',collection:'Collection',other:'Other / format unconfirmed'};
+export function collectResolveVersions(entries){
+ const values=new Set();
+ for(const e of entries)for(const range of e.requirements.resolve)for(const value of [range.min,range.max])if(value){values.add(value);values.add(value.split('.')[0]);}
+ return [...values].sort((a,b)=>compareVersions(b,a));
+}
 export const EVIDENCE_FIELDS = [
  {key:'platforms',label:'Platforms',known:e=>e.platforms.length>0},
  {key:'resolve',label:'Resolve version',known:e=>e.requirements.resolve.length>0},
@@ -10,10 +16,16 @@ export const EVIDENCE_FIELDS = [
  {key:'installation',label:'Installation',known:e=>Boolean(e.requirements.installation)},
 ];
 export function evidenceCoverage(entry) {
- const fields=EVIDENCE_FIELDS.map(field=>({key:field.key,label:field.label,known:field.known(entry),evidence:entry.evidence.filter(item=>item.field===field.key||item.field===field.label.toLowerCase())}));
+ if(entry.coverage)return entry.coverage;
+ const fields=EVIDENCE_FIELDS.map(field=>({key:field.key,label:field.label,known:field.known(entry),evidence:entry.evidence.filter(item=>{
+  const label=String(item.field).toLowerCase();
+  return label===field.key||label===field.label.toLowerCase()||(field.key==='version'&&label==='repository revision')||(['resolve','editions'].includes(field.key)&&label==='resolve edition and version range');
+ })}));
  return {total:fields.length,established:fields.filter(field=>field.known).length,fields};
 }
-export const DEFAULTS = { q:'', task:'', platform:'', edition:'Free', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', official:'', sort:'name', mode:'all' };
+// Official Blackmagic resources are opt-in in the catalogue. The UI exposes a
+// positive "Show" checkbox while shared URLs retain `hide` as the default.
+export const DEFAULTS = { q:'', task:'', kind:'', platform:'', edition:'Free', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', official:'hide', sort:'name', mode:'all' };
 export const UNFILTERED = {...DEFAULTS,edition:''};
 export const MAX_COMPARE = 3;
 const GENERIC_COMPARE_KINDS = new Set(['other','reference','guide','directory']);
@@ -54,7 +66,7 @@ export function normalizeSearch(value) {
 const searchIndexes=new WeakMap();
 function searchIndex(entry){
  let index=searchIndexes.get(entry);
- if(index===undefined){index=normalizeSearch([entry.name,entry.creator,entry.description,...(entry.tags||[])].join(' '));searchIndexes.set(entry,index);}
+ if(index===undefined){index=normalizeSearch([entry.name,entry.creator,entry.description,entry.kind,FORMAT_LABELS[entry.kind],entry.category,...(entry.tasks||[]).map(task=>TASKS[task]),...(entry.tags||[])].join(' '));searchIndexes.set(entry,index);}
  return index;
 }
 export function searchScore(entry, query) {
@@ -65,6 +77,9 @@ export function searchScore(entry, query) {
  let score=0;
  if(name===normalized) score+=120;
  else if(name.includes(normalized)) score+=100;
+ if([normalizeSearch(entry.kind),normalizeSearch(FORMAT_LABELS[entry.kind]||'')].some(value=>value===normalized||value.startsWith(normalized+' ')))score+=80;
+ if((entry.tasks||[]).some(task=>normalizeSearch(task)===normalized||normalizeSearch(TASKS[task]||'')===normalized))score+=70;
+ if(all(normalizeSearch(entry.category||'')))score+=35;
  if(tags.some(tag=>tag===normalized)) score+=50;
  else if(tags.some(tag=>all(tag))) score+=40;
  if(all(description)) score+=20;
@@ -78,6 +93,7 @@ export function filterEntries(entries,state) {
   if(words.length){const searchable=searchIndex(e);if(!words.every(w=>searchable.includes(w)))return false;}
   if(state.mode==='tested'&&!e.recommended)return false;
   if(state.task&&!e.tasks.includes(state.task))return false;
+  if(state.kind&&e.kind!==state.kind)return false;
   if(state.platform&&!e.platforms.includes(state.platform))return false;
   if(state.edition==='Free'&&e.requirements.editions.length&&!e.requirements.editions.includes('Free'))return false;
   if(state.resolve&&!matchesVersion(e,state.resolve,state.edition))return false;
@@ -92,7 +108,7 @@ export function filterEntries(entries,state) {
   return true;
  });
 }
-export const REQUIREMENT_FILTERS = ['platform','edition','resolve','access','processing','evidence','pricing','architecture'];
+export const REQUIREMENT_FILTERS = ['kind','platform','edition','resolve','access','processing','evidence','pricing','architecture'];
 
 // Counts ignore the facet being edited so users can broaden that facet again.
 export function facetCounts(entries, state, key, values) {
@@ -127,7 +143,7 @@ export function recoveryOptions(entries, state) {
 }
 export function sortEntries(entries,key='name',query='') {
  const cmp=(a,b)=>a.localeCompare(b,'en',{sensitivity:'base'}),time=x=>Number.isFinite(Date.parse(x))?Date.parse(x):0;
- return [...entries].sort((a,b)=>Number(b.official)-Number(a.official)||(key==='relevance'?searchScore(b,query)-searchScore(a,query):key==='updated'?time(b.releaseDate)-time(a.releaseDate):key==='activity'?time(b.activityDate)-time(a.activityDate):key==='stars'?(b.stars??-1)-(a.stars??-1):key==='creator'?cmp(a.creator,b.creator):key==='type'?cmp(a.category,b.category):0)||cmp(a.name,b.name)||cmp(a.id,b.id));
+ return [...entries].sort((a,b)=>Number(b.official)-Number(a.official)||(key==='relevance'?searchScore(b,query)-searchScore(a,query):key==='updated'?time(b.releaseDate)-time(a.releaseDate):key==='activity'?time(b.activityDate)-time(a.activityDate):key==='stars'?(b.stars??-1)-(a.stars??-1):key==='creator'?cmp(a.creator,b.creator):key==='type'?cmp(a.category,b.category):key==='format'?cmp(FORMAT_LABELS[a.kind]||a.kind,FORMAT_LABELS[b.kind]||b.kind):0)||cmp(a.name,b.name)||cmp(a.id,b.id));
 }
 export function relativeDate(value,now=new Date()) {if(!value||!Number.isFinite(Date.parse(value)))return 'Unknown';const days=Math.max(0,Math.floor((+now-Date.parse(value))/86400000));if(!days)return 'Today';const [n,unit]=days<7?[days,'day']:days<30?[Math.floor(days/7),'week']:days<365?[Math.floor(days/30),'month']:[Math.floor(days/365),'year'];return `${n} ${unit}${n===1?'':'s'} back`;}
 export function versionText(v) {if(v.kind==='not-applicable')return 'Not applicable';if(!v.version)return 'Version unknown';if(v.kind==='commit')return 'Revision '+v.version.slice(0,12);return v.version+(v.kind==='prerelease'?' (prerelease)':'');}

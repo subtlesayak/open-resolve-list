@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "KaurHendrikson/DaVinci-Resolve-DCTLs",
       "url": "https://github.com/KaurHendrikson/DaVinci-Resolve-DCTLs",

@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "OwenYou/DavinciResolveDCTL_HKEstimation",
       "url": "https://github.com/OwenYou/DavinciResolveDCTL_HKEstimation",

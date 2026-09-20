@@ -21,6 +21,14 @@ permissions:
   contents: read
 jobs:
   browser:
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, firefox, webkit]
+        mobile: [0, 1]
+    env:
+      RESOLVE_TEST_BROWSER: ${{ matrix.browser }}
+      RESOLVE_TEST_MOBILE: ${{ matrix.mobile }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -30,6 +38,6 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - run: npx playwright install --with-deps ${{ matrix.browser }}
       - run: npm run browser:smoke
       - run: node --test --test-concurrency=1 scripts/site-a11y.test.mjs

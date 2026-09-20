@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "a45960f4e180"
+  "legacy_id": "a45960f4e180",
+  "search_sources": [
+    "https://github.com/helios1138/filmeon"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

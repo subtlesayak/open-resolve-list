@@ -84,5 +84,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "2963c98c3a73"
+  "legacy_id": "2963c98c3a73",
+  "search_sources": [
+    "https://github.com/Kemerd/premiere-agent"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

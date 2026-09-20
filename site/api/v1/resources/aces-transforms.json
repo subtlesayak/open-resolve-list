@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "thatcherfreeman/aces-transforms",
       "url": "https://github.com/thatcherfreeman/aces-transforms",

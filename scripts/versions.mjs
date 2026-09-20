@@ -1,10 +1,9 @@
-import fs from 'node:fs';
-const file=new URL('../data/versions.json',import.meta.url);
-let cachedStamp=null,cached=new Map();
+import {fileURLToPath} from 'node:url';
+import {loadCanonicalResources} from './canonical-source.mjs';
+let cached=null;
+export function resetVersions(){cached=null;}
 export function versionFor(url){
- if(!fs.existsSync(file))return null;
- const stamp=fs.statSync(file).mtimeMs;
- if(stamp!==cachedStamp){cached=new Map(JSON.parse(fs.readFileSync(file,'utf8')).entries.map(e=>[e.url,e]));cachedStamp=stamp;}
+ if(!cached)cached=new Map(loadCanonicalResources(fileURLToPath(new URL('..',import.meta.url))).map(r=>[r.urls.canonical,r.version]));
  return cached.get(url)||null;
 }
 export function versionLabel(url){

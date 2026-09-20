@@ -98,5 +98,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "9be166405e39"
+  "legacy_id": "9be166405e39",
+  "search_sources": [
+    "https://akascape.gumroad.com/l/supascale"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "EaryChow/Blender-AgX-Resolve",
       "url": "https://github.com/EaryChow/Blender-AgX-Resolve",

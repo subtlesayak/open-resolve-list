@@ -59,6 +59,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ACES Lite iPhone Kit",
       "url": "https://www.joo.works/iphone",

@@ -94,5 +94,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "960f12d98924"
+  "legacy_id": "960f12d98924",
+  "search_sources": [
+    "https://github.com/postflows/resolve-find-clip-on-timelines"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

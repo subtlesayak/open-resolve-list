@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Effects and animation",
-  "kind": "other",
+  "kind": "fuse",
   "tasks": [
     "fusion"
   ],
@@ -78,6 +78,13 @@
       "source": "https://akascape.gumroad.com/l/super-polygons-beta",
       "checked_at": "2026-09-06T12:10:29.600Z",
       "note": "Structured from the existing source-backed catalogue description; no new installation test: Low-poly, triangulation, Voronoi, and tile effects inside Fusion. Resolve 17+ Free or Studio; suggested donations are optional."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://akascape.gumroad.com/l/super-polygons-beta",
+      "checked_at": "2026-09-16T15:58:29.411Z",
+      "note": "Creator product listing explicitly identifies the delivered Fuse."
     }
   ],
   "unknownFields": [
@@ -88,5 +95,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "82ae4696f763"
+  "legacy_id": "82ae4696f763",
+  "search_sources": [
+    "https://akascape.gumroad.com/l/super-polygons-beta"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

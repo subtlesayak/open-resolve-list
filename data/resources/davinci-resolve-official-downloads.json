@@ -174,5 +174,10 @@
       ]
     }
   ],
-  "legacy_id": "0ba1074a19f2"
+  "legacy_id": "0ba1074a19f2",
+  "search_sources": [
+    "https://www.blackmagicdesign.com/products/davinciresolve"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

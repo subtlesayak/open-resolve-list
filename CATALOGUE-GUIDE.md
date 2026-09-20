@@ -34,23 +34,23 @@ Platform links open the supporting source. Notes preserve partial or untested su
 
 Each README category lists all repositories A–Z, followed by repeated groups for creators with multiple entries. Deduplicate by URL when importing. All five sorted views include external resources and keep official sources first; inapplicable stars and unknown dates sort last.
 
-The [repository CSV](data/repositories.csv) and [external directory](data/external-tools.md) remain the migration inputs for catalogue generation. [Version overrides](data/version-overrides.json) take precedence over earlier evidence. Read the [historical update ledger](data/update-audit.json) with [later discoveries](data/community-discoveries.json). The [Reactor inventory](data/reactor-inventory.md) includes dependencies and non-Resolve companions; it is not a list of 707 verified Resolve plugins.
+The repository CSV, external directory, versions, search tags and requirements exports are generated from canonical resource files. Historical discovery and update ledgers remain separate evidence records; they do not override current canonical facts.
 
 ## Canonical resource records
 
-The canonical records live in [`data/resources/`](data/resources/) and are indexed by [`data/resources/index.json`](data/resources/index.json). Each record has a permanent `id`, a canonical URL, optional previous URL aliases, a broad `category`, a separate `kind`/format, and task labels. The site and README/views builders consume these records through compatibility adapters; the CSV/Markdown files remain legacy-compatible inputs for migration and review.
+The canonical records live in [`data/resources/`](data/resources/) and are indexed by [`data/resources/index.json`](data/resources/index.json). Each record has a permanent `id`, a canonical URL, optional previous URL aliases, a broad `category`, a separate `kind`/format, and task labels. The site and README/views builders consume these records through compatibility adapters; the CSV/Markdown files are generated compatibility outputs.
 
-Run `node scripts/migrate-resources.mjs --check` to validate all 514 records without writing. IDs are not derived from URLs, so a documented provider rename must preserve the ID and move the old URL to `urls.previous`. Do not use inferred `kind` values as compatibility, licensing, or installation evidence.
+Run `node scripts/validate-resources.mjs` to validate all 514 records without writing. IDs are not derived from URLs, so a documented provider rename must preserve the ID and move the old URL to `urls.previous`. Do not use inferred `kind` values as compatibility, licensing, or installation evidence.
 
 Consumers should resolve a resource through its permanent ID first, then its canonical or documented previous URL alias. The shared resolver is available from `scripts/canonical-source.mjs`; duplicate aliases fail validation.
 
 The generated site feed at [`site/resources.json`](site/resources.json) is the machine-readable presentation of these records. It preserves permanent IDs and source-backed fields for standalone resource pages and downstream local consumers; edit canonical records and maintained evidence inputs instead of editing the generated feed.
 
-The generated API snapshot lives under [`site/api/v1/`](site/api/v1/). It includes the compact collection at `resources.json`, category/task/release indexes, and one detailed `resources/<permanent-id>.json` document per resource. The RSS-compatible snapshot is [`site/feed.xml`](site/feed.xml). All are deterministic outputs of `node scripts/build-site.mjs`; they must not be edited by hand or treated as evidence.
+The generated API snapshot lives under [`site/api/v1/`](site/api/v1/). It includes the compact collection at `resources.json`, category/task/release indexes, and one detailed `resources/<permanent-id>.json` document per resource. The RSS-compatible snapshot is [`site/feed.xml`](site/feed.xml). The RSS items are catalogue releases ordered by publication date. All are deterministic outputs of `node scripts/build-site.mjs`; they must not be edited by hand or treated as evidence.
 
 Use `node scripts/rebuild.mjs` for the ordinary local rebuild path. It validates canonical records first, then regenerates the Markdown views and site-derived outputs without performing publication or external research.
 
-Records with `kind: other` can be listed for manual review with `node scripts/review-kinds.mjs --kind other`. Thirty-four explicit mappings have been applied from maintained descriptions and source URLs; 43 records remain unresolved. Reviewers must verify an upstream format claim before changing a kind. The read-only listing helper never edits records; the reviewed mappings are opt-in and recorded in `scripts/apply-kind-review.mjs`.
+Records with `kind: other` can be listed for manual review with `node scripts/review-kinds.mjs --kind other`. An additional original-source review resolved 34 formats; nine records remain unresolved because their source is blocked, incomplete or does not establish the install format. Reviewers must verify an upstream format claim before changing a kind. The read-only listing helper never edits records; format decisions are recorded with their original-source evidence in each canonical record.
 
 The optional npm scripts are wrappers around the same zero-dependency Node commands; installing packages is not required.
 

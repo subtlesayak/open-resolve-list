@@ -78,5 +78,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "2b6b555792a0"
+  "legacy_id": "2b6b555792a0",
+  "search_sources": [
+    "https://videovillage.com/filmbox/",
+    "https://videovillage.com/images/filmbox/features/Filmbox%20User%20Guide.pdf"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

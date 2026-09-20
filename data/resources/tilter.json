@@ -92,5 +92,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "4f866af083ae"
+  "legacy_id": "4f866af083ae",
+  "search_sources": [
+    "https://github.com/stoatworks-labs/tilter#readme",
+    "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.5"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

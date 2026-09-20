@@ -77,5 +77,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "535d53cae910"
+  "legacy_id": "535d53cae910",
+  "search_sources": [
+    "https://cutpointlabs.com/lut-tuner/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

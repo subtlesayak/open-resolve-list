@@ -57,6 +57,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "FusionPixelStudio/Davinci-Resolve-Functions-Toolkit",
       "url": "https://github.com/FusionPixelStudio/Davinci-Resolve-Functions-Toolkit",

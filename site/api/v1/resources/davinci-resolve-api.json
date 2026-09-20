@@ -55,6 +55,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "diop/davinci-resolve-api",
       "url": "https://github.com/diop/davinci-resolve-api",

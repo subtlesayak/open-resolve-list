@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "X-Raym/DaVinci-Resolve-Scripts",
       "url": "https://github.com/X-Raym/DaVinci-Resolve-Scripts",

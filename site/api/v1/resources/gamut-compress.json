@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "jedypod/gamut-compress",
       "url": "https://github.com/jedypod/gamut-compress",

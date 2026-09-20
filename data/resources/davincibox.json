@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "18fb0d66cdc6"
+  "legacy_id": "18fb0d66cdc6",
+  "search_sources": [
+    "https://github.com/zelikos/davincibox"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

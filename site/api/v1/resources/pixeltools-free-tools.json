@@ -58,6 +58,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "PixelTools free tools",
       "url": "https://pixeltoolspost.com/collections/free-tools",

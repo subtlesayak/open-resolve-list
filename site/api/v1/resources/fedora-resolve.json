@@ -60,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "yioannides/fedora-resolve",
       "url": "https://github.com/yioannides/fedora-resolve",

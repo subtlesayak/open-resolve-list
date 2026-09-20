@@ -61,6 +61,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Halation in Resolve 18 Guide",
       "url": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",

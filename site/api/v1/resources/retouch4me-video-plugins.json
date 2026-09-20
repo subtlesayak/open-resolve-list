@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Retouch4me video plugins",
       "url": "https://retouch4.me/videoretouching",

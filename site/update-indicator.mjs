@@ -1,6 +1,6 @@
 const indicator=document.querySelector('#updates-indicator');
 if(indicator){
-  fetch('catalogue.json?v=8',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(data=>{
+  fetch('latest-update.json?v=1',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(data=>{
     const update=data?.latestUpdate;
     if(!update?.release)return;
     const count=Number(update.addedCount??update.added_urls?.length??0);

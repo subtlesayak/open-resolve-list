@@ -74,5 +74,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "a34007c84794"
+  "legacy_id": "a34007c84794",
+  "search_sources": [
+    "https://github.com/jdanna/Resolve_Tools_Public"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

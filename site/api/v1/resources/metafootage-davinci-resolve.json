@@ -66,6 +66,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "WDegan/metafootage-davinci-resolve",
       "url": "https://github.com/WDegan/metafootage-davinci-resolve",

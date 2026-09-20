@@ -74,5 +74,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "6d5e6bd5dd6f"
+  "legacy_id": "6d5e6bd5dd6f",
+  "search_sources": [
+    "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

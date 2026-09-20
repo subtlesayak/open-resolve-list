@@ -76,6 +76,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ARISDA Bridge",
       "url": "https://arisdabridge.com/",

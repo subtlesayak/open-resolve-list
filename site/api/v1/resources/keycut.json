@@ -55,6 +55,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "KeyCut",
       "url": "https://getkeycut.com/",

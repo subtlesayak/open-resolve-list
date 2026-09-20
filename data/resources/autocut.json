@@ -101,5 +101,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "56c236f64bd2"
+  "legacy_id": "56c236f64bd2",
+  "search_sources": [
+    "https://www.autocut.com/en/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

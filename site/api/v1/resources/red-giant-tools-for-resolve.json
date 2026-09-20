@@ -60,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Red Giant tools for Resolve",
       "url": "https://www.maxon.net/en/red-giant",

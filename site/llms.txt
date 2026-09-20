@@ -7,11 +7,14 @@ Open Resolve List is a source-backed catalogue of DaVinci Resolve and Fusion too
 - Catalogue: https://subtlesayak.github.io/open-resolve-list/
 - Updates and version history: https://subtlesayak.github.io/open-resolve-list/updates.html
 - Evidence and methodology: https://subtlesayak.github.io/open-resolve-list/about.html
+- Lightweight browsing index: https://subtlesayak.github.io/open-resolve-list/catalogue-index.json
+- Full detail for a resource ID: https://subtlesayak.github.io/open-resolve-list/api/v1/resources/{id}.json
+- Release updates RSS: https://subtlesayak.github.io/open-resolve-list/feed.xml
 - Machine-readable catalogue: https://subtlesayak.github.io/open-resolve-list/catalogue.json
 
 ## How to use the catalogue
 
-Use the filters to find resources for Resolve Free or Resolve Studio, Windows, macOS, Linux, and iPadOS. Listings show source links, documented compatibility, access terms, versions, stars, update dates, requirements, and known unknowns. Unknown compatibility is not treated as support. The catalogue does not redistribute third-party packages.
+Use the Format, Task and requirement filters to find resources for Resolve Free or Resolve Studio, Windows, macOS, Linux, and iPadOS. Listings show source links, documented compatibility, access terms, versions, stars, update dates, requirements, and known unknowns. Unknown compatibility is not treated as support. The catalogue does not redistribute third-party packages.
 
 ## Editorial standard
 

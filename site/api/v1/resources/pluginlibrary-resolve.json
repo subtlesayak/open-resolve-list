@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Akascape/PluginLibrary-Resolve",
       "url": "https://github.com/Akascape/PluginLibrary-Resolve",

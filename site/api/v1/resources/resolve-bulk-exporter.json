@@ -61,6 +61,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "austinwitherspoon/resolve-bulk-exporter",
       "url": "https://github.com/austinwitherspoon/resolve-bulk-exporter",

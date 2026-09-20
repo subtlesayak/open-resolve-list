@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Fusion, motion graphics, visual effects, and package management",
-  "kind": "other",
+  "kind": "fusion-macro",
   "tasks": [
     "fusion"
   ],
@@ -62,6 +62,13 @@
       "source": "https://github.com/andrewbry/DasGrainFusion/commit/6198ca007581b9c472c43f95042a89eef2fcb2f7",
       "checked_at": "2026-09-15T05:06:04.860Z",
       "note": "Source revision, not a software release."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://github.com/andrewbry/DasGrainFusion",
+      "checked_at": "2026-09-16T15:58:29.390Z",
+      "note": "Repository distributes DasGrainFusion.setting with supporting Fuses."
     }
   ],
   "unknownFields": [
@@ -74,5 +81,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "dfb2ad333c02"
+  "legacy_id": "dfb2ad333c02",
+  "search_sources": [
+    "https://github.com/andrewbry/DasGrainFusion"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

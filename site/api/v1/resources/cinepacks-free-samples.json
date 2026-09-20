@@ -44,6 +44,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "CinePacks free samples",
       "url": "https://cinepacks.store/collections/free-packs",

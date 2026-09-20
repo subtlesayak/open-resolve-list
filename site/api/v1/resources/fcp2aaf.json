@@ -85,6 +85,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",

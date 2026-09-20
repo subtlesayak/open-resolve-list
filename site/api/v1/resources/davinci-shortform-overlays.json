@@ -66,6 +66,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Creative-Crafter/davinci-shortform-overlays",
       "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",

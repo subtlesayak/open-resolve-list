@@ -67,6 +67,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Shutter Encoder",
       "url": "https://www.shutterencoder.com/",

@@ -13,9 +13,9 @@ process.chdir(root);
 const dir='.research/update-check';
 fs.mkdirSync(dir,{recursive:true});
 const checkedAt=new Date().toISOString();
-const canonical=fs.existsSync('data/resources/index.json')?loadCanonicalResources(root):null;
-const entries=canonical?canonical.filter(e=>e.origin==='github').map(toCatalogueEntry):parseCsv(fs.readFileSync('data/repositories.csv','utf8'));
-const external=canonical?canonical.filter(e=>e.origin==='external').map(toCatalogueEntry):[...fs.readFileSync('data/external-tools.md','utf8').matchAll(/^\| \[([^\]]+)\]\((https:\/\/[^)]+)\)/gm)].map(m=>({name:m[1],url:m[2]}));
+const canonical=loadCanonicalResources(root);
+const entries=canonical.filter(e=>e.origin==='github').map(toCatalogueEntry);
+const external=canonical.filter(e=>e.origin==='external').map(toCatalogueEntry);
 const save=(name,value)=>{
  const target=`${dir}/${name}.json`,temporary=target+'.tmp';
  fs.writeFileSync(temporary,JSON.stringify(value,null,2)+'\n');

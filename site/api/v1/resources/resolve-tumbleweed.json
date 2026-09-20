@@ -61,6 +61,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Chillsmeit/resolve-tumbleweed",
       "url": "https://github.com/Chillsmeit/resolve-tumbleweed",

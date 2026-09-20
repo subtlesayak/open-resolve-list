@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Audio / Fairlight companions",
-  "kind": "other",
+  "kind": "audio-plugin",
   "tasks": [
     "audio"
   ],
@@ -74,6 +74,13 @@
       "source": "https://www.tbproaudio.de/products/dpmeter",
       "checked_at": "2026-09-06T12:10:27.377Z",
       "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://www.tbproaudio.de/products/dpmeter",
+      "checked_at": "2026-09-16T15:58:29.398Z",
+      "note": "Provider documents the audio metering plugin and VST3 support."
     }
   ],
   "unknownFields": [
@@ -85,5 +92,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "2703a992d75c"
+  "legacy_id": "2703a992d75c",
+  "search_sources": [
+    "https://www.tbproaudio.de/products/dpmeter"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

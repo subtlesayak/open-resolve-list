@@ -64,6 +64,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "hiroshisaito/HS_fusionTools",
       "url": "https://github.com/hiroshisaito/HS_fusionTools",

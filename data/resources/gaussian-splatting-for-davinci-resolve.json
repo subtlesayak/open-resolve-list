@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "a87a99881df8"
+  "legacy_id": "a87a99881df8",
+  "search_sources": [
+    "https://aescripts.com/gaussian-splatting-for-davinci-resolve/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

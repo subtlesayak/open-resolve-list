@@ -65,6 +65,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "BroVFX packs",
       "url": "https://brovfx.com/en",

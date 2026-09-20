@@ -91,5 +91,12 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "36fe436f2230"
+  "legacy_id": "36fe436f2230",
+  "search_sources": [
+    "https://www.dehancer.com/shop/davinci_resolve/pro",
+    "https://www.dehancer.com/shop/davinci-resolve",
+    "https://www.dehancer.com/features"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

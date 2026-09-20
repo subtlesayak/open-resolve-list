@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Fairlight Desktop Console Operation Manual",
       "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",

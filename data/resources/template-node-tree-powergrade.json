@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "25eb713999b1"
+  "legacy_id": "25eb713999b1",
+  "search_sources": [
+    "https://cullenkellycolor.com/toolkit/template-node-tree-powergrade"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Xaryen/DCTLs",
       "url": "https://github.com/Xaryen/DCTLs",

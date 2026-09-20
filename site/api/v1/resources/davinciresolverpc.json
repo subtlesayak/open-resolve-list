@@ -77,6 +77,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "elpideus/DavinciResolveRPC",
       "url": "https://github.com/elpideus/DavinciResolveRPC",

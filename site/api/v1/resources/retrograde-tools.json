@@ -59,6 +59,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Retrograde Tools",
       "url": "https://retrograde.tools/tools",

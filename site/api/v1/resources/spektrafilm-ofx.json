@@ -65,6 +65,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "spektrafilm OFX",
       "url": "https://spektrafilm.114c.de/",

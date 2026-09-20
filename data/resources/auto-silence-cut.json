@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "9f90e5fc6d3b"
+  "legacy_id": "9f90e5fc6d3b",
+  "search_sources": [
+    "https://github.com/YourAverageMo/auto-silence-cut"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

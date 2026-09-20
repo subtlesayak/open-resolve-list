@@ -81,6 +81,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
       "url": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",

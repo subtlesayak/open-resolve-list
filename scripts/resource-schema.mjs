@@ -1,7 +1,7 @@
 export const RESOURCE_KINDS = [
   'dctl', 'ofx', 'powergrade', 'fuse', 'fusion-macro', 'reactor-package',
   'lut', 'resolve-script', 'mcp-server', 'workflow-app', 'subtitle-tool',
-  'template', 'encoder', 'control-surface', 'reference', 'collection', 'other',
+  'template', 'encoder', 'control-surface', 'reference', 'collection', 'audio-plugin', 'library', 'training', 'other',
 ];
 
 const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -32,6 +32,23 @@ export function validateResource(record) {
   assert(Array.isArray(record.tasks) && record.tasks.every(t => typeof t === 'string'), `${record.id}: invalid tasks`);
   assert(Array.isArray(record.tags) && record.tags.length >= 2 && new Set(record.tags).size === record.tags.length, `${record.id}: invalid tags`);
   assert(record.requirements && record.version && Array.isArray(record.evidence) && Array.isArray(record.history), `${record.id}: missing structured metadata`);
+  const requirements=record.requirements;
+  for(const key of ['editions','resolve','architectures'])assert(Array.isArray(requirements[key]),`${record.id}: invalid ${key}`);
+  assert(requirements.editions.every(value=>['Free','Studio'].includes(value)),`${record.id}: invalid edition`);
+  assert(requirements.architectures.every(value=>['x64','arm64'].includes(value)),`${record.id}: invalid architecture`);
+  assert(['unknown','local','cloud','hybrid'].includes(requirements.processing),`${record.id}: invalid processing`);
+  assert(['unknown','free','mixed','one-time','subscription'].includes(requirements.pricing),`${record.id}: invalid pricing`);
+  for(const range of requirements.resolve){
+    assert((range.min||range.max)&&[range.min,range.max].filter(Boolean).every(value=>/^\d+(\.\d+)*$/.test(value)),`${record.id}: invalid Resolve range`);
+    assert(!range.edition||requirements.editions.includes(range.edition),`${record.id}: range edition missing from editions`);
+  }
+  assert(Array.isArray(record.platforms)&&record.platforms.every(value=>['Windows','macOS','Linux','iPadOS'].includes(value)),`${record.id}: invalid platforms`);
+  assert(record.tags.every(tag=>typeof tag==='string'&&tag.trim()&&tag===tag.toLowerCase()),`${record.id}: invalid tag`);
+  assert(['stable-release','prerelease','commit','vendor-version','package-version','unverified','not-applicable','reference-edition'].includes(record.version.kind),`${record.id}: invalid version kind`);
+  https(record.version.source,`${record.id} version source`);
+  assert(Number.isFinite(Date.parse(record.version.checked_at)),`${record.id}: invalid version check date`);
+  for(const history of record.history){https(history.source,`${record.id} history source`);assert(history.from&&history.to,`${record.id}: invalid history`);}
+  if(record.recommended)assert(record.evidence.some(e=>e.level==='tested')&&record.recommendation?.reason&&record.recommendation?.tested_setup,`${record.id}: recommendation requires testing evidence`);
   for (const item of record.evidence) { assert(['documented', 'creator', 'tested'].includes(item.level), `${record.id}: invalid evidence level`); https(item.source, `${record.id} evidence source`); assert(Number.isFinite(Date.parse(item.checked_at)), `${record.id}: invalid evidence date`); }
   if (record.research_snapshot) assert(DATE_PATTERN.test(record.research_snapshot), `${record.id}: invalid research snapshot`);
   const previous = new Set(record.urls.previous);

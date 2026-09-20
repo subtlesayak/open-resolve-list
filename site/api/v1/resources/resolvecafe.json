@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "CommandPost/ResolveCafe",
       "url": "https://github.com/CommandPost/ResolveCafe",

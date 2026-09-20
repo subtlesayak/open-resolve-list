@@ -61,6 +61,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Fusion 8 Scripting Guide",
       "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",

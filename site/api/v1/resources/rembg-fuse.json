@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Akascape/Rembg-Fuse",
       "url": "https://github.com/Akascape/Rembg-Fuse",

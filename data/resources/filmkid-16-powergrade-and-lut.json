@@ -79,5 +79,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "c3c57a80aef9"
+  "legacy_id": "c3c57a80aef9",
+  "search_sources": [
+    "https://filmkid.com/products/filmkid-16"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

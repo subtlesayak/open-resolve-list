@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "nmbr73/Shaderfuse",
       "url": "https://github.com/nmbr73/Shaderfuse",

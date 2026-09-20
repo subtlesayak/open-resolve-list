@@ -85,5 +85,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "fecf408bb0c1"
+  "legacy_id": "fecf408bb0c1",
+  "search_sources": [
+    "https://borisfx.com/products/sapphire/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

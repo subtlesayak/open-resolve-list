@@ -60,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "fat-tire/resolve",
       "url": "https://github.com/fat-tire/resolve",

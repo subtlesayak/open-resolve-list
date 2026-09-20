@@ -72,6 +72,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "amsomr/davinci-resolve-linux-toolkit",
       "url": "https://github.com/amsomr/davinci-resolve-linux-toolkit",

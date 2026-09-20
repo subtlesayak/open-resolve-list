@@ -84,5 +84,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "9a7856a8df0a"
+  "legacy_id": "9a7856a8df0a",
+  "search_sources": [
+    "https://github.com/nmbr73/Shaderfuse"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

@@ -85,5 +85,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "baba99ad1ef5"
+  "legacy_id": "baba99ad1ef5",
+  "search_sources": [
+    "https://github.com/vulture-s/arkiv"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

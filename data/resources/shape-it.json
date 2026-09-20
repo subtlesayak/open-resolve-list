@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Community discoveries",
-  "kind": "other",
+  "kind": "audio-plugin",
   "tasks": [
     "audio"
   ],
@@ -63,6 +63,13 @@
       "source": "https://getsoundly.com/tools/",
       "checked_at": "2026-09-08",
       "note": "Creator listing reviewed; not installation tested."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://getsoundly.com/tools/",
+      "checked_at": "2026-09-16T15:58:29.399Z",
+      "note": "Provider describes a parametric EQ plugin for use in DAWs."
     }
   ],
   "unknownFields": [
@@ -76,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "22c7fece6d5a"
+  "legacy_id": "22c7fece6d5a",
+  "search_sources": [
+    "https://getsoundly.com/tools/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

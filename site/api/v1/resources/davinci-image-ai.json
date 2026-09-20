@@ -45,6 +45,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "DaVinci Image AI",
       "url": "https://ko-fi.com/s/b36e40dd54",

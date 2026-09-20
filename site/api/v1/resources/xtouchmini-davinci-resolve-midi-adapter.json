@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter",
       "url": "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter",

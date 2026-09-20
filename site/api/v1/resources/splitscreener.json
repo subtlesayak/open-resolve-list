@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "brunocbreis/SplitScreener",
       "url": "https://github.com/brunocbreis/SplitScreener",

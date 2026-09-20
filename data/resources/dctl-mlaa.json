@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "62aae0f2bdd9"
+  "legacy_id": "62aae0f2bdd9",
+  "search_sources": [
+    "https://github.com/olduvai-jp/DCTL-MLAA"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

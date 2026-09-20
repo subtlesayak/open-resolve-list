@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "8e6a6b6c1294"
+  "legacy_id": "8e6a6b6c1294",
+  "search_sources": [
+    "https://github.com/MokshC/easyDCTL"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

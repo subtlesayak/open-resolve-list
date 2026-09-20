@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "helios1138/filmeon",
       "url": "https://github.com/helios1138/filmeon",

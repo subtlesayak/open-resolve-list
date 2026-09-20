@@ -56,6 +56,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Audio Visualiser Plugin",
       "url": "https://sh4rkk.com/visualiser-plugin",

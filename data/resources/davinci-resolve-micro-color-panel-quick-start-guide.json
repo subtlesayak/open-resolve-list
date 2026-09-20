@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "f0ed0e5dd340"
+  "legacy_id": "f0ed0e5dd340",
+  "search_sources": [
+    "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf?_v=1713164412000"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

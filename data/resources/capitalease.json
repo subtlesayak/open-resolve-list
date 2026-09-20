@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Fusion, motion graphics, visual effects, and package management",
-  "kind": "other",
+  "kind": "resolve-script",
   "tasks": [
     "fusion"
   ],
@@ -72,6 +72,13 @@
       "source": "https://github.com/raghavdhin/CapitalEase/commit/c480349c40077542eef3f46007e8d4a72f1907ea",
       "checked_at": "2026-09-15T05:06:04.860Z",
       "note": "Source revision, not a software release."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://github.com/raghavdhin/CapitalEase",
+      "checked_at": "2026-09-16T15:58:29.388Z",
+      "note": "README installs CapitalEase.lua into Fusion Scripts/Comp."
     }
   ],
   "unknownFields": [
@@ -83,5 +90,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "a76af850ca46"
+  "legacy_id": "a76af850ca46",
+  "search_sources": [
+    "https://github.com/raghavdhin/CapitalEase"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

@@ -81,5 +81,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "70088ff6068d"
+  "legacy_id": "70088ff6068d",
+  "search_sources": [
+    "https://github.com/fat-tire/resolve"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

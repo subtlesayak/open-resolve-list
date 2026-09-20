@@ -43,6 +43,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Envato Resolve templates",
       "url": "https://elements.envato.com/video-templates/compatible-with-davinci-resolve",

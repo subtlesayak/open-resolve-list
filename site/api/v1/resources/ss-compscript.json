@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "brunocbreis/SS-CompScript",
       "url": "https://github.com/brunocbreis/SS-CompScript",

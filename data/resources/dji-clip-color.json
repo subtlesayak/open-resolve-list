@@ -93,5 +93,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "eb57e6d6f789"
+  "legacy_id": "eb57e6d6f789",
+  "search_sources": [
+    "https://github.com/erik-sutton95/dji-clip-color#readme",
+    "https://github.com/erik-sutton95/dji-clip-color/commit/db33e02ddf41fcf650aebd4fae19dc86bd70cc61"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

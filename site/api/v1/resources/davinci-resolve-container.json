@@ -78,6 +78,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Distortions81/DaVinci-Resolve-Container",
       "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",

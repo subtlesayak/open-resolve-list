@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Effects and animation",
-    "kind": "other",
+    "kind": "fuse",
     "tasks": [
       "fusion"
     ],
@@ -49,6 +49,13 @@
         "source": "https://akascape.gumroad.com/l/shakeglitch",
         "checked_at": "2026-09-07",
         "note": "Structured from the existing source-backed catalogue description; no new installation test: Creates animated RGB-split glitch effects inside Fusion. Requires Resolve 17+ Free or Studio."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://akascape.gumroad.com/l/shakeglitch",
+        "checked_at": "2026-09-16T15:58:29.403Z",
+        "note": "Creator product listing explicitly identifies the delivered Fuse."
       }
     ],
     "unknownFields": [
@@ -59,6 +66,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ShakeGlitch",
       "url": "https://akascape.gumroad.com/l/shakeglitch",

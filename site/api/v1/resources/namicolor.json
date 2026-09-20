@@ -71,6 +71,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Wavechaser/NamiColor",
       "url": "https://github.com/Wavechaser/NamiColor",

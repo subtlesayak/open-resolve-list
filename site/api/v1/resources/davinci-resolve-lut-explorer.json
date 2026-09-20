@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "bryanrandell/DaVinci-Resolve-LUT-Explorer",
       "url": "https://github.com/bryanrandell/DaVinci-Resolve-LUT-Explorer",

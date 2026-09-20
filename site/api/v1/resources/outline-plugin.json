@@ -44,6 +44,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Outline plugin",
       "url": "https://ko-fi.com/s/6a120fb931",

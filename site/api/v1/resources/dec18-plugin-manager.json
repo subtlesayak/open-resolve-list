@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Dec18studios/Dec18-Plugin-Manager",
       "url": "https://github.com/Dec18studios/Dec18-Plugin-Manager",

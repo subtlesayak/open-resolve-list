@@ -46,6 +46,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Basic Node Tree",
       "url": "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree",

@@ -133,5 +133,11 @@
       ]
     }
   ],
-  "legacy_id": "6312cc4142ce"
+  "legacy_id": "6312cc4142ce",
+  "search_sources": [
+    "https://vocalslice.com/",
+    "https://vocalslice.com/changelog.html"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

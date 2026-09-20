@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Fusion, motion graphics, visual effects, and package management",
-    "kind": "other",
+    "kind": "resolve-script",
     "tasks": [
       "fusion"
     ],
@@ -53,6 +53,13 @@
         "source": "https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve/commit/96973fbf90fc6f50671db1088c5ab8df366eeccf",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Source revision, not a software release."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve",
+        "checked_at": "2026-09-16T15:58:29.382Z",
+        "note": "README installs Auto Rename.lua into the Scripts folder."
       }
     ],
     "unknownFields": [
@@ -63,6 +70,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "neezr/Auto-Rename-for-DaVinci-Resolve",
       "url": "https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve",

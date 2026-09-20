@@ -74,5 +74,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "e7d759d49ccb"
+  "legacy_id": "e7d759d49ccb",
+  "search_sources": [
+    "https://github.com/Spicy-Acorn/fusionmatrix"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

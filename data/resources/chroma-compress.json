@@ -85,5 +85,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "1890634b9d69"
+  "legacy_id": "1890634b9d69",
+  "search_sources": [
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.ChromaCompress/com.JacobDanell.ChromaCompress.atom"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

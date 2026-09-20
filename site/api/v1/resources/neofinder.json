@@ -71,6 +71,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "NeoFinder",
       "url": "https://www.cdfinder.de/",

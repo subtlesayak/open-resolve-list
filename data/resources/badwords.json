@@ -91,5 +91,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "86069ddd4264"
+  "legacy_id": "86069ddd4264",
+  "search_sources": [
+    "https://github.com/veritus-git/BadWords"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

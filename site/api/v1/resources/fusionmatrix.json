@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Spicy-Acorn/fusionmatrix",
       "url": "https://github.com/Spicy-Acorn/fusionmatrix",

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-20",
+  "scope": "Community YouTube channels that publish DaVinci Resolve or Fusion education and workflow material. Links point to the creators' public channels; this is a discovery guide, not an endorsement.",
+  "sources": [
+    "https://jayaretv.com/docs/",
+    "https://www.reddit.com/r/davinciresolve/wiki/resources/",
+    "https://curtinmcasi.atlassian.net/wiki/spaces/POS/pages/3364356101/YouTube%2BResources"
+  ],
+  "creators": [
+    {"name":"Casey Faris","channel":"https://www.youtube.com/@CaseyFaris","focus":"Resolve editing, Fusion, color and complete beginner-to-advanced courses","website":"https://groundcontrol.film/","evidence":"https://www.youtube.com/watch?v=qDHnCFMZ9HA"},
+    {"name":"Cullen Kelly","channel":"https://www.youtube.com/c/CullenKelly","focus":"Professional color management, grading and look development","website":"https://www.cullenkellycolor.com/","evidence":"https://www.youtube.com/watch?v=TxCGR_gNTME"},
+    {"name":"Darren Mostyn","channel":"https://www.youtube.com/@DarrenMostyn","focus":"Color grading, color management and professional Resolve workflows","website":"https://www.darrenmostyn.com/","evidence":"https://curtinmcasi.atlassian.net/wiki/spaces/POS/pages/3364356101/YouTube%2BResources"},
+    {"name":"MrAlexTech","channel":"https://www.youtube.com/@MrAlexTech","focus":"Practical Resolve tips, Fusion effects, editing workflows and tools","website":"https://www.mralextech.com/","evidence":"https://www.reddit.com/r/davinciresolve/comments/1go98sy"},
+    {"name":"JayAreTV","channel":"https://www.youtube.com/@JayAreTV","focus":"Fusion, expressions, scripting, workflow and Resolve tools","website":"https://jayaretv.com/docs/","evidence":"https://jayaretv.com/docs/"}
+  ]
+}

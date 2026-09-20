@@ -87,5 +87,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "ac12cefb9434"
+  "legacy_id": "ac12cefb9434",
+  "search_sources": [
+    "https://spektrafilm.114c.de/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

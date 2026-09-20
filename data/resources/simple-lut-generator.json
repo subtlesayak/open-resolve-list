@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "b74256dd534b"
+  "legacy_id": "b74256dd534b",
+  "search_sources": [
+    "https://github.com/Lo1s-pgn/Simple-LUT-Generator"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

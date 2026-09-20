@@ -84,5 +84,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "69010ace2a1b"
+  "legacy_id": "69010ace2a1b",
+  "search_sources": [
+    "https://github.com/MoazElgabry/DCTLs"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

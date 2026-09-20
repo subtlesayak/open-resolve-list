@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ChrisRidings/GifSaverFuse",
       "url": "https://github.com/ChrisRidings/GifSaverFuse",

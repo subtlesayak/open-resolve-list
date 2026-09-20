@@ -73,5 +73,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "799debd34092"
+  "legacy_id": "799debd34092",
+  "search_sources": [
+    "https://github.com/in03/patchwork"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

@@ -48,6 +48,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "PostFlows",
       "url": "https://postflows.github.io/",

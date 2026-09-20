@@ -132,5 +132,11 @@
       ]
     }
   ],
-  "legacy_id": "a0ad14a9e6d9"
+  "legacy_id": "a0ad14a9e6d9",
+  "search_sources": [
+    "https://frameseek.app/",
+    "https://frameseek.app/updates"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

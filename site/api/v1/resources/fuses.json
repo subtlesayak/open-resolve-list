@@ -60,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "AntonChernov86/Fuses",
       "url": "https://github.com/AntonChernov86/Fuses",

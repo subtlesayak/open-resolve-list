@@ -84,5 +84,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "cbb24bc0ac24"
+  "legacy_id": "cbb24bc0ac24",
+  "search_sources": [
+    "https://github.com/walter-arrighetti/ResolveDB_backup"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

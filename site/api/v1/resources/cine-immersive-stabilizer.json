@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Fusion, motion graphics, visual effects, and package management",
-    "kind": "other",
+    "kind": "workflow-app",
     "tasks": [
       "fusion"
     ],
@@ -54,6 +54,13 @@
         "source": "https://github.com/silverqsy/cine-immersive-stabilizer/releases/tag/v1.0.0",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Recorded version evidence, not installation testing."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://github.com/silverqsy/cine-immersive-stabilizer",
+        "checked_at": "2026-09-16T15:58:29.389Z",
+        "note": "Upstream distributes a standalone SwiftUI application which exports a Fusion node."
       }
     ],
     "unknownFields": [
@@ -64,6 +71,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "silverqsy/cine-immersive-stabilizer",
       "url": "https://github.com/silverqsy/cine-immersive-stabilizer",

@@ -80,5 +80,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "8d921206a011"
+  "legacy_id": "8d921206a011",
+  "search_sources": [
+    "https://pixeltoolspost.com/collections/free-tools"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

@@ -73,6 +73,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "postflows/resolve-clip-marker-tool",
       "url": "https://github.com/postflows/resolve-clip-marker-tool",

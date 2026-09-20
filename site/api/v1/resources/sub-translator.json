@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "vkastrup/sub-translator",
       "url": "https://github.com/vkastrup/sub-translator",

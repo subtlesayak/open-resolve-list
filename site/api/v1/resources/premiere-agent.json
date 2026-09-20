@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Kemerd/premiere-agent",
       "url": "https://github.com/Kemerd/premiere-agent",

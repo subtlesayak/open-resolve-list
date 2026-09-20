@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Fusion, motion graphics, visual effects, and package management",
-  "kind": "other",
+  "kind": "reference",
   "tasks": [
     "fusion"
   ],
@@ -63,6 +63,13 @@
       "source": "https://github.com/Kartaverse/VonkUltra/commit/4d10c55df1c1c5200cf479dd773b784584986981",
       "checked_at": "2026-09-15T05:06:04.860Z",
       "note": "Source revision, not a software release."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://github.com/Kartaverse/VonkUltra",
+      "checked_at": "2026-09-16T15:58:29.395Z",
+      "note": "This repository publishes Vonk Ultra documentation using Docsify."
     }
   ],
   "unknownFields": [
@@ -75,5 +82,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "74f2b71c12d1"
+  "legacy_id": "74f2b71c12d1",
+  "search_sources": [
+    "https://github.com/Kartaverse/VonkUltra"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

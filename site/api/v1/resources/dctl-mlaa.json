@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "olduvai-jp/DCTL-MLAA",
       "url": "https://github.com/olduvai-jp/DCTL-MLAA",

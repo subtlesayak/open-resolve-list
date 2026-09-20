@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Audio / Fairlight companions",
-    "kind": "other",
+    "kind": "audio-plugin",
     "tasks": [
       "audio"
     ],
@@ -53,6 +53,13 @@
         "source": "https://www.auburnsounds.com/blog/The-Mouse-Wheel-Update.html",
         "checked_at": "2026-09-06T12:10:26.319Z",
         "note": "Recorded version evidence, not installation testing."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://www.auburnsounds.com/products/Renegate.html",
+        "checked_at": "2026-09-16T15:58:29.397Z",
+        "note": "Provider offers an audio gate plugin in VST, AAX, AU and LV2 formats."
       }
     ],
     "unknownFields": [
@@ -63,6 +70,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Auburn Sounds Renegate",
       "url": "https://www.auburnsounds.com/products/Renegate.html",

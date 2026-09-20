@@ -73,5 +73,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "5f7369cb3ab8"
+  "legacy_id": "5f7369cb3ab8",
+  "search_sources": [
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.FastExpoGlow/com.Millolab.FastExpoGlow.atom"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

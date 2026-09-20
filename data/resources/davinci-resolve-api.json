@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "edb920e9b3cf"
+  "legacy_id": "edb920e9b3cf",
+  "search_sources": [
+    "https://github.com/diop/davinci-resolve-api"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

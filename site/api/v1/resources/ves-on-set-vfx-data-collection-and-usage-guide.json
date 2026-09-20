@@ -58,6 +58,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "VES On-Set VFX Data Collection and Usage Guide",
       "url": "https://ves-on-set-data.org/dashboard/",

@@ -61,6 +61,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "jonnyhyman/ResolveCollaboration",
       "url": "https://github.com/jonnyhyman/ResolveCollaboration",

@@ -75,5 +75,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "ebc5d77859ef"
+  "legacy_id": "ebc5d77859ef",
+  "search_sources": [
+    "https://github.com/Pinionist/Resolve-Conform-tools"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

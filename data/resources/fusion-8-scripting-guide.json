@@ -84,5 +84,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "4b75a060cc32"
+  "legacy_id": "4b75a060cc32",
+  "search_sources": [
+    "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf?_v=1459495172000"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "NBV-Lightwrap",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NBVFilms.Lightwrap/com.NBVFilms.Lightwrap.atom",

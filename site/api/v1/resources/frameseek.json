@@ -86,6 +86,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "FrameSeek",
       "url": "https://frameseek.app/",

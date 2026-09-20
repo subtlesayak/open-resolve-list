@@ -85,5 +85,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "4f1df9edc476"
+  "legacy_id": "4f1df9edc476",
+  "search_sources": [
+    "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

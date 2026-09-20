@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "eric-with-a-c/resolve-otio",
       "url": "https://github.com/eric-with-a-c/resolve-otio",

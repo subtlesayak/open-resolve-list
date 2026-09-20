@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "heyJordanParker/resolve-advanced-importer",
       "url": "https://github.com/heyJordanParker/resolve-advanced-importer",

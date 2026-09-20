@@ -8,7 +8,7 @@
     "smoke": "node scripts/site-smoke.mjs",
     "browser:smoke": "node scripts/browser-smoke.mjs",
     "maintenance:summary": "node scripts/maintenance-summary.mjs",
-    "validate": "node scripts/migrate-resources.mjs --check && node --test --test-concurrency=1 scripts/*.test.mjs",
+    "validate": "node scripts/validate-resources.mjs && node --test --test-concurrency=1 scripts/*.test.mjs",
     "review:kinds": "node scripts/review-kinds.mjs --kind other",
     "review:kinds:report": "node scripts/review-kinds.mjs --kind other --write-report"
   },

@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "f2fd2625fecf"
+  "legacy_id": "f2fd2625fecf",
+  "search_sources": [
+    "https://tikastudio.gumroad.com/l/filmtitlepack"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

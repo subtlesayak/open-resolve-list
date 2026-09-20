@@ -123,5 +123,12 @@
       ]
     }
   ],
-  "legacy_id": "f9139bba8a0f"
+  "legacy_id": "f9139bba8a0f",
+  "search_sources": [
+    "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
+    "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/",
+    "https://chromewebstore.google.com/detail/stocksilo/hcedobnjefgpoijlpfibidbkfifohonn"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

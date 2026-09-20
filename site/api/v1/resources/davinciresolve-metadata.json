@@ -64,6 +64,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "deric/DaVinciResolve-metadata",
       "url": "https://github.com/deric/DaVinciResolve-metadata",

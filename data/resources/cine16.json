@@ -70,5 +70,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "9470ad9da5af"
+  "legacy_id": "9470ad9da5af",
+  "search_sources": [
+    "https://openiso.sellfy.store/p/film-emulation-powergrade/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

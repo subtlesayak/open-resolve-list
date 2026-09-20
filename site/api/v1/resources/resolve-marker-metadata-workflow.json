@@ -76,6 +76,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "postflows/resolve-marker-metadata-workflow",
       "url": "https://github.com/postflows/resolve-marker-metadata-workflow",

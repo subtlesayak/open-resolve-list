@@ -61,6 +61,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "SuperModulation",
       "url": "https://akascape.gumroad.com/l/supermodulation",

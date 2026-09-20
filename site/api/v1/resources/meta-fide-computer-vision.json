@@ -57,6 +57,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Meta Fide Computer Vision",
       "url": "https://www.metafide.com/?product=computer-vision",

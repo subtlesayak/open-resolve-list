@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "d0d514851947"
+  "legacy_id": "d0d514851947",
+  "search_sources": [
+    "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

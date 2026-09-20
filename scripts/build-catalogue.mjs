@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import {versionLabel, versionFor} from './versions.mjs';
+import {versionLabel, versionFor, resetVersions} from './versions.mjs';
 import {loadCanonicalResources,toCatalogueEntry} from './canonical-source.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -179,9 +179,9 @@ function catalogueTable(entries) {
 }
 
 export function build() {
-  const canonicalPath = path.join(root, 'data/resources/index.json');
-  const canonical = fs.existsSync(canonicalPath) ? loadCanonicalResources(root) : null;
-  const sourceEntries = canonical ? canonical.map(toCatalogueEntry) : parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
+  resetVersions();
+  const canonical=loadCanonicalResources(root);
+  const sourceEntries=canonical.map(toCatalogueEntry);
   const entries = sourceEntries.filter(entry => entry.repository);
   const external = sourceEntries.filter(entry => !entry.repository);
   const official = external.filter(isOfficialResource);

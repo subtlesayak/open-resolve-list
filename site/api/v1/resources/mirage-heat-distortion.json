@@ -60,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Mirage Heat Distortion",
       "url": "https://davidkohen.gumroad.com/l/FusionMirage",

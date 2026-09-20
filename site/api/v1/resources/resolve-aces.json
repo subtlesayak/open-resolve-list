@@ -64,6 +64,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "xtremestuff/resolve-aces",
       "url": "https://github.com/xtremestuff/resolve-aces",

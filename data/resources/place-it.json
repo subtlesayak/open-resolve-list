@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Community discoveries",
-  "kind": "other",
+  "kind": "audio-plugin",
   "tasks": [
     "audio"
   ],
@@ -65,6 +65,13 @@
       "source": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
       "checked_at": "2026-09-08",
       "note": "Creator listing reviewed; not installation tested."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+      "checked_at": "2026-09-16T15:58:29.399Z",
+      "note": "Provider describes a standalone sound-design plugin for DAWs and editing suites."
     }
   ],
   "unknownFields": [
@@ -78,5 +85,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "91e11862bf67"
+  "legacy_id": "91e11862bf67",
+  "search_sources": [
+    "https://getsoundly.com/news/place-it-as-a-standalone-plugin/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

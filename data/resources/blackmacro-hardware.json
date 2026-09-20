@@ -75,5 +75,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "39ace338b5b7"
+  "legacy_id": "39ace338b5b7",
+  "search_sources": [
+    "https://github.com/KipJM/blackmacro-hardware"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

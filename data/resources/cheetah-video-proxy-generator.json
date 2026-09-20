@@ -87,5 +87,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "8edd53f5483f"
+  "legacy_id": "8edd53f5483f",
+  "search_sources": [
+    "https://fractale.itch.io/cheetah-video-proxy-generator"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

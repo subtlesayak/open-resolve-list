@@ -74,6 +74,7 @@
     "unknownFields": [],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "TeddieWang/BarkTed",
       "url": "https://github.com/TeddieWang/BarkTed",

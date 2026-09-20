@@ -85,5 +85,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "64043d2e4aed"
+  "legacy_id": "64043d2e4aed",
+  "search_sources": [
+    "https://www.illkoncept.com/shop/powergrade"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

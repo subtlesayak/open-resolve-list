@@ -52,6 +52,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "IgorRidanovic/DaVinciResolve-DynamicText",
       "url": "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText",

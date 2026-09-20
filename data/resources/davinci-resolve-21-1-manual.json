@@ -86,5 +86,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "09cf75222135"
+  "legacy_id": "09cf75222135",
+  "search_sources": [
+    "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850810000"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

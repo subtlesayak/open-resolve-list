@@ -64,6 +64,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "acrilique/automarker-clay",
       "url": "https://github.com/acrilique/automarker-clay",

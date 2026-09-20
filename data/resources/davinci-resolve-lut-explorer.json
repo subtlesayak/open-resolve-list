@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "3b30cdad7a30"
+  "legacy_id": "3b30cdad7a30",
+  "search_sources": [
+    "https://github.com/bryanrandell/DaVinci-Resolve-LUT-Explorer"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

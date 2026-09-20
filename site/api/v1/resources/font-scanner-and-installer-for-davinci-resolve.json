@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "MansiVisuals/Font-Scanner-and-Installer-for-DaVinci-Resolve",
       "url": "https://github.com/MansiVisuals/Font-Scanner-and-Installer-for-DaVinci-Resolve",

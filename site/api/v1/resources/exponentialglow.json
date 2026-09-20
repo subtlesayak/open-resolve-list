@@ -51,6 +51,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ExponentialGlow",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.ExponentialGlow/com.StefanIhringer.ExponentialGlow.atom",

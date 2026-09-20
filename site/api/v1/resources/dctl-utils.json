@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ra100/dctl-utils",
       "url": "https://github.com/ra100/dctl-utils",

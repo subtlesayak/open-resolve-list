@@ -98,5 +98,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "d697d4f34155"
+  "legacy_id": "d697d4f34155",
+  "search_sources": [
+    "https://github.com/elpideus/DavinciResolveRPC"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

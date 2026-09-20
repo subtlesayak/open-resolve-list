@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Kartopod/BMD-FusionExtras",
       "url": "https://github.com/Kartopod/BMD-FusionExtras",

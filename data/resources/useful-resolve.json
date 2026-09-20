@@ -75,5 +75,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "d037d4716074"
+  "legacy_id": "d037d4716074",
+  "search_sources": [
+    "https://github.com/ambustion/Useful.Resolve"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

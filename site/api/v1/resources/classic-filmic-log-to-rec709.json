@@ -56,6 +56,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Classic Filmic Log to Rec709",
       "url": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",

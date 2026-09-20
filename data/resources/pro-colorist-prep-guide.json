@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "ceeab1cf4514"
+  "legacy_id": "ceeab1cf4514",
+  "search_sources": [
+    "https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

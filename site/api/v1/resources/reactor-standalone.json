@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Kartaverse/Reactor-Standalone",
       "url": "https://github.com/Kartaverse/Reactor-Standalone",

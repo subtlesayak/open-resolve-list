@@ -84,5 +84,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "321dd9c108df"
+  "legacy_id": "321dd9c108df",
+  "search_sources": [
+    "https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

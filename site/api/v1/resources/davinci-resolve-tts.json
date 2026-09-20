@@ -68,6 +68,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "2445868686/DaVinci-Resolve-TTS",
       "url": "https://github.com/2445868686/DaVinci-Resolve-TTS",

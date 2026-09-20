@@ -64,6 +64,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",

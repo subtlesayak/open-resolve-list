@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Effects and animation",
-  "kind": "other",
+  "kind": "fuse",
   "tasks": [
     "fusion"
   ],
@@ -77,6 +77,13 @@
       "source": "https://akascape.gumroad.com/l/dreamyflare",
       "checked_at": "2026-09-07",
       "note": "Structured from the existing source-backed catalogue description; no new installation test: Creates horizontal and vertical anamorphic-style flares with color, intensity and spread controls. Requires Resolve 17+ Free or Studio."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://akascape.gumroad.com/l/dreamyflare",
+      "checked_at": "2026-09-16T15:58:29.401Z",
+      "note": "Creator product listing explicitly identifies the delivered Fuse."
     }
   ],
   "unknownFields": [
@@ -87,5 +94,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "7c1d2c74190c"
+  "legacy_id": "7c1d2c74190c",
+  "search_sources": [
+    "https://akascape.gumroad.com/l/dreamyflare"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

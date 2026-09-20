@@ -93,5 +93,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "3cac088dd4d2"
+  "legacy_id": "3cac088dd4d2",
+  "search_sources": [
+    "https://github.com/50asa/shitsukan-diffusion-kit"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

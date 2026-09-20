@@ -45,6 +45,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Fairlight Sound Library and audio guide",
       "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf",

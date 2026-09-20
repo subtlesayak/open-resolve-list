@@ -44,6 +44,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Resolve and Fusion Support Center",
       "url": "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion",

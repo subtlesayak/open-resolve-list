@@ -114,5 +114,10 @@
       ]
     }
   ],
-  "legacy_id": "914d29587f2e"
+  "legacy_id": "914d29587f2e",
+  "search_sources": [
+    "https://mediaarea.net/en/MediaInfo"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

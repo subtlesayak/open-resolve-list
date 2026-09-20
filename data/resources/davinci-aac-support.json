@@ -91,5 +91,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "7c2122704b38"
+  "legacy_id": "7c2122704b38",
+  "search_sources": [
+    "https://github.com/broskisworld/davinci-aac-support#readme",
+    "https://github.com/broskisworld/davinci-aac-support/commit/454deca4d1597851d5a7292c166fbe55a9e221e5"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

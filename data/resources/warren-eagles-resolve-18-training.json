@@ -66,5 +66,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "d2d6619ae314"
+  "legacy_id": "d2d6619ae314",
+  "search_sources": [
+    "https://www.fxphd.com/resolve18/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

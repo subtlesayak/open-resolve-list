@@ -85,5 +85,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "ade1867d5d18"
+  "legacy_id": "ade1867d5d18",
+  "search_sources": [
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom",
+    "https://novfx.de/changelog/change-strings/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

@@ -107,5 +107,10 @@
       ]
     }
   ],
-  "legacy_id": "6596d4caae50"
+  "legacy_id": "6596d4caae50",
+  "search_sources": [
+    "https://github.com/WyattBlue/auto-editor"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

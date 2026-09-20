@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "51128a9544dd"
+  "legacy_id": "51128a9544dd",
+  "search_sources": [
+    "https://www.filmconvert.com/plugin/cinematch"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

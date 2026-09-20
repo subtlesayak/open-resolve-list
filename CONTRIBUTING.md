@@ -29,7 +29,7 @@ Each README category starts with a complete repository list sorted A–Z by repo
 - Link to the original public GitHub repository with a clear DaVinci Resolve or Fusion connection.
 - Choose the most relevant category; list each repository once.
 - Every listings update revisits all previously used sources, reconstructed from the discovery/evidence ledgers and local follow-up notes, including all eleven Reddit communities and their previous seven days of posts/comments. Verify linked creator sources and report inaccessible or partial checks; follow [Every listings update](WEBSITE.md#every-listings-update) and the [Reddit review workflow](WEBSITE.md#reddit-review-trailing-seven-days).
-- Generate and review search tags for every new listing in `data/search-tags.json`, with original source links. Commit tags alongside the item and rebuild the website; see [Every listings update](WEBSITE.md#every-listings-update).
+- Generate and review search tags for every new canonical record, with original source links. Commit tags alongside the item and rebuild the website; see [Every listings update](WEBSITE.md#every-listings-update).
 - Give a short, factual description of what the project provides.
 - Check upstream licensing before using **Free**. Use **Public** when access is known but licensing has not been established; use **Mixed** for combined free and paid offerings.
 - Record important edition, operating-system, dependency, cost, and maintenance limitations. Distinguish project cost from Resolve Studio and external-service requirements.
@@ -49,7 +49,7 @@ Run `node --test scripts/catalogue.test.mjs` to verify sorting, relative dates, 
 
 ### Canonical records migration
 
-The canonical per-resource records are generated locally under `data/resources/`, with the ID map in `data/resource-id-map.json`. Update the CSV/Markdown and existing evidence ledgers, then run `node scripts/migrate-resources.mjs --check` and `node scripts/migrate-resources.mjs`; the site, README/views, version builder and update checks consume the resulting records through compatibility adapters. Permanent IDs must survive provider URL changes; place old URLs in `urls.previous` only when the rename or redirect is documented. The `kind` field is a discovery taxonomy, not compatibility or licensing evidence. Keep migration reports and raw research local.
+The canonical per-resource records are maintained directly under `data/resources/`. Add or edit a record, then run `npm run build` and `npm run validate`; the site, README/views, version builder and update checks consume the resulting records through compatibility adapters. Permanent IDs must survive provider URL changes; place old URLs in `urls.previous` only when the rename or redirect is documented. The `kind` field is a discovery taxonomy, not compatibility or licensing evidence. Keep migration reports and raw research local.
 
 To audit upstream updates, run `node scripts/check-updates.mjs --github`, then `node scripts/check-updates.mjs --github-changelogs`, and `node scripts/check-updates.mjs --external`. These read-only checks write research output under `.research/update-check`; keep raw research out of commits. GitHub checks require authenticated `gh`. External checks use unauthenticated public pages and may encounter challenges or JavaScript shells. Root changelog discovery is deliberately bounded and does not crawl every nested documentation link.
 

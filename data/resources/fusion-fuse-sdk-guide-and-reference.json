@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "b543cde8a547"
+  "legacy_id": "b543cde8a547",
+  "search_sources": [
+    "https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

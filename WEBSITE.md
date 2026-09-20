@@ -8,7 +8,7 @@ The resource count shows additions from the latest listings update. The number s
 
 The website in `site/` provides combined search and filters for tasks, platform, Resolve edition and version, access, payment model, processing, architecture and evidence. Official resources remain first. Resource details show field-specific sources, check dates, limitations and unknown requirements. Product releases and repository activity are separate sort options.
 
-Check **Hide official BMD resources** to browse only community and third-party listings. Uncheck it to show official listings again. This preference is included in shared filter URLs. **Clear filters** resets requirements to the default Resolve Free view while preserving the search text and selected sort order.
+Official Blackmagic Design resources are hidden by default. Check **Show official BMD resources** to include them; uncheck it to return to community and third-party listings. This preference is included in shared filter URLs. **Clear filters** resets requirements to the default Resolve Free view while preserving the search text and selected sort order.
 
 Filter options display match counts and disable empty combinations. Selecting a task hides filters without meaningful documented requirements for that task and clears conflicting requirements with a notice; search and sorting are preserved. Version filters use documented Resolve compatibility ranges, not provider release numbers. When version information is missing, a labelled action lets users remove the version constraint and inspect sources. Empty results suggest specific filters to remove, with the resulting counts; they never silently treat unknown compatibility as supported.
 
@@ -25,19 +25,19 @@ Open `http://127.0.0.1:4173`. Stop the preview with Ctrl+C. There are no package
 
 ## Maintain the evidence
 
-The site combines `data/repositories.csv`, `data/external-tools.md`, `data/versions.json` and their existing evidence ledgers. Add reviewed structured requirements to `data/resource-details.json`, with field, source URL, review date and limitations. Empty arrays and `unknown` mean not established. Do not derive edition, version, architecture or offline compatibility from a programming language or a file extension.
+The site reads only `data/resources/*.json` for listing facts. Add reviewed requirements and tags to each canonical record, with field-level source URLs, review dates and limitations. The CSV, external Markdown, versions, resource-details and search-tags files are generated compatibility exports. Empty arrays and `unknown` mean not established. Do not derive edition, version, architecture or offline compatibility from a programming language or a file extension.
 
-The canonical records are generated locally under `data/resources/`. They carry permanent IDs, URL aliases, category, format `kind`, tasks, and the existing evidence blocks. `scripts/build-site.mjs` and `scripts/build-catalogue.mjs` consume these records through compatibility adapters. Run `node scripts/migrate-resources.mjs --check` to validate the canonical records without writing. Do not treat inferred `kind` values as evidence.
+The canonical records are maintained directly under `data/resources/`. They carry permanent IDs, URL aliases, category, format `kind`, tasks, and the existing evidence blocks. `scripts/build-site.mjs` and `scripts/build-catalogue.mjs` consume these records through compatibility adapters. Run `node scripts/validate-resources.mjs` to validate the canonical records without writing. Do not treat inferred `kind` values as evidence.
 
 The site builder also emits `site/resources.json`, a deterministic machine-readable feed containing the 514 canonical resource IDs, source URLs, descriptions, formats, tasks, requirements, versions and field-level evidence. Standalone resource pages at `site/resource.html?id=<permanent-id>` consume the individual `site/api/v1/resources/<permanent-id>.json` document. The feed is locally generated and should be regenerated with `node scripts/build-site.mjs`; it is not a research report or a source for changing facts.
 
-The same build emits local static API files under `site/api/v1/`: compact `resources.json`, `categories.json`, `tasks.json`, `releases.json`, and detailed `resources/<permanent-id>.json` documents, plus `site/feed.xml` containing the latest 50 catalogue entries. These are generated presentation artifacts, not independent sources of truth; contributors edit canonical records and maintained evidence inputs, then regenerate and validate them.
+The same build emits local static API files under `site/api/v1/`: compact `resources.json`, `categories.json`, `tasks.json`, `releases.json`, and detailed `resources/<permanent-id>.json` documents, plus `site/feed.xml` containing the latest 50 catalogue releases in publication-date order. These are generated presentation artifacts, not independent sources of truth; contributors edit canonical records and maintained evidence inputs, then regenerate and validate them.
 
 For a local rebuild of the canonical validation, Markdown views, site payloads, API snapshots and feed, run `node scripts/rebuild.mjs`. This command is deliberately local-only and does not publish, upload or run external research.
 
 To inspect conservative taxonomy candidates without changing records, run `node scripts/review-kinds.mjs --kind other` or add `--json` for machine-readable output. The command is read-only and intentionally does not infer or rewrite formats.
 
-The repository has a dependency-free `package.json` for convenience: `npm run build` runs the local rebuild, `npm run validate` runs canonical validation plus the full test suite, and `npm run review:kinds` lists taxonomy candidates.
+The build scripts have no runtime dependencies; Playwright is a development-only dependency. `npm run build` runs the local rebuild, `npm run validate` runs canonical validation plus the full test suite, and `npm run review:kinds` lists taxonomy candidates.
 
 To create a conservative local draft without changing the catalogue, run `node scripts/add-resource.mjs` interactively, or pass explicit `--name`, `--url`, `--creator`, `--category`, `--kind`, and `--description` values. Optional `--tasks` and `--access` values are accepted. The command prints JSON only; it does not fetch, submit, or add the resource.
 
@@ -66,7 +66,7 @@ The edition selector has two choices: Resolve Free (default) and Resolve Studio.
 
 Studio results also include Free-compatible tools, following [Blackmagic Design’s edition feature hierarchy](https://www.blackmagicdesign.com/products/davinciresolve). Where Studio support is inferred from Free support, the result states that it is not separately verified. Platform restrictions and explicit Studio version ranges still apply. Studio support alone never implies Free support.
 
-Hidden search topics are maintained per listing URL in `data/search-tags.json` and included in generated site data. The static website searches these tags alongside titles, creators and descriptions; no server is required. Every listing needs a reviewed tag record. Edit its tags when changing its purpose, and cite creator sources for added brand or film-stock terms. Tags do not alter compatibility filters. Search normalizes colour/color, Fuji/Fujifilm, captions/subtitles, monochrome/black-and-white, diacritics and punctuation.
+Search topics are maintained as `tags` and `search_sources` in each canonical record and included in generated site data. The static website searches these tags alongside titles, creators and descriptions; no server is required. Every listing needs a reviewed tag record. Edit its tags when changing its purpose, and cite creator sources for added brand or film-stock terms. Tags do not alter compatibility filters. Search normalizes colour/color, Fuji/Fujifilm, captions/subtitles, monochrome/black-and-white, diacritics and punctuation.
 
 ## Every listings update
 
@@ -84,7 +84,7 @@ The checklist must cover these source families:
 
 For each source, record the attempt time, review window where applicable, outcome and next action in local research notes. Distinguish checked with changes, checked with no relevant changes, inaccessible and partially reviewed. Follow relevant new links, verify them against original sources and deduplicate candidates. A blocked page stays on the checklist for future attempts; it must not silently disappear. Report coverage gaps at completion, and never describe unattempted or partial checks as a complete source review. This workflow does not promise every page or historical comment on the internet has been crawled.
 
-For every new item, generate and review descriptive search tags from its title, description and original creator sources, then add its URL, name, tags and sources to `data/search-tags.json` in the same change. Include specific tasks, effects and supported film-stock concepts where the source documents them; do not guess brand or compatibility claims. Review existing tags when an item's purpose changes.
+For every new item, generate and review descriptive search tags from its title, description and original creator sources, then add its tags and original sources to the canonical record in the same change. Include specific tasks, effects and supported film-stock concepts where the source documents them; do not guess brand or compatibility claims. Review existing tags when an item's purpose changes.
 
 ### Reddit review: trailing seven days
 
@@ -110,3 +110,13 @@ The theme palette uses Blackmagic Design's public stylesheet orange (`#f48c00`) 
 The previous website at https://subtlesayak.github.io/subtle-resolve-list/ remains available for saved apps and bookmarks. It serves a compatibility copy with a migration notice and an explicit link to the maintained site; it must not force an automatic redirect. Canonical metadata continues to point to https://subtlesayak.github.io/open-resolve-list/.
 
 Generate the compatibility copy with `node scripts/build-legacy-site.mjs` after building the main site. Only the generated public assets in the ignored `.legacy-site/` directory belong in the separate `subtlesayak/subtle-resolve-list` hosting repository. That repository uses branch-based Pages hosting from `main` at `/`. Main-site updates do not automatically refresh this compatibility copy; the notice directs visitors to the new address for the latest catalogue.
+
+## Database browsing and review
+
+The homepage loads `site/catalogue-index.json` and the small `site/latest-update.json` badge summary. Details are fetched by permanent ID only when opened; failed loads offer a retry and successful responses are cached for the current page. Format, task, platform and requirement filters round-trip through URLs. Resolve version choices come from recorded compatibility ranges.
+
+Static resource pages expose compatibility, requirements, access, evidence coverage, version history and related resources. The JSON-LD main entity distinguishes software, reference articles, training, collections and creative assets. The RSS feed contains dated catalogue releases, with stable release URLs as GUIDs.
+
+Weekly maintenance produces review candidates with recorded/observed values and source links. Missing, blocked and incomplete checks remain explicit; no facts or issues are changed automatically. The workflow is a provider-status check, not a substitute for the full source review required above.
+
+Browser CI exercises Chromium, Firefox and WebKit at desktop and mobile viewport sizes. This is browser automation, not physical-device or installed-PWA testing. Raw research stays local. The original migration is archived at `scripts/archive/migrate-v1-to-v2.mjs`; do not run it over maintained canonical records.

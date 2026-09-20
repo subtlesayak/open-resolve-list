@@ -85,5 +85,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "8120dd26f26e"
+  "legacy_id": "8120dd26f26e",
+  "search_sources": [
+    "https://github.com/hoyt-harness/davinci-mcp-professional"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

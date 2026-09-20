@@ -76,6 +76,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "OSideMedia/oside-resolve-mcp",
       "url": "https://github.com/OSideMedia/oside-resolve-mcp",

@@ -97,5 +97,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "6dde77bb170e"
+  "legacy_id": "6dde77bb170e",
+  "search_sources": [
+    "https://github.com/nikita-petrovich/np-public-dctl"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

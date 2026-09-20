@@ -82,5 +82,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "a8d1c4c811d9"
+  "legacy_id": "a8d1c4c811d9",
+  "search_sources": [
+    "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

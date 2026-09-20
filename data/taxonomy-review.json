@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-16",
+  "approved_mappings": 34,
+  "retained_other": [
+    {
+      "id": "davinci-image-ai",
+      "name": "DaVinci Image AI",
+      "category": "Community discoveries",
+      "url": "https://ko-fi.com/s/b36e40dd54",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    },
+    {
+      "id": "edit-page-masks",
+      "name": "Edit Page Masks",
+      "category": "Effects and animation",
+      "url": "https://stirlingsupply.co/products/edit-page-masks",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    },
+    {
+      "id": "flow-looper",
+      "name": "Flow Looper",
+      "category": "Community discoveries",
+      "url": "https://tangenten.gumroad.com/l/FlowLooper",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    },
+    {
+      "id": "gaussian-splatting-for-davinci-resolve",
+      "name": "Gaussian Splatting for DaVinci Resolve",
+      "category": "Effects / Fusion",
+      "url": "https://aescripts.com/gaussian-splatting-for-davinci-resolve/",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    },
+    {
+      "id": "just-highlighter-plus",
+      "name": "Just Highlighter Plus",
+      "category": "Community discoveries",
+      "url": "https://ko-fi.com/s/cb7b432737",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    },
+    {
+      "id": "map-engine",
+      "name": "Map Engine",
+      "category": "Community discoveries",
+      "url": "https://davincikit.com/product/map-engine/",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    },
+    {
+      "id": "mirage-heat-distortion",
+      "name": "Mirage Heat Distortion",
+      "category": "Community discoveries",
+      "url": "https://davidkohen.gumroad.com/l/FusionMirage",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    },
+    {
+      "id": "proto-v3",
+      "name": "Proto V3",
+      "category": "Effects and animation",
+      "url": "https://stirlingsupply.co/products/proto-v3",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    },
+    {
+      "id": "puppet-pin-tool",
+      "name": "Puppet Pin Tool",
+      "category": "Community discoveries",
+      "url": "https://tangenten.gumroad.com/l/PuppetPinTool",
+      "review": "manual taxonomy review required",
+      "decision": "retain-other",
+      "reason": "Maintained source evidence does not establish a specific supported package format."
+    }
+  ]
+}

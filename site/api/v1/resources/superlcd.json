@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Effects and animation",
-    "kind": "other",
+    "kind": "fuse",
     "tasks": [
       "fusion"
     ],
@@ -57,6 +57,13 @@
         "source": "https://akascape.gumroad.com/l/superlcd",
         "checked_at": "2026-09-07",
         "note": "Structured from the existing source-backed catalogue description; no new installation test: Simulates LCD pixel layouts, including RGB stripes and Pentile-style screen patterns. Requires Resolve 17+ Free or Studio."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://akascape.gumroad.com/l/superlcd",
+        "checked_at": "2026-09-16T15:58:29.407Z",
+        "note": "Creator product listing explicitly identifies the delivered Fuse."
       }
     ],
     "unknownFields": [
@@ -66,6 +73,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "SuperLCD",
       "url": "https://akascape.gumroad.com/l/superlcd",

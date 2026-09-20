@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Effects and animation",
-  "kind": "other",
+  "kind": "fusion-macro",
   "tasks": [
     "fusion"
   ],
@@ -77,6 +77,13 @@
       "source": "https://akascape.gumroad.com/l/ruttetra",
       "checked_at": "2026-09-07",
       "note": "Structured from the existing source-backed catalogue description; no new installation test: Creates image-derived line geometry displaced according to brightness for a Rutt-Etra-style effect. Requires Resolve 18+ Free or Studio."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://akascape.gumroad.com/l/ruttetra",
+      "checked_at": "2026-09-16T15:58:29.403Z",
+      "note": "Creator product listing explicitly identifies the delivered macro."
     }
   ],
   "unknownFields": [
@@ -87,5 +94,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "12c086c1b994"
+  "legacy_id": "12c086c1b994",
+  "search_sources": [
+    "https://akascape.gumroad.com/l/ruttetra"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

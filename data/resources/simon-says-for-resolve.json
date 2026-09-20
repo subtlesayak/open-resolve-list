@@ -80,5 +80,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "dae8c1c784aa"
+  "legacy_id": "dae8c1c784aa",
+  "search_sources": [
+    "https://www.simonsaysai.com/blackmagic-davinci-resolve-extension"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

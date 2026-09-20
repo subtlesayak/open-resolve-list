@@ -4,7 +4,8 @@ import {spawnSync} from 'node:child_process';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const steps=[
- ['migrate-resources.mjs','--check'],
+ ['validate-resources.mjs'],
+ ['export-compatibility.mjs'],
  ['build-catalogue.mjs'],
  ['build-site.mjs'],
 ];

@@ -66,6 +66,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "FireCut",
       "url": "https://firecut.ai/pricing/davinci-resolve/",

@@ -58,6 +58,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Simon Says for Resolve",
       "url": "https://www.simonsaysai.com/blackmagic-davinci-resolve-extension",

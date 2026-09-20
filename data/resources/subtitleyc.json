@@ -90,5 +90,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "66ee60e177fd"
+  "legacy_id": "66ee60e177fd",
+  "search_sources": [
+    "https://github.com/BambooYC123/SubtitleYC"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

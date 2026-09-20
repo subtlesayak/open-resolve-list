@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ikm-san/autotitles-community",
       "url": "https://github.com/ikm-san/autotitles-community",

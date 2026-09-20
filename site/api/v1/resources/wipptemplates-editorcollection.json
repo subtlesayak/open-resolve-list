@@ -56,6 +56,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "WippTemplates EditorCollection",
       "url": "https://wipptemplates.com/products/editorcollection",

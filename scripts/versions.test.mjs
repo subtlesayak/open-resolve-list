@@ -21,10 +21,10 @@ test('every catalogue entry has one version state and an upstream source',()=>{
  }
 });
 
-test('published external versions reconcile with maintained evidence and overrides',()=>{
- const expected=externalVersions(parseExternalResources(read('data/external-tools.md')),JSON.parse(read('data/update-audit.json')),JSON.parse(read('data/community-discoveries.json')),JSON.parse(read('data/version-overrides.json')));
+test('published versions equal the canonical resource version records',()=>{
+ const records=fs.readdirSync(new URL('../data/resources/',import.meta.url)).filter(n=>n.endsWith('.json')&&n!=='index.json').map(n=>JSON.parse(read('data/resources/'+n)));
  const order=items=>[...items].sort((a,b)=>a.url.localeCompare(b.url));
- assert.deepEqual(order(versions.filter(e=>!e.url.startsWith('https://github.com/'))),order(expected));
+ assert.deepEqual(order(versions),order(records.map(r=>({...r.version,url:r.urls.canonical}))));
 });
 
 test('GitHub transformation distinguishes stable releases, prereleases and source revisions',()=>{

@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Fusion, motion graphics, visual effects, and package management",
-    "kind": "other",
+    "kind": "resolve-script",
     "tasks": [
       "fusion"
     ],
@@ -55,6 +55,13 @@
         "source": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci/commit/be0d17d13eccc1d5781fdfab9e24b53cda27080c",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Source revision, not a software release."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci",
+        "checked_at": "2026-09-16T15:58:29.394Z",
+        "note": "Repository distributes Lua scripts for the Fusion Scripts/Comp folder."
       }
     ],
     "unknownFields": [
@@ -65,6 +72,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "VladasTamosiunas/GPX-Visualization-Davinci",
       "url": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci",

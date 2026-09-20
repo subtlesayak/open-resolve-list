@@ -66,6 +66,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "SuperSlitScanner",
       "url": "https://akascape.gumroad.com/l/superslitscanner",

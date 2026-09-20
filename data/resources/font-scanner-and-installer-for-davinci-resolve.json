@@ -84,5 +84,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "486889efd2e8"
+  "legacy_id": "486889efd2e8",
+  "search_sources": [
+    "https://github.com/MansiVisuals/Font-Scanner-and-Installer-for-DaVinci-Resolve"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

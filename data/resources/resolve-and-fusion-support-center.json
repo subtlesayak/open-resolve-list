@@ -67,5 +67,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "4e3d9a3b9cb3"
+  "legacy_id": "4e3d9a3b9cb3",
+  "search_sources": [
+    "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

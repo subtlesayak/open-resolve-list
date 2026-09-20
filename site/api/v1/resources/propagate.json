@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "PROPAGATE",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.DominikBargiel.Propagate/com.DominikBargiel.Propagate.atom",

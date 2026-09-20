@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ctsrc/ffmpeg-extract-clips-davinci-resolve-edl",
       "url": "https://github.com/ctsrc/ffmpeg-extract-clips-davinci-resolve-edl",

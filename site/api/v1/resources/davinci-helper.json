@@ -60,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "H3rz3n/davinci-helper",
       "url": "https://github.com/H3rz3n/davinci-helper",

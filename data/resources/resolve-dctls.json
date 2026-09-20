@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "e99799757c8b"
+  "legacy_id": "e99799757c8b",
+  "search_sources": [
+    "https://github.com/mitkunz/resolve_DCTLs"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

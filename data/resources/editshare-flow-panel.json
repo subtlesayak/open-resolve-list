@@ -70,5 +70,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "66a441602d0a"
+  "legacy_id": "66a441602d0a",
+  "search_sources": [
+    "https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

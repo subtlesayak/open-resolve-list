@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "JamesBalazs/speed-editor-client",
       "url": "https://github.com/JamesBalazs/speed-editor-client",

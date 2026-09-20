@@ -44,6 +44,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Resolve learning path",
       "url": "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/",

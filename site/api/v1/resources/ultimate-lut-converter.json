@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "NorthernPilgrim/Ultimate-LUT-Converter",
       "url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter",

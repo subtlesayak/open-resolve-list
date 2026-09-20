@@ -52,6 +52,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "jai-panjwani/DCTLS",
       "url": "https://github.com/jai-panjwani/DCTLS",

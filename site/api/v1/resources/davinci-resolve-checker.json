@@ -60,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Ashark/davinci-resolve-checker",
       "url": "https://github.com/Ashark/davinci-resolve-checker",

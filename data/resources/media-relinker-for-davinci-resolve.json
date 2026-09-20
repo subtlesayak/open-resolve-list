@@ -96,5 +96,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "fd05b65e355c"
+  "legacy_id": "fd05b65e355c",
+  "search_sources": [
+    "https://github.com/Googleholic/Media_Relinker_for_Davinci_Resolve"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Effects and animation",
-  "kind": "other",
+  "kind": "fuse",
   "tasks": [
     "fusion"
   ],
@@ -77,6 +77,13 @@
       "source": "https://akascape.gumroad.com/l/supermatrixrain",
       "checked_at": "2026-09-07",
       "note": "Structured from the existing source-backed catalogue description; no new installation test: Generates animated code-rain graphics with 2D layers and a simulated 3D camera mode. Requires Resolve 18+ Free or Studio."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://akascape.gumroad.com/l/supermatrixrain",
+      "checked_at": "2026-09-16T15:58:29.408Z",
+      "note": "Creator product listing explicitly identifies the delivered Fuse."
     }
   ],
   "unknownFields": [
@@ -87,5 +94,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "a9e426c845f1"
+  "legacy_id": "a9e426c845f1",
+  "search_sources": [
+    "https://akascape.gumroad.com/l/supermatrixrain"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

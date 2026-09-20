@@ -74,5 +74,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "d185c4ff7f03"
+  "legacy_id": "d185c4ff7f03",
+  "search_sources": [
+    "https://github.com/kubabar/DCTLs"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

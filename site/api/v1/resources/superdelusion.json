@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Effects and animation",
-    "kind": "other",
+    "kind": "fuse",
     "tasks": [
       "fusion"
     ],
@@ -56,6 +56,13 @@
         "source": "https://akascape.gumroad.com/l/superdelusion",
         "checked_at": "2026-09-07",
         "note": "Structured from the existing source-backed catalogue description; no new installation test: Four psychedelic visual-effect modes with color, pattern and distortion controls. Requires Resolve 17+ Free or Studio."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://akascape.gumroad.com/l/superdelusion",
+        "checked_at": "2026-09-16T15:58:29.406Z",
+        "note": "Creator product listing explicitly identifies the delivered Fuse."
       }
     ],
     "unknownFields": [
@@ -65,6 +72,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "SuperDelusion",
       "url": "https://akascape.gumroad.com/l/superdelusion",

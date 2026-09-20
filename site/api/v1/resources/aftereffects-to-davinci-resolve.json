@@ -60,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "IgorRidanovic/AfterEffects_to_DaVinci_Resolve",
       "url": "https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve",

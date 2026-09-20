@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "mrJohnHolt/davinci-resolve-fusion-expressions",
       "url": "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions",

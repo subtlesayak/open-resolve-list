@@ -91,5 +91,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "89288fade8f2"
+  "legacy_id": "89288fade8f2",
+  "search_sources": [
+    "https://github.com/titasmallick/DaVinci-ConsoleBinding#readme",
+    "https://github.com/titasmallick/DaVinci-ConsoleBinding/commit/56e9759af9d44219cdc9a53b8adcab1926fa2055"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

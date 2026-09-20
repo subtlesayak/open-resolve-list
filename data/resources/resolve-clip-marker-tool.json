@@ -94,5 +94,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "1e2a1665fb20"
+  "legacy_id": "1e2a1665fb20",
+  "search_sources": [
+    "https://github.com/postflows/resolve-clip-marker-tool"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

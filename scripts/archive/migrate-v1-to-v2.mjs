@@ -1,11 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseCsv, parseExternalResources, isOfficialResource } from './build-catalogue.mjs';
-import { TASKS } from '../site/model.mjs';
-import { RESOURCE_KINDS, oldUrlId, slugify, validateResourceSet } from './resource-schema.mjs';
+import { parseCsv, parseExternalResources, isOfficialResource } from '../build-catalogue.mjs';
+import { TASKS } from '../../site/model.mjs';
+import { RESOURCE_KINDS, oldUrlId, slugify, validateResourceSet } from '../resource-schema.mjs';
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const plain = value => String(value || '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/<[^>]*>/g, '').replace(/\*\*/g, '').trim();
 const safeUrl = value => { try { return new URL(value).protocol === 'https:'; } catch { return false; } };

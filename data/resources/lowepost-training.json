@@ -67,5 +67,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "79279718352a"
+  "legacy_id": "79279718352a",
+  "search_sources": [
+    "https://lowepost.com/home/"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

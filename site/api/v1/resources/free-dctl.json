@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "bobtronic73/free-DCTL",
       "url": "https://github.com/bobtronic73/free-DCTL",

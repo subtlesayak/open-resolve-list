@@ -9,7 +9,7 @@
     "official": false,
     "reference": false,
     "category": "Effects / Fusion",
-    "kind": "other",
+    "kind": "ofx",
     "tasks": [
       "fusion"
     ],
@@ -42,6 +42,13 @@
         "source": "https://www.neatvideo.com/download",
         "checked_at": "2026-09-06T12:10:25.343Z",
         "note": "Recorded version evidence, not installation testing."
+      },
+      {
+        "field": "kind",
+        "level": "documented",
+        "source": "https://www.neatvideo.com/user-guides/nv6/NVRSUG.pdf",
+        "checked_at": "2026-09-16T15:58:29.400Z",
+        "note": "Resolve user guide installs the effect through the OpenFX panel."
       }
     ],
     "unknownFields": [
@@ -53,6 +60,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Neat Video",
       "url": "https://www.neatvideo.com/",

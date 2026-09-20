@@ -11,7 +11,7 @@
   "official": false,
   "reference": false,
   "category": "Fusion, motion graphics, visual effects, and package management",
-  "kind": "other",
+  "kind": "fuse",
   "tasks": [
     "fusion"
   ],
@@ -63,6 +63,13 @@
       "source": "https://github.com/Spicy-Acorn/fusionjson/releases/tag/v0.7.0",
       "checked_at": "2026-09-15T05:06:04.860Z",
       "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "kind",
+      "level": "documented",
+      "source": "https://github.com/Spicy-Acorn/fusionjson",
+      "checked_at": "2026-09-16T15:58:29.392Z",
+      "note": "Repository documents JSON Fuses and their supporting Lua module."
     }
   ],
   "unknownFields": [
@@ -75,5 +82,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "88a6f2074656"
+  "legacy_id": "88a6f2074656",
+  "search_sources": [
+    "https://github.com/Spicy-Acorn/fusionjson"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

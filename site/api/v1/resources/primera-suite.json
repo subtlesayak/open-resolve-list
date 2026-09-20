@@ -55,6 +55,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "geoffsmithBK/primera-suite",
       "url": "https://github.com/geoffsmithBK/primera-suite",

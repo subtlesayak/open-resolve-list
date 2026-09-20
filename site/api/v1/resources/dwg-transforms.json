@@ -55,6 +55,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "thatcherfreeman/dwg-transforms",
       "url": "https://github.com/thatcherfreeman/dwg-transforms",

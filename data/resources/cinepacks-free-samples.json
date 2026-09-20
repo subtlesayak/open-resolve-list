@@ -67,5 +67,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "f0afbc76f573"
+  "legacy_id": "f0afbc76f573",
+  "search_sources": [
+    "https://cinepacks.store/collections/free-packs"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

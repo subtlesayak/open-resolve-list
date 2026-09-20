@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "2c71303bbd99"
+  "legacy_id": "2c71303bbd99",
+  "search_sources": [
+    "https://retouch4.me/videoretouching"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

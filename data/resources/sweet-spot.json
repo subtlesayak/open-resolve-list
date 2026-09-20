@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "67058f8ab806"
+  "legacy_id": "67058f8ab806",
+  "search_sources": [
+    "https://cullenkellycolor.com/toolkit/sweet-spot"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

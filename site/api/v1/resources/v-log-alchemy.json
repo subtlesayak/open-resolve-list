@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "shenmintao/V-Log-Alchemy",
       "url": "https://github.com/shenmintao/V-Log-Alchemy",

@@ -99,5 +99,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "2236e55ae071"
+  "legacy_id": "2236e55ae071",
+  "search_sources": [
+    "https://github.com/Distortions81/DaVinci-Resolve-Container#readme",
+    "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/3a2831dc925133dc1613cc17a7501b15c7d01d6d"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

@@ -93,5 +93,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "7ff99f5352ce"
+  "legacy_id": "7ff99f5352ce",
+  "search_sources": [
+    "https://github.com/ciqueira/BaldavengerOFX"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

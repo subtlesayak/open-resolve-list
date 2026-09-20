@@ -82,5 +82,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "a00354ff1f5c"
+  "legacy_id": "a00354ff1f5c",
+  "search_sources": [
+    "https://github.com/FoxDanger/Control-Booster-OpenSourceCode"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

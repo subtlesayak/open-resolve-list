@@ -95,5 +95,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "cce447407c85"
+  "legacy_id": "cce447407c85",
+  "search_sources": [
+    "https://github.com/Gianluca-Improta/cinekive#readme",
+    "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.5.3"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

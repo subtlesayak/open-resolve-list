@@ -72,6 +72,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "50asa/shitsukan-diffusion-kit",
       "url": "https://github.com/50asa/shitsukan-diffusion-kit",

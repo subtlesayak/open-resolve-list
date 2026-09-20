@@ -55,6 +55,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Aerochrome Emulation PowerGrade",
       "url": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",

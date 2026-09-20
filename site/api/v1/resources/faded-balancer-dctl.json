@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "fabiocolor/Faded-Balancer-DCTL",
       "url": "https://github.com/fabiocolor/Faded-Balancer-DCTL",

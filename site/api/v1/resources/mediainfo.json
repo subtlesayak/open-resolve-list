@@ -69,6 +69,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "MediaInfo",
       "url": "https://mediaarea.net/en/MediaInfo",

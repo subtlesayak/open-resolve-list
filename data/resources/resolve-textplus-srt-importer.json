@@ -76,5 +76,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "6975078a38f0"
+  "legacy_id": "6975078a38f0",
+  "search_sources": [
+    "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

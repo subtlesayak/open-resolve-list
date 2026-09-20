@@ -93,5 +93,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "559e109baa37"
+  "legacy_id": "559e109baa37",
+  "search_sources": [
+    "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery#readme",
+    "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery/releases/tag/v1.1.0"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

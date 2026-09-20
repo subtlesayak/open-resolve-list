@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Cheetah Video Proxy Generator",
       "url": "https://fractale.itch.io/cheetah-video-proxy-generator",

@@ -1,5 +1,5 @@
 {
-  "researched_at": "2026-09-06",
+  "researched_at": "2026-09-20",
   "method": "Targeted web searches and accessible r/davinciresolve posts/comments; public GitHub API metadata and upstream READMEs checked. Not a complete subreddit scrape: bulk JSON was unavailable; wiki subpages could not be fetched.",
   "sources": {
     "may": "https://www.reddit.com/r/davinciresolve/comments/1t0uqd3/may_devtools_monthly_megathread_for_tool_builders/",
@@ -14,7 +14,9 @@
     "plugins": "https://www.reddit.com/r/davinciresolve/comments/1nxgc8r/the_best_plugins_for_davinci_resolve_2025_that/",
     "recommendations": "https://www.reddit.com/r/davinciresolve/comments/1nw4cu6/what_are_the_free_best_plugins_to_install/",
     "rembg": "https://www.reddit.com/r/davinciresolve/comments/1mw79tb/free_ai_plugin_for_background_removal_in_resolve/",
-    "wiki": "https://www.reddit.com/r/davinciresolve/wiki/index/"
+    "wiki": "https://www.reddit.com/r/davinciresolve/wiki/index/",
+    "september_open_source": "https://www.reddit.com/r/editors/comments/1w6ilmv/sept_open_source_tools_around_post_production/",
+    "recent_plugins": "https://www.reddit.com/r/davinciresolve/comments/1weilst/whats_one_plugin_or_asset_pack_you_cant_live_without/"
   },
   "additions": [
     {
@@ -192,6 +194,34 @@
       "upstream_url": "https://github.com/nikita-petrovich/OFX-QRCoder",
       "license_detected": "MIT",
       "metadata_checked_at": "2026-09-06T11:14:26Z"
+    },
+    {
+      "repository": "tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+      "source": "september_open_source",
+      "upstream_url": "https://github.com/tetsutaroh0/DaVinci-Resolve-TextPlus-Style-Gallery",
+      "status": "primary source verified; catalogue candidate",
+      "note": "MIT Lua script; version 1.1.0 released 2026-09-13; Windows and macOS install paths documented."
+    },
+    {
+      "repository": "oldandangry/Film-Juicer",
+      "source": "september_open_source",
+      "upstream_url": "https://github.com/oldandangry/Film-Juicer",
+      "status": "primary source verified; catalogue candidate",
+      "note": "GPLv3 Resolve OFX film-emulation plugin; Reddit post did not provide a direct URL, so repository was found separately."
+    },
+    {
+      "repository": "heiba-wk/DaVinci-ASR",
+      "source": "september_open_source",
+      "upstream_url": "https://github.com/heiba-wk/DaVinci-ASR",
+      "status": "lead; metadata review pending",
+      "note": "Apache 2.0 local ASR and script-match workflow; primary source should be checked before listing."
+    },
+    {
+      "repository": "AnotherMeatsack/panalux",
+      "source": "recent_plugins",
+      "upstream_url": "https://github.com/AnotherMeatsack/panalux",
+      "status": "lead; outside main Resolve catalogue",
+      "note": "Free macOS Micro Color Panel bridge for Lightroom Classic, not a Resolve plugin."
     }
   ],
   "excluded": [

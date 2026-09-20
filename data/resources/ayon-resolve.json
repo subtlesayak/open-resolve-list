@@ -73,5 +73,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "32c4f04820f2"
+  "legacy_id": "32c4f04820f2",
+  "search_sources": [
+    "https://github.com/ynput/ayon-resolve"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

@@ -55,6 +55,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Greyscale Ramp DCTL",
       "url": "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",

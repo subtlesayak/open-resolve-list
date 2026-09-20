@@ -84,5 +84,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "0115fbab0926"
+  "legacy_id": "0115fbab0926",
+  "search_sources": [
+    "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

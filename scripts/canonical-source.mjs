@@ -3,10 +3,13 @@ import path from 'node:path';
 import { validateResourceSet } from './resource-schema.mjs';
 
 export function loadCanonicalResources(root) {
-  const index = JSON.parse(fs.readFileSync(path.join(root, 'data/resources/index.json'), 'utf8'));
-  const records = index.entries.map(entry => JSON.parse(fs.readFileSync(path.join(root, 'data/resources', `${entry.id}.json`), 'utf8')));
+  const directory=path.join(root,'data/resources');
+  const records=fs.readdirSync(directory).filter(name=>name.endsWith('.json')&&name!=='index.json').sort().map(name=>{
+    const record=JSON.parse(fs.readFileSync(path.join(directory,name),'utf8'));
+    if(name!==record.id+'.json')throw new Error('Canonical filename does not match resource ID: '+name);
+    return record;
+  });
   validateResourceSet(records);
-  if (records.length !== index.entries.length || records.some(record => !index.entries.some(entry => entry.id === record.id && entry.url === record.urls.canonical))) throw new Error('Canonical resource index mismatch');
   return records;
 }
 
@@ -32,7 +35,8 @@ export function toSiteEntry(record) {
     category: record.category, kind: record.kind, tasks: record.tasks, tags: record.tags, description: record.description,
     access: record.access, accessGroup: record.accessGroup || accessGroup(record.access), platforms: record.platforms,
     platformNotes: record.platform_notes, requirements: record.requirements, evidence: record.evidence,
-    unknownFields: record.unknownFields, recommended: record.recommended, recommendation: record.recommendation,
+    unknownFields: [...(!record.platforms.length?['platforms']:[]),...(!record.requirements.editions.length?['Resolve edition']:[]),...(!record.requirements.resolve.length?['Resolve version']:[]),...(!record.requirements.architectures.length?['architecture']:[]),...(record.requirements.processing==='unknown'?['processing']:[]),...(!record.version.version&&record.version.kind!=='not-applicable'?['tool version']:[])], recommended: record.recommended, recommendation: record.recommendation,
+    previousUrls: record.urls.previous,
     version, releaseDate: ['stable-release', 'prerelease'].includes(version.kind) || ['release', 'devlog'].includes(version.date_kind) ? version.date : null,
     activityDate: record.last_pushed_at, stars: record.stars, metadataChecked: record.metadata_checked_at,
     history: record.history,

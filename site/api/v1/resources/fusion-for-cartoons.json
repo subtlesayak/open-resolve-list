@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "bryab/fusion-for-cartoons",
       "url": "https://github.com/bryab/fusion-for-cartoons",

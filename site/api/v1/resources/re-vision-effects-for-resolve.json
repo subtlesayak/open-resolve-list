@@ -47,6 +47,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "RE:Vision Effects for Resolve",
       "url": "https://revisionfx.com/products/for/resolve/",

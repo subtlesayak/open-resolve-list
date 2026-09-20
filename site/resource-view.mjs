@@ -1,0 +1,29 @@
+import {FORMAT_LABELS,TASKS,LEVELS,evidenceCoverage,relatedResources,relativeDate,versionText} from './model.mjs';
+export const escapeHtml=value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+const text=value=>escapeHtml(value==null||value===''||value==='unknown'?'Not established':Array.isArray(value)?value.join(' · ')||'Not established':value);
+const safeUrl=value=>{try{return new URL(value).protocol==='https:';}catch{return false;}};
+const link=(label,url)=>safeUrl(url)?`<a href="${escapeHtml(url)}">${escapeHtml(label)}</a>`:escapeHtml(label);
+export function structuredResource(entry,pageUrl){
+ const type=(entry.kind==='training'||(entry.kind==='reference'&&/training|tutorial|course/i.test(entry.name)))?'LearningResource':entry.kind==='collection'?'CollectionPage':entry.kind==='reference'?'TechArticle':['lut','powergrade','template','other'].includes(entry.kind)?'CreativeWork':'SoftwareApplication';
+ return {'@context':'https://schema.org','@type':'WebPage',url:pageUrl,name:entry.name+' | Open Resolve List',description:entry.description,mainEntity:{'@type':type,name:entry.name,description:entry.description,url:entry.url,...(type==='SoftwareApplication'?{applicationCategory:entry.category}:{})}};
+}
+export function resourceView(entry,entries=[],prefix='../../'){
+ const r=entry.requirements,coverage=evidenceCoverage(entry),evidence=entry.evidence||[];
+ const fact=(label,value)=>`<dt>${escapeHtml(label)}</dt><dd>${text(value)}</dd>`;
+ const ranges=r.resolve.map(range=>[range.edition,range.min===range.max?range.min:(range.min||'Any')+(range.max?'–'+range.max:'+')].filter(Boolean).join(' ')).join('; ');
+ const related=relatedResources(entry,entries),last=evidence.map(e=>e.checked_at).filter(Boolean).sort().at(-1);
+ const fieldEvidence=field=>{const found=coverage.fields.find(f=>f.key===field)?.evidence||[];return found.length?found.map(e=>link(LEVELS[e.level]||e.level,e.source)).join(' · '):'Source level not established';};
+ const sources=evidence.map(e=>`<li><strong>${escapeHtml(e.field)} — ${escapeHtml(LEVELS[e.level])}</strong><br>${link('Original source',e.source)} · checked ${text(e.checked_at?.slice(0,10))}${e.note?`<p>${escapeHtml(e.note)}</p>`:''}</li>`).join('');
+ const histories=[...(entry.history||[])].sort((a,b)=>(b.catalogue_date||'').localeCompare(a.catalogue_date||'')).map(h=>`<li><h3>${text(h.from)} → ${text(h.to)}</h3><p>${text(h.summary)}</p><p>Recorded ${text(h.catalogue_date)} · upstream date ${text(h.upstream_date)}</p><ul>${(h.changes||[]).map(c=>`<li>${escapeHtml(c)}</li>`).join('')}</ul>${link('Source changelog',h.source)}</li>`).join('');
+ return `<p class="eyebrow">${text(entry.category)} · ${text(FORMAT_LABELS[entry.kind]||entry.kind)}</p><h1>${escapeHtml(entry.name)}</h1><p class="creator">By ${text(entry.creator)}</p><p class="lede">${escapeHtml(entry.description)}</p>
+ <div class="resource-actions">${link('Creator site ↗',entry.url)}<a href="${prefix}?compare=${encodeURIComponent(entry.id)}&amp;kind=${encodeURIComponent(entry.kind)}&amp;edition=Studio">Compare similar resources</a></div>
+ <div class="resource-sections"><section><h2>Compatibility</h2><dl class="facts">${fact('Platforms',entry.platforms)}${fact('Platform caveats',entry.platformNotes)}${fact('Resolve edition',r.editions)}${fact('Resolve version',ranges)}${fact('Architecture',r.architectures)}</dl><p class="muted">Unknown means not established, not unsupported. Edition and version limits can differ by feature; consult the linked evidence.</p></section>
+ <section><h2>Evidence coverage</h2><p>${coverage.established} / ${coverage.total} fields established</p><meter min="0" max="${coverage.total}" value="${coverage.established}" aria-label="Established evidence fields">${coverage.established}/${coverage.total}</meter><ul class="evidence-coverage-list">${coverage.fields.map(f=>`<li><strong>${escapeHtml(f.label)}</strong> — ${f.known?'Established':'Unknown'}${f.known?' · '+fieldEvidence(f.key):''}</li>`).join('')}</ul><p class="muted">Coverage describes recorded evidence, not an installation test.</p></section>
+ <section><h2>Requirements</h2><dl class="facts">${fact('GPU',r.gpu)}${fact('Dependencies',r.dependencies)}${fact('Installation',r.installation)}${fact('Account',r.account)}${fact('Processing',r.processing)}</dl></section>
+ <section><h2>Pricing and access</h2><dl class="facts">${fact('Access',entry.access)}${fact('Payment model',r.pricing)}</dl><p class="muted">Check the creator site for current pricing and licence terms.</p></section>
+ <section><h2>Version and activity</h2><dl class="facts">${fact('Tool version',versionText(entry.version))}${fact('Release or provider update',entry.releaseDate?relativeDate(entry.releaseDate)+' · '+entry.releaseDate:'Not established')}${fact('Repository activity',entry.activityDate?relativeDate(entry.activityDate)+' · '+entry.activityDate:'Not applicable')}${fact('Latest field review',last?last.slice(0,10):'Not established')}</dl><p>${link('Version source',entry.version.source)}</p></section>
+ <section><h2>Tasks</h2><ul>${entry.tasks.map(task=>`<li>${escapeHtml(TASKS[task]||task)}</li>`).join('')||'<li>Not established</li>'}</ul></section></div>
+ <section><h2>Version history</h2>${histories?`<ol>${histories}</ol>`:'<p>No version changes recorded yet.</p>'}</section>
+ <section><h2>Related tools</h2><ul>${related.map(other=>`<li><a href="${prefix}resource/${encodeURIComponent(other.id)}/">${escapeHtml(other.name)}</a> · ${text(FORMAT_LABELS[other.kind]||other.kind)}</li>`).join('')||'<li>No related tools established.</li>'}</ul><p class="muted">Related by format, category or task; compatibility is specific to each tool.</p></section>
+ <section><h2>Sources and limitations</h2><ul class="evidence-list">${sources||'<li>No field-level evidence recorded.</li>'}</ul></section>`;
+}

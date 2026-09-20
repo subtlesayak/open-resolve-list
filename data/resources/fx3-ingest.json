@@ -92,5 +92,11 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "0d5610bd97f2"
+  "legacy_id": "0d5610bd97f2",
+  "search_sources": [
+    "https://github.com/jpmontez/fx3-ingest#readme",
+    "https://github.com/jpmontez/fx3-ingest/commit/56a8cb3a0fa130cb8e822d59d23b9e80e25f2a2f"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

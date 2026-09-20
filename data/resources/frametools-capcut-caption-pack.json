@@ -73,5 +73,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "e96c4c8239aa"
+  "legacy_id": "e96c4c8239aa",
+  "search_sources": [
+    "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FrameTools.CapCutCaptions/com.FrameTools.CapCutCaptions.atom"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

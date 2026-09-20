@@ -76,6 +76,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "nikita-petrovich/np-public-dctl",
       "url": "https://github.com/nikita-petrovich/np-public-dctl",

@@ -67,5 +67,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "aa64fdb4a3b6"
+  "legacy_id": "aa64fdb4a3b6",
+  "search_sources": [
+    "https://forum.blackmagicdesign.com/viewtopic.php?t=175315"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

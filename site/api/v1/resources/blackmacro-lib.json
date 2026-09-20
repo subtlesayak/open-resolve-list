@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "KipJM/blackmacro-lib",
       "url": "https://github.com/KipJM/blackmacro-lib",

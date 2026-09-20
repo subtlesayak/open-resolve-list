@@ -74,5 +74,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "0c1a0fbd0aff"
+  "legacy_id": "0c1a0fbd0aff",
+  "search_sources": [
+    "https://github.com/derwok/SpeedEditorCheatSheet"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

@@ -65,6 +65,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "SuperPixelSort",
       "url": "https://akascape.gumroad.com/l/superpixelsort",

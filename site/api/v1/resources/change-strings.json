@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Change Strings",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.NoahH.ChangeStrings/com.NoahH.ChangeStrings.atom",

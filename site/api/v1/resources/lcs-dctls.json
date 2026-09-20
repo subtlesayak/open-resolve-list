@@ -52,6 +52,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "LCS-VSP/LCS-DCTLs",
       "url": "https://github.com/LCS-VSP/LCS-DCTLs",

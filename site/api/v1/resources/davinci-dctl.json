@@ -61,6 +61,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Georj01/davinci-dctl",
       "url": "https://github.com/Georj01/davinci-dctl",

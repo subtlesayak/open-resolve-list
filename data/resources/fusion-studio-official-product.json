@@ -144,5 +144,10 @@
       ]
     }
   ],
-  "legacy_id": "b1d88d97c450"
+  "legacy_id": "b1d88d97c450",
+  "search_sources": [
+    "https://www.blackmagicdesign.com/products/fusion"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

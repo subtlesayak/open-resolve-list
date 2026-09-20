@@ -44,6 +44,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "DaVinci TTS",
       "url": "https://ko-fi.com/s/9e769243b5",

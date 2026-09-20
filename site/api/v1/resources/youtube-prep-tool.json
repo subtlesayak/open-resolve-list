@@ -45,6 +45,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "YouTube Prep Tool",
       "url": "https://ravinmaddhatter.itch.io/youtube-prep-tool",

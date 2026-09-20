@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Fusion 18 GPU Accelerated Tool Comparison Guide",
       "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",

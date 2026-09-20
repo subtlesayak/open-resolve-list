@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Blackmagic Cloud Manual",
       "url": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",

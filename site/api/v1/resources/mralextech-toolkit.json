@@ -47,6 +47,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "MrAlexTech toolkit",
       "url": "https://www.mralextech.com/",

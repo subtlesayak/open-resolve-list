@@ -75,5 +75,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "2560a9f09276"
+  "legacy_id": "2560a9f09276",
+  "search_sources": [
+    "https://stirlingsupply.co/products/proto-v3"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

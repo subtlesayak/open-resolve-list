@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Demystify-Color/DCTLs",
       "url": "https://github.com/Demystify-Color/DCTLs",

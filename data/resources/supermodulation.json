@@ -83,5 +83,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "89d6f4ac00d7"
+  "legacy_id": "89d6f4ac00d7",
+  "search_sources": [
+    "https://akascape.gumroad.com/l/supermodulation"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

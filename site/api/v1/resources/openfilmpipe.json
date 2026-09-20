@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "lupoter/Openfilmpipe",
       "url": "https://github.com/lupoter/Openfilmpipe",

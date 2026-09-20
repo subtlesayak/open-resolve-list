@@ -53,6 +53,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "npeason/Tetra-DCTLOFX",
       "url": "https://github.com/npeason/Tetra-DCTLOFX",

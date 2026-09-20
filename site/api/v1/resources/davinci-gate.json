@@ -65,6 +65,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "randyrektor/DaVinci-Gate",
       "url": "https://github.com/randyrektor/DaVinci-Gate",

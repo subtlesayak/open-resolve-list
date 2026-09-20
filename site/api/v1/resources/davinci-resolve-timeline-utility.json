@@ -61,6 +61,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "bryanrandell/DaVinci-Resolve-Timeline-Utility",
       "url": "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility",

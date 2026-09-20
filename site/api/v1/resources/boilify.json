@@ -76,6 +76,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Microck/boilify",
       "url": "https://github.com/Microck/boilify",

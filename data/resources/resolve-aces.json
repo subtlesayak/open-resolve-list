@@ -85,5 +85,10 @@
   "recommended": false,
   "recommendation": null,
   "history": [],
-  "legacy_id": "ce6568f5c467"
+  "legacy_id": "ce6568f5c467",
+  "search_sources": [
+    "https://github.com/xtremestuff/resolve-aces"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": false
 }

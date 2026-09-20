@@ -62,6 +62,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "ra100/micro-color-panel-controller",
       "url": "https://github.com/ra100/micro-color-panel-controller",

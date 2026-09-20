@@ -26,6 +26,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: node scripts/check-updates.mjs --github-changelogs
       - name: Check external source pages
+        if: always()
         run: node scripts/check-updates.mjs --external
       - name: Write aggregate review summary
         if: always()

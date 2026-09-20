@@ -116,5 +116,10 @@
       ]
     }
   ],
-  "legacy_id": "2ef9a8fce1c4"
+  "legacy_id": "2ef9a8fce1c4",
+  "search_sources": [
+    "https://github.com/postflows/resolve-multicam-angle-colorizer"
+  ],
+  "tags_reviewed_at": "2026-09-08",
+  "requirements_reviewed": true
 }

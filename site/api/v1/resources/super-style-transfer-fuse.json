@@ -54,6 +54,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "Akascape/Super-Style-Transfer-Fuse",
       "url": "https://github.com/Akascape/Super-Style-Transfer-Fuse",

@@ -63,6 +63,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "murtazatunio/lenscorrect-ofx",
       "url": "https://github.com/murtazatunio/lenscorrect-ofx",

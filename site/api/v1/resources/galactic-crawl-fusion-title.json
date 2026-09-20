@@ -74,6 +74,7 @@
     ],
     "recommended": false,
     "recommendation": null,
+    "previousUrls": [],
     "version": {
       "name": "pacoestrada/galactic-crawl-fusion-title",
       "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title",
