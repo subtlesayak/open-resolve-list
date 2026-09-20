@@ -16,6 +16,8 @@ Original contributions are accepted under CC0-1.0; see [LICENSE](LICENSE), [attr
 
 Every catalogue entry has an explicit version state in `data/versions.json`. After `node scripts/check-updates.mjs --github`, run `node scripts/build-versions.mjs --github .research/update-check/github.json`, then regenerate the catalogue. Stable releases, prereleases, commit revisions, vendor versions and Reactor package versions must stay distinguishable. Vendor evidence retains its original check date. Missing vendor versions remain `unverified`; never invent version numbers. CI validates the catalogue on Windows and Linux without uploading local reports.
 
+Every `update listings` pass must also review previous catalogue releases and the provider changelog or release source for each changed plugin or resource. Keep those links in `data/provider-updates.json`, expose the relevant catalogue release on the resource page, and verify the Updates page after rebuilding. Do not publish personal data, contact details, credentials, private files, local paths or bookmark-export details anywhere in the repository, GitHub release notes, generated site or submission forms.
+
 Record newly checked vendor versions in `data/version-overrides.json`, with their exact source and check date. These override earlier discovery evidence without rewriting historical snapshots. Do not convert listing/forum ages into release dates.
 
 **Reports are local-only.** Do not commit or upload audit, research, or discovery reports. Keep them in the ignored report paths and show them locally. Publish catalogue entries and structured source data only; public documentation must not link to ignored reports.
