@@ -1,6 +1,6 @@
 const make=(tag,text,cls)=>{const el=document.createElement(tag);if(text)el.textContent=text;if(cls)el.className=cls;return el;};
 const link=(text,url)=>{const a=make('a',text);if(new URL(url).protocol==='https:')a.href=url;return a;};
-const official = h => /(^|\.)blackmagicdesign\.com$/.test(new URL(h.url).hostname);
+const official = h => {try{return /(^|\\.)blackmagicdesign\\.com$/.test(new URL(h.url).hostname);}catch{return false;}};
 export function groupUpdates(releases,updates){return [...releases].sort((a,b)=>b.version.localeCompare(a.version,undefined,{numeric:true})).map(release=>({...release,updates:updates.filter(h=>h.release===release.version).sort((a,b)=>Number(official(b))-Number(official(a)))}));}
 export function inlineTokens(text) {
  const tokens=[],pattern=/(\*\*([^*]+)\*\*|\[([^\]]+)\]\((https:\/\/[^)]+)\))/g;
