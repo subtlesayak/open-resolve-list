@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>Open Resolve List — new tools and updates</title><link>https://subtlesayak.github.io/open-resolve-list/</link><description>New catalogue additions and recorded provider updates, grouped by catalogue release.</description><item><title>v1.22 — 38 additions and refreshed tool releases</title><link>https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22</link><guid isPermaLink="true">https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22</guid><pubDate>Tue, 15 Sep 2026 11:21:28 GMT</pubDate><description>### Updated tools
+<rss version="2.0"><channel><title>Open Resolve List — new tools and updates</title><link>https://subtlesayak.github.io/open-resolve-list/</link><description>New catalogue additions and recorded provider updates, grouped by catalogue release.</description><item><title>v1.23 — Catalogue UI and source review</title><link>https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.23</link><guid isPermaLink="true">https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.23</guid><pubDate>Sun, 20 Sep 2026 05:48:02 GMT</pubDate><description>## Catalogue and website updates
+
+- Hide official Blackmagic Design resources by default, with a checkbox to show them.
+- Put each resource source link on its own line in catalogue results.
+- Add a verified YouTube creators directory for Resolve, Fusion and color education.
+- Disambiguate repeated directory names with creator identifiers, including duplicate DCTL repositories.
+- Refresh the accumulated source review across GitHub repositories, changelogs, external providers, Blackmagic Design pages and Resolve-related Reddit communities.
+- Review the local `D:\OLD D\Video Editing` archive and retain only verified public source leads.
+
+This release records catalogue and presentation changes. Listed third-party tools retain their own licenses and distribution terms.
+</description></item><item><title>v1.22 — 38 additions and refreshed listings</title><link>https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22</link><guid isPermaLink="true">https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22</guid><pubDate>Tue, 15 Sep 2026 18:15:31 GMT</pubDate><description>### Updated tools
 
 - **[thatcherfreeman/utility-dctls](https://github.com/thatcherfreeman/utility-dctls)**: a495531de3e4704a0a6e0113daa69be303172ed0 → 5f6f4e55a932c9b4599b8e53727305aad73eb4b1. Fixes a NaN issue in the source revision. This is a repository revision, not a published release. [Source changelog](https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1).
 - **[thatcherfreeman/aces-transforms](https://github.com/thatcherfreeman/aces-transforms)**: e72d6de9a7328005956e5fc597c8b603614ea309 → 50b385ae3b0dfe35e8179ed57960a690a3242525. Adds a linear-to-log DCTL header. This is a source revision, not a published release. [Source changelog](https://github.com/thatcherfreeman/aces-transforms/commit/50b385ae3b0dfe35e8179ed57960a690a3242525).

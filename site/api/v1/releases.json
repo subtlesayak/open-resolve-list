@@ -2,8 +2,13 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "v1.23",
+      "date": "2026-09-20T05:48:02Z",
+      "source": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.23"
+    },
+    {
       "version": "v1.22",
-      "date": "2026-09-15T11:21:28.719Z",
+      "date": "2026-09-15T18:15:31Z",
       "source": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"
     },
     {
