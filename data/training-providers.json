@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-20",
+  "scope": "Official Blackmagic Design training resources and partner guidance.",
+  "providers": [
+    {
+      "id": "blackmagic-design-training",
+      "name": "Blackmagic Design training",
+      "channel": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "website": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "focus": "Official DaVinci Resolve training videos, books, lesson files and the certified trainer directory.",
+      "evidence": "https://www.blackmagicdesign.com/products/davinciresolve/training"
+    }
+  ]
+}

@@ -10,7 +10,9 @@
     "https://www.reddit.com/r/davinciresolve/comments/1v7bsce/",
     "https://icolorist.com/training-and-support/",
     "https://www.jamiedickinson.net/training",
-    "https://diegoyhama.com/home/"
+    "https://diegoyhama.com/home/",
+    "https://training.team2films.com/",
+    "https://www.reddit.com/r/davinciresolve/comments/1qcemf3/will_they_update_the_training_someday/"
   ],
   "creators": [
     {
@@ -103,6 +105,13 @@
       "focus": "Structured Resolve color, HDR, color science and professional grading education",
       "website": "https://icolorist.com/training-and-support/",
       "evidence": "https://icolorist.com/training-and-support/"
+    },
+    {
+      "name": "Team 2 Films",
+      "channel": "https://www.youtube.com/@team2films",
+      "focus": "Practical DaVinci Resolve editing, color, cinematography and filmmaker training from a Blackmagic Design certified training partner.",
+      "website": "https://training.team2films.com/",
+      "evidence": "https://training.team2films.com/"
     }
   ]
 }

@@ -126,6 +126,15 @@ test('every entry has curated hidden search tags and matching source records',()
  assert.equal(new Set(tags.entries.map(e=>e.url)).size,data.entries.length);
  for(const e of data.entries){const row=tags.entries.find(t=>t.url===e.url);assert.ok(row);assert.deepEqual(e.tags,row.tags);assert.ok(e.tags.length>=2);assert.equal(new Set(e.tags).size,e.tags.length);}
 });
+test('creator directory keeps official training, educators and tool creators in separate groups',()=>{
+ const html=fs.readFileSync(new URL('../site/creators.html',import.meta.url),'utf8');
+ assert.match(html,/Official Blackmagic Design training/);
+ assert.match(html,/Educators and YouTube creators/);
+ assert.match(html,/Tool creators/);
+ assert.match(html,/Team 2 Films/);
+ assert.match(html,/class="github-link"[^>]*>GitHub/);
+ assert.match(html,/GitHub ↗<\/a><a class="submit-link"/);
+});
 test('search finds editorial concepts and spelling variants without broad category false positives',()=>{
  const results=q=>filterEntries(data.entries,{...DEFAULTS,edition:'Studio',q}).map(e=>e.name);
  for(const name of ['CinePrint35','Filmbox Pro','Dehancer Pro','C.R.A.F.T. PowerGrade'])assert.ok(results('Kodak').includes(name));
