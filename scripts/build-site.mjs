@@ -72,7 +72,7 @@ export function buildSite(){
  const sitemap=[`<?xml version="1.0" encoding="UTF-8"?>`,`<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`,`<url><loc>${siteBase}</loc></url>`,`<url><loc>${siteBase}directory.html</loc></url>`,`<url><loc>${siteBase}creators.html</loc></url>`,`<url><loc>${siteBase}about.html</loc></url>`,`<url><loc>${siteBase}updates.html</loc></url>`,...resources.map(entry=>`<url><loc>${siteBase}resource/${xmlEscape(entry.id)}/</loc></url>`),'</urlset>'].join('');
  fs.writeFileSync(path.join(root,'site/sitemap.xml'),sitemap+'\n');
  fs.writeFileSync(path.join(root,'site/robots.txt'),'User-agent: *\nAllow: /\nSitemap: '+siteBase+'sitemap.xml\n');
- for(const file of fs.readdirSync(path.join(root,'site'),{recursive:true}).filter(file=>String(file).endsWith('.html'))){const target=path.join(root,'site',file);const html=fs.readFileSync(target,'utf8');if(html.includes('class="site-footer"')&&!html.includes('bmc-button'))fs.writeFileSync(target,html.replace('<footer class="site-footer">','<footer class="site-footer">'+coffeeButton));}
+ for(const file of fs.readdirSync(path.join(root,'site'),{recursive:true}).filter(file=>String(file).endsWith('.html'))){const target=path.join(root,'site',file);const html=fs.readFileSync(target,'utf8');if(html.includes('class="site-footer"')&&!html.includes('bmc-button'))fs.writeFileSync(target,html.replace(/<footer class="site-footer"([^>]*)>/,'<footer class="site-footer"$1>'+coffeeButton));}
  console.log(`Built searchable site data for ${entries.length} resources; ${entries.filter(e=>e.evidence.length).length} records with evidence.`);return data;
 }
 
