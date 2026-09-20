@@ -86,6 +86,10 @@
     "history": [],
     "catalogueReleases": [
       {
+        "version": "v1.24",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24"
+      },
+      {
         "version": "v1.4",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.4"
       }

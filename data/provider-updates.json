@@ -2,6 +2,266 @@
   "schema_version": 1,
   "entries": [
     {
+      "name": "tmoroney/auto-subs",
+      "url": "https://github.com/tmoroney/auto-subs",
+      "from": "v3.8.0",
+      "to": "v3.10.1",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
+      "summary": "Resolve users: this fixes a serious 3.10.0 bug where AutoSubs froze the Fusion page and messed with other scripts. The automatic start logic that caused this is gone.  To connect, run Workspace → Scripts → AutoSubs once per session, like before 3.10.0. Note the script can no long",
+      "changes": [
+        "Resolve users: this fixes a serious 3.10.0 bug where AutoSubs froze the Fusion page and messed with other scripts. The automatic start logic that caused this is gone.  To connect, run Workspace → Scripts → AutoSubs once per session, like before 3.10.0. Note the script can no long"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1"
+        }
+      ]
+    },
+    {
+      "name": "TeddieWang/BarkTed",
+      "url": "https://github.com/TeddieWang/BarkTed",
+      "from": "v1.0.0",
+      "to": "v1.1.0",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.1.0",
+      "summary": "# BarkTed 1.1 | Subtitles for DaVinci Resolve Studio  Free GitHub edition for Apple Silicon Macs. Requires paid DaVinci Resolve Studio 21 or later; Studio 21.0.4 or newer is recommended. The free edition of Resolve is not supported.  ## Download  Choose BarkTed-1.1-Apple-Silicon-",
+      "changes": [
+        "# BarkTed 1.1 | Subtitles for DaVinci Resolve Studio  Free GitHub edition for Apple Silicon Macs. Requires paid DaVinci Resolve Studio 21 or later; Studio 21.0.4 or newer is recommended. The free edition of Resolve is not supported.  ## Download  Choose BarkTed-1.1-Apple-Silicon-"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/TeddieWang/BarkTed/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.5.2",
+      "to": "v4.8.13",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
+      "summary": "## v4.8.13 — `include_linked=\"false\"` no longer relinks  ### Fixed  - The `include_linked` normaliser on timeline moves handled the boolean `False` but not the string spellings (#262, @Dev-next-gen). A caller sending `\"false\"` got a set containing the literal word, which is truth",
+      "changes": [
+        "## v4.8.13 — `include_linked=\"false\"` no longer relinks  ### Fixed  - The `include_linked` normaliser on timeline moves handled the boolean `False` but not the string spellings (#262, @Dev-next-gen). A caller sending `\"false\"` got a set containing the literal word, which is truth"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "mhadifilms/dvr",
+      "url": "https://github.com/mhadifilms/dvr",
+      "from": "v1.6.4",
+      "to": "v1.7.0",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.7.0",
+      "summary": "## What's Changed * v1.7.0: close native-MCP capability gaps, stop enum drift by @mhadifilms in https://github.com/mhadifilms/dvr/pull/6   Full Changelog: https://github.com/mhadifilms/dvr/compare/v1.6.4...v1.7.0",
+      "changes": [
+        "## What's Changed * v1.7.0: close native-MCP capability gaps, stop enum drift by @mhadifilms in https://github.com/mhadifilms/dvr/pull/6   Full Changelog: https://github.com/mhadifilms/dvr/compare/v1.6.4...v1.7.0"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/mhadifilms/dvr/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.8.1",
+      "to": "v1.8.2",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
+      "summary": "Improved film rendering, editing controls, and performance.  For Apple silicon Macs with macOS 14 or later. Download the installer for the Mac app and DaVinci Resolve and Final Cut Pro plugins.",
+      "changes": [
+        "Improved film rendering, editing controls, and performance.  For Apple silicon Macs with macOS 14 or later. Download the installer for the Mac app and DaVinci Resolve and Final Cut Pro plugins."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2"
+        }
+      ]
+    },
+    {
+      "name": "pacoestrada/galactic-crawl-fusion-title",
+      "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title",
+      "from": "v0.1.0",
+      "to": "v0.2.0",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-18",
+      "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.2.0",
+      "summary": "# Galactic Crawl v0.2.0  Nueva presentación de Paco Estrada para el título Fusion con texto en perspectiva y estrellas editables de DaVinci Resolve 21.  El texto genérico de aventura espacial se sustituye por una presentación breve de Paco: comunicación y producción sonora, divul",
+      "changes": [
+        "# Galactic Crawl v0.2.0  Nueva presentación de Paco Estrada para el título Fusion con texto en perspectiva y estrellas editables de DaVinci Resolve 21.  El texto genérico de aventura espacial se sustituye por una presentación breve de Paco: comunicación y producción sonora, divul"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "KeibiSoft/KeibiDrop",
+      "url": "https://github.com/KeibiSoft/KeibiDrop",
+      "from": "v0.4.7",
+      "to": "v0.4.8",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-15",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
+      "summary": "Two computers on the same network connect to each other again.  A session no longer dies a few seconds after it connects.  A lost heartbeat reconnects instead of ending the session.  Each one broke a connection that should have worked, so update.  Send one link instead of a code.",
+      "changes": [
+        "Two computers on the same network connect to each other again.  A session no longer dies a few seconds after it connects.  A lost heartbeat reconnects instead of ending the session.  Each one broke a connection that should have worked, so update.  Send one link instead of a code."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8"
+        }
+      ]
+    },
+    {
+      "name": "WheheoHu/pybmd",
+      "url": "https://github.com/WheheoHu/pybmd",
+      "from": "v2026.2.0",
+      "to": "v2026.3.0",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-18",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
+      "summary": "## API ### Changes for DaVinci Resolve 21.0.3 / 21.0.4 / 21.1.0  ### Resolve - Add `get_layout_preset_list()` - Returns the list of UI layout presets (DR 21.0.3) - Add `get_burn_in_preset_list()` - Returns the list of data burn-in presets (DR 21.0.3) - Add `delete_burn_in_preset(",
+      "changes": [
+        "## API ### Changes for DaVinci Resolve 21.0.3 / 21.0.4 / 21.1.0  ### Resolve - Add `get_layout_preset_list()` - Returns the list of UI layout presets (DR 21.0.3) - Add `get_burn_in_preset_list()` - Returns the list of data burn-in presets (DR 21.0.3) - Add `delete_burn_in_preset("
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WheheoHu/pybmd/blob/master/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "stoatworks-labs/resolve-configurator",
+      "url": "https://github.com/stoatworks-labs/resolve-configurator",
+      "from": "v0.1.5",
+      "to": "v0.1.6",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-17",
+      "source": "https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.6",
+      "summary": "## Resolve Configurator 0.1.6 — the version numbers agree again  v0.1.5 went out reporting the wrong version three ways: `--version` and About said 0.1.4 because the bump missed `__version__`, the macOS bundle carried `CFBundleShortVersionString = 0.0.0` because PyInstaller was n",
+      "changes": [
+        "## Resolve Configurator 0.1.6 — the version numbers agree again  v0.1.5 went out reporting the wrong version three ways: `--version` and About said 0.1.4 because the bump missed `__version__`, the macOS bundle carried `CFBundleShortVersionString = 0.0.0` because PyInstaller was n"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.6"
+        }
+      ]
+    },
+    {
+      "name": "postflows/resolve-markers-to-render-queue",
+      "url": "https://github.com/postflows/resolve-markers-to-render-queue",
+      "from": "331dc5776df572f5b59dd8bbf743d0792b169a44",
+      "to": "e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-18",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "summary": "Update README with new features and usage instructions",
+      "changes": [
+        "Update README with new features and usage instructions"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.5",
+      "to": "v0.4.7",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-19",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
+      "summary": "### Added  - changelog: Introduce Keep a Changelog support, historical release summaries, and automated release notes extraction - release: Automatically populate GitHub release bodies from CHANGELOG.md and promote unreleased notes during version bumps - settings: Add FFmpeg thre",
+      "changes": [
+        "### Added  - changelog: Introduce Keep a Changelog support, historical release summaries, and automated release notes extraction - release: Automatically populate GitHub release bodies from CHANGELOG.md and promote unreleased notes during version bumps - settings: Add FFmpeg thre"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "vkastrup/sub-translator",
+      "url": "https://github.com/vkastrup/sub-translator",
+      "from": "130e3850b01a7840d739b60e10e5add7c2323dda",
+      "to": "4168d474f34ec20b427f476ad39845c1669549a7",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-18",
+      "source": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7",
+      "summary": "Windows support: PowerShell installer and cross-platform plugin",
+      "changes": [
+        "Windows support: PowerShell installer and cross-platform plugin"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7"
+        }
+      ]
+    },
+    {
+      "name": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "from": "v3.3.1",
+      "to": "v3.3.2",
+      "release": "v1.24",
+      "catalogue_date": "2026-09-20",
+      "upstream_date": "2026-09-16",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
+      "summary": "# SubFix v3.3.2  - 完整窗口右下角显示当前版本号，状态信息不会覆盖版本标签。 - 修复旧版应用内更新时的“更新包包含未授权文件”：默认更新包兼容最早 v3.1.0 的固定文件清单，新更新器优先选择包含 FFmpeg 的完整更新包。 - 保留 v3.3.1 的本地 Qwen 内存保护、进程管理及其他现有功能。  安装更新后请完全退出并重新启动 DaVinci Resolve。  首次安装请下载 `SubFix-v3.3.2-Full-macOS.zip`（Apple Silicon，未签名安装包）；已有用户可点击“检查更新”。",
+      "changes": [
+        "# SubFix v3.3.2  - 完整窗口右下角显示当前版本号，状态信息不会覆盖版本标签。 - 修复旧版应用内更新时的“更新包包含未授权文件”：默认更新包兼容最早 v3.1.0 的固定文件清单，新更新器优先选择包含 FFmpeg 的完整更新包。 - 保留 v3.3.1 的本地 Qwen 内存保护、进程管理及其他现有功能。  安装更新后请完全退出并重新启动 DaVinci Resolve。  首次安装请下载 `SubFix-v3.3.2-Full-macOS.zip`（Apple Silicon，未签名安装包）；已有用户可点击“检查更新”。"
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/HooperH/SubFix/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
       "name": "thatcherfreeman/resolve-scripts",
       "url": "https://github.com/thatcherfreeman/resolve-scripts",
       "from": "2314e5b33aa005ea1c3b77a1ce3e85521906cbef",

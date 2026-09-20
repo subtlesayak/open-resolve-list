@@ -509,6 +509,136 @@
       "date_kind": "release",
       "checked_at": "2026-09-15",
       "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
+    },
+    {
+      "url": "https://github.com/tmoroney/auto-subs",
+      "kind": "stable-release",
+      "version": "v3.10.1",
+      "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
+      "date": "2026-09-19T16:23:59Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/TeddieWang/BarkTed",
+      "kind": "stable-release",
+      "version": "v1.1.0",
+      "source": "https://github.com/TeddieWang/BarkTed/releases/tag/v1.1.0",
+      "date": "2026-09-19T17:31:53Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "kind": "stable-release",
+      "version": "v4.8.13",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
+      "date": "2026-09-19T16:54:46Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/mhadifilms/dvr",
+      "kind": "stable-release",
+      "version": "v1.7.0",
+      "source": "https://github.com/mhadifilms/dvr/releases/tag/v1.7.0",
+      "date": "2026-09-19T22:46:33Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "kind": "stable-release",
+      "version": "v1.8.2",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
+      "date": "2026-09-19T13:20:55Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title",
+      "kind": "stable-release",
+      "version": "v0.2.0",
+      "source": "https://github.com/pacoestrada/galactic-crawl-fusion-title/releases/tag/v0.2.0",
+      "date": "2026-09-18T18:28:03Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/KeibiSoft/KeibiDrop",
+      "kind": "stable-release",
+      "version": "v0.4.8",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
+      "date": "2026-09-15T20:23:03Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/WheheoHu/pybmd",
+      "kind": "stable-release",
+      "version": "v2026.3.0",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
+      "date": "2026-09-18T09:50:19Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/resolve-configurator",
+      "kind": "stable-release",
+      "version": "v0.1.6",
+      "source": "https://github.com/stoatworks-labs/resolve-configurator/releases/tag/v0.1.6",
+      "date": "2026-09-17T18:45:00Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/postflows/resolve-markers-to-render-queue",
+      "kind": "commit",
+      "version": "e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "date": "2026-09-18T08:25:50Z",
+      "date_kind": null,
+      "checked_at": "2026-09-20",
+      "note": "Recorded source revision; this is not a published software release."
+    },
+    {
+      "url": "https://github.com/shumaiOne/shumai",
+      "kind": "stable-release",
+      "version": "v0.4.7",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
+      "date": "2026-09-19T08:05:26Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
+    },
+    {
+      "url": "https://github.com/vkastrup/sub-translator",
+      "kind": "commit",
+      "version": "4168d474f34ec20b427f476ad39845c1669549a7",
+      "source": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7",
+      "date": "2026-09-18T08:27:17Z",
+      "date_kind": null,
+      "checked_at": "2026-09-20",
+      "note": "Recorded source revision; this is not a published software release."
+    },
+    {
+      "url": "https://github.com/HooperH/SubFix",
+      "kind": "stable-release",
+      "version": "v3.3.2",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
+      "date": "2026-09-16T06:06:35Z",
+      "date_kind": "release",
+      "checked_at": "2026-09-20",
+      "note": "Original provider release reviewed; catalogue review date is separate from upstream publication date."
     }
   ]
 }

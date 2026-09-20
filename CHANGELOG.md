@@ -15,6 +15,12 @@ Releases contain provider additions and verified updates to existing providers. 
 
 This release records catalogue and presentation changes. Listed third-party tools retain their own licences and distribution terms.
 
+## [v1.24](https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24) — 2026-09-20
+
+### Verified provider updates
+
+Thirteen provider updates were recorded from original release or source revision pages: AutoSubs 3.10.1, BarkTed 1.1.0, DaVinci Resolve MCP 4.8.13, dvr 1.7.0, FotuFilm Engine 1.8.2, Galactic Crawl 0.2.0, KeibiDrop 0.4.8, pybmd 2026.3.0, Resolve Configurator 0.1.6, Resolve Markers to Render Queue, Shumai 0.4.7, sub-translator, and SubFix 3.3.2. Each resource page links its provider release or changelog. Commit revisions are labelled as revisions, not software releases.
+
 ## [v1.22](https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22) — 2026-09-15
 
 ### Updated tools
