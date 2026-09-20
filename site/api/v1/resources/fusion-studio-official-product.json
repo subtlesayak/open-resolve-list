@@ -137,6 +137,12 @@
           "Additional reliability and speed improvements."
         ]
       }
+    ],
+    "catalogueReleases": [
+      {
+        "version": "v1.11",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.11"
+      }
     ]
   }
 }

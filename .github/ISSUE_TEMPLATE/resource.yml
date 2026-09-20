@@ -1,5 +1,5 @@
 name: Suggest a resource
-description: Propose a Resolve resource with sources and practical context.
+description: Propose a Resolve resource with sources and practical context. Submit public source links only; do not submit personal data, private files, credentials or contact details.
 title: "Resource: "
 body:
   - type: input
@@ -33,6 +33,6 @@ body:
     id: affiliation
     attributes:
       label: Affiliation
-      description: State whether you created, sell or are affiliated with this resource, or write None.
+      description: State whether you created, sell or are affiliated with this resource, or write None. Do not include a name, email address or other personal data.
     validations:
       required: true

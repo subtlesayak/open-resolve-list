@@ -1,5 +1,5 @@
 name: Correct an entry
-description: Report outdated versions, broken links or inaccurate requirements.
+description: Report outdated versions, broken links or inaccurate requirements. Do not submit personal data, private files, credentials or contact details.
 title: "Correction: "
 body:
   - type: input

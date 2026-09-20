@@ -65,6 +65,12 @@
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
-    "history": []
+    "history": [],
+    "catalogueReleases": [
+      {
+        "version": "v1.10",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.10"
+      }
+    ]
   }
 }

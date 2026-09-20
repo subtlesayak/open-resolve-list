@@ -2,6 +2,19 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.23](https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.23) — 2026-09-20
+
+### Catalogue and website updates
+
+- Official Blackmagic Design resources are hidden by default and can be shown with the checkbox.
+- Resource source links are displayed on their own line.
+- Added a verified Resolve, Fusion and color YouTube creators directory.
+- Repeated directory names are disambiguated with creator identifiers.
+- Reviewed accumulated GitHub, changelog, external provider, Blackmagic Design and Reddit sources.
+- Updated generated release and source-reference views so earlier catalogue releases remain discoverable.
+
+This release records catalogue and presentation changes. Listed third-party tools retain their own licences and distribution terms.
+
 ## [v1.22](https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22) — 2026-09-15
 
 ### Updated tools

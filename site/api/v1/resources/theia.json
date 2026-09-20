@@ -92,6 +92,12 @@
     "activityDate": "2026-07-20T18:28:45Z",
     "stars": 5,
     "metadataChecked": "2026-09-15T05:06:04.860Z",
-    "history": []
+    "history": [],
+    "catalogueReleases": [
+      {
+        "version": "v1.20",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.20"
+      }
+    ]
   }
 }

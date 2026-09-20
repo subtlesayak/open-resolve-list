@@ -1,5 +1,5 @@
 name: Confirm or correct your creation
-description: Confirm specific listing facts with an attributable primary source.
+description: Confirm specific listing facts with an attributable primary source. Submit public source links only; do not submit personal data, private files, credentials or contact details.
 title: "Confirm or correct: "
 body:
   - type: input

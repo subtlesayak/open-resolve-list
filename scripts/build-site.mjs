@@ -31,6 +31,7 @@ export function buildSite(){
  const entries=canonicalRecords.map(toSiteEntry);
  const history={entries:entries.flatMap(entry=>entry.history)};
  const releases=read('data/catalogue-releases.json').releases;
+ for(const entry of entries) entry.catalogueReleases=releases.filter(release=>release.body?.includes(entry.url)).map(release=>({version:release.version,url:release.url}));
  const latestUpdate=read('data/latest-update.json');
  const creators=read('data/youtube-creators.json');
  if(new Set(latestUpdate.added_urls).size!==latestUpdate.added_urls.length||latestUpdate.added_urls.some(url=>!entries.some(e=>e.url===url))||!releases.some(r=>r.version===latestUpdate.release))throw Error('Invalid latest update');

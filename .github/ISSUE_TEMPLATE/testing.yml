@@ -1,5 +1,5 @@
 name: Share a tested workflow
-description: Report an exact setup, practical result and limitations for editorial review.
+description: Report an exact setup, practical result and limitations for editorial review. Use public or synthetic material only; do not submit personal data, private files, credentials or contact details.
 title: "Tested workflow: "
 body:
   - type: input
@@ -33,6 +33,6 @@ body:
     id: affiliation
     attributes:
       label: Affiliation
-      description: State any relationship to the creator, or None. Submission does not automatically confer a recommendation.
+      description: State any relationship to the creator, or None. Do not include a name, email address or other personal data. Submission does not automatically confer a recommendation.
     validations:
       required: true

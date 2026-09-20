@@ -107,6 +107,16 @@
           }
         ]
       }
+    ],
+    "catalogueReleases": [
+      {
+        "version": "v1.22",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"
+      },
+      {
+        "version": "v1.15",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.15"
+      }
     ]
   }
 }
