@@ -369,6 +369,11 @@ select {
 }
 .creator-card h2 { margin:0 0 10px; font-size:20px; }
 .creator-card p { margin:8px 0; }
+.directory-identifier {
+  color:var(--muted);
+  font-size:.9em;
+  white-space:nowrap;
+}
 .evidence-guide p {
   font-size:14px
 }
