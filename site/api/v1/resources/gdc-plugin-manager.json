@@ -50,18 +50,18 @@
         "note": "Provider-listed platforms; see limitations and exact builds."
       },
       {
-        "field": "version",
-        "level": "documented",
-        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.37.1",
-        "checked_at": "2026-09-15T11:10:28.438Z",
-        "note": "Recorded version evidence, not installation testing."
-      },
-      {
         "field": "requirements",
         "level": "documented",
         "source": "https://github.com/gordasgdc/gdc-plugin-manager#readme",
         "checked_at": "2026-09-15",
         "note": "Apple Silicon app for installing and updating GDC DCTLs, LUTs and Fusion Fuses. The manager is free; individual GDC products retain their own prices and licenses. Exact Resolve compatibility varies by installed tool."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
+        "checked_at": "2026-09-26T00:00:00Z",
+        "note": "Recorded provider release evidence, not installation testing."
       }
     ],
     "unknownFields": [
@@ -76,17 +76,44 @@
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",
       "kind": "stable-release",
-      "version": "v1.37.1",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.37.1",
-      "date": "2026-09-15T03:41:13Z",
-      "checked_at": "2026-09-15T11:10:28.438Z"
+      "version": "v1.39.4",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
+      "date": "2026-09-25T17:10:03Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
-    "releaseDate": "2026-09-15T03:41:13Z",
-    "activityDate": "2026-09-15T03:41:12Z",
+    "releaseDate": "2026-09-25T17:10:03Z",
+    "activityDate": "2026-09-25T17:26:26Z",
     "stars": 1,
-    "metadataChecked": "2026-09-15T11:10:28.438Z",
-    "history": [],
+    "metadataChecked": "2026-09-26T00:00:00Z",
+    "history": [
+      {
+        "name": "gordasgdc/gdc-plugin-manager",
+        "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+        "from": "v1.37.1",
+        "to": "v1.39.4",
+        "release": "v1.25",
+        "catalogue_date": "2026-09-26",
+        "upstream_date": "2026-09-25T17:10:03Z",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
+        "summary": "Improves download authorization and verification, and prevents the installer from replacing a newer version with an older one.",
+        "changes": [
+          "Downloads are authorized and verified more safely.",
+          "Application updates verify package signatures and integrity before installation.",
+          "The installer no longer downgrades a newer installed version."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.25",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
+      },
       {
         "version": "v1.22",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"

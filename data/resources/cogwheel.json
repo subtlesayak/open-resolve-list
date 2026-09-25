@@ -40,8 +40,8 @@
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
   "stars": 0,
-  "last_pushed_at": "2026-09-15T10:18:50Z",
-  "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+  "last_pushed_at": "2026-09-20T23:28:15Z",
+  "metadata_checked_at": "2026-09-26T00:00:00Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,10 +57,10 @@
     "name": "stoatworks-labs/cogwheel",
     "url": "https://github.com/stoatworks-labs/cogwheel",
     "kind": "stable-release",
-    "version": "v0.6.0",
-    "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.0",
-    "date": "2026-09-11T17:28:56Z",
-    "checked_at": "2026-09-15T11:10:30.401Z"
+    "version": "v0.6.1",
+    "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
+    "date": "2026-09-20T19:29:50Z",
+    "checked_at": "2026-09-26T00:00:00Z"
   },
   "evidence": [
     {
@@ -71,18 +71,18 @@
       "note": "Provider-listed platforms; see limitations and exact builds."
     },
     {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.0",
-      "checked_at": "2026-09-15T11:10:30.401Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
-    {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/stoatworks-labs/cogwheel#readme",
       "checked_at": "2026-09-15",
       "note": "Spirograph and gear-based generative graphics with subtractive-ink controls, distributed as OFX and FFGL plugins. Provider registered the OFX plugin in Resolve Studio 21.0.2.4 but did not render it over a clip there; render and platform validation remain incomplete."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
+      "checked_at": "2026-09-26T00:00:00Z",
+      "note": "Recorded provider release evidence, not installation testing."
     }
   ],
   "unknownFields": [
@@ -92,12 +92,34 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "stoatworks-labs/cogwheel",
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "from": "v0.6.0",
+      "to": "v0.6.1",
+      "release": "v1.25",
+      "catalogue_date": "2026-09-26",
+      "upstream_date": "2026-09-20T19:29:50Z",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
+      "summary": "Adds the SW vendor prefix to the Resolume display names while preserving plugin IDs and bundle filenames.",
+      "changes": [
+        "Changes Cogwheel Ink to SW Cogwheel Ink and Cogwheel to SW Cogwheel; plugin IDs and bundle filenames remain unchanged."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1"
+        }
+      ]
+    }
+  ],
   "legacy_id": "07fbce77b656",
   "search_sources": [
     "https://github.com/stoatworks-labs/cogwheel#readme",
     "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.0"
   ],
   "tags_reviewed_at": "2026-09-08",
-  "requirements_reviewed": true
+  "requirements_reviewed": true,
+  "version_checked_at": "2026-09-26T00:00:00Z"
 }

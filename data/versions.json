@@ -773,10 +773,10 @@
       "name": "stoatworks-labs/cogwheel",
       "url": "https://github.com/stoatworks-labs/cogwheel",
       "kind": "stable-release",
-      "version": "v0.6.0",
-      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.0",
-      "date": "2026-09-11T17:28:56Z",
-      "checked_at": "2026-09-15T11:10:30.401Z"
+      "version": "v0.6.1",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
+      "date": "2026-09-20T19:29:50Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
     {
       "name": "ciqueira/ColorEqualizer",
@@ -817,13 +817,22 @@
       "checked_at": "2026-09-15T05:06:04.860Z"
     },
     {
+      "name": "lumosai8/ComfyUI-SecondUnit",
+      "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+      "kind": "commit",
+      "version": "855476b6488e8395d7a0c2825980d98d291105e2",
+      "source": "https://github.com/lumosai8/ComfyUI-SecondUnit/commit/855476b6488e8395d7a0c2825980d98d291105e2",
+      "date": "2026-09-11T20:51:47Z",
+      "checked_at": "2026-09-26T00:00:00Z"
+    },
+    {
       "name": "stoatworks-labs/compander",
       "url": "https://github.com/stoatworks-labs/compander",
       "kind": "stable-release",
-      "version": "v0.1.2",
-      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.2",
-      "date": "2026-09-04T22:01:09Z",
-      "checked_at": "2026-09-15T11:10:30.401Z"
+      "version": "v0.1.3",
+      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
+      "date": "2026-09-20T19:29:32Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
     {
       "name": "FoxDanger/Control-Booster-OpenSourceCode",
@@ -1153,10 +1162,10 @@
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.8.13",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
-      "date": "2026-09-19T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v4.8.20",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
+      "date": "2026-09-24T01:18:11Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
     {
       "name": "DaVinci Resolve Micro Color Panel Manual",
@@ -2120,10 +2129,10 @@
       "name": "stoatworks-labs/flenser",
       "url": "https://github.com/stoatworks-labs/flenser",
       "kind": "stable-release",
-      "version": "v0.1.4",
-      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4",
-      "date": "2026-09-04T22:02:56Z",
-      "checked_at": "2026-09-15T11:10:30.401Z"
+      "version": "v0.1.5",
+      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
+      "date": "2026-09-20T19:33:35Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
     {
       "name": "Flow Character Rigger",
@@ -2474,10 +2483,10 @@
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",
       "kind": "stable-release",
-      "version": "v1.37.1",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.37.1",
-      "date": "2026-09-15T03:41:13Z",
-      "checked_at": "2026-09-15T11:10:28.438Z"
+      "version": "v1.39.4",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
+      "date": "2026-09-25T17:10:03Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
     {
       "name": "ChrisRidings/GifSaverFuse",
@@ -2762,10 +2771,10 @@
       "name": "stoatworks-labs/macroblock",
       "url": "https://github.com/stoatworks-labs/macroblock",
       "kind": "stable-release",
-      "version": "v0.1.2",
-      "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2",
-      "date": "2026-09-04T22:02:28Z",
-      "checked_at": "2026-09-15T11:10:26.592Z"
+      "version": "v0.1.4",
+      "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.4",
+      "date": "2026-09-22T18:01:35Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
     {
       "name": "MagicGradient",
@@ -4085,10 +4094,10 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.4.7",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
-      "date": "2026-09-19T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v0.4.8",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
+      "date": "2026-09-24T12:47:26Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
     {
       "name": "Shutter Encoder",
@@ -4607,10 +4616,10 @@
       "name": "stoatworks-labs/tilter",
       "url": "https://github.com/stoatworks-labs/tilter",
       "kind": "stable-release",
-      "version": "v0.1.5",
-      "source": "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.5",
-      "date": "2026-09-04T22:02:15Z",
-      "checked_at": "2026-09-15T11:10:30.401Z"
+      "version": "v0.1.6",
+      "source": "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.6",
+      "date": "2026-09-20T19:43:07Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
     {
       "name": "Timeless",

@@ -52,8 +52,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
-        "checked_at": "2026-09-20T07:05:00Z",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
+        "checked_at": "2026-09-26T00:00:00Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -70,16 +70,37 @@
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.8.13",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
-      "date": "2026-09-19T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v4.8.20",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
+      "date": "2026-09-24T01:18:11Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
-    "releaseDate": "2026-09-19T00:00:00Z",
-    "activityDate": "2026-09-19T16:54:42Z",
-    "stars": 2998,
-    "metadataChecked": "2026-09-20T07:05:00Z",
+    "releaseDate": "2026-09-24T01:18:11Z",
+    "activityDate": "2026-09-24T01:17:20Z",
+    "stars": 3138,
+    "metadataChecked": "2026-09-26T00:00:00Z",
     "history": [
+      {
+        "name": "samuelgursky/davinci-resolve-mcp",
+        "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+        "from": "v4.8.13",
+        "to": "v4.8.20",
+        "release": "v1.25",
+        "catalogue_date": "2026-09-26",
+        "upstream_date": "2026-09-24T01:18:11Z",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
+        "summary": "Coerces boolean parameters consistently so explicit false values are honoured across the MCP server and utilities.",
+        "changes": [
+          "Fixes boolean flag handling across server and utility parameters, including governance, render closing, marker clearing, lifecycle cleanup and export options.",
+          "Adds behavioural and AST tests covering the coercion contract; Resolve API calls are unchanged."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20"
+          }
+        ]
+      },
       {
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
@@ -190,6 +211,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.25",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
+      },
       {
         "version": "v1.24",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24"

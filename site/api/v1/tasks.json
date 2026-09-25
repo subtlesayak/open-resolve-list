@@ -4,7 +4,7 @@
     {
       "id": "captions",
       "label": "Captions & dialogue",
-      "count": 29
+      "count": 30
     },
     {
       "id": "color",
@@ -19,12 +19,12 @@
     {
       "id": "workflow",
       "label": "Workflow & automation",
-      "count": 106
+      "count": 107
     },
     {
       "id": "media",
       "label": "Media & delivery",
-      "count": 41
+      "count": 42
     },
     {
       "id": "audio",

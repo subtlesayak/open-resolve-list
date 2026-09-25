@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy": "Generated from data/resources/*.json. Edit canonical records, then run npm run build.",
-  "reviewed_at": "2026-09-08",
+  "reviewed_at": "2026-09-26",
   "entries": [
     {
       "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
@@ -1196,6 +1196,24 @@
       ],
       "sources": [
         "https://github.com/barckley75/comfyUI_DaVinciResolve"
+      ]
+    },
+    {
+      "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+      "name": "ComfyUI-SecondUnit",
+      "tags": [
+        "ai",
+        "automation",
+        "comfyui",
+        "generative",
+        "media",
+        "subtitles",
+        "timeline",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/lumosai8/ComfyUI-SecondUnit",
+        "https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"
       ]
     },
     {

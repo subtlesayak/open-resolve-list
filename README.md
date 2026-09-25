@@ -1,6 +1,6 @@
 # 🎬 Open Resolve List — DaVinci Resolve Plugins & Tools
 
-A personal, open directory of **DaVinci Resolve plugins, Fusion tools, DCTLs, LUTs, PowerGrades, scripts and templates**: **263 public GitHub repositories** and **251 external resources**, with original creator links, documented requirements and update references.
+A personal, open directory of **DaVinci Resolve plugins, Fusion tools, DCTLs, LUTs, PowerGrades, scripts and templates**: **264 public GitHub repositories** and **251 external resources**, with original creator links, documented requirements and update references.
 
 I made Open Resolve List to keep useful Resolve resources in one place instead of repeatedly scouring scattered links. The website is hosted on GitHub Pages, with the catalogue and source records available in this repository. If it helps your workflow, you are welcome to use it and suggest improvements.
 

@@ -40,8 +40,8 @@
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
   "stars": 2,
-  "last_pushed_at": "2026-09-15T10:19:59Z",
-  "metadata_checked_at": "2026-09-15T11:10:26.592Z",
+  "last_pushed_at": "2026-09-24T02:15:23Z",
+  "metadata_checked_at": "2026-09-26T00:00:00Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,10 +57,10 @@
     "name": "stoatworks-labs/macroblock",
     "url": "https://github.com/stoatworks-labs/macroblock",
     "kind": "stable-release",
-    "version": "v0.1.2",
-    "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2",
-    "date": "2026-09-04T22:02:28Z",
-    "checked_at": "2026-09-15T11:10:26.592Z"
+    "version": "v0.1.4",
+    "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.4",
+    "date": "2026-09-22T18:01:35Z",
+    "checked_at": "2026-09-26T00:00:00Z"
   },
   "evidence": [
     {
@@ -71,18 +71,18 @@
       "note": "Provider-listed platforms; see limitations and exact builds."
     },
     {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2",
-      "checked_at": "2026-09-15T11:10:26.592Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
-    {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/stoatworks-labs/macroblock#readme",
       "checked_at": "2026-09-15",
       "note": "Experimental OpenFX/FFGL effect for separate luminance and chroma mosaic grids. Offers desktop builds; OFX host compatibility and final Resolve renders need validation. Audio-reactive FFGL features should not be assumed available in Resolve."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.4",
+      "checked_at": "2026-09-26T00:00:00Z",
+      "note": "Recorded provider release evidence, not installation testing."
     }
   ],
   "unknownFields": [
@@ -92,12 +92,34 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "stoatworks-labs/macroblock",
+      "url": "https://github.com/stoatworks-labs/macroblock",
+      "from": "v0.1.2",
+      "to": "v0.1.4",
+      "release": "v1.25",
+      "catalogue_date": "2026-09-26",
+      "upstream_date": "2026-09-22T18:01:35Z",
+      "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.4",
+      "summary": "Records the provider’s v0.1.4 release; the provider publishes a comparison changelog without additional release notes.",
+      "changes": [
+        "Provider comparison confirms the v0.1.3 to v0.1.4 release sequence; no detailed feature notes were published."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.4"
+        }
+      ]
+    }
+  ],
   "legacy_id": "46ddfa86a074",
   "search_sources": [
     "https://github.com/stoatworks-labs/macroblock#readme",
     "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2"
   ],
   "tags_reviewed_at": "2026-09-08",
-  "requirements_reviewed": true
+  "requirements_reviewed": true,
+  "version_checked_at": "2026-09-26T00:00:00Z"
 }

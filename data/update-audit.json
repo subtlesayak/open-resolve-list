@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-06T12:10:03.440Z",
-  "reviewed_on": "2026-09-06",
+  "checked_at": "2026-09-26T00:00:00Z",
+  "reviewed_on": "2026-09-26",
   "scope": {
-    "github": 263,
+    "github": 264,
     "external": 72
   },
   "github": [
@@ -5771,6 +5771,24 @@
         "prerelease": false
       },
       "changelogs": []
+    },
+    {
+      "repository": "lumosai8/ComfyUI-SecondUnit",
+      "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+      "canonical_url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+      "status": "available",
+      "checked_at": "2026-09-26T00:00:00Z",
+      "archived": false,
+      "stars": 5,
+      "last_pushed_at": "2026-09-11T20:51:48Z",
+      "default_branch_commit": {
+        "date": "2026-09-11T20:51:47Z",
+        "url": "https://github.com/lumosai8/ComfyUI-SecondUnit/commit/855476b6488e8395d7a0c2825980d98d291105e2"
+      },
+      "latest_stable_release": null,
+      "newest_created_release": null,
+      "changelogs": [],
+      "errors": []
     }
   ],
   "external": [

@@ -12,7 +12,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 test('canonical validation reads the maintained resource files', () => {
   const records = loadCanonicalResources(root);
-  assert.equal(records.length, 514);
+  assert.equal(records.length, 515);
   validateResourceSet(records);
   assert.equal(new Set(records.map(r => r.urls.canonical)).size, records.length);
   assert.ok(records.every(r => RESOURCE_KINDS.includes(r.kind)));
@@ -40,7 +40,7 @@ test('generated canonical files, when present, contain one record per index entr
   const indexPath = path.join(root, 'data/resources/index.json');
   if (!fs.existsSync(indexPath)) return;
   const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
-  assert.equal(index.entries.length, 514);
+  assert.equal(index.entries.length, 515);
   for (const entry of index.entries) assert.ok(fs.existsSync(path.join(root, 'data/resources', `${entry.id}.json`)));
 });
 

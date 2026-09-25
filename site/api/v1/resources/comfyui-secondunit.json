@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "resource": {
+    "id": "comfyui-secondunit",
+    "name": "ComfyUI-SecondUnit",
+    "creator": "lumosai8",
+    "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+    "origin": "github",
+    "official": false,
+    "reference": false,
+    "category": "AI assistants, MCP servers, and ComfyUI integrations",
+    "kind": "workflow-app",
+    "tasks": [
+      "workflow",
+      "media",
+      "captions"
+    ],
+    "tags": [
+      "ai",
+      "automation",
+      "comfyui",
+      "generative",
+      "media",
+      "subtitles",
+      "timeline",
+      "workflow"
+    ],
+    "description": "Free ComfyUI custom nodes that exchange images, video, audio and subtitles with DaVinci Resolve, including timeline grabs, media-library actions and automatic subtitle placement.",
+    "access": "Free",
+    "accessGroup": "free",
+    "platforms": [],
+    "platformNotes": "Resolve platform support is not established by the provider; ComfyUI supplies Windows, AMD and Intel launch examples.",
+    "requirements": {
+      "editions": [
+        "Studio"
+      ],
+      "resolve": [],
+      "architectures": [],
+      "gpu": "ComfyUI hardware and model requirements apply",
+      "processing": "local",
+      "pricing": "free",
+      "account": "unknown",
+      "dependencies": "ComfyUI; Python; optional FFmpeg and yt-dlp for media-library features",
+      "installation": "Clone into ComfyUI/custom_nodes and enable Resolve external scripting"
+    },
+    "evidence": [
+      {
+        "field": "platforms",
+        "level": "documented",
+        "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+        "checked_at": "2026-09-26",
+        "note": "Provider documents ComfyUI hardware launch examples; Resolve platform support is not established."
+      },
+      {
+        "field": "Resolve edition",
+        "level": "documented",
+        "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+        "checked_at": "2026-09-26",
+        "note": "Provider requires DaVinci Resolve Studio and external scripting."
+      },
+      {
+        "field": "processing",
+        "level": "documented",
+        "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+        "checked_at": "2026-09-26",
+        "note": "Nodes run locally inside ComfyUI and communicate with a local Resolve instance."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/lumosai8/ComfyUI-SecondUnit/commit/855476b6488e8395d7a0c2825980d98d291105e2",
+        "checked_at": "2026-09-26T00:00:00Z",
+        "note": "Source revision, not a published software release."
+      }
+    ],
+    "unknownFields": [
+      "platforms",
+      "Resolve version",
+      "architecture"
+    ],
+    "recommended": false,
+    "recommendation": null,
+    "previousUrls": [],
+    "version": {
+      "name": "lumosai8/ComfyUI-SecondUnit",
+      "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+      "kind": "commit",
+      "version": "855476b6488e8395d7a0c2825980d98d291105e2",
+      "source": "https://github.com/lumosai8/ComfyUI-SecondUnit/commit/855476b6488e8395d7a0c2825980d98d291105e2",
+      "date": "2026-09-11T20:51:47Z",
+      "checked_at": "2026-09-26T00:00:00Z"
+    },
+    "releaseDate": null,
+    "activityDate": "2026-09-11T20:51:48Z",
+    "stars": 5,
+    "metadataChecked": "2026-09-26T00:00:00Z",
+    "history": [],
+    "catalogueReleases": [
+      {
+        "version": "v1.25",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
+      }
+    ]
+  }
+}

@@ -50,18 +50,18 @@
         "note": "Provider-listed platforms; see limitations and exact builds."
       },
       {
-        "field": "version",
-        "level": "documented",
-        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.2",
-        "checked_at": "2026-09-15T11:10:30.401Z",
-        "note": "Recorded version evidence, not installation testing."
-      },
-      {
         "field": "requirements",
         "level": "documented",
         "source": "https://github.com/stoatworks-labs/compander#readme",
         "checked_at": "2026-09-15",
         "note": "Experimental analog-companding video effect with OFX and FFGL builds. Provider reports host-probe checks but has not opened the OFX plugin in Resolve. Treat Resolve use as unverified until tested on the intended setup."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
+        "checked_at": "2026-09-26T00:00:00Z",
+        "note": "Recorded provider release evidence, not installation testing."
       }
     ],
     "unknownFields": [
@@ -76,17 +76,42 @@
       "name": "stoatworks-labs/compander",
       "url": "https://github.com/stoatworks-labs/compander",
       "kind": "stable-release",
-      "version": "v0.1.2",
-      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.2",
-      "date": "2026-09-04T22:01:09Z",
-      "checked_at": "2026-09-15T11:10:30.401Z"
+      "version": "v0.1.3",
+      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
+      "date": "2026-09-20T19:29:32Z",
+      "checked_at": "2026-09-26T00:00:00Z"
     },
-    "releaseDate": "2026-09-04T22:01:09Z",
-    "activityDate": "2026-09-15T10:19:51Z",
+    "releaseDate": "2026-09-20T19:29:32Z",
+    "activityDate": "2026-09-20T23:28:18Z",
     "stars": 0,
-    "metadataChecked": "2026-09-15T11:10:30.401Z",
-    "history": [],
+    "metadataChecked": "2026-09-26T00:00:00Z",
+    "history": [
+      {
+        "name": "stoatworks-labs/compander",
+        "url": "https://github.com/stoatworks-labs/compander",
+        "from": "v0.1.2",
+        "to": "v0.1.3",
+        "release": "v1.25",
+        "catalogue_date": "2026-09-26",
+        "upstream_date": "2026-09-20T19:29:32Z",
+        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
+        "summary": "Adds the SW vendor prefix to the Resolume display name while preserving the plugin ID and bundle filenames.",
+        "changes": [
+          "Changes the displayed name from Compander to SW Compander; the four-character plugin ID and bundle filenames remain unchanged."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.25",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
+      },
       {
         "version": "v1.22",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"

@@ -1,3 +1,19 @@
+## v1.25 — Verified provider updates (2026-09-26)
+
+- **[stoatworks-labs/compander](https://github.com/stoatworks-labs/compander)**: v0.1.2 → v0.1.3. Adds the SW vendor prefix to the Resolume display name while preserving the plugin ID and bundle filenames. [Source changelog](https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3).
+- **[stoatworks-labs/cogwheel](https://github.com/stoatworks-labs/cogwheel)**: v0.6.0 → v0.6.1. Adds the SW vendor prefix to the Resolume display names while preserving plugin IDs and bundle filenames. [Source changelog](https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1).
+- **[stoatworks-labs/flenser](https://github.com/stoatworks-labs/flenser)**: v0.1.4 → v0.1.5. Adds the SW vendor prefix to the Resolume display names while preserving plugin IDs and bundle filenames. [Source changelog](https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5).
+- **[stoatworks-labs/tilter](https://github.com/stoatworks-labs/tilter)**: v0.1.5 → v0.1.6. Adds the SW vendor prefix to the Resolume display name while preserving the plugin ID and bundle filename. [Source changelog](https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.6).
+- **[stoatworks-labs/macroblock](https://github.com/stoatworks-labs/macroblock)**: v0.1.2 → v0.1.4. Records the provider’s v0.1.4 release; the provider publishes a comparison changelog without additional release notes. [Source changelog](https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.4).
+- **[samuelgursky/davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp)**: v4.8.13 → v4.8.20. Coerces boolean parameters consistently so explicit false values are honoured across the MCP server and utilities. [Source changelog](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20).
+- **[shumaiOne/shumai](https://github.com/shumaiOne/shumai)**: v0.4.7 → v0.4.8. Adds HDR proxy generation and playback support, a documentation changelog, and fixes playback, rotation and daemon behaviour. [Source changelog](https://github.com/shumaiOne/shumai/releases/tag/v0.4.8).
+- **[gordasgdc/gdc-plugin-manager](https://github.com/gordasgdc/gdc-plugin-manager)**: v1.37.1 → v1.39.4. Improves download authorization and verification, and prevents the installer from replacing a newer version with an older one. [Source changelog](https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4).
+
+### Added resources
+
+- **[ComfyUI-SecondUnit](https://github.com/lumosai8/ComfyUI-SecondUnit)** (lumosai8): Free ComfyUI custom nodes that exchange images, video, audio and subtitles with DaVinci Resolve, including timeline grabs, media-library actions and automatic subtitle placement. [Provider source](https://github.com/lumosai8/ComfyUI-SecondUnit#readme).
+
+This release adds 1 verified resource and records all provider version changes.
 # Changelog
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.

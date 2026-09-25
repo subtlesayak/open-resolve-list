@@ -759,6 +759,15 @@
       "kind": "mcp-server"
     },
     {
+      "id": "comfyui-secondunit",
+      "name": "ComfyUI-SecondUnit",
+      "creator": "lumosai8",
+      "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+      "origin": "github",
+      "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "workflow-app"
+    },
+    {
       "id": "compander",
       "name": "compander",
       "creator": "stoatworks-labs",

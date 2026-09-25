@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-06T11:36:20Z",
+  "checked_at": "2026-09-26T00:00:00Z",
   "baseline_count": 130,
-  "added_count": 133,
-  "total_count": 263,
+  "added_count": 134,
+  "total_count": 264,
   "searches": [
     {
       "query": "topic:davinci-resolve fork:false",
@@ -2979,6 +2979,28 @@
       "evidence_source": "https://github.com/KeibiSoft/KeibiDrop#readme",
       "discovery_sources": [
         "https://www.reddit.com/r/editors/comments/1w6ilmv/comment/p8azoms/"
+      ]
+    },
+    {
+      "repository": "lumosai8/ComfyUI-SecondUnit",
+      "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+      "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "description": "Free ComfyUI custom nodes that exchange images, video, audio and subtitles with DaVinci Resolve, including timeline grabs, media-library actions and automatic subtitle placement.",
+      "access": "Free",
+      "platforms": "Unverified",
+      "platform_notes": "",
+      "platform_source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+      "research_snapshot": "2026-09-26",
+      "platform_checked_at": "2026-09-26",
+      "stars": "5",
+      "last_pushed_at": "2026-09-11T20:51:48Z",
+      "metadata_checked_at": "2026-09-26T00:00:00Z",
+      "upstream_license": "MIT",
+      "upstream_archived": false,
+      "upstream_fork": false,
+      "evidence_source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"
       ]
     }
   ],

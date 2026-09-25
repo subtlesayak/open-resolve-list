@@ -3928,10 +3928,10 @@
         "name": "stoatworks-labs/cogwheel",
         "url": "https://github.com/stoatworks-labs/cogwheel",
         "kind": "stable-release",
-        "version": "v0.6.0",
-        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.0",
-        "date": "2026-09-11T17:28:56Z",
-        "checked_at": "2026-09-15T11:10:30.401Z"
+        "version": "v0.6.1",
+        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
+        "date": "2026-09-20T19:29:50Z",
+        "checked_at": "2026-09-26T00:00:00Z"
       },
       "evidence": [
         {
@@ -3941,16 +3941,16 @@
           "checked_at": "2026-09-15"
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.0",
-          "checked_at": "2026-09-15T11:10:30.401Z"
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/stoatworks-labs/cogwheel#readme",
           "checked_at": "2026-09-15"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
+          "checked_at": "2026-09-26T00:00:00Z"
         }
       ]
     },
@@ -4142,6 +4142,70 @@
       ]
     },
     {
+      "id": "comfyui-secondunit",
+      "name": "ComfyUI-SecondUnit",
+      "creator": "lumosai8",
+      "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+      "category": "AI assistants, MCP servers, and ComfyUI integrations",
+      "kind": "workflow-app",
+      "tasks": [
+        "workflow",
+        "media",
+        "captions"
+      ],
+      "description": "Free ComfyUI custom nodes that exchange images, video, audio and subtitles with DaVinci Resolve, including timeline grabs, media-library actions and automatic subtitle placement.",
+      "access": "Free",
+      "platforms": [],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [],
+        "architectures": [],
+        "gpu": "ComfyUI hardware and model requirements apply",
+        "processing": "local",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "ComfyUI; Python; optional FFmpeg and yt-dlp for media-library features",
+        "installation": "Clone into ComfyUI/custom_nodes and enable Resolve external scripting"
+      },
+      "version": {
+        "name": "lumosai8/ComfyUI-SecondUnit",
+        "url": "https://github.com/lumosai8/ComfyUI-SecondUnit",
+        "kind": "commit",
+        "version": "855476b6488e8395d7a0c2825980d98d291105e2",
+        "source": "https://github.com/lumosai8/ComfyUI-SecondUnit/commit/855476b6488e8395d7a0c2825980d98d291105e2",
+        "date": "2026-09-11T20:51:47Z",
+        "checked_at": "2026-09-26T00:00:00Z"
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "field": "processing",
+          "level": "documented",
+          "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/lumosai8/ComfyUI-SecondUnit/commit/855476b6488e8395d7a0c2825980d98d291105e2",
+          "checked_at": "2026-09-26T00:00:00Z"
+        }
+      ]
+    },
+    {
       "id": "compander",
       "name": "compander",
       "creator": "stoatworks-labs",
@@ -4173,10 +4237,10 @@
         "name": "stoatworks-labs/compander",
         "url": "https://github.com/stoatworks-labs/compander",
         "kind": "stable-release",
-        "version": "v0.1.2",
-        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.2",
-        "date": "2026-09-04T22:01:09Z",
-        "checked_at": "2026-09-15T11:10:30.401Z"
+        "version": "v0.1.3",
+        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
+        "date": "2026-09-20T19:29:32Z",
+        "checked_at": "2026-09-26T00:00:00Z"
       },
       "evidence": [
         {
@@ -4186,16 +4250,16 @@
           "checked_at": "2026-09-15"
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.2",
-          "checked_at": "2026-09-15T11:10:30.401Z"
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/stoatworks-labs/compander#readme",
           "checked_at": "2026-09-15"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
+          "checked_at": "2026-09-26T00:00:00Z"
         }
       ]
     },
@@ -5890,10 +5954,10 @@
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
         "kind": "stable-release",
-        "version": "v4.8.13",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
-        "date": "2026-09-19T00:00:00Z",
-        "checked_at": "2026-09-20T07:05:00Z"
+        "version": "v4.8.20",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
+        "date": "2026-09-24T01:18:11Z",
+        "checked_at": "2026-09-26T00:00:00Z"
       },
       "evidence": [
         {
@@ -5905,8 +5969,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.13",
-          "checked_at": "2026-09-20T07:05:00Z"
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
+          "checked_at": "2026-09-26T00:00:00Z"
         }
       ]
     },
@@ -10625,10 +10689,10 @@
         "name": "stoatworks-labs/flenser",
         "url": "https://github.com/stoatworks-labs/flenser",
         "kind": "stable-release",
-        "version": "v0.1.4",
-        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4",
-        "date": "2026-09-04T22:02:56Z",
-        "checked_at": "2026-09-15T11:10:30.401Z"
+        "version": "v0.1.5",
+        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
+        "date": "2026-09-20T19:33:35Z",
+        "checked_at": "2026-09-26T00:00:00Z"
       },
       "evidence": [
         {
@@ -10638,16 +10702,16 @@
           "checked_at": "2026-09-15"
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4",
-          "checked_at": "2026-09-15T11:10:30.401Z"
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/stoatworks-labs/flenser#readme",
           "checked_at": "2026-09-15"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
+          "checked_at": "2026-09-26T00:00:00Z"
         }
       ]
     },
@@ -12450,10 +12514,10 @@
         "name": "gordasgdc/gdc-plugin-manager",
         "url": "https://github.com/gordasgdc/gdc-plugin-manager",
         "kind": "stable-release",
-        "version": "v1.37.1",
-        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.37.1",
-        "date": "2026-09-15T03:41:13Z",
-        "checked_at": "2026-09-15T11:10:28.438Z"
+        "version": "v1.39.4",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
+        "date": "2026-09-25T17:10:03Z",
+        "checked_at": "2026-09-26T00:00:00Z"
       },
       "evidence": [
         {
@@ -12463,16 +12527,16 @@
           "checked_at": "2026-09-15"
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.37.1",
-          "checked_at": "2026-09-15T11:10:28.438Z"
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/gordasgdc/gdc-plugin-manager#readme",
           "checked_at": "2026-09-15"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
+          "checked_at": "2026-09-26T00:00:00Z"
         }
       ]
     },
@@ -13883,10 +13947,10 @@
         "name": "stoatworks-labs/macroblock",
         "url": "https://github.com/stoatworks-labs/macroblock",
         "kind": "stable-release",
-        "version": "v0.1.2",
-        "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2",
-        "date": "2026-09-04T22:02:28Z",
-        "checked_at": "2026-09-15T11:10:26.592Z"
+        "version": "v0.1.4",
+        "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.4",
+        "date": "2026-09-22T18:01:35Z",
+        "checked_at": "2026-09-26T00:00:00Z"
       },
       "evidence": [
         {
@@ -13896,16 +13960,16 @@
           "checked_at": "2026-09-15"
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.2",
-          "checked_at": "2026-09-15T11:10:26.592Z"
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/stoatworks-labs/macroblock#readme",
           "checked_at": "2026-09-15"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/macroblock/releases/tag/v0.1.4",
+          "checked_at": "2026-09-26T00:00:00Z"
         }
       ]
     },
@@ -20792,10 +20856,10 @@
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
         "kind": "stable-release",
-        "version": "v0.4.7",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
-        "date": "2026-09-19T00:00:00Z",
-        "checked_at": "2026-09-20T07:05:00Z"
+        "version": "v0.4.8",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
+        "date": "2026-09-24T12:47:26Z",
+        "checked_at": "2026-09-26T00:00:00Z"
       },
       "evidence": [
         {
@@ -20807,8 +20871,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
-          "checked_at": "2026-09-20T07:05:00Z"
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
+          "checked_at": "2026-09-26T00:00:00Z"
         }
       ]
     },
@@ -23603,10 +23667,10 @@
         "name": "stoatworks-labs/tilter",
         "url": "https://github.com/stoatworks-labs/tilter",
         "kind": "stable-release",
-        "version": "v0.1.5",
-        "source": "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.5",
-        "date": "2026-09-04T22:02:15Z",
-        "checked_at": "2026-09-15T11:10:30.401Z"
+        "version": "v0.1.6",
+        "source": "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.6",
+        "date": "2026-09-20T19:43:07Z",
+        "checked_at": "2026-09-26T00:00:00Z"
       },
       "evidence": [
         {
@@ -23616,16 +23680,16 @@
           "checked_at": "2026-09-15"
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.5",
-          "checked_at": "2026-09-15T11:10:30.401Z"
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/stoatworks-labs/tilter#readme",
           "checked_at": "2026-09-15"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.6",
+          "checked_at": "2026-09-26T00:00:00Z"
         }
       ]
     },

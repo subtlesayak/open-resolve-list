@@ -38,9 +38,9 @@
   "platform_source": "https://github.com/stoatworks-labs/flenser#readme",
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
-  "stars": 0,
-  "last_pushed_at": "2026-09-09T01:48:09Z",
-  "metadata_checked_at": "2026-09-15T11:10:30.401Z",
+  "stars": 1,
+  "last_pushed_at": "2026-09-24T02:15:16Z",
+  "metadata_checked_at": "2026-09-26T00:00:00Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -56,10 +56,10 @@
     "name": "stoatworks-labs/flenser",
     "url": "https://github.com/stoatworks-labs/flenser",
     "kind": "stable-release",
-    "version": "v0.1.4",
-    "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4",
-    "date": "2026-09-04T22:02:56Z",
-    "checked_at": "2026-09-15T11:10:30.401Z"
+    "version": "v0.1.5",
+    "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
+    "date": "2026-09-20T19:33:35Z",
+    "checked_at": "2026-09-26T00:00:00Z"
   },
   "evidence": [
     {
@@ -70,18 +70,18 @@
       "note": "Provider-listed platforms; see limitations and exact builds."
     },
     {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4",
-      "checked_at": "2026-09-15T11:10:30.401Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
-    {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/stoatworks-labs/flenser#readme",
       "checked_at": "2026-09-15",
       "note": "Experimental oil/liquid-light-show effect with OFX and FFGL builds. Provider has not loaded it in Resolve and has not run the Linux build. Host probes and another host do not establish Resolve compatibility."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
+      "checked_at": "2026-09-26T00:00:00Z",
+      "note": "Recorded provider release evidence, not installation testing."
     }
   ],
   "unknownFields": [
@@ -91,12 +91,34 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "stoatworks-labs/flenser",
+      "url": "https://github.com/stoatworks-labs/flenser",
+      "from": "v0.1.4",
+      "to": "v0.1.5",
+      "release": "v1.25",
+      "catalogue_date": "2026-09-26",
+      "upstream_date": "2026-09-20T19:33:35Z",
+      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
+      "summary": "Adds the SW vendor prefix to the Resolume display names while preserving plugin IDs and bundle filenames.",
+      "changes": [
+        "Changes Flenser Lamp to SW Flenser Lamp and Flenser to SW Flenser; plugin IDs and bundle filenames remain unchanged."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5"
+        }
+      ]
+    }
+  ],
   "legacy_id": "e74f3643adfe",
   "search_sources": [
     "https://github.com/stoatworks-labs/flenser#readme",
     "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.4"
   ],
   "tags_reviewed_at": "2026-09-08",
-  "requirements_reviewed": true
+  "requirements_reviewed": true,
+  "version_checked_at": "2026-09-26T00:00:00Z"
 }

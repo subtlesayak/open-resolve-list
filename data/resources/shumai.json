@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/shumaiOne/shumai#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 209,
-  "last_pushed_at": "2026-09-20T03:46:13Z",
-  "metadata_checked_at": "2026-09-20T07:05:00Z",
+  "stars": 212,
+  "last_pushed_at": "2026-09-25T08:37:17Z",
+  "metadata_checked_at": "2026-09-26T00:00:00Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,10 +55,10 @@
     "name": "shumaiOne/shumai",
     "url": "https://github.com/shumaiOne/shumai",
     "kind": "stable-release",
-    "version": "v0.4.7",
-    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
-    "date": "2026-09-19T00:00:00Z",
-    "checked_at": "2026-09-20T07:05:00Z"
+    "version": "v0.4.8",
+    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
+    "date": "2026-09-24T12:47:26Z",
+    "checked_at": "2026-09-26T00:00:00Z"
   },
   "evidence": [
     {
@@ -71,8 +71,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.7",
-      "checked_at": "2026-09-20T07:05:00Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
+      "checked_at": "2026-09-26T00:00:00Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -86,6 +86,27 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.7",
+      "to": "v0.4.8",
+      "release": "v1.25",
+      "catalogue_date": "2026-09-26",
+      "upstream_date": "2026-09-24T12:47:26Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
+      "summary": "Adds HDR proxy generation and playback support, a documentation changelog, and fixes playback, rotation and daemon behaviour.",
+      "changes": [
+        "Adds HDR video proxies and supported-display playback with tone-mapped SDR thumbnails.",
+        "Fixes initial-playback overlays, rotated-video aspect ratios and foreground PID handling; improves proxy quality and frame seeking."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8"
+        }
+      ]
+    },
     {
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
@@ -132,5 +153,6 @@
     "https://github.com/shumaiOne/shumai/releases/tag/v0.4.5"
   ],
   "tags_reviewed_at": "2026-09-08",
-  "requirements_reviewed": true
+  "requirements_reviewed": true,
+  "version_checked_at": "2026-09-26T00:00:00Z"
 }
