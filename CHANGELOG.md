@@ -1,13 +1,12 @@
 ## v1.26 — Verified provider updates (2026-09-29)
 
-- **[samuelgursky/davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp)**: v4.8.20 → v4.8.22. Prevents the control-panel port check from hanging when macOS lsof is wedged, while preserving safe missing-process handling. [Source changelog](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22).
-- **[DhaliwalX/fotufilm-engine](https://github.com/DhaliwalX/fotufilm-engine)**: v1.8.2 → v1.10. Adds negative scanning controls and closer Fujifilm slide-film rendering for the Mac app and Resolve plugins. [Source changelog](https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10).
-- **[gordasgdc/gdc-plugin-manager](https://github.com/gordasgdc/gdc-plugin-manager)**: v1.39.4 → v1.40.0. Refreshes product and content cards with clearer loading, empty, error and compatibility states plus scheduled promotional banners. [Source changelog](https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0).
-- **[shumaiOne/shumai](https://github.com/shumaiOne/shumai)**: v0.4.8 → v0.4.9. Adds email notifications, VA-API transcoding and software fallback, and improves poster-frame and sprite generation. [Source changelog](https://github.com/shumaiOne/shumai/releases/tag/v0.4.9).
-- **[francozanardi/tscaps](https://github.com/francozanardi/tscaps)**: web-v0.3.0 → web-v0.4.1. Keeps smaller Ezra caption lines inside the frame and improves line wrapping. [Source changelog](https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1).
+- samuelgursky/davinci-resolve-mcp: v4.8.20 -> v4.8.22. Prevents the control-panel port check from hanging when macOS lsof is wedged, while preserving safe missing-process handling. https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22
+- DhaliwalX/fotufilm-engine: v1.8.2 -> v1.10. Adds negative scanning controls and closer Fujifilm slide-film rendering for the Mac app and Resolve plugins. https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10
+- gordasgdc/gdc-plugin-manager: v1.39.4 -> v1.40.0. Refreshes product and content cards with clearer loading, empty, error and compatibility states plus scheduled promotional banners. https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0
+- shumaiOne/shumai: v0.4.8 -> v0.4.9. Adds email notifications, VA-API transcoding and software fallback, and improves poster-frame and sprite generation. https://github.com/shumaiOne/shumai/releases/tag/v0.4.9
+- francozanardi/tscaps: web-v0.3.0 -> web-v0.4.1. Keeps smaller Ezra caption lines inside the frame and improves line wrapping. https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1
 
 This release records 5 verified provider releases; no new catalogue resources were added.
-
 ## v1.25 — Verified provider updates (2026-09-26)
 
 - **[stoatworks-labs/compander](https://github.com/stoatworks-labs/compander)**: v0.1.2 → v0.1.3. Adds the SW vendor prefix to the Resolume display name while preserving the plugin ID and bundle filenames. [Source changelog](https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3).
