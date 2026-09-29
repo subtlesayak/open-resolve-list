@@ -35,7 +35,17 @@ function github(){
    const [owner,name]=e.repository.split('/');
    return `r${i}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { nameWithOwner url isArchived isEmpty isDisabled stargazerCount pushedAt latestRelease { name tagName url publishedAt isPrerelease description } releases(first:1,orderBy:{field:CREATED_AT,direction:DESC}) { nodes { name tagName url publishedAt isPrerelease description } } defaultBranchRef { name target { ... on Commit { oid committedDate url messageHeadline tree { entries { name type path } } } } } }`;
   });
-  const res=graph('query { '+fields.join('\n')+' }');
+  let res;
+  try {
+   res=graph('query { '+fields.join('\n')+' }');
+  } catch (error) {
+   // Keep the audit moving when a maintained repository is deleted, renamed,
+   // private, or temporarily unavailable. The unresolved source is retained
+   // in the output for review rather than silently dropped.
+   for (const entry of chunk) results.push({repository:entry.repository,requested_url:entry.url,checked_at:checkedAt,status:'unresolved',data:null,errors:[String(error.message||error).slice(0,300)]});
+   console.warn(`GitHub: unresolved chunk ${start + 1}-${Math.min(start + 10, entries.length)}: ${error.message}`);
+   continue;
+  }
   for(let i=0;i<chunk.length;i++) results.push({repository:chunk[i].repository,requested_url:chunk[i].url,checked_at:checkedAt,status:res.data?.['r'+i]?'available':'unresolved',data:res.data?.['r'+i]||null,errors:(res.errors||[]).filter(e=>e.path?.[0]==='r'+i).map(e=>e.type||'API error')});
   console.log(`GitHub: ${Math.min(start+10,entries.length)}/${entries.length}`);
  }

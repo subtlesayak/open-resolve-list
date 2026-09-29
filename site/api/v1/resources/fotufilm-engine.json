@@ -60,8 +60,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
-        "checked_at": "2026-09-20T07:05:00Z",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+        "checked_at": "2026-09-29T00:00:00Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -77,16 +77,37 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.8.2",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
-      "date": "2026-09-19T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v1.10",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+      "date": "2026-09-27T12:49:59Z",
+      "checked_at": "2026-09-29T00:00:00Z"
     },
-    "releaseDate": "2026-09-19T00:00:00Z",
-    "activityDate": "2026-09-20T01:46:10Z",
-    "stars": 6,
-    "metadataChecked": "2026-09-20T07:05:00Z",
+    "releaseDate": "2026-09-27T12:49:59Z",
+    "activityDate": "2026-09-29T13:14:53Z",
+    "stars": 11,
+    "metadataChecked": "2026-09-29T00:00:00Z",
     "history": [
+      {
+        "name": "DhaliwalX/fotufilm-engine",
+        "url": "https://github.com/DhaliwalX/fotufilm-engine",
+        "from": "v1.8.2",
+        "to": "v1.10",
+        "release": "v1.26",
+        "catalogue_date": "2026-09-29",
+        "upstream_date": "2026-09-27T12:49:59Z",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+        "summary": "Adds negative scanning controls and closer Fujifilm slide-film rendering for the Mac app and Resolve plugins.",
+        "changes": [
+          "Adds tone, straighten, frame and light-frame controls for scanned negatives.",
+          "Improves Fujifilm slide-film colour rendering; Final Cut Pro lens flare follows the selected stage."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10"
+          }
+        ]
+      },
       {
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",
@@ -130,6 +151,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.26",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
+      },
       {
         "version": "v1.24",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24"

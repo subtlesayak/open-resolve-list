@@ -2,6 +2,111 @@
   "schema_version": 1,
   "entries": [
     {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.8.20",
+      "to": "v4.8.22",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-26T14:43:42Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
+      "summary": "Prevents the control-panel port check from hanging when macOS lsof is wedged, while preserving safe missing-process handling.",
+      "changes": [
+        "Runs the lsof check in its own session and abandons it at the deadline instead of waiting on an unkillable child.",
+        "Adds tests for wedged, exited and missing lsof processes."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.8.2",
+      "to": "v1.10",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-27T12:49:59Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+      "summary": "Adds negative scanning controls and closer Fujifilm slide-film rendering for the Mac app and Resolve plugins.",
+      "changes": [
+        "Adds tone, straighten, frame and light-frame controls for scanned negatives.",
+        "Improves Fujifilm slide-film colour rendering; Final Cut Pro lens flare follows the selected stage."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10"
+        }
+      ]
+    },
+    {
+      "name": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "from": "v1.39.4",
+      "to": "v1.40.0",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-26T11:14:20Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+      "summary": "Refreshes product and content cards with clearer loading, empty, error and compatibility states plus scheduled promotional banners.",
+      "changes": [
+        "Adds clearer installed, update, error and incompatible product states.",
+        "Adds refreshed cards and scheduled promotional banner support."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.8",
+      "to": "v0.4.9",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-28T12:22:42Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+      "summary": "Adds email notifications, VA-API transcoding and software fallback, and improves poster-frame and sprite generation.",
+      "changes": [
+        "Adds batched email notification digests and configurable SMTP settings.",
+        "Adds VA-API acceleration with software fallback when hardware encoding fails.",
+        "Improves poster selection and large-video sprite generation."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9"
+        }
+      ]
+    },
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.3.0",
+      "to": "web-v0.4.1",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-27T22:03:19Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+      "summary": "Keeps smaller Ezra caption lines inside the frame and improves line wrapping.",
+      "changes": [
+        "Smaller lines wrap inside the frame instead of running beyond its edge."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1"
+        }
+      ]
+    },
+    {
       "name": "stoatworks-labs/compander",
       "url": "https://github.com/stoatworks-labs/compander",
       "from": "v0.1.2",

@@ -59,8 +59,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
-        "checked_at": "2026-09-26T00:00:00Z",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+        "checked_at": "2026-09-29T00:00:00Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -76,16 +76,37 @@
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",
       "kind": "stable-release",
-      "version": "v1.39.4",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
-      "date": "2026-09-25T17:10:03Z",
-      "checked_at": "2026-09-26T00:00:00Z"
+      "version": "v1.40.0",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+      "date": "2026-09-26T11:14:20Z",
+      "checked_at": "2026-09-29T00:00:00Z"
     },
-    "releaseDate": "2026-09-25T17:10:03Z",
-    "activityDate": "2026-09-25T17:26:26Z",
+    "releaseDate": "2026-09-26T11:14:20Z",
+    "activityDate": "2026-09-28T18:31:49Z",
     "stars": 1,
-    "metadataChecked": "2026-09-26T00:00:00Z",
+    "metadataChecked": "2026-09-29T00:00:00Z",
     "history": [
+      {
+        "name": "gordasgdc/gdc-plugin-manager",
+        "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+        "from": "v1.39.4",
+        "to": "v1.40.0",
+        "release": "v1.26",
+        "catalogue_date": "2026-09-29",
+        "upstream_date": "2026-09-26T11:14:20Z",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+        "summary": "Refreshes product and content cards with clearer loading, empty, error and compatibility states plus scheduled promotional banners.",
+        "changes": [
+          "Adds clearer installed, update, error and incompatible product states.",
+          "Adds refreshed cards and scheduled promotional banner support."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0"
+          }
+        ]
+      },
       {
         "name": "gordasgdc/gdc-plugin-manager",
         "url": "https://github.com/gordasgdc/gdc-plugin-manager",
@@ -110,6 +131,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.26",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
+      },
       {
         "version": "v1.25",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"

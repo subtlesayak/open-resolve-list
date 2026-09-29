@@ -39,9 +39,9 @@
   "platform_source": "https://github.com/DhaliwalX/fotufilm-engine#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 6,
-  "last_pushed_at": "2026-09-20T01:46:10Z",
-  "metadata_checked_at": "2026-09-20T07:05:00Z",
+  "stars": 11,
+  "last_pushed_at": "2026-09-29T13:14:53Z",
+  "metadata_checked_at": "2026-09-29T00:00:00Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,10 +57,10 @@
     "name": "DhaliwalX/fotufilm-engine",
     "url": "https://github.com/DhaliwalX/fotufilm-engine",
     "kind": "stable-release",
-    "version": "v1.8.2",
-    "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
-    "date": "2026-09-19T00:00:00Z",
-    "checked_at": "2026-09-20T07:05:00Z"
+    "version": "v1.10",
+    "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+    "date": "2026-09-27T12:49:59Z",
+    "checked_at": "2026-09-29T00:00:00Z"
   },
   "evidence": [
     {
@@ -80,8 +80,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
-      "checked_at": "2026-09-20T07:05:00Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+      "checked_at": "2026-09-29T00:00:00Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -93,6 +93,27 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.8.2",
+      "to": "v1.10",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-27T12:49:59Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+      "summary": "Adds negative scanning controls and closer Fujifilm slide-film rendering for the Mac app and Resolve plugins.",
+      "changes": [
+        "Adds tone, straighten, frame and light-frame controls for scanned negatives.",
+        "Improves Fujifilm slide-film colour rendering; Final Cut Pro lens flare follows the selected stage."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10"
+        }
+      ]
+    },
     {
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
@@ -140,5 +161,6 @@
     "https://github.com/DhaliwalX/fotufilm-engine"
   ],
   "tags_reviewed_at": "2026-09-08",
-  "requirements_reviewed": true
+  "requirements_reviewed": true,
+  "version_checked_at": "2026-09-29T00:00:00Z"
 }

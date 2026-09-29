@@ -4285,8 +4285,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
+          "checked_at": "2026-09-29T00:00:00Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -7848,8 +7848,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
-          "checked_at": "2026-09-20T07:05:00Z",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+          "checked_at": "2026-09-29T00:00:00Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -8919,8 +8919,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+          "checked_at": "2026-09-29T00:00:00Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -14914,8 +14914,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+          "checked_at": "2026-09-29T00:00:00Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -17098,18 +17098,18 @@
       "accessGroup": "mixed",
       "evidence": [
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/francozanardi/tscaps",
           "checked_at": "2026-09-08",
           "note": "Requires a supported WebCodecs browser. Editor is AGPL-3.0; engine/templates MIT. First use downloads transcription models."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+          "checked_at": "2026-09-29T00:00:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ]
     },

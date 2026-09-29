@@ -51,8 +51,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
-        "checked_at": "2026-09-26T00:00:00Z",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+        "checked_at": "2026-09-29T00:00:00Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -70,16 +70,38 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.4.8",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
-      "date": "2026-09-24T12:47:26Z",
-      "checked_at": "2026-09-26T00:00:00Z"
+      "version": "v0.4.9",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+      "date": "2026-09-28T12:22:42Z",
+      "checked_at": "2026-09-29T00:00:00Z"
     },
-    "releaseDate": "2026-09-24T12:47:26Z",
-    "activityDate": "2026-09-25T08:37:17Z",
-    "stars": 212,
-    "metadataChecked": "2026-09-26T00:00:00Z",
+    "releaseDate": "2026-09-28T12:22:42Z",
+    "activityDate": "2026-09-29T13:09:30Z",
+    "stars": 214,
+    "metadataChecked": "2026-09-29T00:00:00Z",
     "history": [
+      {
+        "name": "shumaiOne/shumai",
+        "url": "https://github.com/shumaiOne/shumai",
+        "from": "v0.4.8",
+        "to": "v0.4.9",
+        "release": "v1.26",
+        "catalogue_date": "2026-09-29",
+        "upstream_date": "2026-09-28T12:22:42Z",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+        "summary": "Adds email notifications, VA-API transcoding and software fallback, and improves poster-frame and sprite generation.",
+        "changes": [
+          "Adds batched email notification digests and configurable SMTP settings.",
+          "Adds VA-API acceleration with software fallback when hardware encoding fails.",
+          "Improves poster selection and large-video sprite generation."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9"
+          }
+        ]
+      },
       {
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
@@ -142,6 +164,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.26",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
+      },
       {
         "version": "v1.25",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"

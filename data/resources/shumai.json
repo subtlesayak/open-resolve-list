@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/shumaiOne/shumai#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 212,
-  "last_pushed_at": "2026-09-25T08:37:17Z",
-  "metadata_checked_at": "2026-09-26T00:00:00Z",
+  "stars": 214,
+  "last_pushed_at": "2026-09-29T13:09:30Z",
+  "metadata_checked_at": "2026-09-29T00:00:00Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,10 +55,10 @@
     "name": "shumaiOne/shumai",
     "url": "https://github.com/shumaiOne/shumai",
     "kind": "stable-release",
-    "version": "v0.4.8",
-    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
-    "date": "2026-09-24T12:47:26Z",
-    "checked_at": "2026-09-26T00:00:00Z"
+    "version": "v0.4.9",
+    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+    "date": "2026-09-28T12:22:42Z",
+    "checked_at": "2026-09-29T00:00:00Z"
   },
   "evidence": [
     {
@@ -71,8 +71,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
-      "checked_at": "2026-09-26T00:00:00Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+      "checked_at": "2026-09-29T00:00:00Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -86,6 +86,28 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.8",
+      "to": "v0.4.9",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-28T12:22:42Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+      "summary": "Adds email notifications, VA-API transcoding and software fallback, and improves poster-frame and sprite generation.",
+      "changes": [
+        "Adds batched email notification digests and configurable SMTP settings.",
+        "Adds VA-API acceleration with software fallback when hardware encoding fails.",
+        "Improves poster selection and large-video sprite generation."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9"
+        }
+      ]
+    },
     {
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
@@ -154,5 +176,5 @@
   ],
   "tags_reviewed_at": "2026-09-08",
   "requirements_reviewed": true,
-  "version_checked_at": "2026-09-26T00:00:00Z"
+  "version_checked_at": "2026-09-29T00:00:00Z"
 }

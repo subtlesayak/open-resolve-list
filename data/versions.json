@@ -1162,10 +1162,10 @@
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.8.20",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
-      "date": "2026-09-24T01:18:11Z",
-      "checked_at": "2026-09-26T00:00:00Z"
+      "version": "v4.8.22",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
+      "date": "2026-09-26T14:43:42Z",
+      "checked_at": "2026-09-29T00:00:00Z"
     },
     {
       "name": "DaVinci Resolve Micro Color Panel Manual",
@@ -2185,10 +2185,10 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.8.2",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
-      "date": "2026-09-19T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v1.10",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+      "date": "2026-09-27T12:49:59Z",
+      "checked_at": "2026-09-29T00:00:00Z"
     },
     {
       "name": "framechart",
@@ -2483,10 +2483,10 @@
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",
       "kind": "stable-release",
-      "version": "v1.39.4",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
-      "date": "2026-09-25T17:10:03Z",
-      "checked_at": "2026-09-26T00:00:00Z"
+      "version": "v1.40.0",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+      "date": "2026-09-26T11:14:20Z",
+      "checked_at": "2026-09-29T00:00:00Z"
     },
     {
       "name": "ChrisRidings/GifSaverFuse",
@@ -4094,10 +4094,10 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.4.8",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
-      "date": "2026-09-24T12:47:26Z",
-      "checked_at": "2026-09-26T00:00:00Z"
+      "version": "v0.4.9",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+      "date": "2026-09-28T12:22:42Z",
+      "checked_at": "2026-09-29T00:00:00Z"
     },
     {
       "name": "Shutter Encoder",
@@ -4654,10 +4654,10 @@
       "name": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",
       "kind": "stable-release",
-      "version": "web-v0.3.0",
-      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
-      "date": "2026-08-30T15:44:34Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "web-v0.4.1",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+      "date": "2026-09-27T22:03:19Z",
+      "checked_at": "2026-09-29T00:00:00Z"
     },
     {
       "name": "TypeFlare",

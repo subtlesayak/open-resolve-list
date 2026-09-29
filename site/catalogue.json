@@ -1,12 +1,10 @@
 {
   "latestUpdate": {
     "schema_version": 1,
-    "date": "2026-09-26",
-    "release": "v1.25",
-    "added_urls": [
-      "https://github.com/lumosai8/ComfyUI-SecondUnit"
-    ],
-    "addedCount": 1
+    "date": "2026-09-29",
+    "release": "v1.26",
+    "added_urls": [],
+    "addedCount": 0
   },
   "schema_version": 1,
   "title": "Open Resolve List",
@@ -10299,8 +10297,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
+          "checked_at": "2026-09-29T00:00:00Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -10317,16 +10315,37 @@
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
         "kind": "stable-release",
-        "version": "v4.8.20",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.20",
-        "date": "2026-09-24T01:18:11Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v4.8.22",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
+        "date": "2026-09-26T14:43:42Z",
+        "checked_at": "2026-09-29T00:00:00Z"
       },
-      "releaseDate": "2026-09-24T01:18:11Z",
-      "activityDate": "2026-09-24T01:17:20Z",
-      "stars": 3138,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "releaseDate": "2026-09-26T14:43:42Z",
+      "activityDate": "2026-09-26T14:43:41Z",
+      "stars": 3227,
+      "metadataChecked": "2026-09-29T00:00:00Z",
       "history": [
+        {
+          "name": "samuelgursky/davinci-resolve-mcp",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+          "from": "v4.8.20",
+          "to": "v4.8.22",
+          "release": "v1.26",
+          "catalogue_date": "2026-09-29",
+          "upstream_date": "2026-09-26T14:43:42Z",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
+          "summary": "Prevents the control-panel port check from hanging when macOS lsof is wedged, while preserving safe missing-process handling.",
+          "changes": [
+            "Runs the lsof check in its own session and abandons it at the deadline instead of waiting on an unkillable child.",
+            "Adds tests for wedged, exited and missing lsof processes."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22"
+            }
+          ]
+        },
         {
           "name": "samuelgursky/davinci-resolve-mcp",
           "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
@@ -10458,6 +10477,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.26",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
+        },
         {
           "version": "v1.25",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
@@ -19318,8 +19341,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
-          "checked_at": "2026-09-20T07:05:00Z",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+          "checked_at": "2026-09-29T00:00:00Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -19335,16 +19358,37 @@
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",
         "kind": "stable-release",
-        "version": "v1.8.2",
-        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8.2",
-        "date": "2026-09-19T00:00:00Z",
-        "checked_at": "2026-09-20T07:05:00Z"
+        "version": "v1.10",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+        "date": "2026-09-27T12:49:59Z",
+        "checked_at": "2026-09-29T00:00:00Z"
       },
-      "releaseDate": "2026-09-19T00:00:00Z",
-      "activityDate": "2026-09-20T01:46:10Z",
-      "stars": 6,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "releaseDate": "2026-09-27T12:49:59Z",
+      "activityDate": "2026-09-29T13:14:53Z",
+      "stars": 11,
+      "metadataChecked": "2026-09-29T00:00:00Z",
       "history": [
+        {
+          "name": "DhaliwalX/fotufilm-engine",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine",
+          "from": "v1.8.2",
+          "to": "v1.10",
+          "release": "v1.26",
+          "catalogue_date": "2026-09-29",
+          "upstream_date": "2026-09-27T12:49:59Z",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+          "summary": "Adds negative scanning controls and closer Fujifilm slide-film rendering for the Mac app and Resolve plugins.",
+          "changes": [
+            "Adds tone, straighten, frame and light-frame controls for scanned negatives.",
+            "Improves Fujifilm slide-film colour rendering; Final Cut Pro lens flare follows the selected stage."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10"
+            }
+          ]
+        },
         {
           "name": "DhaliwalX/fotufilm-engine",
           "url": "https://github.com/DhaliwalX/fotufilm-engine",
@@ -19388,6 +19432,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.26",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
+        },
         {
           "version": "v1.24",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24"
@@ -22035,8 +22083,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+          "checked_at": "2026-09-29T00:00:00Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -22052,16 +22100,37 @@
         "name": "gordasgdc/gdc-plugin-manager",
         "url": "https://github.com/gordasgdc/gdc-plugin-manager",
         "kind": "stable-release",
-        "version": "v1.39.4",
-        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.39.4",
-        "date": "2026-09-25T17:10:03Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v1.40.0",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+        "date": "2026-09-26T11:14:20Z",
+        "checked_at": "2026-09-29T00:00:00Z"
       },
-      "releaseDate": "2026-09-25T17:10:03Z",
-      "activityDate": "2026-09-25T17:26:26Z",
+      "releaseDate": "2026-09-26T11:14:20Z",
+      "activityDate": "2026-09-28T18:31:49Z",
       "stars": 1,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "metadataChecked": "2026-09-29T00:00:00Z",
       "history": [
+        {
+          "name": "gordasgdc/gdc-plugin-manager",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+          "from": "v1.39.4",
+          "to": "v1.40.0",
+          "release": "v1.26",
+          "catalogue_date": "2026-09-29",
+          "upstream_date": "2026-09-26T11:14:20Z",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+          "summary": "Refreshes product and content cards with clearer loading, empty, error and compatibility states plus scheduled promotional banners.",
+          "changes": [
+            "Adds clearer installed, update, error and incompatible product states.",
+            "Adds refreshed cards and scheduled promotional banner support."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0"
+            }
+          ]
+        },
         {
           "name": "gordasgdc/gdc-plugin-manager",
           "url": "https://github.com/gordasgdc/gdc-plugin-manager",
@@ -22086,6 +22155,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.26",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
+        },
         {
           "version": "v1.25",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
@@ -36460,8 +36533,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+          "checked_at": "2026-09-29T00:00:00Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -36479,16 +36552,38 @@
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
         "kind": "stable-release",
-        "version": "v0.4.8",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.8",
-        "date": "2026-09-24T12:47:26Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v0.4.9",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+        "date": "2026-09-28T12:22:42Z",
+        "checked_at": "2026-09-29T00:00:00Z"
       },
-      "releaseDate": "2026-09-24T12:47:26Z",
-      "activityDate": "2026-09-25T08:37:17Z",
-      "stars": 212,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "releaseDate": "2026-09-28T12:22:42Z",
+      "activityDate": "2026-09-29T13:09:30Z",
+      "stars": 214,
+      "metadataChecked": "2026-09-29T00:00:00Z",
       "history": [
+        {
+          "name": "shumaiOne/shumai",
+          "url": "https://github.com/shumaiOne/shumai",
+          "from": "v0.4.8",
+          "to": "v0.4.9",
+          "release": "v1.26",
+          "catalogue_date": "2026-09-29",
+          "upstream_date": "2026-09-28T12:22:42Z",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+          "summary": "Adds email notifications, VA-API transcoding and software fallback, and improves poster-frame and sprite generation.",
+          "changes": [
+            "Adds batched email notification digests and configurable SMTP settings.",
+            "Adds VA-API acceleration with software fallback when hardware encoding fails.",
+            "Improves poster selection and large-video sprite generation."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9"
+            }
+          ]
+        },
         {
           "name": "shumaiOne/shumai",
           "url": "https://github.com/shumaiOne/shumai",
@@ -36551,6 +36646,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.26",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
+        },
         {
           "version": "v1.25",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
@@ -41579,18 +41678,18 @@
       },
       "evidence": [
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/francozanardi/tscaps",
           "checked_at": "2026-09-08",
           "note": "Requires a supported WebCodecs browser. Editor is AGPL-3.0; engine/templates MIT. First use downloads transcription models."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+          "checked_at": "2026-09-29T00:00:00Z",
+          "note": "Recorded provider release evidence, not installation testing."
         }
       ],
       "unknownFields": [
@@ -41606,17 +41705,42 @@
         "name": "francozanardi/tscaps",
         "url": "https://github.com/francozanardi/tscaps",
         "kind": "stable-release",
-        "version": "web-v0.3.0",
-        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
-        "date": "2026-08-30T15:44:34Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "web-v0.4.1",
+        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+        "date": "2026-09-27T22:03:19Z",
+        "checked_at": "2026-09-29T00:00:00Z"
       },
-      "releaseDate": "2026-08-30T15:44:34Z",
-      "activityDate": "2026-08-30T18:48:30Z",
-      "stars": 51,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
-      "history": [],
+      "releaseDate": "2026-09-27T22:03:19Z",
+      "activityDate": "2026-09-27T21:58:08Z",
+      "stars": 75,
+      "metadataChecked": "2026-09-29T00:00:00Z",
+      "history": [
+        {
+          "name": "francozanardi/tscaps",
+          "url": "https://github.com/francozanardi/tscaps",
+          "from": "web-v0.3.0",
+          "to": "web-v0.4.1",
+          "release": "v1.26",
+          "catalogue_date": "2026-09-29",
+          "upstream_date": "2026-09-27T22:03:19Z",
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+          "summary": "Keeps smaller Ezra caption lines inside the frame and improves line wrapping.",
+          "changes": [
+            "Smaller lines wrap inside the frame instead of running beyond its edge."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1"
+            }
+          ]
+        }
+      ],
       "catalogueReleases": [
+        {
+          "version": "v1.26",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
+        },
         {
           "version": "v1.20",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.20"
@@ -44095,6 +44219,13 @@
   ],
   "releases": [
     {
+      "version": "v1.26",
+      "title": "v1.26 — Verified provider updates",
+      "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26",
+      "date": "2026-09-29T00:00:00Z",
+      "body": "## Verified provider updates\n\n- **[samuelgursky/davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp)**: v4.8.20 → v4.8.22. Prevents the control-panel port check from hanging when macOS lsof is wedged, while preserving safe missing-process handling. [Source changelog](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22).\n- **[DhaliwalX/fotufilm-engine](https://github.com/DhaliwalX/fotufilm-engine)**: v1.8.2 → v1.10. Adds negative scanning controls and closer Fujifilm slide-film rendering for the Mac app and Resolve plugins. [Source changelog](https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10).\n- **[gordasgdc/gdc-plugin-manager](https://github.com/gordasgdc/gdc-plugin-manager)**: v1.39.4 → v1.40.0. Refreshes product and content cards with clearer loading, empty, error and compatibility states plus scheduled promotional banners. [Source changelog](https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0).\n- **[shumaiOne/shumai](https://github.com/shumaiOne/shumai)**: v0.4.8 → v0.4.9. Adds email notifications, VA-API transcoding and software fallback, and improves poster-frame and sprite generation. [Source changelog](https://github.com/shumaiOne/shumai/releases/tag/v0.4.9).\n- **[francozanardi/tscaps](https://github.com/francozanardi/tscaps)**: web-v0.3.0 → web-v0.4.1. Keeps smaller Ezra caption lines inside the frame and improves line wrapping. [Source changelog](https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1).\n\nAll 5 provider releases were checked against their original GitHub release pages on 2026-09-29. Individual source histories remain visible on each listing."
+    },
+    {
       "version": "v1.25",
       "title": "v1.25 — Verified provider updates",
       "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25",
@@ -44406,6 +44537,27 @@
     {
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.8.20",
+      "to": "v4.8.22",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-26T14:43:42Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
+      "summary": "Prevents the control-panel port check from hanging when macOS lsof is wedged, while preserving safe missing-process handling.",
+      "changes": [
+        "Runs the lsof check in its own session and abandons it at the deadline instead of waiting on an unkillable child.",
+        "Adds tests for wedged, exited and missing lsof processes."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "from": "v4.8.13",
       "to": "v4.8.20",
       "release": "v1.25",
@@ -44689,6 +44841,27 @@
     {
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.8.2",
+      "to": "v1.10",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-27T12:49:59Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
+      "summary": "Adds negative scanning controls and closer Fujifilm slide-film rendering for the Mac app and Resolve plugins.",
+      "changes": [
+        "Adds tone, straighten, frame and light-frame controls for scanned negatives.",
+        "Improves Fujifilm slide-film colour rendering; Final Cut Pro lens flare follows the selected stage."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "from": "v1.7.1-build12",
       "to": "v1.8.1",
       "release": "v1.22",
@@ -44810,6 +44983,27 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "from": "v1.39.4",
+      "to": "v1.40.0",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-26T11:14:20Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
+      "summary": "Refreshes product and content cards with clearer loading, empty, error and compatibility states plus scheduled promotional banners.",
+      "changes": [
+        "Adds clearer installed, update, error and incompatible product states.",
+        "Adds refreshed cards and scheduled promotional banner support."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0"
         }
       ]
     },
@@ -45073,6 +45267,28 @@
     {
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.8",
+      "to": "v0.4.9",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-28T12:22:42Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
+      "summary": "Adds email notifications, VA-API transcoding and software fallback, and improves poster-frame and sprite generation.",
+      "changes": [
+        "Adds batched email notification digests and configurable SMTP settings.",
+        "Adds VA-API acceleration with software fallback when hardware encoding fails.",
+        "Improves poster selection and large-video sprite generation."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
       "from": "v0.4.7",
       "to": "v0.4.8",
       "release": "v1.25",
@@ -45205,6 +45421,26 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/stoatworks-labs/tilter/releases/tag/v0.1.6"
+        }
+      ]
+    },
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.3.0",
+      "to": "web-v0.4.1",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-27T22:03:19Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+      "summary": "Keeps smaller Ezra caption lines inside the frame and improves line wrapping.",
+      "changes": [
+        "Smaller lines wrap inside the frame instead of running beyond its edge."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1"
         }
       ]
     },

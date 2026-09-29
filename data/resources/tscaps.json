@@ -35,9 +35,9 @@
   "platform_source": "https://github.com/francozanardi/tscaps#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 51,
-  "last_pushed_at": "2026-08-30T18:48:30Z",
-  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "stars": 75,
+  "last_pushed_at": "2026-09-27T21:58:08Z",
+  "metadata_checked_at": "2026-09-29T00:00:00Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -53,25 +53,25 @@
     "name": "francozanardi/tscaps",
     "url": "https://github.com/francozanardi/tscaps",
     "kind": "stable-release",
-    "version": "web-v0.3.0",
-    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
-    "date": "2026-08-30T15:44:34Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "web-v0.4.1",
+    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+    "date": "2026-09-27T22:03:19Z",
+    "checked_at": "2026-09-29T00:00:00Z"
   },
   "evidence": [
-    {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
-      "checked_at": "2026-09-15T05:06:04.860Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
     {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/francozanardi/tscaps",
       "checked_at": "2026-09-08",
       "note": "Requires a supported WebCodecs browser. Editor is AGPL-3.0; engine/templates MIT. First use downloads transcription models."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+      "checked_at": "2026-09-29T00:00:00Z",
+      "note": "Recorded provider release evidence, not installation testing."
     }
   ],
   "unknownFields": [
@@ -82,11 +82,33 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.3.0",
+      "to": "web-v0.4.1",
+      "release": "v1.26",
+      "catalogue_date": "2026-09-29",
+      "upstream_date": "2026-09-27T22:03:19Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
+      "summary": "Keeps smaller Ezra caption lines inside the frame and improves line wrapping.",
+      "changes": [
+        "Smaller lines wrap inside the frame instead of running beyond its edge."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1"
+        }
+      ]
+    }
+  ],
   "legacy_id": "222ea3354263",
   "search_sources": [
     "https://github.com/francozanardi/tscaps"
   ],
   "tags_reviewed_at": "2026-09-08",
-  "requirements_reviewed": true
+  "requirements_reviewed": true,
+  "version_checked_at": "2026-09-29T00:00:00Z"
 }
