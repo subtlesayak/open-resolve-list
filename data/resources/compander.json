@@ -39,8 +39,8 @@
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
   "stars": 0,
-  "last_pushed_at": "2026-09-20T23:28:18Z",
-  "metadata_checked_at": "2026-09-26T00:00:00Z",
+  "last_pushed_at": "2026-10-04T04:35:32Z",
+  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -56,10 +56,11 @@
     "name": "stoatworks-labs/compander",
     "url": "https://github.com/stoatworks-labs/compander",
     "kind": "stable-release",
-    "version": "v0.1.3",
-    "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
-    "date": "2026-09-20T19:29:32Z",
-    "checked_at": "2026-09-26T00:00:00Z"
+    "version": "v0.1.4",
+    "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+    "date": "2026-10-04T03:39:49Z",
+    "checked_at": "2026-10-08T09:11:00.642Z",
+    "date_kind": "release"
   },
   "evidence": [
     {
@@ -79,8 +80,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
-      "checked_at": "2026-09-26T00:00:00Z",
+      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+      "checked_at": "2026-10-08T09:11:00.642Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -92,6 +93,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "stoatworks-labs/compander",
+      "url": "https://github.com/stoatworks-labs/compander",
+      "from": "v0.1.3",
+      "to": "v0.1.4",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-04T03:39:49Z",
+      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+      "summary": "Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged.",
+      "changes": [
+        "Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4"
+        }
+      ]
+    },
     {
       "name": "stoatworks-labs/compander",
       "url": "https://github.com/stoatworks-labs/compander",

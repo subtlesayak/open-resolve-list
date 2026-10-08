@@ -47,7 +47,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://chrisroyfilms.com/postwatch/version-history/",
-        "checked_at": "2026-09-07",
+        "checked_at": "2026-10-08T09:13:27.896Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -64,18 +64,44 @@
       "name": "PostWatch",
       "url": "https://chrisroyfilms.com/postwatch/",
       "kind": "vendor-version",
-      "version": "4.10",
+      "version": "4.11",
       "source": "https://chrisroyfilms.com/postwatch/version-history/",
       "date": null,
       "date_kind": null,
-      "checked_at": "2026-09-07"
+      "checked_at": "2026-10-08T09:13:27.896Z"
     },
     "releaseDate": null,
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
-    "history": [],
+    "history": [
+      {
+        "name": "PostWatch",
+        "url": "https://chrisroyfilms.com/postwatch/",
+        "from": "4.10",
+        "to": "4.11",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": null,
+        "source": "https://chrisroyfilms.com/postwatch/version-history/",
+        "summary": "Adds initial macOS Golden Gate compatibility and fixes Bluetooth battery monitoring.",
+        "changes": [
+          "Provider requests feedback on initial Golden Gate compatibility.",
+          "Fixes a minor Bluetooth battery monitoring issue."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://chrisroyfilms.com/postwatch/version-history/"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      },
       {
         "version": "v1.13",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.13"

@@ -39,9 +39,9 @@
   "platform_source": "https://github.com/DhaliwalX/fotufilm-engine#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 11,
-  "last_pushed_at": "2026-09-29T13:14:53Z",
-  "metadata_checked_at": "2026-09-29T00:00:00Z",
+  "stars": 18,
+  "last_pushed_at": "2026-10-07T16:00:26Z",
+  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,10 +57,11 @@
     "name": "DhaliwalX/fotufilm-engine",
     "url": "https://github.com/DhaliwalX/fotufilm-engine",
     "kind": "stable-release",
-    "version": "v1.10",
-    "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
-    "date": "2026-09-27T12:49:59Z",
-    "checked_at": "2026-09-29T00:00:00Z"
+    "version": "v1.11",
+    "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+    "date": "2026-10-03T21:55:23Z",
+    "checked_at": "2026-10-08T09:11:00.642Z",
+    "date_kind": "release"
   },
   "evidence": [
     {
@@ -80,8 +81,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
-      "checked_at": "2026-09-29T00:00:00Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+      "checked_at": "2026-10-08T09:11:00.642Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -93,6 +94,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.10",
+      "to": "v1.11",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-03T21:55:23Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+      "summary": "Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build.",
+      "changes": [
+        "Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11"
+        }
+      ]
+    },
     {
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",

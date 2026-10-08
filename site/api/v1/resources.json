@@ -1114,17 +1114,18 @@
         "name": "WyattBlue/auto-editor",
         "url": "https://github.com/WyattBlue/auto-editor",
         "kind": "stable-release",
-        "version": "31.6.0",
-        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
-        "date": "2026-09-06T21:01:15Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "31.7.2",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+        "date": "2026-10-03T02:04:36Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
-          "checked_at": "2026-09-15T05:06:04.860Z"
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         },
         {
           "field": "requirements",
@@ -1276,10 +1277,11 @@
         "name": "tmoroney/auto-subs",
         "url": "https://github.com/tmoroney/auto-subs",
         "kind": "stable-release",
-        "version": "v3.10.1",
-        "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
-        "date": "2026-09-19T00:00:00Z",
-        "checked_at": "2026-09-20T07:05:00Z"
+        "version": "v3.11.0",
+        "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0",
+        "date": "2026-09-29T19:07:26Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -1297,8 +1299,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
-          "checked_at": "2026-09-20T07:05:00Z"
+          "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -1686,17 +1688,18 @@
         "name": "ynput/ayon-resolve",
         "url": "https://github.com/ynput/ayon-resolve",
         "kind": "stable-release",
-        "version": "0.6.3",
-        "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.3",
-        "date": "2026-09-03T10:21:54Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "0.6.4",
+        "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+        "date": "2026-09-29T13:44:33Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.3",
-          "checked_at": "2026-09-15T05:06:04.860Z"
+          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -3928,10 +3931,11 @@
         "name": "stoatworks-labs/cogwheel",
         "url": "https://github.com/stoatworks-labs/cogwheel",
         "kind": "stable-release",
-        "version": "v0.6.1",
-        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
-        "date": "2026-09-20T19:29:50Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v0.6.2",
+        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+        "date": "2026-10-04T03:43:28Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -3949,8 +3953,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
-          "checked_at": "2026-09-26T00:00:00Z"
+          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -3985,10 +3989,11 @@
         "name": "ciqueira/ColorEqualizer",
         "url": "https://github.com/ciqueira/ColorEqualizer",
         "kind": "stable-release",
-        "version": "eq-v0.6.1",
-        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.1",
-        "date": "2026-09-02T23:27:50Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "eq-v0.6.4",
+        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+        "date": "2026-09-30T16:08:21Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -4000,8 +4005,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.1",
-          "checked_at": "2026-09-15T05:06:04.860Z"
+          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -4237,10 +4242,11 @@
         "name": "stoatworks-labs/compander",
         "url": "https://github.com/stoatworks-labs/compander",
         "kind": "stable-release",
-        "version": "v0.1.3",
-        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
-        "date": "2026-09-20T19:29:32Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v0.1.4",
+        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+        "date": "2026-10-04T03:39:49Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -4258,8 +4264,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
-          "checked_at": "2026-09-26T00:00:00Z"
+          "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -5285,6 +5291,106 @@
       ]
     },
     {
+      "id": "davinci-resolve-21-studio-and-ipad-features",
+      "name": "DaVinci Resolve 21 Studio and iPad Features",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf",
+      "category": "Official Blackmagic Design resources",
+      "kind": "reference",
+      "tasks": [
+        "learning"
+      ],
+      "description": "Official Resolve 21 comparison of Studio and iPad features, codecs and licensing-dependent items. Edition differences are version-specific. Support listing dated 2026-09-28.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": [],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "version": {
+        "name": "DaVinci Resolve 21 Studio and iPad Features",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf",
+        "kind": "reference-edition",
+        "version": "21",
+        "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf?_v=1790578810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-10-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf?_v=1790578810000",
+          "checked_at": "2026-10-08"
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf?_v=1790578810000",
+          "checked_at": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "davinci-resolve-21-supported-codecs",
+      "name": "DaVinci Resolve 21 Supported Codecs",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+      "category": "Official Blackmagic Design resources",
+      "kind": "reference",
+      "tasks": [
+        "learning"
+      ],
+      "description": "Official Resolve 21 codec and format support reference. Consult the document for operating-system and Free/Studio distinctions. Support listing dated 2026-09-28.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": [],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "version": {
+        "name": "DaVinci Resolve 21 Supported Codecs",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+        "kind": "reference-edition",
+        "version": "21",
+        "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf?_v=1790578810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-10-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf?_v=1790578810000",
+          "checked_at": "2026-10-08"
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf?_v=1790578810000",
+          "checked_at": "2026-10-08"
+        }
+      ]
+    },
+    {
       "id": "davinci-resolve-advanced-panel-manual",
       "name": "DaVinci Resolve Advanced Panel Manual",
       "creator": "Blackmagic Design",
@@ -5954,10 +6060,11 @@
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
         "kind": "stable-release",
-        "version": "v4.8.22",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
-        "date": "2026-09-26T14:43:42Z",
-        "checked_at": "2026-09-29T00:00:00Z"
+        "version": "v4.9.0",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+        "date": "2026-10-06T01:56:43Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -5969,8 +6076,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
-          "checked_at": "2026-09-29T00:00:00Z"
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -6073,7 +6180,7 @@
       "tasks": [
         "learning"
       ],
-      "description": "Official Resolve and Studio 21.1 downloads, released September 8, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1 projects cannot reopen in 20.3.2.",
+      "description": "Official Resolve and Studio 21.1.1 downloads, released October 2, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1.1 projects cannot reopen in 20.3.2.",
       "access": "🆓 Free edition; 💰 Studio license",
       "platforms": [
         "Windows",
@@ -6087,8 +6194,8 @@
         ],
         "resolve": [
           {
-            "min": "21.1",
-            "max": "21.1"
+            "min": "21.1.1",
+            "max": "21.1.1"
           }
         ],
         "architectures": [],
@@ -6103,31 +6210,31 @@
         "name": "DaVinci Resolve — official downloads",
         "url": "https://www.blackmagicdesign.com/products/davinciresolve",
         "kind": "vendor-version",
-        "version": "21.1",
-        "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
-        "date": "2026-09-08",
+        "version": "21.1.1",
+        "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+        "date": "2026-10-02T07:00:10.000Z",
         "date_kind": "release",
-        "checked_at": "2026-09-08",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Verified against official support feed and version-specific release notes."
       },
       "evidence": [
         {
           "field": "platforms",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
-          "checked_at": "2026-09-08"
+          "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         },
         {
           "field": "version",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
-          "checked_at": "2026-09-08"
+          "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         },
         {
           "field": "requirements",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
-          "checked_at": "2026-09-08"
+          "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -10109,11 +10216,11 @@
         "name": "fcp2aaf",
         "url": "https://fcp2aaf.com/",
         "kind": "vendor-version",
-        "version": "26.9.21",
+        "version": "26.10.01",
         "source": "https://fcp2aaf.com/changelog/",
-        "date": "2026-09-14",
+        "date": "2026-10-01",
         "date_kind": "release",
-        "checked_at": "2026-09-15",
+        "checked_at": "2026-10-08T09:13:27.896Z",
         "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
       },
       "evidence": [
@@ -10127,7 +10234,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-09-15"
+          "checked_at": "2026-10-08T09:13:27.896Z"
         },
         {
           "field": "requirements",
@@ -10145,7 +10252,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-09-15"
+          "checked_at": "2026-10-08T09:13:27.896Z"
         }
       ]
     },
@@ -10689,10 +10796,11 @@
         "name": "stoatworks-labs/flenser",
         "url": "https://github.com/stoatworks-labs/flenser",
         "kind": "stable-release",
-        "version": "v0.1.5",
-        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
-        "date": "2026-09-20T19:33:35Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v0.1.6",
+        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+        "date": "2026-10-04T03:57:18Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -10710,8 +10818,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
-          "checked_at": "2026-09-26T00:00:00Z"
+          "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -11013,10 +11121,11 @@
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",
         "kind": "stable-release",
-        "version": "v1.10",
-        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
-        "date": "2026-09-27T12:49:59Z",
-        "checked_at": "2026-09-29T00:00:00Z"
+        "version": "v1.11",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+        "date": "2026-10-03T21:55:23Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -11034,8 +11143,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
-          "checked_at": "2026-09-29T00:00:00Z"
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -11875,7 +11984,7 @@
       "tasks": [
         "fusion"
       ],
-      "description": "Standalone compositing application, version 21.1 released September 8, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
+      "description": "Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
       "access": "💰 Licensed software",
       "platforms": [
         "Windows",
@@ -11902,31 +12011,31 @@
         "name": "Fusion Studio — official product",
         "url": "https://www.blackmagicdesign.com/products/fusion",
         "kind": "vendor-version",
-        "version": "21.1",
-        "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-        "date": "2026-09-08",
+        "version": "21.1.1",
+        "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+        "date": "2026-10-02T07:00:10.000Z",
         "date_kind": "release",
-        "checked_at": "2026-09-08",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Verified against official support feed and version-specific release notes."
       },
       "evidence": [
         {
           "field": "platforms",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-          "checked_at": "2026-09-08"
+          "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         },
         {
           "field": "version",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-          "checked_at": "2026-09-08"
+          "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         },
         {
           "field": "requirements",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-          "checked_at": "2026-09-08"
+          "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -14842,6 +14951,72 @@
       "evidence": []
     },
     {
+      "id": "mononodes-look-lab-print-ofx",
+      "name": "MONONODES LOOK / LAB / PRINT OFX",
+      "creator": "MONONODES",
+      "url": "https://mononodes.com/look-lab-print-ofx/",
+      "category": "Color / Film",
+      "kind": "ofx",
+      "tasks": [
+        "color"
+      ],
+      "description": "Film-inspired OpenFX grading suite for Resolve Studio 20+. Includes Lab and Print; the higher product tier adds Color Shift and HDR. Supports Windows NVIDIA RTX and Apple Silicon Macs. Paid licenses with a watermarked demo.",
+      "access": "Paid license; watermarked demo",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "20",
+            "edition": "Studio"
+          }
+        ],
+        "architectures": [],
+        "gpu": "Windows: NVIDIA RTX; macOS: Apple Silicon",
+        "processing": "unknown",
+        "pricing": "mixed",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "version": {
+        "name": "MONONODES LOOK / LAB / PRINT OFX",
+        "url": "https://mononodes.com/look-lab-print-ofx/",
+        "kind": "vendor-version",
+        "version": "1.0 (demo label)",
+        "source": "https://mononodes.com/look-lab-print-ofx/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "note": "The provider labels the downloadable demo v1.0; no product release date is established."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://mononodes.com/look-lab-print-ofx/",
+          "checked_at": "2026-10-08T09:11:00.642Z"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://mononodes.com/look-lab-print-ofx/",
+          "checked_at": "2026-10-08T09:11:00.642Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://mononodes.com/look-lab-print-ofx/",
+          "checked_at": "2026-10-08T09:11:00.642Z"
+        }
+      ]
+    },
+    {
       "id": "mononodes",
       "name": "MONONODES",
       "creator": "mononodes.com",
@@ -16722,11 +16897,11 @@
         "name": "PostWatch",
         "url": "https://chrisroyfilms.com/postwatch/",
         "kind": "vendor-version",
-        "version": "4.10",
+        "version": "4.11",
         "source": "https://chrisroyfilms.com/postwatch/version-history/",
         "date": null,
         "date_kind": null,
-        "checked_at": "2026-09-07"
+        "checked_at": "2026-10-08T09:13:27.896Z"
       },
       "evidence": [
         {
@@ -16739,7 +16914,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://chrisroyfilms.com/postwatch/version-history/",
-          "checked_at": "2026-09-07"
+          "checked_at": "2026-10-08T09:13:27.896Z"
         }
       ]
     },
@@ -20221,7 +20396,7 @@
       "tasks": [
         "media"
       ],
-      "description": "NDI HDR network-video output through OpenFX. Resolve 17+; building from source requires the NDI Advanced SDK.",
+      "description": "NDI SDR network-video output through OpenFX. Resolve 17+; building from source requires the NDI Advanced SDK. As of v1.15.0, HDR streaming is removed; output is 8-bit Rec.709 SDR.",
       "access": "Free; SDK terms separate",
       "platforms": [
         "Windows",
@@ -20242,10 +20417,11 @@
         "name": "lightsailvr/ResolveOFX_NDIOutput",
         "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
         "kind": "stable-release",
-        "version": "v1.14.1",
-        "source": "https://github.com/lightsailvr/ResolveOFX_NDIOutput/releases/tag/v1.14.1",
-        "date": "2026-09-02T00:52:55Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "v1.15.0",
+        "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+        "date": "2026-10-01T23:13:55Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -20257,8 +20433,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/lightsailvr/ResolveOFX_NDIOutput/releases/tag/v1.14.1",
-          "checked_at": "2026-09-15T05:06:04.860Z"
+          "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -20856,10 +21032,11 @@
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
         "kind": "stable-release",
-        "version": "v0.4.9",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
-        "date": "2026-09-28T12:22:42Z",
-        "checked_at": "2026-09-29T00:00:00Z"
+        "version": "v0.5.1",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
+        "date": "2026-10-06T14:33:00Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -20871,8 +21048,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
-          "checked_at": "2026-09-29T00:00:00Z"
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -23844,10 +24021,11 @@
         "name": "francozanardi/tscaps",
         "url": "https://github.com/francozanardi/tscaps",
         "kind": "stable-release",
-        "version": "web-v0.4.1",
-        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
-        "date": "2026-09-27T22:03:19Z",
-        "checked_at": "2026-09-29T00:00:00Z"
+        "version": "web-v0.5.0",
+        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+        "date": "2026-10-01T18:07:16Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
       "evidence": [
         {
@@ -23859,8 +24037,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
-          "checked_at": "2026-09-29T00:00:00Z"
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+          "checked_at": "2026-10-08T09:11:00.642Z"
         }
       ]
     },
@@ -24594,8 +24772,8 @@
       "tasks": [
         "audio"
       ],
-      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool for Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon. Initial model download and license activation need internet. One-time license includes future versions and no recurring activation checks. Version 1.475.0 adds guidance for finding repeated phrases.",
-      "access": "💰 Paid license with 7-day trial",
+      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation for Windows and macOS. Version 2.6.0 is free and open source under GPL-3.0; no trial or licence activation. Initial model download requires internet.",
+      "access": "Free and open source; GPL-3.0",
       "platforms": [
         "Windows",
         "macOS"
@@ -24609,7 +24787,7 @@
         ],
         "gpu": null,
         "processing": "local",
-        "pricing": "one-time",
+        "pricing": "free",
         "account": "unknown",
         "dependencies": null,
         "installation": null
@@ -24618,11 +24796,11 @@
         "name": "VocalSlice",
         "url": "https://vocalslice.com/",
         "kind": "vendor-version",
-        "version": "1.475.0",
+        "version": "2.6.0",
         "source": "https://vocalslice.com/changelog.html",
-        "date": "2026-08-27",
+        "date": "2026-10-07",
         "date_kind": "release",
-        "checked_at": "2026-09-15",
+        "checked_at": "2026-10-08T09:13:27.896Z",
         "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
       },
       "evidence": [
@@ -24636,13 +24814,13 @@
           "field": "version",
           "level": "documented",
           "source": "https://vocalslice.com/changelog.html",
-          "checked_at": "2026-09-15"
+          "checked_at": "2026-10-08T09:13:27.896Z"
         },
         {
           "field": "requirements",
           "level": "documented",
-          "source": "https://vocalslice.com/",
-          "checked_at": "2026-09-08"
+          "source": "https://vocalslice.com/changelog.html",
+          "checked_at": "2026-10-08T09:13:27.896Z"
         },
         {
           "field": "changelog",
@@ -24654,7 +24832,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://vocalslice.com/changelog.html",
-          "checked_at": "2026-09-15"
+          "checked_at": "2026-10-08T09:13:27.896Z"
         }
       ]
     },

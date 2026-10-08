@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy": "Generated from data/resources/*.json. Edit canonical records, then run npm run build.",
-  "reviewed_at": "2026-09-26",
+  "reviewed_at": "2026-10-08",
   "entries": [
     {
       "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
@@ -1516,6 +1516,35 @@
       ],
       "sources": [
         "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf?_v=1776322810000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf",
+      "name": "DaVinci Resolve 21 Studio and iPad Features",
+      "tags": [
+        "features",
+        "studio",
+        "free",
+        "ipad",
+        "edition comparison",
+        "resolve 21"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf?_v=1790578810000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+      "name": "DaVinci Resolve 21 Supported Codecs",
+      "tags": [
+        "codecs",
+        "formats",
+        "encoding",
+        "decoding",
+        "resolve 21"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf?_v=1790578810000"
       ]
     },
     {
@@ -4327,6 +4356,25 @@
       ]
     },
     {
+      "url": "https://mononodes.com/look-lab-print-ofx/",
+      "name": "MONONODES LOOK / LAB / PRINT OFX",
+      "tags": [
+        "film emulation",
+        "ofx",
+        "negative film",
+        "kodak vision3",
+        "kodak 2383",
+        "fujifilm 3513di",
+        "printer lights",
+        "bleach bypass",
+        "color shift",
+        "midi"
+      ],
+      "sources": [
+        "https://mononodes.com/look-lab-print-ofx/"
+      ]
+    },
+    {
       "url": "https://mononodes.com/dctl-and-more/",
       "name": "MONONODES",
       "tags": [
@@ -7053,7 +7101,9 @@
         "transcription",
         "wav",
         "clips",
-        "text editing"
+        "text editing",
+        "open source",
+        "free audio editor"
       ],
       "sources": [
         "https://vocalslice.com/",

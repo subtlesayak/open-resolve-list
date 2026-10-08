@@ -45,6 +45,14 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 Blackmagic Design
 
+| [DaVinci Resolve 21 Studio and iPad Features](https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf) | 🆓 Public reference; original terms apply | 📖 Reference | Official Resolve 21 comparison of Studio and iPad features, codecs and licensing-dependent items. Edition differences are version-specific. Support listing dated 2026-09-28. |
+
+#### 👤 Blackmagic Design
+
+| [DaVinci Resolve 21 Supported Codecs](https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf) | 🆓 Public reference; original terms apply | 📖 Reference | Official Resolve 21 codec and format support reference. Consult the document for operating-system and Free/Studio distinctions. Support listing dated 2026-09-28. |
+
+#### 👤 Blackmagic Design
+
 | [DaVinci Resolve Advanced Panel Manual](https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf) | 🆓 Public reference; original terms apply | 📖 Reference | Operation reference for the Resolve Advanced Panel color-grading control surface. Support listing dated 2024-09-04. |
 
 #### 👤 Blackmagic Design
@@ -61,7 +69,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 Blackmagic Design
 
-| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Official Resolve and Studio 21.1 downloads, released September 8, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1 projects cannot reopen in 20.3.2. |
+| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Official Resolve and Studio 21.1.1 downloads, released October 2, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1.1 projects cannot reopen in 20.3.2. |
 
 #### 👤 Blackmagic Design
 
@@ -117,7 +125,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 Blackmagic Design
 
-| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | 💰 Licensed software | 🪟 Windows · 🍎 macOS · 🐧 Linux | Standalone compositing application, version 21.1 released September 8, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required. |
+| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | 💰 Licensed software | 🪟 Windows · 🍎 macOS · 🐧 Linux | Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required. |
 
 #### 👤 Blackmagic Design
 
@@ -212,6 +220,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 #### 👤 Veres Deni Alex
 
 | [Kodachrome PowerGrades](https://www.veresdenialex.com/product-page/kodachrome-power-grades) | 💰 Paid | ❔ Not established | Kodachrome-inspired grading collection for log workflows. Rec.709 footage needs exposure and contrast adjustments. Product title identifies PowerGrades but some description text says LUTs; confirm deliverables before purchase. |
+
+#### 👤 MONONODES
+
+| [MONONODES LOOK / LAB / PRINT OFX](https://mononodes.com/look-lab-print-ofx/) | Paid license; watermarked demo | Windows · macOS | Film-inspired OpenFX grading suite for Resolve Studio 20+. Includes Lab and Print; the higher product tier adds Color Shift and HDR. Supports Windows NVIDIA RTX and Apple Silicon Macs. Paid licenses with a watermarked demo. |
 
 #### 👤 mononodes.com
 
@@ -750,7 +762,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 VocalSlice
 
-| [VocalSlice](https://vocalslice.com/) | 💰 Paid license with 7-day trial | 🪟 Windows · 🍎 macOS | Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool for Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon. Initial model download and license activation need internet. One-time license includes future versions and no recurring activation checks. Version 1.475.0 adds guidance for finding repeated phrases. |
+| [VocalSlice](https://vocalslice.com/) | Free and open source; GPL-3.0 | 🪟 Windows · 🍎 macOS | Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation for Windows and macOS. Version 2.6.0 is free and open source under GPL-3.0; no trial or licence activation. Initial model download requires internet. |
 
 #### 👤 Emilio Sapia - Millolab
 

@@ -2,6 +2,385 @@
   "schema_version": 1,
   "entries": [
     {
+      "name": "VocalSlice",
+      "url": "https://vocalslice.com/",
+      "from": "1.475.0",
+      "to": "2.6.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-07",
+      "source": "https://vocalslice.com/changelog.html",
+      "summary": "Becomes free and open source under GPL-3.0, removes trial and licence activation, and fixes release-note formatting.",
+      "changes": [
+        "Unlocks all features without trial or licence key.",
+        "Moves to the open-source repository and version-2 numbering.",
+        "Removes licence and trial records and fixes formatting in in-app release notes."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://vocalslice.com/changelog.html"
+        }
+      ]
+    },
+    {
+      "name": "PostWatch",
+      "url": "https://chrisroyfilms.com/postwatch/",
+      "from": "4.10",
+      "to": "4.11",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": null,
+      "source": "https://chrisroyfilms.com/postwatch/version-history/",
+      "summary": "Adds initial macOS Golden Gate compatibility and fixes Bluetooth battery monitoring.",
+      "changes": [
+        "Provider requests feedback on initial Golden Gate compatibility.",
+        "Fixes a minor Bluetooth battery monitoring issue."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://chrisroyfilms.com/postwatch/version-history/"
+        }
+      ]
+    },
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
+      "from": "26.9.21",
+      "to": "26.10.01",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-01",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Adds iPhone Spatial Audio stereo import and RED KOMODO/V-RAPTOR R3D audio support.",
+      "changes": [
+        "Imports the stereo audio of iPhone Spatial Audio videos.",
+        "Reads R3D camera audio from KOMODO and V-RAPTOR."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
+    {
+      "name": "Fusion Studio",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21.1",
+      "to": "21.1.1",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-02T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+      "summary": "Fixes sTrace, Console shortcuts, dual-screen layouts and OGraf caching, and improves Magic Mask performance.",
+      "changes": [
+        "Addressed issue with sTrace Create.",
+        "Addressed issue with deselecting combined text fields.",
+        "Addressed issue with copy and select all shortcuts in Console.",
+        "Addressed issue with with dual screen layouts.",
+        "Addressed OGraf caching and path relinking issues.",
+        "OGraf animation improvements for duration aware sizing and outro.",
+        "Improved Magic Mask creation performance.",
+        "General performance and stability improvements."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8"
+        }
+      ]
+    },
+    {
+      "name": "DaVinci Resolve / Studio",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "from": "21.1",
+      "to": "21.1.1",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-02T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+      "summary": "Improves trim editing, USAC decoding on Windows 11, Fusion effects and collaboration stability.",
+      "changes": [
+        "Free and Studio: Trim editor viewer actions affect all selected edit points.",
+        "Free and Studio: Trim editor mouse based edit actions now include audio previews.",
+        "Free and Studio: Trim editor viewer now supports audio only clip editing.",
+        "Free and Studio: Support for CR3 RAW decodes for EOS R8 Mark II.",
+        "Free and Studio: Support for USAC audio decode on Windows 11.",
+        "Free and Studio: Data burn options to show source feet and frames.",
+        "Free and Studio: OGraf animation improvements for duration aware sizing and outro.",
+        "Free and Studio: ApplyGradeFromDRX API option to apply changes to all node layers.",
+        "Free and Studio: Addressed inspector combining multiple Fusion effects for a clip.",
+        "Free and Studio: Addressed transitions on clips with foreground composite mode.",
+        "Free and Studio: Addressed looped play around selection issues in dynamic trim.",
+        "Free and Studio: Addressed original media aspect ratio not honoring orientation.",
+        "Free and Studio: Addressed issue adding plain Text+ or MultiText to a subtitle track.",
+        "Free and Studio: Addressed OGraf caching and path relinking issues.",
+        "Free and Studio: Sync bin multi angle view now displays record timecode and frame.",
+        "Free and Studio: Multicam actions are now available in single viewer mode.",
+        "Free and Studio: Addressed issue with Halation controls in Film Look Creator.",
+        "Free and Studio: Addressed multi-user collaboration connectivity issues.",
+        "Free and Studio: Improved NVIDIA decode memory usage for some R3D NE clips.",
+        "Free and Studio: General performance and stability improvements.",
+        "Studio: Async APIs for quick export, transcription and scene cut detection.",
+        "Studio: Async APIs for Smart Reframe and subtitle creation.",
+        "Studio: Addressed auto captions sometimes cropping in vertical timelines.",
+        "Studio: Addressed occasional Magic Mask slow downs in Fusion page.",
+        "Studio: Addressed issue when launching app from AI Assistants in Windows."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d"
+        },
+        {
+          "label": "Studio release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/dfbb6e4233c144d1b328c109c7ebc11e"
+        }
+      ]
+    },
+    {
+      "name": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.6.0",
+      "to": "31.7.2",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-03T02:04:36Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+      "summary": "Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr.",
+      "changes": [
+        "Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2"
+        }
+      ]
+    },
+    {
+      "name": "tmoroney/auto-subs",
+      "url": "https://github.com/tmoroney/auto-subs",
+      "from": "v3.10.1",
+      "to": "v3.11.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-09-29T19:07:26Z",
+      "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0",
+      "summary": "Adds speech-detection controls and fixes Resolve timeline delivery, non-English installs, long transcription and SRT import.",
+      "changes": [
+        "Adds speech-detection controls and fixes Resolve timeline delivery, non-English installs, long transcription and SRT import."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0"
+        }
+      ]
+    },
+    {
+      "name": "ynput/ayon-resolve",
+      "url": "https://github.com/ynput/ayon-resolve",
+      "from": "0.6.3",
+      "to": "0.6.4",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-09-29T13:44:33Z",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+      "summary": "Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations.",
+      "changes": [
+        "Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4"
+        }
+      ]
+    },
+    {
+      "name": "stoatworks-labs/cogwheel",
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "from": "v0.6.1",
+      "to": "v0.6.2",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-04T03:43:28Z",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+      "summary": "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame.",
+      "changes": [
+        "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2"
+        }
+      ]
+    },
+    {
+      "name": "ciqueira/ColorEqualizer",
+      "url": "https://github.com/ciqueira/ColorEqualizer",
+      "from": "eq-v0.6.1",
+      "to": "eq-v0.6.4",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-09-30T16:08:21Z",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+      "summary": "Records the provider SDK update; no detailed feature changelog was published.",
+      "changes": [
+        "Records the provider SDK update; no detailed feature changelog was published."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4"
+        }
+      ]
+    },
+    {
+      "name": "stoatworks-labs/compander",
+      "url": "https://github.com/stoatworks-labs/compander",
+      "from": "v0.1.3",
+      "to": "v0.1.4",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-04T03:39:49Z",
+      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+      "summary": "Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged.",
+      "changes": [
+        "Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.8.22",
+      "to": "v4.9.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-06T01:56:43Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+      "summary": "Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed.",
+      "changes": [
+        "Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0"
+        }
+      ]
+    },
+    {
+      "name": "stoatworks-labs/flenser",
+      "url": "https://github.com/stoatworks-labs/flenser",
+      "from": "v0.1.5",
+      "to": "v0.1.6",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-04T03:57:18Z",
+      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+      "summary": "Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output.",
+      "changes": [
+        "Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.10",
+      "to": "v1.11",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-03T21:55:23Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+      "summary": "Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build.",
+      "changes": [
+        "Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11"
+        }
+      ]
+    },
+    {
+      "name": "lightsailvr/ResolveOFX_NDIOutput",
+      "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+      "from": "v1.14.1",
+      "to": "v1.15.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-01T23:13:55Z",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+      "summary": "Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only.",
+      "changes": [
+        "Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.9",
+      "to": "v0.5.1",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-06T14:33:00Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
+      "summary": "Adds GPU decoding and scaling, RAW-image preview fallback and clickable asset notifications; fixes RAW transcoding hangs.",
+      "changes": [
+        "Adds GPU decoding and scaling, RAW-image preview fallback and clickable asset notifications; fixes RAW transcoding hangs."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1"
+        }
+      ]
+    },
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.4.1",
+      "to": "web-v0.5.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-01T18:07:16Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+      "summary": "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences.",
+      "changes": [
+        "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0"
+        }
+      ]
+    },
+    {
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "from": "v4.8.20",

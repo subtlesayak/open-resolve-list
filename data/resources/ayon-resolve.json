@@ -32,8 +32,8 @@
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
   "stars": 13,
-  "last_pushed_at": "2026-09-14T18:21:06Z",
-  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "last_pushed_at": "2026-10-08T06:37:27Z",
+  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -49,17 +49,18 @@
     "name": "ynput/ayon-resolve",
     "url": "https://github.com/ynput/ayon-resolve",
     "kind": "stable-release",
-    "version": "0.6.3",
-    "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.3",
-    "date": "2026-09-03T10:21:54Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "0.6.4",
+    "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+    "date": "2026-09-29T13:44:33Z",
+    "checked_at": "2026-10-08T09:11:00.642Z",
+    "date_kind": "release"
   },
   "evidence": [
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.3",
-      "checked_at": "2026-09-15T05:06:04.860Z",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+      "checked_at": "2026-10-08T09:11:00.642Z",
       "note": "Recorded version evidence, not installation testing."
     }
   ],
@@ -72,7 +73,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "ynput/ayon-resolve",
+      "url": "https://github.com/ynput/ayon-resolve",
+      "from": "0.6.3",
+      "to": "0.6.4",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-09-29T13:44:33Z",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+      "summary": "Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations.",
+      "changes": [
+        "Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4"
+        }
+      ]
+    }
+  ],
   "legacy_id": "32c4f04820f2",
   "search_sources": [
     "https://github.com/ynput/ayon-resolve"

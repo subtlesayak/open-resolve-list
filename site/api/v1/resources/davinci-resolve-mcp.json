@@ -52,8 +52,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
-        "checked_at": "2026-09-29T00:00:00Z",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -70,16 +70,37 @@
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.8.22",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
-      "date": "2026-09-26T14:43:42Z",
-      "checked_at": "2026-09-29T00:00:00Z"
+      "version": "v4.9.0",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+      "date": "2026-10-06T01:56:43Z",
+      "checked_at": "2026-10-08T09:11:00.642Z",
+      "date_kind": "release"
     },
-    "releaseDate": "2026-09-26T14:43:42Z",
-    "activityDate": "2026-09-26T14:43:41Z",
-    "stars": 3227,
-    "metadataChecked": "2026-09-29T00:00:00Z",
+    "releaseDate": "2026-10-06T01:56:43Z",
+    "activityDate": "2026-10-06T01:56:42Z",
+    "stars": 3405,
+    "metadataChecked": "2026-10-08T09:05:42.805Z",
     "history": [
+      {
+        "name": "samuelgursky/davinci-resolve-mcp",
+        "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+        "from": "v4.8.22",
+        "to": "v4.9.0",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": "2026-10-06T01:56:43Z",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+        "summary": "Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed.",
+        "changes": [
+          "Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0"
+          }
+        ]
+      },
       {
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
@@ -232,6 +253,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      },
       {
         "version": "v1.26",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"

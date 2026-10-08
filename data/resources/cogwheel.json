@@ -40,8 +40,8 @@
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
   "stars": 0,
-  "last_pushed_at": "2026-09-20T23:28:15Z",
-  "metadata_checked_at": "2026-09-26T00:00:00Z",
+  "last_pushed_at": "2026-10-04T04:35:30Z",
+  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,10 +57,11 @@
     "name": "stoatworks-labs/cogwheel",
     "url": "https://github.com/stoatworks-labs/cogwheel",
     "kind": "stable-release",
-    "version": "v0.6.1",
-    "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
-    "date": "2026-09-20T19:29:50Z",
-    "checked_at": "2026-09-26T00:00:00Z"
+    "version": "v0.6.2",
+    "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+    "date": "2026-10-04T03:43:28Z",
+    "checked_at": "2026-10-08T09:11:00.642Z",
+    "date_kind": "release"
   },
   "evidence": [
     {
@@ -80,8 +81,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
-      "checked_at": "2026-09-26T00:00:00Z",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+      "checked_at": "2026-10-08T09:11:00.642Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -93,6 +94,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "stoatworks-labs/cogwheel",
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "from": "v0.6.1",
+      "to": "v0.6.2",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-04T03:43:28Z",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+      "summary": "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame.",
+      "changes": [
+        "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2"
+        }
+      ]
+    },
     {
       "name": "stoatworks-labs/cogwheel",
       "url": "https://github.com/stoatworks-labs/cogwheel",

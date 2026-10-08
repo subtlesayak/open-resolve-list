@@ -12,8 +12,21 @@
   "reference": false,
   "category": "AI assistants, MCP servers, and ComfyUI integrations",
   "kind": "workflow-app",
-  "tasks": ["workflow", "media", "captions"],
-  "tags": ["ai", "automation", "comfyui", "generative", "media", "subtitles", "timeline", "workflow"],
+  "tasks": [
+    "workflow",
+    "media",
+    "captions"
+  ],
+  "tags": [
+    "ai",
+    "automation",
+    "comfyui",
+    "generative",
+    "media",
+    "subtitles",
+    "timeline",
+    "workflow"
+  ],
   "description": "Free ComfyUI custom nodes that exchange images, video, audio and subtitles with DaVinci Resolve, including timeline grabs, media-library actions and automatic subtitle placement.",
   "display_description": "Free ComfyUI custom nodes that exchange images, video, audio and subtitles with DaVinci Resolve, including timeline grabs, media-library actions and automatic subtitle placement.",
   "access": "Free",
@@ -25,11 +38,13 @@
   "platform_source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
   "platform_checked_at": "2026-09-26",
   "research_snapshot": "2026-09-26",
-  "stars": 5,
+  "stars": 7,
   "last_pushed_at": "2026-09-11T20:51:48Z",
-  "metadata_checked_at": "2026-09-26T00:00:00Z",
+  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
   "requirements": {
-    "editions": ["Studio"],
+    "editions": [
+      "Studio"
+    ],
     "resolve": [],
     "architectures": [],
     "gpu": "ComfyUI hardware and model requirements apply",
@@ -49,17 +64,48 @@
     "checked_at": "2026-09-26T00:00:00Z"
   },
   "evidence": [
-    {"field": "platforms", "level": "documented", "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme", "checked_at": "2026-09-26", "note": "Provider documents ComfyUI hardware launch examples; Resolve platform support is not established."},
-    {"field": "Resolve edition", "level": "documented", "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme", "checked_at": "2026-09-26", "note": "Provider requires DaVinci Resolve Studio and external scripting."},
-    {"field": "processing", "level": "documented", "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme", "checked_at": "2026-09-26", "note": "Nodes run locally inside ComfyUI and communicate with a local Resolve instance."},
-    {"field": "repository revision", "level": "documented", "source": "https://github.com/lumosai8/ComfyUI-SecondUnit/commit/855476b6488e8395d7a0c2825980d98d291105e2", "checked_at": "2026-09-26T00:00:00Z", "note": "Source revision, not a published software release."}
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+      "checked_at": "2026-09-26",
+      "note": "Provider documents ComfyUI hardware launch examples; Resolve platform support is not established."
+    },
+    {
+      "field": "Resolve edition",
+      "level": "documented",
+      "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+      "checked_at": "2026-09-26",
+      "note": "Provider requires DaVinci Resolve Studio and external scripting."
+    },
+    {
+      "field": "processing",
+      "level": "documented",
+      "source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
+      "checked_at": "2026-09-26",
+      "note": "Nodes run locally inside ComfyUI and communicate with a local Resolve instance."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/lumosai8/ComfyUI-SecondUnit/commit/855476b6488e8395d7a0c2825980d98d291105e2",
+      "checked_at": "2026-09-26T00:00:00Z",
+      "note": "Source revision, not a published software release."
+    }
   ],
-  "unknownFields": ["Resolve version", "architecture", "account"],
+  "unknownFields": [
+    "Resolve version",
+    "architecture",
+    "account"
+  ],
   "recommended": false,
   "recommendation": null,
   "history": [],
   "legacy_id": "2f3d8b6c1a90",
-  "search_sources": ["https://github.com/lumosai8/ComfyUI-SecondUnit", "https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"],
+  "search_sources": [
+    "https://github.com/lumosai8/ComfyUI-SecondUnit",
+    "https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"
+  ],
   "tags_reviewed_at": "2026-09-26",
   "requirements_reviewed": true
 }

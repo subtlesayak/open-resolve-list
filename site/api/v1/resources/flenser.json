@@ -59,8 +59,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
-        "checked_at": "2026-09-26T00:00:00Z",
+        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -76,16 +76,37 @@
       "name": "stoatworks-labs/flenser",
       "url": "https://github.com/stoatworks-labs/flenser",
       "kind": "stable-release",
-      "version": "v0.1.5",
-      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
-      "date": "2026-09-20T19:33:35Z",
-      "checked_at": "2026-09-26T00:00:00Z"
+      "version": "v0.1.6",
+      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+      "date": "2026-10-04T03:57:18Z",
+      "checked_at": "2026-10-08T09:11:00.642Z",
+      "date_kind": "release"
     },
-    "releaseDate": "2026-09-20T19:33:35Z",
-    "activityDate": "2026-09-24T02:15:16Z",
+    "releaseDate": "2026-10-04T03:57:18Z",
+    "activityDate": "2026-10-04T05:10:46Z",
     "stars": 1,
-    "metadataChecked": "2026-09-26T00:00:00Z",
+    "metadataChecked": "2026-10-08T09:05:42.805Z",
     "history": [
+      {
+        "name": "stoatworks-labs/flenser",
+        "url": "https://github.com/stoatworks-labs/flenser",
+        "from": "v0.1.5",
+        "to": "v0.1.6",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": "2026-10-04T03:57:18Z",
+        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+        "summary": "Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output.",
+        "changes": [
+          "Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6"
+          }
+        ]
+      },
       {
         "name": "stoatworks-labs/flenser",
         "url": "https://github.com/stoatworks-labs/flenser",
@@ -108,6 +129,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      },
       {
         "version": "v1.25",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"

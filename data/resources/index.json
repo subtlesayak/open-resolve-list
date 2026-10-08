@@ -966,6 +966,24 @@
       "kind": "reference"
     },
     {
+      "id": "davinci-resolve-21-studio-and-ipad-features",
+      "name": "DaVinci Resolve 21 Studio and iPad Features",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf",
+      "origin": "external",
+      "category": "Official Blackmagic Design resources",
+      "kind": "reference"
+    },
+    {
+      "id": "davinci-resolve-21-supported-codecs",
+      "name": "DaVinci Resolve 21 Supported Codecs",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+      "origin": "external",
+      "category": "Official Blackmagic Design resources",
+      "kind": "reference"
+    },
+    {
       "id": "davinci-resolve-advanced-panel-manual",
       "name": "DaVinci Resolve Advanced Panel Manual",
       "creator": "Blackmagic Design",
@@ -2764,6 +2782,15 @@
       "origin": "external",
       "category": "Templates and discovery",
       "kind": "template"
+    },
+    {
+      "id": "mononodes-look-lab-print-ofx",
+      "name": "MONONODES LOOK / LAB / PRINT OFX",
+      "creator": "MONONODES",
+      "url": "https://mononodes.com/look-lab-print-ofx/",
+      "origin": "external",
+      "category": "Color / Film",
+      "kind": "ofx"
     },
     {
       "id": "mononodes",

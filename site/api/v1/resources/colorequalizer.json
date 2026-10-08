@@ -51,8 +51,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.1",
-        "checked_at": "2026-09-15T05:06:04.860Z",
+        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -69,16 +69,37 @@
       "name": "ciqueira/ColorEqualizer",
       "url": "https://github.com/ciqueira/ColorEqualizer",
       "kind": "stable-release",
-      "version": "eq-v0.6.1",
-      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.1",
-      "date": "2026-09-02T23:27:50Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "eq-v0.6.4",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+      "date": "2026-09-30T16:08:21Z",
+      "checked_at": "2026-10-08T09:11:00.642Z",
+      "date_kind": "release"
     },
-    "releaseDate": "2026-09-02T23:27:50Z",
-    "activityDate": "2026-09-14T18:55:21Z",
+    "releaseDate": "2026-09-30T16:08:21Z",
+    "activityDate": "2026-09-30T16:08:21Z",
     "stars": 9,
-    "metadataChecked": "2026-09-15T05:06:04.860Z",
+    "metadataChecked": "2026-10-08T09:05:42.805Z",
     "history": [
+      {
+        "name": "ciqueira/ColorEqualizer",
+        "url": "https://github.com/ciqueira/ColorEqualizer",
+        "from": "eq-v0.6.1",
+        "to": "eq-v0.6.4",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": "2026-09-30T16:08:21Z",
+        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+        "summary": "Records the provider SDK update; no detailed feature changelog was published.",
+        "changes": [
+          "Records the provider SDK update; no detailed feature changelog was published."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4"
+          }
+        ]
+      },
       {
         "name": "ciqueira/ColorEqualizer",
         "url": "https://github.com/ciqueira/ColorEqualizer",
@@ -101,6 +122,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      },
       {
         "version": "v1.22",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"

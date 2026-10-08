@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-15",
+  "checked_at": "2026-10-08",
   "baseline_count": 72,
-  "added_count": 179,
-  "total_count": 251,
+  "added_count": 182,
+  "total_count": 254,
   "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added. Follow-up 2026-09-08: targeted deeper search across eleven Reddit communities, accessible comments and highlighted threads; eleven external additions verified against original sources. This is not a complete archive or all-comments crawl. Follow-up 2026-09-15: accumulated sources revisited, including five GitHub directories, creator stores, Reactor and eleven Reddit communities. Direct Reddit feeds and some forums were inaccessible; indexed and selected rendered checks are partial. Only verified additions and provider changes are published.",
   "additions": [
     {
@@ -577,7 +577,7 @@
       "category": "Official resources and community references",
       "access": "🆓 Free edition; 💰 Studio license",
       "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
-      "description": "Official Resolve and Studio 21.1 downloads, released September 8, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1 projects cannot reopen in 20.3.2.",
+      "description": "Official Resolve and Studio 21.1.1 downloads, released October 2, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1.1 projects cannot reopen in 20.3.2.",
       "version": "21.1",
       "updated": "2026-09-08",
       "date_kind": "release",
@@ -595,7 +595,7 @@
       "category": "Official resources and community references",
       "access": "💰 Licensed software",
       "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
-      "description": "Standalone compositing application, version 21.1 released September 8, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
+      "description": "Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
       "version": "21.1",
       "updated": "2026-09-08",
       "date_kind": "release",
@@ -3152,8 +3152,8 @@
       "name": "VocalSlice",
       "url": "https://vocalslice.com/",
       "category": "Community tools and resources",
-      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool for Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon. Initial model download and license activation need internet. One-time license includes future versions and no recurring activation checks. Version 1.475.0 adds guidance for finding repeated phrases.",
-      "access": "💰 Paid license with 7-day trial",
+      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation for Windows and macOS. Version 2.6.0 is free and open source under GPL-3.0; no trial or licence activation. Initial model download requires internet.",
+      "access": "Free and open source; GPL-3.0",
       "platforms": "🪟 Windows · 🍎 macOS",
       "version": "1.475.0",
       "updated": "2026-08-27",
@@ -3559,6 +3559,62 @@
       ],
       "checked_at": "2026-09-15",
       "package_id": "com.pureandapplied.colourise"
+    },
+    {
+      "creator": "MONONODES",
+      "name": "MONONODES LOOK / LAB / PRINT OFX",
+      "url": "https://mononodes.com/look-lab-print-ofx/",
+      "category": "Color / Film",
+      "access": "Paid license; watermarked demo",
+      "platforms": "Windows;macOS",
+      "description": "Film-inspired OpenFX grading suite for Resolve Studio 20+. Includes Lab and Print; the higher product tier adds Color Shift and HDR. Supports Windows NVIDIA RTX and Apple Silicon Macs. Paid licenses with a watermarked demo.",
+      "version": "1.0 (demo label)",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://mononodes.com/look-lab-print-ofx/",
+        "https://www.reddit.com/r/colorists/comments/1wy1ji4/mononodes_looklabprint_dctl_discontinued_for_ofx/"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve 21 Supported Codecs",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+      "category": "Official Blackmagic Design resources",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "Reference",
+      "description": "Official Resolve 21 codec and format support reference. Consult the document for operating-system and Free/Studio distinctions. Support listing dated 2026-09-28.",
+      "version": "21",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed",
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf?_v=1790578810000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve 21 Studio and iPad Features",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf",
+      "category": "Official Blackmagic Design resources",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "Reference",
+      "description": "Official Resolve 21 comparison of Studio and iPad features, codecs and licensing-dependent items. Edition differences are version-specific. Support listing dated 2026-09-28.",
+      "version": "21",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed",
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf",
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf?_v=1790578810000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-10-08"
     }
   ],
   "held_candidates": [

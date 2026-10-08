@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "resource": {
+    "id": "mononodes-look-lab-print-ofx",
+    "name": "MONONODES LOOK / LAB / PRINT OFX",
+    "creator": "MONONODES",
+    "url": "https://mononodes.com/look-lab-print-ofx/",
+    "origin": "external",
+    "official": false,
+    "reference": false,
+    "category": "Color / Film",
+    "kind": "ofx",
+    "tasks": [
+      "color"
+    ],
+    "tags": [
+      "film emulation",
+      "ofx",
+      "negative film",
+      "kodak vision3",
+      "kodak 2383",
+      "fujifilm 3513di",
+      "printer lights",
+      "bleach bypass",
+      "color shift",
+      "midi"
+    ],
+    "description": "Film-inspired OpenFX grading suite for Resolve Studio 20+. Includes Lab and Print; the higher product tier adds Color Shift and HDR. Supports Windows NVIDIA RTX and Apple Silicon Macs. Paid licenses with a watermarked demo.",
+    "access": "Paid license; watermarked demo",
+    "accessGroup": "mixed",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "platformNotes": "Windows 10/11 requires NVIDIA RTX; macOS requires Apple Silicon. Intel Macs and Windows AMD/Intel GPUs are unsupported.",
+    "requirements": {
+      "editions": [
+        "Studio"
+      ],
+      "resolve": [
+        {
+          "min": "20",
+          "edition": "Studio"
+        }
+      ],
+      "architectures": [],
+      "gpu": "Windows: NVIDIA RTX; macOS: Apple Silicon",
+      "processing": "unknown",
+      "pricing": "mixed",
+      "account": "unknown",
+      "dependencies": null,
+      "installation": null
+    },
+    "evidence": [
+      {
+        "field": "platforms",
+        "level": "documented",
+        "source": "https://mononodes.com/look-lab-print-ofx/",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "note": "Provider documentation; no catalogue installation testing."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://mononodes.com/look-lab-print-ofx/",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "note": "Provider documentation; no catalogue installation testing."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://mononodes.com/look-lab-print-ofx/",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "note": "Provider documentation; no catalogue installation testing."
+      }
+    ],
+    "unknownFields": [
+      "architecture",
+      "processing"
+    ],
+    "recommended": false,
+    "recommendation": null,
+    "previousUrls": [],
+    "version": {
+      "name": "MONONODES LOOK / LAB / PRINT OFX",
+      "url": "https://mononodes.com/look-lab-print-ofx/",
+      "kind": "vendor-version",
+      "version": "1.0 (demo label)",
+      "source": "https://mononodes.com/look-lab-print-ofx/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-10-08T09:11:00.642Z",
+      "note": "The provider labels the downloadable demo v1.0; no product release date is established."
+    },
+    "releaseDate": null,
+    "activityDate": null,
+    "stars": null,
+    "metadataChecked": "2026-10-08T09:11:00.642Z",
+    "history": [],
+    "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      }
+    ]
+  }
+}

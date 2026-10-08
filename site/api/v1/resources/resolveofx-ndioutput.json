@@ -20,7 +20,7 @@
       "openfx",
       "output"
     ],
-    "description": "NDI HDR network-video output through OpenFX. Resolve 17+; building from source requires the NDI Advanced SDK.",
+    "description": "NDI SDR network-video output through OpenFX. Resolve 17+; building from source requires the NDI Advanced SDK. As of v1.15.0, HDR streaming is removed; output is 8-bit Rec.709 SDR.",
     "access": "Free; SDK terms separate",
     "accessGroup": "free",
     "platforms": [
@@ -50,8 +50,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/lightsailvr/ResolveOFX_NDIOutput/releases/tag/v1.14.1",
-        "checked_at": "2026-09-15T05:06:04.860Z",
+        "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -68,16 +68,38 @@
       "name": "lightsailvr/ResolveOFX_NDIOutput",
       "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
       "kind": "stable-release",
-      "version": "v1.14.1",
-      "source": "https://github.com/lightsailvr/ResolveOFX_NDIOutput/releases/tag/v1.14.1",
-      "date": "2026-09-02T00:52:55Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v1.15.0",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+      "date": "2026-10-01T23:13:55Z",
+      "checked_at": "2026-10-08T09:11:00.642Z",
+      "date_kind": "release"
     },
-    "releaseDate": "2026-09-02T00:52:55Z",
-    "activityDate": "2026-09-02T00:55:43Z",
-    "stars": 6,
-    "metadataChecked": "2026-09-15T05:06:04.860Z",
-    "history": [],
+    "releaseDate": "2026-10-01T23:13:55Z",
+    "activityDate": "2026-10-03T16:07:00Z",
+    "stars": 10,
+    "metadataChecked": "2026-10-08T09:05:42.805Z",
+    "history": [
+      {
+        "name": "lightsailvr/ResolveOFX_NDIOutput",
+        "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+        "from": "v1.14.1",
+        "to": "v1.15.0",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": "2026-10-01T23:13:55Z",
+        "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+        "summary": "Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only.",
+        "changes": [
+          "Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.4",

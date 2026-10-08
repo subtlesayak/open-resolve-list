@@ -35,9 +35,9 @@
   "platform_source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 30,
+  "stars": 29,
   "last_pushed_at": "2026-06-21T21:59:55Z",
-  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
   "requirements": {
     "editions": [
       "Studio"

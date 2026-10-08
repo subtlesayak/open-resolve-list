@@ -1,10 +1,14 @@
 {
   "latestUpdate": {
     "schema_version": 1,
-    "date": "2026-09-29",
-    "release": "v1.26",
-    "added_urls": [],
-    "addedCount": 0
+    "date": "2026-10-08",
+    "release": "v1.27",
+    "added_urls": [
+      "https://mononodes.com/look-lab-print-ofx/",
+      "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+      "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf"
+    ],
+    "addedCount": 3
   },
   "schema_version": 1,
   "title": "Open Resolve List",
@@ -363,7 +367,7 @@
       "releaseDate": null,
       "activityDate": "2021-08-30T18:35:33Z",
       "stars": 73,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -528,8 +532,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-13T23:41:49Z",
-      "stars": 61,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 60,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "thatcherfreeman/aces-transforms",
@@ -800,8 +804,8 @@
       },
       "releaseDate": null,
       "activityDate": "2019-04-03T17:31:58Z",
-      "stars": 39,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 40,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -875,8 +879,8 @@
       },
       "releaseDate": null,
       "activityDate": "2024-11-25T02:35:25Z",
-      "stars": 110,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 111,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -1252,7 +1256,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-16T19:59:07Z",
       "stars": 6,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -1514,9 +1518,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-09-05T05:48:38Z",
-      "activityDate": "2026-09-14T21:08:43Z",
-      "stars": 72,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-10-08T09:03:15Z",
+      "stars": 77,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -1892,8 +1896,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -1918,16 +1922,37 @@
         "name": "WyattBlue/auto-editor",
         "url": "https://github.com/WyattBlue/auto-editor",
         "kind": "stable-release",
-        "version": "31.6.0",
-        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
-        "date": "2026-09-06T21:01:15Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "31.7.2",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+        "date": "2026-10-03T02:04:36Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-06T21:01:15Z",
-      "activityDate": "2026-09-13T04:43:15Z",
-      "stars": 5217,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "releaseDate": "2026-10-03T02:04:36Z",
+      "activityDate": "2026-10-07T04:24:11Z",
+      "stars": 5453,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "WyattBlue/auto-editor",
+          "url": "https://github.com/WyattBlue/auto-editor",
+          "from": "31.6.0",
+          "to": "31.7.2",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-03T02:04:36Z",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+          "summary": "Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr.",
+          "changes": [
+            "Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2"
+            }
+          ]
+        },
         {
           "name": "auto-editor",
           "url": "https://github.com/WyattBlue/auto-editor",
@@ -1954,6 +1979,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.14",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.14"
@@ -2047,7 +2076,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-11T14:08:51Z",
       "stars": 17,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2131,7 +2160,7 @@
       "releaseDate": "2025-09-05T00:17:42Z",
       "activityDate": "2025-09-24T20:40:15Z",
       "stars": 24,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2198,8 +2227,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
-          "checked_at": "2026-09-20T07:05:00Z",
+          "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -2215,16 +2244,37 @@
         "name": "tmoroney/auto-subs",
         "url": "https://github.com/tmoroney/auto-subs",
         "kind": "stable-release",
-        "version": "v3.10.1",
-        "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.10.1",
-        "date": "2026-09-19T00:00:00Z",
-        "checked_at": "2026-09-20T07:05:00Z"
+        "version": "v3.11.0",
+        "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0",
+        "date": "2026-09-29T19:07:26Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-19T00:00:00Z",
-      "activityDate": "2026-09-19T16:13:44Z",
-      "stars": 4249,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "releaseDate": "2026-09-29T19:07:26Z",
+      "activityDate": "2026-10-05T20:26:31Z",
+      "stars": 4325,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "tmoroney/auto-subs",
+          "url": "https://github.com/tmoroney/auto-subs",
+          "from": "v3.10.1",
+          "to": "v3.11.0",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-09-29T19:07:26Z",
+          "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0",
+          "summary": "Adds speech-detection controls and fixes Resolve timeline delivery, non-English installs, long transcription and SRT import.",
+          "changes": [
+            "Adds speech-detection controls and fixes Resolve timeline delivery, non-English installs, long transcription and SRT import."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0"
+            }
+          ]
+        },
         {
           "from": "v3.8.0",
           "to": "v3.10.1",
@@ -2245,6 +2295,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.24",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24"
@@ -2431,7 +2485,7 @@
       "releaseDate": null,
       "activityDate": "2022-11-08T10:10:40Z",
       "stars": 21,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2516,8 +2570,8 @@
       },
       "releaseDate": "2025-12-16T11:40:33Z",
       "activityDate": "2025-12-16T12:27:17Z",
-      "stars": 10,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 12,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2599,9 +2653,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-09-11T16:21:05Z",
+      "activityDate": "2026-10-02T21:01:50Z",
       "stars": 30,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "psygreg/autoresolvedeb",
@@ -2710,7 +2764,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-09T13:33:45Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2785,8 +2839,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-08-27T14:29:12Z",
-      "stars": 64,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 66,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2864,8 +2918,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-07T00:53:29Z",
-      "stars": 300,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 339,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2920,8 +2974,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.3",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ],
@@ -2939,17 +2993,43 @@
         "name": "ynput/ayon-resolve",
         "url": "https://github.com/ynput/ayon-resolve",
         "kind": "stable-release",
-        "version": "0.6.3",
-        "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.3",
-        "date": "2026-09-03T10:21:54Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "0.6.4",
+        "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+        "date": "2026-09-29T13:44:33Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-03T10:21:54Z",
-      "activityDate": "2026-09-14T18:21:06Z",
+      "releaseDate": "2026-09-29T13:44:33Z",
+      "activityDate": "2026-10-08T06:37:27Z",
       "stars": 13,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
-      "history": [],
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
+      "history": [
+        {
+          "name": "ynput/ayon-resolve",
+          "url": "https://github.com/ynput/ayon-resolve",
+          "from": "0.6.3",
+          "to": "0.6.4",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-09-29T13:44:33Z",
+          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+          "summary": "Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations.",
+          "changes": [
+            "Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4"
+            }
+          ]
+        }
+      ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.4",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.4"
@@ -3037,9 +3117,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-07-30T23:17:17Z",
-      "activityDate": "2026-09-11T22:35:23Z",
-      "stars": 35,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-10-01T21:18:33Z",
+      "stars": 41,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -3131,9 +3211,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-07-03T00:12:25Z",
-      "activityDate": "2026-07-20T19:57:30Z",
+      "activityDate": "2026-09-16T02:39:28Z",
       "stars": 1,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -3217,7 +3297,7 @@
       "releaseDate": null,
       "activityDate": "2021-09-01T16:13:51Z",
       "stars": 147,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -3480,8 +3560,8 @@
       },
       "releaseDate": "2026-08-11T10:20:10Z",
       "activityDate": "2026-08-23T13:34:52Z",
-      "stars": 24,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 25,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -3557,7 +3637,7 @@
       "releaseDate": "2026-04-30T20:11:12Z",
       "activityDate": "2026-06-16T10:30:06Z",
       "stars": 12,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -4008,8 +4088,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-10-05T20:53:19Z",
-      "stars": 3,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 4,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -4420,7 +4500,7 @@
       "releaseDate": null,
       "activityDate": "2026-01-23T01:44:47Z",
       "stars": 20,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -4517,8 +4597,8 @@
       },
       "releaseDate": "2026-02-19T02:15:17Z",
       "activityDate": "2026-07-15T10:57:42Z",
-      "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 10,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -4933,7 +5013,7 @@
       "releaseDate": null,
       "activityDate": "2020-12-29T17:07:39Z",
       "stars": 7,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5019,8 +5099,8 @@
       },
       "releaseDate": "2026-08-11T12:35:36Z",
       "activityDate": "2026-08-11T12:34:54Z",
-      "stars": 7,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 8,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5334,8 +5414,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-16T15:07:54Z",
-      "stars": 1,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 2,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5410,7 +5490,7 @@
       "releaseDate": null,
       "activityDate": "2021-06-02T14:45:02Z",
       "stars": 6,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5578,7 +5658,7 @@
       "releaseDate": null,
       "activityDate": "2021-07-14T06:20:23Z",
       "stars": 15,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5663,7 +5743,7 @@
       "releaseDate": "2025-10-01T21:45:44Z",
       "activityDate": "2025-10-01T22:03:17Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -6018,7 +6098,7 @@
       "releaseDate": "2026-04-17T13:42:17Z",
       "activityDate": "2026-04-17T14:06:52Z",
       "stars": 10,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -6263,8 +6343,8 @@
       },
       "releaseDate": "2026-09-08T04:52:19Z",
       "activityDate": "2026-09-08T08:58:32Z",
-      "stars": 104,
-      "metadataChecked": "2026-09-15T11:10:26.592Z",
+      "stars": 106,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -6744,8 +6824,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-06-22T15:07:47Z",
-      "stars": 1,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 2,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -6814,8 +6894,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -6831,16 +6911,37 @@
         "name": "stoatworks-labs/cogwheel",
         "url": "https://github.com/stoatworks-labs/cogwheel",
         "kind": "stable-release",
-        "version": "v0.6.1",
-        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
-        "date": "2026-09-20T19:29:50Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v0.6.2",
+        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+        "date": "2026-10-04T03:43:28Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-20T19:29:50Z",
-      "activityDate": "2026-09-20T23:28:15Z",
+      "releaseDate": "2026-10-04T03:43:28Z",
+      "activityDate": "2026-10-04T04:35:30Z",
       "stars": 0,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "stoatworks-labs/cogwheel",
+          "url": "https://github.com/stoatworks-labs/cogwheel",
+          "from": "v0.6.1",
+          "to": "v0.6.2",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-04T03:43:28Z",
+          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+          "summary": "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame.",
+          "changes": [
+            "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2"
+            }
+          ]
+        },
         {
           "name": "stoatworks-labs/cogwheel",
           "url": "https://github.com/stoatworks-labs/cogwheel",
@@ -6863,6 +6964,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.25",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
@@ -6924,8 +7029,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.1",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ],
@@ -6942,16 +7047,37 @@
         "name": "ciqueira/ColorEqualizer",
         "url": "https://github.com/ciqueira/ColorEqualizer",
         "kind": "stable-release",
-        "version": "eq-v0.6.1",
-        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.1",
-        "date": "2026-09-02T23:27:50Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "eq-v0.6.4",
+        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+        "date": "2026-09-30T16:08:21Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-02T23:27:50Z",
-      "activityDate": "2026-09-14T18:55:21Z",
+      "releaseDate": "2026-09-30T16:08:21Z",
+      "activityDate": "2026-09-30T16:08:21Z",
       "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "ciqueira/ColorEqualizer",
+          "url": "https://github.com/ciqueira/ColorEqualizer",
+          "from": "eq-v0.6.1",
+          "to": "eq-v0.6.4",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-09-30T16:08:21Z",
+          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+          "summary": "Records the provider SDK update; no detailed feature changelog was published.",
+          "changes": [
+            "Records the provider SDK update; no detailed feature changelog was published."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4"
+            }
+          ]
+        },
         {
           "name": "ciqueira/ColorEqualizer",
           "url": "https://github.com/ciqueira/ColorEqualizer",
@@ -6974,6 +7100,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.22",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"
@@ -7212,7 +7342,7 @@
       "releaseDate": null,
       "activityDate": "2024-06-21T05:43:04Z",
       "stars": 48,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -7313,8 +7443,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-11T20:51:48Z",
-      "stars": 5,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "stars": 7,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -7382,8 +7512,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -7399,16 +7529,37 @@
         "name": "stoatworks-labs/compander",
         "url": "https://github.com/stoatworks-labs/compander",
         "kind": "stable-release",
-        "version": "v0.1.3",
-        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3",
-        "date": "2026-09-20T19:29:32Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v0.1.4",
+        "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+        "date": "2026-10-04T03:39:49Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-20T19:29:32Z",
-      "activityDate": "2026-09-20T23:28:18Z",
+      "releaseDate": "2026-10-04T03:39:49Z",
+      "activityDate": "2026-10-04T04:35:32Z",
       "stars": 0,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "stoatworks-labs/compander",
+          "url": "https://github.com/stoatworks-labs/compander",
+          "from": "v0.1.3",
+          "to": "v0.1.4",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-04T03:39:49Z",
+          "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+          "summary": "Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged.",
+          "changes": [
+            "Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4"
+            }
+          ]
+        },
         {
           "name": "stoatworks-labs/compander",
           "url": "https://github.com/stoatworks-labs/compander",
@@ -7431,6 +7582,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.25",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
@@ -7515,7 +7670,7 @@
       "releaseDate": null,
       "activityDate": "2024-06-18T15:11:27Z",
       "stars": 8,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -7605,8 +7760,8 @@
       },
       "releaseDate": "2026-04-02T19:14:12Z",
       "activityDate": "2026-08-05T20:48:46Z",
-      "stars": 750,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 755,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -7836,7 +7991,7 @@
       "releaseDate": "2026-05-26T21:04:28Z",
       "activityDate": "2026-07-20T22:14:51Z",
       "stars": 3,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -7987,7 +8142,7 @@
       "releaseDate": null,
       "activityDate": "2021-02-26T21:15:34Z",
       "stars": 1,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8069,7 +8224,7 @@
       "releaseDate": null,
       "activityDate": "2025-12-24T13:15:38Z",
       "stars": 8,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8246,8 +8401,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-14T05:43:27Z",
-      "stars": 1,
-      "metadataChecked": "2026-09-15T11:10:28.438Z",
+      "stars": 2,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8416,7 +8571,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-08T18:17:42Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T11:10:30.401Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8499,7 +8654,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-16T11:14:14Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8585,8 +8740,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-03T18:39:37Z",
-      "stars": 11,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 10,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8667,8 +8822,8 @@
       },
       "releaseDate": "2025-05-08T19:09:26Z",
       "activityDate": "2025-07-29T10:48:25Z",
-      "stars": 313,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 315,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8818,8 +8973,8 @@
       },
       "releaseDate": "2025-08-13T00:19:02Z",
       "activityDate": "2025-08-13T00:19:02Z",
-      "stars": 119,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 122,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8903,9 +9058,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-09-01T00:43:52Z",
-      "activityDate": "2026-09-03T15:55:16Z",
+      "activityDate": "2026-10-05T17:42:47Z",
       "stars": 25,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9170,6 +9325,177 @@
       ]
     },
     {
+      "id": "davinci-resolve-21-studio-and-ipad-features",
+      "name": "DaVinci Resolve 21 Studio and iPad Features",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "kind": "reference",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "features",
+        "studio",
+        "free",
+        "ipad",
+        "edition comparison",
+        "resolve 21"
+      ],
+      "description": "Official Resolve 21 comparison of Studio and iPad features, codecs and licensing-dependent items. Edition differences are version-specific. Support listing dated 2026-09-28.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf?_v=1790578810000",
+          "checked_at": "2026-10-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf?_v=1790578810000",
+          "checked_at": "2026-10-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "previousUrls": [],
+      "version": {
+        "name": "DaVinci Resolve 21 Studio and iPad Features",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf",
+        "kind": "reference-edition",
+        "version": "21",
+        "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf?_v=1790578810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-10-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": [],
+      "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        }
+      ]
+    },
+    {
+      "id": "davinci-resolve-21-supported-codecs",
+      "name": "DaVinci Resolve 21 Supported Codecs",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "kind": "reference",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "codecs",
+        "formats",
+        "encoding",
+        "decoding",
+        "resolve 21"
+      ],
+      "description": "Official Resolve 21 codec and format support reference. Consult the document for operating-system and Free/Studio distinctions. Support listing dated 2026-09-28.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf?_v=1790578810000",
+          "checked_at": "2026-10-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf?_v=1790578810000",
+          "checked_at": "2026-10-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "previousUrls": [],
+      "version": {
+        "name": "DaVinci Resolve 21 Supported Codecs",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
+        "kind": "reference-edition",
+        "version": "21",
+        "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf?_v=1790578810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-10-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": [],
+      "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        }
+      ]
+    },
+    {
       "id": "davinci-resolve-advanced-panel-manual",
       "name": "DaVinci Resolve Advanced Panel Manual",
       "creator": "Blackmagic Design",
@@ -9315,7 +9641,7 @@
       "releaseDate": null,
       "activityDate": "2019-03-12T19:11:24Z",
       "stars": 98,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9396,8 +9722,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-03-13T08:03:56Z",
-      "stars": 174,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 173,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9483,7 +9809,7 @@
       "releaseDate": "2026-06-03T06:56:46Z",
       "activityDate": "2026-05-22T03:59:59Z",
       "stars": 52,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9581,9 +9907,9 @@
         "checked_at": "2026-09-15T11:10:26.592Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-09-10T14:24:54Z",
+      "activityDate": "2026-09-22T05:48:44Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T11:10:26.592Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9667,8 +9993,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-01-15T13:09:31Z",
-      "stars": 39,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 38,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9747,7 +10073,7 @@
       "releaseDate": "2024-11-11T21:06:33Z",
       "activityDate": "2025-03-02T19:07:16Z",
       "stars": 11,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9822,7 +10148,7 @@
       "releaseDate": null,
       "activityDate": "2026-06-05T08:11:06Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9993,7 +10319,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-13T17:04:34Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T11:10:28.438Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10075,8 +10401,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-03-31T16:09:05Z",
-      "stars": 264,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 269,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10160,7 +10486,7 @@
       "releaseDate": null,
       "activityDate": "2021-12-16T01:11:48Z",
       "stars": 18,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10235,8 +10561,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-04-07T02:46:35Z",
-      "stars": 77,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 79,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10297,8 +10623,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
-          "checked_at": "2026-09-29T00:00:00Z",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -10315,16 +10641,37 @@
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
         "kind": "stable-release",
-        "version": "v4.8.22",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.8.22",
-        "date": "2026-09-26T14:43:42Z",
-        "checked_at": "2026-09-29T00:00:00Z"
+        "version": "v4.9.0",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+        "date": "2026-10-06T01:56:43Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-26T14:43:42Z",
-      "activityDate": "2026-09-26T14:43:41Z",
-      "stars": 3227,
-      "metadataChecked": "2026-09-29T00:00:00Z",
+      "releaseDate": "2026-10-06T01:56:43Z",
+      "activityDate": "2026-10-06T01:56:42Z",
+      "stars": 3405,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "samuelgursky/davinci-resolve-mcp",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+          "from": "v4.8.22",
+          "to": "v4.9.0",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-06T01:56:43Z",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+          "summary": "Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed.",
+          "changes": [
+            "Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0"
+            }
+          ]
+        },
         {
           "name": "samuelgursky/davinci-resolve-mcp",
           "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
@@ -10477,6 +10824,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.26",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
@@ -10685,7 +11036,7 @@
         "official",
         "video editor"
       ],
-      "description": "Official Resolve and Studio 21.1 downloads, released September 8, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1 projects cannot reopen in 20.3.2.",
+      "description": "Official Resolve and Studio 21.1.1 downloads, released October 2, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1.1 projects cannot reopen in 20.3.2.",
       "access": "🆓 Free edition; 💰 Studio license",
       "accessGroup": "mixed",
       "platforms": [
@@ -10701,8 +11052,8 @@
         ],
         "resolve": [
           {
-            "min": "21.1",
-            "max": "21.1"
+            "min": "21.1.1",
+            "max": "21.1.1"
           }
         ],
         "architectures": [],
@@ -10717,22 +11068,22 @@
         {
           "field": "platforms",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
-          "checked_at": "2026-09-08",
+          "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
           "field": "version",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
-          "checked_at": "2026-09-08",
+          "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
           "field": "requirements",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
-          "checked_at": "2026-09-08",
+          "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Current host release; does not establish third-party plugin compatibility."
         }
       ],
@@ -10747,18 +11098,66 @@
         "name": "DaVinci Resolve — official downloads",
         "url": "https://www.blackmagicdesign.com/products/davinciresolve",
         "kind": "vendor-version",
-        "version": "21.1",
-        "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
-        "date": "2026-09-08",
+        "version": "21.1.1",
+        "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+        "date": "2026-10-02T07:00:10.000Z",
         "date_kind": "release",
-        "checked_at": "2026-09-08",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Verified against official support feed and version-specific release notes."
       },
-      "releaseDate": "2026-09-08",
+      "releaseDate": "2026-10-02T07:00:10.000Z",
       "activityDate": null,
       "stars": null,
       "metadataChecked": null,
       "history": [
+        {
+          "name": "DaVinci Resolve / Studio",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "from": "21.1",
+          "to": "21.1.1",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-02T07:00:10.000Z",
+          "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+          "summary": "Improves trim editing, USAC decoding on Windows 11, Fusion effects and collaboration stability.",
+          "changes": [
+            "Free and Studio: Trim editor viewer actions affect all selected edit points.",
+            "Free and Studio: Trim editor mouse based edit actions now include audio previews.",
+            "Free and Studio: Trim editor viewer now supports audio only clip editing.",
+            "Free and Studio: Support for CR3 RAW decodes for EOS R8 Mark II.",
+            "Free and Studio: Support for USAC audio decode on Windows 11.",
+            "Free and Studio: Data burn options to show source feet and frames.",
+            "Free and Studio: OGraf animation improvements for duration aware sizing and outro.",
+            "Free and Studio: ApplyGradeFromDRX API option to apply changes to all node layers.",
+            "Free and Studio: Addressed inspector combining multiple Fusion effects for a clip.",
+            "Free and Studio: Addressed transitions on clips with foreground composite mode.",
+            "Free and Studio: Addressed looped play around selection issues in dynamic trim.",
+            "Free and Studio: Addressed original media aspect ratio not honoring orientation.",
+            "Free and Studio: Addressed issue adding plain Text+ or MultiText to a subtitle track.",
+            "Free and Studio: Addressed OGraf caching and path relinking issues.",
+            "Free and Studio: Sync bin multi angle view now displays record timecode and frame.",
+            "Free and Studio: Multicam actions are now available in single viewer mode.",
+            "Free and Studio: Addressed issue with Halation controls in Film Look Creator.",
+            "Free and Studio: Addressed multi-user collaboration connectivity issues.",
+            "Free and Studio: Improved NVIDIA decode memory usage for some R3D NE clips.",
+            "Free and Studio: General performance and stability improvements.",
+            "Studio: Async APIs for quick export, transcription and scene cut detection.",
+            "Studio: Async APIs for Smart Reframe and subtitle creation.",
+            "Studio: Addressed auto captions sometimes cropping in vertical timelines.",
+            "Studio: Addressed occasional Magic Mask slow downs in Fusion page.",
+            "Studio: Addressed issue when launching app from AI Assistants in Windows."
+          ],
+          "changelogs": [
+            {
+              "label": "Official release notes",
+              "url": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d"
+            },
+            {
+              "label": "Studio release notes",
+              "url": "https://www.blackmagicdesign.com/support/readme/dfbb6e4233c144d1b328c109c7ebc11e"
+            }
+          ]
+        },
         {
           "name": "DaVinci Resolve / Studio",
           "url": "https://www.blackmagicdesign.com/products/davinciresolve",
@@ -10996,8 +11395,8 @@
       },
       "releaseDate": "2023-03-16T23:06:19Z",
       "activityDate": "2023-03-16T23:06:19Z",
-      "stars": 102,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 103,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11158,8 +11557,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-10-13T15:39:40Z",
-      "stars": 97,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 98,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11338,7 +11737,7 @@
       "releaseDate": "2026-09-13T07:04:23Z",
       "activityDate": "2026-09-13T07:08:04Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T11:10:28.438Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11421,7 +11820,7 @@
       "releaseDate": null,
       "activityDate": "2022-11-05T12:58:35Z",
       "stars": 22,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11580,8 +11979,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-09-01T03:02:38Z",
-      "stars": 19,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 21,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11666,7 +12065,7 @@
       "releaseDate": null,
       "activityDate": "2025-02-14T23:10:32Z",
       "stars": 44,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11747,8 +12146,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-06-16T21:06:09Z",
-      "stars": 22,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 23,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11838,7 +12237,7 @@
       "releaseDate": null,
       "activityDate": "2025-09-03T06:33:04Z",
       "stars": 10,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12010,9 +12409,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-08-21T15:35:09Z",
-      "activityDate": "2026-08-21T15:35:09Z",
-      "stars": 6,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-10-04T07:50:22Z",
+      "stars": 8,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12296,8 +12695,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-03-14T21:51:49Z",
-      "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 3,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12380,8 +12779,8 @@
       },
       "releaseDate": "2026-05-14T01:26:16Z",
       "activityDate": "2026-09-12T21:38:38Z",
-      "stars": 997,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 1013,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12457,7 +12856,7 @@
       "releaseDate": null,
       "activityDate": "2018-09-14T05:38:40Z",
       "stars": 32,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12531,7 +12930,7 @@
       "releaseDate": null,
       "activityDate": "2020-07-05T22:13:01Z",
       "stars": 25,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12606,7 +13005,7 @@
       "releaseDate": null,
       "activityDate": "2022-02-02T23:17:10Z",
       "stars": 19,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12692,7 +13091,7 @@
       "releaseDate": "2023-11-28T08:52:37Z",
       "activityDate": "2025-10-13T08:04:47Z",
       "stars": 70,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12767,7 +13166,7 @@
       "releaseDate": null,
       "activityDate": "2023-11-05T18:41:13Z",
       "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12843,7 +13242,7 @@
       "releaseDate": null,
       "activityDate": "2022-01-16T16:59:46Z",
       "stars": 14,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12918,7 +13317,7 @@
       "releaseDate": null,
       "activityDate": "2023-11-05T18:42:00Z",
       "stars": 12,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13016,8 +13415,8 @@
       },
       "releaseDate": "2026-06-06T11:16:28Z",
       "activityDate": "2026-06-06T11:45:00Z",
-      "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 5,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13100,7 +13499,7 @@
       "releaseDate": "2025-04-07T05:38:58Z",
       "activityDate": "2026-04-02T06:58:11Z",
       "stars": 57,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13183,7 +13582,7 @@
       "releaseDate": "2023-12-22T21:03:25Z",
       "activityDate": "2026-01-27T23:33:13Z",
       "stars": 24,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13338,7 +13737,7 @@
       "releaseDate": null,
       "activityDate": "2023-07-22T14:11:18Z",
       "stars": 37,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13421,8 +13820,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-11-06T20:39:32Z",
-      "stars": 320,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 325,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13499,8 +13898,8 @@
       },
       "releaseDate": null,
       "activityDate": "2024-07-26T17:11:12Z",
-      "stars": 20,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 21,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13584,7 +13983,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-06T04:28:59Z",
       "stars": 15,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13662,7 +14061,7 @@
       "releaseDate": null,
       "activityDate": "2025-07-23T03:01:06Z",
       "stars": 11,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13739,7 +14138,7 @@
       "releaseDate": null,
       "activityDate": "2025-08-04T21:19:58Z",
       "stars": 30,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13815,7 +14214,7 @@
       "releaseDate": null,
       "activityDate": "2023-12-20T15:57:13Z",
       "stars": 19,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13888,8 +14287,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-01-15T04:53:47Z",
-      "stars": 30,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 31,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13964,8 +14363,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-05-22T14:27:14Z",
-      "stars": 161,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 163,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14048,9 +14447,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-06-13T14:17:54Z",
-      "stars": 67,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-09-28T07:15:03Z",
+      "stars": 68,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14124,7 +14523,7 @@
       "releaseDate": null,
       "activityDate": "2024-10-05T06:39:53Z",
       "stars": 23,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14199,7 +14598,7 @@
       "releaseDate": null,
       "activityDate": "2024-03-03T00:23:47Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14275,7 +14674,7 @@
       "releaseDate": null,
       "activityDate": "2024-01-26T18:30:12Z",
       "stars": 1,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14350,8 +14749,8 @@
       },
       "releaseDate": null,
       "activityDate": "2023-12-06T00:59:40Z",
-      "stars": 350,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 360,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14425,7 +14824,7 @@
       "releaseDate": null,
       "activityDate": "2020-12-02T09:17:35Z",
       "stars": 38,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14508,9 +14907,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-09-14T14:23:48Z",
-      "activityDate": "2026-09-14T19:33:52Z",
+      "activityDate": "2026-10-02T19:47:48Z",
       "stars": 6,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "Dec18studios/Dec18-Plugin-Manager",
@@ -15172,7 +15571,7 @@
       "releaseDate": "2022-09-24T19:45:23Z",
       "activityDate": "2023-02-08T18:16:03Z",
       "stars": 60,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15340,8 +15739,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-08T19:18:15Z",
-      "stars": 9,
-      "metadataChecked": "2026-09-15T11:10:26.592Z",
+      "stars": 11,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15424,7 +15823,7 @@
       "releaseDate": null,
       "activityDate": "2026-05-28T12:27:53Z",
       "stars": 13,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15508,8 +15907,8 @@
       },
       "releaseDate": "2025-11-22T14:05:21Z",
       "activityDate": "2026-08-06T20:47:09Z",
-      "stars": 318,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 321,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15686,8 +16085,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-21T20:53:08Z",
-      "stars": 26,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 27,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15768,8 +16167,8 @@
       },
       "releaseDate": "2025-05-18T13:44:02Z",
       "activityDate": "2025-05-18T08:57:44Z",
-      "stars": 40,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 47,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15866,9 +16265,9 @@
         "checked_at": "2026-09-20T07:05:00Z"
       },
       "releaseDate": "2026-09-19T00:00:00Z",
-      "activityDate": "2026-09-19T22:44:22Z",
+      "activityDate": "2026-10-01T20:36:20Z",
       "stars": 15,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "from": "v1.6.4",
@@ -15967,8 +16366,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-27T16:22:44Z",
-      "stars": 110,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 111,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -16115,7 +16514,7 @@
       "releaseDate": null,
       "activityDate": "2024-10-02T03:05:25Z",
       "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -16349,9 +16748,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-08-06T23:33:40Z",
-      "activityDate": "2026-08-06T23:33:40Z",
+      "activityDate": "2026-09-19T11:52:58Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -16673,7 +17072,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-12T04:47:06Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T11:10:28.438Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -17233,7 +17632,7 @@
       "releaseDate": "2026-07-11T17:18:25Z",
       "activityDate": "2026-07-11T17:48:21Z",
       "stars": 22,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -17550,8 +17949,8 @@
       },
       "releaseDate": "2026-07-05T09:29:23Z",
       "activityDate": "2026-07-05T09:29:23Z",
-      "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 3,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -17761,7 +18160,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-09-15",
+          "checked_at": "2026-10-08T09:13:27.896Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -17782,7 +18181,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-09-15",
+          "checked_at": "2026-10-08T09:13:27.896Z",
           "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
         }
       ],
@@ -17797,18 +18196,39 @@
         "name": "fcp2aaf",
         "url": "https://fcp2aaf.com/",
         "kind": "vendor-version",
-        "version": "26.9.21",
+        "version": "26.10.01",
         "source": "https://fcp2aaf.com/changelog/",
-        "date": "2026-09-14",
+        "date": "2026-10-01",
         "date_kind": "release",
-        "checked_at": "2026-09-15",
+        "checked_at": "2026-10-08T09:13:27.896Z",
         "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
       },
-      "releaseDate": "2026-09-14",
+      "releaseDate": "2026-10-01",
       "activityDate": null,
       "stars": null,
       "metadataChecked": null,
       "history": [
+        {
+          "name": "fcp2aaf",
+          "url": "https://fcp2aaf.com/",
+          "from": "26.9.21",
+          "to": "26.10.01",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-01",
+          "source": "https://fcp2aaf.com/changelog/",
+          "summary": "Adds iPhone Spatial Audio stereo import and RED KOMODO/V-RAPTOR R3D audio support.",
+          "changes": [
+            "Imports the stereo audio of iPhone Spatial Audio videos.",
+            "Reads R3D camera audio from KOMODO and V-RAPTOR."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://fcp2aaf.com/changelog/"
+            }
+          ]
+        },
         {
           "name": "fcp2aaf",
           "url": "https://fcp2aaf.com/",
@@ -17833,6 +18253,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.22",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"
@@ -17916,7 +18340,7 @@
       "releaseDate": null,
       "activityDate": "2026-08-08T05:46:40Z",
       "stars": 26,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -18078,8 +18502,8 @@
       },
       "releaseDate": "2026-08-10T19:49:33Z",
       "activityDate": "2026-08-10T19:49:33Z",
-      "stars": 234,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 244,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -18154,7 +18578,7 @@
       "releaseDate": null,
       "activityDate": "2024-12-04T18:38:22Z",
       "stars": 16,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -18467,8 +18891,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-05-22T18:34:21Z",
-      "stars": 28,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 29,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -18785,8 +19209,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
-          "checked_at": "2026-09-26T00:00:00Z",
+          "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -18802,16 +19226,37 @@
         "name": "stoatworks-labs/flenser",
         "url": "https://github.com/stoatworks-labs/flenser",
         "kind": "stable-release",
-        "version": "v0.1.5",
-        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5",
-        "date": "2026-09-20T19:33:35Z",
-        "checked_at": "2026-09-26T00:00:00Z"
+        "version": "v0.1.6",
+        "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+        "date": "2026-10-04T03:57:18Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-20T19:33:35Z",
-      "activityDate": "2026-09-24T02:15:16Z",
+      "releaseDate": "2026-10-04T03:57:18Z",
+      "activityDate": "2026-10-04T05:10:46Z",
       "stars": 1,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "stoatworks-labs/flenser",
+          "url": "https://github.com/stoatworks-labs/flenser",
+          "from": "v0.1.5",
+          "to": "v0.1.6",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-04T03:57:18Z",
+          "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+          "summary": "Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output.",
+          "changes": [
+            "Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6"
+            }
+          ]
+        },
         {
           "name": "stoatworks-labs/flenser",
           "url": "https://github.com/stoatworks-labs/flenser",
@@ -18834,6 +19279,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.25",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"
@@ -19102,8 +19551,8 @@
       },
       "releaseDate": "2026-08-04T08:34:36Z",
       "activityDate": "2026-08-04T08:34:36Z",
-      "stars": 3,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 4,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -19188,7 +19637,7 @@
       "releaseDate": null,
       "activityDate": "2025-05-21T13:34:11Z",
       "stars": 5,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -19272,7 +19721,7 @@
       "releaseDate": "2020-03-08T11:46:21Z",
       "activityDate": "2020-03-09T07:55:01Z",
       "stars": 13,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -19341,8 +19790,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
-          "checked_at": "2026-09-29T00:00:00Z",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -19358,16 +19807,37 @@
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",
         "kind": "stable-release",
-        "version": "v1.10",
-        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.10",
-        "date": "2026-09-27T12:49:59Z",
-        "checked_at": "2026-09-29T00:00:00Z"
+        "version": "v1.11",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+        "date": "2026-10-03T21:55:23Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-27T12:49:59Z",
-      "activityDate": "2026-09-29T13:14:53Z",
-      "stars": 11,
-      "metadataChecked": "2026-09-29T00:00:00Z",
+      "releaseDate": "2026-10-03T21:55:23Z",
+      "activityDate": "2026-10-07T16:00:26Z",
+      "stars": 18,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "DhaliwalX/fotufilm-engine",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine",
+          "from": "v1.10",
+          "to": "v1.11",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-03T21:55:23Z",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+          "summary": "Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build.",
+          "changes": [
+            "Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11"
+            }
+          ]
+        },
         {
           "name": "DhaliwalX/fotufilm-engine",
           "url": "https://github.com/DhaliwalX/fotufilm-engine",
@@ -19432,6 +19902,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.26",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
@@ -19896,7 +20370,7 @@
       "releaseDate": null,
       "activityDate": "2024-12-11T05:44:56Z",
       "stars": 19,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20140,8 +20614,8 @@
       },
       "releaseDate": "2022-08-22T20:16:51Z",
       "activityDate": "2022-08-22T20:18:15Z",
-      "stars": 33,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 34,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20302,7 +20776,7 @@
       "releaseDate": null,
       "activityDate": "2023-11-09T15:14:43Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20634,8 +21108,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-06-17T15:09:55Z",
-      "stars": 6,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 7,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20797,7 +21271,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-20T18:52:44Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20883,7 +21357,7 @@
       "releaseDate": "2018-09-04T22:14:12Z",
       "activityDate": "2018-09-18T12:48:26Z",
       "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20911,7 +21385,7 @@
         "host application",
         "official"
       ],
-      "description": "Standalone compositing application, version 21.1 released September 8, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
+      "description": "Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
       "access": "💰 Licensed software",
       "accessGroup": "paid",
       "platforms": [
@@ -20940,22 +21414,22 @@
         {
           "field": "platforms",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-          "checked_at": "2026-09-08",
+          "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
           "field": "version",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-          "checked_at": "2026-09-08",
+          "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
           "field": "requirements",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-          "checked_at": "2026-09-08",
+          "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Current host release; does not establish third-party plugin compatibility."
         }
       ],
@@ -20971,18 +21445,45 @@
         "name": "Fusion Studio — official product",
         "url": "https://www.blackmagicdesign.com/products/fusion",
         "kind": "vendor-version",
-        "version": "21.1",
-        "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-        "date": "2026-09-08",
+        "version": "21.1.1",
+        "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+        "date": "2026-10-02T07:00:10.000Z",
         "date_kind": "release",
-        "checked_at": "2026-09-08",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Verified against official support feed and version-specific release notes."
       },
-      "releaseDate": "2026-09-08",
+      "releaseDate": "2026-10-02T07:00:10.000Z",
       "activityDate": null,
       "stars": null,
       "metadataChecked": null,
       "history": [
+        {
+          "name": "Fusion Studio",
+          "url": "https://www.blackmagicdesign.com/products/fusion",
+          "from": "21.1",
+          "to": "21.1.1",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-02T07:00:10.000Z",
+          "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+          "summary": "Fixes sTrace, Console shortcuts, dual-screen layouts and OGraf caching, and improves Magic Mask performance.",
+          "changes": [
+            "Addressed issue with sTrace Create.",
+            "Addressed issue with deselecting combined text fields.",
+            "Addressed issue with copy and select all shortcuts in Console.",
+            "Addressed issue with with dual screen layouts.",
+            "Addressed OGraf caching and path relinking issues.",
+            "OGraf animation improvements for duration aware sizing and outro.",
+            "Improved Magic Mask creation performance.",
+            "General performance and stability improvements."
+          ],
+          "changelogs": [
+            {
+              "label": "Official release notes",
+              "url": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8"
+            }
+          ]
+        },
         {
           "name": "Fusion Studio",
           "url": "https://www.blackmagicdesign.com/products/fusion",
@@ -21103,7 +21604,7 @@
       "releaseDate": null,
       "activityDate": "2020-12-09T09:04:10Z",
       "stars": 15,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21186,7 +21687,7 @@
       "releaseDate": "2020-03-30T20:37:44Z",
       "activityDate": "2020-03-30T20:37:44Z",
       "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21261,7 +21762,7 @@
       "releaseDate": "2020-04-06T12:31:05Z",
       "activityDate": "2020-04-06T12:31:05Z",
       "stars": 7,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21337,7 +21838,7 @@
       "releaseDate": "2020-03-30T21:40:59Z",
       "activityDate": "2020-11-24T23:50:52Z",
       "stars": 6,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21415,7 +21916,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-11T10:11:09Z",
       "stars": 16,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21490,7 +21991,7 @@
       "releaseDate": "2020-04-06T17:22:34Z",
       "activityDate": "2021-03-10T22:29:53Z",
       "stars": 11,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21572,7 +22073,7 @@
       "releaseDate": "2020-03-30T21:27:29Z",
       "activityDate": "2020-03-30T21:27:29Z",
       "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21646,8 +22147,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-12-21T18:01:00Z",
-      "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 3,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21744,7 +22245,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-08T20:47:56Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T11:10:30.401Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21838,9 +22339,9 @@
         "checked_at": "2026-09-20T07:05:00Z"
       },
       "releaseDate": "2026-09-18T00:00:00Z",
-      "activityDate": "2026-09-18T18:27:34Z",
+      "activityDate": "2026-09-18T18:28:02Z",
       "stars": 1,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "from": "v0.1.0",
@@ -21938,7 +22439,7 @@
       "releaseDate": "2021-04-11T20:44:35Z",
       "activityDate": "2022-05-27T17:07:00Z",
       "stars": 111,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22106,9 +22607,9 @@
         "checked_at": "2026-09-29T00:00:00Z"
       },
       "releaseDate": "2026-09-26T11:14:20Z",
-      "activityDate": "2026-09-28T18:31:49Z",
+      "activityDate": "2026-10-08T03:54:30Z",
       "stars": 1,
-      "metadataChecked": "2026-09-29T00:00:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "gordasgdc/gdc-plugin-manager",
@@ -22244,7 +22745,7 @@
       "releaseDate": null,
       "activityDate": "2021-02-27T10:20:22Z",
       "stars": 18,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22338,7 +22839,7 @@
       "releaseDate": null,
       "activityDate": "2025-03-12T19:34:07Z",
       "stars": 14,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22574,8 +23075,8 @@
       },
       "releaseDate": "2025-08-24T14:16:15Z",
       "activityDate": "2026-09-07T20:07:00Z",
-      "stars": 123,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 130,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22651,7 +23152,7 @@
       "releaseDate": null,
       "activityDate": "2023-01-05T11:39:24Z",
       "stars": 18,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22727,7 +23228,7 @@
       "releaseDate": null,
       "activityDate": "2023-10-19T06:22:04Z",
       "stars": 102,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22897,7 +23398,7 @@
       "releaseDate": null,
       "activityDate": "2020-03-08T09:52:25Z",
       "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22981,8 +23482,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-12-30T15:39:27Z",
-      "stars": 20,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 21,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23370,7 +23871,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-08T14:10:33Z",
       "stars": 11,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23462,9 +23963,9 @@
         "checked_at": "2026-09-20T07:05:00Z"
       },
       "releaseDate": "2026-09-15T00:00:00Z",
-      "activityDate": "2026-09-15T20:28:19Z",
-      "stars": 60,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "activityDate": "2026-10-06T09:41:29Z",
+      "stars": 62,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "from": "v0.4.7",
@@ -24054,7 +24555,7 @@
       "releaseDate": null,
       "activityDate": "2023-11-26T14:05:38Z",
       "stars": 23,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -24138,8 +24639,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-21T20:43:14Z",
-      "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 10,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -24232,7 +24733,7 @@
       "releaseDate": "2026-08-28T10:36:04Z",
       "activityDate": "2026-09-03T12:23:50Z",
       "stars": 13,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -24650,7 +25151,7 @@
       "releaseDate": "2026-09-22T18:01:35Z",
       "activityDate": "2026-09-24T02:15:23Z",
       "stars": 2,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "stoatworks-labs/macroblock",
@@ -24936,9 +25437,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-08-26T20:16:54Z",
+      "activityDate": "2026-10-02T22:48:56Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25013,7 +25514,7 @@
       "releaseDate": "2026-04-21T10:13:36Z",
       "activityDate": "2026-07-10T16:29:19Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25331,8 +25832,8 @@
       },
       "releaseDate": "2026-07-12T07:06:45Z",
       "activityDate": "2026-07-12T07:12:00Z",
-      "stars": 12,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 14,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25429,7 +25930,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-21T09:15:36Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25715,8 +26216,8 @@
       },
       "releaseDate": "2026-01-08T23:57:56Z",
       "activityDate": "2026-01-15T22:38:03Z",
-      "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 5,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25800,7 +26301,7 @@
       "releaseDate": null,
       "activityDate": "2025-11-01T21:57:06Z",
       "stars": 10,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25962,7 +26463,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-22T22:52:12Z",
       "stars": 7,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -26187,6 +26688,110 @@
         {
           "version": "v1.8",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.8"
+        }
+      ]
+    },
+    {
+      "id": "mononodes-look-lab-print-ofx",
+      "name": "MONONODES LOOK / LAB / PRINT OFX",
+      "creator": "MONONODES",
+      "url": "https://mononodes.com/look-lab-print-ofx/",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "kind": "ofx",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "film emulation",
+        "ofx",
+        "negative film",
+        "kodak vision3",
+        "kodak 2383",
+        "fujifilm 3513di",
+        "printer lights",
+        "bleach bypass",
+        "color shift",
+        "midi"
+      ],
+      "description": "Film-inspired OpenFX grading suite for Resolve Studio 20+. Includes Lab and Print; the higher product tier adds Color Shift and HDR. Supports Windows NVIDIA RTX and Apple Silicon Macs. Paid licenses with a watermarked demo.",
+      "access": "Paid license; watermarked demo",
+      "accessGroup": "mixed",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "platformNotes": "Windows 10/11 requires NVIDIA RTX; macOS requires Apple Silicon. Intel Macs and Windows AMD/Intel GPUs are unsupported.",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "20",
+            "edition": "Studio"
+          }
+        ],
+        "architectures": [],
+        "gpu": "Windows: NVIDIA RTX; macOS: Apple Silicon",
+        "processing": "unknown",
+        "pricing": "mixed",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://mononodes.com/look-lab-print-ofx/",
+          "checked_at": "2026-10-08T09:11:00.642Z",
+          "note": "Provider documentation; no catalogue installation testing."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://mononodes.com/look-lab-print-ofx/",
+          "checked_at": "2026-10-08T09:11:00.642Z",
+          "note": "Provider documentation; no catalogue installation testing."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://mononodes.com/look-lab-print-ofx/",
+          "checked_at": "2026-10-08T09:11:00.642Z",
+          "note": "Provider documentation; no catalogue installation testing."
+        }
+      ],
+      "unknownFields": [
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "previousUrls": [],
+      "version": {
+        "name": "MONONODES LOOK / LAB / PRINT OFX",
+        "url": "https://mononodes.com/look-lab-print-ofx/",
+        "kind": "vendor-version",
+        "version": "1.0 (demo label)",
+        "source": "https://mononodes.com/look-lab-print-ofx/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "note": "The provider labels the downloadable demo v1.0; no product release date is established."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": "2026-10-08T09:11:00.642Z",
+      "history": [],
+      "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
         }
       ]
     },
@@ -26798,8 +27403,8 @@
       },
       "releaseDate": null,
       "activityDate": "2022-12-11T05:16:33Z",
-      "stars": 38,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 39,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -26892,7 +27497,7 @@
       "releaseDate": "2024-05-12T19:05:36Z",
       "activityDate": "2024-05-12T19:05:36Z",
       "stars": 122,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27398,7 +28003,7 @@
       "releaseDate": null,
       "activityDate": "2026-06-26T12:15:47Z",
       "stars": 10,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27482,9 +28087,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-09-05T21:29:35Z",
-      "activityDate": "2026-09-06T18:14:58Z",
-      "stars": 2576,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-10-05T22:01:34Z",
+      "stars": 2639,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27737,7 +28342,7 @@
       "releaseDate": "2025-06-20T19:02:39Z",
       "activityDate": "2025-07-07T21:07:51Z",
       "stars": 7,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27936,8 +28541,8 @@
       },
       "releaseDate": "2026-01-22T04:47:43Z",
       "activityDate": "2026-02-09T21:40:50Z",
-      "stars": 519,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 526,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -28022,7 +28627,7 @@
       "releaseDate": null,
       "activityDate": "2026-01-25T08:51:46Z",
       "stars": 10,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -28107,7 +28712,7 @@
       "releaseDate": null,
       "activityDate": "2021-08-10T21:40:48Z",
       "stars": 16,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -28204,8 +28809,8 @@
       },
       "releaseDate": "2026-09-13T18:04:21Z",
       "activityDate": "2026-09-13T18:36:38Z",
-      "stars": 0,
-      "metadataChecked": "2026-09-15T11:10:28.438Z",
+      "stars": 2,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -28443,7 +29048,7 @@
       "releaseDate": null,
       "activityDate": "2024-05-30T10:51:19Z",
       "stars": 7,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -28605,9 +29210,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2024-11-30T19:30:16Z",
-      "activityDate": "2026-06-05T10:41:37Z",
-      "stars": 78,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-10-05T19:45:37Z",
+      "stars": 79,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -29013,7 +29618,7 @@
       "releaseDate": "2024-09-26T07:16:10Z",
       "activityDate": "2026-08-23T17:35:29Z",
       "stars": 10,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -29205,8 +29810,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-08T14:08:11Z",
-      "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 4,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
@@ -29475,7 +30080,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://chrisroyfilms.com/postwatch/version-history/",
-          "checked_at": "2026-09-07",
+          "checked_at": "2026-10-08T09:13:27.896Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ],
@@ -29492,18 +30097,44 @@
         "name": "PostWatch",
         "url": "https://chrisroyfilms.com/postwatch/",
         "kind": "vendor-version",
-        "version": "4.10",
+        "version": "4.11",
         "source": "https://chrisroyfilms.com/postwatch/version-history/",
         "date": null,
         "date_kind": null,
-        "checked_at": "2026-09-07"
+        "checked_at": "2026-10-08T09:13:27.896Z"
       },
       "releaseDate": null,
       "activityDate": null,
       "stars": null,
       "metadataChecked": null,
-      "history": [],
+      "history": [
+        {
+          "name": "PostWatch",
+          "url": "https://chrisroyfilms.com/postwatch/",
+          "from": "4.10",
+          "to": "4.11",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": null,
+          "source": "https://chrisroyfilms.com/postwatch/version-history/",
+          "summary": "Adds initial macOS Golden Gate compatibility and fixes Bluetooth battery monitoring.",
+          "changes": [
+            "Provider requests feedback on initial Golden Gate compatibility.",
+            "Fixes a minor Bluetooth battery monitoring issue."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://chrisroyfilms.com/postwatch/version-history/"
+            }
+          ]
+        }
+      ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.13",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.13"
@@ -29667,9 +30298,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-07-08T05:45:11Z",
-      "stars": 15,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-09-29T20:46:41Z",
+      "stars": 19,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -29746,7 +30377,7 @@
       "releaseDate": "2026-07-30T17:10:26Z",
       "activityDate": "2026-08-28T18:40:03Z",
       "stars": 3,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30071,8 +30702,8 @@
       },
       "releaseDate": "2026-05-24T01:22:53Z",
       "activityDate": "2026-05-24T01:22:53Z",
-      "stars": 177,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 179,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30155,9 +30786,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2023-09-14T02:20:52Z",
-      "activityDate": "2026-09-14T20:09:50Z",
+      "activityDate": "2026-10-05T21:42:37Z",
       "stars": 74,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30343,8 +30974,8 @@
       },
       "releaseDate": "2026-07-10T14:53:18Z",
       "activityDate": "2026-07-10T16:44:57Z",
-      "stars": 24,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 29,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30428,9 +31059,9 @@
         "checked_at": "2026-09-20T07:05:00Z"
       },
       "releaseDate": "2026-09-18T00:00:00Z",
-      "activityDate": "2026-09-18T09:47:40Z",
-      "stars": 35,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "activityDate": "2026-09-18T09:50:10Z",
+      "stars": 36,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "from": "v2026.2.0",
@@ -30529,8 +31160,8 @@
       },
       "releaseDate": "2022-05-15T19:01:07Z",
       "activityDate": "2026-04-01T19:33:03Z",
-      "stars": 181,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 182,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30607,7 +31238,7 @@
       "releaseDate": "2023-02-21T21:44:50Z",
       "activityDate": "2023-09-18T14:19:50Z",
       "stars": 26,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30915,9 +31546,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2025-11-07T14:46:09Z",
-      "activityDate": "2026-08-30T09:32:05Z",
-      "stars": 100,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-10-04T20:34:40Z",
+      "stars": 107,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -31470,7 +32101,7 @@
       "releaseDate": null,
       "activityDate": "2025-01-05T07:59:12Z",
       "stars": 14,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -31619,8 +32250,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-05T20:40:39Z",
-      "stars": 213,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 220,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -31705,7 +32336,7 @@
       "releaseDate": "2026-07-05T08:13:03Z",
       "activityDate": "2026-07-05T20:40:57Z",
       "stars": 20,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -31788,8 +32419,8 @@
       },
       "releaseDate": "2026-08-31T05:02:02Z",
       "activityDate": "2026-09-14T05:27:01Z",
-      "stars": 25,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 26,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -31875,7 +32506,7 @@
       "releaseDate": null,
       "activityDate": "2023-10-25T03:29:30Z",
       "stars": 22,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -31950,7 +32581,7 @@
       "releaseDate": "2022-01-01T12:59:22Z",
       "activityDate": "2022-01-11T05:23:26Z",
       "stars": 16,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32101,7 +32732,7 @@
       "releaseDate": null,
       "activityDate": "2026-06-13T18:33:45Z",
       "stars": 10,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32186,7 +32817,7 @@
       "releaseDate": null,
       "activityDate": "2018-02-06T21:13:43Z",
       "stars": 25,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32281,7 +32912,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:55:54Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32363,8 +32994,8 @@
       },
       "releaseDate": null,
       "activityDate": "2021-02-28T02:21:23Z",
-      "stars": 13,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 12,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32447,8 +33078,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-05-14T13:24:14Z",
-      "stars": 360,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 379,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32543,7 +33174,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:58:19Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32639,8 +33270,8 @@
       },
       "releaseDate": "2026-09-12T19:44:36Z",
       "activityDate": "2026-09-12T19:50:05Z",
-      "stars": 0,
-      "metadataChecked": "2026-09-15T11:10:30.401Z",
+      "stars": 2,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32733,9 +33364,9 @@
         "checked_at": "2026-09-20T07:05:00Z"
       },
       "releaseDate": "2026-09-17T00:00:00Z",
-      "activityDate": "2026-09-17T18:36:24Z",
+      "activityDate": "2026-09-17T18:36:25Z",
       "stars": 0,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "from": "v0.1.5",
@@ -32832,9 +33463,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-05-21T10:00:56Z",
+      "activityDate": "2026-09-25T10:32:05Z",
       "stars": 14,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32918,8 +33549,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-04-10T07:30:35Z",
-      "stars": 163,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 165,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32996,7 +33627,7 @@
       "releaseDate": null,
       "activityDate": "2025-07-20T20:16:51Z",
       "stars": 22,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33172,9 +33803,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-03-11T17:59:15Z",
+      "activityDate": "2026-10-02T09:19:39Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33270,7 +33901,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:56:17Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33346,7 +33977,7 @@
       "releaseDate": null,
       "activityDate": "2022-05-01T06:08:52Z",
       "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33442,7 +34073,7 @@
       "releaseDate": "2026-04-14T15:38:56Z",
       "activityDate": "2026-04-14T15:38:56Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33668,8 +34299,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-06-21T21:59:55Z",
-      "stars": 30,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 29,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33767,7 +34398,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-19T12:24:27Z",
       "stars": 1,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33864,8 +34495,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-18T08:25:50Z",
-      "stars": 1,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "stars": 2,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "from": "331dc5776df572f5b59dd8bbf743d0792b169a44",
@@ -33984,7 +34615,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:58:39Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34080,7 +34711,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-13T05:51:54Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "postflows/resolve-multicam-angle-colorizer",
@@ -34198,8 +34829,8 @@
       },
       "releaseDate": "2026-08-10T17:42:47Z",
       "activityDate": "2026-08-10T17:42:46Z",
-      "stars": 36,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 41,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34284,7 +34915,7 @@
       "releaseDate": null,
       "activityDate": "2022-01-01T20:25:00Z",
       "stars": 27,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34371,7 +35002,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-08T07:00:56Z",
       "stars": 17,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "thatcherfreeman/resolve-scripts",
@@ -34518,7 +35149,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:57:56Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34595,7 +35226,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-19T16:51:41Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34687,7 +35318,7 @@
       "releaseDate": null,
       "activityDate": "2026-02-19T07:48:52Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34778,8 +35409,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-08-27T21:04:44Z",
-      "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 1,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34932,9 +35563,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-08-24T00:51:50Z",
+      "activityDate": "2026-09-22T22:24:24Z",
       "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35017,7 +35648,7 @@
       "releaseDate": null,
       "activityDate": "2026-08-03T06:27:34Z",
       "stars": 20,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35113,7 +35744,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:58:57Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35194,8 +35825,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-08-30T23:31:06Z",
-      "stars": 298,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 299,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35270,7 +35901,7 @@
       "releaseDate": null,
       "activityDate": "2024-05-23T18:28:26Z",
       "stars": 20,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35357,7 +35988,7 @@
       "releaseDate": "2021-05-21T19:57:29Z",
       "activityDate": "2022-04-20T18:07:13Z",
       "stars": 36,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35442,7 +36073,7 @@
       "releaseDate": null,
       "activityDate": "2020-10-01T09:02:48Z",
       "stars": 13,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35471,7 +36102,7 @@
         "openfx",
         "output"
       ],
-      "description": "NDI HDR network-video output through OpenFX. Resolve 17+; building from source requires the NDI Advanced SDK.",
+      "description": "NDI SDR network-video output through OpenFX. Resolve 17+; building from source requires the NDI Advanced SDK. As of v1.15.0, HDR streaming is removed; output is 8-bit Rec.709 SDR.",
       "access": "Free; SDK terms separate",
       "accessGroup": "free",
       "platforms": [
@@ -35501,8 +36132,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/lightsailvr/ResolveOFX_NDIOutput/releases/tag/v1.14.1",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ],
@@ -35519,16 +36150,38 @@
         "name": "lightsailvr/ResolveOFX_NDIOutput",
         "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
         "kind": "stable-release",
-        "version": "v1.14.1",
-        "source": "https://github.com/lightsailvr/ResolveOFX_NDIOutput/releases/tag/v1.14.1",
-        "date": "2026-09-02T00:52:55Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "v1.15.0",
+        "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+        "date": "2026-10-01T23:13:55Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-02T00:52:55Z",
-      "activityDate": "2026-09-02T00:55:43Z",
-      "stars": 6,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
-      "history": [],
+      "releaseDate": "2026-10-01T23:13:55Z",
+      "activityDate": "2026-10-03T16:07:00Z",
+      "stars": 10,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
+      "history": [
+        {
+          "name": "lightsailvr/ResolveOFX_NDIOutput",
+          "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+          "from": "v1.14.1",
+          "to": "v1.15.0",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-01T23:13:55Z",
+          "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+          "summary": "Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only.",
+          "changes": [
+            "Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0"
+            }
+          ]
+        }
+      ],
       "catalogueReleases": [
         {
           "version": "v1.4",
@@ -35602,7 +36255,7 @@
       "releaseDate": "2026-05-19T20:22:06Z",
       "activityDate": "2026-06-09T08:00:50Z",
       "stars": 5,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36122,9 +36775,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2024-07-15T19:15:48Z",
-      "activityDate": "2026-09-04T12:52:53Z",
-      "stars": 78,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-10-01T22:46:11Z",
+      "stars": 80,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36206,7 +36859,7 @@
       "releaseDate": "2021-02-12T22:28:40Z",
       "activityDate": "2022-11-09T08:10:28Z",
       "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36472,8 +37125,8 @@
       },
       "releaseDate": "2026-06-02T22:53:39Z",
       "activityDate": "2026-06-02T22:53:39Z",
-      "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 10,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36533,8 +37186,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
-          "checked_at": "2026-09-29T00:00:00Z",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -36552,16 +37205,37 @@
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
         "kind": "stable-release",
-        "version": "v0.4.9",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.9",
-        "date": "2026-09-28T12:22:42Z",
-        "checked_at": "2026-09-29T00:00:00Z"
+        "version": "v0.5.1",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
+        "date": "2026-10-06T14:33:00Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-28T12:22:42Z",
-      "activityDate": "2026-09-29T13:09:30Z",
-      "stars": 214,
-      "metadataChecked": "2026-09-29T00:00:00Z",
+      "releaseDate": "2026-10-06T14:33:00Z",
+      "activityDate": "2026-10-07T12:14:36Z",
+      "stars": 216,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "shumaiOne/shumai",
+          "url": "https://github.com/shumaiOne/shumai",
+          "from": "v0.4.9",
+          "to": "v0.5.1",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-06T14:33:00Z",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
+          "summary": "Adds GPU decoding and scaling, RAW-image preview fallback and clickable asset notifications; fixes RAW transcoding hangs.",
+          "changes": [
+            "Adds GPU decoding and scaling, RAW-image preview fallback and clickable asset notifications; fixes RAW transcoding hangs."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1"
+            }
+          ]
+        },
         {
           "name": "shumaiOne/shumai",
           "url": "https://github.com/shumaiOne/shumai",
@@ -36646,6 +37320,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.26",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
@@ -36913,8 +37591,8 @@
       },
       "releaseDate": "2026-05-29T20:50:09Z",
       "activityDate": "2026-09-02T23:03:35Z",
-      "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 6,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37062,8 +37740,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-03-22T05:18:27Z",
-      "stars": 27,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 28,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37135,9 +37813,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2023-04-13T04:33:28Z",
-      "activityDate": "2026-09-14T20:09:42Z",
+      "activityDate": "2026-10-05T21:42:00Z",
       "stars": 8,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37448,7 +38126,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-10T13:14:22Z",
       "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37522,8 +38200,8 @@
       },
       "releaseDate": null,
       "activityDate": "2024-01-09T00:33:46Z",
-      "stars": 41,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 43,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37687,7 +38365,7 @@
       "releaseDate": null,
       "activityDate": "2022-08-11T15:05:21Z",
       "stars": 8,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37763,7 +38441,7 @@
       "releaseDate": null,
       "activityDate": "2024-11-01T21:53:30Z",
       "stars": 40,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37839,8 +38517,8 @@
       },
       "releaseDate": null,
       "activityDate": "2020-09-10T23:11:31Z",
-      "stars": 12,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 13,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37925,7 +38603,7 @@
       "releaseDate": null,
       "activityDate": "2022-08-11T22:57:03Z",
       "stars": 11,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -38134,8 +38812,8 @@
       },
       "releaseDate": "2025-02-20T11:20:24Z",
       "activityDate": "2026-07-28T06:37:10Z",
-      "stars": 1011,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 1023,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -38224,9 +38902,9 @@
         "checked_at": "2026-09-20T07:05:00Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-09-18T08:27:17Z",
+      "activityDate": "2026-09-18T08:27:23Z",
       "stars": 0,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "from": "130e3850b01a7840d739b60e10e5add7c2323dda",
@@ -38341,9 +39019,9 @@
         "checked_at": "2026-09-20T07:05:00Z"
       },
       "releaseDate": "2026-09-16T00:00:00Z",
-      "activityDate": "2026-09-10T10:26:46Z",
-      "stars": 29,
-      "metadataChecked": "2026-09-20T07:05:00Z",
+      "activityDate": "2026-09-16T05:59:33Z",
+      "stars": 33,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "from": "v3.3.1",
@@ -38457,7 +39135,7 @@
       "releaseDate": "2026-09-06T14:23:23Z",
       "activityDate": "2026-09-06T14:53:38Z",
       "stars": 11,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -38785,8 +39463,8 @@
       },
       "releaseDate": "2026-08-23T07:37:56Z",
       "activityDate": "2026-08-23T17:06:54Z",
-      "stars": 4,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 5,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -40877,8 +41555,8 @@
       },
       "releaseDate": null,
       "activityDate": "2021-03-13T19:39:17Z",
-      "stars": 197,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 200,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -40953,7 +41631,7 @@
       "releaseDate": null,
       "activityDate": "2021-01-10T18:24:26Z",
       "stars": 17,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -41044,7 +41722,7 @@
       "releaseDate": null,
       "activityDate": "2021-04-19T11:58:51Z",
       "stars": 32,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -41117,8 +41795,8 @@
       },
       "releaseDate": null,
       "activityDate": "2024-08-23T02:02:36Z",
-      "stars": 79,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 81,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -41286,7 +41964,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-20T18:28:45Z",
       "stars": 5,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -41377,9 +42055,9 @@
         "checked_at": "2026-09-26T00:00:00Z"
       },
       "releaseDate": "2026-09-20T19:43:07Z",
-      "activityDate": "2026-09-24T02:14:58Z",
+      "activityDate": "2026-10-04T00:52:14Z",
       "stars": 0,
-      "metadataChecked": "2026-09-26T00:00:00Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "stoatworks-labs/tilter",
@@ -41628,8 +42306,8 @@
       },
       "releaseDate": "2023-05-06T21:59:35Z",
       "activityDate": "2024-09-27T22:45:55Z",
-      "stars": 61,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 60,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -41687,8 +42365,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
-          "checked_at": "2026-09-29T00:00:00Z",
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+          "checked_at": "2026-10-08T09:11:00.642Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ],
@@ -41705,16 +42383,37 @@
         "name": "francozanardi/tscaps",
         "url": "https://github.com/francozanardi/tscaps",
         "kind": "stable-release",
-        "version": "web-v0.4.1",
-        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
-        "date": "2026-09-27T22:03:19Z",
-        "checked_at": "2026-09-29T00:00:00Z"
+        "version": "web-v0.5.0",
+        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+        "date": "2026-10-01T18:07:16Z",
+        "checked_at": "2026-10-08T09:11:00.642Z",
+        "date_kind": "release"
       },
-      "releaseDate": "2026-09-27T22:03:19Z",
-      "activityDate": "2026-09-27T21:58:08Z",
-      "stars": 75,
-      "metadataChecked": "2026-09-29T00:00:00Z",
+      "releaseDate": "2026-10-01T18:07:16Z",
+      "activityDate": "2026-10-01T18:01:19Z",
+      "stars": 83,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
+        {
+          "name": "francozanardi/tscaps",
+          "url": "https://github.com/francozanardi/tscaps",
+          "from": "web-v0.4.1",
+          "to": "web-v0.5.0",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-01T18:07:16Z",
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+          "summary": "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences.",
+          "changes": [
+            "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0"
+            }
+          ]
+        },
         {
           "name": "francozanardi/tscaps",
           "url": "https://github.com/francozanardi/tscaps",
@@ -41737,6 +42436,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.26",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"
@@ -41903,7 +42606,7 @@
       "releaseDate": null,
       "activityDate": "2025-04-10T00:37:52Z",
       "stars": 0,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -41988,7 +42691,7 @@
       "releaseDate": "2026-04-25T16:43:20Z",
       "activityDate": "2026-04-25T16:50:24Z",
       "stars": 1,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -42071,8 +42774,8 @@
       },
       "releaseDate": "2026-03-15T20:34:07Z",
       "activityDate": "2026-04-01T20:36:56Z",
-      "stars": 43,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 46,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -42158,8 +42861,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-20T08:12:15Z",
-      "stars": 34,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 35,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -42312,7 +43015,7 @@
       "releaseDate": null,
       "activityDate": "2022-01-22T19:04:15Z",
       "stars": 23,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -42396,9 +43099,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-09-13T03:45:38Z",
-      "stars": 420,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "activityDate": "2026-09-22T04:50:24Z",
+      "stars": 431,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "thatcherfreeman/utility-dctls",
@@ -42497,8 +43200,8 @@
       },
       "releaseDate": "2026-08-17T17:29:05Z",
       "activityDate": "2026-08-17T15:20:06Z",
-      "stars": 365,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 388,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -42817,7 +43520,7 @@
       "releaseDate": null,
       "activityDate": "2022-11-04T16:12:00Z",
       "stars": 95,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43003,7 +43706,7 @@
       "releaseDate": "2026-08-21T14:41:13Z",
       "activityDate": "2026-09-10T06:52:44Z",
       "stars": 2,
-      "metadataChecked": "2026-09-15T11:10:26.592Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43032,11 +43735,13 @@
         "transcription",
         "wav",
         "clips",
-        "text editing"
+        "text editing",
+        "open source",
+        "free audio editor"
       ],
-      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool for Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon. Initial model download and license activation need internet. One-time license includes future versions and no recurring activation checks. Version 1.475.0 adds guidance for finding repeated phrases.",
-      "access": "💰 Paid license with 7-day trial",
-      "accessGroup": "paid",
+      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation for Windows and macOS. Version 2.6.0 is free and open source under GPL-3.0; no trial or licence activation. Initial model download requires internet.",
+      "access": "Free and open source; GPL-3.0",
+      "accessGroup": "free",
       "platforms": [
         "Windows",
         "macOS"
@@ -43051,7 +43756,7 @@
         ],
         "gpu": null,
         "processing": "local",
-        "pricing": "one-time",
+        "pricing": "free",
         "account": "unknown",
         "dependencies": null,
         "installation": null
@@ -43068,15 +43773,15 @@
           "field": "version",
           "level": "documented",
           "source": "https://vocalslice.com/changelog.html",
-          "checked_at": "2026-09-15",
+          "checked_at": "2026-10-08T09:13:27.896Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
           "field": "requirements",
           "level": "documented",
-          "source": "https://vocalslice.com/",
-          "checked_at": "2026-09-08",
-          "note": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool. Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon; initial model download and license activation need internet. $29 license covers three machines. Version 1.462.0 adds in-app release notes and fixes trial-expiry behavior."
+          "source": "https://vocalslice.com/changelog.html",
+          "checked_at": "2026-10-08T09:13:27.896Z",
+          "note": "Version 2.6.0 removes paid licensing and trial restrictions."
         },
         {
           "field": "changelog",
@@ -43089,7 +43794,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://vocalslice.com/changelog.html",
-          "checked_at": "2026-09-15",
+          "checked_at": "2026-10-08T09:13:27.896Z",
           "note": "Records the previously missed 1.475.0 release and the earlier move to a perpetual license."
         }
       ],
@@ -43104,18 +43809,40 @@
         "name": "VocalSlice",
         "url": "https://vocalslice.com/",
         "kind": "vendor-version",
-        "version": "1.475.0",
+        "version": "2.6.0",
         "source": "https://vocalslice.com/changelog.html",
-        "date": "2026-08-27",
+        "date": "2026-10-07",
         "date_kind": "release",
-        "checked_at": "2026-09-15",
+        "checked_at": "2026-10-08T09:13:27.896Z",
         "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
       },
-      "releaseDate": "2026-08-27",
+      "releaseDate": "2026-10-07",
       "activityDate": null,
       "stars": null,
       "metadataChecked": null,
       "history": [
+        {
+          "name": "VocalSlice",
+          "url": "https://vocalslice.com/",
+          "from": "1.475.0",
+          "to": "2.6.0",
+          "release": "v1.27",
+          "catalogue_date": "2026-10-08",
+          "upstream_date": "2026-10-07",
+          "source": "https://vocalslice.com/changelog.html",
+          "summary": "Becomes free and open source under GPL-3.0, removes trial and licence activation, and fixes release-note formatting.",
+          "changes": [
+            "Unlocks all features without trial or licence key.",
+            "Moves to the open-source repository and version-2 numbering.",
+            "Removes licence and trial records and fixes formatting in in-app release notes."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://vocalslice.com/changelog.html"
+            }
+          ]
+        },
         {
           "name": "VocalSlice",
           "url": "https://vocalslice.com/",
@@ -43140,6 +43867,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.27",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+        },
         {
           "version": "v1.22",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"
@@ -43297,8 +44028,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-27T22:05:11Z",
-      "stars": 11,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 12,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43458,7 +44189,7 @@
       "releaseDate": null,
       "activityDate": "2023-11-02T08:09:27Z",
       "stars": 32,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43542,8 +44273,8 @@
       },
       "releaseDate": "2026-09-12T13:31:58Z",
       "activityDate": "2026-09-12T13:31:50Z",
-      "stars": 9,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "stars": 11,
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [
         {
           "name": "JaySNL/VSTForResolveLinux",
@@ -44055,7 +44786,7 @@
       "releaseDate": "2021-02-07T17:13:08Z",
       "activityDate": "2021-02-14T19:52:23Z",
       "stars": 30,
-      "metadataChecked": "2026-09-15T05:06:04.860Z",
+      "metadataChecked": "2026-10-08T09:05:42.805Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -44218,6 +44949,13 @@
     }
   ],
   "releases": [
+    {
+      "version": "v1.27",
+      "title": "v1.27 - Resolve 21.1.1 and verified provider updates",
+      "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27",
+      "date": "2026-10-08T09:11:00.642Z",
+      "body": "## Verified provider updates\n\n- Fusion Studio: 21.1 -> 21.1.1. Fixes sTrace, Console shortcuts, dual-screen layouts and OGraf caching, and improves Magic Mask performance. https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8\n- DaVinci Resolve / Studio: 21.1 -> 21.1.1. Improves trim editing, USAC decoding on Windows 11, Fusion effects and collaboration stability. https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d\n- VocalSlice: 1.475.0 -> 2.6.0. Becomes free and open source under GPL-3.0, removes trial and licence activation, and fixes release-note formatting. https://vocalslice.com/changelog.html\n- PostWatch: 4.10 -> 4.11. Adds initial macOS Golden Gate compatibility and fixes Bluetooth battery monitoring. https://chrisroyfilms.com/postwatch/version-history/\n- fcp2aaf: 26.9.21 -> 26.10.01. Adds iPhone Spatial Audio stereo import and RED KOMODO/V-RAPTOR R3D audio support. https://fcp2aaf.com/changelog/\n- WyattBlue/auto-editor: 31.6.0 -> 31.7.2. Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr. https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2\n- tmoroney/auto-subs: v3.10.1 -> v3.11.0. Adds speech-detection controls and fixes Resolve timeline delivery, non-English installs, long transcription and SRT import. https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0\n- ynput/ayon-resolve: 0.6.3 -> 0.6.4. Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations. https://github.com/ynput/ayon-resolve/releases/tag/0.6.4\n- stoatworks-labs/cogwheel: v0.6.1 -> v0.6.2. Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame. https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2\n- ciqueira/ColorEqualizer: eq-v0.6.1 -> eq-v0.6.4. Records the provider SDK update; no detailed feature changelog was published. https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4\n- stoatworks-labs/compander: v0.1.3 -> v0.1.4. Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged. https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4\n- samuelgursky/davinci-resolve-mcp: v4.8.22 -> v4.9.0. Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed. https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0\n- stoatworks-labs/flenser: v0.1.5 -> v0.1.6. Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output. https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6\n- DhaliwalX/fotufilm-engine: v1.10 -> v1.11. Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build. https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11\n- lightsailvr/ResolveOFX_NDIOutput: v1.14.1 -> v1.15.0. Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only. https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0\n- shumaiOne/shumai: v0.4.9 -> v0.5.1. Adds GPU decoding and scaling, RAW-image preview fallback and clickable asset notifications; fixes RAW transcoding hangs. https://github.com/shumaiOne/shumai/releases/tag/v0.5.1\n- francozanardi/tscaps: web-v0.4.1 -> web-v0.5.0. Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences. https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0\n\n## Added resource\n\n- MONONODES LOOK / LAB / PRINT OFX (MONONODES): Film-inspired OpenFX grading suite for Resolve Studio 20+. Includes Lab and Print; the higher product tier adds Color Shift and HDR. Supports Windows NVIDIA RTX and Apple Silicon Macs. Paid licenses with a watermarked demo. https://mononodes.com/look-lab-print-ofx/\n- DaVinci Resolve 21 Supported Codecs (Blackmagic Design): Official Resolve 21 codec and format support reference. Consult the document for operating-system and Free/Studio distinctions. Support listing dated 2026-09-28. https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf\n- DaVinci Resolve 21 Studio and iPad Features (Blackmagic Design): Official Resolve 21 comparison of Studio and iPad features, codecs and licensing-dependent items. Edition differences are version-specific. Support listing dated 2026-09-28. https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf"
+    },
     {
       "version": "v1.26",
       "title": "v1.26 — Verified provider updates",
@@ -44395,6 +45133,26 @@
       ]
     },
     {
+      "name": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.6.0",
+      "to": "31.7.2",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-03T02:04:36Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+      "summary": "Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr.",
+      "changes": [
+        "Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2"
+        }
+      ]
+    },
+    {
       "name": "auto-editor",
       "url": "https://github.com/WyattBlue/auto-editor",
       "from": "31.5.0",
@@ -44415,6 +45173,26 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0"
+        }
+      ]
+    },
+    {
+      "name": "tmoroney/auto-subs",
+      "url": "https://github.com/tmoroney/auto-subs",
+      "from": "v3.10.1",
+      "to": "v3.11.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-09-29T19:07:26Z",
+      "source": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0",
+      "summary": "Adds speech-detection controls and fixes Resolve timeline delivery, non-English installs, long transcription and SRT import.",
+      "changes": [
+        "Adds speech-detection controls and fixes Resolve timeline delivery, non-English installs, long transcription and SRT import."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/tmoroney/auto-subs/releases/tag/v3.11.0"
         }
       ]
     },
@@ -44457,6 +45235,26 @@
       ]
     },
     {
+      "name": "ynput/ayon-resolve",
+      "url": "https://github.com/ynput/ayon-resolve",
+      "from": "0.6.3",
+      "to": "0.6.4",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-09-29T13:44:33Z",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
+      "summary": "Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations.",
+      "changes": [
+        "Supports multiple render passes per profile and adds a pre-hook to reject unsupported Free-edition scripting configurations."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4"
+        }
+      ]
+    },
+    {
       "from": "v1.0.0",
       "to": "v1.1.0",
       "release": "v1.24",
@@ -44471,6 +45269,26 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/TeddieWang/BarkTed/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "stoatworks-labs/cogwheel",
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "from": "v0.6.1",
+      "to": "v0.6.2",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-04T03:43:28Z",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+      "summary": "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame.",
+      "changes": [
+        "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2"
         }
       ]
     },
@@ -44497,6 +45315,26 @@
     {
       "name": "ciqueira/ColorEqualizer",
       "url": "https://github.com/ciqueira/ColorEqualizer",
+      "from": "eq-v0.6.1",
+      "to": "eq-v0.6.4",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-09-30T16:08:21Z",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
+      "summary": "Records the provider SDK update; no detailed feature changelog was published.",
+      "changes": [
+        "Records the provider SDK update; no detailed feature changelog was published."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4"
+        }
+      ]
+    },
+    {
+      "name": "ciqueira/ColorEqualizer",
+      "url": "https://github.com/ciqueira/ColorEqualizer",
       "from": "eq-v0.1.0",
       "to": "eq-v0.6.1",
       "release": "v1.22",
@@ -44517,6 +45355,26 @@
     {
       "name": "stoatworks-labs/compander",
       "url": "https://github.com/stoatworks-labs/compander",
+      "from": "v0.1.3",
+      "to": "v0.1.4",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-04T03:39:49Z",
+      "source": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4",
+      "summary": "Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged.",
+      "changes": [
+        "Declares the OpenFX output frame-varying so hosts correctly refresh still-input frames; the FFGL build is unchanged."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.4"
+        }
+      ]
+    },
+    {
+      "name": "stoatworks-labs/compander",
+      "url": "https://github.com/stoatworks-labs/compander",
       "from": "v0.1.2",
       "to": "v0.1.3",
       "release": "v1.25",
@@ -44531,6 +45389,26 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/stoatworks-labs/compander/releases/tag/v0.1.3"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.8.22",
+      "to": "v4.9.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-06T01:56:43Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
+      "summary": "Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed.",
+      "changes": [
+        "Adds bounded Media Pool imports with folder restoration, input validation and reporting when an imported item cannot be renamed."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0"
         }
       ]
     },
@@ -44687,6 +45565,54 @@
     {
       "name": "DaVinci Resolve / Studio",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "from": "21.1",
+      "to": "21.1.1",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-02T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
+      "summary": "Improves trim editing, USAC decoding on Windows 11, Fusion effects and collaboration stability.",
+      "changes": [
+        "Free and Studio: Trim editor viewer actions affect all selected edit points.",
+        "Free and Studio: Trim editor mouse based edit actions now include audio previews.",
+        "Free and Studio: Trim editor viewer now supports audio only clip editing.",
+        "Free and Studio: Support for CR3 RAW decodes for EOS R8 Mark II.",
+        "Free and Studio: Support for USAC audio decode on Windows 11.",
+        "Free and Studio: Data burn options to show source feet and frames.",
+        "Free and Studio: OGraf animation improvements for duration aware sizing and outro.",
+        "Free and Studio: ApplyGradeFromDRX API option to apply changes to all node layers.",
+        "Free and Studio: Addressed inspector combining multiple Fusion effects for a clip.",
+        "Free and Studio: Addressed transitions on clips with foreground composite mode.",
+        "Free and Studio: Addressed looped play around selection issues in dynamic trim.",
+        "Free and Studio: Addressed original media aspect ratio not honoring orientation.",
+        "Free and Studio: Addressed issue adding plain Text+ or MultiText to a subtitle track.",
+        "Free and Studio: Addressed OGraf caching and path relinking issues.",
+        "Free and Studio: Sync bin multi angle view now displays record timecode and frame.",
+        "Free and Studio: Multicam actions are now available in single viewer mode.",
+        "Free and Studio: Addressed issue with Halation controls in Film Look Creator.",
+        "Free and Studio: Addressed multi-user collaboration connectivity issues.",
+        "Free and Studio: Improved NVIDIA decode memory usage for some R3D NE clips.",
+        "Free and Studio: General performance and stability improvements.",
+        "Studio: Async APIs for quick export, transcription and scene cut detection.",
+        "Studio: Async APIs for Smart Reframe and subtitle creation.",
+        "Studio: Addressed auto captions sometimes cropping in vertical timelines.",
+        "Studio: Addressed occasional Magic Mask slow downs in Fusion page.",
+        "Studio: Addressed issue when launching app from AI Assistants in Windows."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d"
+        },
+        {
+          "label": "Studio release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/dfbb6e4233c144d1b328c109c7ebc11e"
+        }
+      ]
+    },
+    {
+      "name": "DaVinci Resolve / Studio",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
       "from": "21.0.4",
       "to": "21.1",
       "release": "v1.15",
@@ -44799,6 +45725,27 @@
     {
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
+      "from": "26.9.21",
+      "to": "26.10.01",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-01",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Adds iPhone Spatial Audio stereo import and RED KOMODO/V-RAPTOR R3D audio support.",
+      "changes": [
+        "Imports the stereo audio of iPhone Spatial Audio videos.",
+        "Reads R3D camera audio from KOMODO and V-RAPTOR."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
       "from": "26.9.17",
       "to": "26.9.21",
       "release": "v1.22",
@@ -44821,6 +45768,26 @@
     {
       "name": "stoatworks-labs/flenser",
       "url": "https://github.com/stoatworks-labs/flenser",
+      "from": "v0.1.5",
+      "to": "v0.1.6",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-04T03:57:18Z",
+      "source": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6",
+      "summary": "Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output.",
+      "changes": [
+        "Fixes Fusion rendering and makes the generator animate by using the host frame rate and declaring frame-varying output."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.6"
+        }
+      ]
+    },
+    {
+      "name": "stoatworks-labs/flenser",
+      "url": "https://github.com/stoatworks-labs/flenser",
       "from": "v0.1.4",
       "to": "v0.1.5",
       "release": "v1.25",
@@ -44835,6 +45802,26 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.10",
+      "to": "v1.11",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-03T21:55:23Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
+      "summary": "Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build.",
+      "changes": [
+        "Adds Lab Scan finishing controls, blends film-grain patches to remove grid seams and provides a Linux alpha build."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11"
         }
       ]
     },
@@ -44919,6 +45906,33 @@
         {
           "label": "Full source changelog",
           "url": "https://frameseek.app/updates"
+        }
+      ]
+    },
+    {
+      "name": "Fusion Studio",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21.1",
+      "to": "21.1.1",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-02T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+      "summary": "Fixes sTrace, Console shortcuts, dual-screen layouts and OGraf caching, and improves Magic Mask performance.",
+      "changes": [
+        "Addressed issue with sTrace Create.",
+        "Addressed issue with deselecting combined text fields.",
+        "Addressed issue with copy and select all shortcuts in Console.",
+        "Addressed issue with with dual screen layouts.",
+        "Addressed OGraf caching and path relinking issues.",
+        "OGraf animation improvements for duration aware sizing and outro.",
+        "Improved Magic Mask creation performance.",
+        "General performance and stability improvements."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8"
         }
       ]
     },
@@ -45151,6 +46165,27 @@
       ]
     },
     {
+      "name": "PostWatch",
+      "url": "https://chrisroyfilms.com/postwatch/",
+      "from": "4.10",
+      "to": "4.11",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": null,
+      "source": "https://chrisroyfilms.com/postwatch/version-history/",
+      "summary": "Adds initial macOS Golden Gate compatibility and fixes Bluetooth battery monitoring.",
+      "changes": [
+        "Provider requests feedback on initial Golden Gate compatibility.",
+        "Fixes a minor Bluetooth battery monitoring issue."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://chrisroyfilms.com/postwatch/version-history/"
+        }
+      ]
+    },
+    {
       "from": "v2026.2.0",
       "to": "v2026.3.0",
       "release": "v1.24",
@@ -45261,6 +46296,46 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/thatcherfreeman/resolve-scripts/commit/2314e5b33aa005ea1c3b77a1ce3e85521906cbef"
+        }
+      ]
+    },
+    {
+      "name": "lightsailvr/ResolveOFX_NDIOutput",
+      "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+      "from": "v1.14.1",
+      "to": "v1.15.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-01T23:13:55Z",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
+      "summary": "Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only.",
+      "changes": [
+        "Adds mono 360 streaming and fixes stereo Edit-page playback. HDR output is removed; streams are now SDR only."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.4.9",
+      "to": "v0.5.1",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-06T14:33:00Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
+      "summary": "Adds GPU decoding and scaling, RAW-image preview fallback and clickable asset notifications; fixes RAW transcoding hangs.",
+      "changes": [
+        "Adds GPU decoding and scaling, RAW-image preview fallback and clickable asset notifications; fixes RAW transcoding hangs."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1"
         }
       ]
     },
@@ -45427,6 +46502,26 @@
     {
       "name": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.4.1",
+      "to": "web-v0.5.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-01T18:07:16Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+      "summary": "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences.",
+      "changes": [
+        "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0"
+        }
+      ]
+    },
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
       "from": "web-v0.3.0",
       "to": "web-v0.4.1",
       "release": "v1.26",
@@ -45461,6 +46556,28 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1"
+        }
+      ]
+    },
+    {
+      "name": "VocalSlice",
+      "url": "https://vocalslice.com/",
+      "from": "1.475.0",
+      "to": "2.6.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-07",
+      "source": "https://vocalslice.com/changelog.html",
+      "summary": "Becomes free and open source under GPL-3.0, removes trial and licence activation, and fixes release-note formatting.",
+      "changes": [
+        "Unlocks all features without trial or licence key.",
+        "Moves to the open-source repository and version-2 numbering.",
+        "Removes licence and trial records and fixes formatting in in-app release notes."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://vocalslice.com/changelog.html"
         }
       ]
     },

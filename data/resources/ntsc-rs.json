@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/ntsc-rs/ntsc-rs/releases/latest",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 2576,
-  "last_pushed_at": "2026-09-06T18:14:58Z",
-  "metadata_checked_at": "2026-09-15T05:06:04.860Z",
+  "stars": 2639,
+  "last_pushed_at": "2026-10-05T22:01:34Z",
+  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
   "requirements": {
     "editions": [],
     "resolve": [],

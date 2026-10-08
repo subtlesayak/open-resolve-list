@@ -23,7 +23,11 @@ const save=(name,value)=>{
 };
 function graph(query){
  const r=spawnSync('gh',['api','graphql','--input','-'],{input:JSON.stringify({query}),encoding:'utf8',maxBuffer:32*1024*1024,windowsHide:true});
- if(r.status!==0) throw new Error('GitHub API request failed: '+r.stderr.slice(0,300));
+ // GraphQL may return usable sibling records alongside a missing repository.
+ if(r.status!==0){
+  try { const partial=JSON.parse(r.stdout); if(partial.data)return partial; } catch {}
+  throw new Error('GitHub API request failed: '+r.stderr.slice(0,300));
+ }
  return JSON.parse(r.stdout);
 }
 function github(){

@@ -871,7 +871,7 @@
       "repository": "lightsailvr/ResolveOFX_NDIOutput",
       "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
-      "description": "NDI HDR network-video output through OpenFX. Resolve 17+; building from source requires the NDI Advanced SDK.",
+      "description": "NDI SDR network-video output through OpenFX. Resolve 17+; building from source requires the NDI Advanced SDK. As of v1.15.0, HDR streaming is removed; output is 8-bit Rec.709 SDR.",
       "access": "Free; SDK terms separate",
       "platforms": "Windows;macOS",
       "platform_notes": "Windows 10/11 x64; macOS 13+ Intel/Apple Silicon.",

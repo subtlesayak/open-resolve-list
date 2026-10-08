@@ -21,8 +21,8 @@
     "host application",
     "official"
   ],
-  "description": "Standalone compositing application, version 21.1 released September 8, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
-  "display_description": "Standalone compositing application, version 21.1 released September 8, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
+  "description": "Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
+  "display_description": "Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
   "access": "💰 Licensed software",
   "accessGroup": "paid",
   "platforms": [
@@ -33,8 +33,8 @@
   "platform_notes": "🪟 Windows · 🍎 macOS · 🐧 Linux",
   "display_platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
   "display_platform_notes": "",
-  "platform_source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-  "platform_checked_at": "2026-09-08",
+  "platform_source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+  "platform_checked_at": "2026-10-08",
   "research_snapshot": null,
   "stars": null,
   "last_pushed_at": null,
@@ -59,33 +59,33 @@
     "name": "Fusion Studio — official product",
     "url": "https://www.blackmagicdesign.com/products/fusion",
     "kind": "vendor-version",
-    "version": "21.1",
-    "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-    "date": "2026-09-08",
+    "version": "21.1.1",
+    "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+    "date": "2026-10-02T07:00:10.000Z",
     "date_kind": "release",
-    "checked_at": "2026-09-08",
+    "checked_at": "2026-10-08T09:11:00.642Z",
     "note": "Verified against official support feed and version-specific release notes."
   },
   "evidence": [
     {
       "field": "platforms",
       "level": "documented",
-      "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-      "checked_at": "2026-09-08",
+      "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+      "checked_at": "2026-10-08T09:11:00.642Z",
       "note": "Provider-listed platforms; see limitations and exact builds."
     },
     {
       "field": "version",
       "level": "documented",
-      "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-      "checked_at": "2026-09-08",
+      "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+      "checked_at": "2026-10-08T09:11:00.642Z",
       "note": "Recorded version evidence, not installation testing."
     },
     {
       "field": "requirements",
       "level": "documented",
-      "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
-      "checked_at": "2026-09-08",
+      "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+      "checked_at": "2026-10-08T09:11:00.642Z",
       "note": "Current host release; does not establish third-party plugin compatibility."
     }
   ],
@@ -97,6 +97,33 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "Fusion Studio",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21.1",
+      "to": "21.1.1",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-02T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
+      "summary": "Fixes sTrace, Console shortcuts, dual-screen layouts and OGraf caching, and improves Magic Mask performance.",
+      "changes": [
+        "Addressed issue with sTrace Create.",
+        "Addressed issue with deselecting combined text fields.",
+        "Addressed issue with copy and select all shortcuts in Console.",
+        "Addressed issue with with dual screen layouts.",
+        "Addressed OGraf caching and path relinking issues.",
+        "OGraf animation improvements for duration aware sizing and outro.",
+        "Improved Magic Mask creation performance.",
+        "General performance and stability improvements."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8"
+        }
+      ]
+    },
     {
       "name": "Fusion Studio",
       "url": "https://www.blackmagicdesign.com/products/fusion",

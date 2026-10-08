@@ -35,9 +35,9 @@
   "platform_source": "https://github.com/francozanardi/tscaps#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 75,
-  "last_pushed_at": "2026-09-27T21:58:08Z",
-  "metadata_checked_at": "2026-09-29T00:00:00Z",
+  "stars": 83,
+  "last_pushed_at": "2026-10-01T18:01:19Z",
+  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -53,10 +53,11 @@
     "name": "francozanardi/tscaps",
     "url": "https://github.com/francozanardi/tscaps",
     "kind": "stable-release",
-    "version": "web-v0.4.1",
-    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
-    "date": "2026-09-27T22:03:19Z",
-    "checked_at": "2026-09-29T00:00:00Z"
+    "version": "web-v0.5.0",
+    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+    "date": "2026-10-01T18:07:16Z",
+    "checked_at": "2026-10-08T09:11:00.642Z",
+    "date_kind": "release"
   },
   "evidence": [
     {
@@ -69,8 +70,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
-      "checked_at": "2026-09-29T00:00:00Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+      "checked_at": "2026-10-08T09:11:00.642Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -83,6 +84,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.4.1",
+      "to": "web-v0.5.0",
+      "release": "v1.27",
+      "catalogue_date": "2026-10-08",
+      "upstream_date": "2026-10-01T18:07:16Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+      "summary": "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences.",
+      "changes": [
+        "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0"
+        }
+      ]
+    },
     {
       "name": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",

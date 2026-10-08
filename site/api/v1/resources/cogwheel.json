@@ -60,8 +60,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
-        "checked_at": "2026-09-26T00:00:00Z",
+        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -77,16 +77,37 @@
       "name": "stoatworks-labs/cogwheel",
       "url": "https://github.com/stoatworks-labs/cogwheel",
       "kind": "stable-release",
-      "version": "v0.6.1",
-      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1",
-      "date": "2026-09-20T19:29:50Z",
-      "checked_at": "2026-09-26T00:00:00Z"
+      "version": "v0.6.2",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+      "date": "2026-10-04T03:43:28Z",
+      "checked_at": "2026-10-08T09:11:00.642Z",
+      "date_kind": "release"
     },
-    "releaseDate": "2026-09-20T19:29:50Z",
-    "activityDate": "2026-09-20T23:28:15Z",
+    "releaseDate": "2026-10-04T03:43:28Z",
+    "activityDate": "2026-10-04T04:35:30Z",
     "stars": 0,
-    "metadataChecked": "2026-09-26T00:00:00Z",
+    "metadataChecked": "2026-10-08T09:05:42.805Z",
     "history": [
+      {
+        "name": "stoatworks-labs/cogwheel",
+        "url": "https://github.com/stoatworks-labs/cogwheel",
+        "from": "v0.6.1",
+        "to": "v0.6.2",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": "2026-10-04T03:43:28Z",
+        "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
+        "summary": "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame.",
+        "changes": [
+          "Fixes OpenFX preset crashes and Fusion frame-rate handling, and makes its generator animate instead of repeating a cached frame."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2"
+          }
+        ]
+      },
       {
         "name": "stoatworks-labs/cogwheel",
         "url": "https://github.com/stoatworks-labs/cogwheel",
@@ -109,6 +130,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      },
       {
         "version": "v1.25",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.25"

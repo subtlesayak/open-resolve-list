@@ -49,8 +49,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
-        "checked_at": "2026-09-29T00:00:00Z",
+        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -67,16 +67,37 @@
       "name": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",
       "kind": "stable-release",
-      "version": "web-v0.4.1",
-      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.4.1",
-      "date": "2026-09-27T22:03:19Z",
-      "checked_at": "2026-09-29T00:00:00Z"
+      "version": "web-v0.5.0",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+      "date": "2026-10-01T18:07:16Z",
+      "checked_at": "2026-10-08T09:11:00.642Z",
+      "date_kind": "release"
     },
-    "releaseDate": "2026-09-27T22:03:19Z",
-    "activityDate": "2026-09-27T21:58:08Z",
-    "stars": 75,
-    "metadataChecked": "2026-09-29T00:00:00Z",
+    "releaseDate": "2026-10-01T18:07:16Z",
+    "activityDate": "2026-10-01T18:01:19Z",
+    "stars": 83,
+    "metadataChecked": "2026-10-08T09:05:42.805Z",
     "history": [
+      {
+        "name": "francozanardi/tscaps",
+        "url": "https://github.com/francozanardi/tscaps",
+        "from": "web-v0.4.1",
+        "to": "web-v0.5.0",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": "2026-10-01T18:07:16Z",
+        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
+        "summary": "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences.",
+        "changes": [
+          "Adds scene-level timeline editing and SRT/VTT input, improves waveform display and fixes transcription timing and dropped sentences."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0"
+          }
+        ]
+      },
       {
         "name": "francozanardi/tscaps",
         "url": "https://github.com/francozanardi/tscaps",
@@ -99,6 +120,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      },
       {
         "version": "v1.26",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"

@@ -54,7 +54,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://fcp2aaf.com/changelog/",
-        "checked_at": "2026-09-15",
+        "checked_at": "2026-10-08T09:13:27.896Z",
         "note": "Recorded version evidence, not installation testing."
       },
       {
@@ -75,7 +75,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://fcp2aaf.com/changelog/",
-        "checked_at": "2026-09-15",
+        "checked_at": "2026-10-08T09:13:27.896Z",
         "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
       }
     ],
@@ -90,18 +90,39 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "kind": "vendor-version",
-      "version": "26.9.21",
+      "version": "26.10.01",
       "source": "https://fcp2aaf.com/changelog/",
-      "date": "2026-09-14",
+      "date": "2026-10-01",
       "date_kind": "release",
-      "checked_at": "2026-09-15",
+      "checked_at": "2026-10-08T09:13:27.896Z",
       "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
     },
-    "releaseDate": "2026-09-14",
+    "releaseDate": "2026-10-01",
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
     "history": [
+      {
+        "name": "fcp2aaf",
+        "url": "https://fcp2aaf.com/",
+        "from": "26.9.21",
+        "to": "26.10.01",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": "2026-10-01",
+        "source": "https://fcp2aaf.com/changelog/",
+        "summary": "Adds iPhone Spatial Audio stereo import and RED KOMODO/V-RAPTOR R3D audio support.",
+        "changes": [
+          "Imports the stereo audio of iPhone Spatial Audio videos.",
+          "Reads R3D camera audio from KOMODO and V-RAPTOR."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://fcp2aaf.com/changelog/"
+          }
+        ]
+      },
       {
         "name": "fcp2aaf",
         "url": "https://fcp2aaf.com/",
@@ -126,6 +147,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      },
       {
         "version": "v1.22",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"

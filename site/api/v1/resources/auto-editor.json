@@ -40,8 +40,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
-        "checked_at": "2026-09-15T05:06:04.860Z",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+        "checked_at": "2026-10-08T09:11:00.642Z",
         "note": "Recorded version evidence, not installation testing."
       },
       {
@@ -66,16 +66,37 @@
       "name": "WyattBlue/auto-editor",
       "url": "https://github.com/WyattBlue/auto-editor",
       "kind": "stable-release",
-      "version": "31.6.0",
-      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
-      "date": "2026-09-06T21:01:15Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "31.7.2",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+      "date": "2026-10-03T02:04:36Z",
+      "checked_at": "2026-10-08T09:11:00.642Z",
+      "date_kind": "release"
     },
-    "releaseDate": "2026-09-06T21:01:15Z",
-    "activityDate": "2026-09-13T04:43:15Z",
-    "stars": 5217,
-    "metadataChecked": "2026-09-15T05:06:04.860Z",
+    "releaseDate": "2026-10-03T02:04:36Z",
+    "activityDate": "2026-10-07T04:24:11Z",
+    "stars": 5453,
+    "metadataChecked": "2026-10-08T09:05:42.805Z",
     "history": [
+      {
+        "name": "WyattBlue/auto-editor",
+        "url": "https://github.com/WyattBlue/auto-editor",
+        "from": "31.6.0",
+        "to": "31.7.2",
+        "release": "v1.27",
+        "catalogue_date": "2026-10-08",
+        "upstream_date": "2026-10-03T02:04:36Z",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
+        "summary": "Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr.",
+        "changes": [
+          "Skips damaged packets without aborting analysis, drains decoders and avoids caching incomplete analysis; progress output moves to stderr."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2"
+          }
+        ]
+      },
       {
         "name": "auto-editor",
         "url": "https://github.com/WyattBlue/auto-editor",
@@ -102,6 +123,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.27",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"
+      },
       {
         "version": "v1.14",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.14"
