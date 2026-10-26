@@ -489,6 +489,15 @@
       "kind": "workflow-app"
     },
     {
+      "id": "braw-pack",
+      "name": "braw-pack",
+      "creator": "laurentchicoine",
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "origin": "github",
+      "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "kind": "encoder"
+    },
+    {
       "id": "breathe-in-35mm-powergrades",
       "name": "Breathe In 35mm PowerGrades",
       "creator": "Veres Deni Alex",
@@ -799,6 +808,15 @@
       "name": "Creating Scripts for DaVinci Resolve — examples thread",
       "creator": "Blackmagic forum community",
       "url": "https://forum.blackmagicdesign.com/viewtopic.php?t=175315",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "workflow-app"
+    },
+    {
+      "id": "crossflow",
+      "name": "CrossFlow",
+      "creator": "Nablast",
+      "url": "https://nablast.com/",
       "origin": "external",
       "category": "Community discoveries",
       "kind": "workflow-app"

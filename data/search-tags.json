@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy": "Generated from data/resources/*.json. Edit canonical records, then run npm run build.",
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-26",
   "entries": [
     {
       "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
@@ -750,6 +750,29 @@
       ]
     },
     {
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "name": "braw-pack",
+      "tags": [
+        "braw",
+        "blackmagic raw",
+        "archive",
+        "recompression",
+        "h265",
+        "hevc",
+        "raw metadata",
+        "gyro",
+        "nvenc",
+        "x265",
+        "experimental"
+      ],
+      "sources": [
+        "https://github.com/laurentchicoine/braw-pack",
+        "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
+        "https://github.com/laurentchicoine/braw-pack/blob/main/LICENSE",
+        "https://www.reddit.com/r/blackmagicdesign/comments/1x76d8r/tool_to_shrink_braw_footage_for_archival/"
+      ]
+    },
+    {
       "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
       "name": "Breathe In 35mm PowerGrades",
       "tags": [
@@ -1271,6 +1294,26 @@
       ],
       "sources": [
         "https://forum.blackmagicdesign.com/viewtopic.php?t=175315"
+      ]
+    },
+    {
+      "url": "https://nablast.com/",
+      "name": "CrossFlow",
+      "tags": [
+        "premiere",
+        "resolve studio",
+        "round trip",
+        "conform",
+        "timeline transfer",
+        "multicam",
+        "nested sequences",
+        "time remapping",
+        "media encoder"
+      ],
+      "sources": [
+        "https://nablast.com/",
+        "https://nablast.com/download/",
+        "https://nablast.com/features/"
       ]
     },
     {
@@ -6984,7 +7027,10 @@
         "dctl",
         "diagnostics",
         "exposure",
-        "saturation"
+        "saturation",
+        "halftone",
+        "banding suppression",
+        "dot printing"
       ],
       "sources": [
         "https://github.com/thatcherfreeman/utility-dctls"

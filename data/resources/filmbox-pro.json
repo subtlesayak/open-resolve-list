@@ -24,8 +24,8 @@
     "openfx",
     "photochemical"
   ],
-  "description": "Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ.",
-  "display_description": "Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ.",
+  "description": "Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ. Version 3.6.0 requires macOS 12+; its revised render pipeline may slightly change existing grades.",
+  "display_description": "Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ. Version 3.6.0 requires macOS 12+; its revised render pipeline may slightly change existing grades.",
   "access": "Paid; 14-day trial listed",
   "accessGroup": "paid",
   "platforms": [],
@@ -46,26 +46,34 @@
     "processing": "unknown",
     "pricing": "unknown",
     "account": "unknown",
-    "dependencies": null,
+    "dependencies": "macOS builds require macOS 12+.",
     "installation": null
   },
   "version": {
     "name": "Filmbox Pro",
     "url": "https://videovillage.com/filmbox/",
     "kind": "vendor-version",
-    "version": "3.5.3",
+    "version": "3.6.0",
     "source": "https://videovillage.com/filmbox/releasenotes",
-    "date": "2026-08-31",
+    "date": "2026-09-16",
     "date_kind": "release",
-    "checked_at": "2026-09-06T12:10:23.619Z"
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "note": "Original provider evidence reviewed; review date is separate from product release date."
   },
   "evidence": [
     {
       "field": "version",
       "level": "documented",
       "source": "https://videovillage.com/filmbox/releasenotes",
-      "checked_at": "2026-09-06T12:10:23.619Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://videovillage.com/filmbox/releasenotes",
+      "checked_at": "2026-10-26",
+      "note": "Version 3.6.0 raises the macOS minimum to 12."
     }
   ],
   "unknownFields": [
@@ -77,7 +85,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "Filmbox Pro",
+      "url": "https://videovillage.com/filmbox/",
+      "from": "3.5.3",
+      "to": "3.6.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-16",
+      "source": "https://videovillage.com/filmbox/releasenotes",
+      "summary": "Adds Skin Hue and revised Hi-Sat Density controls, two looks and a DaVinci Wide Gamut Linear source option. Rendering performance improves; macOS 12+ is required and existing grades may render slightly differently.",
+      "changes": [
+        "Adds Skin Hue and revised Hi-Sat Density controls, two looks and a DaVinci Wide Gamut Linear source option. Rendering performance improves; macOS 12+ is required and existing grades may render slightly differently."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://videovillage.com/filmbox/releasenotes"
+        }
+      ]
+    }
+  ],
   "legacy_id": "2b6b555792a0",
   "search_sources": [
     "https://videovillage.com/filmbox/",

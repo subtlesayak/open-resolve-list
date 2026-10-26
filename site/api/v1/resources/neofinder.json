@@ -53,7 +53,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://www.cdfinder.de/versions.html",
-        "checked_at": "2026-09-07",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded version evidence, not installation testing."
       },
       {
@@ -76,18 +76,44 @@
       "name": "NeoFinder",
       "url": "https://www.cdfinder.de/",
       "kind": "vendor-version",
-      "version": "9.3",
+      "version": "9.3.1",
       "source": "https://www.cdfinder.de/versions.html",
-      "date": "2026-08-31",
+      "date": "2026-09-29",
       "date_kind": "release",
-      "checked_at": "2026-09-07"
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-08-31",
+    "releaseDate": "2026-09-29",
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
-    "history": [],
+    "history": [
+      {
+        "name": "NeoFinder",
+        "url": "https://www.cdfinder.de/",
+        "from": "9.3",
+        "to": "9.3.1",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-09-29",
+        "source": "https://www.cdfinder.de/versions.html",
+        "summary": "Adds macOS 27 compatibility and OPUS cataloging, fixes RAW cataloging on macOS 15.8 and corrects path searches, sidecar metadata and PDF handling. This is the last release supporting macOS 10.15.",
+        "changes": [
+          "Adds macOS 27 compatibility and OPUS cataloging, fixes RAW cataloging on macOS 15.8 and corrects path searches, sidecar metadata and PDF handling. This is the last release supporting macOS 10.15."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://www.cdfinder.de/versions.html"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.13",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.13"

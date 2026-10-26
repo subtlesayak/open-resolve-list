@@ -35,9 +35,9 @@
   "platform_source": "https://github.com/francozanardi/tscaps#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 83,
-  "last_pushed_at": "2026-10-01T18:01:19Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "stars": 103,
+  "last_pushed_at": "2026-10-19T11:02:50Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -53,11 +53,12 @@
     "name": "francozanardi/tscaps",
     "url": "https://github.com/francozanardi/tscaps",
     "kind": "stable-release",
-    "version": "web-v0.5.0",
-    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
-    "date": "2026-10-01T18:07:16Z",
-    "checked_at": "2026-10-08T09:11:00.642Z",
-    "date_kind": "release"
+    "version": "web-v0.6.0",
+    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
+    "date": "2026-10-14T16:24:34Z",
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "date_kind": "release",
+    "note": "Original provider evidence reviewed; review date is separate from product release date."
   },
   "evidence": [
     {
@@ -70,8 +71,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
-      "checked_at": "2026-10-08T09:11:00.642Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
+      "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -84,6 +85,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.5.0",
+      "to": "web-v0.6.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-14T16:24:34Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
+      "summary": "Exports animated captions as a separate video with transparent or solid backgrounds, adds editable keyboard shortcuts and improves transcript navigation and caption effects.",
+      "changes": [
+        "Exports animated captions as a separate video with transparent or solid backgrounds, adds editable keyboard shortcuts and improves transcript navigation and caption effects."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0"
+        }
+      ]
+    },
     {
       "name": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",

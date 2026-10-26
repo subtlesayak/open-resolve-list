@@ -2,6 +2,698 @@
   "schema_version": 1,
   "entries": [
     {
+      "name": "psygreg/autoresolvedeb",
+      "url": "https://github.com/psygreg/autoresolvedeb",
+      "from": "7b403e1055c6db70ddd93aa18aa1d0433349957f",
+      "to": "2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-08T19:26:35Z",
+      "source": "https://github.com/psygreg/autoresolvedeb/commit/2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+      "summary": "Source revision: Updates upstream packaging fixes and automatically installs plugins for Studio installations. This is not a published software release.",
+      "changes": [
+        "Source revision: Updates upstream packaging fixes and automatically installs plugins for Studio installations. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/psygreg/autoresolvedeb/compare/7b403e1055c6db70ddd93aa18aa1d0433349957f...2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e"
+        }
+      ]
+    },
+    {
+      "name": "cutbypham/awesome-davinci-resolve",
+      "url": "https://github.com/cutbypham/awesome-davinci-resolve",
+      "from": "c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
+      "to": "86cd3895754822fd0a4ead1c241989d235921705",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-19T01:59:10Z",
+      "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/86cd3895754822fd0a4ead1c241989d235921705",
+      "summary": "Source revision: Updates directory links and resource annotations. This is not a published software release.",
+      "changes": [
+        "Source revision: Updates directory links and resource annotations. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/cutbypham/awesome-davinci-resolve/compare/c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e...86cd3895754822fd0a4ead1c241989d235921705"
+        }
+      ]
+    },
+    {
+      "name": "Distortions81/DaVinci-Resolve-Container",
+      "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
+      "from": "3a2831dc925133dc1613cc17a7501b15c7d01d6d",
+      "to": "9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-22T05:48:42Z",
+      "source": "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+      "summary": "Source revision: Adds an MCP launcher with AMD/NVIDIA detection and configurable container selection. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds an MCP launcher with AMD/NVIDIA detection and configurable container selection. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/Distortions81/DaVinci-Resolve-Container/compare/3a2831dc925133dc1613cc17a7501b15c7d01d6d...9e669d86eafb14bab58a96bc872ba7ab1cdd78df"
+        }
+      ]
+    },
+    {
+      "name": "apvlv/davinci-resolve-mcp",
+      "url": "https://github.com/apvlv/davinci-resolve-mcp",
+      "from": "d025e4ecaf46f9ba7bcc1a814201791821c8f281",
+      "to": "33678a6c44849ef0026d8ba95aa59d86943c41a6",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-22T20:44:08Z",
+      "source": "https://github.com/apvlv/davinci-resolve-mcp/commit/33678a6c44849ef0026d8ba95aa59d86943c41a6",
+      "summary": "Source revision: Adds a Dockerfile for the Glama listing. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds a Dockerfile for the Glama listing. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/apvlv/davinci-resolve-mcp/compare/d025e4ecaf46f9ba7bcc1a814201791821c8f281...33678a6c44849ef0026d8ba95aa59d86943c41a6"
+        }
+      ]
+    },
+    {
+      "name": "MoazElgabry/DCTLs",
+      "url": "https://github.com/MoazElgabry/DCTLs",
+      "from": "fe7f860751a483d56e24125ad2e3e84c6669d55d",
+      "to": "b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-28T07:12:58Z",
+      "source": "https://github.com/MoazElgabry/DCTLs/commit/b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+      "summary": "Source revision: Adds split and saturation-mask DCTLs, revises the exposure chart and reorganizes the repository. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds split and saturation-mask DCTLs, revises the exposure chart and reorganizes the repository. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/MoazElgabry/DCTLs/compare/fe7f860751a483d56e24125ad2e3e84c6669d55d...b84b411e5cee217330a281bd4aec0b53b9f9ec71"
+        }
+      ]
+    },
+    {
+      "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+      "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+      "from": "21b14063c82f1ddfab50a34c2678c10de3cecd4b",
+      "to": "5990c1c77919d0f847d5332b4d57a001f985d86b",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-14T17:54:12Z",
+      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/5990c1c77919d0f847d5332b4d57a001f985d86b",
+      "summary": "Source revision: Updates Marker Madness to 1.8.5, Clipper to 1.5.2 and Clip Renamer Pro to 2.2.5 in the source suite, improving stamp settings, tail handles, grade copying and name handling. This is not a published software release.",
+      "changes": [
+        "Source revision: Updates Marker Madness to 1.8.5, Clipper to 1.5.2 and Clip Renamer Pro to 2.2.5 in the source suite, improving stamp settings, tail handles, grade copying and name handling. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/compare/21b14063c82f1ddfab50a34c2678c10de3cecd4b...5990c1c77919d0f847d5332b4d57a001f985d86b"
+        }
+      ]
+    },
+    {
+      "name": "Kemerd/premiere-agent",
+      "url": "https://github.com/Kemerd/premiere-agent",
+      "from": "77ed50f4bff14b67b054a64d26aedd7ec217b701",
+      "to": "8e84dc6dbdaf6504685acbfcbc20e9d8447dade8",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-29T20:46:39Z",
+      "source": "https://github.com/Kemerd/premiere-agent/commit/8e84dc6dbdaf6504685acbfcbc20e9d8447dade8",
+      "summary": "Source revision: Adds proxy/LRF filing and long-audio chunking, makes TensorRT opt-in and fixes an FFmpeg stderr extraction deadlock. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds proxy/LRF filing and long-audio chunking, makes TensorRT opt-in and fixes an FFmpeg stderr extraction deadlock. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/Kemerd/premiere-agent/compare/77ed50f4bff14b67b054a64d26aedd7ec217b701...8e84dc6dbdaf6504685acbfcbc20e9d8447dade8"
+        }
+      ]
+    },
+    {
+      "name": "Pinionist/Resolve-Conform-tools",
+      "url": "https://github.com/Pinionist/Resolve-Conform-tools",
+      "from": "8916f83e8e82da5bf2058b372fe640cc711eab61",
+      "to": "52b394069fadc47471c8629b61054b0d78323b38",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-23T20:29:14Z",
+      "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/52b394069fadc47471c8629b61054b0d78323b38",
+      "summary": "Source revision: Adds connected-clip navigation and grid timeline tools and updates XMLScaleConverter and SequenceImporter variants without PySide. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds connected-clip navigation and grid timeline tools and updates XMLScaleConverter and SequenceImporter variants without PySide. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/Pinionist/Resolve-Conform-tools/compare/8916f83e8e82da5bf2058b372fe640cc711eab61...52b394069fadc47471c8629b61054b0d78323b38"
+        }
+      ]
+    },
+    {
+      "name": "postflows/resolve-find-clip-on-timelines",
+      "url": "https://github.com/postflows/resolve-find-clip-on-timelines",
+      "from": "bf3ab8301dcd1553c3dded1686eab1ec971b3752",
+      "to": "29c883a474d14fb54747c2eccdd320e40fd19e12",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-02T09:19:39Z",
+      "source": "https://github.com/postflows/resolve-find-clip-on-timelines/commit/29c883a474d14fb54747c2eccdd320e40fd19e12",
+      "summary": "Source revision: Fixes timeline names in the result tree, lists individual clip instances and seeks to an instance on double-click. Long drop-frame timelines can still have small navigation offsets. This is not a published software release.",
+      "changes": [
+        "Source revision: Fixes timeline names in the result tree, lists individual clip instances and seeks to an instance on double-click. Long drop-frame timelines can still have small navigation offsets. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/postflows/resolve-find-clip-on-timelines/compare/bf3ab8301dcd1553c3dded1686eab1ec971b3752...29c883a474d14fb54747c2eccdd320e40fd19e12"
+        }
+      ]
+    },
+    {
+      "name": "postflows/resolve-markers-to-render-queue",
+      "url": "https://github.com/postflows/resolve-markers-to-render-queue",
+      "from": "e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "to": "1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-15T17:21:56Z",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+      "summary": "Source revision: Fixes custom filenames for duration markers in the script labelled 4.1. This is not a published software release.",
+      "changes": [
+        "Source revision: Fixes custom filenames for duration markers in the script labelled 4.1. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/postflows/resolve-markers-to-render-queue/compare/e8be7924b74755a0cfd64e28519f30461d0ea751...1f5cdb6c83909c0f65b120a4dfd96d1314e971b1"
+        }
+      ]
+    },
+    {
+      "name": "jdanna/Resolve_Tools_Public",
+      "url": "https://github.com/jdanna/Resolve_Tools_Public",
+      "from": "dc6659f713387676b2f46f5f35ce560c9ed8acdc",
+      "to": "a5966b5691da9689168bd6357cd6aab80ac052a3",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-22T22:24:22Z",
+      "source": "https://github.com/jdanna/Resolve_Tools_Public/commit/a5966b5691da9689168bd6357cd6aab80ac052a3",
+      "summary": "Source revision: Fixes batch timecode setting and cleans up timecode entry. This is not a published software release.",
+      "changes": [
+        "Source revision: Fixes batch timecode setting and cleans up timecode entry. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/jdanna/Resolve_Tools_Public/compare/dc6659f713387676b2f46f5f35ce560c9ed8acdc...a5966b5691da9689168bd6357cd6aab80ac052a3"
+        }
+      ]
+    },
+    {
+      "name": "ming-qiu/theia",
+      "url": "https://github.com/ming-qiu/theia",
+      "from": "1523d635a14235a0a6caaebbe34207e9a99dfef8",
+      "to": "7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-16T04:44:20Z",
+      "source": "https://github.com/ming-qiu/theia/commit/7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+      "summary": "Source revision: Fixes a one-frame source-timecode offset, adjusts frame-counter limits and updates the updater icon. This is not a published software release.",
+      "changes": [
+        "Source revision: Fixes a one-frame source-timecode offset, adjusts frame-counter limits and updates the updater icon. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/ming-qiu/theia/compare/1523d635a14235a0a6caaebbe34207e9a99dfef8...7e4d8ffc3929ba78de9854e3bec0a8193677455e"
+        }
+      ]
+    },
+    {
+      "name": "thatcherfreeman/utility-dctls",
+      "url": "https://github.com/thatcherfreeman/utility-dctls",
+      "from": "5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
+      "to": "771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-09T08:39:40Z",
+      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+      "summary": "Source revision: Adds halftone-dot printing and banding-suppression DCTLs. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds halftone-dot printing and banding-suppression DCTLs. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/thatcherfreeman/utility-dctls/compare/5f6f4e55a932c9b4599b8e53727305aad73eb4b1...771d6cbbb22c7f27141afaf1d8edbffda702dfd9"
+        }
+      ]
+    },
+    {
+      "name": "vulture-s/arkiv",
+      "url": "https://github.com/vulture-s/arkiv",
+      "from": "v1.3.0",
+      "to": "v1.7.2",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-23T14:23:49Z",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2",
+      "summary": "Adds desktop library switching, first-run setup and drag-out clips, plus J/K/L playback controls and clearer failed-ingest reporting. Windows startup and placeholder-library display are corrected.",
+      "changes": [
+        "Adds desktop library switching, first-run setup and drag-out clips, plus J/K/L playback controls and clearer failed-ingest reporting. Windows startup and placeholder-library display are corrected."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2"
+        },
+        {
+          "label": "Provider version history",
+          "url": "https://github.com/vulture-s/arkiv/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "ynput/ayon-resolve",
+      "url": "https://github.com/ynput/ayon-resolve",
+      "from": "0.6.4",
+      "to": "0.6.6",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-20T15:17:11Z",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
+      "summary": "Adds an AYON console menu and configurable Chocolate-clip defaults; fixes Loader launching, media-handle clamping, workfile save failures and macOS hidden render files.",
+      "changes": [
+        "Adds an AYON console menu and configurable Chocolate-clip defaults; fixes Loader launching, media-handle clamping, workfile save failures and macOS hidden render files."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6"
+        }
+      ]
+    },
+    {
+      "name": "Gianluca-Improta/cinekive",
+      "url": "https://github.com/Gianluca-Improta/cinekive",
+      "from": "v0.5.3",
+      "to": "v0.6.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-20T12:27:31Z",
+      "source": "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.6.0",
+      "summary": "Publishes v0.6.0. The release has no detailed notes and the root changelog still ends at v0.5.3; no feature changes are inferred.",
+      "changes": [
+        "Publishes v0.6.0. The release has no detailed notes and the root changelog still ends at v0.5.3; no feature changes are inferred."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.6.0"
+        }
+      ]
+    },
+    {
+      "name": "stoatworks-labs/cogwheel",
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "from": "v0.6.2",
+      "to": "v0.6.3",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-11T17:44:46Z",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.3",
+      "summary": "Uses the Windows known-folder API for XML exports, supports Unicode folder names and initializes the XML picker to the export folder. macOS export behavior is unchanged.",
+      "changes": [
+        "Uses the Windows known-folder API for XML exports, supports Unicode folder names and initializes the XML picker to the export folder. macOS export behavior is unchanged."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.3"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.9.0",
+      "to": "v4.15.3",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-23T11:24:58Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
+      "summary": "Adds subtitle database editing during this release range and improves conform-session safeguards, frame capture and large marker handling. v4.15.3 itself changes CI coverage, with no server behavior change.",
+      "changes": [
+        "Adds subtitle database editing during this release range and improves conform-session safeguards, frame capture and large marker handling. v4.15.3 itself changes CI coverage, with no server behavior change."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3"
+        },
+        {
+          "label": "Provider version history",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "Creative-Crafter/davinci-shortform-overlays",
+      "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
+      "from": "v1.0.2",
+      "to": "v1.2.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-13T18:27:21Z",
+      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
+      "summary": "Adds an opacity slider beneath the platform selector.",
+      "changes": [
+        "Adds an opacity slider beneath the platform selector."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.11",
+      "to": "v1.13",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-15T09:14:14Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.13",
+      "summary": "Speeds up opening library photos, supports folder-wide photo strips and multi-photo preset editing, and fixes repeating grain patches. Linux app and Resolve plugin remain alpha.",
+      "changes": [
+        "Speeds up opening library photos, supports folder-wide photo strips and multi-photo preset editing, and fixes repeating grain patches. Linux app and Resolve plugin remain alpha."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.13"
+        }
+      ]
+    },
+    {
+      "name": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "from": "v1.40.0",
+      "to": "v1.40.1",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-09T03:44:31Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
+      "summary": "Shows GDC STYLE Client in My Applications with launch, installed-version and update information.",
+      "changes": [
+        "Shows GDC STYLE Client in My Applications with launch, installed-version and update information."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1"
+        }
+      ]
+    },
+    {
+      "name": "KeibiSoft/KeibiDrop",
+      "url": "https://github.com/KeibiSoft/KeibiDrop",
+      "from": "v0.4.8",
+      "to": "v0.5.1",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-20T08:19:13Z",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+      "summary": "Fixes macOS Teleport-mode crashes caused by macFUSE signing permissions, reports driver-load failures and preserves larger crash reports.",
+      "changes": [
+        "Fixes macOS Teleport-mode crashes caused by macFUSE signing permissions, reports driver-load failures and preserves larger crash reports."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1"
+        }
+      ]
+    },
+    {
+      "name": "ntsc-rs/ntsc-rs",
+      "url": "https://github.com/ntsc-rs/ntsc-rs",
+      "from": "v0.9.6",
+      "to": "v0.9.7",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-15T02:12:09Z",
+      "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.7",
+      "summary": "Adds 2D and adaptive chroma demodulation, fixes initial preset loading, restores multithreading and removes misleading scanline-phase controls.",
+      "changes": [
+        "Adds 2D and adaptive chroma demodulation, fixes initial preset loading, restores multithreading and removes misleading scanline-phase controls."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.7"
+        }
+      ]
+    },
+    {
+      "name": "lightsailvr/ResolveOFX_NDIOutput",
+      "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+      "from": "v1.15.0",
+      "to": "v1.17.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-20T20:51:53Z",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
+      "summary": "Corrects NDI limited-range stream levels and thumbnail-frame streaming, adds output color-space/LUT controls and improves macOS CPU-path performance. Existing streams may look less contrasty because clipping is corrected.",
+      "changes": [
+        "Corrects NDI limited-range stream levels and thumbnail-frame streaming, adds output color-space/LUT controls and improves macOS CPU-path performance. Existing streams may look less contrasty because clipping is corrected."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0"
+        }
+      ]
+    },
+    {
+      "name": "DMiradakis/resolver",
+      "url": "https://github.com/DMiradakis/resolver",
+      "from": "v0.0.17",
+      "to": "v0.1.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-24T21:33:21Z",
+      "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.1.0",
+      "summary": "Adds CLI update checks and an update command, validates release versions and expands ConfigService tests and CI safeguards.",
+      "changes": [
+        "Adds CLI update checks and an update command, validates release versions and expands ConfigService tests and CI safeguards."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DMiradakis/resolver/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.5.1",
+      "to": "v0.6.1",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-24T05:26:05Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
+      "summary": "Adds Team Dashboard workflow-task monitoring and stopping, fixes accidental file selection during metadata edits and prevents clipped overlays and date pickers.",
+      "changes": [
+        "Adds Team Dashboard workflow-task monitoring and stopping, fixes accidental file selection during metadata edits and prevents clipped overlays and date pickers."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1"
+        }
+      ]
+    },
+    {
+      "name": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "from": "v3.3.2",
+      "to": "v3.3.7",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-21T08:38:12Z",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+      "summary": "Fixes the mini subtitle-search window close button, including exit when the full interface has not been opened.",
+      "changes": [
+        "Fixes the mini subtitle-search window close button, including exit when the full interface has not been opened."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7"
+        }
+      ]
+    },
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.5.0",
+      "to": "web-v0.6.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-14T16:24:34Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
+      "summary": "Exports animated captions as a separate video with transparent or solid backgrounds, adds editable keyboard shortcuts and improves transcript navigation and caption effects.",
+      "changes": [
+        "Exports animated captions as a separate video with transparent or solid backgrounds, adds editable keyboard shortcuts and improves transcript navigation and caption effects."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0"
+        }
+      ]
+    },
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
+      "from": "26.10.01",
+      "to": "26.10.03",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-21",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Adds an option to move excluded tracks below delivered tracks. The intervening release fixes negative timeline starts and stereo waveform display.",
+      "changes": [
+        "Adds an option to move excluded tracks below delivered tracks. The intervening release fixes negative timeline starts and stereo waveform display."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
+    {
+      "name": "MediaInfo",
+      "url": "https://mediaarea.net/en/MediaInfo",
+      "from": "26.05",
+      "to": "26.10",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-06",
+      "source": "https://mediaarea.net/MediaInfo/ChangeLog",
+      "summary": "Improves conformance reporting, ARRI MXF metadata and HEVC analysis, adds AV2 stream support and fixes malformed-file parsing and audio metadata issues.",
+      "changes": [
+        "Improves conformance reporting, ARRI MXF metadata and HEVC analysis, adds AV2 stream support and fixes malformed-file parsing and audio metadata issues."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://mediaarea.net/MediaInfo/ChangeLog"
+        }
+      ]
+    },
+    {
+      "name": "NeoFinder",
+      "url": "https://www.cdfinder.de/",
+      "from": "9.3",
+      "to": "9.3.1",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-29",
+      "source": "https://www.cdfinder.de/versions.html",
+      "summary": "Adds macOS 27 compatibility and OPUS cataloging, fixes RAW cataloging on macOS 15.8 and corrects path searches, sidecar metadata and PDF handling. This is the last release supporting macOS 10.15.",
+      "changes": [
+        "Adds macOS 27 compatibility and OPUS cataloging, fixes RAW cataloging on macOS 15.8 and corrects path searches, sidecar metadata and PDF handling. This is the last release supporting macOS 10.15."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://www.cdfinder.de/versions.html"
+        }
+      ]
+    },
+    {
+      "name": "Jumper",
+      "url": "https://getjumper.io/",
+      "from": "macOS 3361/3362; Windows 1628",
+      "to": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-09",
+      "source": "https://docs.getjumper.io/release-notes/macos",
+      "summary": "Adds naming people and transcript speakers from reference photos, summary exports and richer search filters. September builds fix Resolve OTIO relinking and timeline frame rates; Windows also supports CPU Parakeet transcription.",
+      "changes": [
+        "Adds naming people and transcript speakers from reference photos, summary exports and richer search filters. September builds fix Resolve OTIO relinking and timeline frame rates; Windows also supports CPU Parakeet transcription."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://docs.getjumper.io/release-notes/macos"
+        },
+        {
+          "label": "Windows release notes",
+          "url": "https://docs.getjumper.io/release-notes/windows"
+        }
+      ]
+    },
+    {
+      "name": "SuperTrails",
+      "url": "https://akascape.gumroad.com/l/supertrails",
+      "from": "1.0",
+      "to": "1.1",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": null,
+      "source": "https://akascape.gumroad.com/l/supertrails",
+      "summary": "The original product listing now identifies version 1.1. No detailed release notes or publication date were established.",
+      "changes": [
+        "The original product listing now identifies version 1.1. No detailed release notes or publication date were established."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://akascape.gumroad.com/l/supertrails"
+        }
+      ]
+    },
+    {
+      "name": "Filmbox Pro",
+      "url": "https://videovillage.com/filmbox/",
+      "from": "3.5.3",
+      "to": "3.6.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-16",
+      "source": "https://videovillage.com/filmbox/releasenotes",
+      "summary": "Adds Skin Hue and revised Hi-Sat Density controls, two looks and a DaVinci Wide Gamut Linear source option. Rendering performance improves; macOS 12+ is required and existing grades may render slightly differently.",
+      "changes": [
+        "Adds Skin Hue and revised Hi-Sat Density controls, two looks and a DaVinci Wide Gamut Linear source option. Rendering performance improves; macOS 12+ is required and existing grades may render slightly differently."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://videovillage.com/filmbox/releasenotes"
+        }
+      ]
+    },
+    {
       "name": "VocalSlice",
       "url": "https://vocalslice.com/",
       "from": "1.475.0",

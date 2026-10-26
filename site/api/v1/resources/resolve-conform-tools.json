@@ -59,17 +59,44 @@
       "name": "Pinionist/Resolve-Conform-tools",
       "url": "https://github.com/Pinionist/Resolve-Conform-tools",
       "kind": "commit",
-      "version": "8916f83e8e82da5bf2058b372fe640cc711eab61",
-      "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/8916f83e8e82da5bf2058b372fe640cc711eab61",
-      "date": "2026-05-21T10:00:55Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "52b394069fadc47471c8629b61054b0d78323b38",
+      "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/52b394069fadc47471c8629b61054b0d78323b38",
+      "date": "2026-10-23T20:29:14Z",
+      "checked_at": "2026-10-26T08:25:01.035Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     "releaseDate": null,
-    "activityDate": "2026-09-25T10:32:05Z",
+    "activityDate": "2026-10-23T20:29:18Z",
     "stars": 14,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
-    "history": [],
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "history": [
+      {
+        "name": "Pinionist/Resolve-Conform-tools",
+        "url": "https://github.com/Pinionist/Resolve-Conform-tools",
+        "from": "8916f83e8e82da5bf2058b372fe640cc711eab61",
+        "to": "52b394069fadc47471c8629b61054b0d78323b38",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-23T20:29:14Z",
+        "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/52b394069fadc47471c8629b61054b0d78323b38",
+        "summary": "Source revision: Adds connected-clip navigation and grid timeline tools and updates XMLScaleConverter and SequenceImporter variants without PySide. This is not a published software release.",
+        "changes": [
+          "Source revision: Adds connected-clip navigation and grid timeline tools and updates XMLScaleConverter and SequenceImporter variants without PySide. This is not a published software release."
+        ],
+        "changelogs": [
+          {
+            "label": "Verified source comparison",
+            "url": "https://github.com/Pinionist/Resolve-Conform-tools/compare/8916f83e8e82da5bf2058b372fe640cc711eab61...52b394069fadc47471c8629b61054b0d78323b38"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.1",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.1"

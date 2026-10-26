@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-26T00:00:00Z",
+  "checked_at": "2026-10-26",
   "baseline_count": 130,
-  "added_count": 134,
-  "total_count": 264,
+  "added_count": 135,
+  "total_count": 265,
   "searches": [
     {
       "query": "topic:davinci-resolve fork:false",
@@ -3001,6 +3001,28 @@
       "evidence_source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
       "discovery_sources": [
         "https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"
+      ]
+    },
+    {
+      "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "repository": "laurentchicoine/braw-pack",
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "description": "Experimental local BRAW archive and recompression utility. Rebuilds H.265 archives into usable BRAW while retaining camera metadata, and can make smaller BRAW files. Lossy: retain original footage until rebuilt clips are checked. Windows and Linux builds plus unnotarized macOS beta builds; Linux GUI and interactive Mac workflows remain incompletely tested. NVIDIA accelerates supported Windows/Linux paths; CPU fallback is slower.",
+      "access": "Free; MIT application, bundled components retain their own licenses",
+      "research_snapshot": "2026-10-26",
+      "platforms": "Windows;Linux;macOS",
+      "platform_notes": "Provider documentation reviewed; no catalogue installation testing.",
+      "platform_source": "https://github.com/laurentchicoine/braw-pack",
+      "platform_checked_at": "2026-10-26",
+      "stars": "2",
+      "last_pushed_at": "2026-10-23T02:03:09Z",
+      "metadata_checked_at": "2026-10-26T08:19:35.198Z",
+      "upstream_license": "MIT application; bundled components separate",
+      "upstream_archived": false,
+      "upstream_fork": false,
+      "evidence_source": "https://github.com/laurentchicoine/braw-pack",
+      "discovery_sources": [
+        "https://www.reddit.com/r/blackmagicdesign/comments/1x76d8r/tool_to_shrink_braw_footage_for_archival/"
       ]
     }
   ],

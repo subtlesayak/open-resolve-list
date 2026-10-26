@@ -36,9 +36,9 @@
   "platform_source": "https://github.com/Kemerd/premiere-agent#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 19,
+  "stars": 23,
   "last_pushed_at": "2026-09-29T20:46:41Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -54,10 +54,12 @@
     "name": "Kemerd/premiere-agent",
     "url": "https://github.com/Kemerd/premiere-agent",
     "kind": "commit",
-    "version": "77ed50f4bff14b67b054a64d26aedd7ec217b701",
-    "source": "https://github.com/Kemerd/premiere-agent/commit/77ed50f4bff14b67b054a64d26aedd7ec217b701",
-    "date": "2026-07-08T05:45:08Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "8e84dc6dbdaf6504685acbfcbc20e9d8447dade8",
+    "source": "https://github.com/Kemerd/premiere-agent/commit/8e84dc6dbdaf6504685acbfcbc20e9d8447dade8",
+    "date": "2026-09-29T20:46:39Z",
+    "checked_at": "2026-10-26T08:25:01.034Z",
+    "date_kind": "commit",
+    "note": "Source revision, not a published software release."
   },
   "evidence": [
     {
@@ -83,7 +85,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "Kemerd/premiere-agent",
+      "url": "https://github.com/Kemerd/premiere-agent",
+      "from": "77ed50f4bff14b67b054a64d26aedd7ec217b701",
+      "to": "8e84dc6dbdaf6504685acbfcbc20e9d8447dade8",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-29T20:46:39Z",
+      "source": "https://github.com/Kemerd/premiere-agent/commit/8e84dc6dbdaf6504685acbfcbc20e9d8447dade8",
+      "summary": "Source revision: Adds proxy/LRF filing and long-audio chunking, makes TensorRT opt-in and fixes an FFmpeg stderr extraction deadlock. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds proxy/LRF filing and long-audio chunking, makes TensorRT opt-in and fixes an FFmpeg stderr extraction deadlock. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/Kemerd/premiere-agent/compare/77ed50f4bff14b67b054a64d26aedd7ec217b701...8e84dc6dbdaf6504685acbfcbc20e9d8447dade8"
+        }
+      ]
+    }
+  ],
   "legacy_id": "2963c98c3a73",
   "search_sources": [
     "https://github.com/Kemerd/premiere-agent"

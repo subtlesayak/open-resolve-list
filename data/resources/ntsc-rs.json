@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/ntsc-rs/ntsc-rs/releases/latest",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 2639,
-  "last_pushed_at": "2026-10-05T22:01:34Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "stars": 2674,
+  "last_pushed_at": "2026-10-15T01:45:48Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,10 +55,12 @@
     "name": "ntsc-rs/ntsc-rs",
     "url": "https://github.com/ntsc-rs/ntsc-rs",
     "kind": "stable-release",
-    "version": "v0.9.6",
-    "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.6",
-    "date": "2026-09-05T21:29:35Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "v0.9.7",
+    "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.7",
+    "date": "2026-10-15T02:12:09Z",
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "date_kind": "release",
+    "note": "Original provider evidence reviewed; review date is separate from product release date."
   },
   "evidence": [
     {
@@ -71,8 +73,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.6",
-      "checked_at": "2026-09-15T05:06:04.860Z",
+      "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.7",
+      "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded version evidence, not installation testing."
     }
   ],
@@ -84,7 +86,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "ntsc-rs/ntsc-rs",
+      "url": "https://github.com/ntsc-rs/ntsc-rs",
+      "from": "v0.9.6",
+      "to": "v0.9.7",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-15T02:12:09Z",
+      "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.7",
+      "summary": "Adds 2D and adaptive chroma demodulation, fixes initial preset loading, restores multithreading and removes misleading scanline-phase controls.",
+      "changes": [
+        "Adds 2D and adaptive chroma demodulation, fixes initial preset loading, restores multithreading and removes misleading scanline-phase controls."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.7"
+        }
+      ]
+    }
+  ],
   "legacy_id": "8bfed5b76ed6",
   "search_sources": [
     "https://github.com/ntsc-rs/ntsc-rs"

@@ -164,10 +164,12 @@
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",
       "kind": "stable-release",
-      "version": "v1.3.0",
-      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.3.0",
-      "date": "2026-09-05T05:48:38Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v1.7.2",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2",
+      "date": "2026-10-23T14:23:49Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "Asteroid City LUT",
@@ -279,10 +281,12 @@
       "name": "psygreg/autoresolvedeb",
       "url": "https://github.com/psygreg/autoresolvedeb",
       "kind": "commit",
-      "version": "7b403e1055c6db70ddd93aa18aa1d0433349957f",
-      "source": "https://github.com/psygreg/autoresolvedeb/commit/7b403e1055c6db70ddd93aa18aa1d0433349957f",
-      "date": "2026-09-11T16:21:02Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+      "source": "https://github.com/psygreg/autoresolvedeb/commit/2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+      "date": "2026-10-08T19:26:35Z",
+      "checked_at": "2026-10-26T08:25:01.028Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "ikm-san/autotitles-community",
@@ -297,10 +301,12 @@
       "name": "cutbypham/awesome-davinci-resolve",
       "url": "https://github.com/cutbypham/awesome-davinci-resolve",
       "kind": "commit",
-      "version": "c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
-      "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
-      "date": "2026-08-27T14:29:12Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "86cd3895754822fd0a4ead1c241989d235921705",
+      "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/86cd3895754822fd0a4ead1c241989d235921705",
+      "date": "2026-10-19T01:59:10Z",
+      "checked_at": "2026-10-26T08:25:01.029Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "Greenysmac/awesome-davinci-resolve",
@@ -315,11 +321,12 @@
       "name": "ynput/ayon-resolve",
       "url": "https://github.com/ynput/ayon-resolve",
       "kind": "stable-release",
-      "version": "0.6.4",
-      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
-      "date": "2026-09-29T13:44:33Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "0.6.6",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
+      "date": "2026-10-20T15:17:11Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "veritus-git/BadWords",
@@ -528,6 +535,16 @@
       "checked_at": "2026-09-06T12:10:24.793Z"
     },
     {
+      "name": "laurentchicoine/braw-pack",
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "kind": "stable-release",
+      "version": "v0.3.0",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
+      "date": "2026-10-23T02:03:10Z",
+      "date_kind": "release",
+      "checked_at": "2026-10-26T08:19:35.198Z"
+    },
+    {
       "name": "Breathe In 35mm PowerGrades",
       "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
       "kind": "unverified",
@@ -707,10 +724,12 @@
       "name": "Gianluca-Improta/cinekive",
       "url": "https://github.com/Gianluca-Improta/cinekive",
       "kind": "stable-release",
-      "version": "v0.5.3",
-      "source": "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.5.3",
-      "date": "2026-09-08T04:52:19Z",
-      "checked_at": "2026-09-15T11:10:26.592Z"
+      "version": "v0.6.0",
+      "source": "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.6.0",
+      "date": "2026-10-20T12:27:31Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "CineMatch",
@@ -776,11 +795,12 @@
       "name": "stoatworks-labs/cogwheel",
       "url": "https://github.com/stoatworks-labs/cogwheel",
       "kind": "stable-release",
-      "version": "v0.6.2",
-      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
-      "date": "2026-10-04T03:43:28Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "v0.6.3",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.3",
+      "date": "2026-10-11T17:44:46Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "ciqueira/ColorEqualizer",
@@ -868,6 +888,17 @@
       "date_kind": null,
       "checked_at": "2026-09-06",
       "note": "Reference, discussion or collection with no single product version."
+    },
+    {
+      "name": "CrossFlow",
+      "url": "https://nablast.com/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://nablast.com/download/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Download page release-note widget did not expose a verified version number."
     },
     {
       "name": "CutDetect",
@@ -1107,10 +1138,12 @@
       "name": "Distortions81/DaVinci-Resolve-Container",
       "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
       "kind": "commit",
-      "version": "3a2831dc925133dc1613cc17a7501b15c7d01d6d",
-      "source": "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/3a2831dc925133dc1613cc17a7501b15c7d01d6d",
-      "date": "2026-09-10T14:24:51Z",
-      "checked_at": "2026-09-15T11:10:26.592Z"
+      "version": "9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+      "source": "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+      "date": "2026-09-22T05:48:42Z",
+      "checked_at": "2026-10-26T08:25:01.030Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "KaurHendrikson/DaVinci-Resolve-DCTLs",
@@ -1181,20 +1214,23 @@
       "name": "apvlv/davinci-resolve-mcp",
       "url": "https://github.com/apvlv/davinci-resolve-mcp",
       "kind": "commit",
-      "version": "d025e4ecaf46f9ba7bcc1a814201791821c8f281",
-      "source": "https://github.com/apvlv/davinci-resolve-mcp/commit/d025e4ecaf46f9ba7bcc1a814201791821c8f281",
-      "date": "2026-04-07T02:46:35Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "33678a6c44849ef0026d8ba95aa59d86943c41a6",
+      "source": "https://github.com/apvlv/davinci-resolve-mcp/commit/33678a6c44849ef0026d8ba95aa59d86943c41a6",
+      "date": "2026-10-22T20:44:08Z",
+      "checked_at": "2026-10-26T08:25:01.031Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.9.0",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
-      "date": "2026-10-06T01:56:43Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "v4.15.3",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
+      "date": "2026-10-23T11:24:58Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "DaVinci Resolve Micro Color Panel Manual",
@@ -1360,10 +1396,12 @@
       "name": "Creative-Crafter/davinci-shortform-overlays",
       "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
       "kind": "stable-release",
-      "version": "v1.0.2",
-      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.0.2",
-      "date": "2026-08-21T15:35:09Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v1.2.0",
+      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
+      "date": "2026-10-13T18:27:21Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "DaVinci Sub Tool (Edit & Translate)",
@@ -1598,10 +1636,12 @@
       "name": "MoazElgabry/DCTLs",
       "url": "https://github.com/MoazElgabry/DCTLs",
       "kind": "commit",
-      "version": "fe7f860751a483d56e24125ad2e3e84c6669d55d",
-      "source": "https://github.com/MoazElgabry/DCTLs/commit/fe7f860751a483d56e24125ad2e3e84c6669d55d",
-      "date": "2026-06-13T14:17:49Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+      "source": "https://github.com/MoazElgabry/DCTLs/commit/b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+      "date": "2026-09-28T07:12:58Z",
+      "checked_at": "2026-10-26T08:25:01.032Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "jai-panjwani/DCTLS",
@@ -2041,12 +2081,12 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "kind": "vendor-version",
-      "version": "26.10.01",
+      "version": "26.10.03",
       "source": "https://fcp2aaf.com/changelog/",
-      "date": "2026-10-01",
+      "date": "2026-10-21",
       "date_kind": "release",
-      "checked_at": "2026-10-08T09:13:27.896Z",
-      "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "yioannides/fedora-resolve",
@@ -2099,11 +2139,12 @@
       "name": "Filmbox Pro",
       "url": "https://videovillage.com/filmbox/",
       "kind": "vendor-version",
-      "version": "3.5.3",
+      "version": "3.6.0",
       "source": "https://videovillage.com/filmbox/releasenotes",
-      "date": "2026-08-31",
+      "date": "2026-09-16",
       "date_kind": "release",
-      "checked_at": "2026-09-06T12:10:23.619Z"
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "FilmConvert tools",
@@ -2215,11 +2256,12 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.11",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
-      "date": "2026-10-03T21:55:23Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "v1.13",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.13",
+      "date": "2026-10-15T09:14:14Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "framechart",
@@ -2514,10 +2556,12 @@
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",
       "kind": "stable-release",
-      "version": "v1.40.0",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
-      "date": "2026-09-26T11:14:20Z",
-      "checked_at": "2026-09-29T00:00:00Z"
+      "version": "v1.40.1",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
+      "date": "2026-10-09T03:44:31Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "ChrisRidings/GifSaverFuse",
@@ -2626,11 +2670,12 @@
       "name": "Jumper",
       "url": "https://getjumper.io/",
       "kind": "vendor-version",
-      "version": "macOS 3361/3362; Windows 1628",
+      "version": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
       "source": "https://docs.getjumper.io/release-notes/macos",
-      "date": "2026-08-27",
+      "date": "2026-10-09",
       "date_kind": "release",
-      "checked_at": "2026-09-06T12:10:35.620Z"
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "Just Highlighter Plus",
@@ -2665,10 +2710,12 @@
       "name": "KeibiSoft/KeibiDrop",
       "url": "https://github.com/KeibiSoft/KeibiDrop",
       "kind": "stable-release",
-      "version": "v0.4.8",
-      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
-      "date": "2026-09-15T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v0.5.1",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+      "date": "2026-10-20T08:19:13Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "KeyCut",
@@ -2831,10 +2878,12 @@
       "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "kind": "commit",
-      "version": "21b14063c82f1ddfab50a34c2678c10de3cecd4b",
-      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/21b14063c82f1ddfab50a34c2678c10de3cecd4b",
-      "date": "2026-08-26T20:14:59Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "5990c1c77919d0f847d5332b4d57a001f985d86b",
+      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/5990c1c77919d0f847d5332b4d57a001f985d86b",
+      "date": "2026-10-14T17:54:12Z",
+      "checked_at": "2026-10-26T08:25:01.033Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "lakravana/Martis-Bleach-Bypass",
@@ -2897,12 +2946,12 @@
       "name": "MediaInfo",
       "url": "https://mediaarea.net/en/MediaInfo",
       "kind": "vendor-version",
-      "version": "26.05",
+      "version": "26.10",
       "source": "https://mediaarea.net/MediaInfo/ChangeLog",
-      "date": "2026-05-12",
+      "date": "2026-10-06",
       "date_kind": "release",
-      "checked_at": "2026-09-15",
-      "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "Meta Fide Computer Vision",
@@ -3105,11 +3154,12 @@
       "name": "NeoFinder",
       "url": "https://www.cdfinder.de/",
       "kind": "vendor-version",
-      "version": "9.3",
+      "version": "9.3.1",
       "source": "https://www.cdfinder.de/versions.html",
-      "date": "2026-08-31",
+      "date": "2026-09-29",
       "date_kind": "release",
-      "checked_at": "2026-09-07"
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "Nintendo Direct Graphics Pack",
@@ -3144,10 +3194,12 @@
       "name": "ntsc-rs/ntsc-rs",
       "url": "https://github.com/ntsc-rs/ntsc-rs",
       "kind": "stable-release",
-      "version": "v0.9.6",
-      "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.6",
-      "date": "2026-09-05T21:29:35Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v0.9.7",
+      "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.7",
+      "date": "2026-10-15T02:12:09Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "Nx LiquidGlass",
@@ -3384,10 +3436,12 @@
       "name": "Kemerd/premiere-agent",
       "url": "https://github.com/Kemerd/premiere-agent",
       "kind": "commit",
-      "version": "77ed50f4bff14b67b054a64d26aedd7ec217b701",
-      "source": "https://github.com/Kemerd/premiere-agent/commit/77ed50f4bff14b67b054a64d26aedd7ec217b701",
-      "date": "2026-07-08T05:45:08Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "8e84dc6dbdaf6504685acbfcbc20e9d8447dade8",
+      "source": "https://github.com/Kemerd/premiere-agent/commit/8e84dc6dbdaf6504685acbfcbc20e9d8447dade8",
+      "date": "2026-09-29T20:46:39Z",
+      "checked_at": "2026-10-26T08:25:01.034Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "geoffsmithBK/primera-suite",
@@ -3742,10 +3796,12 @@
       "name": "Pinionist/Resolve-Conform-tools",
       "url": "https://github.com/Pinionist/Resolve-Conform-tools",
       "kind": "commit",
-      "version": "8916f83e8e82da5bf2058b372fe640cc711eab61",
-      "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/8916f83e8e82da5bf2058b372fe640cc711eab61",
-      "date": "2026-05-21T10:00:55Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "52b394069fadc47471c8629b61054b0d78323b38",
+      "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/52b394069fadc47471c8629b61054b0d78323b38",
+      "date": "2026-10-23T20:29:14Z",
+      "checked_at": "2026-10-26T08:25:01.035Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "xtremestuff/resolve-dctl",
@@ -3780,10 +3836,12 @@
       "name": "postflows/resolve-find-clip-on-timelines",
       "url": "https://github.com/postflows/resolve-find-clip-on-timelines",
       "kind": "commit",
-      "version": "bf3ab8301dcd1553c3dded1686eab1ec971b3752",
-      "source": "https://github.com/postflows/resolve-find-clip-on-timelines/commit/bf3ab8301dcd1553c3dded1686eab1ec971b3752",
-      "date": "2026-03-11T17:59:14Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "29c883a474d14fb54747c2eccdd320e40fd19e12",
+      "source": "https://github.com/postflows/resolve-find-clip-on-timelines/commit/29c883a474d14fb54747c2eccdd320e40fd19e12",
+      "date": "2026-10-02T09:19:39Z",
+      "checked_at": "2026-10-26T08:25:01.036Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "postflows/resolve-font-fallback",
@@ -3856,10 +3914,12 @@
       "name": "postflows/resolve-markers-to-render-queue",
       "url": "https://github.com/postflows/resolve-markers-to-render-queue",
       "kind": "commit",
-      "version": "e8be7924b74755a0cfd64e28519f30461d0ea751",
-      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
-      "date": "2026-09-18T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+      "date": "2026-10-15T17:21:56Z",
+      "checked_at": "2026-10-26T08:25:01.037Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "postflows/resolve-media-organizer",
@@ -3956,10 +4016,12 @@
       "name": "jdanna/Resolve_Tools_Public",
       "url": "https://github.com/jdanna/Resolve_Tools_Public",
       "kind": "commit",
-      "version": "dc6659f713387676b2f46f5f35ce560c9ed8acdc",
-      "source": "https://github.com/jdanna/Resolve_Tools_Public/commit/dc6659f713387676b2f46f5f35ce560c9ed8acdc",
-      "date": "2026-08-24T00:51:48Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "a5966b5691da9689168bd6357cd6aab80ac052a3",
+      "source": "https://github.com/jdanna/Resolve_Tools_Public/commit/a5966b5691da9689168bd6357cd6aab80ac052a3",
+      "date": "2026-09-22T22:24:22Z",
+      "checked_at": "2026-10-26T08:25:01.037Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "Chillsmeit/resolve-tumbleweed",
@@ -4019,20 +4081,23 @@
       "name": "lightsailvr/ResolveOFX_NDIOutput",
       "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
       "kind": "stable-release",
-      "version": "v1.15.0",
-      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
-      "date": "2026-10-01T23:13:55Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "v1.17.0",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
+      "date": "2026-10-20T20:51:53Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "DMiradakis/resolver",
       "url": "https://github.com/DMiradakis/resolver",
       "kind": "stable-release",
-      "version": "v0.0.17",
-      "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.0.17",
-      "date": "2026-05-19T20:22:06Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v0.1.0",
+      "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.1.0",
+      "date": "2026-10-24T21:33:21Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "Retimer and Retimer3D",
@@ -4137,11 +4202,12 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.5.1",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
-      "date": "2026-10-06T14:33:00Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "v0.6.1",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
+      "date": "2026-10-24T05:26:05Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "Shutter Encoder",
@@ -4327,10 +4393,12 @@
       "name": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",
       "kind": "stable-release",
-      "version": "v3.3.2",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
-      "date": "2026-09-16T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v3.3.7",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+      "date": "2026-10-21T08:38:12Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "BambooYC123/SubtitleYC",
@@ -4534,11 +4602,12 @@
       "name": "SuperTrails",
       "url": "https://akascape.gumroad.com/l/supertrails",
       "kind": "vendor-version",
-      "version": "1.0",
+      "version": "1.1",
       "source": "https://akascape.gumroad.com/l/supertrails",
       "date": null,
       "date_kind": null,
-      "checked_at": "2026-09-06T12:10:29.850Z"
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "SuperVHS",
@@ -4651,10 +4720,12 @@
       "name": "ming-qiu/theia",
       "url": "https://github.com/ming-qiu/theia",
       "kind": "commit",
-      "version": "1523d635a14235a0a6caaebbe34207e9a99dfef8",
-      "source": "https://github.com/ming-qiu/theia/commit/1523d635a14235a0a6caaebbe34207e9a99dfef8",
-      "date": "2026-07-20T18:27:59Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+      "source": "https://github.com/ming-qiu/theia/commit/7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+      "date": "2026-10-16T04:44:20Z",
+      "checked_at": "2026-10-26T08:25:01.038Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "stoatworks-labs/tilter",
@@ -4698,11 +4769,12 @@
       "name": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",
       "kind": "stable-release",
-      "version": "web-v0.5.0",
-      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
-      "date": "2026-10-01T18:07:16Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "web-v0.6.0",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
+      "date": "2026-10-14T16:24:34Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
       "name": "TypeFlare",
@@ -4774,10 +4846,12 @@
       "name": "thatcherfreeman/utility-dctls",
       "url": "https://github.com/thatcherfreeman/utility-dctls",
       "kind": "commit",
-      "version": "5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
-      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
-      "date": "2026-09-13T03:45:31Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+      "date": "2026-10-09T08:39:40Z",
+      "checked_at": "2026-10-26T08:25:01.040Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     {
       "name": "shenmintao/V-Log-Alchemy",

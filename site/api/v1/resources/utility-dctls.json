@@ -19,7 +19,10 @@
       "dctl",
       "diagnostics",
       "exposure",
-      "saturation"
+      "saturation",
+      "halftone",
+      "banding suppression",
+      "dot printing"
     ],
     "description": "Extensive creative and technical tools for exposure, contrast, saturation, diagnostics, and image effects.",
     "access": "Free",
@@ -69,16 +72,38 @@
       "name": "thatcherfreeman/utility-dctls",
       "url": "https://github.com/thatcherfreeman/utility-dctls",
       "kind": "commit",
-      "version": "5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
-      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
-      "date": "2026-09-13T03:45:31Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+      "date": "2026-10-09T08:39:40Z",
+      "checked_at": "2026-10-26T08:25:01.040Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     "releaseDate": null,
-    "activityDate": "2026-09-22T04:50:24Z",
-    "stars": 431,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
+    "activityDate": "2026-10-09T08:39:44Z",
+    "stars": 435,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
     "history": [
+      {
+        "name": "thatcherfreeman/utility-dctls",
+        "url": "https://github.com/thatcherfreeman/utility-dctls",
+        "from": "5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
+        "to": "771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-09T08:39:40Z",
+        "source": "https://github.com/thatcherfreeman/utility-dctls/commit/771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+        "summary": "Source revision: Adds halftone-dot printing and banding-suppression DCTLs. This is not a published software release.",
+        "changes": [
+          "Source revision: Adds halftone-dot printing and banding-suppression DCTLs. This is not a published software release."
+        ],
+        "changelogs": [
+          {
+            "label": "Verified source comparison",
+            "url": "https://github.com/thatcherfreeman/utility-dctls/compare/5f6f4e55a932c9b4599b8e53727305aad73eb4b1...771d6cbbb22c7f27141afaf1d8edbffda702dfd9"
+          }
+        ]
+      },
       {
         "name": "thatcherfreeman/utility-dctls",
         "url": "https://github.com/thatcherfreeman/utility-dctls",
@@ -101,6 +126,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.22",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"

@@ -654,8 +654,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.3.0",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -1242,8 +1242,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -1969,6 +1969,55 @@
       ]
     },
     {
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "x64",
+          "arm64"
+        ],
+        "gpu": "Optional NVIDIA acceleration on Windows/Linux; macOS beta uses CPU encoding.",
+        "processing": "local",
+        "pricing": "free",
+        "account": "not-required",
+        "dependencies": "Bundled FFmpeg; Windows GUI needs WebView2; Linux GUI needs GTK 3 and WebKitGTK 4.1, glibc 2.38+.",
+        "installation": "Portable downloads; macOS 12+ beta builds are not notarized."
+      },
+      "tasks": [
+        "media"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "accessGroup": "free",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/laurentchicoine/braw-pack",
+          "checked_at": "2026-10-26",
+          "note": "Original provider documentation reviewed; limitations are stated in the description."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/laurentchicoine/braw-pack",
+          "checked_at": "2026-10-26",
+          "note": "Original provider documentation reviewed; limitations are stated in the description."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
+          "checked_at": "2026-10-26",
+          "note": "Original provider documentation reviewed; limitations are stated in the description."
+        }
+      ]
+    },
+    {
       "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
       "requirements": {
         "editions": [],
@@ -2597,8 +2646,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.5.3",
-          "checked_at": "2026-09-15T11:10:26.592Z",
+          "source": "https://github.com/Gianluca-Improta/cinekive/releases/tag/v0.6.0",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -2826,8 +2875,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.3",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -3161,6 +3210,54 @@
       "platforms": [],
       "accessGroup": "public",
       "evidence": []
+    },
+    {
+      "url": "https://nablast.com/",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "20",
+            "edition": "Studio"
+          }
+        ],
+        "architectures": [
+          "x64",
+          "arm64"
+        ],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "Resolve Studio 20+; Premiere Pro 25+ and Media Encoder 25+ for preparation and return.",
+        "installation": "Provider installer for Windows 10+ or macOS 12+."
+      },
+      "tasks": [
+        "media"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://nablast.com/",
+          "checked_at": "2026-10-26",
+          "note": "Original provider documentation reviewed; limitations are stated in the description."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://nablast.com/",
+          "checked_at": "2026-10-26",
+          "note": "Original provider documentation reviewed; limitations are stated in the description."
+        }
+      ]
     },
     {
       "url": "https://cutpointlabs.com/cutdetect/",
@@ -4355,8 +4452,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -4976,8 +5073,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.0.2",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -7256,7 +7353,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-10-08T09:13:27.896Z",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -7277,7 +7374,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-10-08T09:13:27.896Z",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
         }
       ]
@@ -7455,7 +7552,7 @@
         "processing": "unknown",
         "pricing": "unknown",
         "account": "unknown",
-        "dependencies": null,
+        "dependencies": "macOS builds require macOS 12+.",
         "installation": null
       },
       "tasks": [
@@ -7468,8 +7565,15 @@
           "field": "version",
           "level": "documented",
           "source": "https://videovillage.com/filmbox/releasenotes",
-          "checked_at": "2026-09-06T12:10:23.619Z",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://videovillage.com/filmbox/releasenotes",
+          "checked_at": "2026-10-26",
+          "note": "Version 3.6.0 raises the macOS minimum to 12."
         }
       ]
     },
@@ -7918,8 +8022,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.11",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.13",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -8989,8 +9093,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
-          "checked_at": "2026-09-29T00:00:00Z",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -9405,7 +9509,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://docs.getjumper.io/release-notes/macos",
-          "checked_at": "2026-09-06T12:10:35.620Z",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -9527,8 +9631,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
-          "checked_at": "2026-09-20T07:05:00Z",
+          "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -10351,7 +10455,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://mediaarea.net/MediaInfo/ChangeLog",
-          "checked_at": "2026-09-15",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -10365,7 +10469,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://mediaarea.net/MediaInfo/ChangeLog",
-          "checked_at": "2026-09-15",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Establishes the previously unrecorded MediaInfo 26.05 release."
         }
       ]
@@ -11048,7 +11152,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://www.cdfinder.de/versions.html",
-          "checked_at": "2026-09-07",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -11192,8 +11296,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.6",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/ntsc-rs/ntsc-rs/releases/tag/v0.9.7",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -13853,8 +13957,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
-          "checked_at": "2026-09-20T07:05:00Z",
+          "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+          "checked_at": "2026-10-26",
           "note": "Recorded source revision, not a published software release."
         }
       ]
@@ -14588,8 +14692,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -14616,8 +14720,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.0.17",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.1.0",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -15036,8 +15140,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -15709,8 +15813,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
-          "checked_at": "2026-09-20T07:05:00Z",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -16613,7 +16717,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://akascape.gumroad.com/l/supertrails",
-          "checked_at": "2026-09-06T12:10:29.850Z",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -17229,8 +17333,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.5.0",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
+          "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]

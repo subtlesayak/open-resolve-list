@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "crossflow",
+  "name": "CrossFlow",
+  "creator": "Nablast",
+  "urls": {
+    "canonical": "https://nablast.com/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [
+    "media"
+  ],
+  "tags": [
+    "premiere",
+    "resolve studio",
+    "round trip",
+    "conform",
+    "timeline transfer",
+    "multicam",
+    "nested sequences",
+    "time remapping",
+    "media encoder"
+  ],
+  "description": "Moves Premiere projects into editable Resolve projects and returns graded clips to Premiere. Preserves supported timeline structures and renders unsupported effects through Media Encoder. Requires Resolve Studio 20+; Premiere/Media Encoder 25+ are needed for automatic preparation and return. Windows 10+ and macOS 12+ on Intel or Apple Silicon. Paid one-time license; trial is limited to 10 clips per sequence.",
+  "display_description": "Moves Premiere projects into editable Resolve projects and returns graded clips to Premiere. Preserves supported timeline structures and renders unsupported effects through Media Encoder. Requires Resolve Studio 20+; Premiere/Media Encoder 25+ are needed for automatic preparation and return. Windows 10+ and macOS 12+ on Intel or Apple Silicon. Paid one-time license; trial is limited to 10 clips per sequence.",
+  "access": "Paid one-time license; free trial limited to 10 clips per sequence",
+  "accessGroup": "paid",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "platform_notes": "Provider documentation reviewed; no catalogue installation testing.",
+  "display_platforms": "Windows · macOS",
+  "display_platform_notes": "Provider documentation reviewed; no catalogue installation testing.",
+  "platform_source": "https://nablast.com/",
+  "platform_checked_at": "2026-10-26",
+  "research_snapshot": null,
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "min": "20",
+        "edition": "Studio"
+      }
+    ],
+    "architectures": [
+      "x64",
+      "arm64"
+    ],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "one-time",
+    "account": "unknown",
+    "dependencies": "Resolve Studio 20+; Premiere Pro 25+ and Media Encoder 25+ for preparation and return.",
+    "installation": "Provider installer for Windows 10+ or macOS 12+."
+  },
+  "version": {
+    "name": "CrossFlow",
+    "url": "https://nablast.com/",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://nablast.com/download/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "note": "Download page release-note widget did not expose a verified version number."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://nablast.com/",
+      "checked_at": "2026-10-26",
+      "note": "Original provider documentation reviewed; limitations are stated in the description."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://nablast.com/",
+      "checked_at": "2026-10-26",
+      "note": "Original provider documentation reviewed; limitations are stated in the description."
+    }
+  ],
+  "unknownFields": [
+    "Tool version"
+  ],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://nablast.com/",
+    "https://nablast.com/download/",
+    "https://nablast.com/features/"
+  ],
+  "tags_reviewed_at": "2026-10-26",
+  "requirements_reviewed": true
+}

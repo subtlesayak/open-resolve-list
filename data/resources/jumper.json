@@ -53,11 +53,12 @@
     "name": "Jumper",
     "url": "https://getjumper.io/",
     "kind": "vendor-version",
-    "version": "macOS 3361/3362; Windows 1628",
+    "version": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
     "source": "https://docs.getjumper.io/release-notes/macos",
-    "date": "2026-08-27",
+    "date": "2026-10-09",
     "date_kind": "release",
-    "checked_at": "2026-09-06T12:10:35.620Z"
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "note": "Original provider evidence reviewed; review date is separate from product release date."
   },
   "evidence": [
     {
@@ -71,7 +72,7 @@
       "field": "version",
       "level": "documented",
       "source": "https://docs.getjumper.io/release-notes/macos",
-      "checked_at": "2026-09-06T12:10:35.620Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded version evidence, not installation testing."
     }
   ],
@@ -83,7 +84,32 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "Jumper",
+      "url": "https://getjumper.io/",
+      "from": "macOS 3361/3362; Windows 1628",
+      "to": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-09",
+      "source": "https://docs.getjumper.io/release-notes/macos",
+      "summary": "Adds naming people and transcript speakers from reference photos, summary exports and richer search filters. September builds fix Resolve OTIO relinking and timeline frame rates; Windows also supports CPU Parakeet transcription.",
+      "changes": [
+        "Adds naming people and transcript speakers from reference photos, summary exports and richer search filters. September builds fix Resolve OTIO relinking and timeline frame rates; Windows also supports CPU Parakeet transcription."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://docs.getjumper.io/release-notes/macos"
+        },
+        {
+          "label": "Windows release notes",
+          "url": "https://docs.getjumper.io/release-notes/windows"
+        }
+      ]
+    }
+  ],
   "legacy_id": "eef6a55ca0a7",
   "search_sources": [
     "https://getjumper.io/"

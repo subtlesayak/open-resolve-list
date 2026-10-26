@@ -38,9 +38,9 @@
   "platform_source": "https://github.com/lumosai8/ComfyUI-SecondUnit#readme",
   "platform_checked_at": "2026-09-26",
   "research_snapshot": "2026-09-26",
-  "stars": 7,
+  "stars": 10,
   "last_pushed_at": "2026-09-11T20:51:48Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [
       "Studio"

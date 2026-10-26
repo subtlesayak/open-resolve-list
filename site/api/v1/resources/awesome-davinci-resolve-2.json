@@ -59,17 +59,44 @@
       "name": "cutbypham/awesome-davinci-resolve",
       "url": "https://github.com/cutbypham/awesome-davinci-resolve",
       "kind": "commit",
-      "version": "c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
-      "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
-      "date": "2026-08-27T14:29:12Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "86cd3895754822fd0a4ead1c241989d235921705",
+      "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/86cd3895754822fd0a4ead1c241989d235921705",
+      "date": "2026-10-19T01:59:10Z",
+      "checked_at": "2026-10-26T08:25:01.029Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     "releaseDate": null,
-    "activityDate": "2026-08-27T14:29:12Z",
-    "stars": 66,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
-    "history": [],
+    "activityDate": "2026-10-19T01:59:10Z",
+    "stars": 67,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "history": [
+      {
+        "name": "cutbypham/awesome-davinci-resolve",
+        "url": "https://github.com/cutbypham/awesome-davinci-resolve",
+        "from": "c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
+        "to": "86cd3895754822fd0a4ead1c241989d235921705",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-19T01:59:10Z",
+        "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/86cd3895754822fd0a4ead1c241989d235921705",
+        "summary": "Source revision: Updates directory links and resource annotations. This is not a published software release.",
+        "changes": [
+          "Source revision: Updates directory links and resource annotations. This is not a published software release."
+        ],
+        "changelogs": [
+          {
+            "label": "Verified source comparison",
+            "url": "https://github.com/cutbypham/awesome-davinci-resolve/compare/c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e...86cd3895754822fd0a4ead1c241989d235921705"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.13",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.13"

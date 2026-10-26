@@ -34,8 +34,8 @@
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
   "stars": 79,
-  "last_pushed_at": "2026-04-07T02:46:35Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "last_pushed_at": "2026-10-22T20:44:08Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -51,10 +51,12 @@
     "name": "apvlv/davinci-resolve-mcp",
     "url": "https://github.com/apvlv/davinci-resolve-mcp",
     "kind": "commit",
-    "version": "d025e4ecaf46f9ba7bcc1a814201791821c8f281",
-    "source": "https://github.com/apvlv/davinci-resolve-mcp/commit/d025e4ecaf46f9ba7bcc1a814201791821c8f281",
-    "date": "2026-04-07T02:46:35Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "33678a6c44849ef0026d8ba95aa59d86943c41a6",
+    "source": "https://github.com/apvlv/davinci-resolve-mcp/commit/33678a6c44849ef0026d8ba95aa59d86943c41a6",
+    "date": "2026-10-22T20:44:08Z",
+    "checked_at": "2026-10-26T08:25:01.031Z",
+    "date_kind": "commit",
+    "note": "Source revision, not a published software release."
   },
   "evidence": [
     {
@@ -74,7 +76,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "apvlv/davinci-resolve-mcp",
+      "url": "https://github.com/apvlv/davinci-resolve-mcp",
+      "from": "d025e4ecaf46f9ba7bcc1a814201791821c8f281",
+      "to": "33678a6c44849ef0026d8ba95aa59d86943c41a6",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-22T20:44:08Z",
+      "source": "https://github.com/apvlv/davinci-resolve-mcp/commit/33678a6c44849ef0026d8ba95aa59d86943c41a6",
+      "summary": "Source revision: Adds a Dockerfile for the Glama listing. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds a Dockerfile for the Glama listing. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/apvlv/davinci-resolve-mcp/compare/d025e4ecaf46f9ba7bcc1a814201791821c8f281...33678a6c44849ef0026d8ba95aa59d86943c41a6"
+        }
+      ]
+    }
+  ],
   "legacy_id": "edb6b26ecfcb",
   "search_sources": [
     "https://github.com/apvlv/davinci-resolve-mcp"

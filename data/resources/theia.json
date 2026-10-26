@@ -37,8 +37,8 @@
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
   "stars": 5,
-  "last_pushed_at": "2026-07-20T18:28:45Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "last_pushed_at": "2026-10-16T04:44:37Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [
       "Studio"
@@ -56,10 +56,12 @@
     "name": "ming-qiu/theia",
     "url": "https://github.com/ming-qiu/theia",
     "kind": "commit",
-    "version": "1523d635a14235a0a6caaebbe34207e9a99dfef8",
-    "source": "https://github.com/ming-qiu/theia/commit/1523d635a14235a0a6caaebbe34207e9a99dfef8",
-    "date": "2026-07-20T18:27:59Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+    "source": "https://github.com/ming-qiu/theia/commit/7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+    "date": "2026-10-16T04:44:20Z",
+    "checked_at": "2026-10-26T08:25:01.038Z",
+    "date_kind": "commit",
+    "note": "Source revision, not a published software release."
   },
   "evidence": [
     {
@@ -98,7 +100,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "ming-qiu/theia",
+      "url": "https://github.com/ming-qiu/theia",
+      "from": "1523d635a14235a0a6caaebbe34207e9a99dfef8",
+      "to": "7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-16T04:44:20Z",
+      "source": "https://github.com/ming-qiu/theia/commit/7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+      "summary": "Source revision: Fixes a one-frame source-timecode offset, adjusts frame-counter limits and updates the updater icon. This is not a published software release.",
+      "changes": [
+        "Source revision: Fixes a one-frame source-timecode offset, adjusts frame-counter limits and updates the updater icon. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/ming-qiu/theia/compare/1523d635a14235a0a6caaebbe34207e9a99dfef8...7e4d8ffc3929ba78de9854e3bec0a8193677455e"
+        }
+      ]
+    }
+  ],
   "legacy_id": "d57148ea1d47",
   "search_sources": [
     "https://github.com/ming-qiu/theia"

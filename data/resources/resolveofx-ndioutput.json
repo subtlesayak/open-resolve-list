@@ -36,9 +36,9 @@
   "platform_source": "https://github.com/lightsailvr/ResolveOFX_NDIOutput#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 10,
-  "last_pushed_at": "2026-10-03T16:07:00Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "stars": 11,
+  "last_pushed_at": "2026-10-20T21:17:30Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -54,11 +54,12 @@
     "name": "lightsailvr/ResolveOFX_NDIOutput",
     "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
     "kind": "stable-release",
-    "version": "v1.15.0",
-    "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
-    "date": "2026-10-01T23:13:55Z",
-    "checked_at": "2026-10-08T09:11:00.642Z",
-    "date_kind": "release"
+    "version": "v1.17.0",
+    "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
+    "date": "2026-10-20T20:51:53Z",
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "date_kind": "release",
+    "note": "Original provider evidence reviewed; review date is separate from product release date."
   },
   "evidence": [
     {
@@ -71,8 +72,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.15.0",
-      "checked_at": "2026-10-08T09:11:00.642Z",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
+      "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded version evidence, not installation testing."
     }
   ],
@@ -85,6 +86,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "lightsailvr/ResolveOFX_NDIOutput",
+      "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+      "from": "v1.15.0",
+      "to": "v1.17.0",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-20T20:51:53Z",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
+      "summary": "Corrects NDI limited-range stream levels and thumbnail-frame streaming, adds output color-space/LUT controls and improves macOS CPU-path performance. Existing streams may look less contrasty because clipping is corrected.",
+      "changes": [
+        "Corrects NDI limited-range stream levels and thumbnail-frame streaming, adds output color-space/LUT controls and improves macOS CPU-path performance. Existing streams may look less contrasty because clipping is corrected."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0"
+        }
+      ]
+    },
     {
       "name": "lightsailvr/ResolveOFX_NDIOutput",
       "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",

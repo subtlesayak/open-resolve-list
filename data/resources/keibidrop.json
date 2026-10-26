@@ -39,9 +39,9 @@
   "platform_source": "https://github.com/KeibiSoft/KeibiDrop#readme",
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
-  "stars": 62,
-  "last_pushed_at": "2026-10-06T09:41:29Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "stars": 69,
+  "last_pushed_at": "2026-10-20T10:36:40Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,10 +57,12 @@
     "name": "KeibiSoft/KeibiDrop",
     "url": "https://github.com/KeibiSoft/KeibiDrop",
     "kind": "stable-release",
-    "version": "v0.4.8",
-    "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
-    "date": "2026-09-15T00:00:00Z",
-    "checked_at": "2026-09-20T07:05:00Z"
+    "version": "v0.5.1",
+    "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+    "date": "2026-10-20T08:19:13Z",
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "date_kind": "release",
+    "note": "Original provider evidence reviewed; review date is separate from product release date."
   },
   "evidence": [
     {
@@ -80,8 +82,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
-      "checked_at": "2026-09-20T07:05:00Z",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+      "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -93,6 +95,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "KeibiSoft/KeibiDrop",
+      "url": "https://github.com/KeibiSoft/KeibiDrop",
+      "from": "v0.4.8",
+      "to": "v0.5.1",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-20T08:19:13Z",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+      "summary": "Fixes macOS Teleport-mode crashes caused by macFUSE signing permissions, reports driver-load failures and preserves larger crash reports.",
+      "changes": [
+        "Fixes macOS Teleport-mode crashes caused by macFUSE signing permissions, reports driver-load failures and preserves larger crash reports."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1"
+        }
+      ]
+    },
     {
       "from": "v0.4.7",
       "to": "v0.4.8",

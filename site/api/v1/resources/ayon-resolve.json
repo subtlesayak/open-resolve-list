@@ -38,8 +38,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
-        "checked_at": "2026-10-08T09:11:00.642Z",
+        "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -57,17 +57,38 @@
       "name": "ynput/ayon-resolve",
       "url": "https://github.com/ynput/ayon-resolve",
       "kind": "stable-release",
-      "version": "0.6.4",
-      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.4",
-      "date": "2026-09-29T13:44:33Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "0.6.6",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
+      "date": "2026-10-20T15:17:11Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-09-29T13:44:33Z",
-    "activityDate": "2026-10-08T06:37:27Z",
+    "releaseDate": "2026-10-20T15:17:11Z",
+    "activityDate": "2026-10-21T19:10:15Z",
     "stars": 13,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
     "history": [
+      {
+        "name": "ynput/ayon-resolve",
+        "url": "https://github.com/ynput/ayon-resolve",
+        "from": "0.6.4",
+        "to": "0.6.6",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-20T15:17:11Z",
+        "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
+        "summary": "Adds an AYON console menu and configurable Chocolate-clip defaults; fixes Loader launching, media-handle clamping, workfile save failures and macOS hidden render files.",
+        "changes": [
+          "Adds an AYON console menu and configurable Chocolate-clip defaults; fixes Loader launching, media-handle clamping, workfile save failures and macOS hidden render files."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6"
+          }
+        ]
+      },
       {
         "name": "ynput/ayon-resolve",
         "url": "https://github.com/ynput/ayon-resolve",
@@ -90,6 +111,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.27",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"

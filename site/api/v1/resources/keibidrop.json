@@ -60,8 +60,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
-        "checked_at": "2026-09-20T07:05:00Z",
+        "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -77,16 +77,38 @@
       "name": "KeibiSoft/KeibiDrop",
       "url": "https://github.com/KeibiSoft/KeibiDrop",
       "kind": "stable-release",
-      "version": "v0.4.8",
-      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.4.8",
-      "date": "2026-09-15T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v0.5.1",
+      "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+      "date": "2026-10-20T08:19:13Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-09-15T00:00:00Z",
-    "activityDate": "2026-10-06T09:41:29Z",
-    "stars": 62,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
+    "releaseDate": "2026-10-20T08:19:13Z",
+    "activityDate": "2026-10-20T10:36:40Z",
+    "stars": 69,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
     "history": [
+      {
+        "name": "KeibiSoft/KeibiDrop",
+        "url": "https://github.com/KeibiSoft/KeibiDrop",
+        "from": "v0.4.8",
+        "to": "v0.5.1",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-20T08:19:13Z",
+        "source": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1",
+        "summary": "Fixes macOS Teleport-mode crashes caused by macFUSE signing permissions, reports driver-load failures and preserves larger crash reports.",
+        "changes": [
+          "Fixes macOS Teleport-mode crashes caused by macFUSE signing permissions, reports driver-load failures and preserves larger crash reports."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/KeibiSoft/KeibiDrop/releases/tag/v0.5.1"
+          }
+        ]
+      },
       {
         "from": "v0.4.7",
         "to": "v0.4.8",
@@ -107,6 +129,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.24",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24"

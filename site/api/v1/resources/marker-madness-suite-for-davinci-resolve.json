@@ -68,17 +68,44 @@
       "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "kind": "commit",
-      "version": "21b14063c82f1ddfab50a34c2678c10de3cecd4b",
-      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/21b14063c82f1ddfab50a34c2678c10de3cecd4b",
-      "date": "2026-08-26T20:14:59Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "5990c1c77919d0f847d5332b4d57a001f985d86b",
+      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/5990c1c77919d0f847d5332b4d57a001f985d86b",
+      "date": "2026-10-14T17:54:12Z",
+      "checked_at": "2026-10-26T08:25:01.033Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     "releaseDate": null,
-    "activityDate": "2026-10-02T22:48:56Z",
+    "activityDate": "2026-10-14T18:45:03Z",
     "stars": 2,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
-    "history": [],
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "history": [
+      {
+        "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+        "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+        "from": "21b14063c82f1ddfab50a34c2678c10de3cecd4b",
+        "to": "5990c1c77919d0f847d5332b4d57a001f985d86b",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-14T17:54:12Z",
+        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/5990c1c77919d0f847d5332b4d57a001f985d86b",
+        "summary": "Source revision: Updates Marker Madness to 1.8.5, Clipper to 1.5.2 and Clip Renamer Pro to 2.2.5 in the source suite, improving stamp settings, tail handles, grade copying and name handling. This is not a published software release.",
+        "changes": [
+          "Source revision: Updates Marker Madness to 1.8.5, Clipper to 1.5.2 and Clip Renamer Pro to 2.2.5 in the source suite, improving stamp settings, tail handles, grade copying and name handling. This is not a published software release."
+        ],
+        "changelogs": [
+          {
+            "label": "Verified source comparison",
+            "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/compare/21b14063c82f1ddfab50a34c2678c10de3cecd4b...5990c1c77919d0f847d5332b4d57a001f985d86b"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.4",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.4"

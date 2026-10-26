@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "resource": {
+    "id": "braw-pack",
+    "name": "braw-pack",
+    "creator": "laurentchicoine",
+    "url": "https://github.com/laurentchicoine/braw-pack",
+    "origin": "github",
+    "official": false,
+    "reference": false,
+    "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+    "kind": "encoder",
+    "tasks": [
+      "media"
+    ],
+    "tags": [
+      "braw",
+      "blackmagic raw",
+      "archive",
+      "recompression",
+      "h265",
+      "hevc",
+      "raw metadata",
+      "gyro",
+      "nvenc",
+      "x265",
+      "experimental"
+    ],
+    "description": "Experimental local BRAW archive and recompression utility. Rebuilds H.265 archives into usable BRAW while retaining camera metadata, and can make smaller BRAW files. Lossy: retain original footage until rebuilt clips are checked. Windows and Linux builds plus unnotarized macOS beta builds; Linux GUI and interactive Mac workflows remain incompletely tested. NVIDIA accelerates supported Windows/Linux paths; CPU fallback is slower.",
+    "access": "Free; MIT application, bundled components retain their own licenses",
+    "accessGroup": "free",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "platformNotes": "Provider documentation reviewed; no catalogue installation testing.",
+    "requirements": {
+      "editions": [],
+      "resolve": [],
+      "architectures": [
+        "x64",
+        "arm64"
+      ],
+      "gpu": "Optional NVIDIA acceleration on Windows/Linux; macOS beta uses CPU encoding.",
+      "processing": "local",
+      "pricing": "free",
+      "account": "not-required",
+      "dependencies": "Bundled FFmpeg; Windows GUI needs WebView2; Linux GUI needs GTK 3 and WebKitGTK 4.1, glibc 2.38+.",
+      "installation": "Portable downloads; macOS 12+ beta builds are not notarized."
+    },
+    "evidence": [
+      {
+        "field": "platforms",
+        "level": "documented",
+        "source": "https://github.com/laurentchicoine/braw-pack",
+        "checked_at": "2026-10-26",
+        "note": "Original provider documentation reviewed; limitations are stated in the description."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://github.com/laurentchicoine/braw-pack",
+        "checked_at": "2026-10-26",
+        "note": "Original provider documentation reviewed; limitations are stated in the description."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
+        "checked_at": "2026-10-26",
+        "note": "Original provider documentation reviewed; limitations are stated in the description."
+      }
+    ],
+    "unknownFields": [
+      "Resolve edition",
+      "Resolve version"
+    ],
+    "recommended": false,
+    "recommendation": null,
+    "previousUrls": [],
+    "version": {
+      "name": "laurentchicoine/braw-pack",
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "kind": "stable-release",
+      "version": "v0.3.0",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
+      "date": "2026-10-23T02:03:10Z",
+      "date_kind": "release",
+      "checked_at": "2026-10-26T08:19:35.198Z"
+    },
+    "releaseDate": "2026-10-23T02:03:10Z",
+    "activityDate": "2026-10-23T02:03:09Z",
+    "stars": 2,
+    "metadataChecked": "2026-10-26T08:19:35.198Z",
+    "history": [],
+    "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      }
+    ]
+  }
+}

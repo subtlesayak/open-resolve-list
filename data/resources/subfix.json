@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/HooperH/SubFix#readme",
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
-  "stars": 33,
-  "last_pushed_at": "2026-09-16T05:59:33Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "stars": 40,
+  "last_pushed_at": "2026-10-21T08:26:23Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,10 +57,12 @@
     "name": "HooperH/SubFix",
     "url": "https://github.com/HooperH/SubFix",
     "kind": "stable-release",
-    "version": "v3.3.2",
-    "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
-    "date": "2026-09-16T00:00:00Z",
-    "checked_at": "2026-09-20T07:05:00Z"
+    "version": "v3.3.7",
+    "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+    "date": "2026-10-21T08:38:12Z",
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "date_kind": "release",
+    "note": "Original provider evidence reviewed; review date is separate from product release date."
   },
   "evidence": [
     {
@@ -80,8 +82,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
-      "checked_at": "2026-09-20T07:05:00Z",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+      "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -93,6 +95,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "from": "v3.3.2",
+      "to": "v3.3.7",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-21T08:38:12Z",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+      "summary": "Fixes the mini subtitle-search window close button, including exit when the full interface has not been opened.",
+      "changes": [
+        "Fixes the mini subtitle-search window close button, including exit when the full interface has not been opened."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7"
+        }
+      ]
+    },
     {
       "from": "v3.3.1",
       "to": "v3.3.2",

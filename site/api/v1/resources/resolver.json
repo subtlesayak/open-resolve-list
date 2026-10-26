@@ -39,8 +39,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.0.17",
-        "checked_at": "2026-09-15T05:06:04.860Z",
+        "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.1.0",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -58,17 +58,44 @@
       "name": "DMiradakis/resolver",
       "url": "https://github.com/DMiradakis/resolver",
       "kind": "stable-release",
-      "version": "v0.0.17",
-      "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.0.17",
-      "date": "2026-05-19T20:22:06Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v0.1.0",
+      "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.1.0",
+      "date": "2026-10-24T21:33:21Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-05-19T20:22:06Z",
-    "activityDate": "2026-06-09T08:00:50Z",
-    "stars": 5,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
-    "history": [],
+    "releaseDate": "2026-10-24T21:33:21Z",
+    "activityDate": "2026-10-24T21:30:58Z",
+    "stars": 6,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "history": [
+      {
+        "name": "DMiradakis/resolver",
+        "url": "https://github.com/DMiradakis/resolver",
+        "from": "v0.0.17",
+        "to": "v0.1.0",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-24T21:33:21Z",
+        "source": "https://github.com/DMiradakis/resolver/releases/tag/v0.1.0",
+        "summary": "Adds CLI update checks and an update command, validates release versions and expands ConfigService tests and CI safeguards.",
+        "changes": [
+          "Adds CLI update checks and an update command, validates release versions and expands ConfigService tests and CI safeguards."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/DMiradakis/resolver/releases/tag/v0.1.0"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.1",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.1"

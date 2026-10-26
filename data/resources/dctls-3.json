@@ -36,9 +36,9 @@
   "platform_source": "https://github.com/MoazElgabry/DCTLs#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 68,
+  "stars": 70,
   "last_pushed_at": "2026-09-28T07:15:03Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -54,10 +54,12 @@
     "name": "MoazElgabry/DCTLs",
     "url": "https://github.com/MoazElgabry/DCTLs",
     "kind": "commit",
-    "version": "fe7f860751a483d56e24125ad2e3e84c6669d55d",
-    "source": "https://github.com/MoazElgabry/DCTLs/commit/fe7f860751a483d56e24125ad2e3e84c6669d55d",
-    "date": "2026-06-13T14:17:49Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+    "source": "https://github.com/MoazElgabry/DCTLs/commit/b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+    "date": "2026-09-28T07:12:58Z",
+    "checked_at": "2026-10-26T08:25:01.032Z",
+    "date_kind": "commit",
+    "note": "Source revision, not a published software release."
   },
   "evidence": [
     {
@@ -83,7 +85,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "MoazElgabry/DCTLs",
+      "url": "https://github.com/MoazElgabry/DCTLs",
+      "from": "fe7f860751a483d56e24125ad2e3e84c6669d55d",
+      "to": "b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-28T07:12:58Z",
+      "source": "https://github.com/MoazElgabry/DCTLs/commit/b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+      "summary": "Source revision: Adds split and saturation-mask DCTLs, revises the exposure chart and reorganizes the repository. This is not a published software release.",
+      "changes": [
+        "Source revision: Adds split and saturation-mask DCTLs, revises the exposure chart and reorganizes the repository. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/MoazElgabry/DCTLs/compare/fe7f860751a483d56e24125ad2e3e84c6669d55d...b84b411e5cee217330a281bd4aec0b53b9f9ec71"
+        }
+      ]
+    }
+  ],
   "legacy_id": "69010ace2a1b",
   "search_sources": [
     "https://github.com/MoazElgabry/DCTLs"

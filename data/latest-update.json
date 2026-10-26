@@ -1,10 +1,9 @@
 {
   "schema_version": 1,
-  "date": "2026-10-08",
-  "release": "v1.27",
+  "date": "2026-10-26",
+  "release": "v1.28",
   "added_urls": [
-    "https://mononodes.com/look-lab-print-ofx/",
-    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_Supported_Codec_List.pdf",
-    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_21_Features.pdf"
+    "https://github.com/laurentchicoine/braw-pack",
+    "https://nablast.com/"
   ]
 }

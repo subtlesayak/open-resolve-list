@@ -53,8 +53,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.0.2",
-        "checked_at": "2026-09-15T05:06:04.860Z",
+        "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -71,17 +71,44 @@
       "name": "Creative-Crafter/davinci-shortform-overlays",
       "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
       "kind": "stable-release",
-      "version": "v1.0.2",
-      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.0.2",
-      "date": "2026-08-21T15:35:09Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v1.2.0",
+      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
+      "date": "2026-10-13T18:27:21Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-08-21T15:35:09Z",
-    "activityDate": "2026-10-04T07:50:22Z",
-    "stars": 8,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
-    "history": [],
+    "releaseDate": "2026-10-13T18:27:21Z",
+    "activityDate": "2026-10-13T18:27:36Z",
+    "stars": 10,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "history": [
+      {
+        "name": "Creative-Crafter/davinci-shortform-overlays",
+        "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
+        "from": "v1.0.2",
+        "to": "v1.2.0",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-13T18:27:21Z",
+        "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
+        "summary": "Adds an opacity slider beneath the platform selector.",
+        "changes": [
+          "Adds an opacity slider beneath the platform selector."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.1",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.1"

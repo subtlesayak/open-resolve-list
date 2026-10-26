@@ -51,8 +51,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
-        "checked_at": "2026-10-08T09:11:00.642Z",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -70,17 +70,38 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.5.1",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.5.1",
-      "date": "2026-10-06T14:33:00Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "v0.6.1",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
+      "date": "2026-10-24T05:26:05Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-10-06T14:33:00Z",
-    "activityDate": "2026-10-07T12:14:36Z",
-    "stars": 216,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
+    "releaseDate": "2026-10-24T05:26:05Z",
+    "activityDate": "2026-10-26T07:34:15Z",
+    "stars": 232,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
     "history": [
+      {
+        "name": "shumaiOne/shumai",
+        "url": "https://github.com/shumaiOne/shumai",
+        "from": "v0.5.1",
+        "to": "v0.6.1",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-24T05:26:05Z",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
+        "summary": "Adds Team Dashboard workflow-task monitoring and stopping, fixes accidental file selection during metadata edits and prevents clipped overlays and date pickers.",
+        "changes": [
+          "Adds Team Dashboard workflow-task monitoring and stopping, fixes accidental file selection during metadata edits and prevents clipped overlays and date pickers."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1"
+          }
+        ]
+      },
       {
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
@@ -185,6 +206,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.27",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"

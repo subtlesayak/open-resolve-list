@@ -203,7 +203,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 videovillage.com
 
-| [Filmbox Pro](https://videovillage.com/filmbox/) | Paid; 14-day trial listed | 🪟 Windows · 🍎 macOS · 🐧 Linux | Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ. |
+| [Filmbox Pro](https://videovillage.com/filmbox/) | Paid; 14-day trial listed | 🪟 Windows · 🍎 macOS · 🐧 Linux | Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ. Version 3.6.0 requires macOS 12+; its revised render pipeline may slightly change existing grades. |
 
 #### 👤 FilmConvert
 
@@ -396,6 +396,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 | [Creating Scripts for DaVinci Resolve — examples thread](https://forum.blackmagicdesign.com/viewtopic.php?t=175315) | 📦 Public examples; per-author terms apply | 📖 Reference; snippet requirements vary | Community examples for timeline, Media Pool and marker automation. Individual posts can contain API limitations and destructive changes, such as losing marker keywords; review each script before running. Forum hosting is not BMD endorsement. |
 
+#### 👤 Nablast
+
+| [CrossFlow](https://nablast.com/) | Paid one-time license; free trial limited to 10 clips per sequence | Windows · macOS | Moves Premiere projects into editable Resolve projects and returns graded clips to Premiere. Preserves supported timeline structures and renders unsupported effects through Media Encoder. Requires Resolve Studio 20+; Premiere/Media Encoder 25+ are needed for automatic preparation and return. Windows 10+ and macOS 12+ on Intel or Apple Silicon. Paid one-time license; trial is limited to 10 clips per sequence. |
+
 #### 👤 Cutpoint Labs
 
 | [CutDetect](https://cutpointlabs.com/cutdetect/) | 📦 Public listing; price/download access not established | 🍎 macOS | Standalone hard-cut detection with visual review, manual adjustment and CMX3600 EDL export for conform workflows. Processes media locally. A versioned demonstration does not establish the latest downloadable build. |
@@ -470,7 +474,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 Soonus
 
-| [fcp2aaf](https://fcp2aaf.com/) | 🆓 Up to 5 minutes; 💰 paid passes or perpetual license | 🍎 macOS | Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Version 26.9.21 refines the UI and keeps excluded tracks out of the preview. |
+| [fcp2aaf](https://fcp2aaf.com/) | 🆓 Up to 5 minutes; 💰 paid passes or perpetual license | 🍎 macOS | Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Recent releases improve excluded-track ordering, negative timeline starts and stereo waveform display. |
 
 #### 👤 Filmkid
 

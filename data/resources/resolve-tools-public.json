@@ -32,9 +32,9 @@
   "platform_source": "https://github.com/jdanna/Resolve_Tools_Public#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 4,
+  "stars": 6,
   "last_pushed_at": "2026-09-22T22:24:24Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -50,10 +50,12 @@
     "name": "jdanna/Resolve_Tools_Public",
     "url": "https://github.com/jdanna/Resolve_Tools_Public",
     "kind": "commit",
-    "version": "dc6659f713387676b2f46f5f35ce560c9ed8acdc",
-    "source": "https://github.com/jdanna/Resolve_Tools_Public/commit/dc6659f713387676b2f46f5f35ce560c9ed8acdc",
-    "date": "2026-08-24T00:51:48Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "a5966b5691da9689168bd6357cd6aab80ac052a3",
+    "source": "https://github.com/jdanna/Resolve_Tools_Public/commit/a5966b5691da9689168bd6357cd6aab80ac052a3",
+    "date": "2026-09-22T22:24:22Z",
+    "checked_at": "2026-10-26T08:25:01.037Z",
+    "date_kind": "commit",
+    "note": "Source revision, not a published software release."
   },
   "evidence": [
     {
@@ -73,7 +75,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "jdanna/Resolve_Tools_Public",
+      "url": "https://github.com/jdanna/Resolve_Tools_Public",
+      "from": "dc6659f713387676b2f46f5f35ce560c9ed8acdc",
+      "to": "a5966b5691da9689168bd6357cd6aab80ac052a3",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-09-22T22:24:22Z",
+      "source": "https://github.com/jdanna/Resolve_Tools_Public/commit/a5966b5691da9689168bd6357cd6aab80ac052a3",
+      "summary": "Source revision: Fixes batch timecode setting and cleans up timecode entry. This is not a published software release.",
+      "changes": [
+        "Source revision: Fixes batch timecode setting and cleans up timecode entry. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/jdanna/Resolve_Tools_Public/compare/dc6659f713387676b2f46f5f35ce560c9ed8acdc...a5966b5691da9689168bd6357cd6aab80ac052a3"
+        }
+      ]
+    }
+  ],
   "legacy_id": "a34007c84794",
   "search_sources": [
     "https://github.com/jdanna/Resolve_Tools_Public"

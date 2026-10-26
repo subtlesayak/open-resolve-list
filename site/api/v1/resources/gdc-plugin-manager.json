@@ -59,8 +59,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
-        "checked_at": "2026-09-29T00:00:00Z",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -76,16 +76,38 @@
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",
       "kind": "stable-release",
-      "version": "v1.40.0",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.0",
-      "date": "2026-09-26T11:14:20Z",
-      "checked_at": "2026-09-29T00:00:00Z"
+      "version": "v1.40.1",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
+      "date": "2026-10-09T03:44:31Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-09-26T11:14:20Z",
-    "activityDate": "2026-10-08T03:54:30Z",
+    "releaseDate": "2026-10-09T03:44:31Z",
+    "activityDate": "2026-10-23T22:16:24Z",
     "stars": 1,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
     "history": [
+      {
+        "name": "gordasgdc/gdc-plugin-manager",
+        "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+        "from": "v1.40.0",
+        "to": "v1.40.1",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-09T03:44:31Z",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
+        "summary": "Shows GDC STYLE Client in My Applications with launch, installed-version and update information.",
+        "changes": [
+          "Shows GDC STYLE Client in My Applications with launch, installed-version and update information."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1"
+          }
+        ]
+      },
       {
         "name": "gordasgdc/gdc-plugin-manager",
         "url": "https://github.com/gordasgdc/gdc-plugin-manager",
@@ -131,6 +153,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.26",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.26"

@@ -60,8 +60,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
-        "checked_at": "2026-09-20T07:05:00Z",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -77,16 +77,38 @@
       "name": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",
       "kind": "stable-release",
-      "version": "v3.3.2",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.2",
-      "date": "2026-09-16T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v3.3.7",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+      "date": "2026-10-21T08:38:12Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-09-16T00:00:00Z",
-    "activityDate": "2026-09-16T05:59:33Z",
-    "stars": 33,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
+    "releaseDate": "2026-10-21T08:38:12Z",
+    "activityDate": "2026-10-21T08:26:23Z",
+    "stars": 40,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
     "history": [
+      {
+        "name": "HooperH/SubFix",
+        "url": "https://github.com/HooperH/SubFix",
+        "from": "v3.3.2",
+        "to": "v3.3.7",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-21T08:38:12Z",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
+        "summary": "Fixes the mini subtitle-search window close button, including exit when the full interface has not been opened.",
+        "changes": [
+          "Fixes the mini subtitle-search window close button, including exit when the full interface has not been opened."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7"
+          }
+        ]
+      },
       {
         "from": "v3.3.1",
         "to": "v3.3.2",
@@ -107,6 +129,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.24",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24"

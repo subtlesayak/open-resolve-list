@@ -40,8 +40,8 @@
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
   "stars": 0,
-  "last_pushed_at": "2026-10-04T04:35:30Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "last_pushed_at": "2026-10-12T18:34:39Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,11 +57,12 @@
     "name": "stoatworks-labs/cogwheel",
     "url": "https://github.com/stoatworks-labs/cogwheel",
     "kind": "stable-release",
-    "version": "v0.6.2",
-    "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
-    "date": "2026-10-04T03:43:28Z",
-    "checked_at": "2026-10-08T09:11:00.642Z",
-    "date_kind": "release"
+    "version": "v0.6.3",
+    "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.3",
+    "date": "2026-10-11T17:44:46Z",
+    "checked_at": "2026-10-26T08:19:35.198Z",
+    "date_kind": "release",
+    "note": "Original provider evidence reviewed; review date is separate from product release date."
   },
   "evidence": [
     {
@@ -81,8 +82,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.2",
-      "checked_at": "2026-10-08T09:11:00.642Z",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.3",
+      "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -94,6 +95,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "stoatworks-labs/cogwheel",
+      "url": "https://github.com/stoatworks-labs/cogwheel",
+      "from": "v0.6.2",
+      "to": "v0.6.3",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-11T17:44:46Z",
+      "source": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.3",
+      "summary": "Uses the Windows known-folder API for XML exports, supports Unicode folder names and initializes the XML picker to the export folder. macOS export behavior is unchanged.",
+      "changes": [
+        "Uses the Windows known-folder API for XML exports, supports Unicode folder names and initializes the XML picker to the export folder. macOS export behavior is unchanged."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.3"
+        }
+      ]
+    },
     {
       "name": "stoatworks-labs/cogwheel",
       "url": "https://github.com/stoatworks-labs/cogwheel",

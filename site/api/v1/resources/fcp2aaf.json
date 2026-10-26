@@ -22,7 +22,7 @@
       "markers",
       "handoff"
     ],
-    "description": "Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Version 26.9.21 refines the UI and keeps excluded tracks out of the preview.",
+    "description": "Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Recent releases improve excluded-track ordering, negative timeline starts and stereo waveform display.",
     "access": "🆓 Up to 5 minutes; 💰 paid passes or perpetual license",
     "accessGroup": "paid",
     "platforms": [
@@ -54,7 +54,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://fcp2aaf.com/changelog/",
-        "checked_at": "2026-10-08T09:13:27.896Z",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded version evidence, not installation testing."
       },
       {
@@ -75,7 +75,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://fcp2aaf.com/changelog/",
-        "checked_at": "2026-10-08T09:13:27.896Z",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
       }
     ],
@@ -90,18 +90,38 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "kind": "vendor-version",
-      "version": "26.10.01",
+      "version": "26.10.03",
       "source": "https://fcp2aaf.com/changelog/",
-      "date": "2026-10-01",
+      "date": "2026-10-21",
       "date_kind": "release",
-      "checked_at": "2026-10-08T09:13:27.896Z",
-      "note": "Original provider release/changelog reviewed. Catalogue review date is separate from the upstream release date."
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-10-01",
+    "releaseDate": "2026-10-21",
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
     "history": [
+      {
+        "name": "fcp2aaf",
+        "url": "https://fcp2aaf.com/",
+        "from": "26.10.01",
+        "to": "26.10.03",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-21",
+        "source": "https://fcp2aaf.com/changelog/",
+        "summary": "Adds an option to move excluded tracks below delivered tracks. The intervening release fixes negative timeline starts and stereo waveform display.",
+        "changes": [
+          "Adds an option to move excluded tracks below delivered tracks. The intervening release fixes negative timeline starts and stereo waveform display."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://fcp2aaf.com/changelog/"
+          }
+        ]
+      },
       {
         "name": "fcp2aaf",
         "url": "https://fcp2aaf.com/",
@@ -147,6 +167,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.27",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"

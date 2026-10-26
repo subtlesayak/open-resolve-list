@@ -35,8 +35,8 @@
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
   "stars": 2,
-  "last_pushed_at": "2026-09-18T08:25:50Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "last_pushed_at": "2026-10-15T17:23:06Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [
       "Studio"
@@ -54,10 +54,12 @@
     "name": "postflows/resolve-markers-to-render-queue",
     "url": "https://github.com/postflows/resolve-markers-to-render-queue",
     "kind": "commit",
-    "version": "e8be7924b74755a0cfd64e28519f30461d0ea751",
-    "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
-    "date": "2026-09-18T00:00:00Z",
-    "checked_at": "2026-09-20T07:05:00Z"
+    "version": "1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+    "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+    "date": "2026-10-15T17:21:56Z",
+    "checked_at": "2026-10-26T08:25:01.037Z",
+    "date_kind": "commit",
+    "note": "Source revision, not a published software release."
   },
   "evidence": [
     {
@@ -84,8 +86,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/e8be7924b74755a0cfd64e28519f30461d0ea751",
-      "checked_at": "2026-09-20T07:05:00Z",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+      "checked_at": "2026-10-26",
       "note": "Recorded source revision, not a published software release."
     }
   ],
@@ -97,6 +99,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "postflows/resolve-markers-to-render-queue",
+      "url": "https://github.com/postflows/resolve-markers-to-render-queue",
+      "from": "e8be7924b74755a0cfd64e28519f30461d0ea751",
+      "to": "1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-15T17:21:56Z",
+      "source": "https://github.com/postflows/resolve-markers-to-render-queue/commit/1f5cdb6c83909c0f65b120a4dfd96d1314e971b1",
+      "summary": "Source revision: Fixes custom filenames for duration markers in the script labelled 4.1. This is not a published software release.",
+      "changes": [
+        "Source revision: Fixes custom filenames for duration markers in the script labelled 4.1. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/postflows/resolve-markers-to-render-queue/compare/e8be7924b74755a0cfd64e28519f30461d0ea751...1f5cdb6c83909c0f65b120a4dfd96d1314e971b1"
+        }
+      ]
+    },
     {
       "from": "331dc5776df572f5b59dd8bbf743d0792b169a44",
       "to": "e8be7924b74755a0cfd64e28519f30461d0ea751",

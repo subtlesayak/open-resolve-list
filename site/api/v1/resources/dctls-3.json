@@ -68,17 +68,44 @@
       "name": "MoazElgabry/DCTLs",
       "url": "https://github.com/MoazElgabry/DCTLs",
       "kind": "commit",
-      "version": "fe7f860751a483d56e24125ad2e3e84c6669d55d",
-      "source": "https://github.com/MoazElgabry/DCTLs/commit/fe7f860751a483d56e24125ad2e3e84c6669d55d",
-      "date": "2026-06-13T14:17:49Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+      "source": "https://github.com/MoazElgabry/DCTLs/commit/b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+      "date": "2026-09-28T07:12:58Z",
+      "checked_at": "2026-10-26T08:25:01.032Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     "releaseDate": null,
     "activityDate": "2026-09-28T07:15:03Z",
-    "stars": 68,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
-    "history": [],
+    "stars": 70,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "history": [
+      {
+        "name": "MoazElgabry/DCTLs",
+        "url": "https://github.com/MoazElgabry/DCTLs",
+        "from": "fe7f860751a483d56e24125ad2e3e84c6669d55d",
+        "to": "b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-09-28T07:12:58Z",
+        "source": "https://github.com/MoazElgabry/DCTLs/commit/b84b411e5cee217330a281bd4aec0b53b9f9ec71",
+        "summary": "Source revision: Adds split and saturation-mask DCTLs, revises the exposure chart and reorganizes the repository. This is not a published software release.",
+        "changes": [
+          "Source revision: Adds split and saturation-mask DCTLs, revises the exposure chart and reorganizes the repository. This is not a published software release."
+        ],
+        "changelogs": [
+          {
+            "label": "Verified source comparison",
+            "url": "https://github.com/MoazElgabry/DCTLs/compare/fe7f860751a483d56e24125ad2e3e84c6669d55d...b84b411e5cee217330a281bd4aec0b53b9f9ec71"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.0",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.0"

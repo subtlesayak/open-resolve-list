@@ -83,17 +83,44 @@
       "name": "Distortions81/DaVinci-Resolve-Container",
       "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
       "kind": "commit",
-      "version": "3a2831dc925133dc1613cc17a7501b15c7d01d6d",
-      "source": "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/3a2831dc925133dc1613cc17a7501b15c7d01d6d",
-      "date": "2026-09-10T14:24:51Z",
-      "checked_at": "2026-09-15T11:10:26.592Z"
+      "version": "9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+      "source": "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+      "date": "2026-09-22T05:48:42Z",
+      "checked_at": "2026-10-26T08:25:01.030Z",
+      "date_kind": "commit",
+      "note": "Source revision, not a published software release."
     },
     "releaseDate": null,
     "activityDate": "2026-09-22T05:48:44Z",
-    "stars": 2,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
-    "history": [],
+    "stars": 3,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "history": [
+      {
+        "name": "Distortions81/DaVinci-Resolve-Container",
+        "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
+        "from": "3a2831dc925133dc1613cc17a7501b15c7d01d6d",
+        "to": "9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-09-22T05:48:42Z",
+        "source": "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+        "summary": "Source revision: Adds an MCP launcher with AMD/NVIDIA detection and configurable container selection. This is not a published software release.",
+        "changes": [
+          "Source revision: Adds an MCP launcher with AMD/NVIDIA detection and configurable container selection. This is not a published software release."
+        ],
+        "changelogs": [
+          {
+            "label": "Verified source comparison",
+            "url": "https://github.com/Distortions81/DaVinci-Resolve-Container/compare/3a2831dc925133dc1613cc17a7501b15c7d01d6d...9e669d86eafb14bab58a96bc872ba7ab1cdd78df"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.22",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"

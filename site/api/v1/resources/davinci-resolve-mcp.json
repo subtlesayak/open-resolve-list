@@ -52,8 +52,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
-        "checked_at": "2026-10-08T09:11:00.642Z",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -70,17 +70,42 @@
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.9.0",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.9.0",
-      "date": "2026-10-06T01:56:43Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "v4.15.3",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
+      "date": "2026-10-23T11:24:58Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-10-06T01:56:43Z",
-    "activityDate": "2026-10-06T01:56:42Z",
-    "stars": 3405,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
+    "releaseDate": "2026-10-23T11:24:58Z",
+    "activityDate": "2026-10-23T11:24:58Z",
+    "stars": 3774,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
     "history": [
+      {
+        "name": "samuelgursky/davinci-resolve-mcp",
+        "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+        "from": "v4.9.0",
+        "to": "v4.15.3",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-23T11:24:58Z",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
+        "summary": "Adds subtitle database editing during this release range and improves conform-session safeguards, frame capture and large marker handling. v4.15.3 itself changes CI coverage, with no server behavior change.",
+        "changes": [
+          "Adds subtitle database editing during this release range and improves conform-session safeguards, frame capture and large marker handling. v4.15.3 itself changes CI coverage, with no server behavior change."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3"
+          },
+          {
+            "label": "Provider version history",
+            "url": "https://github.com/samuelgursky/davinci-resolve-mcp/blob/main/CHANGELOG.md"
+          }
+        ]
+      },
       {
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
@@ -253,6 +278,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.27",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"

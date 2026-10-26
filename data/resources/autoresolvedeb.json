@@ -36,8 +36,8 @@
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
   "stars": 30,
-  "last_pushed_at": "2026-10-02T21:01:50Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "last_pushed_at": "2026-10-08T19:26:37Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -53,10 +53,12 @@
     "name": "psygreg/autoresolvedeb",
     "url": "https://github.com/psygreg/autoresolvedeb",
     "kind": "commit",
-    "version": "7b403e1055c6db70ddd93aa18aa1d0433349957f",
-    "source": "https://github.com/psygreg/autoresolvedeb/commit/7b403e1055c6db70ddd93aa18aa1d0433349957f",
-    "date": "2026-09-11T16:21:02Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+    "source": "https://github.com/psygreg/autoresolvedeb/commit/2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+    "date": "2026-10-08T19:26:35Z",
+    "checked_at": "2026-10-26T08:25:01.028Z",
+    "date_kind": "commit",
+    "note": "Source revision, not a published software release."
   },
   "evidence": [
     {
@@ -83,6 +85,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "psygreg/autoresolvedeb",
+      "url": "https://github.com/psygreg/autoresolvedeb",
+      "from": "7b403e1055c6db70ddd93aa18aa1d0433349957f",
+      "to": "2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-08T19:26:35Z",
+      "source": "https://github.com/psygreg/autoresolvedeb/commit/2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+      "summary": "Source revision: Updates upstream packaging fixes and automatically installs plugins for Studio installations. This is not a published software release.",
+      "changes": [
+        "Source revision: Updates upstream packaging fixes and automatically installs plugins for Studio installations. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/psygreg/autoresolvedeb/compare/7b403e1055c6db70ddd93aa18aa1d0433349957f...2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e"
+        }
+      ]
+    },
     {
       "name": "psygreg/autoresolvedeb",
       "url": "https://github.com/psygreg/autoresolvedeb",

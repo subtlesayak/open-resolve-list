@@ -51,8 +51,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.3.0",
-        "checked_at": "2026-09-15T05:06:04.860Z",
+        "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2",
+        "checked_at": "2026-10-26T08:19:35.198Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -69,17 +69,48 @@
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",
       "kind": "stable-release",
-      "version": "v1.3.0",
-      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.3.0",
-      "date": "2026-09-05T05:48:38Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v1.7.2",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2",
+      "date": "2026-10-23T14:23:49Z",
+      "checked_at": "2026-10-26T08:19:35.198Z",
+      "date_kind": "release",
+      "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
-    "releaseDate": "2026-09-05T05:48:38Z",
-    "activityDate": "2026-10-08T09:03:15Z",
-    "stars": 77,
-    "metadataChecked": "2026-10-08T09:05:42.805Z",
-    "history": [],
+    "releaseDate": "2026-10-23T14:23:49Z",
+    "activityDate": "2026-10-23T17:29:08Z",
+    "stars": 78,
+    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "history": [
+      {
+        "name": "vulture-s/arkiv",
+        "url": "https://github.com/vulture-s/arkiv",
+        "from": "v1.3.0",
+        "to": "v1.7.2",
+        "release": "v1.28",
+        "catalogue_date": "2026-10-26",
+        "upstream_date": "2026-10-23T14:23:49Z",
+        "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2",
+        "summary": "Adds desktop library switching, first-run setup and drag-out clips, plus J/K/L playback controls and clearer failed-ingest reporting. Windows startup and placeholder-library display are corrected.",
+        "changes": [
+          "Adds desktop library switching, first-run setup and drag-out clips, plus J/K/L playback controls and clearer failed-ingest reporting. Windows startup and placeholder-library display are corrected."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2"
+          },
+          {
+            "label": "Provider version history",
+            "url": "https://github.com/vulture-s/arkiv/blob/main/CHANGELOG.md"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.28",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"
+      },
       {
         "version": "v1.1",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.1"

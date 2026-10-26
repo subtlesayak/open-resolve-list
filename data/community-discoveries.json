@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-08",
+  "checked_at": "2026-10-26",
   "baseline_count": 72,
-  "added_count": 182,
-  "total_count": 254,
+  "added_count": 183,
+  "total_count": 255,
   "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added. Follow-up 2026-09-08: targeted deeper search across eleven Reddit communities, accessible comments and highlighted threads; eleven external additions verified against original sources. This is not a complete archive or all-comments crawl. Follow-up 2026-09-15: accumulated sources revisited, including five GitHub directories, creator stores, Reactor and eleven Reddit communities. Direct Reddit feeds and some forums were inaccessible; indexed and selected rendered checks are partial. Only verified additions and provider changes are published.",
   "additions": [
     {
@@ -3070,7 +3070,7 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "category": "Community tools and resources",
-      "description": "Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Version 26.9.21 refines the UI and keeps excluded tracks out of the preview.",
+      "description": "Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Recent releases improve excluded-track ordering, negative timeline starts and stereo waveform display.",
       "access": "🆓 Up to 5 minutes; 💰 paid passes or perpetual license",
       "platforms": "🍎 macOS",
       "version": "26.9.21",
@@ -3615,6 +3615,25 @@
         "https://www.blackmagicdesign.com/support/"
       ],
       "checked_at": "2026-10-08"
+    },
+    {
+      "creator": "Nablast",
+      "name": "CrossFlow",
+      "url": "https://nablast.com/",
+      "category": "Community discoveries",
+      "access": "Paid one-time license; free trial limited to 10 clips per sequence",
+      "platforms": "Windows;macOS",
+      "description": "Moves Premiere projects into editable Resolve projects and returns graded clips to Premiere. Preserves supported timeline structures and renders unsupported effects through Media Encoder. Requires Resolve Studio 20+; Premiere/Media Encoder 25+ are needed for automatic preparation and return. Windows 10+ and macOS 12+ on Intel or Apple Silicon. Paid one-time license; trial is limited to 10 clips per sequence.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed original provider pages",
+      "sources": [
+        "https://nablast.com/",
+        "https://nablast.com/download/",
+        "https://www.reddit.com/r/blackmagicdesign/comments/1x93lc3/i_built_an_app_that_turns_a_premiere_pro_project/"
+      ],
+      "checked_at": "2026-10-26"
     }
   ],
   "held_candidates": [

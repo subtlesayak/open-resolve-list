@@ -36,7 +36,7 @@
   "research_snapshot": "2026-09-06",
   "stars": 0,
   "last_pushed_at": "2026-10-02T09:19:39Z",
-  "metadata_checked_at": "2026-10-08T09:05:42.805Z",
+  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
   "requirements": {
     "editions": [
       "Studio"
@@ -59,10 +59,12 @@
     "name": "postflows/resolve-find-clip-on-timelines",
     "url": "https://github.com/postflows/resolve-find-clip-on-timelines",
     "kind": "commit",
-    "version": "bf3ab8301dcd1553c3dded1686eab1ec971b3752",
-    "source": "https://github.com/postflows/resolve-find-clip-on-timelines/commit/bf3ab8301dcd1553c3dded1686eab1ec971b3752",
-    "date": "2026-03-11T17:59:14Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "29c883a474d14fb54747c2eccdd320e40fd19e12",
+    "source": "https://github.com/postflows/resolve-find-clip-on-timelines/commit/29c883a474d14fb54747c2eccdd320e40fd19e12",
+    "date": "2026-10-02T09:19:39Z",
+    "checked_at": "2026-10-26T08:25:01.036Z",
+    "date_kind": "commit",
+    "note": "Source revision, not a published software release."
   },
   "evidence": [
     {
@@ -93,7 +95,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "postflows/resolve-find-clip-on-timelines",
+      "url": "https://github.com/postflows/resolve-find-clip-on-timelines",
+      "from": "bf3ab8301dcd1553c3dded1686eab1ec971b3752",
+      "to": "29c883a474d14fb54747c2eccdd320e40fd19e12",
+      "release": "v1.28",
+      "catalogue_date": "2026-10-26",
+      "upstream_date": "2026-10-02T09:19:39Z",
+      "source": "https://github.com/postflows/resolve-find-clip-on-timelines/commit/29c883a474d14fb54747c2eccdd320e40fd19e12",
+      "summary": "Source revision: Fixes timeline names in the result tree, lists individual clip instances and seeks to an instance on double-click. Long drop-frame timelines can still have small navigation offsets. This is not a published software release.",
+      "changes": [
+        "Source revision: Fixes timeline names in the result tree, lists individual clip instances and seeks to an instance on double-click. Long drop-frame timelines can still have small navigation offsets. This is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Verified source comparison",
+          "url": "https://github.com/postflows/resolve-find-clip-on-timelines/compare/bf3ab8301dcd1553c3dded1686eab1ec971b3752...29c883a474d14fb54747c2eccdd320e40fd19e12"
+        }
+      ]
+    }
+  ],
   "legacy_id": "960f12d98924",
   "search_sources": [
     "https://github.com/postflows/resolve-find-clip-on-timelines"
