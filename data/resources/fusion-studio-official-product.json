@@ -21,8 +21,8 @@
     "host application",
     "official"
   ],
-  "description": "Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
-  "display_description": "Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
+  "description": "Standalone compositing application, version 21.2 release notes linked below. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
+  "display_description": "Standalone compositing application, version 21.2 release notes linked below. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
   "access": "💰 Licensed software",
   "accessGroup": "paid",
   "platforms": [
@@ -33,8 +33,8 @@
   "platform_notes": "🪟 Windows · 🍎 macOS · 🐧 Linux",
   "display_platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
   "display_platform_notes": "",
-  "platform_source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
-  "platform_checked_at": "2026-10-08",
+  "platform_source": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03",
+  "platform_checked_at": "2026-11-06",
   "research_snapshot": null,
   "stars": null,
   "last_pushed_at": null,
@@ -59,12 +59,12 @@
     "name": "Fusion Studio — official product",
     "url": "https://www.blackmagicdesign.com/products/fusion",
     "kind": "vendor-version",
-    "version": "21.1.1",
-    "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
-    "date": "2026-10-02T07:00:10.000Z",
+    "version": "21.2",
+    "source": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03",
+    "date": "2026-11-05T07:00:10.000Z",
     "date_kind": "release",
-    "checked_at": "2026-10-08T09:11:00.642Z",
-    "note": "Verified against official support feed and version-specific release notes."
+    "checked_at": "2026-11-06T08:18:50.375Z",
+    "note": "Original source reviewed; catalogue review date is separate from the release date."
   },
   "evidence": [
     {
@@ -77,8 +77,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
-      "checked_at": "2026-10-08T09:11:00.642Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "note": "Recorded version evidence, not installation testing."
     },
     {
@@ -97,6 +97,72 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "Fusion Studio — official product",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21.1.2",
+      "to": "21.2",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-05T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03",
+      "summary": "Updates Fusion tools and OGraf behavior, fixes animation and processing issues and improves performance and stability.",
+      "changes": [
+        "Fixes: control naming issue with custom tool and vertex.",
+        "Fixes: anchoring issue with border extension in Text+ CLS.",
+        "Fixes: tube create tool category.",
+        "Fixes: material viewer crash with software rendering.",
+        "OGraf inspector now shows up to 35 template properties.",
+        "Fixes: OGraf template loading from network and zipped paths.",
+        "Fixes: OGraf render timeout and memory usage issues.",
+        "Fixes: plastic light height control.",
+        "Fixes: issue changing random seed in Shake.",
+        "Fixes: script issues with AddTool and SetInput functions.",
+        "Fixes: issue reading video files with FFMpeg.",
+        "General performance and stability improvements."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03"
+        }
+      ]
+    },
+    {
+      "name": "Fusion Studio — official product",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21.1.1",
+      "to": "21.1.2",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-27T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/30e6d0796e0e4e6a8a41c840fa62e427",
+      "summary": "Updates Fusion tools and OGraf behavior, fixes animation and processing issues and improves performance and stability.",
+      "changes": [
+        "Fixes: channel names in Displace 3D.",
+        "Fixes: running some Lua scripts.",
+        "Fixes: memory issue with some Perspective Positioner settings.",
+        "Fixes: Mapped Duplicate 3D time mapping inputs.",
+        "Fixes: selecting multiple titles clearing text.",
+        "Fixes: dropdown controls not always creating undo events.",
+        "Fixes: Follower animation using expressions.",
+        "Fixes: very small erode dilate levels.",
+        "Fixes: Film Look Creator gate weave controls.",
+        "Fixes: some scripts on ARM64 systems.",
+        "Fixes: slow reading of large EXR headers.",
+        "Fixes: OGraf custom text field sizes.",
+        "Support OGraf dropdown choice parameters.",
+        "Support OGraf rendering on Linux.",
+        "Improved OGraf inspector action controls.",
+        "General performance and stability improvements."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/30e6d0796e0e4e6a8a41c840fa62e427"
+        }
+      ]
+    },
     {
       "name": "Fusion Studio",
       "url": "https://www.blackmagicdesign.com/products/fusion",

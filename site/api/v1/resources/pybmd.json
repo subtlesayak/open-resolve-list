@@ -51,8 +51,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
-        "checked_at": "2026-09-20T07:05:00Z",
+        "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -69,16 +69,38 @@
       "name": "WheheoHu/pybmd",
       "url": "https://github.com/WheheoHu/pybmd",
       "kind": "stable-release",
-      "version": "v2026.3.0",
-      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
-      "date": "2026-09-18T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v2026.4.0",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
+      "date": "2026-11-04T03:41:42Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-09-18T00:00:00Z",
-    "activityDate": "2026-09-18T09:50:10Z",
+    "releaseDate": "2026-11-04T03:41:42Z",
+    "activityDate": "2026-11-04T04:52:00Z",
     "stars": 37,
-    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
     "history": [
+      {
+        "name": "WheheoHu/pybmd",
+        "url": "https://github.com/WheheoHu/pybmd",
+        "from": "v2026.3.0",
+        "to": "v2026.4.0",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-11-04T03:41:42Z",
+        "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
+        "summary": "Adds photo album, photo item and effect wrappers, plus status polling for operations made asynchronous in Resolve 21.1.1/21.1.2.",
+        "changes": [
+          "Adds photo album, photo item and effect wrappers, plus status polling for operations made asynchronous in Resolve 21.1.1/21.1.2."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0"
+          }
+        ]
+      },
       {
         "from": "v2026.2.0",
         "to": "v2026.3.0",
@@ -99,6 +121,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.24",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.24"

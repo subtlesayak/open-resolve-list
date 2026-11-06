@@ -50,7 +50,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://docs.getjumper.io/release-notes/macos",
-        "checked_at": "2026-10-26T08:19:35.198Z",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -67,18 +67,42 @@
       "name": "Jumper",
       "url": "https://getjumper.io/",
       "kind": "vendor-version",
-      "version": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
+      "version": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
       "source": "https://docs.getjumper.io/release-notes/macos",
-      "date": "2026-10-09",
+      "date": "2026-10-28",
       "date_kind": "release",
-      "checked_at": "2026-10-26T08:19:35.198Z",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-09",
+    "releaseDate": "2026-10-28",
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
     "history": [
+      {
+        "name": "Jumper",
+        "url": "https://getjumper.io/",
+        "from": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
+        "to": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-10-28",
+        "source": "https://docs.getjumper.io/release-notes/macos",
+        "summary": "Adds current-timeline search and dragging matched ranges into Resolve and other NLEs, transcript exports and people-management controls. Fixes incorrect frame analysis in some Avid Op-Atom MXF media.",
+        "changes": [
+          "Adds current-timeline search and dragging matched ranges into Resolve and other NLEs, transcript exports and people-management controls. Fixes incorrect frame analysis in some Avid Op-Atom MXF media."
+        ],
+        "changelogs": [
+          {
+            "label": "macOS release notes",
+            "url": "https://docs.getjumper.io/release-notes/macos"
+          },
+          {
+            "label": "Windows release notes",
+            "url": "https://docs.getjumper.io/release-notes/windows"
+          }
+        ]
+      },
       {
         "name": "Jumper",
         "url": "https://getjumper.io/",

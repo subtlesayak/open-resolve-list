@@ -2,6 +2,584 @@
   "schema_version": 1,
   "entries": [
     {
+      "name": "vulture-s/arkiv",
+      "url": "https://github.com/vulture-s/arkiv",
+      "from": "v1.7.2",
+      "to": "v1.8.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-30T07:38:27Z",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
+      "summary": "Adds signed Pro-license import in Settings with offline verification, and improves loading resilience and library layout.",
+      "changes": [
+        "Adds signed Pro-license import in Settings with offline verification, and improves loading resilience and library layout."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0"
+        }
+      ]
+    },
+    {
+      "name": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.7.2",
+      "to": "31.8.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-30T01:50:12Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
+      "summary": "Adds subtitle burn-in and text generators, scale and rotation actions, audio convolution, polygon masks and timed keyframes; imports FCP7 dissolves and warns about export limitations.",
+      "changes": [
+        "Adds subtitle burn-in and text generators, scale and rotation actions, audio convolution, polygon masks and timed keyframes; imports FCP7 dissolves and warns about export limitations."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0"
+        }
+      ]
+    },
+    {
+      "name": "ynput/ayon-resolve",
+      "url": "https://github.com/ynput/ayon-resolve",
+      "from": "0.6.6",
+      "to": "0.6.7",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-30T13:06:10Z",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.7",
+      "summary": "Makes intermediate editorial-media reviewability configurable and preserves original media when no extraction profile matches.",
+      "changes": [
+        "Makes intermediate editorial-media reviewability configurable and preserves original media when no extraction profile matches."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.7"
+        }
+      ]
+    },
+    {
+      "name": "veritus-git/BadWords",
+      "url": "https://github.com/veritus-git/BadWords",
+      "from": "3.2.4",
+      "to": "4.0.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-06T00:11:07Z",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
+      "summary": "Adds standalone audio/video editing and timeline exports, bulk word selection and clearer cut marking; repairs fresh installations broken by an upstream PyAV change.",
+      "changes": [
+        "Adds standalone audio/video editing and timeline exports, bulk word selection and clearer cut marking; repairs fresh installations broken by an upstream PyAV change."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0"
+        }
+      ]
+    },
+    {
+      "name": "laurentchicoine/braw-pack",
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "from": "v0.3.0",
+      "to": "v0.4.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-28T01:26:34Z",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
+      "summary": "Adds Pyxis 6K and Cinema Camera 6K layouts, optional output filename suffixes and improved large-frame packing. macOS builds remain manually untested beta.",
+      "changes": [
+        "Adds Pyxis 6K and Cinema Camera 6K layouts, optional output filename suffixes and improved large-frame packing. macOS builds remain manually untested beta."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0"
+        }
+      ]
+    },
+    {
+      "name": "ciqueira/ColorEqualizer",
+      "url": "https://github.com/ciqueira/ColorEqualizer",
+      "from": "eq-v0.6.4",
+      "to": "eq-v0.6.5",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-03T22:22:00Z",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
+      "summary": "Updates the provider SDK. No detailed feature notes were published.",
+      "changes": [
+        "Updates the provider SDK. No detailed feature notes were published."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5"
+        }
+      ]
+    },
+    {
+      "name": "hoyt-harness/davinci-mcp-professional",
+      "url": "https://github.com/hoyt-harness/davinci-mcp-professional",
+      "from": "v5.0.1",
+      "to": "v5.1.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-31T19:36:09Z",
+      "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.1.0",
+      "summary": "Adds startup domain pre-activation and automatic recovery from stale Resolve scripting handles, alongside dependency updates.",
+      "changes": [
+        "Adds startup domain pre-activation and automatic recovery from stale Resolve scripting handles, alongside dependency updates."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.1.0"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.15.3",
+      "to": "v4.19.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-05T02:01:29Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
+      "summary": "Adds guarded offline speed-ramp writing, keyframed grades and Magic Mask click authoring. Some operations require Resolve to be closed and remain version-specific; eased ramps require Node 22.15+.",
+      "changes": [
+        "Adds guarded offline speed-ramp writing, keyframed grades and Magic Mask click authoring. Some operations require Resolve to be closed and remain version-specific; eased ramps require Node 22.15+."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0"
+        }
+      ]
+    },
+    {
+      "name": "Creative-Crafter/davinci-shortform-overlays",
+      "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
+      "from": "v1.2.0",
+      "to": "v1.3.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-28T19:18:35Z",
+      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.3.0",
+      "summary": "Adds a Snapchat Spotlight overlay.",
+      "changes": [
+        "Adds a Snapchat Spotlight overlay."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.3.0"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.13",
+      "to": "v1.14.2",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-02T17:52:19Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
+      "summary": "Fixes Linux startup on distributions without OpenEXR 3.1 and restores the AV1 HEIF decoder. macOS artifacts remain 1.14.1; Linux app and plugin remain alpha.",
+      "changes": [
+        "Fixes Linux startup on distributions without OpenEXR 3.1 and restores the AV1 HEIF decoder. macOS artifacts remain 1.14.1; Linux app and plugin remain alpha."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2"
+        }
+      ]
+    },
+    {
+      "name": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "from": "v1.40.1",
+      "to": "v1.41.1",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-01T23:01:55Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
+      "summary": "Clarifies that application updates open the product page rather than replacing the app, and only shows an update badge when both versions are known.",
+      "changes": [
+        "Clarifies that application updates open the product page rather than replacing the app, and only shows an update badge when both versions are known."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1"
+        }
+      ]
+    },
+    {
+      "name": "OSideMedia/oside-resolve-mcp",
+      "url": "https://github.com/OSideMedia/oside-resolve-mcp",
+      "from": "v0.6.1",
+      "to": "v0.8.3",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-01T04:34:32Z",
+      "source": "https://github.com/OSideMedia/oside-resolve-mcp/releases/tag/v0.8.3",
+      "summary": "Adds project-bound SFX spotting plans, timeline snapshots and collision/readback checks; strengthens template privacy checks and recovery after partial writes.",
+      "changes": [
+        "Adds project-bound SFX spotting plans, timeline snapshots and collision/readback checks; strengthens template privacy checks and recovery after partial writes."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/OSideMedia/oside-resolve-mcp/releases/tag/v0.8.3"
+        }
+      ]
+    },
+    {
+      "name": "WheheoHu/pybmd",
+      "url": "https://github.com/WheheoHu/pybmd",
+      "from": "v2026.3.0",
+      "to": "v2026.4.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-04T03:41:42Z",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
+      "summary": "Adds photo album, photo item and effect wrappers, plus status polling for operations made asynchronous in Resolve 21.1.1/21.1.2.",
+      "changes": [
+        "Adds photo album, photo item and effect wrappers, plus status polling for operations made asynchronous in Resolve 21.1.1/21.1.2."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0"
+        }
+      ]
+    },
+    {
+      "name": "lightsailvr/ResolveOFX_NDIOutput",
+      "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+      "from": "v1.17.0",
+      "to": "v1.18.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-29T16:19:59Z",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.18.0",
+      "summary": "Renames the plugin to VR.NDI Sender and adds ILPD camera metadata input. Existing default stream names change; custom names and project identifiers are retained.",
+      "changes": [
+        "Renames the plugin to VR.NDI Sender and adds ILPD camera metadata input. Existing default stream names change; custom names and project identifiers are retained."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.18.0"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.6.1",
+      "to": "v0.6.4",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-05T14:49:04Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
+      "summary": "Adds optional local/S3 archive storage with restoration and age policies, hardens access controls and improves MCP deployment handling and web caching.",
+      "changes": [
+        "Adds optional local/S3 archive storage with restoration and age policies, hardens access controls and improves MCP deployment handling and web caching."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4"
+        }
+      ]
+    },
+    {
+      "name": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "from": "v3.3.7",
+      "to": "v3.3.9",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-02T14:03:37Z",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
+      "summary": "Fixes subtitle boundary overlaps when characters share a frame, merges unsafe zero-duration splits and improves alignment diagnostics.",
+      "changes": [
+        "Fixes subtitle boundary overlaps when characters share a frame, merges unsafe zero-duration splits and improves alignment diagnostics."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9"
+        }
+      ]
+    },
+    {
+      "name": "JaySNL/VSTForResolveLinux",
+      "url": "https://github.com/JaySNL/VSTForResolveLinux",
+      "from": "v0.3.0.1",
+      "to": "v0.3.1",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-03T13:24:47Z",
+      "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.1",
+      "summary": "Adds Resolve 21.1.2 support by discovering audio-effect member offsets. The provider reports an antivirus detection; that claim has not been independently assessed. The separate 0.3.1.1 fixed-offset build supports 21.1.2 only.",
+      "changes": [
+        "Adds Resolve 21.1.2 support by discovering audio-effect member offsets. The provider reports an antivirus detection; that claim has not been independently assessed. The separate 0.3.1.1 fixed-offset build supports 21.1.2 only."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.1"
+        }
+      ]
+    },
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
+      "from": "26.10.03",
+      "to": "26.11.01",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-05",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Adds a legacy AAF mode for Pro Tools 12-era systems, includes delivery settings in reports, improves help and diagnostics, and prepares smaller differential updates.",
+      "changes": [
+        "Adds a legacy AAF mode for Pro Tools 12-era systems, includes delivery settings in reports, improves help and diagnostics, and prepares smaller differential updates."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
+    {
+      "name": "Jumper",
+      "url": "https://getjumper.io/",
+      "from": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
+      "to": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-28",
+      "source": "https://docs.getjumper.io/release-notes/macos",
+      "summary": "Adds current-timeline search and dragging matched ranges into Resolve and other NLEs, transcript exports and people-management controls. Fixes incorrect frame analysis in some Avid Op-Atom MXF media.",
+      "changes": [
+        "Adds current-timeline search and dragging matched ranges into Resolve and other NLEs, transcript exports and people-management controls. Fixes incorrect frame analysis in some Avid Op-Atom MXF media."
+      ],
+      "changelogs": [
+        {
+          "label": "macOS release notes",
+          "url": "https://docs.getjumper.io/release-notes/macos"
+        },
+        {
+          "label": "Windows release notes",
+          "url": "https://docs.getjumper.io/release-notes/windows"
+        }
+      ]
+    },
+    {
+      "name": "DaVinci Resolve — official downloads",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "from": "21.1.1",
+      "to": "21.1.2",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-27T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/be08842994c94d999da4ab052d0a2b2a",
+      "summary": "Updates edit-point and timeline controls, metadata, OGraf graphics and scripting, with media, monitoring and collaboration fixes.",
+      "changes": [
+        "Select nearest edit point type prioritizes selected edit points.",
+        "Lasso selecting edit points can now enter dynamic trim automatically.",
+        "Selecting edit points for gaps now activates trim editor.",
+        "Timeline view option to display current clip indicator.",
+        "Option to show loudness meters in the edit mixer.",
+        "Project settings option to disable DNG lens correction.",
+        "OGraf clips now use action durations to place stop actions.",
+        "Up to 4x faster OGraf playback in edit and Fusion pages.",
+        "Adds support: OGraf select and multi-select template controls.",
+        "OGraf responsive templates now adapt to timeline aspect ratio.",
+        "Adds support: OGraf and Lottie graphics on Linux.",
+        "Improved HDR global wheel trackball sensitivity on color panels.",
+        "Fast Noise option to follow the FX tracker.",
+        "Fixes: double squeezed anamorphic video output in Fusion.",
+        "Fixes: Follower animation using expressions.",
+        "Fixes: overlay issues with SDI and remote monitoring.",
+        "Fixes: searches in a smart bin.",
+        "Fixes: empty folder in user directory when loading DRP files.",
+        "Fixes: selecting multiple titles and subtitles.",
+        "Fixes: timeline in-out range issues in collaboration projects.",
+        "Fixes: Quick Export not using selected trim pass grade.",
+        "Fixes: geometry thumbnails in the media pool.",
+        "Fixes: Recent 5 Mins mode inserting full clips.",
+        "Fixes: loudness meter not resetting after Cut page scrubbing.",
+        "General performance and stability improvements.",
+        "Studio: Up to 14x faster IntelliSearch analysis on M6 with macOS 27.",
+        "Studio: Improved AI tool performance on Intel platforms.",
+        "Studio: Improved disk space usage for Magic Mask caches.",
+        "Studio: Multiple scripting API improvements.",
+        "Studio: Fixes: Film Look Creator gate weave controls.",
+        "Studio: Fixes: HDR Vivid metadata issues in imported CPL timelines.",
+        "Studio: Fixes: Speech Generator disk usage and speed on macOS 27.",
+        "Studio: Fixes: issues with Music Remixer on macOS 27.",
+        "Studio: Fixes: render failures for in-out ranges with Magic Mask clips."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/be08842994c94d999da4ab052d0a2b2a"
+        },
+        {
+          "label": "Studio release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/1dcfa6f38ebc4031a3a8561eea3aeee3"
+        }
+      ]
+    },
+    {
+      "name": "Fusion Studio — official product",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21.1.1",
+      "to": "21.1.2",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-27T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/30e6d0796e0e4e6a8a41c840fa62e427",
+      "summary": "Updates Fusion tools and OGraf behavior, fixes animation and processing issues and improves performance and stability.",
+      "changes": [
+        "Fixes: channel names in Displace 3D.",
+        "Fixes: running some Lua scripts.",
+        "Fixes: memory issue with some Perspective Positioner settings.",
+        "Fixes: Mapped Duplicate 3D time mapping inputs.",
+        "Fixes: selecting multiple titles clearing text.",
+        "Fixes: dropdown controls not always creating undo events.",
+        "Fixes: Follower animation using expressions.",
+        "Fixes: very small erode dilate levels.",
+        "Fixes: Film Look Creator gate weave controls.",
+        "Fixes: some scripts on ARM64 systems.",
+        "Fixes: slow reading of large EXR headers.",
+        "Fixes: OGraf custom text field sizes.",
+        "Support OGraf dropdown choice parameters.",
+        "Support OGraf rendering on Linux.",
+        "Improved OGraf inspector action controls.",
+        "General performance and stability improvements."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/30e6d0796e0e4e6a8a41c840fa62e427"
+        }
+      ]
+    },
+    {
+      "name": "DaVinci Resolve — official downloads",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "from": "21.1.2",
+      "to": "21.2",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-05T07:00:11.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/801a108506a54a908ffcd497f13b60de",
+      "summary": "Updates edit-point and timeline controls, metadata, OGraf graphics and scripting, with media, monitoring and collaboration fixes.",
+      "changes": [
+        "Adds support: Apple MacBook Pro with PROLED XDR touch screens.",
+        "Adds support: Blackmagic Design Gen 6 LUTs.",
+        "Extracted audio files now retain source timecode.",
+        "Multicam clips now open as source clips in source timelines.",
+        "Open in Timeline with Source Viewer supports clips and multicams.",
+        "Menu action and shortcut to restore last active edit points.",
+        "Command or Ctrl marquee selection now uses last edit point type.",
+        "Conform lock multiple timeline clips to one media pool clip.",
+        "Convert in out to compound clip replaces clips in situ.",
+        "Separate context action to create compound clip from in out range.",
+        "Stop playback option applies to playhead nudges and mouse clicks.",
+        "Edit menu options now persist after UI layout reset.",
+        "Adds support: EXIF metadata in PNG files.",
+        "Fixes: network drive audio issues for some MXF clips.",
+        "Fixes: slow MP3 audio only renders.",
+        "Fixes: missing clips in some AAF imports.",
+        "Fixes: incorrect audio timecode for AAF with interlaced media.",
+        "Fixes: OGraf template loading from network and zipped paths.",
+        "Fixes: OGraf render timeouts and memory usage issues.",
+        "Fixes: slow loading of media from XDCAM drives.",
+        "Fixes: flashing media offline frames with some H.265 clips.",
+        "Fixes: source track changes in collaboration source timelines.",
+        "Fixes: hang editing MultiText keyframes during render cache.",
+        "Fixes: issues with italics in imported TTML subtitles.",
+        "Fixes: data burn scaling issues for render resolutions.",
+        "Fixes: HE-AAC decode issues for some clips on Windows.",
+        "Fixes: incorrect channel order for WAV files with iXML tracks.",
+        "Fixes: crash decoding some multi-channel DNG files.",
+        "Fixes: render in place handles for frame based formats.",
+        "Fixes: audio input device preference reset after restart.",
+        "Fixes: GPU memory error for some OpenFX on Windows.",
+        "Fixes: artifacts in Sony XAVC Long GOP MXF renders.",
+        "Fixes: missing Text+ inspector controls in older projects.",
+        "Fixes: anchoring issue with Text+ CLS box extend controls.",
+        "Fixes: issues with CustomTool LUT name controls.",
+        "Fixes: clip EQ pasted Q and frequency attributes.",
+        "Fixes: ACES 2.0 artifacts on Windows and Linux.",
+        "Fixes: network paths with accented characters on macOS 27.",
+        "Fixes: file size estimates for spanned RED clips.",
+        "Updated Fusion tool and scripting reference developer documents.",
+        "General performance and stability improvements.",
+        "Studio: ResolveFX False Color support for Gen 5 and Gen 6 color science.",
+        "Studio: Improved AI assistant color and Fusion capabilities.",
+        "Studio: AI assistants can download extras needed for advanced features.",
+        "Studio: AI assistants can export frames or order thumbnails as grid.",
+        "Studio: Multiple scripting API improvements.",
+        "Studio: Fixes: loss of OpenFX from MultiMaster trim groups on reload.",
+        "Studio: Fixes: MainConcept H.265 CRF render crash."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/801a108506a54a908ffcd497f13b60de"
+        },
+        {
+          "label": "Studio release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/630fd2cb208a46df9493de661a76628a"
+        }
+      ]
+    },
+    {
+      "name": "Fusion Studio — official product",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21.1.2",
+      "to": "21.2",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-05T07:00:10.000Z",
+      "source": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03",
+      "summary": "Updates Fusion tools and OGraf behavior, fixes animation and processing issues and improves performance and stability.",
+      "changes": [
+        "Fixes: control naming issue with custom tool and vertex.",
+        "Fixes: anchoring issue with border extension in Text+ CLS.",
+        "Fixes: tube create tool category.",
+        "Fixes: material viewer crash with software rendering.",
+        "OGraf inspector now shows up to 35 template properties.",
+        "Fixes: OGraf template loading from network and zipped paths.",
+        "Fixes: OGraf render timeout and memory usage issues.",
+        "Fixes: plastic light height control.",
+        "Fixes: issue changing random seed in Shake.",
+        "Fixes: script issues with AddTool and SetInput functions.",
+        "Fixes: issue reading video files with FFMpeg.",
+        "General performance and stability improvements."
+      ],
+      "changelogs": [
+        {
+          "label": "Official release notes",
+          "url": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03"
+        }
+      ]
+    },
+    {
       "name": "psygreg/autoresolvedeb",
       "url": "https://github.com/psygreg/autoresolvedeb",
       "from": "7b403e1055c6db70ddd93aa18aa1d0433349957f",

@@ -38,9 +38,9 @@
   "platform_source": "https://github.com/samuelgursky/davinci-resolve-mcp#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 3774,
-  "last_pushed_at": "2026-10-23T11:24:58Z",
-  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
+  "stars": 3957,
+  "last_pushed_at": "2026-11-05T14:06:53Z",
+  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -56,12 +56,12 @@
     "name": "samuelgursky/davinci-resolve-mcp",
     "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
     "kind": "stable-release",
-    "version": "v4.15.3",
-    "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
-    "date": "2026-10-23T11:24:58Z",
-    "checked_at": "2026-10-26T08:19:35.198Z",
+    "version": "v4.19.0",
+    "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
+    "date": "2026-11-05T02:01:29Z",
+    "checked_at": "2026-11-06T08:18:50.375Z",
     "date_kind": "release",
-    "note": "Original provider evidence reviewed; review date is separate from product release date."
+    "note": "Original source reviewed; catalogue review date is separate from the release date."
   },
   "evidence": [
     {
@@ -74,8 +74,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -88,6 +88,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.15.3",
+      "to": "v4.19.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-05T02:01:29Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
+      "summary": "Adds guarded offline speed-ramp writing, keyframed grades and Magic Mask click authoring. Some operations require Resolve to be closed and remain version-specific; eased ramps require Node 22.15+.",
+      "changes": [
+        "Adds guarded offline speed-ramp writing, keyframed grades and Magic Mask click authoring. Some operations require Resolve to be closed and remain version-specific; eased ramps require Node 22.15+."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0"
+        }
+      ]
+    },
     {
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",

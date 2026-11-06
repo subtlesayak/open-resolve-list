@@ -37,8 +37,8 @@
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
   "stars": 1,
-  "last_pushed_at": "2026-10-23T22:16:24Z",
-  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
+  "last_pushed_at": "2026-11-06T02:54:44Z",
+  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -56,12 +56,12 @@
     "name": "gordasgdc/gdc-plugin-manager",
     "url": "https://github.com/gordasgdc/gdc-plugin-manager",
     "kind": "stable-release",
-    "version": "v1.40.1",
-    "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
-    "date": "2026-10-09T03:44:31Z",
-    "checked_at": "2026-10-26T08:19:35.198Z",
+    "version": "v1.41.1",
+    "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
+    "date": "2026-11-01T23:01:55Z",
+    "checked_at": "2026-11-06T08:18:50.375Z",
     "date_kind": "release",
-    "note": "Original provider evidence reviewed; review date is separate from product release date."
+    "note": "Original source reviewed; catalogue review date is separate from the release date."
   },
   "evidence": [
     {
@@ -81,8 +81,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "note": "Recorded provider release evidence, not installation testing."
     }
   ],
@@ -94,6 +94,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "from": "v1.40.1",
+      "to": "v1.41.1",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-01T23:01:55Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
+      "summary": "Clarifies that application updates open the product page rather than replacing the app, and only shows an update badge when both versions are known.",
+      "changes": [
+        "Clarifies that application updates open the product page rather than replacing the app, and only shows an update badge when both versions are known."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1"
+        }
+      ]
+    },
     {
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",

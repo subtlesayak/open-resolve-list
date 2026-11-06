@@ -35,9 +35,9 @@
   "platform_source": "https://github.com/psygreg/autoresolvedeb#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 30,
-  "last_pushed_at": "2026-10-08T19:26:37Z",
-  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
+  "stars": 31,
+  "last_pushed_at": "2026-10-31T00:09:12Z",
+  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
   "requirements": {
     "editions": [],
     "resolve": [],

@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/veritus-git/BadWords#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 43,
-  "last_pushed_at": "2026-10-01T21:18:33Z",
-  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
+  "stars": 44,
+  "last_pushed_at": "2026-11-06T00:27:27Z",
+  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,10 +55,12 @@
     "name": "veritus-git/BadWords",
     "url": "https://github.com/veritus-git/BadWords",
     "kind": "stable-release",
-    "version": "3.2.4",
-    "source": "https://github.com/veritus-git/BadWords/releases/tag/3.2.4",
-    "date": "2026-07-30T23:17:17Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "4.0.0",
+    "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
+    "date": "2026-11-06T00:11:07Z",
+    "checked_at": "2026-11-06T08:18:50.375Z",
+    "date_kind": "release",
+    "note": "Original source reviewed; catalogue review date is separate from the release date."
   },
   "evidence": [
     {
@@ -71,8 +73,8 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/veritus-git/BadWords/releases/tag/3.2.4",
-      "checked_at": "2026-09-15T05:06:04.860Z",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "note": "Recorded version evidence, not installation testing."
     },
     {
@@ -90,7 +92,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "veritus-git/BadWords",
+      "url": "https://github.com/veritus-git/BadWords",
+      "from": "3.2.4",
+      "to": "4.0.0",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-11-06T00:11:07Z",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
+      "summary": "Adds standalone audio/video editing and timeline exports, bulk word selection and clearer cut marking; repairs fresh installations broken by an upstream PyAV change.",
+      "changes": [
+        "Adds standalone audio/video editing and timeline exports, bulk word selection and clearer cut marking; repairs fresh installations broken by an upstream PyAV change."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0"
+        }
+      ]
+    }
+  ],
   "legacy_id": "86069ddd4264",
   "search_sources": [
     "https://github.com/veritus-git/BadWords"

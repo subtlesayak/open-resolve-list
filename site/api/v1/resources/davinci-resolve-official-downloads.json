@@ -19,7 +19,7 @@
       "official",
       "video editor"
     ],
-    "description": "Official Resolve and Studio 21.1.1 downloads, released October 2, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1.1 projects cannot reopen in 20.3.2.",
+    "description": "Official Resolve and Studio 21.2 downloads, release notes linked below. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.2 projects cannot reopen in 20.3.2.",
     "access": "🆓 Free edition; 💰 Studio license",
     "accessGroup": "mixed",
     "platforms": [
@@ -35,8 +35,8 @@
       ],
       "resolve": [
         {
-          "min": "21.1.1",
-          "max": "21.1.1"
+          "min": "21.2",
+          "max": "21.2"
         }
       ],
       "architectures": [],
@@ -58,8 +58,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
-        "checked_at": "2026-10-08T09:11:00.642Z",
+        "source": "https://www.blackmagicdesign.com/support/readme/801a108506a54a908ffcd497f13b60de",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded version evidence, not installation testing."
       },
       {
@@ -81,18 +81,146 @@
       "name": "DaVinci Resolve — official downloads",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve",
       "kind": "vendor-version",
-      "version": "21.1.1",
-      "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
-      "date": "2026-10-02T07:00:10.000Z",
+      "version": "21.2",
+      "source": "https://www.blackmagicdesign.com/support/readme/801a108506a54a908ffcd497f13b60de",
+      "date": "2026-11-05T07:00:11.000Z",
       "date_kind": "release",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "note": "Verified against official support feed and version-specific release notes."
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-02T07:00:10.000Z",
+    "releaseDate": "2026-11-05T07:00:11.000Z",
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
     "history": [
+      {
+        "name": "DaVinci Resolve — official downloads",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+        "from": "21.1.2",
+        "to": "21.2",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-11-05T07:00:11.000Z",
+        "source": "https://www.blackmagicdesign.com/support/readme/801a108506a54a908ffcd497f13b60de",
+        "summary": "Updates edit-point and timeline controls, metadata, OGraf graphics and scripting, with media, monitoring and collaboration fixes.",
+        "changes": [
+          "Adds support: Apple MacBook Pro with PROLED XDR touch screens.",
+          "Adds support: Blackmagic Design Gen 6 LUTs.",
+          "Extracted audio files now retain source timecode.",
+          "Multicam clips now open as source clips in source timelines.",
+          "Open in Timeline with Source Viewer supports clips and multicams.",
+          "Menu action and shortcut to restore last active edit points.",
+          "Command or Ctrl marquee selection now uses last edit point type.",
+          "Conform lock multiple timeline clips to one media pool clip.",
+          "Convert in out to compound clip replaces clips in situ.",
+          "Separate context action to create compound clip from in out range.",
+          "Stop playback option applies to playhead nudges and mouse clicks.",
+          "Edit menu options now persist after UI layout reset.",
+          "Adds support: EXIF metadata in PNG files.",
+          "Fixes: network drive audio issues for some MXF clips.",
+          "Fixes: slow MP3 audio only renders.",
+          "Fixes: missing clips in some AAF imports.",
+          "Fixes: incorrect audio timecode for AAF with interlaced media.",
+          "Fixes: OGraf template loading from network and zipped paths.",
+          "Fixes: OGraf render timeouts and memory usage issues.",
+          "Fixes: slow loading of media from XDCAM drives.",
+          "Fixes: flashing media offline frames with some H.265 clips.",
+          "Fixes: source track changes in collaboration source timelines.",
+          "Fixes: hang editing MultiText keyframes during render cache.",
+          "Fixes: issues with italics in imported TTML subtitles.",
+          "Fixes: data burn scaling issues for render resolutions.",
+          "Fixes: HE-AAC decode issues for some clips on Windows.",
+          "Fixes: incorrect channel order for WAV files with iXML tracks.",
+          "Fixes: crash decoding some multi-channel DNG files.",
+          "Fixes: render in place handles for frame based formats.",
+          "Fixes: audio input device preference reset after restart.",
+          "Fixes: GPU memory error for some OpenFX on Windows.",
+          "Fixes: artifacts in Sony XAVC Long GOP MXF renders.",
+          "Fixes: missing Text+ inspector controls in older projects.",
+          "Fixes: anchoring issue with Text+ CLS box extend controls.",
+          "Fixes: issues with CustomTool LUT name controls.",
+          "Fixes: clip EQ pasted Q and frequency attributes.",
+          "Fixes: ACES 2.0 artifacts on Windows and Linux.",
+          "Fixes: network paths with accented characters on macOS 27.",
+          "Fixes: file size estimates for spanned RED clips.",
+          "Updated Fusion tool and scripting reference developer documents.",
+          "General performance and stability improvements.",
+          "Studio: ResolveFX False Color support for Gen 5 and Gen 6 color science.",
+          "Studio: Improved AI assistant color and Fusion capabilities.",
+          "Studio: AI assistants can download extras needed for advanced features.",
+          "Studio: AI assistants can export frames or order thumbnails as grid.",
+          "Studio: Multiple scripting API improvements.",
+          "Studio: Fixes: loss of OpenFX from MultiMaster trim groups on reload.",
+          "Studio: Fixes: MainConcept H.265 CRF render crash."
+        ],
+        "changelogs": [
+          {
+            "label": "Official release notes",
+            "url": "https://www.blackmagicdesign.com/support/readme/801a108506a54a908ffcd497f13b60de"
+          },
+          {
+            "label": "Studio release notes",
+            "url": "https://www.blackmagicdesign.com/support/readme/630fd2cb208a46df9493de661a76628a"
+          }
+        ]
+      },
+      {
+        "name": "DaVinci Resolve — official downloads",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+        "from": "21.1.1",
+        "to": "21.1.2",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-10-27T07:00:10.000Z",
+        "source": "https://www.blackmagicdesign.com/support/readme/be08842994c94d999da4ab052d0a2b2a",
+        "summary": "Updates edit-point and timeline controls, metadata, OGraf graphics and scripting, with media, monitoring and collaboration fixes.",
+        "changes": [
+          "Select nearest edit point type prioritizes selected edit points.",
+          "Lasso selecting edit points can now enter dynamic trim automatically.",
+          "Selecting edit points for gaps now activates trim editor.",
+          "Timeline view option to display current clip indicator.",
+          "Option to show loudness meters in the edit mixer.",
+          "Project settings option to disable DNG lens correction.",
+          "OGraf clips now use action durations to place stop actions.",
+          "Up to 4x faster OGraf playback in edit and Fusion pages.",
+          "Adds support: OGraf select and multi-select template controls.",
+          "OGraf responsive templates now adapt to timeline aspect ratio.",
+          "Adds support: OGraf and Lottie graphics on Linux.",
+          "Improved HDR global wheel trackball sensitivity on color panels.",
+          "Fast Noise option to follow the FX tracker.",
+          "Fixes: double squeezed anamorphic video output in Fusion.",
+          "Fixes: Follower animation using expressions.",
+          "Fixes: overlay issues with SDI and remote monitoring.",
+          "Fixes: searches in a smart bin.",
+          "Fixes: empty folder in user directory when loading DRP files.",
+          "Fixes: selecting multiple titles and subtitles.",
+          "Fixes: timeline in-out range issues in collaboration projects.",
+          "Fixes: Quick Export not using selected trim pass grade.",
+          "Fixes: geometry thumbnails in the media pool.",
+          "Fixes: Recent 5 Mins mode inserting full clips.",
+          "Fixes: loudness meter not resetting after Cut page scrubbing.",
+          "General performance and stability improvements.",
+          "Studio: Up to 14x faster IntelliSearch analysis on M6 with macOS 27.",
+          "Studio: Improved AI tool performance on Intel platforms.",
+          "Studio: Improved disk space usage for Magic Mask caches.",
+          "Studio: Multiple scripting API improvements.",
+          "Studio: Fixes: Film Look Creator gate weave controls.",
+          "Studio: Fixes: HDR Vivid metadata issues in imported CPL timelines.",
+          "Studio: Fixes: Speech Generator disk usage and speed on macOS 27.",
+          "Studio: Fixes: issues with Music Remixer on macOS 27.",
+          "Studio: Fixes: render failures for in-out ranges with Magic Mask clips."
+        ],
+        "changelogs": [
+          {
+            "label": "Official release notes",
+            "url": "https://www.blackmagicdesign.com/support/readme/be08842994c94d999da4ab052d0a2b2a"
+          },
+          {
+            "label": "Studio release notes",
+            "url": "https://www.blackmagicdesign.com/support/readme/1dcfa6f38ebc4031a3a8561eea3aeee3"
+          }
+        ]
+      },
       {
         "name": "DaVinci Resolve / Studio",
         "url": "https://www.blackmagicdesign.com/products/davinciresolve",

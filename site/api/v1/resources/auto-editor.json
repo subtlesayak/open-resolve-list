@@ -40,8 +40,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
-        "checked_at": "2026-10-08T09:11:00.642Z",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded version evidence, not installation testing."
       },
       {
@@ -66,17 +66,38 @@
       "name": "WyattBlue/auto-editor",
       "url": "https://github.com/WyattBlue/auto-editor",
       "kind": "stable-release",
-      "version": "31.7.2",
-      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
-      "date": "2026-10-03T02:04:36Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "31.8.0",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
+      "date": "2026-10-30T01:50:12Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-03T02:04:36Z",
-    "activityDate": "2026-10-26T03:55:31Z",
-    "stars": 5633,
-    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "releaseDate": "2026-10-30T01:50:12Z",
+    "activityDate": "2026-11-06T04:55:41Z",
+    "stars": 5791,
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
     "history": [
+      {
+        "name": "WyattBlue/auto-editor",
+        "url": "https://github.com/WyattBlue/auto-editor",
+        "from": "31.7.2",
+        "to": "31.8.0",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-10-30T01:50:12Z",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
+        "summary": "Adds subtitle burn-in and text generators, scale and rotation actions, audio convolution, polygon masks and timed keyframes; imports FCP7 dissolves and warns about export limitations.",
+        "changes": [
+          "Adds subtitle burn-in and text generators, scale and rotation actions, audio convolution, polygon masks and timed keyframes; imports FCP7 dissolves and warns about export limitations."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0"
+          }
+        ]
+      },
       {
         "name": "WyattBlue/auto-editor",
         "url": "https://github.com/WyattBlue/auto-editor",
@@ -123,6 +144,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.27",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.27"

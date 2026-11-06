@@ -51,8 +51,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.0.1",
-        "checked_at": "2026-09-15T05:06:04.860Z",
+        "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.1.0",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -69,17 +69,44 @@
       "name": "hoyt-harness/davinci-mcp-professional",
       "url": "https://github.com/hoyt-harness/davinci-mcp-professional",
       "kind": "stable-release",
-      "version": "v5.0.1",
-      "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.0.1",
-      "date": "2026-09-01T00:43:52Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v5.1.0",
+      "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.1.0",
+      "date": "2026-10-31T19:36:09Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-09-01T00:43:52Z",
-    "activityDate": "2026-10-10T16:51:08Z",
-    "stars": 25,
-    "metadataChecked": "2026-10-26T08:12:17.207Z",
-    "history": [],
+    "releaseDate": "2026-10-31T19:36:09Z",
+    "activityDate": "2026-10-31T19:36:08Z",
+    "stars": 26,
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
+    "history": [
+      {
+        "name": "hoyt-harness/davinci-mcp-professional",
+        "url": "https://github.com/hoyt-harness/davinci-mcp-professional",
+        "from": "v5.0.1",
+        "to": "v5.1.0",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-10-31T19:36:09Z",
+        "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.1.0",
+        "summary": "Adds startup domain pre-activation and automatic recovery from stale Resolve scripting handles, alongside dependency updates.",
+        "changes": [
+          "Adds startup domain pre-activation and automatic recovery from stale Resolve scripting handles, alongside dependency updates."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.1.0"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.0",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.0"

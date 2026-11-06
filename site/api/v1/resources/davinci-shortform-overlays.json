@@ -53,8 +53,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
-        "checked_at": "2026-10-26T08:19:35.198Z",
+        "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.3.0",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -71,18 +71,38 @@
       "name": "Creative-Crafter/davinci-shortform-overlays",
       "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
       "kind": "stable-release",
-      "version": "v1.2.0",
-      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
-      "date": "2026-10-13T18:27:21Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v1.3.0",
+      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.3.0",
+      "date": "2026-10-28T19:18:35Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-13T18:27:21Z",
-    "activityDate": "2026-10-13T18:27:36Z",
-    "stars": 10,
-    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "releaseDate": "2026-10-28T19:18:35Z",
+    "activityDate": "2026-10-28T19:18:35Z",
+    "stars": 12,
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
     "history": [
+      {
+        "name": "Creative-Crafter/davinci-shortform-overlays",
+        "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
+        "from": "v1.2.0",
+        "to": "v1.3.0",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-10-28T19:18:35Z",
+        "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.3.0",
+        "summary": "Adds a Snapchat Spotlight overlay.",
+        "changes": [
+          "Adds a Snapchat Spotlight overlay."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.3.0"
+          }
+        ]
+      },
       {
         "name": "Creative-Crafter/davinci-shortform-overlays",
         "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
@@ -105,6 +125,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

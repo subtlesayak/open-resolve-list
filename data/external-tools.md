@@ -69,7 +69,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 Blackmagic Design
 
-| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Official Resolve and Studio 21.1.1 downloads, released October 2, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1.1 projects cannot reopen in 20.3.2. |
+| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Official Resolve and Studio 21.2 downloads, release notes linked below. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.2 projects cannot reopen in 20.3.2. |
 
 #### 👤 Blackmagic Design
 
@@ -125,7 +125,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 Blackmagic Design
 
-| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | 💰 Licensed software | 🪟 Windows · 🍎 macOS · 🐧 Linux | Standalone compositing application, version 21.1.1 released October 2, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required. |
+| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | 💰 Licensed software | 🪟 Windows · 🍎 macOS · 🐧 Linux | Standalone compositing application, version 21.2 release notes linked below. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required. |
 
 #### 👤 Blackmagic Design
 

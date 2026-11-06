@@ -32,8 +32,8 @@
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
   "stars": 13,
-  "last_pushed_at": "2026-10-21T19:10:15Z",
-  "metadata_checked_at": "2026-10-26T08:12:17.207Z",
+  "last_pushed_at": "2026-11-05T13:32:06Z",
+  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -49,19 +49,19 @@
     "name": "ynput/ayon-resolve",
     "url": "https://github.com/ynput/ayon-resolve",
     "kind": "stable-release",
-    "version": "0.6.6",
-    "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
-    "date": "2026-10-20T15:17:11Z",
-    "checked_at": "2026-10-26T08:19:35.198Z",
+    "version": "0.6.7",
+    "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.7",
+    "date": "2026-10-30T13:06:10Z",
+    "checked_at": "2026-11-06T08:18:50.375Z",
     "date_kind": "release",
-    "note": "Original provider evidence reviewed; review date is separate from product release date."
+    "note": "Original source reviewed; catalogue review date is separate from the release date."
   },
   "evidence": [
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.7",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "note": "Recorded version evidence, not installation testing."
     }
   ],
@@ -75,6 +75,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "ynput/ayon-resolve",
+      "url": "https://github.com/ynput/ayon-resolve",
+      "from": "0.6.6",
+      "to": "0.6.7",
+      "release": "v1.29",
+      "catalogue_date": "2026-11-06",
+      "upstream_date": "2026-10-30T13:06:10Z",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.7",
+      "summary": "Makes intermediate editorial-media reviewability configurable and preserves original media when no extraction profile matches.",
+      "changes": [
+        "Makes intermediate editorial-media reviewability configurable and preserves original media when no extraction profile matches."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.7"
+        }
+      ]
+    },
     {
       "name": "ynput/ayon-resolve",
       "url": "https://github.com/ynput/ayon-resolve",

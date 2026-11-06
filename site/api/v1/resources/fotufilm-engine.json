@@ -60,8 +60,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.13",
-        "checked_at": "2026-10-26T08:19:35.198Z",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -77,18 +77,38 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.13",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.13",
-      "date": "2026-10-15T09:14:14Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v1.14.2",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
+      "date": "2026-11-02T17:52:19Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-15T09:14:14Z",
-    "activityDate": "2026-10-23T23:23:14Z",
-    "stars": 113,
-    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "releaseDate": "2026-11-02T17:52:19Z",
+    "activityDate": "2026-11-06T04:23:40Z",
+    "stars": 192,
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
     "history": [
+      {
+        "name": "DhaliwalX/fotufilm-engine",
+        "url": "https://github.com/DhaliwalX/fotufilm-engine",
+        "from": "v1.13",
+        "to": "v1.14.2",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-11-02T17:52:19Z",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
+        "summary": "Fixes Linux startup on distributions without OpenEXR 3.1 and restores the AV1 HEIF decoder. macOS artifacts remain 1.14.1; Linux app and plugin remain alpha.",
+        "changes": [
+          "Fixes Linux startup on distributions without OpenEXR 3.1 and restores the AV1 HEIF decoder. macOS artifacts remain 1.14.1; Linux app and plugin remain alpha."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2"
+          }
+        ]
+      },
       {
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",
@@ -193,6 +213,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

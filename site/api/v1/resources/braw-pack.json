@@ -67,8 +67,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
-        "checked_at": "2026-10-26",
+        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Original provider documentation reviewed; limitations are stated in the description."
       }
     ],
@@ -83,18 +83,44 @@
       "name": "laurentchicoine/braw-pack",
       "url": "https://github.com/laurentchicoine/braw-pack",
       "kind": "stable-release",
-      "version": "v0.3.0",
-      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
-      "date": "2026-10-23T02:03:10Z",
+      "version": "v0.4.0",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
+      "date": "2026-10-28T01:26:34Z",
       "date_kind": "release",
-      "checked_at": "2026-10-26T08:19:35.198Z"
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-23T02:03:10Z",
-    "activityDate": "2026-10-23T02:03:09Z",
-    "stars": 2,
-    "metadataChecked": "2026-10-26T08:19:35.198Z",
-    "history": [],
+    "releaseDate": "2026-10-28T01:26:34Z",
+    "activityDate": "2026-10-28T01:26:28Z",
+    "stars": 3,
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
+    "history": [
+      {
+        "name": "laurentchicoine/braw-pack",
+        "url": "https://github.com/laurentchicoine/braw-pack",
+        "from": "v0.3.0",
+        "to": "v0.4.0",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-10-28T01:26:34Z",
+        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
+        "summary": "Adds Pyxis 6K and Cinema Camera 6K layouts, optional output filename suffixes and improved large-frame packing. macOS builds remain manually untested beta.",
+        "changes": [
+          "Adds Pyxis 6K and Cinema Camera 6K layouts, optional output filename suffixes and improved large-frame packing. macOS builds remain manually untested beta."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

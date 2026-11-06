@@ -50,8 +50,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1",
-        "checked_at": "2026-09-15T05:06:04.860Z",
+        "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.1",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -68,16 +68,38 @@
       "name": "JaySNL/VSTForResolveLinux",
       "url": "https://github.com/JaySNL/VSTForResolveLinux",
       "kind": "stable-release",
-      "version": "v0.3.0.1",
-      "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1",
-      "date": "2026-09-12T13:31:58Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v0.3.1",
+      "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.1",
+      "date": "2026-11-03T13:24:47Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-09-12T13:31:58Z",
-    "activityDate": "2026-09-12T13:31:50Z",
-    "stars": 12,
-    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "releaseDate": "2026-11-03T13:24:47Z",
+    "activityDate": "2026-11-03T14:15:20Z",
+    "stars": 13,
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
     "history": [
+      {
+        "name": "JaySNL/VSTForResolveLinux",
+        "url": "https://github.com/JaySNL/VSTForResolveLinux",
+        "from": "v0.3.0.1",
+        "to": "v0.3.1",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-11-03T13:24:47Z",
+        "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.1",
+        "summary": "Adds Resolve 21.1.2 support by discovering audio-effect member offsets. The provider reports an antivirus detection; that claim has not been independently assessed. The separate 0.3.1.1 fixed-offset build supports 21.1.2 only.",
+        "changes": [
+          "Adds Resolve 21.1.2 support by discovering audio-effect member offsets. The provider reports an antivirus detection; that claim has not been independently assessed. The separate 0.3.1.1 fixed-offset build supports 21.1.2 only."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.1"
+          }
+        ]
+      },
       {
         "name": "JaySNL/VSTForResolveLinux",
         "url": "https://github.com/JaySNL/VSTForResolveLinux",
@@ -102,6 +124,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.22",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.22"

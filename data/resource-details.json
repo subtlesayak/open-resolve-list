@@ -654,8 +654,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -814,8 +814,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -1242,8 +1242,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.7",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -1281,8 +1281,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/veritus-git/BadWords/releases/tag/3.2.4",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -2011,8 +2011,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
-          "checked_at": "2026-10-26",
+          "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Original provider documentation reviewed; limitations are stated in the description."
         }
       ]
@@ -2913,8 +2913,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -3776,8 +3776,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.0.1",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.1.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -4452,8 +4452,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -4524,8 +4524,8 @@
         ],
         "resolve": [
           {
-            "min": "21.1.1",
-            "max": "21.1.1"
+            "min": "21.2",
+            "max": "21.2"
           }
         ],
         "architectures": [],
@@ -4556,8 +4556,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://www.blackmagicdesign.com/support/readme/801a108506a54a908ffcd497f13b60de",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -5073,8 +5073,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.3.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -7353,7 +7353,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -7374,7 +7374,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
         }
       ]
@@ -8022,8 +8022,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.13",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -8651,8 +8651,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
-          "checked_at": "2026-10-08T09:11:00.642Z",
+          "source": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -9093,8 +9093,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -9509,7 +9509,7 @@
           "field": "version",
           "level": "documented",
           "source": "https://docs.getjumper.io/release-notes/macos",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -11603,8 +11603,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/OSideMedia/oside-resolve-mcp/releases/tag/v0.6.1",
-          "checked_at": "2026-09-15T11:10:28.438Z",
+          "source": "https://github.com/OSideMedia/oside-resolve-mcp/releases/tag/v0.8.3",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         },
         {
@@ -12522,8 +12522,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
-          "checked_at": "2026-09-20T07:05:00Z",
+          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -14692,8 +14692,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.18.0",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]
@@ -15140,8 +15140,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -15813,8 +15813,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
-          "checked_at": "2026-10-26T08:19:35.198Z",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded provider release evidence, not installation testing."
         }
       ]
@@ -18070,8 +18070,8 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1",
-          "checked_at": "2026-09-15T05:06:04.860Z",
+          "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.1",
+          "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded version evidence, not installation testing."
         }
       ]

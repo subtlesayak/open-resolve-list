@@ -54,7 +54,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://fcp2aaf.com/changelog/",
-        "checked_at": "2026-10-26T08:19:35.198Z",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded version evidence, not installation testing."
       },
       {
@@ -75,7 +75,7 @@
         "field": "version",
         "level": "documented",
         "source": "https://fcp2aaf.com/changelog/",
-        "checked_at": "2026-10-26T08:19:35.198Z",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
       }
     ],
@@ -90,18 +90,38 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "kind": "vendor-version",
-      "version": "26.10.03",
+      "version": "26.11.01",
       "source": "https://fcp2aaf.com/changelog/",
-      "date": "2026-10-21",
+      "date": "2026-11-05",
       "date_kind": "release",
-      "checked_at": "2026-10-26T08:19:35.198Z",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-21",
+    "releaseDate": "2026-11-05",
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
     "history": [
+      {
+        "name": "fcp2aaf",
+        "url": "https://fcp2aaf.com/",
+        "from": "26.10.03",
+        "to": "26.11.01",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-11-05",
+        "source": "https://fcp2aaf.com/changelog/",
+        "summary": "Adds a legacy AAF mode for Pro Tools 12-era systems, includes delivery settings in reports, improves help and diagnostics, and prepares smaller differential updates.",
+        "changes": [
+          "Adds a legacy AAF mode for Pro Tools 12-era systems, includes delivery settings in reports, improves help and diagnostics, and prepares smaller differential updates."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://fcp2aaf.com/changelog/"
+          }
+        ]
+      },
       {
         "name": "fcp2aaf",
         "url": "https://fcp2aaf.com/",
@@ -167,6 +187,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

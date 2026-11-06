@@ -50,8 +50,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
-        "checked_at": "2026-10-26T08:19:35.198Z",
+        "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.18.0",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded version evidence, not installation testing."
       }
     ],
@@ -68,18 +68,38 @@
       "name": "lightsailvr/ResolveOFX_NDIOutput",
       "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
       "kind": "stable-release",
-      "version": "v1.17.0",
-      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
-      "date": "2026-10-20T20:51:53Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v1.18.0",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.18.0",
+      "date": "2026-10-29T16:19:59Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-20T20:51:53Z",
-    "activityDate": "2026-10-20T21:17:30Z",
+    "releaseDate": "2026-10-29T16:19:59Z",
+    "activityDate": "2026-11-02T20:30:19Z",
     "stars": 11,
-    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
     "history": [
+      {
+        "name": "lightsailvr/ResolveOFX_NDIOutput",
+        "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+        "from": "v1.17.0",
+        "to": "v1.18.0",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-10-29T16:19:59Z",
+        "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.18.0",
+        "summary": "Renames the plugin to VR.NDI Sender and adds ILPD camera metadata input. Existing default stream names change; custom names and project identifiers are retained.",
+        "changes": [
+          "Renames the plugin to VR.NDI Sender and adds ILPD camera metadata input. Existing default stream names change; custom names and project identifiers are retained."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.18.0"
+          }
+        ]
+      },
       {
         "name": "lightsailvr/ResolveOFX_NDIOutput",
         "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",

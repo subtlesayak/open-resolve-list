@@ -51,8 +51,8 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
-        "checked_at": "2026-10-26T08:19:35.198Z",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
+        "checked_at": "2026-11-06T08:18:50.375Z",
         "note": "Recorded provider release evidence, not installation testing."
       }
     ],
@@ -70,18 +70,38 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.6.1",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
-      "date": "2026-10-24T05:26:05Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v0.6.4",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
+      "date": "2026-11-05T14:49:04Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
-    "releaseDate": "2026-10-24T05:26:05Z",
-    "activityDate": "2026-10-26T07:34:15Z",
-    "stars": 232,
-    "metadataChecked": "2026-10-26T08:12:17.207Z",
+    "releaseDate": "2026-11-05T14:49:04Z",
+    "activityDate": "2026-11-06T03:46:55Z",
+    "stars": 257,
+    "metadataChecked": "2026-11-06T08:14:19.414Z",
     "history": [
+      {
+        "name": "shumaiOne/shumai",
+        "url": "https://github.com/shumaiOne/shumai",
+        "from": "v0.6.1",
+        "to": "v0.6.4",
+        "release": "v1.29",
+        "catalogue_date": "2026-11-06",
+        "upstream_date": "2026-11-05T14:49:04Z",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
+        "summary": "Adds optional local/S3 archive storage with restoration and age policies, hardens access controls and improves MCP deployment handling and web caching.",
+        "changes": [
+          "Adds optional local/S3 archive storage with restoration and age policies, hardens access controls and improves MCP deployment handling and web caching."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4"
+          }
+        ]
+      },
       {
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
@@ -206,6 +226,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.29",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

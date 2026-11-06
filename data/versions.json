@@ -164,12 +164,12 @@
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",
       "kind": "stable-release",
-      "version": "v1.7.2",
-      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.7.2",
-      "date": "2026-10-23T14:23:49Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v1.8.0",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
+      "date": "2026-10-30T07:38:27Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "Asteroid City LUT",
@@ -215,11 +215,12 @@
       "name": "WyattBlue/auto-editor",
       "url": "https://github.com/WyattBlue/auto-editor",
       "kind": "stable-release",
-      "version": "31.7.2",
-      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.7.2",
-      "date": "2026-10-03T02:04:36Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "31.8.0",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
+      "date": "2026-10-30T01:50:12Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "neezr/Auto-Rename-for-DaVinci-Resolve",
@@ -321,21 +322,23 @@
       "name": "ynput/ayon-resolve",
       "url": "https://github.com/ynput/ayon-resolve",
       "kind": "stable-release",
-      "version": "0.6.6",
-      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.6",
-      "date": "2026-10-20T15:17:11Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "0.6.7",
+      "source": "https://github.com/ynput/ayon-resolve/releases/tag/0.6.7",
+      "date": "2026-10-30T13:06:10Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "veritus-git/BadWords",
       "url": "https://github.com/veritus-git/BadWords",
       "kind": "stable-release",
-      "version": "3.2.4",
-      "source": "https://github.com/veritus-git/BadWords/releases/tag/3.2.4",
-      "date": "2026-07-30T23:17:17Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "4.0.0",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
+      "date": "2026-11-06T00:11:07Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "ciqueira/BaldavengerOFX",
@@ -538,11 +541,12 @@
       "name": "laurentchicoine/braw-pack",
       "url": "https://github.com/laurentchicoine/braw-pack",
       "kind": "stable-release",
-      "version": "v0.3.0",
-      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.3.0",
-      "date": "2026-10-23T02:03:10Z",
+      "version": "v0.4.0",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
+      "date": "2026-10-28T01:26:34Z",
       "date_kind": "release",
-      "checked_at": "2026-10-26T08:19:35.198Z"
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "Breathe In 35mm PowerGrades",
@@ -806,11 +810,12 @@
       "name": "ciqueira/ColorEqualizer",
       "url": "https://github.com/ciqueira/ColorEqualizer",
       "kind": "stable-release",
-      "version": "eq-v0.6.4",
-      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.4",
-      "date": "2026-09-30T16:08:21Z",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "date_kind": "release"
+      "version": "eq-v0.6.5",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
+      "date": "2026-11-03T22:22:00Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "ColorLabels",
@@ -1036,10 +1041,12 @@
       "name": "hoyt-harness/davinci-mcp-professional",
       "url": "https://github.com/hoyt-harness/davinci-mcp-professional",
       "kind": "stable-release",
-      "version": "v5.0.1",
-      "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.0.1",
-      "date": "2026-09-01T00:43:52Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v5.1.0",
+      "source": "https://github.com/hoyt-harness/davinci-mcp-professional/releases/tag/v5.1.0",
+      "date": "2026-10-31T19:36:09Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "DaVinci Resolve 20 Supported Codecs",
@@ -1225,12 +1232,12 @@
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.15.3",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.15.3",
-      "date": "2026-10-23T11:24:58Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v4.19.0",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
+      "date": "2026-11-05T02:01:29Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "DaVinci Resolve Micro Color Panel Manual",
@@ -1258,12 +1265,12 @@
       "name": "DaVinci Resolve — official downloads",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve",
       "kind": "vendor-version",
-      "version": "21.1.1",
-      "source": "https://www.blackmagicdesign.com/support/readme/62817b75bdf744718e93909ca6d58f0d",
-      "date": "2026-10-02T07:00:10.000Z",
+      "version": "21.2",
+      "source": "https://www.blackmagicdesign.com/support/readme/801a108506a54a908ffcd497f13b60de",
+      "date": "2026-11-05T07:00:11.000Z",
       "date_kind": "release",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "note": "Verified against official support feed and version-specific release notes."
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "DaVinci Resolve Online Seminars",
@@ -1396,12 +1403,12 @@
       "name": "Creative-Crafter/davinci-shortform-overlays",
       "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
       "kind": "stable-release",
-      "version": "v1.2.0",
-      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.2.0",
-      "date": "2026-10-13T18:27:21Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v1.3.0",
+      "source": "https://github.com/Creative-Crafter/davinci-shortform-overlays/releases/tag/v1.3.0",
+      "date": "2026-10-28T19:18:35Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "DaVinci Sub Tool (Edit & Translate)",
@@ -2081,12 +2088,12 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "kind": "vendor-version",
-      "version": "26.10.03",
+      "version": "26.11.01",
       "source": "https://fcp2aaf.com/changelog/",
-      "date": "2026-10-21",
+      "date": "2026-11-05",
       "date_kind": "release",
-      "checked_at": "2026-10-26T08:19:35.198Z",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "yioannides/fedora-resolve",
@@ -2256,12 +2263,12 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.13",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.13",
-      "date": "2026-10-15T09:14:14Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v1.14.2",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
+      "date": "2026-11-02T17:52:19Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "framechart",
@@ -2436,12 +2443,12 @@
       "name": "Fusion Studio — official product",
       "url": "https://www.blackmagicdesign.com/products/fusion",
       "kind": "vendor-version",
-      "version": "21.1.1",
-      "source": "https://www.blackmagicdesign.com/support/readme/7aaa03ea8f2d4a3794d1b9accb2a71d8",
-      "date": "2026-10-02T07:00:10.000Z",
+      "version": "21.2",
+      "source": "https://www.blackmagicdesign.com/support/readme/b9f8f52968a645a7afd796524d5afb03",
+      "date": "2026-11-05T07:00:10.000Z",
       "date_kind": "release",
-      "checked_at": "2026-10-08T09:11:00.642Z",
-      "note": "Verified against official support feed and version-specific release notes."
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "fabiof17/Fusion-tools",
@@ -2556,12 +2563,12 @@
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",
       "kind": "stable-release",
-      "version": "v1.40.1",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.40.1",
-      "date": "2026-10-09T03:44:31Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v1.41.1",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
+      "date": "2026-11-01T23:01:55Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "ChrisRidings/GifSaverFuse",
@@ -2670,12 +2677,12 @@
       "name": "Jumper",
       "url": "https://getjumper.io/",
       "kind": "vendor-version",
-      "version": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
+      "version": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
       "source": "https://docs.getjumper.io/release-notes/macos",
-      "date": "2026-10-09",
+      "date": "2026-10-28",
       "date_kind": "release",
-      "checked_at": "2026-10-26T08:19:35.198Z",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "Just Highlighter Plus",
@@ -3271,10 +3278,12 @@
       "name": "OSideMedia/oside-resolve-mcp",
       "url": "https://github.com/OSideMedia/oside-resolve-mcp",
       "kind": "stable-release",
-      "version": "v0.6.1",
-      "source": "https://github.com/OSideMedia/oside-resolve-mcp/releases/tag/v0.6.1",
-      "date": "2026-09-13T18:04:21Z",
-      "checked_at": "2026-09-15T11:10:28.438Z"
+      "version": "v0.8.3",
+      "source": "https://github.com/OSideMedia/oside-resolve-mcp/releases/tag/v0.8.3",
+      "date": "2026-11-01T04:34:32Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "Outline plugin",
@@ -3523,10 +3532,12 @@
       "name": "WheheoHu/pybmd",
       "url": "https://github.com/WheheoHu/pybmd",
       "kind": "stable-release",
-      "version": "v2026.3.0",
-      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.3.0",
-      "date": "2026-09-18T00:00:00Z",
-      "checked_at": "2026-09-20T07:05:00Z"
+      "version": "v2026.4.0",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
+      "date": "2026-11-04T03:41:42Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "pedrolabonia/pydavinci",
@@ -4081,12 +4092,12 @@
       "name": "lightsailvr/ResolveOFX_NDIOutput",
       "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
       "kind": "stable-release",
-      "version": "v1.17.0",
-      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.17.0",
-      "date": "2026-10-20T20:51:53Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v1.18.0",
+      "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/tag/v1.18.0",
+      "date": "2026-10-29T16:19:59Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "DMiradakis/resolver",
@@ -4202,12 +4213,12 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.6.1",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.1",
-      "date": "2026-10-24T05:26:05Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v0.6.4",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
+      "date": "2026-11-05T14:49:04Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "Shutter Encoder",
@@ -4393,12 +4404,12 @@
       "name": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",
       "kind": "stable-release",
-      "version": "v3.3.7",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.7",
-      "date": "2026-10-21T08:38:12Z",
-      "checked_at": "2026-10-26T08:19:35.198Z",
+      "version": "v3.3.9",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
+      "date": "2026-11-02T14:03:37Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
       "date_kind": "release",
-      "note": "Original provider evidence reviewed; review date is separate from product release date."
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "BambooYC123/SubtitleYC",
@@ -4974,10 +4985,12 @@
       "name": "JaySNL/VSTForResolveLinux",
       "url": "https://github.com/JaySNL/VSTForResolveLinux",
       "kind": "stable-release",
-      "version": "v0.3.0.1",
-      "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.0.1",
-      "date": "2026-09-12T13:31:58Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v0.3.1",
+      "source": "https://github.com/JaySNL/VSTForResolveLinux/releases/tag/v0.3.1",
+      "date": "2026-11-03T13:24:47Z",
+      "checked_at": "2026-11-06T08:18:50.375Z",
+      "date_kind": "release",
+      "note": "Original source reviewed; catalogue review date is separate from the release date."
     },
     {
       "name": "Warren Eagles Resolve 18 training",

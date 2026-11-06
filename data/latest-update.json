@@ -1,9 +1,6 @@
 {
   "schema_version": 1,
-  "date": "2026-10-26",
-  "release": "v1.28",
-  "added_urls": [
-    "https://github.com/laurentchicoine/braw-pack",
-    "https://nablast.com/"
-  ]
+  "date": "2026-11-06",
+  "release": "v1.29",
+  "added_urls": []
 }
