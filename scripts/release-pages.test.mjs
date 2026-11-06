@@ -40,3 +40,14 @@ test('creator headings combine repeated creators within a release and keep BMD f
  assert.equal(changes.flatMap(g=>g.items).length,4);
  assert.equal(creatorGroups([{url:'https://example.com/a'},{url:'https://example.com/b'}],[]).length,2);
 });
+
+test('plain source URLs in release notes are clickable without trailing prose punctuation',async()=>{
+ const {inlineTokens,creatorGroups}=await import('../site/updates.mjs');
+ const url='https://github.com/example/tool/releases/tag/v2';
+ assert.deepEqual(inlineTokens('Updated. '+url+'.'),[{type:'text',text:'Updated. '},{type:'link',url,children:[{type:'text',text:url}]},{type:'text',text:'.'}]);
+ const balanced='https://example.com/tool_(beta)';
+ assert.equal(inlineTokens(balanced)[0].url,balanced);
+ assert.equal(inlineTokens('('+url+')')[1].url,url);
+ const groups=creatorGroups([{url},{url:'https://github.com/example/other/releases/tag/v1'}],[{url:'https://github.com/example/tool',creator:'Example'},{url:'https://github.com/example/other',creator:'Example'}]);
+ assert.equal(groups.length,1);assert.equal(groups[0].items.length,2);
+});

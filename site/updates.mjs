@@ -3,11 +3,16 @@ const link=(text,url)=>{const a=make('a',text);try{if(new URL(url).protocol==='h
 const official = h => {try{return /(^|\.)blackmagicdesign\.com$/.test(new URL(h.url).hostname);}catch{return false;}};
 export function groupUpdates(releases,updates){return [...releases].sort((a,b)=>b.version.localeCompare(a.version,undefined,{numeric:true})).map(release=>({...release,updates:updates.filter(h=>h.release===release.version).sort((a,b)=>Number(official(b))-Number(official(a)))}));}
 export function inlineTokens(text) {
- const tokens=[],pattern=/(\*\*([^*]+)\*\*|\[([^\]]+)\]\((https:\/\/[^)]+)\))/g;
+ const tokens=[],pattern=/(\*\*([^*]+)\*\*|\[([^\]]+)\]\((https:\/\/[^)]+)\)|(https:\/\/[^\s<>]+))/g;
  let end=0;
  for(const m of text.matchAll(pattern)) {
   if(m.index>end)tokens.push({type:'text',text:text.slice(end,m.index)});
-  tokens.push(m[2]?{type:'strong',children:inlineTokens(m[2])}:{type:'link',url:m[4],children:inlineTokens(m[3])});
+  if(m[5]) {
+   let url=m[5].replace(/[.,;:!]+$/,'');
+   while(url.endsWith(')')&&(url.match(/\)/g)||[]).length>(url.match(/\(/g)||[]).length)url=url.slice(0,-1);
+   tokens.push({type:'link',url,children:[{type:'text',text:url}]});
+   if(url.length<m[5].length)tokens.push({type:'text',text:m[5].slice(url.length)});
+  } else tokens.push(m[2]?{type:'strong',children:inlineTokens(m[2])}:{type:'link',url:m[4],children:inlineTokens(m[3])});
   end=m.index+m[0].length;
  }
  if(end<text.length)tokens.push({type:'text',text:text.slice(end)});
@@ -26,7 +31,7 @@ export function creatorGroups(items, entries, urlFor = item => item.url) {
  for (const item of items) {
   const url = urlFor(item);
   const isOfficial = url && /(^|\.)blackmagicdesign\.com$/.test(new URL(url).hostname);
-  const creator = isOfficial ? 'Blackmagic Design' : creators.get(url);
+  const creator = isOfficial ? 'Blackmagic Design' : creators.get(url)||entries.filter(e=>url?.startsWith(e.url.replace(/\/$/,'')+'/')).sort((a,b)=>b.url.length-a.url.length)[0]?.creator;
   // Unknown creators remain separate; a shared storefront is not a creator.
   const key = creator ? 'creator:' + creator : item;
   if (!groups.has(key)) groups.set(key, {creator, official: isOfficial, items: []});
@@ -53,7 +58,7 @@ function releaseNotes(text, entries) {
    precedingHeading=block.type==='heading'?block.text:null;
    const el=make(block.type==='heading'?'h'+Math.max(3,block.level):'p');appendInline(el,inlineTokens(block.text));root.append(el);continue;
   }
-  for(const group of creatorGroups(block.items,entries,line=>line.match(/\]\((https:\/\/[^)]+)\)/)?.[1])) {
+  for(const group of creatorGroups(block.items,entries,line=>line.match(/\]\((https:\/\/[^)]+)\)/)?.[1]||inlineTokens(line).find(token=>token.type==='link')?.url)) {
    if(group.creator && group.items.length>1 && precedingHeading!==group.creator)root.append(make('h4',group.creator,'creator-heading'));
    const list=make('ul');
    for(const line of group.items){const li=make('li');appendInline(li,inlineTokens(line));list.append(li);}
