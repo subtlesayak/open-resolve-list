@@ -3,6 +3,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/browser.yml'
       - 'site/**'
       - 'scripts/browser-smoke.mjs'
       - 'scripts/site-a11y.test.mjs'
@@ -11,6 +12,7 @@ on:
       - 'package-lock.json'
   pull_request:
     paths:
+      - '.github/workflows/browser.yml'
       - 'site/**'
       - 'scripts/browser-smoke.mjs'
       - 'scripts/site-a11y.test.mjs'
@@ -29,7 +31,12 @@ jobs:
     env:
       RESOLVE_TEST_BROWSER: ${{ matrix.browser }}
       RESOLVE_TEST_MOBILE: ${{ matrix.mobile }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    # Keep this version aligned with the Playwright package in package-lock.json.
+    # Browsers and native libraries are preinstalled; no apt mirror is needed.
+    container:
+      image: mcr.microsoft.com/playwright:v1.63.0-noble
+      options: --ipc=host
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -38,6 +45,7 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps ${{ matrix.browser }}
+      - name: Check browser image matches installed Playwright
+        run: node -e "require('node:assert/strict').equal(require('playwright/package.json').version, '1.63.0', 'Update the browser image when upgrading Playwright')"
       - run: npm run browser:smoke
       - run: node --test --test-concurrency=1 scripts/site-a11y.test.mjs
