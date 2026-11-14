@@ -108,12 +108,6 @@ nav a {
   color:var(--ink);
   text-decoration:none
 }
-nav a.submit-link {
-  color:var(--accent);
-  font-weight:700;
-  text-decoration:underline;
-  text-underline-offset:4px
-}
 .setup-status {
   font-weight:650;
 }
@@ -163,10 +157,6 @@ nav a.submit-link {
   margin:4px 0 0;
   color:var(--muted);
   font-size:13px;
-}
-nav a.github-link {
-  border-inline-start:1px solid var(--line);
-  padding-inline-start:30px
 }
 main {
   max-width:1600px;
@@ -498,7 +488,38 @@ dialog { background:var(--paper); }
   --on-accent:#1a1a1a;
 }
 input::placeholder { color:var(--muted); opacity:1; }
-.header-controls { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:16px 24px; }
+.site-header { flex-wrap:wrap; }
+.site-header > .brand { flex:none; max-inline-size:100%; }
+.header-controls {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  max-inline-size:100%;
+  gap:4px 24px;
+}
+.site-header nav { justify-content:center; gap:4px clamp(8px,2vw,24px); }
+.header-actions {
+  display:flex;
+  flex:none;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+}
+.header-actions a {
+  display:inline-flex;
+  align-items:center;
+  min-height:36px;
+  color:var(--ink);
+  text-decoration:none;
+  white-space:nowrap;
+}
+.header-actions .submit-link {
+  color:var(--accent);
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset:4px;
+}
 .theme-control {
   position: relative;
   display: inline-flex;
@@ -524,7 +545,20 @@ input::placeholder { color:var(--muted); opacity:1; }
 .theme-icon { flex: none; }
 @media (prefers-reduced-motion: reduce) { .theme-control::before { transition: none; } }
 @media (forced-colors: active) { .theme-control { border: 1px solid ButtonText; } }
-@media (max-width:700px) { .header-controls { flex-direction:row; gap:8px; } }
+@media (max-width:58rem) {
+  .site-header { flex-direction:column; gap:6px; padding-block:12px; }
+}
+@media (max-width:700px) {
+  .site-header { padding-block:10px; }
+  .site-header > .brand { line-height:1.2; }
+  .header-actions { font-size:13px; }
+}
+@media (max-width:360px) {
+  .site-header { padding-inline:max(12px, env(safe-area-inset-left)) max(12px, env(safe-area-inset-right)); }
+  .site-header nav { column-gap:6px; }
+  .site-header .updates-link { gap:5px; }
+  .site-header .update-indicator { padding-inline:5px; }
+}
 @media (forced-colors:active) { :focus-visible { outline-color:Highlight; } }
 dialog::backdrop {
   background:#00000080
@@ -614,9 +648,6 @@ dialog::backdrop {
   nav {
     gap:20px
   }
-  nav a.github-link {
-    padding-inline-start:20px
-  }
   main {
     padding:25px
   }
@@ -669,9 +700,6 @@ dialog::backdrop {
     gap:22px;
     justify-content:center;
     font-size:13px
-  }
-  nav a.github-link {
-    padding-inline-start:18px
   }
   main {
     padding:25px 20px 0
