@@ -50,8 +50,8 @@
         "field": "version",
         "level": "documented",
         "source": "https://docs.getjumper.io/release-notes/macos",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Recorded version evidence, not installation testing."
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider release evidence."
       }
     ],
     "unknownFields": [
@@ -67,18 +67,43 @@
       "name": "Jumper",
       "url": "https://getjumper.io/",
       "kind": "vendor-version",
-      "version": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+      "version": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
       "source": "https://docs.getjumper.io/release-notes/macos",
-      "date": "2026-10-28",
+      "date": "2026-11-09",
       "date_kind": "release",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Original provider source reviewed."
     },
-    "releaseDate": "2026-10-28",
+    "releaseDate": "2026-11-09",
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
     "history": [
+      {
+        "name": "Jumper",
+        "url": "https://getjumper.io/",
+        "from": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+        "to": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
+        "release": "v1.30",
+        "catalogue_date": "2026-11-14",
+        "upstream_date": "2026-11-09",
+        "source": "https://docs.getjumper.io/release-notes/macos",
+        "summary": "Adds transcript corrections, find and replace, and shared edits that feed speech search and exports. Improves large media tables and Avid handling. Windows build 1636 is dated November 6.",
+        "changes": [
+          "Adds transcript corrections, find and replace, and shared edits that feed speech search and exports.",
+          "Improves large media tables and Avid handling. Windows build 1636 is dated November 6."
+        ],
+        "changelogs": [
+          {
+            "label": "macOS release notes",
+            "url": "https://docs.getjumper.io/release-notes/macos"
+          },
+          {
+            "label": "Windows release notes",
+            "url": "https://docs.getjumper.io/release-notes/windows"
+          }
+        ]
+      },
       {
         "name": "Jumper",
         "url": "https://getjumper.io/",

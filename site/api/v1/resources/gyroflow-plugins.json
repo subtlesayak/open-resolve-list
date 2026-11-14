@@ -50,9 +50,9 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v2.1.1",
-        "checked_at": "2026-09-15T05:06:04.860Z",
-        "note": "Recorded version evidence, not installation testing."
+        "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider release evidence."
       }
     ],
     "unknownFields": [
@@ -68,17 +68,44 @@
       "name": "gyroflow/gyroflow-plugins",
       "url": "https://github.com/gyroflow/gyroflow-plugins",
       "kind": "stable-release",
-      "version": "v2.1.1",
-      "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v2.1.1",
-      "date": "2025-08-24T14:16:15Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v3.0.0",
+      "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+      "date": "2026-11-07T01:55:35Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "date_kind": "release",
+      "note": "Original provider source reviewed."
     },
-    "releaseDate": "2025-08-24T14:16:15Z",
-    "activityDate": "2026-11-04T10:50:13Z",
-    "stars": 142,
-    "metadataChecked": "2026-11-06T08:14:19.414Z",
-    "history": [],
+    "releaseDate": "2026-11-07T01:55:35Z",
+    "activityDate": "2026-11-07T00:41:40Z",
+    "stars": 148,
+    "metadataChecked": "2026-11-14T07:47:18.816Z",
+    "history": [
+      {
+        "name": "gyroflow/gyroflow-plugins",
+        "url": "https://github.com/gyroflow/gyroflow-plugins",
+        "from": "v2.1.1",
+        "to": "v3.0.0",
+        "release": "v1.30",
+        "catalogue_date": "2026-11-14",
+        "upstream_date": "2026-11-07T01:55:35Z",
+        "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+        "summary": "The provider published the v3.0.0 release tag without detailed release notes.",
+        "changes": [
+          "The provider published the v3.0.0 release tag without detailed release notes."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.30",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+      },
       {
         "version": "v1.0",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.0"

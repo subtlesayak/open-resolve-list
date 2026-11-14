@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy": "Generated from data/resources/*.json. Edit canonical records, then run npm run build.",
-  "reviewed_at": "2026-10-26",
+  "reviewed_at": "2026-11-14",
   "entries": [
     {
       "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
@@ -3128,6 +3128,24 @@
       ]
     },
     {
+      "url": "https://filmictexture.com/",
+      "name": "Filmic Texture",
+      "tags": [
+        "acescct",
+        "davinci wide gamut",
+        "film grain",
+        "halation",
+        "hdr",
+        "mtf",
+        "openfx",
+        "scan dust",
+        "texture"
+      ],
+      "sources": [
+        "https://filmictexture.com/"
+      ]
+    },
+    {
       "url": "https://filmkid.com/products/filmkid-16",
       "name": "Filmkid 16 PowerGrade and LUT",
       "tags": [
@@ -4289,15 +4307,19 @@
       ]
     },
     {
-      "url": "https://www.metafide.com/?product=computer-vision",
-      "name": "Meta Fide Computer Vision",
+      "url": "https://www.metafide.com/?product=computer-vision-2",
+      "name": "Meta Fide Computer Vision 2",
       "tags": [
         "art",
         "ascii",
         "fuse",
-        "fusion"
+        "fusion",
+        "motion graphics",
+        "retro computer",
+        "dithering"
       ],
       "sources": [
+        "https://www.metafide.com/?product=computer-vision-2",
         "https://www.metafide.com/?product=computer-vision"
       ]
     },

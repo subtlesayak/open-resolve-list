@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-26",
+  "checked_at": "2026-11-14",
   "baseline_count": 72,
-  "added_count": 183,
-  "total_count": 255,
+  "added_count": 184,
+  "total_count": 256,
   "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added. Follow-up 2026-09-08: targeted deeper search across eleven Reddit communities, accessible comments and highlighted threads; eleven external additions verified against original sources. This is not a complete archive or all-comments crawl. Follow-up 2026-09-15: accumulated sources revisited, including five GitHub directories, creator stores, Reactor and eleven Reddit communities. Direct Reddit feeds and some forums were inaccessible; indexed and selected rendered checks are partial. Only verified additions and provider changes are published.",
   "additions": [
     {
@@ -3634,6 +3634,24 @@
         "https://www.reddit.com/r/blackmagicdesign/comments/1x93lc3/i_built_an_app_that_turns_a_premiere_pro_project/"
       ],
       "checked_at": "2026-10-26"
+    },
+    {
+      "creator": "Filmic Texture",
+      "name": "Filmic Texture",
+      "url": "https://filmictexture.com/",
+      "category": "Color / Film",
+      "access": "Watermarked trial; paid license listed",
+      "platforms": "macOS",
+      "description": "Resolve OFX plugin for gate-scaled film grain, halation, MTF and scan dust in ACEScct or DaVinci Wide Gamut / Intermediate, with HDR support. Watermarked 0.1 trial for Apple Silicon Macs on macOS 26+ with Metal 4. The provider lists a paid license; Windows builds are planned.",
+      "version": "0.1 trial",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed original provider page",
+      "sources": [
+        "https://filmictexture.com/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ],
+      "checked_at": "2026-11-14"
     }
   ],
   "held_candidates": [

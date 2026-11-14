@@ -3007,7 +3007,7 @@
       "category": "Encoding, codecs, proxy generation, rendering, and project servers",
       "repository": "laurentchicoine/braw-pack",
       "url": "https://github.com/laurentchicoine/braw-pack",
-      "description": "Experimental local BRAW archive and recompression utility. Rebuilds H.265 archives into usable BRAW while retaining camera metadata, and can make smaller BRAW files. Lossy: retain original footage until rebuilt clips are checked. Windows and Linux builds plus unnotarized macOS beta builds; Linux GUI and interactive Mac workflows remain incompletely tested. NVIDIA accelerates supported Windows/Linux paths; CPU fallback is slower.",
+      "description": "Experimental local BRAW archive and recompression utility. Rebuilds H.265 archives into usable BRAW while retaining camera metadata. Lossy: retain original footage until rebuilt clips are checked. Supports NVIDIA acceleration on Windows/Linux and VideoToolbox on Apple Silicon. macOS builds are unnotarized beta.",
       "access": "Free; MIT application, bundled components retain their own licenses",
       "research_snapshot": "2026-10-26",
       "platforms": "Windows;Linux;macOS",

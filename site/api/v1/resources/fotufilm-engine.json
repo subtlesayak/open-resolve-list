@@ -60,9 +60,9 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Recorded provider release evidence, not installation testing."
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider release evidence."
       }
     ],
     "unknownFields": [
@@ -77,18 +77,39 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.14.2",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
-      "date": "2026-11-02T17:52:19Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "v1.16",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+      "date": "2026-11-11T18:58:11Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
-    "releaseDate": "2026-11-02T17:52:19Z",
-    "activityDate": "2026-11-06T04:23:40Z",
-    "stars": 192,
-    "metadataChecked": "2026-11-06T08:14:19.414Z",
+    "releaseDate": "2026-11-11T18:58:11Z",
+    "activityDate": "2026-11-13T02:59:45Z",
+    "stars": 213,
+    "metadataChecked": "2026-11-14T07:47:18.816Z",
     "history": [
+      {
+        "name": "DhaliwalX/fotufilm-engine",
+        "url": "https://github.com/DhaliwalX/fotufilm-engine",
+        "from": "v1.14.2",
+        "to": "v1.16",
+        "release": "v1.30",
+        "catalogue_date": "2026-11-14",
+        "upstream_date": "2026-11-11T18:58:11Z",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+        "summary": "Adds an Android alpha for the standalone editor. Revises color-negative rendering and mist filters, and fixes zoomed photo previews.",
+        "changes": [
+          "Adds an Android alpha for the standalone editor.",
+          "Revises color-negative rendering and mist filters, and fixes zoomed photo previews."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16"
+          }
+        ]
+      },
       {
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",
@@ -213,6 +234,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.30",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+      },
       {
         "version": "v1.29",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"

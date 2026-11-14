@@ -2001,6 +2001,15 @@
       "kind": "dctl"
     },
     {
+      "id": "filmic-texture",
+      "name": "Filmic Texture",
+      "creator": "Filmic Texture",
+      "url": "https://filmictexture.com/",
+      "origin": "external",
+      "category": "Color / Film",
+      "kind": "ofx"
+    },
+    {
       "id": "filmkid-16-powergrade-and-lut",
       "name": "Filmkid 16 PowerGrade and LUT",
       "creator": "Filmkid",
@@ -2731,9 +2740,9 @@
     },
     {
       "id": "meta-fide-computer-vision",
-      "name": "Meta Fide Computer Vision",
+      "name": "Meta Fide Computer Vision 2",
       "creator": "metafide.com",
-      "url": "https://www.metafide.com/?product=computer-vision",
+      "url": "https://www.metafide.com/?product=computer-vision-2",
       "origin": "external",
       "category": "Fusion, animation, and effects",
       "kind": "fuse"

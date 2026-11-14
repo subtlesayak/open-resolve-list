@@ -1,3 +1,24 @@
+## v1.30 - Verified provider updates (2026-11-14)
+
+- vulture-s/arkiv: v1.8.0 → v1.9.0. Adds an English interface and language selection, including translated API errors. [Source changelog](https://github.com/vulture-s/arkiv/releases/tag/v1.9.0).
+- WyattBlue/auto-editor: 31.8.0 → 31.9.0. Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data. Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps. [Source changelog](https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0).
+- veritus-git/BadWords: 4.0.0 → 4.0.1. Fixes NTSC drift and source timecode in XML and OTIO exports. Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog. [Source changelog](https://github.com/veritus-git/BadWords/releases/tag/4.0.1).
+- laurentchicoine/braw-pack: v0.4.0 → v0.5.0. Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip. Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized. [Source changelog](https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0).
+- ciqueira/ColorEqualizer: eq-v0.6.5 → eq-v0.6.6. The provider published this tag with an automated release notice and no detailed feature changelog. [Source changelog](https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6).
+- samuelgursky/davinci-resolve-mcp: v4.19.0 → v5.2.8. Honors the top-level record-frame mode when clip rows omit their own mode. Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings. [Source changelog](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8).
+- DhaliwalX/fotufilm-engine: v1.14.2 → v1.16. Adds an Android alpha for the standalone editor. Revises color-negative rendering and mist filters, and fixes zoomed photo previews. [Source changelog](https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16).
+- gyroflow/gyroflow-plugins: v2.1.1 → v3.0.0. The provider published the v3.0.0 release tag without detailed release notes. [Source changelog](https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0).
+- WheheoHu/pybmd: v2026.4.0 → v2026.5.0. Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects. [Source changelog](https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0).
+- shumaiOne/shumai: v0.6.4 → v0.6.6. Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms. Improves agent session handling and cleans up empty embedding folders. [Source changelog](https://github.com/shumaiOne/shumai/releases/tag/v0.6.6).
+- HooperH/SubFix: v3.3.9 → v3.4.0. Moves recognition and alignment models out of the installer and adds a model center with download and offline import. Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular. Upgrading from 3.3.9 or earlier requires the full package. [Source changelog](https://github.com/HooperH/SubFix/releases/tag/v3.4.0).
+- fcp2aaf: 26.11.01 → 26.11.02. Makes interface text lookups cheaper to improve window responsiveness. [Source changelog](https://fcp2aaf.com/changelog/).
+- Jumper: macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635 → macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636. Adds transcript corrections, find and replace, and shared edits that feed speech search and exports. Improves large media tables and Avid handling. Windows build 1636 is dated November 6. [Source changelog](https://docs.getjumper.io/release-notes/macos).
+- Meta Fide Computer Vision 2: Original Computer Vision → 2. The free edition adds customizable text, fonts and ink/paper colors. Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling. [Source changelog](https://www.metafide.com/?product=computer-vision-2).
+
+### Added resource
+
+- [Filmic Texture](https://filmictexture.com/): Resolve OFX plugin for gate-scaled film grain, halation, MTF and scan dust in ACEScct or DaVinci Wide Gamut / Intermediate, with HDR support. Watermarked 0.1 trial for Apple Silicon Macs on macOS 26+ with Metal 4. The provider lists a paid license; Windows builds are planned.
+
 ## v1.29 - Verified provider updates (2026-11-06)
 
 - DaVinci Resolve — official downloads: 21.1.1 → 21.1.2. Updates edit-point and timeline controls, metadata, OGraf graphics and scripting, with media, monitoring and collaboration fixes. [Source changelog](https://www.blackmagicdesign.com/support/readme/be08842994c94d999da4ab052d0a2b2a).

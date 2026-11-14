@@ -26,7 +26,7 @@
       "x265",
       "experimental"
     ],
-    "description": "Experimental local BRAW archive and recompression utility. Rebuilds H.265 archives into usable BRAW while retaining camera metadata, and can make smaller BRAW files. Lossy: retain original footage until rebuilt clips are checked. Windows and Linux builds plus unnotarized macOS beta builds; Linux GUI and interactive Mac workflows remain incompletely tested. NVIDIA accelerates supported Windows/Linux paths; CPU fallback is slower.",
+    "description": "Experimental local BRAW archive and recompression utility. Rebuilds H.265 archives into usable BRAW while retaining camera metadata. Lossy: retain original footage until rebuilt clips are checked. Supports NVIDIA acceleration on Windows/Linux and VideoToolbox on Apple Silicon. macOS builds are unnotarized beta.",
     "access": "Free; MIT application, bundled components retain their own licenses",
     "accessGroup": "free",
     "platforms": [
@@ -42,7 +42,7 @@
         "x64",
         "arm64"
       ],
-      "gpu": "Optional NVIDIA acceleration on Windows/Linux; macOS beta uses CPU encoding.",
+      "gpu": "Optional NVIDIA acceleration on Windows/Linux; VideoToolbox on Apple Silicon; CPU encoding is available.",
       "processing": "local",
       "pricing": "free",
       "account": "not-required",
@@ -67,9 +67,9 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Original provider documentation reviewed; limitations are stated in the description."
+        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider release evidence."
       }
     ],
     "unknownFields": [
@@ -83,18 +83,39 @@
       "name": "laurentchicoine/braw-pack",
       "url": "https://github.com/laurentchicoine/braw-pack",
       "kind": "stable-release",
-      "version": "v0.4.0",
-      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
-      "date": "2026-10-28T01:26:34Z",
+      "version": "v0.5.0",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+      "date": "2026-11-11T01:48:25Z",
       "date_kind": "release",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Original provider source reviewed."
     },
-    "releaseDate": "2026-10-28T01:26:34Z",
-    "activityDate": "2026-10-28T01:26:28Z",
+    "releaseDate": "2026-11-11T01:48:25Z",
+    "activityDate": "2026-11-11T01:48:24Z",
     "stars": 3,
-    "metadataChecked": "2026-11-06T08:14:19.414Z",
+    "metadataChecked": "2026-11-14T07:47:18.816Z",
     "history": [
+      {
+        "name": "laurentchicoine/braw-pack",
+        "url": "https://github.com/laurentchicoine/braw-pack",
+        "from": "v0.4.0",
+        "to": "v0.5.0",
+        "release": "v1.30",
+        "catalogue_date": "2026-11-14",
+        "upstream_date": "2026-11-11T01:48:25Z",
+        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+        "summary": "Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip. Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized.",
+        "changes": [
+          "Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip.",
+          "Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0"
+          }
+        ]
+      },
       {
         "name": "laurentchicoine/braw-pack",
         "url": "https://github.com/laurentchicoine/braw-pack",
@@ -117,6 +138,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.30",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+      },
       {
         "version": "v1.29",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"

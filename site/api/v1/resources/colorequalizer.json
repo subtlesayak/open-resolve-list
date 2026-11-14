@@ -51,9 +51,9 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Recorded version evidence, not installation testing."
+        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider release evidence."
       }
     ],
     "unknownFields": [
@@ -69,18 +69,38 @@
       "name": "ciqueira/ColorEqualizer",
       "url": "https://github.com/ciqueira/ColorEqualizer",
       "kind": "stable-release",
-      "version": "eq-v0.6.5",
-      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
-      "date": "2026-11-03T22:22:00Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "eq-v0.6.6",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+      "date": "2026-11-07T13:28:02Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
-    "releaseDate": "2026-11-03T22:22:00Z",
-    "activityDate": "2026-11-03T22:22:00Z",
+    "releaseDate": "2026-11-07T13:28:02Z",
+    "activityDate": "2026-11-09T19:32:03Z",
     "stars": 9,
-    "metadataChecked": "2026-11-06T08:14:19.414Z",
+    "metadataChecked": "2026-11-14T07:47:18.816Z",
     "history": [
+      {
+        "name": "ciqueira/ColorEqualizer",
+        "url": "https://github.com/ciqueira/ColorEqualizer",
+        "from": "eq-v0.6.5",
+        "to": "eq-v0.6.6",
+        "release": "v1.30",
+        "catalogue_date": "2026-11-14",
+        "upstream_date": "2026-11-07T13:28:02Z",
+        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+        "summary": "The provider published this tag with an automated release notice and no detailed feature changelog.",
+        "changes": [
+          "The provider published this tag with an automated release notice and no detailed feature changelog."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6"
+          }
+        ]
+      },
       {
         "name": "ciqueira/ColorEqualizer",
         "url": "https://github.com/ciqueira/ColorEqualizer",
@@ -143,6 +163,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.30",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+      },
       {
         "version": "v1.29",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"

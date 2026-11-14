@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "resource": {
+    "id": "filmic-texture",
+    "name": "Filmic Texture",
+    "creator": "Filmic Texture",
+    "url": "https://filmictexture.com/",
+    "origin": "external",
+    "official": false,
+    "reference": false,
+    "category": "Color / Film",
+    "kind": "ofx",
+    "tasks": [
+      "color"
+    ],
+    "tags": [
+      "acescct",
+      "davinci wide gamut",
+      "film grain",
+      "halation",
+      "hdr",
+      "mtf",
+      "openfx",
+      "scan dust",
+      "texture"
+    ],
+    "description": "Resolve OFX plugin for gate-scaled film grain, halation, MTF and scan dust in ACEScct or DaVinci Wide Gamut / Intermediate, with HDR support. Watermarked 0.1 trial for Apple Silicon Macs on macOS 26+ with Metal 4. The provider lists a paid license; Windows builds are planned.",
+    "access": "Watermarked trial; paid license listed",
+    "accessGroup": "paid",
+    "platforms": [
+      "macOS"
+    ],
+    "platformNotes": "Apple Silicon; macOS 26+ and Metal 4",
+    "requirements": {
+      "editions": [],
+      "resolve": [],
+      "architectures": [
+        "arm64"
+      ],
+      "gpu": "Metal 4",
+      "processing": "unknown",
+      "pricing": "one-time",
+      "account": "unknown",
+      "dependencies": "macOS 26+",
+      "installation": null
+    },
+    "evidence": [
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://filmictexture.com/",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider lists Apple Silicon, macOS 26+ and Metal 4. A Resolve Studio demonstration does not establish a minimum Resolve version or required edition."
+      }
+    ],
+    "unknownFields": [
+      "Resolve edition",
+      "Resolve version",
+      "processing"
+    ],
+    "recommended": false,
+    "recommendation": null,
+    "previousUrls": [],
+    "version": {
+      "name": "Filmic Texture",
+      "url": "https://filmictexture.com/",
+      "kind": "vendor-version",
+      "version": "0.1 trial",
+      "source": "https://filmictexture.com/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Trial version listed by provider; no dated changelog published."
+    },
+    "releaseDate": null,
+    "activityDate": null,
+    "stars": null,
+    "metadataChecked": null,
+    "history": [],
+    "catalogueReleases": [
+      {
+        "version": "v1.30",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+      }
+    ]
+  }
+}

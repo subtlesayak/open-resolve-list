@@ -4,6 +4,308 @@
     {
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",
+      "from": "v1.8.0",
+      "to": "v1.9.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T03:47:17Z",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+      "summary": "Adds an English interface and language selection, including translated API errors.",
+      "changes": [
+        "Adds an English interface and language selection, including translated API errors."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0"
+        },
+        {
+          "label": "Full upstream changelog",
+          "url": "https://github.com/vulture-s/arkiv/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.8.0",
+      "to": "31.9.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-13T18:17:27Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+      "summary": "Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data. Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps.",
+      "changes": [
+        "Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data.",
+        "Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0"
+        }
+      ]
+    },
+    {
+      "name": "veritus-git/BadWords",
+      "url": "https://github.com/veritus-git/BadWords",
+      "from": "4.0.0",
+      "to": "4.0.1",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T21:05:56Z",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+      "summary": "Fixes NTSC drift and source timecode in XML and OTIO exports. Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog.",
+      "changes": [
+        "Fixes NTSC drift and source timecode in XML and OTIO exports.",
+        "Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "laurentchicoine/braw-pack",
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "from": "v0.4.0",
+      "to": "v0.5.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T01:48:25Z",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+      "summary": "Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip. Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized.",
+      "changes": [
+        "Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip.",
+        "Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0"
+        }
+      ]
+    },
+    {
+      "name": "ciqueira/ColorEqualizer",
+      "url": "https://github.com/ciqueira/ColorEqualizer",
+      "from": "eq-v0.6.5",
+      "to": "eq-v0.6.6",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-07T13:28:02Z",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+      "summary": "The provider published this tag with an automated release notice and no detailed feature changelog.",
+      "changes": [
+        "The provider published this tag with an automated release notice and no detailed feature changelog."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.19.0",
+      "to": "v5.2.8",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-14T00:46:43Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+      "summary": "Honors the top-level record-frame mode when clip rows omit their own mode. Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings.",
+      "changes": [
+        "Honors the top-level record-frame mode when clip rows omit their own mode.",
+        "Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.14.2",
+      "to": "v1.16",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T18:58:11Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+      "summary": "Adds an Android alpha for the standalone editor. Revises color-negative rendering and mist filters, and fixes zoomed photo previews.",
+      "changes": [
+        "Adds an Android alpha for the standalone editor.",
+        "Revises color-negative rendering and mist filters, and fixes zoomed photo previews."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16"
+        }
+      ]
+    },
+    {
+      "name": "gyroflow/gyroflow-plugins",
+      "url": "https://github.com/gyroflow/gyroflow-plugins",
+      "from": "v2.1.1",
+      "to": "v3.0.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-07T01:55:35Z",
+      "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+      "summary": "The provider published the v3.0.0 release tag without detailed release notes.",
+      "changes": [
+        "The provider published the v3.0.0 release tag without detailed release notes."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0"
+        }
+      ]
+    },
+    {
+      "name": "WheheoHu/pybmd",
+      "url": "https://github.com/WheheoHu/pybmd",
+      "from": "v2026.4.0",
+      "to": "v2026.5.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-08T07:47:00Z",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+      "summary": "Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects.",
+      "changes": [
+        "Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.6.4",
+      "to": "v0.6.6",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-13T12:38:25Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+      "summary": "Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms. Improves agent session handling and cleans up empty embedding folders.",
+      "changes": [
+        "Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms.",
+        "Improves agent session handling and cleans up empty embedding folders."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6"
+        }
+      ]
+    },
+    {
+      "name": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "from": "v3.3.9",
+      "to": "v3.4.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-10T05:53:36Z",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+      "summary": "Moves recognition and alignment models out of the installer and adds a model center with download and offline import. Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular. Upgrading from 3.3.9 or earlier requires the full package.",
+      "changes": [
+        "Moves recognition and alignment models out of the installer and adds a model center with download and offline import.",
+        "Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular.",
+        "Upgrading from 3.3.9 or earlier requires the full package."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0"
+        }
+      ]
+    },
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
+      "from": "26.11.01",
+      "to": "26.11.02",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-06",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Makes interface text lookups cheaper to improve window responsiveness.",
+      "changes": [
+        "Makes interface text lookups cheaper to improve window responsiveness."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
+    {
+      "name": "Jumper",
+      "url": "https://getjumper.io/",
+      "from": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+      "to": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-09",
+      "source": "https://docs.getjumper.io/release-notes/macos",
+      "summary": "Adds transcript corrections, find and replace, and shared edits that feed speech search and exports. Improves large media tables and Avid handling. Windows build 1636 is dated November 6.",
+      "changes": [
+        "Adds transcript corrections, find and replace, and shared edits that feed speech search and exports.",
+        "Improves large media tables and Avid handling. Windows build 1636 is dated November 6."
+      ],
+      "changelogs": [
+        {
+          "label": "macOS release notes",
+          "url": "https://docs.getjumper.io/release-notes/macos"
+        },
+        {
+          "label": "Windows release notes",
+          "url": "https://docs.getjumper.io/release-notes/windows"
+        }
+      ]
+    },
+    {
+      "name": "Meta Fide Computer Vision 2",
+      "url": "https://www.metafide.com/?product=computer-vision-2",
+      "from": "Original Computer Vision",
+      "to": "2",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": null,
+      "source": "https://www.metafide.com/?product=computer-vision-2",
+      "summary": "The free edition adds customizable text, fonts and ink/paper colors. Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling.",
+      "changes": [
+        "The free edition adds customizable text, fonts and ink/paper colors.",
+        "Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider feature notes",
+          "url": "https://www.metafide.com/?product=computer-vision-2"
+        },
+        {
+          "label": "Original edition",
+          "url": "https://www.metafide.com/?product=computer-vision"
+        }
+      ]
+    },
+    {
+      "name": "vulture-s/arkiv",
+      "url": "https://github.com/vulture-s/arkiv",
       "from": "v1.7.2",
       "to": "v1.8.0",
       "release": "v1.29",

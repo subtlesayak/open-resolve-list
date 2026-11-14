@@ -2,9 +2,9 @@
   "schema_version": 1,
   "resource": {
     "id": "meta-fide-computer-vision",
-    "name": "Meta Fide Computer Vision",
+    "name": "Meta Fide Computer Vision 2",
     "creator": "metafide.com",
-    "url": "https://www.metafide.com/?product=computer-vision",
+    "url": "https://www.metafide.com/?product=computer-vision-2",
     "origin": "external",
     "official": false,
     "reference": false,
@@ -17,11 +17,14 @@
       "art",
       "ascii",
       "fuse",
-      "fusion"
+      "fusion",
+      "motion graphics",
+      "retro computer",
+      "dithering"
     ],
-    "description": "ASCII-art Fusion Effect and Fuse for Resolve 15+. Version 1.1 addresses Resolve 19 compatibility; Linux is available by custom order.",
-    "access": "🆓 Free product; checkout workflow",
-    "accessGroup": "free",
+    "description": "ASCII Fusion Effect and Fuse for Resolve 18+ on Windows, macOS and Linux. The free version includes text, font and ink/paper controls; Pro adds source color, edge processing, dithering and mask- or depth-driven character sizing.",
+    "access": "Free edition; paid Pro upgrade",
+    "accessGroup": "mixed",
     "platforms": [
       "Windows",
       "macOS",
@@ -29,12 +32,19 @@
     ],
     "platformNotes": "🪟 🍎 🐧",
     "requirements": {
-      "editions": [],
-      "resolve": [],
+      "editions": [
+        "Free",
+        "Studio"
+      ],
+      "resolve": [
+        {
+          "min": "18"
+        }
+      ],
       "architectures": [],
       "gpu": null,
       "processing": "unknown",
-      "pricing": "unknown",
+      "pricing": "mixed",
       "account": "unknown",
       "dependencies": null,
       "installation": null
@@ -46,37 +56,77 @@
         "source": "https://www.metafide.com/?product=computer-vision",
         "checked_at": "2026-09-06T12:10:19.548Z",
         "note": "Provider-listed platforms; see limitations and exact builds."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://www.metafide.com/?product=computer-vision-2",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "The provider lists Resolve 18+, Free and Studio editions, and downloads for Windows, macOS and Linux."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://www.metafide.com/?product=computer-vision-2",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider release evidence."
       }
     ],
     "unknownFields": [
-      "Resolve edition",
-      "Resolve version",
       "architecture",
-      "processing",
-      "tool version"
+      "processing"
     ],
     "recommended": false,
     "recommendation": null,
-    "previousUrls": [],
+    "previousUrls": [
+      "https://www.metafide.com/?product=computer-vision"
+    ],
     "version": {
-      "name": "Meta Fide Computer Vision",
-      "url": "https://www.metafide.com/?product=computer-vision",
-      "kind": "unverified",
-      "version": null,
-      "source": "https://www.metafide.com/?product=computer-vision",
+      "name": "Meta Fide Computer Vision 2",
+      "url": "https://www.metafide.com/?product=computer-vision-2",
+      "kind": "vendor-version",
+      "version": "2",
+      "source": "https://www.metafide.com/?product=computer-vision-2",
       "date": null,
       "date_kind": null,
-      "checked_at": "2026-09-06T12:10:19.548Z"
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Provider product edition; exact build number and publication date not established."
     },
     "releaseDate": null,
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
-    "history": [],
+    "history": [
+      {
+        "name": "Meta Fide Computer Vision 2",
+        "url": "https://www.metafide.com/?product=computer-vision-2",
+        "from": "Original Computer Vision",
+        "to": "2",
+        "release": "v1.30",
+        "catalogue_date": "2026-11-14",
+        "upstream_date": null,
+        "source": "https://www.metafide.com/?product=computer-vision-2",
+        "summary": "The free edition adds customizable text, fonts and ink/paper colors. Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling.",
+        "changes": [
+          "The free edition adds customizable text, fonts and ink/paper colors.",
+          "Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider feature notes",
+            "url": "https://www.metafide.com/?product=computer-vision-2"
+          },
+          {
+            "label": "Original edition",
+            "url": "https://www.metafide.com/?product=computer-vision"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
-        "version": "v1.4",
-        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.4"
+        "version": "v1.30",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
       }
     ]
   }

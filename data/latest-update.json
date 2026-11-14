@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
-  "date": "2026-11-06",
-  "release": "v1.29",
-  "added_urls": []
+  "date": "2026-11-14",
+  "release": "v1.30",
+  "added_urls": [
+    "https://filmictexture.com/"
+  ]
 }

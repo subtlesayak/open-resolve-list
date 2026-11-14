@@ -654,9 +654,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
+          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -812,18 +812,18 @@
       "accessGroup": "public",
       "evidence": [
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
           "checked_at": "2026-09-07",
           "note": "Resolve version and edition compatibility are not established by the recorded release notes."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -1279,18 +1279,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/veritus-git/BadWords",
           "checked_at": "2026-09-06",
           "note": "Local transcript-based rough cutting; no installer or compatibility testing performed."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -1977,7 +1977,7 @@
           "x64",
           "arm64"
         ],
-        "gpu": "Optional NVIDIA acceleration on Windows/Linux; macOS beta uses CPU encoding.",
+        "gpu": "Optional NVIDIA acceleration on Windows/Linux; VideoToolbox on Apple Silicon; CPU encoding is available.",
         "processing": "local",
         "pricing": "free",
         "account": "not-required",
@@ -2011,9 +2011,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Original provider documentation reviewed; limitations are stated in the description."
+          "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -2913,9 +2913,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
+          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -4452,9 +4452,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -7350,13 +7350,6 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://fcp2aaf.com/",
@@ -7374,8 +7367,8 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -7632,6 +7625,38 @@
           "source": "https://github.com/helios1138/filmeon/commit/d10d646899601f58ce92b9dbb21d82e3f744d461",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        }
+      ]
+    },
+    {
+      "url": "https://filmictexture.com/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64"
+        ],
+        "gpu": "Metal 4",
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "macOS 26+",
+        "installation": null
+      },
+      "tasks": [
+        "color"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://filmictexture.com/",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider lists Apple Silicon, macOS 26+ and Metal 4. A Resolve Studio demonstration does not establish a minimum Resolve version or required edition."
         }
       ]
     },
@@ -8022,9 +8047,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -9270,9 +9295,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v2.1.1",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
+          "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -9509,8 +9534,8 @@
           "field": "version",
           "level": "documented",
           "source": "https://docs.getjumper.io/release-notes/macos",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -10475,14 +10500,21 @@
       ]
     },
     {
-      "url": "https://www.metafide.com/?product=computer-vision",
+      "url": "https://www.metafide.com/?product=computer-vision-2",
       "requirements": {
-        "editions": [],
-        "resolve": [],
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18"
+          }
+        ],
         "architectures": [],
         "gpu": null,
         "processing": "unknown",
-        "pricing": "unknown",
+        "pricing": "mixed",
         "account": "unknown",
         "dependencies": null,
         "installation": null
@@ -10495,7 +10527,7 @@
         "macOS",
         "Linux"
       ],
-      "accessGroup": "free",
+      "accessGroup": "mixed",
       "evidence": [
         {
           "field": "platforms",
@@ -10503,6 +10535,20 @@
           "source": "https://www.metafide.com/?product=computer-vision",
           "checked_at": "2026-09-06T12:10:19.548Z",
           "note": "Provider-listed platforms; see limitations and exact builds."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.metafide.com/?product=computer-vision-2",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "The provider lists Resolve 18+, Free and Studio editions, and downloads for Windows, macOS and Linux."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://www.metafide.com/?product=computer-vision-2",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -12522,9 +12568,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -15140,9 +15186,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },
@@ -15813,9 +15859,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ]
     },

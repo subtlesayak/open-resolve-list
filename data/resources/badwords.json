@@ -38,8 +38,8 @@
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
   "stars": 44,
-  "last_pushed_at": "2026-11-06T00:27:27Z",
-  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
+  "last_pushed_at": "2026-11-12T19:58:41Z",
+  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,12 +55,12 @@
     "name": "veritus-git/BadWords",
     "url": "https://github.com/veritus-git/BadWords",
     "kind": "stable-release",
-    "version": "4.0.0",
-    "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
-    "date": "2026-11-06T00:11:07Z",
-    "checked_at": "2026-11-06T08:18:50.375Z",
+    "version": "4.0.1",
+    "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+    "date": "2026-11-11T21:05:56Z",
+    "checked_at": "2026-11-14T07:53:12.819Z",
     "date_kind": "release",
-    "note": "Original source reviewed; catalogue review date is separate from the release date."
+    "note": "Original provider source reviewed."
   },
   "evidence": [
     {
@@ -71,18 +71,18 @@
       "note": "Provider-listed platforms; see limitations and exact builds."
     },
     {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
-    {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/veritus-git/BadWords",
       "checked_at": "2026-09-06",
       "note": "Local transcript-based rough cutting; no installer or compatibility testing performed."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Provider release evidence."
     }
   ],
   "unknownFields": [
@@ -93,6 +93,27 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "veritus-git/BadWords",
+      "url": "https://github.com/veritus-git/BadWords",
+      "from": "4.0.0",
+      "to": "4.0.1",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T21:05:56Z",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+      "summary": "Fixes NTSC drift and source timecode in XML and OTIO exports. Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog.",
+      "changes": [
+        "Fixes NTSC drift and source timecode in XML and OTIO exports.",
+        "Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1"
+        }
+      ]
+    },
     {
       "name": "veritus-git/BadWords",
       "url": "https://github.com/veritus-git/BadWords",

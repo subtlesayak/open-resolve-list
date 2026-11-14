@@ -164,12 +164,12 @@
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",
       "kind": "stable-release",
-      "version": "v1.8.0",
-      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
-      "date": "2026-10-30T07:38:27Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "v1.9.0",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+      "date": "2026-11-11T03:47:17Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "Asteroid City LUT",
@@ -215,12 +215,12 @@
       "name": "WyattBlue/auto-editor",
       "url": "https://github.com/WyattBlue/auto-editor",
       "kind": "stable-release",
-      "version": "31.8.0",
-      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
-      "date": "2026-10-30T01:50:12Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "31.9.0",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+      "date": "2026-11-13T18:17:27Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "neezr/Auto-Rename-for-DaVinci-Resolve",
@@ -333,12 +333,12 @@
       "name": "veritus-git/BadWords",
       "url": "https://github.com/veritus-git/BadWords",
       "kind": "stable-release",
-      "version": "4.0.0",
-      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
-      "date": "2026-11-06T00:11:07Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "4.0.1",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+      "date": "2026-11-11T21:05:56Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "ciqueira/BaldavengerOFX",
@@ -541,12 +541,12 @@
       "name": "laurentchicoine/braw-pack",
       "url": "https://github.com/laurentchicoine/braw-pack",
       "kind": "stable-release",
-      "version": "v0.4.0",
-      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
-      "date": "2026-10-28T01:26:34Z",
+      "version": "v0.5.0",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+      "date": "2026-11-11T01:48:25Z",
       "date_kind": "release",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Original provider source reviewed."
     },
     {
       "name": "Breathe In 35mm PowerGrades",
@@ -810,12 +810,12 @@
       "name": "ciqueira/ColorEqualizer",
       "url": "https://github.com/ciqueira/ColorEqualizer",
       "kind": "stable-release",
-      "version": "eq-v0.6.5",
-      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
-      "date": "2026-11-03T22:22:00Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "eq-v0.6.6",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+      "date": "2026-11-07T13:28:02Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "ColorLabels",
@@ -1232,12 +1232,12 @@
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
       "kind": "stable-release",
-      "version": "v4.19.0",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
-      "date": "2026-11-05T02:01:29Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "v5.2.8",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+      "date": "2026-11-14T00:46:43Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "DaVinci Resolve Micro Color Panel Manual",
@@ -2088,12 +2088,12 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "kind": "vendor-version",
-      "version": "26.11.01",
+      "version": "26.11.02",
       "source": "https://fcp2aaf.com/changelog/",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "date_kind": "release",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Original provider source reviewed."
     },
     {
       "name": "yioannides/fedora-resolve",
@@ -2171,6 +2171,17 @@
       "source": "https://github.com/helios1138/filmeon/commit/d10d646899601f58ce92b9dbb21d82e3f744d461",
       "date": "2026-05-22T18:34:17Z",
       "checked_at": "2026-09-15T05:06:04.860Z"
+    },
+    {
+      "name": "Filmic Texture",
+      "url": "https://filmictexture.com/",
+      "kind": "vendor-version",
+      "version": "0.1 trial",
+      "source": "https://filmictexture.com/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Trial version listed by provider; no dated changelog published."
     },
     {
       "name": "Filmkid 16 PowerGrade and LUT",
@@ -2263,12 +2274,12 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.14.2",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
-      "date": "2026-11-02T17:52:19Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "v1.16",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+      "date": "2026-11-11T18:58:11Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "framechart",
@@ -2612,10 +2623,12 @@
       "name": "gyroflow/gyroflow-plugins",
       "url": "https://github.com/gyroflow/gyroflow-plugins",
       "kind": "stable-release",
-      "version": "v2.1.1",
-      "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v2.1.1",
-      "date": "2025-08-24T14:16:15Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v3.0.0",
+      "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+      "date": "2026-11-07T01:55:35Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "date_kind": "release",
+      "note": "Original provider source reviewed."
     },
     {
       "name": "EmberLightVFX/Gyroflow-to-CSV",
@@ -2677,12 +2690,12 @@
       "name": "Jumper",
       "url": "https://getjumper.io/",
       "kind": "vendor-version",
-      "version": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+      "version": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
       "source": "https://docs.getjumper.io/release-notes/macos",
-      "date": "2026-10-28",
+      "date": "2026-11-09",
       "date_kind": "release",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Original provider source reviewed."
     },
     {
       "name": "Just Highlighter Plus",
@@ -2961,14 +2974,15 @@
       "note": "Original provider evidence reviewed; review date is separate from product release date."
     },
     {
-      "name": "Meta Fide Computer Vision",
-      "url": "https://www.metafide.com/?product=computer-vision",
-      "kind": "unverified",
-      "version": null,
-      "source": "https://www.metafide.com/?product=computer-vision",
+      "name": "Meta Fide Computer Vision 2",
+      "url": "https://www.metafide.com/?product=computer-vision-2",
+      "kind": "vendor-version",
+      "version": "2",
+      "source": "https://www.metafide.com/?product=computer-vision-2",
       "date": null,
       "date_kind": null,
-      "checked_at": "2026-09-06T12:10:19.548Z"
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Provider product edition; exact build number and publication date not established."
     },
     {
       "name": "WDegan/metafootage-davinci-resolve",
@@ -3532,12 +3546,12 @@
       "name": "WheheoHu/pybmd",
       "url": "https://github.com/WheheoHu/pybmd",
       "kind": "stable-release",
-      "version": "v2026.4.0",
-      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
-      "date": "2026-11-04T03:41:42Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "v2026.5.0",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+      "date": "2026-11-08T07:47:00Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "pedrolabonia/pydavinci",
@@ -4213,12 +4227,12 @@
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
       "kind": "stable-release",
-      "version": "v0.6.4",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
-      "date": "2026-11-05T14:49:04Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "v0.6.6",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+      "date": "2026-11-13T12:38:25Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "Shutter Encoder",
@@ -4404,12 +4418,12 @@
       "name": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",
       "kind": "stable-release",
-      "version": "v3.3.9",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
-      "date": "2026-11-02T14:03:37Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "v3.4.0",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+      "date": "2026-11-10T05:53:36Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
     {
       "name": "BambooYC123/SubtitleYC",

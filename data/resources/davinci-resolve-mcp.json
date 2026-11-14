@@ -38,9 +38,9 @@
   "platform_source": "https://github.com/samuelgursky/davinci-resolve-mcp#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 3957,
-  "last_pushed_at": "2026-11-05T14:06:53Z",
-  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
+  "stars": 4098,
+  "last_pushed_at": "2026-11-14T03:16:22Z",
+  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -56,12 +56,12 @@
     "name": "samuelgursky/davinci-resolve-mcp",
     "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
     "kind": "stable-release",
-    "version": "v4.19.0",
-    "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
-    "date": "2026-11-05T02:01:29Z",
-    "checked_at": "2026-11-06T08:18:50.375Z",
+    "version": "v5.2.8",
+    "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+    "date": "2026-11-14T00:46:43Z",
+    "checked_at": "2026-11-14T07:53:12.819Z",
     "date_kind": "release",
-    "note": "Original source reviewed; catalogue review date is separate from the release date."
+    "note": "Original provider source reviewed."
   },
   "evidence": [
     {
@@ -74,9 +74,9 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Recorded provider release evidence, not installation testing."
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Provider release evidence."
     }
   ],
   "unknownFields": [
@@ -88,6 +88,27 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.19.0",
+      "to": "v5.2.8",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-14T00:46:43Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+      "summary": "Honors the top-level record-frame mode when clip rows omit their own mode. Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings.",
+      "changes": [
+        "Honors the top-level record-frame mode when clip rows omit their own mode.",
+        "Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8"
+        }
+      ]
+    },
     {
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",

@@ -33,9 +33,9 @@
   "platform_source": "https://github.com/WyattBlue/auto-editor#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 5791,
-  "last_pushed_at": "2026-11-06T04:55:41Z",
-  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
+  "stars": 5879,
+  "last_pushed_at": "2026-11-14T06:42:13Z",
+  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -51,27 +51,27 @@
     "name": "WyattBlue/auto-editor",
     "url": "https://github.com/WyattBlue/auto-editor",
     "kind": "stable-release",
-    "version": "31.8.0",
-    "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
-    "date": "2026-10-30T01:50:12Z",
-    "checked_at": "2026-11-06T08:18:50.375Z",
+    "version": "31.9.0",
+    "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+    "date": "2026-11-13T18:17:27Z",
+    "checked_at": "2026-11-14T07:53:12.819Z",
     "date_kind": "release",
-    "note": "Original source reviewed; catalogue review date is separate from the release date."
+    "note": "Original provider source reviewed."
   },
   "evidence": [
-    {
-      "field": "version",
-      "level": "documented",
-      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Recorded version evidence, not installation testing."
-    },
     {
       "field": "requirements",
       "level": "documented",
       "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
       "checked_at": "2026-09-07",
       "note": "Resolve version and edition compatibility are not established by the recorded release notes."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Provider release evidence."
     }
   ],
   "unknownFields": [
@@ -84,6 +84,27 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.8.0",
+      "to": "31.9.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-13T18:17:27Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+      "summary": "Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data. Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps.",
+      "changes": [
+        "Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data.",
+        "Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0"
+        }
+      ]
+    },
     {
       "name": "WyattBlue/auto-editor",
       "url": "https://github.com/WyattBlue/auto-editor",

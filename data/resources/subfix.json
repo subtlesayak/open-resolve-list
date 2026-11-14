@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/HooperH/SubFix#readme",
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
-  "stars": 41,
-  "last_pushed_at": "2026-11-02T13:57:34Z",
-  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
+  "stars": 42,
+  "last_pushed_at": "2026-11-10T05:49:19Z",
+  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -57,12 +57,12 @@
     "name": "HooperH/SubFix",
     "url": "https://github.com/HooperH/SubFix",
     "kind": "stable-release",
-    "version": "v3.3.9",
-    "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
-    "date": "2026-11-02T14:03:37Z",
-    "checked_at": "2026-11-06T08:18:50.375Z",
+    "version": "v3.4.0",
+    "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+    "date": "2026-11-10T05:53:36Z",
+    "checked_at": "2026-11-14T07:53:12.819Z",
     "date_kind": "release",
-    "note": "Original source reviewed; catalogue review date is separate from the release date."
+    "note": "Original provider source reviewed."
   },
   "evidence": [
     {
@@ -82,9 +82,9 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Recorded provider release evidence, not installation testing."
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Provider release evidence."
     }
   ],
   "unknownFields": [
@@ -95,6 +95,28 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "from": "v3.3.9",
+      "to": "v3.4.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-10T05:53:36Z",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+      "summary": "Moves recognition and alignment models out of the installer and adds a model center with download and offline import. Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular. Upgrading from 3.3.9 or earlier requires the full package.",
+      "changes": [
+        "Moves recognition and alignment models out of the installer and adds a model center with download and offline import.",
+        "Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular.",
+        "Upgrading from 3.3.9 or earlier requires the full package."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0"
+        }
+      ]
+    },
     {
       "name": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",

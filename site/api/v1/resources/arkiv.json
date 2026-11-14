@@ -51,9 +51,9 @@
       {
         "field": "version",
         "level": "documented",
-        "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Recorded version evidence, not installation testing."
+        "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider release evidence."
       }
     ],
     "unknownFields": [
@@ -69,18 +69,42 @@
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",
       "kind": "stable-release",
-      "version": "v1.8.0",
-      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
-      "date": "2026-10-30T07:38:27Z",
-      "checked_at": "2026-11-06T08:18:50.375Z",
+      "version": "v1.9.0",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+      "date": "2026-11-11T03:47:17Z",
+      "checked_at": "2026-11-14T07:53:12.819Z",
       "date_kind": "release",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "note": "Original provider source reviewed."
     },
-    "releaseDate": "2026-10-30T07:38:27Z",
-    "activityDate": "2026-11-04T17:41:42Z",
-    "stars": 78,
-    "metadataChecked": "2026-11-06T08:14:19.414Z",
+    "releaseDate": "2026-11-11T03:47:17Z",
+    "activityDate": "2026-11-11T03:41:44Z",
+    "stars": 79,
+    "metadataChecked": "2026-11-14T07:47:18.816Z",
     "history": [
+      {
+        "name": "vulture-s/arkiv",
+        "url": "https://github.com/vulture-s/arkiv",
+        "from": "v1.8.0",
+        "to": "v1.9.0",
+        "release": "v1.30",
+        "catalogue_date": "2026-11-14",
+        "upstream_date": "2026-11-11T03:47:17Z",
+        "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+        "summary": "Adds an English interface and language selection, including translated API errors.",
+        "changes": [
+          "Adds an English interface and language selection, including translated API errors."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider release",
+            "url": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0"
+          },
+          {
+            "label": "Full upstream changelog",
+            "url": "https://github.com/vulture-s/arkiv/blob/main/CHANGELOG.md"
+          }
+        ]
+      },
       {
         "name": "vulture-s/arkiv",
         "url": "https://github.com/vulture-s/arkiv",
@@ -127,6 +151,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.30",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+      },
       {
         "version": "v1.29",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"

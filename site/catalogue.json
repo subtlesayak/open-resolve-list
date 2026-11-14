@@ -1,10 +1,12 @@
 {
   "latestUpdate": {
     "schema_version": 1,
-    "date": "2026-11-06",
-    "release": "v1.29",
-    "added_urls": [],
-    "addedCount": 0
+    "date": "2026-11-14",
+    "release": "v1.30",
+    "added_urls": [
+      "https://filmictexture.com/"
+    ],
+    "addedCount": 1
   },
   "schema_version": 1,
   "title": "Open Resolve List",
@@ -362,8 +364,8 @@
       },
       "releaseDate": null,
       "activityDate": "2021-08-30T18:35:33Z",
-      "stars": 73,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 75,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -529,7 +531,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-13T23:41:49Z",
       "stars": 61,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "thatcherfreeman/aces-transforms",
@@ -801,7 +803,7 @@
       "releaseDate": null,
       "activityDate": "2019-04-03T17:31:58Z",
       "stars": 41,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -875,8 +877,8 @@
       },
       "releaseDate": null,
       "activityDate": "2024-11-25T02:35:25Z",
-      "stars": 112,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 113,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -1252,7 +1254,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-16T19:59:07Z",
       "stars": 6,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -1490,9 +1492,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
+          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -1508,18 +1510,42 @@
         "name": "vulture-s/arkiv",
         "url": "https://github.com/vulture-s/arkiv",
         "kind": "stable-release",
-        "version": "v1.8.0",
-        "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.8.0",
-        "date": "2026-10-30T07:38:27Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "v1.9.0",
+        "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+        "date": "2026-11-11T03:47:17Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-10-30T07:38:27Z",
-      "activityDate": "2026-11-04T17:41:42Z",
-      "stars": 78,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "releaseDate": "2026-11-11T03:47:17Z",
+      "activityDate": "2026-11-11T03:41:44Z",
+      "stars": 79,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "vulture-s/arkiv",
+          "url": "https://github.com/vulture-s/arkiv",
+          "from": "v1.8.0",
+          "to": "v1.9.0",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-11T03:47:17Z",
+          "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+          "summary": "Adds an English interface and language selection, including translated API errors.",
+          "changes": [
+            "Adds an English interface and language selection, including translated API errors."
+          ],
+          "changelogs": [
+            {
+              "label": "Provider release",
+              "url": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0"
+            },
+            {
+              "label": "Full upstream changelog",
+              "url": "https://github.com/vulture-s/arkiv/blob/main/CHANGELOG.md"
+            }
+          ]
+        },
         {
           "name": "vulture-s/arkiv",
           "url": "https://github.com/vulture-s/arkiv",
@@ -1566,6 +1592,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -1945,18 +1975,18 @@
       },
       "evidence": [
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
           "checked_at": "2026-09-07",
           "note": "Resolve version and edition compatibility are not established by the recorded release notes."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -1973,18 +2003,39 @@
         "name": "WyattBlue/auto-editor",
         "url": "https://github.com/WyattBlue/auto-editor",
         "kind": "stable-release",
-        "version": "31.8.0",
-        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0",
-        "date": "2026-10-30T01:50:12Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "31.9.0",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+        "date": "2026-11-13T18:17:27Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-10-30T01:50:12Z",
-      "activityDate": "2026-11-06T04:55:41Z",
-      "stars": 5791,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "releaseDate": "2026-11-13T18:17:27Z",
+      "activityDate": "2026-11-14T06:42:13Z",
+      "stars": 5879,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "WyattBlue/auto-editor",
+          "url": "https://github.com/WyattBlue/auto-editor",
+          "from": "31.8.0",
+          "to": "31.9.0",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-13T18:17:27Z",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+          "summary": "Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data. Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps.",
+          "changes": [
+            "Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data.",
+            "Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0"
+            }
+          ]
+        },
         {
           "name": "WyattBlue/auto-editor",
           "url": "https://github.com/WyattBlue/auto-editor",
@@ -2051,6 +2102,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -2152,7 +2207,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-11T14:08:51Z",
       "stars": 17,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2236,7 +2291,7 @@
       "releaseDate": "2025-09-05T00:17:42Z",
       "activityDate": "2025-09-24T20:40:15Z",
       "stars": 25,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2327,9 +2382,9 @@
         "date_kind": "release"
       },
       "releaseDate": "2026-09-29T19:07:26Z",
-      "activityDate": "2026-10-30T19:38:09Z",
-      "stars": 4509,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "activityDate": "2026-11-11T02:09:57Z",
+      "stars": 4564,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "tmoroney/auto-subs",
@@ -2561,7 +2616,7 @@
       "releaseDate": null,
       "activityDate": "2022-11-08T10:10:40Z",
       "stars": 21,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2647,7 +2702,7 @@
       "releaseDate": "2025-12-16T11:40:33Z",
       "activityDate": "2025-12-16T12:27:17Z",
       "stars": 12,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2731,9 +2786,9 @@
         "note": "Source revision, not a published software release."
       },
       "releaseDate": null,
-      "activityDate": "2026-10-31T00:09:12Z",
+      "activityDate": "2026-11-10T18:07:59Z",
       "stars": 31,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "psygreg/autoresolvedeb",
@@ -2866,7 +2921,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-09T13:33:45Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -2942,9 +2997,9 @@
         "note": "Source revision, not a published software release."
       },
       "releaseDate": null,
-      "activityDate": "2026-11-01T06:31:54Z",
-      "stars": 68,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "activityDate": "2026-11-12T07:42:32Z",
+      "stars": 71,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "cutbypham/awesome-davinci-resolve",
@@ -3047,8 +3102,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-07T00:53:29Z",
-      "stars": 393,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 412,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -3132,7 +3187,7 @@
       "releaseDate": "2026-10-30T13:06:10Z",
       "activityDate": "2026-11-05T13:32:06Z",
       "stars": 13,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "ynput/ayon-resolve",
@@ -3263,18 +3318,18 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://github.com/veritus-git/BadWords",
           "checked_at": "2026-09-06",
           "note": "Local transcript-based rough cutting; no installer or compatibility testing performed."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -3289,18 +3344,39 @@
         "name": "veritus-git/BadWords",
         "url": "https://github.com/veritus-git/BadWords",
         "kind": "stable-release",
-        "version": "4.0.0",
-        "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.0",
-        "date": "2026-11-06T00:11:07Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "4.0.1",
+        "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+        "date": "2026-11-11T21:05:56Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-11-06T00:11:07Z",
-      "activityDate": "2026-11-06T00:27:27Z",
+      "releaseDate": "2026-11-11T21:05:56Z",
+      "activityDate": "2026-11-12T19:58:41Z",
       "stars": 44,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "veritus-git/BadWords",
+          "url": "https://github.com/veritus-git/BadWords",
+          "from": "4.0.0",
+          "to": "4.0.1",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-11T21:05:56Z",
+          "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+          "summary": "Fixes NTSC drift and source timecode in XML and OTIO exports. Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog.",
+          "changes": [
+            "Fixes NTSC drift and source timecode in XML and OTIO exports.",
+            "Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1"
+            }
+          ]
+        },
         {
           "name": "veritus-git/BadWords",
           "url": "https://github.com/veritus-git/BadWords",
@@ -3323,6 +3399,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -3418,7 +3498,7 @@
       "releaseDate": "2026-07-03T00:12:25Z",
       "activityDate": "2026-09-16T02:39:28Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -3501,8 +3581,8 @@
       },
       "releaseDate": null,
       "activityDate": "2021-09-01T16:13:51Z",
-      "stars": 149,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 148,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -3766,7 +3846,7 @@
       "releaseDate": "2026-08-11T10:20:10Z",
       "activityDate": "2026-08-23T13:34:52Z",
       "stars": 29,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -3842,7 +3922,7 @@
       "releaseDate": "2026-04-30T20:11:12Z",
       "activityDate": "2026-06-16T10:30:06Z",
       "stars": 14,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -4293,8 +4373,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-10-05T20:53:19Z",
-      "stars": 4,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 5,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -4705,7 +4785,7 @@
       "releaseDate": null,
       "activityDate": "2026-01-23T01:44:47Z",
       "stars": 20,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -4803,7 +4883,7 @@
       "releaseDate": "2026-02-19T02:15:17Z",
       "activityDate": "2026-07-15T10:57:42Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5011,7 +5091,7 @@
         "x265",
         "experimental"
       ],
-      "description": "Experimental local BRAW archive and recompression utility. Rebuilds H.265 archives into usable BRAW while retaining camera metadata, and can make smaller BRAW files. Lossy: retain original footage until rebuilt clips are checked. Windows and Linux builds plus unnotarized macOS beta builds; Linux GUI and interactive Mac workflows remain incompletely tested. NVIDIA accelerates supported Windows/Linux paths; CPU fallback is slower.",
+      "description": "Experimental local BRAW archive and recompression utility. Rebuilds H.265 archives into usable BRAW while retaining camera metadata. Lossy: retain original footage until rebuilt clips are checked. Supports NVIDIA acceleration on Windows/Linux and VideoToolbox on Apple Silicon. macOS builds are unnotarized beta.",
       "access": "Free; MIT application, bundled components retain their own licenses",
       "accessGroup": "free",
       "platforms": [
@@ -5027,7 +5107,7 @@
           "x64",
           "arm64"
         ],
-        "gpu": "Optional NVIDIA acceleration on Windows/Linux; macOS beta uses CPU encoding.",
+        "gpu": "Optional NVIDIA acceleration on Windows/Linux; VideoToolbox on Apple Silicon; CPU encoding is available.",
         "processing": "local",
         "pricing": "free",
         "account": "not-required",
@@ -5052,9 +5132,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Original provider documentation reviewed; limitations are stated in the description."
+          "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -5068,18 +5148,39 @@
         "name": "laurentchicoine/braw-pack",
         "url": "https://github.com/laurentchicoine/braw-pack",
         "kind": "stable-release",
-        "version": "v0.4.0",
-        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.4.0",
-        "date": "2026-10-28T01:26:34Z",
+        "version": "v0.5.0",
+        "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+        "date": "2026-11-11T01:48:25Z",
         "date_kind": "release",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-10-28T01:26:34Z",
-      "activityDate": "2026-10-28T01:26:28Z",
+      "releaseDate": "2026-11-11T01:48:25Z",
+      "activityDate": "2026-11-11T01:48:24Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "laurentchicoine/braw-pack",
+          "url": "https://github.com/laurentchicoine/braw-pack",
+          "from": "v0.4.0",
+          "to": "v0.5.0",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-11T01:48:25Z",
+          "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+          "summary": "Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip. Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized.",
+          "changes": [
+            "Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip.",
+            "Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0"
+            }
+          ]
+        },
         {
           "name": "laurentchicoine/braw-pack",
           "url": "https://github.com/laurentchicoine/braw-pack",
@@ -5102,6 +5203,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -5345,7 +5450,7 @@
       "releaseDate": null,
       "activityDate": "2020-12-29T17:07:39Z",
       "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5432,7 +5537,7 @@
       "releaseDate": "2026-08-11T12:35:36Z",
       "activityDate": "2026-08-11T12:34:54Z",
       "stars": 10,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5747,7 +5852,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-16T15:07:54Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5822,7 +5927,7 @@
       "releaseDate": null,
       "activityDate": "2021-06-02T14:45:02Z",
       "stars": 6,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -5990,7 +6095,7 @@
       "releaseDate": null,
       "activityDate": "2021-07-14T06:20:23Z",
       "stars": 15,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -6075,7 +6180,7 @@
       "releaseDate": "2025-10-01T21:45:44Z",
       "activityDate": "2025-10-01T22:03:17Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -6430,7 +6535,7 @@
       "releaseDate": "2026-04-17T13:42:17Z",
       "activityDate": "2026-04-17T14:06:52Z",
       "stars": 10,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -6678,7 +6783,7 @@
       "releaseDate": "2026-10-20T12:27:31Z",
       "activityDate": "2026-10-20T12:49:35Z",
       "stars": 111,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "Gianluca-Improta/cinekive",
@@ -7184,7 +7289,7 @@
       "releaseDate": null,
       "activityDate": "2026-06-22T15:07:47Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -7280,7 +7385,7 @@
       "releaseDate": "2026-10-11T17:44:46Z",
       "activityDate": "2026-11-03T22:42:23Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "stoatworks-labs/cogwheel",
@@ -7413,9 +7518,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
+          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -7431,18 +7536,38 @@
         "name": "ciqueira/ColorEqualizer",
         "url": "https://github.com/ciqueira/ColorEqualizer",
         "kind": "stable-release",
-        "version": "eq-v0.6.5",
-        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.5",
-        "date": "2026-11-03T22:22:00Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "eq-v0.6.6",
+        "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+        "date": "2026-11-07T13:28:02Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-11-03T22:22:00Z",
-      "activityDate": "2026-11-03T22:22:00Z",
+      "releaseDate": "2026-11-07T13:28:02Z",
+      "activityDate": "2026-11-09T19:32:03Z",
       "stars": 9,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "ciqueira/ColorEqualizer",
+          "url": "https://github.com/ciqueira/ColorEqualizer",
+          "from": "eq-v0.6.5",
+          "to": "eq-v0.6.6",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-07T13:28:02Z",
+          "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+          "summary": "The provider published this tag with an automated release notice and no detailed feature changelog.",
+          "changes": [
+            "The provider published this tag with an automated release notice and no detailed feature changelog."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6"
+            }
+          ]
+        },
         {
           "name": "ciqueira/ColorEqualizer",
           "url": "https://github.com/ciqueira/ColorEqualizer",
@@ -7505,6 +7630,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -7750,8 +7879,8 @@
       },
       "releaseDate": null,
       "activityDate": "2024-06-21T05:43:04Z",
-      "stars": 49,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 50,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -7852,8 +7981,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-11T20:51:48Z",
-      "stars": 10,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 11,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -7947,7 +8076,7 @@
       "releaseDate": "2026-10-04T03:39:49Z",
       "activityDate": "2026-11-03T22:42:29Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "stoatworks-labs/compander",
@@ -8079,7 +8208,7 @@
       "releaseDate": null,
       "activityDate": "2024-06-18T15:11:27Z",
       "stars": 8,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8169,8 +8298,8 @@
       },
       "releaseDate": "2026-04-02T19:14:12Z",
       "activityDate": "2026-08-05T20:48:46Z",
-      "stars": 784,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 786,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8498,7 +8627,7 @@
       "releaseDate": "2026-05-26T21:04:28Z",
       "activityDate": "2026-07-20T22:14:51Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8649,7 +8778,7 @@
       "releaseDate": null,
       "activityDate": "2021-02-26T21:15:34Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8731,7 +8860,7 @@
       "releaseDate": null,
       "activityDate": "2025-12-24T13:15:38Z",
       "stars": 8,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -8908,8 +9037,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-14T05:43:27Z",
-      "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 3,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9078,7 +9207,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-08T18:17:42Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9161,7 +9290,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-16T11:14:14Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9248,7 +9377,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-03T18:39:37Z",
       "stars": 10,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9329,8 +9458,8 @@
       },
       "releaseDate": "2025-05-08T19:09:26Z",
       "activityDate": "2025-07-29T10:48:25Z",
-      "stars": 315,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 316,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9480,8 +9609,8 @@
       },
       "releaseDate": "2025-08-13T00:19:02Z",
       "activityDate": "2025-08-13T00:19:02Z",
-      "stars": 120,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 122,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -9567,9 +9696,9 @@
         "note": "Original source reviewed; catalogue review date is separate from the release date."
       },
       "releaseDate": "2026-10-31T19:36:09Z",
-      "activityDate": "2026-10-31T19:36:08Z",
+      "activityDate": "2026-11-14T05:29:46Z",
       "stars": 26,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "hoyt-harness/davinci-mcp-professional",
@@ -10175,7 +10304,7 @@
       "releaseDate": null,
       "activityDate": "2019-03-12T19:11:24Z",
       "stars": 98,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10257,7 +10386,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-13T08:03:56Z",
       "stars": 173,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10342,8 +10471,8 @@
       },
       "releaseDate": "2026-06-03T06:56:46Z",
       "activityDate": "2026-05-22T03:59:59Z",
-      "stars": 53,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 54,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10445,7 +10574,7 @@
       "releaseDate": null,
       "activityDate": "2026-11-05T15:05:32Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "Distortions81/DaVinci-Resolve-Container",
@@ -10555,7 +10684,7 @@
       "releaseDate": null,
       "activityDate": "2025-01-15T13:09:31Z",
       "stars": 38,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10634,7 +10763,7 @@
       "releaseDate": "2024-11-11T21:06:33Z",
       "activityDate": "2025-03-02T19:07:16Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10709,7 +10838,7 @@
       "releaseDate": null,
       "activityDate": "2026-06-05T08:11:06Z",
       "stars": 5,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10880,7 +11009,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-13T17:04:34Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -10962,8 +11091,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-03-31T16:09:05Z",
-      "stars": 269,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 271,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11047,7 +11176,7 @@
       "releaseDate": null,
       "activityDate": "2021-12-16T01:11:48Z",
       "stars": 18,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -11124,8 +11253,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-10-22T20:44:08Z",
-      "stars": 79,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 81,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "apvlv/davinci-resolve-mcp",
@@ -11211,9 +11340,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -11229,18 +11358,39 @@
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
         "kind": "stable-release",
-        "version": "v4.19.0",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v4.19.0",
-        "date": "2026-11-05T02:01:29Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "v5.2.8",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+        "date": "2026-11-14T00:46:43Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-11-05T02:01:29Z",
-      "activityDate": "2026-11-05T14:06:53Z",
-      "stars": 3957,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "releaseDate": "2026-11-14T00:46:43Z",
+      "activityDate": "2026-11-14T03:16:22Z",
+      "stars": 4098,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "samuelgursky/davinci-resolve-mcp",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+          "from": "v4.19.0",
+          "to": "v5.2.8",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-14T00:46:43Z",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+          "summary": "Honors the top-level record-frame mode when clip rows omit their own mode. Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings.",
+          "changes": [
+            "Honors the top-level record-frame mode when clip rows omit their own mode.",
+            "Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8"
+            }
+          ]
+        },
         {
           "name": "samuelgursky/davinci-resolve-mcp",
           "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
@@ -11457,6 +11607,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -12165,7 +12319,7 @@
       "releaseDate": "2023-03-16T23:06:19Z",
       "activityDate": "2023-03-16T23:06:19Z",
       "stars": 104,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12326,8 +12480,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-10-13T15:39:40Z",
-      "stars": 99,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 100,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12506,7 +12660,7 @@
       "releaseDate": "2026-09-13T07:04:23Z",
       "activityDate": "2026-09-13T07:08:04Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12589,7 +12743,7 @@
       "releaseDate": null,
       "activityDate": "2022-11-05T12:58:35Z",
       "stars": 22,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12748,8 +12902,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-09-01T03:02:38Z",
-      "stars": 22,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 23,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12834,7 +12988,7 @@
       "releaseDate": null,
       "activityDate": "2025-02-14T23:10:32Z",
       "stars": 44,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -12916,7 +13070,7 @@
       "releaseDate": null,
       "activityDate": "2025-06-16T21:06:09Z",
       "stars": 23,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13006,7 +13160,7 @@
       "releaseDate": null,
       "activityDate": "2025-09-03T06:33:04Z",
       "stars": 13,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13182,7 +13336,7 @@
       "releaseDate": "2026-10-28T19:18:35Z",
       "activityDate": "2026-10-28T19:18:35Z",
       "stars": 12,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "Creative-Crafter/davinci-shortform-overlays",
@@ -13516,7 +13670,7 @@
       "releaseDate": null,
       "activityDate": "2025-03-14T21:51:49Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13598,9 +13752,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-05-14T01:26:16Z",
-      "activityDate": "2026-09-12T21:38:38Z",
-      "stars": 1034,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "activityDate": "2026-11-09T22:42:55Z",
+      "stars": 1040,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13676,7 +13830,7 @@
       "releaseDate": null,
       "activityDate": "2018-09-14T05:38:40Z",
       "stars": 32,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13750,7 +13904,7 @@
       "releaseDate": null,
       "activityDate": "2020-07-05T22:13:01Z",
       "stars": 25,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13825,7 +13979,7 @@
       "releaseDate": null,
       "activityDate": "2022-02-02T23:17:10Z",
       "stars": 19,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13911,7 +14065,7 @@
       "releaseDate": "2023-11-28T08:52:37Z",
       "activityDate": "2025-10-13T08:04:47Z",
       "stars": 71,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -13986,7 +14140,7 @@
       "releaseDate": null,
       "activityDate": "2023-11-05T18:41:13Z",
       "stars": 9,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14062,7 +14216,7 @@
       "releaseDate": null,
       "activityDate": "2022-01-16T16:59:46Z",
       "stars": 14,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14136,8 +14290,8 @@
       },
       "releaseDate": null,
       "activityDate": "2023-11-05T18:42:00Z",
-      "stars": 12,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 13,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14236,7 +14390,7 @@
       "releaseDate": "2026-06-06T11:16:28Z",
       "activityDate": "2026-06-06T11:45:00Z",
       "stars": 5,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14319,7 +14473,7 @@
       "releaseDate": "2025-04-07T05:38:58Z",
       "activityDate": "2026-04-02T06:58:11Z",
       "stars": 57,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14402,7 +14556,7 @@
       "releaseDate": "2023-12-22T21:03:25Z",
       "activityDate": "2026-01-27T23:33:13Z",
       "stars": 24,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14557,7 +14711,7 @@
       "releaseDate": null,
       "activityDate": "2023-07-22T14:11:18Z",
       "stars": 37,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14640,8 +14794,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-11-06T20:39:32Z",
-      "stars": 334,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 335,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14719,7 +14873,7 @@
       "releaseDate": null,
       "activityDate": "2024-07-26T17:11:12Z",
       "stars": 21,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14803,7 +14957,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-06T04:28:59Z",
       "stars": 15,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14881,7 +15035,7 @@
       "releaseDate": null,
       "activityDate": "2025-07-23T03:01:06Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -14958,7 +15112,7 @@
       "releaseDate": null,
       "activityDate": "2025-08-04T21:19:58Z",
       "stars": 29,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15033,8 +15187,8 @@
       },
       "releaseDate": null,
       "activityDate": "2023-12-20T15:57:13Z",
-      "stars": 22,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 23,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15108,7 +15262,7 @@
       "releaseDate": null,
       "activityDate": "2025-01-15T04:53:47Z",
       "stars": 31,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15183,8 +15337,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-05-22T14:27:14Z",
-      "stars": 164,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 165,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15270,8 +15424,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-28T07:15:03Z",
-      "stars": 69,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 70,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "MoazElgabry/DCTLs",
@@ -15370,7 +15524,7 @@
       "releaseDate": null,
       "activityDate": "2024-10-05T06:39:53Z",
       "stars": 22,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15445,7 +15599,7 @@
       "releaseDate": null,
       "activityDate": "2024-03-03T00:23:47Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15521,7 +15675,7 @@
       "releaseDate": null,
       "activityDate": "2024-01-26T18:30:12Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15596,8 +15750,8 @@
       },
       "releaseDate": null,
       "activityDate": "2023-12-06T00:59:40Z",
-      "stars": 362,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 365,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15671,7 +15825,7 @@
       "releaseDate": null,
       "activityDate": "2020-12-02T09:17:35Z",
       "stars": 38,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -15754,9 +15908,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-09-14T14:23:48Z",
-      "activityDate": "2026-11-05T15:46:08Z",
-      "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "activityDate": "2026-11-12T19:02:23Z",
+      "stars": 8,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "Dec18studios/Dec18-Plugin-Manager",
@@ -16418,7 +16572,7 @@
       "releaseDate": "2022-09-24T19:45:23Z",
       "activityDate": "2023-02-08T18:16:03Z",
       "stars": 62,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -16586,8 +16740,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-09-08T19:18:15Z",
-      "stars": 14,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 16,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -16670,7 +16824,7 @@
       "releaseDate": null,
       "activityDate": "2026-05-28T12:27:53Z",
       "stars": 13,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -16754,8 +16908,8 @@
       },
       "releaseDate": "2025-11-22T14:05:21Z",
       "activityDate": "2026-10-13T04:46:56Z",
-      "stars": 323,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 328,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -16933,7 +17087,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-21T20:53:08Z",
       "stars": 26,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -17015,7 +17169,7 @@
       "releaseDate": "2025-05-18T13:44:02Z",
       "activityDate": "2025-05-18T08:57:44Z",
       "stars": 47,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -17114,7 +17268,7 @@
       "releaseDate": "2026-09-19T00:00:00Z",
       "activityDate": "2026-10-21T15:16:40Z",
       "stars": 15,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "from": "v1.6.4",
@@ -17214,7 +17368,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-27T16:22:44Z",
       "stars": 115,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -17361,7 +17515,7 @@
       "releaseDate": null,
       "activityDate": "2024-10-02T03:05:25Z",
       "stars": 4,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -17596,8 +17750,8 @@
       },
       "releaseDate": "2026-08-06T23:33:40Z",
       "activityDate": "2026-09-19T11:52:58Z",
-      "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 1,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -17919,7 +18073,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-12T04:47:06Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -18478,8 +18632,8 @@
       },
       "releaseDate": "2026-07-11T17:18:25Z",
       "activityDate": "2026-10-25T14:04:23Z",
-      "stars": 23,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 24,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -18797,7 +18951,7 @@
       "releaseDate": "2026-07-05T09:29:23Z",
       "activityDate": "2026-07-05T09:29:23Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -19004,13 +19158,6 @@
           "note": "Provider-listed platforms; see limitations and exact builds."
         },
         {
-          "field": "version",
-          "level": "documented",
-          "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
-        },
-        {
           "field": "requirements",
           "level": "documented",
           "source": "https://fcp2aaf.com/",
@@ -19028,8 +19175,8 @@
           "field": "version",
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -19043,18 +19190,38 @@
         "name": "fcp2aaf",
         "url": "https://fcp2aaf.com/",
         "kind": "vendor-version",
-        "version": "26.11.01",
+        "version": "26.11.02",
         "source": "https://fcp2aaf.com/changelog/",
-        "date": "2026-11-05",
+        "date": "2026-11-06",
         "date_kind": "release",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-11-05",
+      "releaseDate": "2026-11-06",
       "activityDate": null,
       "stars": null,
       "metadataChecked": null,
       "history": [
+        {
+          "name": "fcp2aaf",
+          "url": "https://fcp2aaf.com/",
+          "from": "26.11.01",
+          "to": "26.11.02",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-06",
+          "source": "https://fcp2aaf.com/changelog/",
+          "summary": "Makes interface text lookups cheaper to improve window responsiveness.",
+          "changes": [
+            "Makes interface text lookups cheaper to improve window responsiveness."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://fcp2aaf.com/changelog/"
+            }
+          ]
+        },
         {
           "name": "fcp2aaf",
           "url": "https://fcp2aaf.com/",
@@ -19140,6 +19307,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -19235,7 +19406,7 @@
       "releaseDate": null,
       "activityDate": "2026-08-08T05:46:40Z",
       "stars": 26,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -19397,8 +19568,8 @@
       },
       "releaseDate": "2026-08-10T19:49:33Z",
       "activityDate": "2026-08-10T19:49:33Z",
-      "stars": 260,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 267,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -19473,7 +19644,7 @@
       "releaseDate": null,
       "activityDate": "2024-12-04T18:38:22Z",
       "stars": 16,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -19819,13 +19990,97 @@
       },
       "releaseDate": null,
       "activityDate": "2026-05-22T18:34:21Z",
-      "stars": 28,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 30,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
           "version": "v1.4",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.4"
+        }
+      ]
+    },
+    {
+      "id": "filmic-texture",
+      "name": "Filmic Texture",
+      "creator": "Filmic Texture",
+      "url": "https://filmictexture.com/",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "kind": "ofx",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "acescct",
+        "davinci wide gamut",
+        "film grain",
+        "halation",
+        "hdr",
+        "mtf",
+        "openfx",
+        "scan dust",
+        "texture"
+      ],
+      "description": "Resolve OFX plugin for gate-scaled film grain, halation, MTF and scan dust in ACEScct or DaVinci Wide Gamut / Intermediate, with HDR support. Watermarked 0.1 trial for Apple Silicon Macs on macOS 26+ with Metal 4. The provider lists a paid license; Windows builds are planned.",
+      "access": "Watermarked trial; paid license listed",
+      "accessGroup": "paid",
+      "platforms": [
+        "macOS"
+      ],
+      "platformNotes": "Apple Silicon; macOS 26+ and Metal 4",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64"
+        ],
+        "gpu": "Metal 4",
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "macOS 26+",
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://filmictexture.com/",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider lists Apple Silicon, macOS 26+ and Metal 4. A Resolve Studio demonstration does not establish a minimum Resolve version or required edition."
+        }
+      ],
+      "unknownFields": [
+        "Resolve edition",
+        "Resolve version",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "previousUrls": [],
+      "version": {
+        "name": "Filmic Texture",
+        "url": "https://filmictexture.com/",
+        "kind": "vendor-version",
+        "version": "0.1 trial",
+        "source": "https://filmictexture.com/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Trial version listed by provider; no dated changelog published."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": [],
+      "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
         }
       ]
     },
@@ -20163,7 +20418,7 @@
       "releaseDate": "2026-10-04T03:57:18Z",
       "activityDate": "2026-11-03T22:42:55Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "stoatworks-labs/flenser",
@@ -20480,7 +20735,7 @@
       "releaseDate": "2026-08-04T08:34:36Z",
       "activityDate": "2026-08-04T08:34:36Z",
       "stars": 4,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20564,8 +20819,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-05-21T13:34:11Z",
-      "stars": 5,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 6,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20649,7 +20904,7 @@
       "releaseDate": "2020-03-08T11:46:21Z",
       "activityDate": "2020-03-09T07:55:01Z",
       "stars": 13,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -20718,9 +20973,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -20735,18 +20990,39 @@
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",
         "kind": "stable-release",
-        "version": "v1.14.2",
-        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.14.2",
-        "date": "2026-11-02T17:52:19Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "v1.16",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+        "date": "2026-11-11T18:58:11Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-11-02T17:52:19Z",
-      "activityDate": "2026-11-06T04:23:40Z",
-      "stars": 192,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "releaseDate": "2026-11-11T18:58:11Z",
+      "activityDate": "2026-11-13T02:59:45Z",
+      "stars": 213,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "DhaliwalX/fotufilm-engine",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine",
+          "from": "v1.14.2",
+          "to": "v1.16",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-11T18:58:11Z",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+          "summary": "Adds an Android alpha for the standalone editor. Revises color-negative rendering and mist filters, and fixes zoomed photo previews.",
+          "changes": [
+            "Adds an Android alpha for the standalone editor.",
+            "Revises color-negative rendering and mist filters, and fixes zoomed photo previews."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16"
+            }
+          ]
+        },
         {
           "name": "DhaliwalX/fotufilm-engine",
           "url": "https://github.com/DhaliwalX/fotufilm-engine",
@@ -20871,6 +21147,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -21346,8 +21626,8 @@
       },
       "releaseDate": null,
       "activityDate": "2024-12-11T05:44:56Z",
-      "stars": 18,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 19,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21591,8 +21871,8 @@
       },
       "releaseDate": "2022-08-22T20:16:51Z",
       "activityDate": "2022-08-22T20:18:15Z",
-      "stars": 34,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 35,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -21753,7 +22033,7 @@
       "releaseDate": null,
       "activityDate": "2023-11-09T15:14:43Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22086,7 +22366,7 @@
       "releaseDate": null,
       "activityDate": "2025-06-17T15:09:55Z",
       "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22248,7 +22528,7 @@
       "releaseDate": null,
       "activityDate": "2026-10-27T15:53:30Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22334,7 +22614,7 @@
       "releaseDate": "2018-09-04T22:14:12Z",
       "activityDate": "2026-10-15T16:02:01Z",
       "stars": 9,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22647,7 +22927,7 @@
       "releaseDate": null,
       "activityDate": "2020-12-09T09:04:10Z",
       "stars": 16,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22730,7 +23010,7 @@
       "releaseDate": "2020-03-30T20:37:44Z",
       "activityDate": "2020-03-30T20:37:44Z",
       "stars": 9,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22805,7 +23085,7 @@
       "releaseDate": "2020-04-06T12:31:05Z",
       "activityDate": "2020-04-06T12:31:05Z",
       "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22881,7 +23161,7 @@
       "releaseDate": "2020-03-30T21:40:59Z",
       "activityDate": "2020-11-24T23:50:52Z",
       "stars": 6,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -22957,9 +23237,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-07-11T10:11:09Z",
+      "activityDate": "2026-11-07T08:48:44Z",
       "stars": 16,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23034,7 +23314,7 @@
       "releaseDate": "2020-04-06T17:22:34Z",
       "activityDate": "2021-03-10T22:29:53Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23116,7 +23396,7 @@
       "releaseDate": "2020-03-30T21:27:29Z",
       "activityDate": "2020-03-30T21:27:29Z",
       "stars": 4,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23191,7 +23471,7 @@
       "releaseDate": null,
       "activityDate": "2025-12-21T18:01:00Z",
       "stars": 4,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23288,7 +23568,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-08T20:47:56Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23384,7 +23664,7 @@
       "releaseDate": "2026-09-18T00:00:00Z",
       "activityDate": "2026-09-18T18:28:02Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "from": "v0.1.0",
@@ -23482,7 +23762,7 @@
       "releaseDate": "2021-04-11T20:44:35Z",
       "activityDate": "2022-05-27T17:07:00Z",
       "stars": 112,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23652,9 +23932,9 @@
         "note": "Original source reviewed; catalogue review date is separate from the release date."
       },
       "releaseDate": "2026-11-01T23:01:55Z",
-      "activityDate": "2026-11-06T02:54:44Z",
+      "activityDate": "2026-11-14T07:28:27Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "gordasgdc/gdc-plugin-manager",
@@ -23838,7 +24118,7 @@
       "releaseDate": null,
       "activityDate": "2021-02-27T10:20:22Z",
       "stars": 18,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -23932,7 +24212,7 @@
       "releaseDate": null,
       "activityDate": "2025-03-12T19:34:07Z",
       "stars": 15,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -24143,9 +24423,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v2.1.1",
-          "checked_at": "2026-09-15T05:06:04.860Z",
-          "note": "Recorded version evidence, not installation testing."
+          "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -24161,17 +24441,44 @@
         "name": "gyroflow/gyroflow-plugins",
         "url": "https://github.com/gyroflow/gyroflow-plugins",
         "kind": "stable-release",
-        "version": "v2.1.1",
-        "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v2.1.1",
-        "date": "2025-08-24T14:16:15Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "v3.0.0",
+        "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+        "date": "2026-11-07T01:55:35Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "date_kind": "release",
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2025-08-24T14:16:15Z",
-      "activityDate": "2026-11-04T10:50:13Z",
-      "stars": 142,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
-      "history": [],
+      "releaseDate": "2026-11-07T01:55:35Z",
+      "activityDate": "2026-11-07T00:41:40Z",
+      "stars": 148,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
+      "history": [
+        {
+          "name": "gyroflow/gyroflow-plugins",
+          "url": "https://github.com/gyroflow/gyroflow-plugins",
+          "from": "v2.1.1",
+          "to": "v3.0.0",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-07T01:55:35Z",
+          "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+          "summary": "The provider published the v3.0.0 release tag without detailed release notes.",
+          "changes": [
+            "The provider published the v3.0.0 release tag without detailed release notes."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0"
+            }
+          ]
+        }
+      ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.0",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.0"
@@ -24245,7 +24552,7 @@
       "releaseDate": null,
       "activityDate": "2023-01-05T11:39:24Z",
       "stars": 18,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -24320,8 +24627,8 @@
       },
       "releaseDate": null,
       "activityDate": "2023-10-19T06:22:04Z",
-      "stars": 103,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 104,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -24491,7 +24798,7 @@
       "releaseDate": null,
       "activityDate": "2020-03-08T09:52:25Z",
       "stars": 9,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -24574,9 +24881,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-11-05T14:12:56Z",
+      "activityDate": "2026-11-10T22:56:57Z",
       "stars": 21,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -24715,8 +25022,8 @@
           "field": "version",
           "level": "documented",
           "source": "https://docs.getjumper.io/release-notes/macos",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded version evidence, not installation testing."
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -24732,18 +25039,43 @@
         "name": "Jumper",
         "url": "https://getjumper.io/",
         "kind": "vendor-version",
-        "version": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+        "version": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
         "source": "https://docs.getjumper.io/release-notes/macos",
-        "date": "2026-10-28",
+        "date": "2026-11-09",
         "date_kind": "release",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-10-28",
+      "releaseDate": "2026-11-09",
       "activityDate": null,
       "stars": null,
       "metadataChecked": null,
       "history": [
+        {
+          "name": "Jumper",
+          "url": "https://getjumper.io/",
+          "from": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+          "to": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-09",
+          "source": "https://docs.getjumper.io/release-notes/macos",
+          "summary": "Adds transcript corrections, find and replace, and shared edits that feed speech search and exports. Improves large media tables and Avid handling. Windows build 1636 is dated November 6.",
+          "changes": [
+            "Adds transcript corrections, find and replace, and shared edits that feed speech search and exports.",
+            "Improves large media tables and Avid handling. Windows build 1636 is dated November 6."
+          ],
+          "changelogs": [
+            {
+              "label": "macOS release notes",
+              "url": "https://docs.getjumper.io/release-notes/macos"
+            },
+            {
+              "label": "Windows release notes",
+              "url": "https://docs.getjumper.io/release-notes/windows"
+            }
+          ]
+        },
         {
           "name": "Jumper",
           "url": "https://getjumper.io/",
@@ -25013,8 +25345,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-08T14:10:33Z",
-      "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 12,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25109,8 +25441,8 @@
       },
       "releaseDate": "2026-10-20T08:19:13Z",
       "activityDate": "2026-10-20T10:36:40Z",
-      "stars": 70,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 71,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "KeibiSoft/KeibiDrop",
@@ -25723,8 +26055,8 @@
       },
       "releaseDate": null,
       "activityDate": "2023-11-26T14:05:38Z",
-      "stars": 23,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 24,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25809,7 +26141,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-21T20:43:14Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -25902,7 +26234,7 @@
       "releaseDate": "2026-08-28T10:36:04Z",
       "activityDate": "2026-09-03T12:23:50Z",
       "stars": 13,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -26320,7 +26652,7 @@
       "releaseDate": "2026-09-22T18:01:35Z",
       "activityDate": "2026-11-03T22:43:38Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "stoatworks-labs/macroblock",
@@ -26610,7 +26942,7 @@
       "releaseDate": null,
       "activityDate": "2026-10-29T16:37:20Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
@@ -26710,7 +27042,7 @@
       "releaseDate": "2026-04-21T10:13:36Z",
       "activityDate": "2026-07-10T16:29:19Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27029,7 +27361,7 @@
       "releaseDate": "2026-07-12T07:06:45Z",
       "activityDate": "2026-10-14T18:33:33Z",
       "stars": 16,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27126,7 +27458,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-21T09:15:36Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27276,9 +27608,9 @@
     },
     {
       "id": "meta-fide-computer-vision",
-      "name": "Meta Fide Computer Vision",
+      "name": "Meta Fide Computer Vision 2",
       "creator": "metafide.com",
-      "url": "https://www.metafide.com/?product=computer-vision",
+      "url": "https://www.metafide.com/?product=computer-vision-2",
       "origin": "external",
       "official": false,
       "reference": false,
@@ -27291,11 +27623,14 @@
         "art",
         "ascii",
         "fuse",
-        "fusion"
+        "fusion",
+        "motion graphics",
+        "retro computer",
+        "dithering"
       ],
-      "description": "ASCII-art Fusion Effect and Fuse for Resolve 15+. Version 1.1 addresses Resolve 19 compatibility; Linux is available by custom order.",
-      "access": "🆓 Free product; checkout workflow",
-      "accessGroup": "free",
+      "description": "ASCII Fusion Effect and Fuse for Resolve 18+ on Windows, macOS and Linux. The free version includes text, font and ink/paper controls; Pro adds source color, edge processing, dithering and mask- or depth-driven character sizing.",
+      "access": "Free edition; paid Pro upgrade",
+      "accessGroup": "mixed",
       "platforms": [
         "Windows",
         "macOS",
@@ -27303,12 +27638,19 @@
       ],
       "platformNotes": "🪟 🍎 🐧",
       "requirements": {
-        "editions": [],
-        "resolve": [],
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18"
+          }
+        ],
         "architectures": [],
         "gpu": null,
         "processing": "unknown",
-        "pricing": "unknown",
+        "pricing": "mixed",
         "account": "unknown",
         "dependencies": null,
         "installation": null
@@ -27320,37 +27662,77 @@
           "source": "https://www.metafide.com/?product=computer-vision",
           "checked_at": "2026-09-06T12:10:19.548Z",
           "note": "Provider-listed platforms; see limitations and exact builds."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.metafide.com/?product=computer-vision-2",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "The provider lists Resolve 18+, Free and Studio editions, and downloads for Windows, macOS and Linux."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://www.metafide.com/?product=computer-vision-2",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
-        "Resolve edition",
-        "Resolve version",
         "architecture",
-        "processing",
-        "tool version"
+        "processing"
       ],
       "recommended": false,
       "recommendation": null,
-      "previousUrls": [],
+      "previousUrls": [
+        "https://www.metafide.com/?product=computer-vision"
+      ],
       "version": {
-        "name": "Meta Fide Computer Vision",
-        "url": "https://www.metafide.com/?product=computer-vision",
-        "kind": "unverified",
-        "version": null,
-        "source": "https://www.metafide.com/?product=computer-vision",
+        "name": "Meta Fide Computer Vision 2",
+        "url": "https://www.metafide.com/?product=computer-vision-2",
+        "kind": "vendor-version",
+        "version": "2",
+        "source": "https://www.metafide.com/?product=computer-vision-2",
         "date": null,
         "date_kind": null,
-        "checked_at": "2026-09-06T12:10:19.548Z"
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider product edition; exact build number and publication date not established."
       },
       "releaseDate": null,
       "activityDate": null,
       "stars": null,
       "metadataChecked": null,
-      "history": [],
+      "history": [
+        {
+          "name": "Meta Fide Computer Vision 2",
+          "url": "https://www.metafide.com/?product=computer-vision-2",
+          "from": "Original Computer Vision",
+          "to": "2",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": null,
+          "source": "https://www.metafide.com/?product=computer-vision-2",
+          "summary": "The free edition adds customizable text, fonts and ink/paper colors. Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling.",
+          "changes": [
+            "The free edition adds customizable text, fonts and ink/paper colors.",
+            "Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling."
+          ],
+          "changelogs": [
+            {
+              "label": "Provider feature notes",
+              "url": "https://www.metafide.com/?product=computer-vision-2"
+            },
+            {
+              "label": "Original edition",
+              "url": "https://www.metafide.com/?product=computer-vision"
+            }
+          ]
+        }
+      ],
       "catalogueReleases": [
         {
-          "version": "v1.4",
-          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.4"
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
         }
       ]
     },
@@ -27433,7 +27815,7 @@
       "releaseDate": "2026-01-08T23:57:56Z",
       "activityDate": "2026-01-15T22:38:03Z",
       "stars": 5,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27516,8 +27898,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-11-01T21:57:06Z",
-      "stars": 12,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 14,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -27679,7 +28061,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-22T22:52:12Z",
       "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -28620,7 +29002,7 @@
       "releaseDate": null,
       "activityDate": "2022-12-11T05:16:33Z",
       "stars": 39,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -28712,8 +29094,8 @@
       },
       "releaseDate": "2024-05-12T19:05:36Z",
       "activityDate": "2024-05-12T19:05:36Z",
-      "stars": 123,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 125,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -29245,7 +29627,7 @@
       "releaseDate": null,
       "activityDate": "2026-06-26T12:15:47Z",
       "stars": 12,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -29332,8 +29714,8 @@
       },
       "releaseDate": "2026-10-15T02:12:09Z",
       "activityDate": "2026-10-15T01:45:48Z",
-      "stars": 2704,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 2719,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "ntsc-rs/ntsc-rs",
@@ -29611,7 +29993,7 @@
       "releaseDate": "2025-06-20T19:02:39Z",
       "activityDate": "2025-07-07T21:07:51Z",
       "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -29810,8 +30192,8 @@
       },
       "releaseDate": "2026-01-22T04:47:43Z",
       "activityDate": "2026-02-09T21:40:50Z",
-      "stars": 538,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 542,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -29896,7 +30278,7 @@
       "releaseDate": null,
       "activityDate": "2026-01-25T08:51:46Z",
       "stars": 10,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -29981,7 +30363,7 @@
       "releaseDate": null,
       "activityDate": "2021-08-10T21:40:48Z",
       "stars": 16,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30079,9 +30461,9 @@
         "note": "Original source reviewed; catalogue review date is separate from the release date."
       },
       "releaseDate": "2026-11-01T04:34:32Z",
-      "activityDate": "2026-11-01T05:38:43Z",
+      "activityDate": "2026-11-09T23:10:50Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "OSideMedia/oside-resolve-mcp",
@@ -30344,7 +30726,7 @@
       "releaseDate": null,
       "activityDate": "2024-05-30T10:51:19Z",
       "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30508,7 +30890,7 @@
       "releaseDate": "2024-11-30T19:30:16Z",
       "activityDate": "2026-10-05T19:45:37Z",
       "stars": 81,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -30912,9 +31294,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2024-09-26T07:16:10Z",
-      "activityDate": "2026-10-25T07:04:57Z",
+      "activityDate": "2026-11-10T12:41:32Z",
       "stars": 10,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -31107,7 +31489,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-08T14:08:11Z",
       "stars": 4,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
@@ -31597,8 +31979,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-10-30T02:26:59Z",
-      "stars": 25,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 26,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "Kemerd/premiere-agent",
@@ -31700,7 +32082,7 @@
       "releaseDate": "2026-07-30T17:10:26Z",
       "activityDate": "2026-08-28T18:40:03Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32025,8 +32407,8 @@
       },
       "releaseDate": "2026-05-24T01:22:53Z",
       "activityDate": "2026-05-24T01:22:53Z",
-      "stars": 180,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 181,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32111,7 +32493,7 @@
       "releaseDate": "2023-09-14T02:20:52Z",
       "activityDate": "2026-11-02T21:05:46Z",
       "stars": 74,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32297,8 +32679,8 @@
       },
       "releaseDate": "2026-07-10T14:53:18Z",
       "activityDate": "2026-07-10T16:44:57Z",
-      "stars": 34,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 35,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32358,9 +32740,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -32376,18 +32758,38 @@
         "name": "WheheoHu/pybmd",
         "url": "https://github.com/WheheoHu/pybmd",
         "kind": "stable-release",
-        "version": "v2026.4.0",
-        "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
-        "date": "2026-11-04T03:41:42Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "v2026.5.0",
+        "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+        "date": "2026-11-08T07:47:00Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-11-04T03:41:42Z",
-      "activityDate": "2026-11-04T04:52:00Z",
+      "releaseDate": "2026-11-08T07:47:00Z",
+      "activityDate": "2026-11-08T07:46:51Z",
       "stars": 37,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "WheheoHu/pybmd",
+          "url": "https://github.com/WheheoHu/pybmd",
+          "from": "v2026.4.0",
+          "to": "v2026.5.0",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-08T07:47:00Z",
+          "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+          "summary": "Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects.",
+          "changes": [
+            "Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0"
+            }
+          ]
+        },
         {
           "name": "WheheoHu/pybmd",
           "url": "https://github.com/WheheoHu/pybmd",
@@ -32428,6 +32830,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -32510,7 +32916,7 @@
       "releaseDate": "2022-05-15T19:01:07Z",
       "activityDate": "2026-04-01T19:33:03Z",
       "stars": 183,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32587,7 +32993,7 @@
       "releaseDate": "2023-02-21T21:44:50Z",
       "activityDate": "2023-09-18T14:19:50Z",
       "stars": 26,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -32896,8 +33302,8 @@
       },
       "releaseDate": "2025-11-07T14:46:09Z",
       "activityDate": "2026-11-02T15:01:22Z",
-      "stars": 119,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 122,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33450,7 +33856,7 @@
       "releaseDate": null,
       "activityDate": "2025-01-05T07:59:12Z",
       "stars": 14,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33598,9 +34004,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-07-05T20:40:39Z",
-      "stars": 226,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "activityDate": "2026-11-14T07:06:14Z",
+      "stars": 227,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33683,9 +34089,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2026-07-05T08:13:03Z",
-      "activityDate": "2026-07-05T20:40:57Z",
+      "activityDate": "2026-11-12T07:30:52Z",
       "stars": 21,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33769,7 +34175,7 @@
       "releaseDate": "2026-08-31T05:02:02Z",
       "activityDate": "2026-09-14T05:27:01Z",
       "stars": 26,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33855,7 +34261,7 @@
       "releaseDate": null,
       "activityDate": "2023-10-25T03:29:30Z",
       "stars": 22,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -33930,7 +34336,7 @@
       "releaseDate": "2022-01-01T12:59:22Z",
       "activityDate": "2022-01-11T05:23:26Z",
       "stars": 16,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34081,7 +34487,7 @@
       "releaseDate": null,
       "activityDate": "2026-06-13T18:33:45Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34166,7 +34572,7 @@
       "releaseDate": null,
       "activityDate": "2018-02-06T21:13:43Z",
       "stars": 25,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34261,7 +34667,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:55:54Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34344,7 +34750,7 @@
       "releaseDate": null,
       "activityDate": "2021-02-28T02:21:23Z",
       "stars": 12,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34427,8 +34833,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-05-14T13:24:14Z",
-      "stars": 391,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 397,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34523,7 +34929,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:58:19Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34620,7 +35026,7 @@
       "releaseDate": "2026-09-12T19:44:36Z",
       "activityDate": "2026-09-12T19:50:05Z",
       "stars": 3,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -34715,7 +35121,7 @@
       "releaseDate": "2026-09-17T00:00:00Z",
       "activityDate": "2026-11-03T22:33:03Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "from": "v0.1.5",
@@ -34816,7 +35222,7 @@
       "releaseDate": null,
       "activityDate": "2026-10-23T20:29:18Z",
       "stars": 14,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "Pinionist/Resolve-Conform-tools",
@@ -34926,7 +35332,7 @@
       "releaseDate": null,
       "activityDate": "2026-04-10T07:30:35Z",
       "stars": 169,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35003,7 +35409,7 @@
       "releaseDate": null,
       "activityDate": "2025-07-20T20:16:51Z",
       "stars": 23,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35183,7 +35589,7 @@
       "releaseDate": null,
       "activityDate": "2026-10-02T09:19:39Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "postflows/resolve-find-clip-on-timelines",
@@ -35304,7 +35710,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:56:17Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35380,7 +35786,7 @@
       "releaseDate": null,
       "activityDate": "2022-05-01T06:08:52Z",
       "stars": 4,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35476,7 +35882,7 @@
       "releaseDate": "2026-04-14T15:38:56Z",
       "activityDate": "2026-04-14T15:38:56Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35701,9 +36107,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-06-21T21:59:55Z",
+      "activityDate": "2026-11-13T03:14:20Z",
       "stars": 29,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35801,7 +36207,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-19T12:24:27Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -35901,7 +36307,7 @@
       "releaseDate": null,
       "activityDate": "2026-10-15T17:23:06Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "postflows/resolve-markers-to-render-queue",
@@ -36044,7 +36450,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:58:39Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36140,7 +36546,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-13T05:51:54Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "postflows/resolve-multicam-angle-colorizer",
@@ -36258,8 +36664,8 @@
       },
       "releaseDate": "2026-08-10T17:42:47Z",
       "activityDate": "2026-08-10T17:42:46Z",
-      "stars": 45,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 44,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36344,7 +36750,7 @@
       "releaseDate": null,
       "activityDate": "2022-01-01T20:25:00Z",
       "stars": 27,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36429,9 +36835,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": null,
-      "activityDate": "2026-10-27T10:01:43Z",
+      "activityDate": "2026-11-08T15:56:28Z",
       "stars": 18,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "thatcherfreeman/resolve-scripts",
@@ -36578,7 +36984,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:57:56Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36655,7 +37061,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-19T16:51:41Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36747,7 +37153,7 @@
       "releaseDate": null,
       "activityDate": "2026-02-19T07:48:52Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36839,7 +37245,7 @@
       "releaseDate": null,
       "activityDate": "2026-08-27T21:04:44Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -36996,7 +37402,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-22T22:24:24Z",
       "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "jdanna/Resolve_Tools_Public",
@@ -37104,7 +37510,7 @@
       "releaseDate": null,
       "activityDate": "2026-08-03T06:27:34Z",
       "stars": 20,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37200,7 +37606,7 @@
       "releaseDate": null,
       "activityDate": "2026-03-11T17:58:57Z",
       "stars": 1,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37281,8 +37687,8 @@
       },
       "releaseDate": null,
       "activityDate": "2025-08-30T23:31:06Z",
-      "stars": 300,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 302,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37357,7 +37763,7 @@
       "releaseDate": null,
       "activityDate": "2024-05-23T18:28:26Z",
       "stars": 20,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37444,7 +37850,7 @@
       "releaseDate": "2021-05-21T19:57:29Z",
       "activityDate": "2022-04-20T18:07:13Z",
       "stars": 36,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37529,7 +37935,7 @@
       "releaseDate": null,
       "activityDate": "2020-10-01T09:02:48Z",
       "stars": 14,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -37616,7 +38022,7 @@
       "releaseDate": "2026-10-29T16:19:59Z",
       "activityDate": "2026-11-02T20:30:19Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "lightsailvr/ResolveOFX_NDIOutput",
@@ -37754,7 +38160,7 @@
       "releaseDate": "2026-10-24T21:33:21Z",
       "activityDate": "2026-10-24T21:30:58Z",
       "stars": 6,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "DMiradakis/resolver",
@@ -38299,9 +38705,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2024-07-15T19:15:48Z",
-      "activityDate": "2026-11-05T14:48:32Z",
+      "activityDate": "2026-11-06T09:19:55Z",
       "stars": 80,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -38383,7 +38789,7 @@
       "releaseDate": "2021-02-12T22:28:40Z",
       "activityDate": "2022-11-09T08:10:28Z",
       "stars": 4,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -38650,7 +39056,7 @@
       "releaseDate": "2026-06-02T22:53:39Z",
       "activityDate": "2026-06-02T22:53:39Z",
       "stars": 12,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -38710,9 +39116,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -38729,18 +39135,39 @@
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
         "kind": "stable-release",
-        "version": "v0.6.4",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
-        "date": "2026-11-05T14:49:04Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "v0.6.6",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+        "date": "2026-11-13T12:38:25Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-11-05T14:49:04Z",
-      "activityDate": "2026-11-06T03:46:55Z",
-      "stars": 257,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "releaseDate": "2026-11-13T12:38:25Z",
+      "activityDate": "2026-11-14T07:15:55Z",
+      "stars": 263,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "shumaiOne/shumai",
+          "url": "https://github.com/shumaiOne/shumai",
+          "from": "v0.6.4",
+          "to": "v0.6.6",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-13T12:38:25Z",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+          "summary": "Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms. Improves agent session handling and cleans up empty embedding folders.",
+          "changes": [
+            "Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms.",
+            "Improves agent session handling and cleans up empty embedding folders."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6"
+            }
+          ]
+        },
         {
           "name": "shumaiOne/shumai",
           "url": "https://github.com/shumaiOne/shumai",
@@ -38885,6 +39312,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -39165,7 +39596,7 @@
       "releaseDate": "2026-05-29T20:50:09Z",
       "activityDate": "2026-10-18T17:24:04Z",
       "stars": 6,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -39314,7 +39745,7 @@
       "releaseDate": null,
       "activityDate": "2025-03-22T05:18:27Z",
       "stars": 28,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -39386,9 +39817,9 @@
         "checked_at": "2026-09-15T05:06:04.860Z"
       },
       "releaseDate": "2023-04-13T04:33:28Z",
-      "activityDate": "2026-11-02T21:04:54Z",
+      "activityDate": "2026-11-09T20:17:16Z",
       "stars": 8,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -39698,8 +40129,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-04-10T13:14:22Z",
-      "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 12,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -39774,7 +40205,7 @@
       "releaseDate": null,
       "activityDate": "2024-01-09T00:33:46Z",
       "stars": 49,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -39938,7 +40369,7 @@
       "releaseDate": null,
       "activityDate": "2022-08-11T15:05:21Z",
       "stars": 8,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -40014,7 +40445,7 @@
       "releaseDate": null,
       "activityDate": "2024-11-01T21:53:30Z",
       "stars": 40,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -40091,7 +40522,7 @@
       "releaseDate": null,
       "activityDate": "2020-09-10T23:11:31Z",
       "stars": 13,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -40176,7 +40607,7 @@
       "releaseDate": null,
       "activityDate": "2022-08-11T22:57:03Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -40385,8 +40816,8 @@
       },
       "releaseDate": "2025-02-20T11:20:24Z",
       "activityDate": "2026-07-28T06:37:10Z",
-      "stars": 1070,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 1074,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -40477,7 +40908,7 @@
       "releaseDate": null,
       "activityDate": "2026-09-18T08:27:23Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "from": "130e3850b01a7840d739b60e10e5add7c2323dda",
@@ -40569,9 +41000,9 @@
         {
           "field": "version",
           "level": "documented",
-          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
-          "checked_at": "2026-11-06T08:18:50.375Z",
-          "note": "Recorded provider release evidence, not installation testing."
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+          "checked_at": "2026-11-14T07:53:12.819Z",
+          "note": "Provider release evidence."
         }
       ],
       "unknownFields": [
@@ -40586,18 +41017,40 @@
         "name": "HooperH/SubFix",
         "url": "https://github.com/HooperH/SubFix",
         "kind": "stable-release",
-        "version": "v3.3.9",
-        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.3.9",
-        "date": "2026-11-02T14:03:37Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "v3.4.0",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+        "date": "2026-11-10T05:53:36Z",
+        "checked_at": "2026-11-14T07:53:12.819Z",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider source reviewed."
       },
-      "releaseDate": "2026-11-02T14:03:37Z",
-      "activityDate": "2026-11-02T13:57:34Z",
-      "stars": 41,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "releaseDate": "2026-11-10T05:53:36Z",
+      "activityDate": "2026-11-10T05:49:19Z",
+      "stars": 42,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
+        {
+          "name": "HooperH/SubFix",
+          "url": "https://github.com/HooperH/SubFix",
+          "from": "v3.3.9",
+          "to": "v3.4.0",
+          "release": "v1.30",
+          "catalogue_date": "2026-11-14",
+          "upstream_date": "2026-11-10T05:53:36Z",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+          "summary": "Moves recognition and alignment models out of the installer and adds a model center with download and offline import. Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular. Upgrading from 3.3.9 or earlier requires the full package.",
+          "changes": [
+            "Moves recognition and alignment models out of the installer and adds a model center with download and offline import.",
+            "Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular.",
+            "Upgrading from 3.3.9 or earlier requires the full package."
+          ],
+          "changelogs": [
+            {
+              "label": "Full source changelog",
+              "url": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0"
+            }
+          ]
+        },
         {
           "name": "HooperH/SubFix",
           "url": "https://github.com/HooperH/SubFix",
@@ -40658,6 +41111,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.30",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+        },
         {
           "version": "v1.29",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"
@@ -40758,7 +41215,7 @@
       "releaseDate": "2026-09-06T14:23:23Z",
       "activityDate": "2026-09-06T14:53:38Z",
       "stars": 11,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -41087,7 +41544,7 @@
       "releaseDate": "2026-08-23T07:37:56Z",
       "activityDate": "2026-08-23T17:06:54Z",
       "stars": 7,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43204,8 +43661,8 @@
       },
       "releaseDate": null,
       "activityDate": "2021-03-13T19:39:17Z",
-      "stars": 201,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 202,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43280,7 +43737,7 @@
       "releaseDate": null,
       "activityDate": "2021-01-10T18:24:26Z",
       "stars": 17,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43371,7 +43828,7 @@
       "releaseDate": null,
       "activityDate": "2021-04-19T11:58:51Z",
       "stars": 32,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43445,7 +43902,7 @@
       "releaseDate": null,
       "activityDate": "2024-08-23T02:02:36Z",
       "stars": 82,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -43613,9 +44070,9 @@
         "note": "Source revision, not a published software release."
       },
       "releaseDate": null,
-      "activityDate": "2026-11-02T17:45:02Z",
-      "stars": 5,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "activityDate": "2026-11-10T20:19:32Z",
+      "stars": 6,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "ming-qiu/theia",
@@ -43733,7 +44190,7 @@
       "releaseDate": "2026-09-20T19:43:07Z",
       "activityDate": "2026-11-03T22:45:02Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "stoatworks-labs/tilter",
@@ -43983,7 +44440,7 @@
       "releaseDate": "2023-05-06T21:59:35Z",
       "activityDate": "2024-09-27T22:45:55Z",
       "stars": 59,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -44068,8 +44525,8 @@
       },
       "releaseDate": "2026-10-14T16:24:34Z",
       "activityDate": "2026-11-01T23:57:39Z",
-      "stars": 110,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 120,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "francozanardi/tscaps",
@@ -44307,7 +44764,7 @@
       "releaseDate": null,
       "activityDate": "2025-04-10T00:37:52Z",
       "stars": 0,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -44392,7 +44849,7 @@
       "releaseDate": "2026-04-25T16:43:20Z",
       "activityDate": "2026-10-25T18:27:27Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -44476,7 +44933,7 @@
       "releaseDate": "2026-03-15T20:34:07Z",
       "activityDate": "2026-04-01T20:36:56Z",
       "stars": 53,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -44562,8 +45019,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-07-20T08:12:15Z",
-      "stars": 37,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 38,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -44716,7 +45173,7 @@
       "releaseDate": null,
       "activityDate": "2022-01-22T19:04:15Z",
       "stars": 23,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -44806,8 +45263,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-10-28T13:58:59Z",
-      "stars": 437,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 442,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "thatcherfreeman/utility-dctls",
@@ -44930,8 +45387,8 @@
       },
       "releaseDate": "2026-08-17T17:29:05Z",
       "activityDate": "2026-08-17T15:20:06Z",
-      "stars": 426,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 437,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -45249,8 +45706,8 @@
       },
       "releaseDate": null,
       "activityDate": "2026-10-09T04:03:38Z",
-      "stars": 95,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "stars": 96,
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -45436,7 +45893,7 @@
       "releaseDate": "2026-08-21T14:41:13Z",
       "activityDate": "2026-09-10T06:52:44Z",
       "stars": 2,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -45759,7 +46216,7 @@
       "releaseDate": null,
       "activityDate": "2026-07-27T22:05:11Z",
       "stars": 13,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -45919,7 +46376,7 @@
       "releaseDate": null,
       "activityDate": "2023-11-02T08:09:27Z",
       "stars": 32,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -46006,7 +46463,7 @@
       "releaseDate": "2026-11-03T13:24:47Z",
       "activityDate": "2026-11-03T14:15:20Z",
       "stars": 13,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [
         {
           "name": "JaySNL/VSTForResolveLinux",
@@ -46542,7 +46999,7 @@
       "releaseDate": "2021-02-07T17:13:08Z",
       "activityDate": "2021-02-14T19:52:23Z",
       "stars": 30,
-      "metadataChecked": "2026-11-06T08:14:19.414Z",
+      "metadataChecked": "2026-11-14T07:47:18.816Z",
       "history": [],
       "catalogueReleases": [
         {
@@ -46705,6 +47162,13 @@
     }
   ],
   "releases": [
+    {
+      "version": "v1.30",
+      "title": "v1.30 - Provider updates and Filmic Texture",
+      "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30",
+      "date": "2026-11-14T07:53:12.819Z",
+      "body": "## Verified provider updates\n\n- vulture-s/arkiv: v1.8.0 -> v1.9.0. Adds an English interface and language selection, including translated API errors. https://github.com/vulture-s/arkiv/releases/tag/v1.9.0\n- WyattBlue/auto-editor: 31.8.0 -> 31.9.0. Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data. Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps. https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0\n- veritus-git/BadWords: 4.0.0 -> 4.0.1. Fixes NTSC drift and source timecode in XML and OTIO exports. Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog. https://github.com/veritus-git/BadWords/releases/tag/4.0.1\n- laurentchicoine/braw-pack: v0.4.0 -> v0.5.0. Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip. Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized. https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0\n- ciqueira/ColorEqualizer: eq-v0.6.5 -> eq-v0.6.6. The provider published this tag with an automated release notice and no detailed feature changelog. https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6\n- samuelgursky/davinci-resolve-mcp: v4.19.0 -> v5.2.8. Honors the top-level record-frame mode when clip rows omit their own mode. Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings. https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8\n- DhaliwalX/fotufilm-engine: v1.14.2 -> v1.16. Adds an Android alpha for the standalone editor. Revises color-negative rendering and mist filters, and fixes zoomed photo previews. https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16\n- gyroflow/gyroflow-plugins: v2.1.1 -> v3.0.0. The provider published the v3.0.0 release tag without detailed release notes. https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0\n- WheheoHu/pybmd: v2026.4.0 -> v2026.5.0. Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects. https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0\n- shumaiOne/shumai: v0.6.4 -> v0.6.6. Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms. Improves agent session handling and cleans up empty embedding folders. https://github.com/shumaiOne/shumai/releases/tag/v0.6.6\n- HooperH/SubFix: v3.3.9 -> v3.4.0. Moves recognition and alignment models out of the installer and adds a model center with download and offline import. Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular. Upgrading from 3.3.9 or earlier requires the full package. https://github.com/HooperH/SubFix/releases/tag/v3.4.0\n- fcp2aaf: 26.11.01 -> 26.11.02. Makes interface text lookups cheaper to improve window responsiveness. https://fcp2aaf.com/changelog/\n- Jumper: macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635 -> macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636. Adds transcript corrections, find and replace, and shared edits that feed speech search and exports. Improves large media tables and Avid handling. Windows build 1636 is dated November 6. https://docs.getjumper.io/release-notes/macos\n- Meta Fide Computer Vision 2: Original Computer Vision -> 2. The free edition adds customizable text, fonts and ink/paper colors. Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling. https://www.metafide.com/?product=computer-vision-2\n\n## Added resource\n\n- Filmic Texture (Filmic Texture): Resolve OFX plugin for gate-scaled film grain, halation, MTF and scan dust in ACEScct or DaVinci Wide Gamut / Intermediate, with HDR support. Watermarked 0.1 trial for Apple Silicon Macs on macOS 26+ with Metal 4. The provider lists a paid license; Windows builds are planned. https://filmictexture.com/"
+    },
     {
       "version": "v1.29",
       "title": "v1.29 - Resolve 21.2 and provider updates",
@@ -46905,6 +47369,30 @@
     {
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",
+      "from": "v1.8.0",
+      "to": "v1.9.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T03:47:17Z",
+      "source": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0",
+      "summary": "Adds an English interface and language selection, including translated API errors.",
+      "changes": [
+        "Adds an English interface and language selection, including translated API errors."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/vulture-s/arkiv/releases/tag/v1.9.0"
+        },
+        {
+          "label": "Full upstream changelog",
+          "url": "https://github.com/vulture-s/arkiv/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "vulture-s/arkiv",
+      "url": "https://github.com/vulture-s/arkiv",
       "from": "v1.7.2",
       "to": "v1.8.0",
       "release": "v1.29",
@@ -46943,6 +47431,27 @@
         {
           "label": "Provider version history",
           "url": "https://github.com/vulture-s/arkiv/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.8.0",
+      "to": "31.9.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-13T18:17:27Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+      "summary": "Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data. Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps.",
+      "changes": [
+        "Imports Final Cut Pro XML with connected clips and supported timing, volume and transition data.",
+        "Adds native transition rendering and Premiere OTIO export, plus keyframed speed ramps."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0"
         }
       ]
     },
@@ -47171,6 +47680,27 @@
     {
       "name": "veritus-git/BadWords",
       "url": "https://github.com/veritus-git/BadWords",
+      "from": "4.0.0",
+      "to": "4.0.1",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T21:05:56Z",
+      "source": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1",
+      "summary": "Fixes NTSC drift and source timecode in XML and OTIO exports. Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog.",
+      "changes": [
+        "Fixes NTSC drift and source timecode in XML and OTIO exports.",
+        "Adds continuous word selection and improves custom install paths, upgrade recovery and the update dialog."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/veritus-git/BadWords/releases/tag/4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "veritus-git/BadWords",
+      "url": "https://github.com/veritus-git/BadWords",
       "from": "3.2.4",
       "to": "4.0.0",
       "release": "v1.29",
@@ -47203,6 +47733,27 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/TeddieWang/BarkTed/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "laurentchicoine/braw-pack",
+      "url": "https://github.com/laurentchicoine/braw-pack",
+      "from": "v0.4.0",
+      "to": "v0.5.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T01:48:25Z",
+      "source": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0",
+      "summary": "Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip. Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized.",
+      "changes": [
+        "Repairs dropped-frame gaps by repeating the previous frame without modifying the source clip.",
+        "Adds hardware HEVC encoding on Apple Silicon; macOS builds remain beta and unnotarized."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/laurentchicoine/braw-pack/releases/tag/v0.5.0"
         }
       ]
     },
@@ -47303,6 +47854,26 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/stoatworks-labs/cogwheel/releases/tag/v0.6.1"
+        }
+      ]
+    },
+    {
+      "name": "ciqueira/ColorEqualizer",
+      "url": "https://github.com/ciqueira/ColorEqualizer",
+      "from": "eq-v0.6.5",
+      "to": "eq-v0.6.6",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-07T13:28:02Z",
+      "source": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6",
+      "summary": "The provider published this tag with an automated release notice and no detailed feature changelog.",
+      "changes": [
+        "The provider published this tag with an automated release notice and no detailed feature changelog."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/ciqueira/ColorEqualizer/releases/tag/eq-v0.6.6"
         }
       ]
     },
@@ -47463,6 +48034,27 @@
         {
           "label": "Verified source comparison",
           "url": "https://github.com/apvlv/davinci-resolve-mcp/compare/d025e4ecaf46f9ba7bcc1a814201791821c8f281...33678a6c44849ef0026d8ba95aa59d86943c41a6"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v4.19.0",
+      "to": "v5.2.8",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-14T00:46:43Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
+      "summary": "Honors the top-level record-frame mode when clip rows omit their own mode. Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings.",
+      "changes": [
+        "Honors the top-level record-frame mode when clip rows omit their own mode.",
+        "Stops archiving the source timeline during duplication and rejects missing render target directories before applying settings."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8"
         }
       ]
     },
@@ -48031,6 +48623,26 @@
     {
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
+      "from": "26.11.01",
+      "to": "26.11.02",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-06",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Makes interface text lookups cheaper to improve window responsiveness.",
+      "changes": [
+        "Makes interface text lookups cheaper to improve window responsiveness."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
       "from": "26.10.03",
       "to": "26.11.01",
       "release": "v1.29",
@@ -48168,6 +48780,27 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/stoatworks-labs/flenser/releases/tag/v0.1.5"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.14.2",
+      "to": "v1.16",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-11T18:58:11Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
+      "summary": "Adds an Android alpha for the standalone editor. Revises color-negative rendering and mist filters, and fixes zoomed photo previews.",
+      "changes": [
+        "Adds an Android alpha for the standalone editor.",
+        "Revises color-negative rendering and mist filters, and fixes zoomed photo previews."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16"
         }
       ]
     },
@@ -48556,6 +49189,51 @@
       ]
     },
     {
+      "name": "gyroflow/gyroflow-plugins",
+      "url": "https://github.com/gyroflow/gyroflow-plugins",
+      "from": "v2.1.1",
+      "to": "v3.0.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-07T01:55:35Z",
+      "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
+      "summary": "The provider published the v3.0.0 release tag without detailed release notes.",
+      "changes": [
+        "The provider published the v3.0.0 release tag without detailed release notes."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Jumper",
+      "url": "https://getjumper.io/",
+      "from": "macOS 3490 (Apple silicon), 3491 (Intel); Windows 1635",
+      "to": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-09",
+      "source": "https://docs.getjumper.io/release-notes/macos",
+      "summary": "Adds transcript corrections, find and replace, and shared edits that feed speech search and exports. Improves large media tables and Avid handling. Windows build 1636 is dated November 6.",
+      "changes": [
+        "Adds transcript corrections, find and replace, and shared edits that feed speech search and exports.",
+        "Improves large media tables and Avid handling. Windows build 1636 is dated November 6."
+      ],
+      "changelogs": [
+        {
+          "label": "macOS release notes",
+          "url": "https://docs.getjumper.io/release-notes/macos"
+        },
+        {
+          "label": "Windows release notes",
+          "url": "https://docs.getjumper.io/release-notes/windows"
+        }
+      ]
+    },
+    {
       "name": "Jumper",
       "url": "https://getjumper.io/",
       "from": "macOS 3409 (Apple silicon), 3391 (Intel); Windows 1632",
@@ -48723,6 +49401,31 @@
       ]
     },
     {
+      "name": "Meta Fide Computer Vision 2",
+      "url": "https://www.metafide.com/?product=computer-vision-2",
+      "from": "Original Computer Vision",
+      "to": "2",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": null,
+      "source": "https://www.metafide.com/?product=computer-vision-2",
+      "summary": "The free edition adds customizable text, fonts and ink/paper colors. Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling.",
+      "changes": [
+        "The free edition adds customizable text, fonts and ink/paper colors.",
+        "Pro adds source color, edge mode, dithering and mask- or depth-driven character scaling."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider feature notes",
+          "url": "https://www.metafide.com/?product=computer-vision-2"
+        },
+        {
+          "label": "Original edition",
+          "url": "https://www.metafide.com/?product=computer-vision"
+        }
+      ]
+    },
+    {
       "name": "NeoFinder",
       "url": "https://www.cdfinder.de/",
       "from": "9.3",
@@ -48882,6 +49585,26 @@
         {
           "label": "Verified source comparison",
           "url": "https://github.com/Kemerd/premiere-agent/compare/77ed50f4bff14b67b054a64d26aedd7ec217b701...8e84dc6dbdaf6504685acbfcbc20e9d8447dade8"
+        }
+      ]
+    },
+    {
+      "name": "WheheoHu/pybmd",
+      "url": "https://github.com/WheheoHu/pybmd",
+      "from": "v2026.4.0",
+      "to": "v2026.5.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-08T07:47:00Z",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+      "summary": "Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects.",
+      "changes": [
+        "Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0"
         }
       ]
     },
@@ -49182,6 +49905,27 @@
     {
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.6.4",
+      "to": "v0.6.6",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-13T12:38:25Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+      "summary": "Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms. Improves agent session handling and cleans up empty embedding folders.",
+      "changes": [
+        "Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms.",
+        "Improves agent session handling and cleans up empty embedding folders."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
       "from": "v0.6.1",
       "to": "v0.6.4",
       "release": "v1.29",
@@ -49358,6 +50102,28 @@
         {
           "label": "Full source changelog",
           "url": "https://github.com/vkastrup/sub-translator/commit/4168d474f34ec20b427f476ad39845c1669549a7"
+        }
+      ]
+    },
+    {
+      "name": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "from": "v3.3.9",
+      "to": "v3.4.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-10T05:53:36Z",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
+      "summary": "Moves recognition and alignment models out of the installer and adds a model center with download and offline import. Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular. Upgrading from 3.3.9 or earlier requires the full package.",
+      "changes": [
+        "Moves recognition and alignment models out of the installer and adds a model center with download and offline import.",
+        "Fixes subtitle imports into busy collaboration bins and constrains recognition to the selected range when timestamps are irregular.",
+        "Upgrading from 3.3.9 or earlier requires the full package."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0"
         }
       ]
     },

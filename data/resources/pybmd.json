@@ -38,8 +38,8 @@
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
   "stars": 37,
-  "last_pushed_at": "2026-11-04T04:52:00Z",
-  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
+  "last_pushed_at": "2026-11-08T07:46:51Z",
+  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,12 +55,12 @@
     "name": "WheheoHu/pybmd",
     "url": "https://github.com/WheheoHu/pybmd",
     "kind": "stable-release",
-    "version": "v2026.4.0",
-    "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
-    "date": "2026-11-04T03:41:42Z",
-    "checked_at": "2026-11-06T08:18:50.375Z",
+    "version": "v2026.5.0",
+    "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+    "date": "2026-11-08T07:47:00Z",
+    "checked_at": "2026-11-14T07:53:12.819Z",
     "date_kind": "release",
-    "note": "Original source reviewed; catalogue review date is separate from the release date."
+    "note": "Original provider source reviewed."
   },
   "evidence": [
     {
@@ -73,9 +73,9 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.4.0",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Recorded provider release evidence, not installation testing."
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Provider release evidence."
     }
   ],
   "unknownFields": [
@@ -87,6 +87,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "WheheoHu/pybmd",
+      "url": "https://github.com/WheheoHu/pybmd",
+      "from": "v2026.4.0",
+      "to": "v2026.5.0",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-08T07:47:00Z",
+      "source": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0",
+      "summary": "Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects.",
+      "changes": [
+        "Adds Resolve 21.2 Extras package management and thumbnail-grid exports for timeline, Media Pool and photo-album objects."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WheheoHu/pybmd/releases/tag/v2026.5.0"
+        }
+      ]
+    },
     {
       "name": "WheheoHu/pybmd",
       "url": "https://github.com/WheheoHu/pybmd",

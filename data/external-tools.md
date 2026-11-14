@@ -209,6 +209,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 | [FilmConvert tools](https://www.filmconvert.com/) | Commercial products; trials available | ❔ Per product | Nitrate film emulation, Hazy diffusion, and Halation, with Resolve integrations. Product and host licenses differ; this collection does not establish every product's OS support. |
 
+#### 👤 Filmic Texture
+
+| [Filmic Texture](https://filmictexture.com/) | Watermarked trial; paid license listed | 🍎 macOS | Resolve OFX plugin for gate-scaled film grain, halation, MTF and scan dust in ACEScct or DaVinci Wide Gamut / Intermediate, with HDR support. Watermarked 0.1 trial for Apple Silicon Macs on macOS 26+ with Metal 4. The provider lists a paid license; Windows builds are planned. |
+
 #### 👤 Veres Deni Alex
 
 | [Fujifilm Classic Negative LUT](https://www.veresdenialex.com/product-page/classic-negative-lut) | 💰 Paid | ❔ Not established | Creative .cube LUT for supported camera log footage, combining Rec.709 conversion with a Classic Negative-inspired look. Follow the listed camera-profile and white-balance setup. |
@@ -998,7 +1002,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 metafide.com
 
-| [Meta Fide Computer Vision](https://www.metafide.com/?product=computer-vision) | 🆓 Free product; checkout workflow | 🪟 🍎 🐧 | ASCII-art Fusion Effect and Fuse for Resolve 15+. Version 1.1 addresses Resolve 19 compatibility; Linux is available by custom order. |
+| [Meta Fide Computer Vision 2](https://www.metafide.com/?product=computer-vision-2) | Free edition; paid Pro upgrade | 🪟 🍎 🐧 | ASCII Fusion Effect and Fuse for Resolve 18+ on Windows, macOS and Linux. The free version includes text, font and ink/paper controls; Pro adds source color, edge processing, dithering and mask- or depth-driven character sizing. |
 
 #### 👤 mralextech.com
 

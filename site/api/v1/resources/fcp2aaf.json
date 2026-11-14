@@ -51,13 +51,6 @@
         "note": "Provider-listed platforms; see limitations and exact builds."
       },
       {
-        "field": "version",
-        "level": "documented",
-        "source": "https://fcp2aaf.com/changelog/",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Recorded version evidence, not installation testing."
-      },
-      {
         "field": "requirements",
         "level": "documented",
         "source": "https://fcp2aaf.com/",
@@ -75,8 +68,8 @@
         "field": "version",
         "level": "documented",
         "source": "https://fcp2aaf.com/changelog/",
-        "checked_at": "2026-11-06T08:18:50.375Z",
-        "note": "Improves preview-track exclusion, interface behavior and AAF preparation feedback."
+        "checked_at": "2026-11-14T07:53:12.819Z",
+        "note": "Provider release evidence."
       }
     ],
     "unknownFields": [
@@ -90,18 +83,38 @@
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "kind": "vendor-version",
-      "version": "26.11.01",
+      "version": "26.11.02",
       "source": "https://fcp2aaf.com/changelog/",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "date_kind": "release",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Original source reviewed; catalogue review date is separate from the release date."
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Original provider source reviewed."
     },
-    "releaseDate": "2026-11-05",
+    "releaseDate": "2026-11-06",
     "activityDate": null,
     "stars": null,
     "metadataChecked": null,
     "history": [
+      {
+        "name": "fcp2aaf",
+        "url": "https://fcp2aaf.com/",
+        "from": "26.11.01",
+        "to": "26.11.02",
+        "release": "v1.30",
+        "catalogue_date": "2026-11-14",
+        "upstream_date": "2026-11-06",
+        "source": "https://fcp2aaf.com/changelog/",
+        "summary": "Makes interface text lookups cheaper to improve window responsiveness.",
+        "changes": [
+          "Makes interface text lookups cheaper to improve window responsiveness."
+        ],
+        "changelogs": [
+          {
+            "label": "Full source changelog",
+            "url": "https://fcp2aaf.com/changelog/"
+          }
+        ]
+      },
       {
         "name": "fcp2aaf",
         "url": "https://fcp2aaf.com/",
@@ -187,6 +200,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.30",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
+      },
       {
         "version": "v1.29",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.29"

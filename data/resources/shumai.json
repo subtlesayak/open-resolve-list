@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/shumaiOne/shumai#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 257,
-  "last_pushed_at": "2026-11-06T03:46:55Z",
-  "metadata_checked_at": "2026-11-06T08:14:19.414Z",
+  "stars": 263,
+  "last_pushed_at": "2026-11-14T07:15:55Z",
+  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,12 +55,12 @@
     "name": "shumaiOne/shumai",
     "url": "https://github.com/shumaiOne/shumai",
     "kind": "stable-release",
-    "version": "v0.6.4",
-    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
-    "date": "2026-11-05T14:49:04Z",
-    "checked_at": "2026-11-06T08:18:50.375Z",
+    "version": "v0.6.6",
+    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+    "date": "2026-11-13T12:38:25Z",
+    "checked_at": "2026-11-14T07:53:12.819Z",
     "date_kind": "release",
-    "note": "Original source reviewed; catalogue review date is separate from the release date."
+    "note": "Original provider source reviewed."
   },
   "evidence": [
     {
@@ -73,9 +73,9 @@
     {
       "field": "version",
       "level": "documented",
-      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.4",
-      "checked_at": "2026-11-06T08:18:50.375Z",
-      "note": "Recorded provider release evidence, not installation testing."
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+      "checked_at": "2026-11-14T07:53:12.819Z",
+      "note": "Provider release evidence."
     }
   ],
   "unknownFields": [
@@ -88,6 +88,27 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.6.4",
+      "to": "v0.6.6",
+      "release": "v1.30",
+      "catalogue_date": "2026-11-14",
+      "upstream_date": "2026-11-13T12:38:25Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
+      "summary": "Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms. Improves agent session handling and cleans up empty embedding folders.",
+      "changes": [
+        "Adds project creation via the built-in agent, MCP and CLI, plus standalone CLI downloads for all three desktop platforms.",
+        "Improves agent session handling and cleans up empty embedding folders."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6"
+        }
+      ]
+    },
     {
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",
