@@ -38,7 +38,7 @@ test('detail loader shares cached requests, validates identity and retries faile
 test('resource pages distinguish uncertainty and escape provider content',()=>{
  const entry={...entries[0],name:'<img src=x onerror=alert(1)>',description:'<script>bad()</script>'};const html=resourceView(entry,entries);
  assert.match(html,/&lt;script&gt;/);assert.doesNotMatch(html,/<script>bad/);
- for(const heading of ['Compatibility','Requirements','Pricing and access','Version history','Related tools','Sources and limitations'])assert.ok(html.includes(heading));
+ for(const heading of ['Compatibility','Requirements','Pricing and access','Version history','Similar alternatives','Sources and limitations'])assert.ok(html.includes(heading));
  for(const [kind,type]of [['ofx','SoftwareApplication'],['reference','TechArticle'],['training','LearningResource'],['collection','CollectionPage'],['powergrade','CreativeWork']])assert.equal(structuredResource({...entry,kind},'https://example.com/').mainEntity['@type'],type);
 });
 test('maintenance reports candidate changes and incomplete checks without modifying records',()=>{

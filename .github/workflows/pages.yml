@@ -5,7 +5,8 @@ on:
     paths:
       - 'data/**'
       - 'site/**'
-      - 'scripts/build-site.mjs'
+      - 'scripts/**'
+      - '.github/workflows/pages.yml'
       - 'scripts/canonical-source.mjs'
       - 'scripts/rebuild.mjs'
       - 'package.json'

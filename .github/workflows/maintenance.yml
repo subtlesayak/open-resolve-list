@@ -28,6 +28,15 @@ jobs:
       - name: Check external source pages
         if: always()
         run: node scripts/check-updates.mjs --external
+      - name: Build source review queue
+        if: always()
+        run: node scripts/source-review-queue.mjs --captures .research/update-check/external.json
+      - name: Synchronize changedetection.io watches
+        if: always()
+        env:
+          CHANGEDETECTION_URL: ${{ secrets.CHANGEDETECTION_URL }}
+          CHANGEDETECTION_API_KEY: ${{ secrets.CHANGEDETECTION_API_KEY }}
+        run: node scripts/changedetection-sync.mjs >> "$GITHUB_STEP_SUMMARY"
       - name: Write aggregate review summary
         if: always()
         run: node scripts/maintenance-summary.mjs >> "$GITHUB_STEP_SUMMARY"

@@ -101,6 +101,15 @@
     "stars": null,
     "metadataChecked": null,
     "history": [],
+    "preview": {
+      "resource_id": "3d-cube-dctl-and-cube-slice",
+      "file": "color-diagnostics.svg",
+      "alt": "An illustrative RGB cube contains orange points at different coordinates.",
+      "caption": "RGB point-cloud concept. Original illustration; not product output or a compatibility test.",
+      "attribution": "Open Resolve List",
+      "permission": "Original CC0-1.0 illustration",
+      "color_context": "sRGB illustration for web display. Not a measured color transform or grading reference."
+    },
     "catalogueReleases": [
       {
         "version": "v1.20",

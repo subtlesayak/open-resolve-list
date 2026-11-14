@@ -70,6 +70,19 @@
     "stars": 2,
     "metadataChecked": "2026-11-14T07:47:18.816Z",
     "history": [],
+    "worksTogether": [
+      {
+        "from": "auto-subs",
+        "to": "resolve-textplus-srt-importer",
+        "reason": "Curated file handoff: export a reviewed SRT from AutoSubs, then use the importer to create styled Fusion Text+ clips. The sources document the separate export/import operations; this combination has not been installation tested.",
+        "sources": [
+          "https://github.com/tmoroney/auto-subs",
+          "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer"
+        ],
+        "resourceId": "auto-subs",
+        "name": "auto-subs"
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.0",

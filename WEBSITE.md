@@ -8,7 +8,7 @@ The resource count shows additions from the latest listings update. The number s
 
 The website in `site/` provides combined search and filters for tasks, platform, Resolve edition and version, access, payment model, processing, architecture and evidence. Official resources remain first. Resource details show field-specific sources, check dates, limitations and unknown requirements. Product releases and repository activity are separate sort options.
 
-Official Blackmagic Design resources are hidden by default. Check **Show official BMD resources** to include them; uncheck it to return to community and third-party listings. This preference is included in shared filter URLs. **Clear filters** resets requirements to the default Resolve Free view while preserving the search text and selected sort order.
+Official Blackmagic Design resources are hidden by default. Check **Show official BMD resources** to include them; uncheck it to return to community and third-party listings. This preference is included in shared filter URLs. **Clear filters** resets requirements to the default All editions view while preserving the search text and selected sort order.
 
 Filter options display match counts and disable empty combinations. Selecting a task hides filters without meaningful documented requirements for that task and clears conflicting requirements with a notice; search and sorting are preserved. Version filters use documented Resolve compatibility ranges, not provider release numbers. When version information is missing, a labelled action lets users remove the version constraint and inspect sources. Empty results suggest specific filters to remove, with the resulting counts; they never silently treat unknown compatibility as supported.
 
@@ -21,7 +21,7 @@ node scripts/build-site.mjs
 node scripts/serve-site.mjs
 ```
 
-Open `http://127.0.0.1:4173`. Stop the preview with Ctrl+C. There are no package dependencies. The preview serves only the site directory, excluding private research and email drafts.
+Open `http://127.0.0.1:4173`. Stop the preview with Ctrl+C. Generators have no runtime package dependencies. Browser validation uses development dependencies. The preview serves only the site directory, excluding private research and email drafts.
 
 ## Maintain the evidence
 
@@ -37,7 +37,7 @@ For a local rebuild of the canonical validation, Markdown views, site payloads, 
 
 To inspect conservative taxonomy candidates without changing records, run `node scripts/review-kinds.mjs --kind other` or add `--json` for machine-readable output. The command is read-only and intentionally does not infer or rewrite formats.
 
-The build scripts have no runtime dependencies; Playwright is a development-only dependency. `npm run build` runs the local rebuild, `npm run validate` runs canonical validation plus the full test suite, and `npm run review:kinds` lists taxonomy candidates.
+The build scripts have no runtime dependencies; Playwright and axe-core are development-only dependencies. `npm run build` runs the local rebuild, `npm run validate` runs canonical validation plus the full test suite, and `npm run review:kinds` lists taxonomy candidates.
 
 To create a conservative local draft without changing the catalogue, run `node scripts/add-resource.mjs` interactively, or pass explicit `--name`, `--url`, `--creator`, `--category`, `--kind`, and `--description` values. Optional `--tasks` and `--access` values are accepted. The command prints JSON only; it does not fetch, submit, or add the resource.
 
@@ -58,11 +58,15 @@ git diff --check
 
 ## Hosting
 
-Live on [GitHub Pages](https://subtlesayak.github.io/open-resolve-list/). The deployment workflow publishes only `site/`, never the repository root or local research. To publish reviewed changes, run **Publish catalogue website** from the repository's Actions tab on `main`; a normal push validates the catalogue but does not redeploy the website. No custom domain, third-party scripts or fonts are configured. The footer displays a plain-text shared page-view count using [CountAPI](https://countapi.mileshilliard.com/), only on the production site. Counts start with the replacement counter on September 8, 2026; they are approximate page loads, not unique visitors or historical traffic. The fixed public key contains no query, filters or personal visitor data; requests omit credentials and referrers. The service still receives the network request and IP address. A failed increment falls back to a read-only request, never a second increment. If offline, a previously retrieved count is labelled last recorded; without one, the counter is hidden. The public counter is not an audited analytics metric. Catalogue freshness follows reviewed deployments.
+Live on [GitHub Pages](https://subtlesayak.github.io/open-resolve-list/). The deployment workflow publishes only `site/`. Changes to covered site, data and build inputs on `main` trigger publication after validation. **Publish catalogue website** also supports manual dispatch on `main`.
 
-Shareable URLs contain the search terms and filter values. The website stores no browsing history or selections in browser storage. Avoid including private project names in links you share.
+### Performance baseline
 
-The edition selector has two choices: Resolve Free (default) and Resolve Studio. Both include unknown-edition listings as assumed compatible; Free excludes recorded Studio-only requirements. Clear filters restores Resolve Free and preserves search text and sorting. Old all-editions and unknown-edition share links migrate to Resolve Free. Platform and version requirements remain separate.
+Run `npm run browser:smoke` with `RESOLVE_TEST_MOBILE=1` and `RESOLVE_PERFORMANCE_BASELINE=1` for loopback Chromium measurements. At the cf1db723 baseline on a 390 px viewport, two catalogue requests transferred 1,051,258 bytes including headers (1,050,658 decoded JSON bytes); creator HTML was 776,442 bytes. These are local lab measurements, not field data. Browser checks enforce one index request, at most 525,329 decoded index bytes, and at most 300,000 creator HTML bytes at the current catalogue scale. They also check targeted axe A/AA rules and mobile overflow. Timing samples are diagnostic because local hardware and unthrottled loopback conditions vary.
+
+Shareable URLs contain the search terms and filter values. Theme, browse preferences, My Resolve Setup and collections are saved locally when storage is available. Collection export/import uses versioned JSON keyed by permanent resource ID; invalid imports preserve existing state. Avoid including private project names in links you share.
+
+The first visit and Clear filters use **All editions**. Free excludes recorded Studio-only tools; unknown requirements remain labelled. Any shared query URL takes precedence over saved browse preferences, including when `edition` is omitted (All editions). Reload preserves the URL; browser back/forward restores that URL without reapplying saved preferences. A bare homepage visit can restore locally remembered browse filters. My Resolve Setup is a separate local assessment and does not silently exclude unknown requirements. Clear filters preserves search and sorting.
 
 Studio results also include Free-compatible tools, following [Blackmagic Design’s edition feature hierarchy](https://www.blackmagicdesign.com/products/davinciresolve). Where Studio support is inferred from Free support, the result states that it is not separately verified. Platform restrictions and explicit Studio version ranges still apply. Studio support alone never implies Free support.
 
@@ -126,3 +130,13 @@ Static resource pages expose compatibility, requirements, access, evidence cover
 Weekly maintenance produces review candidates with recorded/observed values and source links. Missing, blocked and incomplete checks remain explicit; no facts or issues are changed automatically. The workflow is a provider-status check, not a substitute for the full source review required above.
 
 Browser CI exercises Chromium, Firefox and WebKit at desktop and mobile viewport sizes. This is browser automation, not physical-device or installed-PWA testing. Raw research stays local. The original migration is archived at `scripts/archive/migrate-v1-to-v2.mjs`; do not run it over maintained canonical records.
+
+## Workflow discovery and local collections
+
+`data/workflows.json` defines source-backed editorial recipes; `scripts/workflow-pages.mjs` generates their crawlable routes and the Workflow Finder. Capability matching and synonyms live in `site/discovery-model.mjs`; they summarize reviewed catalogue text and never establish compatibility. Similar alternatives require a specific shared capability. `data/relationships.json` separately records complementary handoffs with reasons and source URLs. A documented export/import handoff is not an installation test. Comparison links apply the same similarity predicate and retain the three-tool limit and CSV export.
+
+My Resolve Setup assesses selected edition, version, OS and architecture fields locally as Documented match, Requirements unknown or Documented incompatibility. It does not filter out unknowns automatically. GPU notes remain in source-backed details. Original conceptual preview illustrations and their rights/context are recorded in `data/previews.json`; they are explicitly not product output.
+
+Setup assessments require a citation scoped to each selected field. A partial platform or architecture list does not establish exclusion of every unlisted target. An edition-scoped version range remains unknown until that edition is selected; Free support does not independently establish Studio support in My Resolve Setup. Compatibility source mappings live in `site/compatibility-evidence.mjs`; keep them tied to the existing canonical source and claim. Compact browse records carry evidence flags, while original citations remain available on demand through resource pages and details.
+
+The builder writes a content hash to `site/catalogue-version.mjs` so all browse consumers request the same generated index version. `data/creator-guides.json` supplies reviewed learning links and topics for the initial educator guides. Source-review captures preserve blocking, JavaScript dependencies, unsupported formats and truncation as incomplete coverage; an HTTP success alone is not an editorial verification.

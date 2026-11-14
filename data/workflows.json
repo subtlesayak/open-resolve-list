@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "automatic-subtitles",
+      "title": "Create automatic subtitles",
+      "result": "A reviewed subtitle file or styled subtitle timeline.",
+      "setup": "AutoSubs and media containing clear speech. Check the current installer and Resolve integration requirements before use.",
+      "steps": [
+        "Open an audio or video file in AutoSubs standalone mode.",
+        "Choose a transcription model and language, then transcribe.",
+        "Review the transcript, speakers and timing; export SRT or text.",
+        "For styled Resolve output, follow the provider’s Resolve integration guide and send the reviewed subtitles to Resolve."
+      ],
+      "resources": [
+        "auto-subs",
+        "resolve-opencaptions"
+      ],
+      "limitations": "Model downloads need a connection. Check model licenses and transcription accuracy. The provider excludes the Mac App Store Resolve build. Not installation tested by this catalogue.",
+      "sources": [
+        {
+          "label": "AutoSubs quick start and model licensing",
+          "url": "https://github.com/tmoroney/auto-subs"
+        }
+      ],
+      "alternatives": [
+        {
+          "resource_id": "resolve-opencaptions",
+          "description": "Style an existing subtitle file as editable Text+ clips. This covers subtitle presentation; it does not establish automatic speech recognition."
+        }
+      ]
+    },
+    {
+      "id": "film-emulation",
+      "title": "Explore a print-film look",
+      "result": "An editable print-film treatment with a documented input and output pipeline.",
+      "setup": "A Resolve project and a PowerGrade suited to its color-management pipeline. The legacy Kodak 2383 download includes Resolve 14–16 versions; current-version compatibility is not established here.",
+      "steps": [
+        "Choose a PowerGrade that matches your project’s color-management workflow; compare YRGB and color-managed alternatives.",
+        "Download from the original creator and read the included instructions.",
+        "For the legacy Kodak 2383 PowerGrade, use Gallery Import and choose the extracted DPX/DRX file as described by the creator.",
+        "Apply on a duplicate grade, check exposure and skin tones, then compare bypassed and treated output. Keep input and output transforms explicit."
+      ],
+      "resources": [
+        "kodak-2383-powergrade",
+        "yrgb-print-film-emulation-powergrades"
+      ],
+      "limitations": "A film-inspired look is not a guarantee of physical film reproduction. Avoid a second display transform. No preview image is reproduced without permission; use the creator’s samples.",
+      "sources": [
+        {
+          "label": "Juan Melara: Kodak 2383 installation and alternatives",
+          "url": "https://juanmelara.com.au/products/kodak-2383-powergrade"
+        }
+      ],
+      "alternatives": [
+        {
+          "resource_id": "yrgb-print-film-emulation-powergrades",
+          "description": "Compare the separate DaVinci YRGB print-film collection. Match its input and color-management instructions to your project before choosing a PowerGrade."
+        }
+      ]
+    },
+    {
+      "id": "action-camera-log",
+      "title": "Grade action-camera log footage",
+      "result": "A model-matched log-to-display starting point, followed by shot correction.",
+      "setup": "This example is limited to Osmo Action 5 Pro clips recorded in D-Log M and DJI’s corresponding Rec.709 vivid LUT. Other models and profiles need their own documentation.",
+      "steps": [
+        "Confirm the camera model and recording profile from the shoot settings. Separate Normal, HLG and D-Log M clips.",
+        "Find the Osmo Action 5 Pro D-Log M to Rec.709 vivid LUT on DJI’s official downloads page.",
+        "Follow the Resolve color-training guide to install and apply the LUT, keeping its expected input and output explicit.",
+        "Compare a duplicate grade, adjust each shot, and check scopes and the target display. Do not apply this example to an unverified camera/profile pair."
+      ],
+      "resources": [
+        "dji-clip-color"
+      ],
+      "limitations": "D-Log M and D-Log are different profiles. DJI clip color organizes metadata; it does not transform pixels. This recipe is an editorial starting point, not a tested setup or an Action 6 claim.",
+      "sources": [
+        {
+          "label": "DJI: model-specific LUT",
+          "url": "https://www.dji.com/osmo-action-5-pro/downloads"
+        },
+        {
+          "label": "Blackmagic Design: color training and manuals",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve/training"
+        },
+        {
+          "label": "DJI clip color: metadata organization",
+          "url": "https://github.com/erik-sutton95/dji-clip-color"
+        },
+        {
+          "label": "Leeming: Action 5 Pro alternative setup guide (PDF)",
+          "url": "https://www.leeminglutpro.com/downloads/Leeming_LUT_Pro_4_DJI_Osmo_Action_5_Pro_Setup_Guide.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Leeming LUT Pro 4 for Osmo Action 5 Pro",
+          "url": "https://www.leeminglutpro.com/",
+          "description": "A paid, camera-specific alternative. Its Action 5 Pro guide specifies its own capture and white-balance workflow and Rec.709 gamma 2.4 target. Use the corresponding Leeming LUT and its instructions; the DJI LUT steps above do not establish that workflow. This catalogue has not compared the results.",
+          "source": "https://www.leeminglutpro.com/downloads/Leeming_LUT_Pro_4_DJI_Osmo_Action_5_Pro_Setup_Guide.pdf"
+        }
+      ]
+    }
+  ]
+}

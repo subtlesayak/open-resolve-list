@@ -125,6 +125,28 @@
         ]
       }
     ],
+    "preview": {
+      "resource_id": "auto-subs",
+      "file": "subtitles.svg",
+      "alt": "A fictional subtitle over a flat backdrop with two timing blocks below.",
+      "caption": "Subtitle workflow concept. Original illustration; not an AutoSubs screenshot or transcription result.",
+      "attribution": "Open Resolve List",
+      "permission": "Original CC0-1.0 illustration",
+      "color_context": "sRGB illustration. No camera footage or product render is reproduced."
+    },
+    "worksTogether": [
+      {
+        "from": "auto-subs",
+        "to": "resolve-textplus-srt-importer",
+        "reason": "Curated file handoff: export a reviewed SRT from AutoSubs, then use the importer to create styled Fusion Text+ clips. The sources document the separate export/import operations; this combination has not been installation tested.",
+        "sources": [
+          "https://github.com/tmoroney/auto-subs",
+          "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer"
+        ],
+        "resourceId": "resolve-textplus-srt-importer",
+        "name": "resolve-textplus-srt-importer"
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.27",

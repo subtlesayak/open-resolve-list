@@ -1,0 +1,16 @@
+{
+ "schema_version":1,
+ "guides":[
+  {"creator_id":"vfxstudy-bernd-klimm","topics":["Fusion","Compositing","Motion graphics"],"links":[
+   {"title":"Start learning Fusion","url":"https://vfxstudy.com/beginner/","description":"A beginner course covering node-based compositing, masks, animation and 3D. The provider offers free access through its account and checkout flow.","source":"https://vfxstudy.com/beginner/","checked_at":"2026-11-14"},
+   {"title":"Browse practical tutorials","url":"https://vfxstudy.com/tutorials/","description":"Explore worked examples for Fusion compositing and Resolve workflows.","source":"https://vfxstudy.com/tutorials/","checked_at":"2026-11-14"}
+  ]},
+  {"creator_id":"jayaretv","topics":["Fusion expressions","Scripting","Workflow"],"links":[
+   {"title":"Explore Fusion expressions","url":"https://jayaretv.com/docs/expressions/","description":"Examples for simple expressions, masks and timing, with explanations for learning how they work.","source":"https://jayaretv.com/docs/expressions/","checked_at":"2026-11-14"},
+   {"title":"Find Fusion scripting references","url":"https://jayaretv.com/docs/scripting/","description":"Entry points to the Fusion and composition API references. Check the documentation and your Resolve setup before running a script.","source":"https://jayaretv.com/docs/scripting/","checked_at":"2026-11-14"}
+  ]},
+  {"creator_id":"blackmagic-design-training","topics":["Editing","Color","Fairlight","Fusion"],"links":[
+   {"title":"Follow the official training programme","url":"https://www.blackmagicdesign.com/products/davinciresolve/training","description":"Choose training videos, books and lesson files for editing, grading, audio and compositing. Match the material to the Resolve version you use.","source":"https://www.blackmagicdesign.com/products/davinciresolve/training","checked_at":"2026-11-14"}
+  ]}
+ ]
+}

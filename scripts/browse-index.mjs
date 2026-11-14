@@ -1,9 +1,13 @@
+import {setupEvidenceMask,setupExclusions} from '../site/compatibility-evidence.mjs';
 import {evidenceCoverage} from '../site/model.mjs';
 export function browseEntry(entry){
- const {id,name,creator,url,origin,official,reference,category,kind,tasks,tags,description,access,accessGroup,platforms,unknownFields,recommended,releaseDate,activityDate,stars}=entry;
+ const {id,name,creator,url,origin,official,reference,category,kind,tasks,tags,description,access,accessGroup,platforms,recommended,releaseDate,activityDate,stars}=entry;
  const {editions,resolve,architectures,processing,pricing}=entry.requirements;
  const coverage=evidenceCoverage(entry);
- return {id,name,creator,url,origin,official,reference,category,kind,tasks,tags,description,access,accessGroup,platforms,unknownFields,recommended,releaseDate,activityDate,stars,
+ return {id,name,creator,url,origin,official,reference,category,kind,tasks,tags,description,access,accessGroup,platforms,recommended,releaseDate,activityDate,stars,
+  hasUnknownRequirements:entry.unknownFields.length>0,
+  setupEvidence:setupEvidenceMask(entry),
+  ...(Object.keys(setupExclusions(entry)).length?{setupExclusions:setupExclusions(entry)}:{}),
   requirements:{editions,resolve,architectures,processing,pricing},
   version:{kind:entry.version.kind,version:entry.version.version},
   coverage:{total:coverage.total,established:coverage.established},

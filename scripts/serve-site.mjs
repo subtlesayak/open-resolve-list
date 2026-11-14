@@ -9,7 +9,8 @@ const types={'.css':'text/css; charset=utf-8','.js':'text/javascript; charset=ut
 const server=http.createServer((request,response)=>{
   try{
     const pathname=decodeURIComponent(new URL(request.url||'/',`http://${request.headers.host||'localhost'}`).pathname);
-    const requested=pathname==='/'?'index.html':pathname.replace(/^\/+/, '');
+    const localPath=pathname.startsWith('/open-resolve-list/')?pathname.slice('/open-resolve-list'.length):pathname;
+    const requested=localPath==='/'?'index.html':localPath.replace(/^\/+/, '');
     const candidate=path.resolve(root,requested);
     if(candidate!==root&&!candidate.startsWith(root+path.sep)){response.writeHead(400);response.end('Bad path');return;}
     let file=candidate;

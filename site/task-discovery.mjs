@@ -1,6 +1,7 @@
+import {loadCatalogue} from './catalogue-loader.mjs?v=1';
 const buttons=[...document.querySelectorAll('.quick-task')];
 if(buttons.length){
- fetch('catalogue-index.json?v=2',{cache:'no-store'}).then(response=>response.ok?response.json():null).then(data=>{
+ loadCatalogue().then(data=>{
   if(!data)return;
   const stats=document.querySelector('#site-stats');
   if(stats){const creators=new Set(data.entries.map(entry=>entry.creator).filter(Boolean)).size;const formats=new Set(data.entries.map(entry=>entry.kind).filter(Boolean)).size;stats.textContent=`${data.entries.length} resources · ${creators} creators · ${formats} formats · source-backed compatibility`;}

@@ -19,13 +19,13 @@ if(typeof document!=='undefined') {
  const container=document.getElementById('visit-counter'),url=counterUrl(window.location);
  if(container&&url) {
   const storageKey='resolve-visit-count';
-  container.textContent='Visits: loading…';
+  container.textContent='Approximate page loads: loading…';
   loadCount(url).then(count=>{
-   container.textContent='Visits: '+count.toLocaleString();
+   container.textContent='Approximate page loads: '+count.toLocaleString();
    container.title='Approximate page views since September 8, 2026; not unique visitors';
    try{localStorage.setItem(storageKey,String(count));}catch{}
   }).catch(()=>{
-   try{const saved=localStorage.getItem(storageKey);if(saved!==null){container.textContent='Visits: '+parseCount({value:saved}).toLocaleString()+' (last recorded)';return;}}catch{}
+   try{const saved=localStorage.getItem(storageKey);if(saved!==null){container.textContent='Approximate page loads: '+parseCount({value:saved}).toLocaleString()+' (last recorded)';return;}}catch{}
    container.hidden=true;
   });
  }

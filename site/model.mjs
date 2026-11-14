@@ -1,3 +1,5 @@
+import {fieldEvidence} from './compatibility-evidence.mjs';
+import {sharedCapabilities,assessSetup} from './discovery-model.mjs';
 export const TASKS = { captions:'Captions & dialogue', color:'Color & film looks', fusion:'Fusion & animation', workflow:'Workflow & automation', media:'Media & delivery', audio:'Audio', development:'Development', learning:'Learning & references', hardware:'Hardware', linux:'Linux setup' };
 export const LEVELS = { documented:'Source documented', creator:'Creator confirmed', tested:'Community tested', unknown:'Not established' };
 export const FORMAT_LABELS={dctl:'DCTL',ofx:'OFX plugin',powergrade:'PowerGrade',fuse:'Fuse','fusion-macro':'Fusion macro','reactor-package':'Reactor package',lut:'LUT','resolve-script':'Resolve script','mcp-server':'MCP server','workflow-app':'Workflow app','subtitle-tool':'Subtitle tool',template:'Template',encoder:'Encoder','control-surface':'Control surface','audio-plugin':'Audio plugin',library:'Developer library',training:'Training',reference:'Reference',collection:'Collection',other:'Other / format unconfirmed'};
@@ -17,30 +19,27 @@ export const EVIDENCE_FIELDS = [
 ];
 export function evidenceCoverage(entry) {
  if(entry.coverage)return entry.coverage;
- const fields=EVIDENCE_FIELDS.map(field=>({key:field.key,label:field.label,known:field.known(entry),evidence:entry.evidence.filter(item=>{
-  const label=String(item.field).toLowerCase();
-  return label===field.key||label===field.label.toLowerCase()||(field.key==='version'&&label==='repository revision')||(['resolve','editions'].includes(field.key)&&label==='resolve edition and version range');
- })}));
+ const fields=EVIDENCE_FIELDS.map(field=>({key:field.key,label:field.label,known:field.known(entry),evidence:fieldEvidence(entry,field.key)}));
  return {total:fields.length,established:fields.filter(field=>field.known).length,fields};
 }
 // Official Blackmagic resources are opt-in in the catalogue. The UI exposes a
 // positive "Show" checkbox while shared URLs retain `hide` as the default.
-export const DEFAULTS = { q:'', task:'', kind:'', platform:'', edition:'Free', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', official:'hide', sort:'name', mode:'all' };
+export const DEFAULTS = { q:'', task:'', kind:'', platform:'', edition:'', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', official:'hide', sort:'name', mode:'all' };
 export const UNFILTERED = {...DEFAULTS,edition:''};
 export const MAX_COMPARE = 3;
 const GENERIC_COMPARE_KINDS = new Set(['other','reference','guide','directory']);
 export function comparableResources(a,b) {
- if(!a||!b||a.id===b.id)return false;
- const kindA=String(a.kind||'').toLowerCase(),kindB=String(b.kind||'').toLowerCase();
- if(kindA===kindB&&!GENERIC_COMPARE_KINDS.has(kindA))return true;
- const tasksA=new Set(a.tasks||[]);
- return a.category&&a.category===b.category&&(b.tasks||[]).some(task=>tasksA.has(task));
+ return !!a&&!!b&&a.id!==b.id&&sharedCapabilities(a,b).length>0;
 }
 export function comparisonCompatible(entry,selected) {
  return selected.length===0||selected.every(other=>comparableResources(entry,other));
 }
-export function relatedResources(entry,entries,limit=3) {
- return entries.filter(other=>other.id!==entry.id).map(other=>({entry:other,score:(other.kind===entry.kind&&!GENERIC_COMPARE_KINDS.has(String(entry.kind||'').toLowerCase())?5:0)+(other.category===entry.category?3:0)+((other.tasks||[]).some(task=>(entry.tasks||[]).includes(task))?2:0)})).filter(item=>item.score>0).sort((a,b)=>b.score-a.score||a.entry.name.localeCompare(b.entry.name)).slice(0,limit).map(item=>item.entry);
+export function relatedResources(entry,entries,limit=3,setup={}) {
+ const accessRank={free:3,mixed:2,paid:1,public:0};
+ const ranked=entries.filter(other=>comparableResources(entry,other)).map(other=>({entry:other,capabilities:sharedCapabilities(entry,other).length,setup:({yes:2,maybe:1,no:0})[assessSetup(other,setup).kind],access:accessRank[other.accessGroup]||0,evidence:evidenceCoverage(other).established})).sort((a,b)=>b.capabilities-a.capabilities||b.setup-a.setup||b.access-a.access||b.evidence-a.evidence||a.entry.name.localeCompare(b.entry.name));
+ const selected=[];
+ for(const item of ranked)if(selected.length<limit&&selected.every(other=>comparableResources(other,item.entry)))selected.push(item.entry);
+ return selected;
 }
 export function comparisonFromUrl(search) {
  const raw=String(search).match(/(?:^|[?&])compare=([^&]*)/)?.[1]||'';
@@ -104,7 +103,7 @@ export function filterEntries(entries,state) {
   if(state.evidence==='documented'&&!e.evidence.some(x=>x.level==='documented'))return false;
   if(state.evidence==='creator'&&!e.evidence.some(x=>x.level==='creator'))return false;
   if(state.evidence==='tested'&&!e.evidence.some(x=>x.level==='tested'))return false;
-  if(state.evidence==='unknown'&&!e.unknownFields.length)return false;
+  if(state.evidence==='unknown'&&!(e.hasUnknownRequirements??e.unknownFields?.length))return false;
   return true;
  });
 }
@@ -133,7 +132,7 @@ export function adaptTaskSelection(entries, state) {
 export function recoveryOptions(entries, state) {
  if(filterEntries(entries,state).length || state.mode==='tested') return [];
  const options = [...REQUIREMENT_FILTERS,'q','official','task'].filter(key=>state[key]).map(key=>({
-  key, patch:{[key]:key==='edition'?'Studio':''}, count:filterEntries(entries,{...state,[key]:key==='edition'?'Studio':''}).length
+  key, patch:{[key]:''}, count:filterEntries(entries,{...state,[key]:''}).length
  })).filter(option=>option.count>0).sort((a,b)=>a.count-b.count);
  if(options.length) return options.slice(0,3);
  const taskOnly = {...DEFAULTS,task:state.task,official:state.official,sort:state.sort,mode:state.mode};
@@ -147,5 +146,5 @@ export function sortEntries(entries,key='name',query='') {
 }
 export function relativeDate(value,now=new Date()) {if(!value||!Number.isFinite(Date.parse(value)))return 'Unknown';const days=Math.max(0,Math.floor((+now-Date.parse(value))/86400000));if(!days)return 'Today';const [n,unit]=days<7?[days,'day']:days<30?[Math.floor(days/7),'week']:days<365?[Math.floor(days/30),'month']:[Math.floor(days/365),'year'];return `${n} ${unit}${n===1?'':'s'} back`;}
 export function versionText(v) {if(v.kind==='not-applicable')return 'Not applicable';if(!v.version)return 'Version unknown';if(v.kind==='commit')return 'Revision '+v.version.slice(0,12);return v.version+(v.kind==='prerelease'?' (prerelease)':'');}
-export function stateFromUrl(search) {const p=new URLSearchParams(search);const s={...DEFAULTS};for(const k of Object.keys(s))if(p.has(k))s[k]=p.get(k).slice(0,250);if(!['Free','Studio'].includes(s.edition))s.edition='Free';return {state:s};}
+export function stateFromUrl(search) {const p=new URLSearchParams(search);const s={...DEFAULTS};for(const k of Object.keys(s))if(p.has(k))s[k]=p.get(k).slice(0,250);if(!['','Free','Studio'].includes(s.edition))s.edition='';return {state:s};}
 export function stateToUrl(state) {const p=new URLSearchParams();for(const [k,v]of Object.entries(state))if(k in DEFAULTS&&v!==DEFAULTS[k]&&v)p.set(k,v);return p.toString();}

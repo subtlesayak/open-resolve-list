@@ -1178,3 +1178,35 @@ nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; t
 .resource-page h2 { margin-block:0 16px; }
 .resource-page article>section { margin-block:40px; }
 .resource-page meter { width:100%; max-width:300px; height:20px; }
+
+#filter-controls[data-collapsed="true"] { display:none; }
+.discovery-starts,.setup-fields { display:flex; flex-wrap:wrap; gap:1rem; margin-block:1rem; }
+.discovery-starts a { padding:.75rem 1rem; border:1px solid var(--line); border-radius:.5rem; }
+.setup-fields label { display:grid; gap:.35rem; flex:1 1 9rem; min-inline-size:0; }
+.setup-fields select { inline-size:100%; }
+#my-setup { margin-block:1.5rem; padding:1rem; border:1px solid var(--line); border-radius:.5rem; }
+#my-setup summary { cursor:pointer; }
+.collection-controls { display:flex; flex-wrap:wrap; gap:.5rem; margin-block:.75rem; }
+.collection-controls button { min-block-size:2.5rem; }
+.workflow-result { margin-block:1rem; padding:1rem; border:1px solid var(--line); border-radius:.5rem; }
+.workflow-result h3 { margin-block-start:0; }
+.workflow-result p { overflow-wrap:anywhere; }
+.compare-table { display:block; overflow:auto; max-inline-size:100%; }
+.compare-table th { text-align:start; }
+.preview img { max-inline-size:100%; block-size:auto; }
+@media (max-width:400px) { .resource { grid-template-columns:minmax(0,1fr); } }
+#filter-toggle { display:flex; }
+.modes[hidden],.mode-help[hidden] { display:none; }
+.collection-controls label { min-inline-size:0; max-inline-size:100%; }
+.collection-controls input[type="file"] { min-inline-size:0; inline-size:100%; max-inline-size:100%; }
+@media (max-width:400px) {
+ .resource > :first-child,.resource > .metadata,.resource > .source-link,.resource > .row-actions { grid-column:1; grid-row:auto; }
+}
+.setup-assessment .source-link { display:flex; flex-wrap:wrap; gap:8px; }
+:where(.setup-assessment,.workflow-result,.comparison-differences) a { display:inline-flex; min-block-size:24px; align-items:center; }
+.workflow-result > a { margin-block-start:.5rem; }
+
+#workflow-form { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:12px; max-inline-size:52rem; }
+#workflow-form label { grid-column:1 / -1; }
+#workflow-query { min-inline-size:0; inline-size:100%; }
+@media (max-width:400px) { #workflow-form { grid-template-columns:minmax(0,1fr); } #workflow-form button { justify-self:start; } }

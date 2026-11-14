@@ -1,0 +1,7 @@
+{
+ "schema_version":1,
+ "previews":[
+ {"resource_id":"3d-cube-dctl-and-cube-slice","file":"color-diagnostics.svg","alt":"An illustrative RGB cube contains orange points at different coordinates.","caption":"RGB point-cloud concept. Original illustration; not product output or a compatibility test.","attribution":"Open Resolve List","permission":"Original CC0-1.0 illustration","color_context":"sRGB illustration for web display. Not a measured color transform or grading reference."},
+ {"resource_id":"auto-subs","file":"subtitles.svg","alt":"A fictional subtitle over a flat backdrop with two timing blocks below.","caption":"Subtitle workflow concept. Original illustration; not an AutoSubs screenshot or transcription result.","attribution":"Open Resolve List","permission":"Original CC0-1.0 illustration","color_context":"sRGB illustration. No camera footage or product render is reproduced."}
+ ]
+}

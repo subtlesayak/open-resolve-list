@@ -1,4 +1,4 @@
-import {resourceView} from './resource-view.mjs?v=1';
+import {resourceView} from './resource-view.mjs?v=2';
 import {createDetailLoader} from './detail-loader.mjs?v=1';
 const article=document.querySelector('#resource');
 article.closest('main').classList.add('resource-page');
