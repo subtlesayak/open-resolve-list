@@ -2,11 +2,12 @@ import {browseEntry} from './browse-index.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {fileURLToPath} from 'node:url';
 import {loadCanonicalResources,toSiteEntry} from './canonical-source.mjs';
 import {findWorkflow,assessSetup,validateSetup,workflowIntent} from '../site/discovery-model.mjs';
 import {evidenceCoverage,comparableResources,relatedResources} from '../site/model.mjs';
 import {validateCollection,importCollection} from '../site/collections.mjs';
-const entries=loadCanonicalResources(new URL('..',import.meta.url).pathname).map(toSiteEntry),byId=id=>entries.find(e=>e.id===id);
+const entries=loadCanonicalResources(fileURLToPath(new URL('..',import.meta.url))).map(toSiteEntry),byId=id=>entries.find(e=>e.id===id);
 test('Cube compatibility citations use only the existing FAQ scope',()=>{
  const cube=byId('3d-cube-dctl-and-cube-slice');
  for(const key of ['editions','resolve'])assert.deepEqual(evidenceCoverage(cube).fields.find(f=>f.key===key).evidence.map(e=>e.source),['https://mononodes.com/faq/']);
@@ -42,7 +43,7 @@ test('collection import validates fully before returning a merge and never alter
 });
 test('private plans and reports are excluded from the public site artifact',()=>{
  const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(d=>d.isDirectory()?walk(dir+'/'+d.name):[dir+'/'+d.name]);
- assert.ok(!walk(new URL('../site',import.meta.url).pathname).some(p=>/\.research|audience-report|media-kit|sponsorship-plan|pasted.text/i.test(p)));
+ assert.ok(!walk(fileURLToPath(new URL('../site',import.meta.url))).some(p=>/\.research|audience-report|media-kit|sponsorship-plan|pasted.text/i.test(p)));
 });
 
 test('partial OS and build lists do not establish incompatibility; verdicts require citations',()=>{
