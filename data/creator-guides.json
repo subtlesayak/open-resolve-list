@@ -24,6 +24,29 @@
   ]},
   {"creator_id":"blackmagic-design-training","topics":["Editing","Color","Fairlight","Fusion"],"links":[
    {"title":"Follow the official training programme","url":"https://www.blackmagicdesign.com/products/davinciresolve/training","description":"Choose training videos, books and lesson files for editing, grading, audio and compositing. Match the material to the Resolve version you use.","source":"https://www.blackmagicdesign.com/products/davinciresolve/training","checked_at":"2026-11-14"}
+  ]},
+  {"creator_id":"jason-yadlovski","topics":["Fairlight","Dialogue repair","Training"],"links":[
+   {"title":"Repair noisy dialogue in Fairlight","url":"https://www.jasonyadlovski.com/blog/2026/10/1/fix-bad-audio-in-fairlight-davinci-resolve-21-lesson-6","description":"A free Resolve 21 lesson on recognizing audio problems, removing hum and clicks, and reducing background noise.","source":"https://www.jasonyadlovski.com/blog/2026/10/1/fix-bad-audio-in-fairlight-davinci-resolve-21-lesson-6","checked_at":"2026-11-21"},
+   {"title":"Follow the free Fairlight training series","url":"https://www.youtube.com/playlist?list=PLWJSzg1c3Wmw","description":"Work through the exercises in Blackmagic Design’s Fairlight Audio Guide with video demonstrations by Yadlovski.","source":"https://www.jasonyadlovski.com/blog/2026/10/1/fix-bad-audio-in-fairlight-davinci-resolve-21-lesson-6","checked_at":"2026-11-21"}
+  ]},
+  {"creator_id":"brian-morse-prophetless","topics":["Fusion","Camera tracking","Compositing"],"links":[
+   {"title":"Track camera movement and calibrate a lens","url":"https://www.prophetless.com/blog/97d5b9bd-1af5-4452-8fe2-e1602f2554ca","description":"A free lesson on drawing calibration lines for lens distortion and using supervised Camera Tracker inputs in Resolve 21.1.","source":"https://www.prophetless.com/blog/97d5b9bd-1af5-4452-8fe2-e1602f2554ca","checked_at":"2026-11-21"},
+   {"title":"Browse the free Fusion tutorials","url":"https://www.prophetless.com/blog","description":"Find techniques for tracking paint strokes, removing objects and placing 3D objects in a tracked shot.","source":"https://www.prophetless.com/blog","checked_at":"2026-11-21"}
+  ]},
+  {"creator_id":"cristiano-moura-proclass","topics":["Editing","Fusion","Training","Portuguese"],"links":[
+   {"title":"Start the free Portuguese Resolve mini-course","url":"https://proclass.com.br/home/mini-curso-davinci/","description":"Short beginner lessons in Brazilian Portuguese. The free lessons appear at the top of a page that also offers paid training.","source":"https://proclass.com.br/home/mini-curso-davinci/","checked_at":"2026-11-21"}
+  ]},
+  {"creator_id":"akash-kumar-ravi","topics":["Editing","Color","Fairlight","Training","Hindi"],"links":[
+   {"title":"Start the free Hindi Resolve crash course","url":"https://www.youtube.com/watch?v=vv6mtkEwGAU","description":"An introduction to the course and core workflows, including media organization, editing, color and audio. The interface may differ from newer Resolve versions.","source":"https://www.youtube.com/watch?v=vv6mtkEwGAU","checked_at":"2026-11-21"}
+  ]},
+  {"creator_id":"videomontage-fr","topics":["Editing","Color","Training","French"],"links":[
+   {"title":"Choose a free French editing or grading masterclass","url":"https://videomontage.fr/formations/","description":"Choose an edit that goes from import to export or a color lesson that grades a real shot. Both videos are publicly available.","source":"https://videomontage.fr/formations/","checked_at":"2026-11-21"}
+  ]},
+  {"creator_id":"jorge-mochon","topics":["Editing","Multicam","Training","Spanish","Portuguese"],"links":[
+   {"title":"Review the Resolve editing course outline","url":"https://jmochon.training/en/cursos/davinci-resolve/","description":"A paid course that builds an edit with supplied project files, then covers workflows such as multicam and conforming. The provider lists Spanish, English and Portuguese audio and subtitles.","source":"https://jmochon.training/en/cursos/davinci-resolve/","checked_at":"2026-11-21"}
+  ]},
+  {"creator_id":"gedaly-guberek","topics":["Color","Color management","Training"],"links":[
+   {"title":"Explore the short-film grading workshop","url":"https://dvresolve.com/workshops/","description":"A paid workshop recording with practice footage. It teaches node organization, color management and shot matching using a narrative short film.","source":"https://dvresolve.com/workshops/","checked_at":"2026-11-21"}
   ]}
  ]
 }

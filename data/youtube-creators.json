@@ -12,7 +12,14 @@
     "https://www.jamiedickinson.net/training",
     "https://diegoyhama.com/home/",
     "https://training.team2films.com/",
-    "https://www.reddit.com/r/davinciresolve/comments/1qcemf3/will_they_update_the_training_someday/"
+    "https://www.reddit.com/r/davinciresolve/comments/1qcemf3/will_they_update_the_training_someday/",
+    "https://www.jasonyadlovski.com/blog/2026/10/1/fix-bad-audio-in-fairlight-davinci-resolve-21-lesson-6",
+    "https://www.prophetless.com/about",
+    "https://proclass.com.br/home/mini-curso-davinci/",
+    "https://www.youtube.com/watch?v=vv6mtkEwGAU",
+    "https://videomontage.fr/formations/",
+    "https://jmochon.training/en/cursos/davinci-resolve/",
+    "https://dvresolve.com/workshops/"
   ],
   "creators": [
     {
@@ -112,6 +119,62 @@
       "focus": "Practical DaVinci Resolve editing, color, cinematography and filmmaker training from a Blackmagic Design certified training partner.",
       "website": "https://training.team2films.com/",
       "evidence": "https://training.team2films.com/"
+    },
+    {
+      "id": "jason-yadlovski",
+      "name": "Jason Yadlovski",
+      "channel": "https://www.youtube.com/channel/UCmeHO5GLuhtKui-WXetqukw",
+      "focus": "Fairlight lessons for video editors, including dialogue repair, audio levels and recording voiceovers.",
+      "website": "https://www.jasonyadlovski.com/blog",
+      "evidence": "https://www.jasonyadlovski.com/blog/2026/10/1/fix-bad-audio-in-fairlight-davinci-resolve-21-lesson-6"
+    },
+    {
+      "id": "brian-morse-prophetless",
+      "name": "Brian Morse · Prophetless",
+      "channel": "https://www.prophetless.com/blog",
+      "focus": "Fusion tutorials on camera tracking, lens distortion and visual effects cleanup.",
+      "website": "https://www.prophetless.com/blog",
+      "evidence": "https://www.prophetless.com/about"
+    },
+    {
+      "id": "cristiano-moura-proclass",
+      "name": "Cristiano Moura · ProClass",
+      "channel": "https://proclass.com.br/home/mini-curso-davinci/",
+      "focus": "Beginner Resolve lessons in Brazilian Portuguese, with further training in editing, color, Fairlight and Fusion.",
+      "website": "https://proclass.com.br/home/mini-curso-davinci/",
+      "evidence": "https://proclass.com.br/home/mini-curso-davinci/"
+    },
+    {
+      "id": "akash-kumar-ravi",
+      "name": "Akash Kumar Ravi",
+      "channel": "https://www.youtube.com/@AkashKRavi",
+      "focus": "Hindi tutorials for new Resolve users, from organizing media and editing to color correction and audio.",
+      "website": "https://www.youtube.com/@AkashKRavi",
+      "evidence": "https://www.youtube.com/watch?v=vv6mtkEwGAU"
+    },
+    {
+      "id": "videomontage-fr",
+      "name": "Videomontage.fr",
+      "channel": "https://videomontage.fr/formations/",
+      "focus": "French lessons on editing from import to export and grading a shot in Resolve.",
+      "website": "https://videomontage.fr/formations/",
+      "evidence": "https://videomontage.fr/formations/"
+    },
+    {
+      "id": "jorge-mochon",
+      "name": "Jorge Mochón",
+      "channel": "https://jmochon.training/en/cursos/davinci-resolve/",
+      "focus": "Project-based Resolve editing lessons on cutting, multicam and conforming footage, with Spanish, English and Portuguese audio and subtitles.",
+      "website": "https://jmochon.training/en/cursos/davinci-resolve/",
+      "evidence": "https://jmochon.training/es/cursos/davinci-resolve/"
+    },
+    {
+      "id": "gedaly-guberek",
+      "name": "Gedaly Guberek · DVResolve",
+      "channel": "https://dvresolve.com/workshops/",
+      "focus": "DaVinci Resolve workshops on grading short films, working with nodes and matching shots.",
+      "website": "https://dvresolve.com/workshops/",
+      "evidence": "https://gedaly.com/teaching/"
     }
   ]
 }
