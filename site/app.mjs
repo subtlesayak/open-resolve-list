@@ -1,3 +1,4 @@
+import './table-scroll.mjs?v=1';
 import {setupVerdictView} from './setup-verdict-view.mjs';
 import {assessSetup,readSetup,sharedCapabilities} from './discovery-model.mjs';
 import {loadCatalogue} from './catalogue-loader.mjs?v=1';
@@ -10,6 +11,7 @@ const $=s=>document.querySelector(s), make=(tag,text,cls)=>{const n=document.cre
 const link=(text,url)=>{if(url==='https://www.blackmagicdesign.com/api/support/us/downloads.json'){url='https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion';if(text==='Upstream source')text='Official downloads & release notes';}const a=make('a',text);try{if(new URL(url,location.href).protocol==='https:')a.href=url;}catch{}return a;};
 function originalLink(label, entry, placement) {
  const anchor = link(label, entry.url);
+ anchor.classList.add('source-cta');
  Object.assign(anchor.dataset, {analyticsEvent: 'tool_outbound_click', analyticsId: entry.id, analyticsPlacement: placement});
  return anchor;
 }
@@ -41,23 +43,67 @@ function enableBackdropClose(dialog) {
   dialog.addEventListener('close', () => { startedOutside = false; });
 }
 function openDialog(title){lastFocus=document.activeElement;$('#dialog-title').textContent=title;$('#dialog-body').replaceChildren();$('#detail-dialog').showModal();$('#dialog-close').focus();}
-function renderCompareTray(){const tray=$('#compare-tray');tray.hidden=!comparison.length;$('#compare-count').textContent=comparison.length?' — '+comparison.length+' of '+MAX_COMPARE+' selected':'';$('#compare-open').disabled=comparison.length<2;}
-function toggleCompare(entry,checked){lastCompareFocus=document.activeElement;if(checked){const selected=comparison.map(id=>data.entries.find(item=>item.id===id)).filter(Boolean);if(!comparisonCompatible(entry,selected)){notify('Choose alternatives with a shared capability. A shared format alone does not establish similarity.');return;}if(!comparison.includes(entry.id)&&comparison.length<MAX_COMPARE)comparison=[...comparison,entry.id];else if(comparison.length>=MAX_COMPARE){notify('Compare up to '+MAX_COMPARE+' resources at a time.');return;}}else comparison=comparison.filter(id=>id!==entry.id);syncUrl();render();$('#results article[data-resource-id="'+entry.id+'"] .compare-control input')?.focus();}
+function reserveCompareSpace() {
+ const tray = $('#compare-tray');
+ const inset = tray.hidden ? 0 : Math.ceil(innerHeight - tray.getBoundingClientRect().top) + 8;
+ document.documentElement.style.setProperty('--compare-inset', inset + 'px');
+}
+function renderCompareTray() {
+ const count = comparison.length;
+ const tray = $('#compare-tray');
+ tray.hidden = count === 0;
+ const selection = count + ' of ' + MAX_COMPARE + ' selected';
+ const help = count === 1 ? 'Choose one more similar tool.' : 'Only similar tools can be compared.';
+ $('#compare-count').textContent = selection;
+ $('#compare-help').textContent = help;
+ $('#compare-open').disabled = count < 2;
+ const status = count ? selection + '. ' + (count === 1 ? help : 'Compare selected is available.') : '';
+ if ($('#compare-status').textContent !== status) $('#compare-status').textContent = status;
+ reserveCompareSpace();
+}
+function toggleCompare(entry, checked) {
+ if (checked) {
+  const selected = comparison.map(id => data.entries.find(item => item.id === id)).filter(Boolean);
+  if (!comparisonCompatible(entry, selected)) {
+   notify('Choose alternatives with a shared capability. A shared format alone does not establish similarity.');
+   return;
+  }
+  if (comparison.length >= MAX_COMPARE) {
+   notify('Compare up to ' + MAX_COMPARE + ' resources at a time.');
+   return;
+  }
+  if (!comparison.includes(entry.id)) comparison = [...comparison, entry.id];
+ } else {
+  comparison = comparison.filter(id => id !== entry.id);
+ }
+ syncUrl();
+ render();
+ const checkbox = $('#results article[data-resource-id="' + entry.id + '"] .compare-control input');
+ checkbox?.focus({preventScroll:true});
+ checkbox?.scrollIntoView({block:'nearest'});
+}
+function showMoreResults() {
+ const results = $('#results');
+ const previous = results.querySelectorAll('.resource-page-link').length;
+ limit += 30;
+ render();
+ const links = results.querySelectorAll('.resource-page-link');
+ const added = links.length - previous;
+ if (added <= 0) return;
+ const firstNewResult = links[previous];
+ firstNewResult.focus({preventScroll:true});
+ firstNewResult.scrollIntoView({block:'start', inline:'nearest'});
+ const status = $('#pagination-status');
+ status.textContent = 'Showing ' + links.length + ' resources. ' + added + ' added.';
+}
 function csvCell(value){return '"'+String(value??'').replaceAll('"','""')+'"';}
 function exportComparison(){const entries=comparison.map(id=>data.entries.find(entry=>entry.id===id)).filter(Boolean);const rows=[['Field',...entries.map(entry=>entry.name)],['Category',...entries.map(entry=>entry.category)],['Format',...entries.map(entry=>entry.kind)],['Access',...entries.map(entry=>entry.access)],['Platforms',...entries.map(entry=>entry.platforms.join(' · ')||'Not established')],['Resolve edition',...entries.map(entry=>reqText(entry,'editions'))],['Resolve version',...entries.map(entry=>reqText(entry,'resolve'))],['Evidence',...entries.map(entry=>{const coverage=evidenceCoverage(entry);return coverage.established+' / '+coverage.total+' fields established';})]];const blob=new Blob([rows.map(row=>row.map(csvCell).join(',')).join('\r\n')+'\r\n'],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),anchor=make('a');anchor.href=url;anchor.download='resolve-resource-comparison.csv';anchor.click();URL.revokeObjectURL(url);}
 function comparisonTableView(table) {
  const group = make('div', undefined, 'compare-table-group');
- const scroller = make('div', undefined, 'compare-table-scroll');
+ const scroller = make('div', undefined, 'table-scroll compare-table-scroll');
  scroller.tabIndex = 0;
  scroller.setAttribute('role', 'region');
  scroller.setAttribute('aria-label', table.caption.textContent + ' table');
- scroller.addEventListener('keydown', event => {
-  if (event.target !== scroller || event.metaKey || event.ctrlKey || event.altKey || scroller.scrollWidth <= scroller.clientWidth) return;
-  if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
-  event.preventDefault();
-  const distance = Math.min(scroller.clientWidth, 160);
-  scroller.scrollBy({left: event.key === 'ArrowLeft' ? -distance : distance});
- });
  scroller.append(table);
  group.append(make('p', 'Scroll sideways or use the arrow keys to see more columns.', 'compare-scroll-hint muted'), scroller);
  return group;
@@ -115,7 +161,33 @@ function openComparison(event){
  document.dispatchEvent(new Event('resolve:compare-opened'));
  $('#compare-dialog-close').focus();
 }
-function decorateCompareControls(found){const selected=comparison.map(id=>data.entries.find(item=>item.id===id)).filter(Boolean);for(const [index,article] of [...document.querySelectorAll('#results article.resource')].entries()){const entry=found[index];if(!entry)continue;const actions=article.querySelector('.row-actions');if(!actions||actions.querySelector('.compare-control'))continue;const control=make('label',comparisonCompatible(entry,selected)?'Compare':'Compare — similar only','compare-control'),input=make('input');input.type='checkbox';input.checked=comparison.includes(entry.id);input.disabled=!input.checked&&(comparison.length>=MAX_COMPARE||!comparisonCompatible(entry,selected));input.title=input.disabled&&!input.checked?'Select a compatible format, category, and task.':'';input.setAttribute('aria-label','Compare '+entry.name+(input.disabled&&!input.checked?' (similar resources only)':''));input.addEventListener('change',event=>toggleCompare(entry,event.target.checked));control.prepend(input);actions.append(control);}}
+function decorateCompareControls(found) {
+ const selected = comparison.map(id => data.entries.find(item => item.id === id)).filter(Boolean);
+ const cards = document.querySelectorAll('#results article.resource');
+ for (const [index, article] of cards.entries()) {
+  const entry = found[index];
+  const actions = article.querySelector('.row-actions');
+  const control = make('label', 'Compare', 'compare-control outline');
+  const input = make('input');
+  input.type = 'checkbox';
+  input.checked = comparison.includes(entry.id);
+  input.disabled = !input.checked && (comparison.length >= MAX_COMPARE || !comparisonCompatible(entry, selected));
+  input.setAttribute('aria-label', 'Compare ' + entry.name);
+  if (input.disabled) input.setAttribute('aria-describedby', 'compare-help');
+  input.addEventListener('change', event => toggleCompare(entry, event.target.checked));
+  control.prepend(input);
+  actions.append(control);
+  if (input.checked && comparison.length >= 2) {
+   const jump = make('a', 'Go to comparison', 'compare-jump sr-only');
+   jump.href = '#compare-open';
+   jump.addEventListener('click', event => {
+    event.preventDefault();
+    $('#compare-open').focus();
+   });
+   actions.append(jump);
+  }
+ }
+}
 function facts(e){const dl=make('dl',undefined,'facts');const fields=[['Creator',e.creator],['Platforms',e.reference?'Reference; see resource requirements':e.platforms.join(' · ')||'Not established'],['Platform caveats',e.platformNotes],['Resolve edition',reqText(e,'editions')],['Resolve version range',reqText(e,'resolve')],['Architecture',reqText(e,'architectures')],['GPU',reqText(e,'gpu')],['Access',e.access],['Payment model',reqText(e,'pricing')],['Processing',reqText(e,'processing')],['Account',reqText(e,'account')],['Dependencies',reqText(e,'dependencies')],['Installation',reqText(e,'installation')],['Tool version',versionText(e.version)],['Product release / update',e.releaseDate?relativeDate(e.releaseDate)+' · '+e.releaseDate:'Not established'],['Repository activity',e.activityDate?relativeDate(e.activityDate)+' · '+e.activityDate:'Not applicable'],['GitHub stars',e.stars===null?'Not applicable':String(e.stars)],['Testing',e.recommendation?.tested_setup]];for(const [k,v]of fields){if(v===null||v===undefined||!String(v).trim()||/^(?:[^\p{L}]*)(?:not established|not applicable|version unknown|unverified|unknown)$/iu.test(String(v).trim()))continue;dl.append(make('dt',k),make('dd',v));}return dl;}
 function evidenceCoverageList(e){const coverage=evidenceCoverage(e),ul=make('ul',undefined,'evidence-coverage-list');for(const field of coverage.fields){const li=make('li');li.append(make('strong',field.label),document.createTextNode(field.known?' — Established':' — Unknown'));if(field.evidence.length){const level=field.evidence.some(item=>item.level==='tested')?'tested':field.evidence.some(item=>item.level==='creator')?'creator':'documented';li.append(document.createTextNode(' · '+LEVELS[level]));for(const source of field.evidence)li.append(document.createTextNode(' · '),link('Source',source.source));}ul.append(li);}return ul;}
 function evidenceList(e){const ul=make('ul',undefined,'evidence-list');for(const x of e.evidence){const li=make('li');li.append(make('strong',LEVELS[x.level]+' — '+x.field),make('br'),link('Source',x.source),document.createTextNode(' · checked '+x.checked_at.slice(0,10)),make('br'),document.createTextNode(x.note||''));ul.append(li);}if(!e.evidence.length)ul.append(make('li','No field-level evidence established.'));return ul;}
@@ -173,8 +245,7 @@ function row(entry) {
  if (state.sort === 'activity') metadata.append(make('p', 'Repo activity: ' + relativeDate(entry.activityDate)));
 
  const actions = make('div', undefined, 'row-actions');
- const source = make('p', undefined, 'source-link');
- source.append(originalLink(entry.official ? 'Official source ↗' : 'Creator site ↗', entry, 'browse'));
+ const source = originalLink(entry.official ? 'Official source ↗' : 'Creator site ↗', entry, 'browse');
  const button = make('button', 'Details', 'outline');
  button.setAttribute('aria-label', 'Details for ' + entry.name + ' by ' + entry.creator);
  button.addEventListener('click', () => details(entry, button));
@@ -248,7 +319,7 @@ function renderFilterSummary() {
   const group = $('#active-filters');
   group.replaceChildren();
   const active = [...$('#filters').elements].filter(el => el.name && (el.name==='official'?state.official==='show':state[el.name]) && !(el.name==='edition'&&!state.edition));
-  $('#filter-label').textContent = 'Filters and setup' + (active.length ? ' · ' + active.length + ' active' : '');
+  $('#filter-label').textContent = 'Filters' + (active.length ? ' · ' + active.length + ' active' : '');
   group.hidden = !active.length;
   for (const el of active) {
     const label = el.type === 'checkbox' ? filterNames[el.name] : el.parentElement.firstChild.textContent.trim();
@@ -293,9 +364,11 @@ function render() {
  const added = data.latestUpdate?.addedCount;
  const update = added ? ' · ' + added + ' new in this update' : '';
  $('#count').textContent = count + scope + update;
- $('#search-result-count').textContent = found.length + (found.length === 1 ? ' match' : ' matches');
+ const matches = found.length + (found.length === 1 ? ' match' : ' matches');
+ $('#search-result-count').textContent = matches;
+ $('#filter-result-count').textContent = matches;
  $('#search-results-link').hidden = false;
- $('#filter-results-link').hidden = false;
+ $('#filter-results-footer').hidden = false;
 
  $('#mode-note').hidden = state.mode !== 'tested';
  $('#mode-note').textContent = 'Starting points require a reviewed test report with an exact setup and limitations. Source documentation alone is not enough.';
@@ -335,10 +408,11 @@ function changelogView(h){
  for(const source of h.changelogs||[{label:"Full source changelog",url:h.source}]){const p=make('p');p.append(link(source.label+' ↗',source.url));box.append(p);}
  return box;
 }
-async function init(){const controls=[...document.querySelectorAll('#search, .modes button, #filters select, #filters input, #clear, #share, #sort')];controls.forEach(el=>el.disabled=true);try{data=await loadCatalogue();for(const e of data.entries)e.evidence=e.evidenceLevels.map(level=>({level}));for(const [value,label]of Object.entries(FORMAT_LABELS))if(data.entries.some(e=>e.kind===value))$('#filters [name=kind]').append(new Option(label,value));for(const value of collectResolveVersions(data.entries))$('#filters [name=resolve]').append(new Option(value,value));$('.brand').textContent=data.title;document.title=data.title+' — Find tools for your setup';for(const [v,t]of Object.entries(TASKS)){$('#filters [name=task]').append(new Option(t,v));}const restored=stateFromUrl(location.search);state=location.search?restored.state:UNFILTERED;try{if(!location.search){const saved=JSON.parse(localStorage.getItem("open-resolve-setup")||"null");if(saved&&typeof saved==="object")state={...state,platform:["Windows","macOS","Linux","iPadOS"].includes(saved.platform)?saved.platform:"",edition:["","Free","Studio"].includes(saved.edition)?saved.edition:"",resolve:typeof saved.resolve==="string"?saved.resolve:""};}}catch{}for(const el of [...$('#filters').elements,$('#sort')])if(el.tagName==='SELECT'){const key=el.name||'sort';if(![...el.options].some(o=>o.value===state[key]))state[key]=DEFAULTS[key];}if(!['all','tested'].includes(state.mode))state.mode='all';$('#filter-toggle').addEventListener('click',()=>{const closed=$('#filter-controls').dataset.collapsed==='true';$('#filter-controls').dataset.collapsed=String(!closed);$('#filter-toggle').setAttribute('aria-expanded',String(closed));});$('#search').addEventListener('input',e=>setState({q:e.target.value}));$('#filters').addEventListener('submit',e=>e.preventDefault());$('#filters').addEventListener('change',e=>{if(e.target.name)setState({[e.target.name]:e.target.type==='checkbox'?(e.target.name==='official'?(e.target.checked?'show':'hide'):(e.target.checked?e.target.value:'')):e.target.value});});$('#sort').addEventListener('change',e=>setState({sort:e.target.value}));$('#clear').addEventListener('click',()=>{setState({...DEFAULTS,q:state.q,sort:state.sort});notify('Filters cleared.');});$('#all-mode').addEventListener('click',()=>setState({mode:'all'}));$('#tested-mode').addEventListener('click',()=>setState({mode:'tested'}));$('#more').addEventListener('click',()=>{limit+=30;render();});$('#share').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);notify('View link copied.');}catch{notify('Copy the address from your browser to share this view.');}});enableBackdropClose($('#detail-dialog'));$('#dialog-close').addEventListener('click',()=>$('#detail-dialog').close());$('#detail-dialog').addEventListener('close',()=>lastFocus?.focus());window.addEventListener('popstate',()=>{state=stateFromUrl(location.search).state;limit=30;render();});controls.forEach(el=>el.disabled=false);render();}catch(error){$('#count').textContent='The catalogue could not load.';$('#search-result-count').textContent='The catalogue could not load. Reload to try again.';$('#results').append(make('p','Reload the page, or use the complete GitHub catalogue. This site needs an HTTP server rather than opening index.html directly.'),link('Open catalogue ↗','https://github.com/subtlesayak/open-resolve-list'));console.error(error);}}
+async function init(){const controls=[...document.querySelectorAll('#search, .modes button, #filters select, #filters input, #clear, #share, #sort')];controls.forEach(el=>el.disabled=true);try{data=await loadCatalogue();for(const e of data.entries)e.evidence=e.evidenceLevels.map(level=>({level}));for(const [value,label]of Object.entries(FORMAT_LABELS))if(data.entries.some(e=>e.kind===value))$('#filters [name=kind]').append(new Option(label,value));for(const value of collectResolveVersions(data.entries))$('#filters [name=resolve]').append(new Option(value,value));$('.brand').textContent=data.title;document.title=data.title+' — Find tools for your setup';for(const [v,t]of Object.entries(TASKS)){$('#filters [name=task]').append(new Option(t,v));}const restored=stateFromUrl(location.search);state=location.search?restored.state:UNFILTERED;try{if(!location.search){const saved=JSON.parse(localStorage.getItem("open-resolve-setup")||"null");if(saved&&typeof saved==="object")state={...state,platform:["Windows","macOS","Linux","iPadOS"].includes(saved.platform)?saved.platform:"",edition:["","Free","Studio"].includes(saved.edition)?saved.edition:"",resolve:typeof saved.resolve==="string"?saved.resolve:""};}}catch{}for(const el of [...$('#filters').elements,$('#sort')])if(el.tagName==='SELECT'){const key=el.name||'sort';if(![...el.options].some(o=>o.value===state[key]))state[key]=DEFAULTS[key];}if(!['all','tested'].includes(state.mode))state.mode='all';$('#filter-toggle').addEventListener('click',()=>{const closed=$('#filter-controls').dataset.collapsed==='true';$('#filter-controls').dataset.collapsed=String(!closed);$('#filter-toggle').setAttribute('aria-expanded',String(closed));});$('#search').addEventListener('input',e=>setState({q:e.target.value}));$('#filters').addEventListener('submit',e=>e.preventDefault());$('#filters').addEventListener('change',e=>{if(e.target.name)setState({[e.target.name]:e.target.type==='checkbox'?(e.target.name==='official'?(e.target.checked?'show':'hide'):(e.target.checked?e.target.value:'')):e.target.value});});$('#sort').addEventListener('change',e=>setState({sort:e.target.value}));$('#clear').addEventListener('click',()=>{setState({...DEFAULTS,q:state.q,sort:state.sort});notify('Filters cleared.');});$('#all-mode').addEventListener('click',()=>setState({mode:'all'}));$('#tested-mode').addEventListener('click',()=>setState({mode:'tested'}));$('#more').addEventListener('click',showMoreResults);$('#share').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);notify('View link copied.');}catch{notify('Copy the address from your browser to share this view.');}});enableBackdropClose($('#detail-dialog'));$('#dialog-close').addEventListener('click',()=>$('#detail-dialog').close());$('#detail-dialog').addEventListener('close',()=>lastFocus?.focus());window.addEventListener('popstate',()=>{state=stateFromUrl(location.search).state;limit=30;render();});controls.forEach(el=>el.disabled=false);render();}catch(error){$('#count').textContent='The catalogue could not load.';$('#search-result-count').textContent='The catalogue could not load. Reload to try again.';$('#results').append(make('p','Reload the page, or use the complete GitHub catalogue. This site needs an HTTP server rather than opening index.html directly.'),link('Open catalogue ↗','https://github.com/subtlesayak/open-resolve-list'));console.error(error);}}
 init().then(()=>{
  if(!data)return;
  comparison=comparisonFromUrl(location.search).reduce((ids,id)=>{const e=data.entries.find(e=>e.id===id);return e&&comparisonCompatible(e,ids.map(id=>data.entries.find(e=>e.id===id)))?[...ids,id]:ids;},[]);
+ new ResizeObserver(reserveCompareSpace).observe($('#compare-tray'));
  $('#compare-open').addEventListener('click',openComparison);
  $('#compare-export').addEventListener('click',exportComparison);
  $('#compare-clear').addEventListener('click',()=>{comparison=[];syncUrl();render();notify('Comparison cleared.');$('#search').focus();});
@@ -349,5 +423,6 @@ init().then(()=>{
  render();
 });
 
+document.addEventListener('resolve:notice',event=>notify(event.detail));
 document.addEventListener('resolve:setup-changed',()=>render());
 document.addEventListener('resolve:collection-filter',event=>{collectionIds=event.detail.active?new Set(event.detail.ids):null;limit=30;render();});
