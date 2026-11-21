@@ -3,19 +3,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import { parseCsv } from './build-catalogue.mjs';
 import { loadCanonicalResources, toCatalogueEntry } from './canonical-source.mjs';
 import { gumroadVersion } from './update-evidence.mjs';
 import {cleanUpdateUrl,readTextResponse,needsRenderedPage} from './page-evidence.mjs';
+import {withSourceRetries} from './source-review-queue.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-process.chdir(root);
-const dir='.research/update-check';
-fs.mkdirSync(dir,{recursive:true});
+const dir=path.join(root,'.research/update-check');
 const checkedAt=new Date().toISOString();
-const canonical=loadCanonicalResources(root);
-const entries=canonical.filter(e=>e.origin==='github').map(toCatalogueEntry);
-const external=canonical.filter(e=>e.origin==='external').map(toCatalogueEntry);
 const save=(name,value)=>{
  const target=`${dir}/${name}.json`,temporary=target+'.tmp';
  fs.writeFileSync(temporary,JSON.stringify(value,null,2)+'\n');
@@ -30,7 +25,7 @@ function graph(query){
  }
  return JSON.parse(r.stdout);
 }
-function github(){
+function github(entries){
  const results=[];
  for(let start=0;start<entries.length;start+=10){
   const chunk=entries.slice(start,start+10);
@@ -65,24 +60,28 @@ function githubLogs(){
   const [owner,name]=repo.nameWithOwner.split('/');
   const fields=files.map((f,i)=>`f${i}: object(expression:${JSON.stringify(branch.name+':'+f.path)}) { ... on Blob { text } }`);
   const r=graph(`query { repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { ${fields.join('\n')} } }`);
-  for(let i=0;i<files.length;i++)results.push({repository:record.repository,path:files[i].path,url:repo.url+'/blob/'+encodeURIComponent(branch.name)+'/'+files[i].path,text:r.data?.repository?.['f'+i]?.text||null});
+  for(let i=0;i<files.length;i++)results.push({repository:record.repository,path:files[i].path,url:repo.url+'/blob/'+encodeURIComponent(branch.name)+'/'+files[i].path,text:r.data?.repository?.['f'+i]?.text||null,checked_at:checkedAt});
  }
  save('github-changelogs',results);console.log(`Read ${results.length} root changelog files`);
 }
 const decode=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&nbsp;/g,' ').replace(/&#(\d+);/g,(_,n)=>String.fromCharCode(+n));
 const textOf=s=>decode(s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').trim();
 const updateWords=/change\s*log|release\s*notes|version\s*history|what[’']?s\s*new|update\s*history|latest\s*updates/i;
-async function fetchPage(url){
+export function fetchPage(url,{fetchImpl=fetch,wait,now}={}){
+ return withSourceRetries(attempt=>fetchPageOnce(url,fetchImpl,attempt===1?25000:10000),{wait,now,maxAttempts:2});
+}
+async function fetchPageOnce(url,fetchImpl,timeout){
  const started=new Date().toISOString();
  try{
-  const response=await fetch(url,{signal:AbortSignal.timeout(25000),headers:{'User-Agent':'Open-Resolve-List-Link-Check/1.0','Accept':'text/html,application/json;q=0.9,*/*;q=0.5'}});
+  const response=await fetchImpl(url,{signal:AbortSignal.timeout(timeout),headers:{'User-Agent':'Open-Resolve-List-Link-Check/1.0','Accept':'text/html,application/json;q=0.9,*/*;q=0.5'}});
+  const finalUrl=response.url||url;
   const {raw,...extraction}=await readTextResponse(response);
   const text=textOf(raw);
   const links=[];
   for(const m of raw.matchAll(/<a\b([^>]*?)>([\s\S]*?)<\/a>/gi)){
    const href=m[1].match(/\bhref\s*=\s*["']([^"']+)["']/i)?.[1];const label=textOf(m[2]);
    if(!href||!updateWords.test(label+' '+href))continue;
-   try{const url=cleanUpdateUrl(decode(href),response.url);if(url)links.push({url,label:label.slice(0,120)});}catch{}
+   try{const url=cleanUpdateUrl(decode(href),finalUrl);if(url)links.push({url,label:label.slice(0,120)});}catch{}
   }
   const snippets=[];
   const pattern=/change\s*log|release\s*notes|version\s*history|what[’']?s\s*new|last\s*updated|latest\s*version|release\s*date|updated\s*on|version\s*\d+\.\d+/gi;
@@ -90,12 +89,12 @@ async function fetchPage(url){
   const dates=[...raw.matchAll(/(?:dateModified|datePublished|article:modified_time)["']?\s*(?:content=["']|:\s*["'])([^"']+)/gi)].map(m=>m[1].slice(0,100));
   const blocked=/just a moment|verify you are human|checking your browser|access denied|captcha/i.test(text.slice(0,600));
   const product = new URL(url).hostname.endsWith('.gumroad.com') ? gumroadVersion(raw) : null;
-  const status=blocked?'challenge':!response.ok?'http_error':extraction.extraction_status!=='text_extracted'?extraction.extraction_status:needsRenderedPage(response.url,raw)?'dynamic_content':text.length<800&&!product?'limited_content':'retrieved';
-  return {url,final_url:response.url,checked_at:started,http_status:response.status,status,...extraction,title:textOf(raw.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]||'').slice(0,180),text_length:text.length,product_metadata:product,update_links:[...new Map(links.map(e=>[e.url,e])).values()].slice(0,12),update_snippets:snippets,page_date_candidates:dates};
+  const status=blocked?'challenge':!response.ok?'http_error':extraction.extraction_status!=='text_extracted'?extraction.extraction_status:needsRenderedPage(finalUrl,raw)?'dynamic_content':text.length<800&&!product?'limited_content':'retrieved';
+  return {url,final_url:finalUrl,checked_at:started,http_status:response.status,status,retry_after:response.headers.get('retry-after'),...extraction,title:textOf(raw.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]||'').slice(0,180),text_length:text.length,product_metadata:product,update_links:[...new Map(links.map(e=>[e.url,e])).values()].slice(0,12),update_snippets:snippets,page_date_candidates:dates};
  }catch(e){return {url,checked_at:started,status:'fetch_error',error:e.name==='TimeoutError'?'timeout':e.cause?.code||e.name};}
 }
 async function pool(items,fn,limit=6){let next=0;const out=[];await Promise.all(Array.from({length:limit},async()=>{for(;;){const i=next++;if(i>=items.length)break;out[i]=await fn(items[i],i);}}));return out;}
-async function websites(){
+async function websites(external){
  const results=await pool(external,async(e,i)=>{const item={...e,...await fetchPage(e.url)};save('external-'+i,item);console.log(`External ${i+1}/${external.length}: ${item.status} ${e.name}`);return item;});
  save('external',results);
  // Follow discovered changelog links, never forms, purchases, downloads or arbitrary scripts.
@@ -103,7 +102,10 @@ async function websites(){
  const logs=await pool(urls,async(u,i)=>{const r=await fetchPage(u);save('log-'+i,r);return r;},4);
  save('changelog-pages',logs);console.log(`Checked ${logs.length} discovered update/changelog pages`);
 }
-if(process.argv.includes('--github'))github();
-else if(process.argv.includes('--github-changelogs'))githubLogs();
-else if(process.argv.includes('--external'))await websites();
-else throw Error('Choose --github, --github-changelogs, or --external. Outputs go to .research/update-check for review.');
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
+ fs.mkdirSync(dir,{recursive:true});
+ if(process.argv.includes('--github'))github(loadCanonicalResources(root).filter(record=>record.origin==='github').map(toCatalogueEntry));
+ else if(process.argv.includes('--github-changelogs'))githubLogs();
+ else if(process.argv.includes('--external'))await websites(loadCanonicalResources(root).filter(record=>record.origin==='external').map(toCatalogueEntry));
+ else throw Error('Choose --github, --github-changelogs, or --external. Outputs go to .research/update-check for review.');
+}

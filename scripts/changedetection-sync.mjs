@@ -4,12 +4,14 @@ import {fileURLToPath} from 'node:url';
 
 const TAG_TITLE='Open Resolve List';
 const REVIEW_INTERVAL={weeks:2,days:0,hours:0,minutes:0,seconds:0};
+const SECONDS_PER_UNIT={weeks:604800,days:86400,hours:3600,minutes:60,seconds:1};
+const REVIEW_INTERVAL_SECONDS=14*86400;
 const root=fileURLToPath(new URL('..',import.meta.url));
 
 function apiRoot(value){
   const parsed=new URL(value);
   if(parsed.username||parsed.password||parsed.search||parsed.hash)throw new Error('CHANGEDETECTION_URL must not contain credentials, a query, or a fragment.');
-  const loopback=['localhost','127.0.0.1','::1'].includes(parsed.hostname);
+  const loopback=['localhost','127.0.0.1','[::1]'].includes(parsed.hostname);
   if(parsed.protocol!=='https:'&&!(parsed.protocol==='http:'&&loopback))throw new Error('Use HTTPS for a remote Changedetection.io instance (HTTP is allowed only for loopback).');
   let pathname=parsed.pathname.replace(/\/+$/,'');
   if(!pathname)pathname='/api/v1';
@@ -19,7 +21,10 @@ function apiRoot(value){
 }
 
 async function request(api,apiKey,fetchImpl,path,options={}){
-  const response=await fetchImpl(api+path,{...options,headers:{'x-api-key':apiKey,'accept':'application/json',...(options.body?{'content-type':'application/json'}:{}),...options.headers}});
+  const response=await fetchImpl(api+path,{
+    ...options,redirect:'error',signal:AbortSignal.timeout(12000),
+    headers:{'x-api-key':apiKey,'accept':'application/json',...(options.body?{'content-type':'application/json'}:{}),...options.headers},
+  });
   if(!response.ok)throw new Error(`Changedetection.io API ${options.method||'GET'} ${path} failed (HTTP ${response.status}).`);
   if(response.status===204)return null;
   const text=await response.text();
@@ -27,16 +32,28 @@ async function request(api,apiKey,fetchImpl,path,options={}){
   try{return JSON.parse(text);}catch{if((options.method||'GET')!=='GET')return text;throw new Error(`Changedetection.io API ${options.method||'GET'} ${path} returned invalid JSON.`);}
 }
 
-function watchRows(payload){
-  if(Array.isArray(payload))return payload;
-  if(payload&&typeof payload==='object')return Object.values(payload);
-  throw new Error('Changedetection.io returned an unexpected watch-list shape.');
+function listRows(payload,kind){
+  const entries=Array.isArray(payload)?payload.map(row=>[null,row]):Object.entries(payload||{});
+  if(!payload||typeof payload!=='object'||entries.some(([,row])=>!row||typeof row!=='object'||Array.isArray(row))){
+    throw new Error(`Changedetection.io returned an unexpected ${kind} list.`);
+  }
+  return entries.map(([key,row])=>({...row,uuid:key||row.uuid}));
+}
+
+function hasReviewInterval(watch){
+  if(watch.time_between_check_use_default!==false)return false;
+  const interval=watch.time_between_check;
+  if(!interval||typeof interval!=='object')return false;
+  const units=Object.entries(SECONDS_PER_UNIT);
+  if(units.some(([unit])=>interval[unit]!=null&&(!Number.isInteger(interval[unit])||interval[unit]<0)))return false;
+  return units.reduce((seconds,[unit,multiplier])=>seconds+(interval[unit]??0)*multiplier,0)===REVIEW_INTERVAL_SECONDS;
 }
 
 function changedWithinReviewWindow(watch,now){
   const raw=watch.last_changed;
   const timestamp=typeof raw==='number'?raw:Number(raw);
-  return Number.isFinite(timestamp)&&timestamp>0&&timestamp>=Math.floor(now.getTime()/1000)-14*24*60*60;
+  const current=Math.floor(now.getTime()/1000);
+  return Number.isFinite(timestamp)&&timestamp>0&&timestamp>=current-REVIEW_INTERVAL_SECONDS&&timestamp<=current;
 }
 
 const clean=value=>String(value??'').replace(/[\r\n|<>\[\]]/g,' ').trim();
@@ -57,7 +74,8 @@ export async function syncChangedetection({records,baseUrl,apiKey,fetchImpl=fetc
     request(api,apiKey,fetchImpl,'/tags'),
     request(api,apiKey,fetchImpl,'/watch'),
   ]);
-  let tags=tagPayload&&typeof tagPayload==='object'?Object.values(tagPayload):[];
+  const watches=listRows(watchPayload,'watch');
+  const tags=listRows(tagPayload,'tag');
   let tag=tags.find(item=>String(item.title||'').toLocaleLowerCase()===TAG_TITLE.toLocaleLowerCase());
   if(!tag){
     const created=await request(api,apiKey,fetchImpl,'/tag',{method:'POST',body:JSON.stringify({title:TAG_TITLE})});
@@ -65,43 +83,61 @@ export async function syncChangedetection({records,baseUrl,apiKey,fetchImpl=fetc
     tag={uuid:created.uuid,title:TAG_TITLE};
   }
 
-  const watches=watchRows(watchPayload);
+  if(typeof tag.uuid!=='string'||!tag.uuid)throw new Error('Changedetection.io did not return a tag UUID.');
+  const watchTags=watch=>Array.isArray(watch.tags)?watch.tags:[];
+  const isManaged=watch=>watchTags(watch).includes(tag.uuid);
   const byUrl=new Map();
-  for(const watch of watches){if(typeof watch?.url==='string'&&!byUrl.has(watch.url))byUrl.set(watch.url,watch);}
-  const stats={catalogueResources:records.length,uniqueUrls:resources.size,skippedNonHttps,created:0,adopted:0,alreadyManaged:0,changed:[]};
-  const managedIds=new Set();
+  for(const watch of watches){
+    if(!resources.has(watch.url))continue;
+    const previous=byUrl.get(watch.url);
+    if(!previous||(!isManaged(previous)&&isManaged(watch)))byUrl.set(watch.url,watch);
+  }
+  const managed=[...byUrl.values()].filter(isManaged);
+  for(const watch of byUrl.values()){
+    if(typeof watch.uuid!=='string'||!watch.uuid)throw new Error('A matching existing watch did not include its UUID.');
+  }
+
+  // The list endpoint omits the interval. Read individual settings before updating, in small groups.
+  const details=new Map();
+  for(let i=0;i<managed.length;i+=6){
+    const batch=managed.slice(i,i+6);
+    await Promise.all(batch.map(async watch=>{
+      const info='time_between_check_use_default' in watch&&'time_between_check' in watch
+        ?watch
+        :await request(api,apiKey,fetchImpl,'/watch/'+encodeURIComponent(watch.uuid));
+      if(!info||typeof info!=='object'||Array.isArray(info))throw new Error('Changedetection.io returned invalid watch settings.');
+      details.set(watch.uuid,info);
+    }));
+  }
+
+  const intervalSettings={time_between_check:REVIEW_INTERVAL,time_between_check_use_default:false};
+  const stats={catalogueResources:records.length,uniqueUrls:resources.size,skippedNonHttps,created:0,adopted:0,alreadyManaged:0,intervalsUpdated:0,changed:[]};
   for(const [url,record] of resources){
     const existing=byUrl.get(url);
     if(existing){
-      const existingTags=Array.isArray(existing.tags)?existing.tags:[];
-      if(existingTags.includes(tag.uuid)){
+      const watchPath='/watch/'+encodeURIComponent(existing.uuid);
+      if(isManaged(existing)){
         stats.alreadyManaged++;
-        if(existing.time_between_check?.weeks!==2)await request(api,apiKey,fetchImpl,'/watch/'+encodeURIComponent(existing.uuid),{method:'PUT',body:JSON.stringify({time_between_check:REVIEW_INTERVAL,time_between_check_use_default:false})});
-        if(existing.uuid)managedIds.add(existing.uuid);
-        continue;
+        if(!hasReviewInterval(details.get(existing.uuid))){
+          await request(api,apiKey,fetchImpl,watchPath,{method:'PUT',body:JSON.stringify(intervalSettings)});
+          stats.intervalsUpdated++;
+        }
+      }else{
+        const updatedTags=[...new Set([...watchTags(existing),tag.uuid])];
+        await request(api,apiKey,fetchImpl,watchPath,{method:'PUT',body:JSON.stringify({tags:updatedTags,...intervalSettings})});
+        stats.adopted++;
       }
-      if(!existing.uuid)throw new Error('A matching existing watch did not include its UUID; refusing to modify it.');
-      const updatedTags=[...new Set([...existingTags,tag.uuid])];
-      await request(api,apiKey,fetchImpl,'/watch/'+encodeURIComponent(existing.uuid),{
-        method:'PUT',body:JSON.stringify({tags:updatedTags,time_between_check:REVIEW_INTERVAL,time_between_check_use_default:false}),
-      });
-      stats.adopted++;
-      managedIds.add(existing.uuid);
+      if(changedWithinReviewWindow(existing,now))stats.changed.push({title:record.name,url});
       continue;
     }
     await request(api,apiKey,fetchImpl,'/watch',{
       method:'POST',body:JSON.stringify({
-        url,title:record.name,tags:[tag.uuid],time_between_check:REVIEW_INTERVAL,
-        time_between_check_use_default:false,notification_muted:true,
+        url,title:record.name,tags:[tag.uuid],...intervalSettings,notification_muted:true,
       }),
     });
     stats.created++;
   }
 
-  for(const watch of watches){
-    if(!managedIds.has(watch.uuid)||!changedWithinReviewWindow(watch,now))continue;
-    stats.changed.push({title:watch.title||watch.url,url:watch.link||watch.url});
-  }
   stats.changed.sort((a,b)=>a.title.localeCompare(b.title));
   return stats;
 }
@@ -114,6 +150,7 @@ export function renderChangedetectionSummary(stats){
     `- New watches created: ${stats.created}`,
     `- Existing watches adopted into the Open Resolve List group: ${stats.adopted}`,
     `- Already managed: ${stats.alreadyManaged}`,
+    `- Existing schedules corrected: ${stats.intervalsUpdated}`,
     `- Changes detected during the last 14 days: ${stats.changed.length}`,
   ];
   if(stats.changed.length){

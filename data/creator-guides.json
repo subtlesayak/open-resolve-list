@@ -1,6 +1,11 @@
 {
  "schema_version":1,
  "guides":[
+  {"creator_id":"casey-faris","topics":["Editing","Fusion","Color","Fairlight"],"links":[
+   {"title":"Follow the beginner course","url":"https://www.youtube.com/watch?v=MCDVcQIA3UM","description":"A chaptered introduction covering media, editing, Fusion, color, audio and delivery. Use the chapter list to choose a starting point, and check interface differences against your Resolve version.","source":"https://www.youtube.com/watch?v=MCDVcQIA3UM","checked_at":"2026-11-21"},
+   {"title":"Start the Fusion chapter","url":"https://www.youtube.com/watch?v=MCDVcQIA3UM&t=6194s","description":"Jump to the course's introduction to the Fusion page at 1:43:14. Follow this section when you want to move from timeline editing into compositing.","source":"https://www.youtube.com/watch?v=MCDVcQIA3UM","checked_at":"2026-11-21"},
+   {"title":"Start the color chapter","url":"https://www.youtube.com/watch?v=MCDVcQIA3UM&t=10220s","description":"Jump to the Color page chapter at 2:50:20. Choose this section if you already know basic editing and want to explore grading.","source":"https://www.youtube.com/watch?v=MCDVcQIA3UM","checked_at":"2026-11-21"}
+  ]},
   {"creator_id":"vfxstudy-bernd-klimm","topics":["Fusion","Compositing","Motion graphics"],"links":[
    {"title":"Start learning Fusion","url":"https://vfxstudy.com/beginner/","description":"A beginner course covering node-based compositing, masks, animation and 3D. The provider offers free access through its account and checkout flow.","source":"https://vfxstudy.com/beginner/","checked_at":"2026-11-14"},
    {"title":"Browse practical tutorials","url":"https://vfxstudy.com/tutorials/","description":"Explore worked examples for Fusion compositing and Resolve workflows.","source":"https://vfxstudy.com/tutorials/","checked_at":"2026-11-14"}

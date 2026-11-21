@@ -30,7 +30,7 @@ jobs:
         run: node scripts/check-updates.mjs --external
       - name: Build source review queue
         if: always()
-        run: node scripts/source-review-queue.mjs --captures .research/update-check/external.json
+        run: node scripts/source-review-queue.mjs --weekly >> "$GITHUB_STEP_SUMMARY"
       - name: Synchronize changedetection.io watches
         if: always()
         env:

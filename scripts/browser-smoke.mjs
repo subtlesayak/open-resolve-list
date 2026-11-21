@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {spawn} from 'node:child_process';
 import axe from 'axe-core';
 import {readFile} from 'node:fs/promises';
+import {gzipSync} from 'node:zlib';
 import {chromium,firefox,webkit,devices} from 'playwright';
 
 const port=18766;
@@ -124,8 +125,13 @@ try{
  assert.equal(await page.locator('#results article.resource').first().locator('h3 a').count(),1);
  assert.match(await page.locator('#count').textContent(),/community resources · \d+ official resources hidden/);
  assert.equal(requests.filter(url=>url.includes('catalogue-index.json')).length,1);
- const indexBytes=Buffer.byteLength(await readFile(new URL('../site/catalogue-index.json',import.meta.url)));assert.ok(indexBytes<=525329,'Browse index payload budget');
- assert.ok(Buffer.byteLength(await readFile(new URL('../site/creators.html',import.meta.url)))<=300000,'Creator HTML payload budget');
+ assert.equal(requests.filter(url=>new URL(url).pathname.endsWith('/model.mjs')).length,1,'Browse and setup share one catalogue model module');
+ const browseIndex=await readFile(new URL('../site/catalogue-index.json',import.meta.url));
+ const creatorDirectory=await readFile(new URL('../site/creators.html',import.meta.url));
+ assert.ok(browseIndex.length<=525329,'Browse index payload budget');
+ assert.ok(creatorDirectory.length<=300000,'Creator HTML payload budget');
+ assert.ok(gzipSync(browseIndex,{level:6}).length<=95000,'Browse index gzip budget');
+ assert.ok(gzipSync(creatorDirectory,{level:6}).length<=28000,'Creator HTML gzip budget');
  assert.ok(!requests.some(url=>/\/catalogue\.json|\/api\/v1\/resources\//.test(url)));
  if(process.env.RESOLVE_PERFORMANCE_BASELINE==='1'){
   console.log(JSON.stringify(await page.evaluate(()=>{
@@ -221,21 +227,37 @@ try{
 
  if(await page.locator('#filters select[name=kind]').isHidden())await page.locator('#filter-toggle').click();
  await page.locator('#filters select[name=kind]').selectOption('');
- await page.getByRole('searchbox',{name:'Search tools'}).fill('film emulation');
+ await page.getByRole('searchbox',{name:'Search tools'}).fill('autoresolvedeb');
+ const revisionCard=page.locator('#results article[data-resource-id="autoresolvedeb"]');
+ await revisionCard.getByRole('button',{name:/^Details for/}).press('Enter');
+ const versionHistory=page.getByRole('region',{name:'Version history',exact:true});
+ const newestRevision=versionHistory.locator('ol > li').first();
+ await newestRevision.getByRole('heading',{name:'Source update',exact:true}).waitFor();
+ const revisionRecord=JSON.parse(await readFile(new URL('../site/api/v1/resources/autoresolvedeb.json',import.meta.url),'utf8')).resource;
+ const revision=revisionRecord.history.find(item=>item.release==='v1.31');
+ assert.deepEqual(await newestRevision.locator('ul li').allTextContents(),revision.changes);
+ assert.doesNotMatch(await versionHistory.textContent(),/\b[a-f\d]{40}\b/i);
+ await newestRevision.getByText('Provider notes and links',{exact:true}).press('Enter');
+ const providerNote=newestRevision.getByRole('link').first();
+ assert.ok(await providerNote.isVisible());
+ assert.equal(await providerNote.getAttribute('href'),revision.changelogs?.[0]?.url||revision.source);
+ await page.getByRole('button',{name:'Close details'}).press('Escape');
+ assert.match(await page.evaluate(()=>document.activeElement?.getAttribute('aria-label')||''),/^Details for/);
+ await page.getByRole('searchbox',{name:'Search tools'}).fill('multicam');
  await page.waitForTimeout(100);
  assert.ok(await page.locator('#results article.resource').count()>0);
  const compareChecks=page.locator('#results input[type="checkbox"]:not(:disabled)');
  assert.ok(await compareChecks.count()>=2);
  await compareChecks.nth(0).press('Space');
  assert.match(await page.evaluate(()=>document.activeElement?.getAttribute('aria-label')||''),/^Compare /);
- await compareChecks.nth(1).check();
+ await page.getByRole('checkbox',{name:'Compare CrossFlow',exact:true}).check();
  assert.match(page.url(),/compare=/);
  assert.match(await page.locator('#compare-status').textContent(),/2 of 3 selected/);
  assert.ok(await page.locator('#compare-tray').evaluate(tray=>{
   const bounds=tray.getBoundingClientRect();
   return bounds.top>=document.querySelector('header').getBoundingClientRect().bottom&&bounds.bottom<=innerHeight;
  }));
- const selectedCard=page.locator('#results article:has(.compare-control input:checked)').last();
+ const selectedCard=page.locator('#results article[data-resource-id="crossflow"]');
  assert.equal(await selectedCard.locator('.compare-control').textContent(),'Compare');
  await page.setViewportSize({width:320,height:568});
  const compareSave=selectedCard.locator('.collection-save summary');
@@ -257,8 +279,27 @@ try{
  await page.setViewportSize(originalViewport);
  await selectedCard.getByRole('link',{name:'Go to comparison'}).press('Enter');
  assert.equal(await page.evaluate(()=>document.activeElement.id),'compare-open');
+ const comparedIds=new URL(page.url()).searchParams.get('compare').split(',');
+ await page.route('**/api/v1/resources/*.json',route=>route.abort());
  await page.getByRole('button',{name:'Compare selected'}).click();
  await page.locator('#compare-dialog').waitFor({state:'visible'});
+ const installationTable=page.getByRole('table',{name:'Installation requirements',exact:true});
+ const retryInstallation=page.getByRole('button',{name:'Retry installation details',exact:true});
+ await retryInstallation.waitFor();
+ assert.match(await installationTable.textContent(),/Details unavailable/);
+ await page.getByLabel('Differences only',{exact:true}).check();
+ assert.ok(await installationTable.locator('tbody tr').evaluateAll(rows=>rows.every(row=>!row.hidden)));
+ await page.unroute('**/api/v1/resources/*.json');
+ await retryInstallation.press('Enter');
+ await page.getByText('Installation details loaded.',{exact:true}).waitFor();
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'compare-dialog-close');
+ assert.deepEqual(new URL(page.url()).searchParams.get('compare').split(','),comparedIds);
+ assert.ok(await installationTable.locator('tbody tr[data-same=true]').evaluateAll(rows=>rows.every(row=>row.hidden)));
+ await page.getByLabel('Differences only',{exact:true}).uncheck();
+ const comparedDetails=await Promise.all(comparedIds.map(async id=>JSON.parse(await readFile(new URL('../site/api/v1/resources/'+id+'.json',import.meta.url),'utf8')).resource));
+ assert.ok(comparedDetails.some(entry=>entry.requirements.installation));
+ const installationRow=installationTable.locator('tbody tr').filter({has:page.getByRole('rowheader',{name:'Installation',exact:true})});
+ assert.deepEqual(await installationRow.locator('td').allTextContents(),comparedDetails.map(entry=>(entry.requirements.installation||'Not established')+' '+entry.name+' sources'));
  assert.match(await page.locator('#compare-body').textContent(),/Side-by-side comparison/);
  assert.equal(await page.getByRole('heading',{name:'Material differences',exact:true}).count(),1);
  assert.equal(await page.getByRole('button',{name:'Export CSV'}).count(),1);
@@ -278,7 +319,7 @@ try{
     headingFixed:top.getBoundingClientRect().left===before,tables};
   });
   assert.ok(comparisonLayout.contained&&comparisonLayout.headingFixed,'Comparison chrome stays in view at '+width+'px');
-  assert.equal(comparisonLayout.tables.length,1);
+  assert.equal(comparisonLayout.tables.length,2);
   for(const table of comparisonLayout.tables){
    assert.ok(table.focusable);
    assert.equal(table.cue,table.scrollable,'Scroll cue matches the table at '+width+'px');
@@ -306,6 +347,8 @@ try{
  let csv='';for await(const chunk of stream)csv+=chunk.toString();
  assert.match(csv,/^"Field",/);
  assert.match(csv,/"Resolve version"/);
+ for(const field of ['Installation','Dependencies','Account','Platform caveats'])assert.ok(csv.includes('"'+field+'",'));
+ assert.ok(!csv.includes('Details unavailable'));
  assert.match(await page.locator('#compare-body').textContent(),/Related resources/);
  await page.getByRole('button',{name:'Close comparison'}).click();
 

@@ -62,7 +62,7 @@ Live on [GitHub Pages](https://subtlesayak.github.io/open-resolve-list/). The de
 
 ### Performance baseline
 
-Run `npm run browser:smoke` with `RESOLVE_TEST_MOBILE=1` and `RESOLVE_PERFORMANCE_BASELINE=1` for loopback Chromium measurements. At the cf1db723 baseline on a 390 px viewport, two catalogue requests transferred 1,051,258 bytes including headers (1,050,658 decoded JSON bytes); creator HTML was 776,442 bytes. These are local lab measurements, not field data. Browser checks enforce one index request, at most 525,329 decoded index bytes, and at most 300,000 creator HTML bytes at the current catalogue scale. They also check targeted axe A/AA rules and mobile overflow. Timing samples are diagnostic because local hardware and unthrottled loopback conditions vary.
+Run `npm run browser:smoke` with `RESOLVE_TEST_MOBILE=1` and `RESOLVE_PERFORMANCE_BASELINE=1` for loopback Chromium measurements. At the cf1db723 baseline on a 390 px viewport, two catalogue requests transferred 1,051,258 bytes including headers (1,050,658 decoded JSON bytes). Creator HTML was 776,442 bytes. Browser checks enforce one request each for the index and model. The decoded limits are 525,329 bytes for the index and 300,000 for creator HTML. At gzip level 6, the respective limits are 95,000 and 28,000 bytes. Gzip budgets compare generated files under the same settings. Timing samples reflect local lab conditions. The browser checks also cover mobile overflow and targeted axe A/AA rules.
 
 Shareable URLs contain the search terms and filter values. Theme, browse preferences, My Resolve Setup and collections are saved locally when storage is available. Collection export/import uses versioned JSON keyed by permanent resource ID; invalid imports preserve existing state. Avoid including private project names in links you share.
 
@@ -127,13 +127,15 @@ The homepage loads `site/catalogue-index.json` and the small `site/latest-update
 
 Static resource pages expose compatibility, requirements, access, evidence coverage, version history and related resources. The JSON-LD main entity distinguishes software, reference articles, training, collections and creative assets. The RSS feed contains dated catalogue releases, with stable release URLs as GUIDs.
 
-Weekly maintenance produces review candidates with recorded/observed values and source links. Missing, blocked and incomplete checks remain explicit; no facts or issues are changed automatically. The workflow is a provider-status check, not a substitute for the full source review required above.
+Weekly maintenance reports review candidates, with links to their sources. Its source queue combines GitHub repository metadata, repository changelogs, external provider checks and followed changelog pages. Temporary failures and rate limits can get one retry. If a server asks us to wait more than five seconds, the page stays in the queue for review. The summary counts blocked and incomplete checks separately from sources that were never attempted. Metadata alone leaves a source pending review. Use the full discovery-source review above for formal listing updates.
 
 Browser CI exercises Chromium, Firefox and WebKit at desktop and mobile viewport sizes. This is browser automation, not physical-device or installed-PWA testing. Raw research stays local. The original migration is archived at `scripts/archive/migrate-v1-to-v2.mjs`; do not run it over maintained canonical records.
 
 ## Workflow discovery and local collections
 
 `data/workflows.json` defines source-backed editorial recipes; `scripts/workflow-pages.mjs` generates their crawlable routes and the Workflow Finder. Capability matching and synonyms live in `site/discovery-model.mjs`; they summarize reviewed catalogue text and never establish compatibility. Similar alternatives require a specific shared capability. `data/relationships.json` separately records complementary handoffs with reasons and source URLs. A documented export/import handoff is not an installation test. Comparison links apply the same similarity predicate and retain the three-tool limit and CSV export.
+
+Opening a comparison loads the selected resources' detailed records for installation, dependencies, account requirements and platform caveats. These fields also appear in the CSV export. Missing records are labelled unavailable and can be retried; missing facts remain not established. Differences only applies to both comparison tables. Expand each resource's source notes for its recorded limitations. None of these additional records are fetched for an ordinary browse visit.
 
 My Resolve Setup assesses selected edition, version, OS and architecture fields locally as Documented match, Requirements unknown or Documented incompatibility. It does not filter out unknowns automatically. GPU notes remain in source-backed details. Original conceptual preview illustrations and their rights/context are recorded in `data/previews.json`; they are explicitly not product output.
 
