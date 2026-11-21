@@ -1286,7 +1286,9 @@ nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; t
   align-items:start;
   gap:var(--control-gap);
   margin-block:12px 8px;
+  min-block-size:var(--control-height);
 }
+#catalogue:has(#results:empty) { min-block-size:100svh; }
 .browse-toolbar #my-setup {
   margin:0;
   padding:0;
@@ -1314,7 +1316,7 @@ nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; t
 .task-discovery .category-link { margin-block:10px; }
 #catalogue .result-bar {
   display:flex;
-  align-items:center;
+  align-items:flex-start;
   justify-content:space-between;
   gap:8px 12px;
   padding-block-end:8px;

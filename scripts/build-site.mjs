@@ -78,7 +78,7 @@ function refreshSiteHeaders() {
   const target = path.join(root, 'site', file);
   const source = fs.readFileSync(target, 'utf8');
   const markup = replaceGeneratedSection(source, '<!-- site-header:start -->', '<!-- site-header:end -->', siteHeader('', current));
-  const assets = current === 'browse' ? siteHeaderAssets('', 38) : siteHeaderAssets();
+  const assets = current === 'browse' ? siteHeaderAssets('', 39) : siteHeaderAssets();
   const next = replaceGeneratedSection(markup, '<!-- site-header-assets:start -->', '<!-- site-header-assets:end -->', assets);
   if (next !== source) fs.writeFileSync(target, next);
  }
