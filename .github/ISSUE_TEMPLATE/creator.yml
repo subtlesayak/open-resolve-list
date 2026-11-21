@@ -1,0 +1,51 @@
+name: Suggest a creator
+description: Suggest a DaVinci Resolve or Fusion educator or tool creator.
+title: "Creator: "
+body:
+  - type: markdown
+    attributes:
+      value: Share the creator's public channel, project or portfolio. Use public links only and leave out personal contact details and private information.
+  - type: input
+    id: public-name
+    attributes:
+      label: Public channel, project or creator handle
+      description: Use the name the creator uses on their public profile.
+    validations:
+      required: true
+  - type: input
+    id: official-profile
+    attributes:
+      label: Official public profile URL
+      description: Link to the creator's own website, channel or project profile.
+    validations:
+      required: true
+  - type: dropdown
+    id: creator-type
+    attributes:
+      label: Type of contribution
+      description: Choose one or both.
+      multiple: true
+      options:
+        - Educator
+        - Tool creator
+    validations:
+      required: true
+  - type: textarea
+    id: resolve-work
+    attributes:
+      label: Resolve or Fusion work
+      description: Link examples of their tutorials, courses, tools or other resources. Explain which tasks they cover and who they help.
+    validations:
+      required: true
+  - type: textarea
+    id: starting-point
+    attributes:
+      label: Suggested starting point
+      description: Link one resource to start with. Say what it teaches or does, and note any price or account requirements if the creator documents them.
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: Say whether you are the creator or are affiliated with their work. Write "None" if neither applies.
+    validations:
+      required: true

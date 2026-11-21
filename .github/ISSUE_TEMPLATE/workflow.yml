@@ -1,0 +1,66 @@
+name: Suggest a workflow
+description: Share a reproducible DaVinci Resolve or Fusion workflow.
+title: "Workflow: "
+body:
+  - type: markdown
+    attributes:
+      value: Use the issue title to name the workflow. Share public links only. Leave out personal data, credentials and private project files.
+  - type: dropdown
+    id: resolve-pages
+    attributes:
+      label: Resolve pages
+      description: Choose all the pages this workflow uses.
+      multiple: true
+      options:
+        - Media
+        - Cut
+        - Edit
+        - Fusion
+        - Color
+        - Fairlight
+        - Deliver
+        - Outside Resolve
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Task and expected result
+      description: Describe what someone starts with and what they should have at the end.
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup and requirements
+      description: List the Resolve version, Free or Studio edition, operating system and any tools, plugins or assets needed. Mark unknown requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Workflow steps
+      description: Give numbered steps and explain how to check the result.
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: What you tested and known limits
+      description: Describe the setup you tried, what worked and where the workflow falls short. Write "Not tested" if you have not run it.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Original sources
+      description: Link the original tutorial, documentation or source project. If this is your own workflow, say so and link any dependencies it uses.
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: Say whether you created the workflow or are affiliated with a tool or resource it uses. Write "None" if neither applies.
+    validations:
+      required: true
