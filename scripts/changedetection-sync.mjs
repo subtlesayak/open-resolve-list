@@ -56,6 +56,16 @@ function changedWithinReviewWindow(watch,now){
   return Number.isFinite(timestamp)&&timestamp>0&&timestamp>=current-REVIEW_INTERVAL_SECONDS&&timestamp<=current;
 }
 
+function watchCoverage(watch,current){
+  if(watch.paused===true)return 'paused';
+  if(watch.last_error)return 'failed';
+  const raw=watch.last_checked;
+  const timestamp=typeof raw==='string'&&/^\d+$/.test(raw)?Number(raw):raw;
+  if(timestamp===0)return 'unchecked';
+  if(!Number.isFinite(timestamp)||timestamp<0||timestamp>current||!Object.hasOwn(watch,'last_error'))return 'unknown';
+  return timestamp>=current-REVIEW_INTERVAL_SECONDS?'recent':'overdue';
+}
+
 const clean=value=>String(value??'').replace(/[\r\n|<>\[\]]/g,' ').trim();
 const safeLink=value=>/^https:\/\//.test(value||'')?'['+clean(value)+']('+encodeURI(value).replace(/[()]/g,c=>'%'+c.charCodeAt(0).toString(16))+')':clean(value);
 
@@ -111,10 +121,13 @@ export async function syncChangedetection({records,baseUrl,apiKey,fetchImpl=fetc
   }
 
   const intervalSettings={time_between_check:REVIEW_INTERVAL,time_between_check_use_default:false};
-  const stats={catalogueResources:records.length,uniqueUrls:resources.size,skippedNonHttps,created:0,adopted:0,alreadyManaged:0,intervalsUpdated:0,changed:[]};
+  const coverage={recent:0,overdue:0,failed:0,paused:0,unchecked:0,unknown:0};
+  const current=Math.floor(now.getTime()/1000);
+  const stats={catalogueResources:records.length,uniqueUrls:resources.size,skippedNonHttps,created:0,adopted:0,alreadyManaged:0,intervalsUpdated:0,coverage,changed:[]};
   for(const [url,record] of resources){
     const existing=byUrl.get(url);
     if(existing){
+      coverage[watchCoverage({...existing,...details.get(existing.uuid)},current)]++;
       const watchPath='/watch/'+encodeURIComponent(existing.uuid);
       if(isManaged(existing)){
         stats.alreadyManaged++;
@@ -143,14 +156,23 @@ export async function syncChangedetection({records,baseUrl,apiKey,fetchImpl=fetc
 }
 
 export function renderChangedetectionSummary(stats){
-  const lines=['## changedetection.io 14-day watch sync','','Catalogue source pages are monitored by changedetection.io on a 14-day interval. Detected changes are review candidates only; they do not edit listings.','',
+  const {coverage}=stats;
+  const lines=['## changedetection.io 14-day watch sync','','Each catalogue watch is configured for a 14-day interval. Detected changes are review candidates only and require editorial review before any listing update.','',
     `- Catalogue resources: ${stats.catalogueResources}`,
-    `- Unique HTTPS URLs monitored: ${stats.uniqueUrls}`,
+    `- Unique HTTPS URLs in scope: ${stats.uniqueUrls}`,
     `- Resources skipped because they lack an HTTPS canonical URL: ${stats.skippedNonHttps}`,
     `- New watches created: ${stats.created}`,
     `- Existing watches adopted into the Open Resolve List group: ${stats.adopted}`,
     `- Already managed: ${stats.alreadyManaged}`,
     `- Existing schedules corrected: ${stats.intervalsUpdated}`,
+    '', '### Check coverage at sync', '',
+    `- Latest check succeeded within 14 days: ${coverage.recent}`,
+    `- Latest successful check is more than 14 days old: ${coverage.overdue}`,
+    `- Latest check reported an error: ${coverage.failed}`,
+    `- Paused watches: ${coverage.paused}`,
+    `- Existing watches without a check yet: ${coverage.unchecked}`,
+    `- Existing watches with missing or invalid check status: ${coverage.unknown}`,
+    `- New watches awaiting an observed check: ${stats.created}`,
     `- Changes detected during the last 14 days: ${stats.changed.length}`,
   ];
   if(stats.changed.length){

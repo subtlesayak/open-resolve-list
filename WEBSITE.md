@@ -129,6 +129,8 @@ Static resource pages expose compatibility, requirements, access, evidence cover
 
 Weekly maintenance reports review candidates, with links to their sources. Its source queue combines GitHub repository metadata, repository changelogs, external provider checks and followed changelog pages. Temporary failures and rate limits can get one retry. If a server asks us to wait more than five seconds, the page stays in the queue for review. The summary counts blocked and incomplete checks separately from sources that were never attempted. Metadata alone leaves a source pending review. Use the full discovery-source review above for formal listing updates.
 
+When Changedetection.io is connected, the maintenance summary reports which watches completed a recent check and which are overdue, failed, paused, or awaiting a check. A configured 14-day schedule can exist before the first check runs.
+
 Browser CI exercises Chromium, Firefox and WebKit at desktop and mobile viewport sizes. This is browser automation, not physical-device or installed-PWA testing. Raw research stays local. The original migration is archived at `scripts/archive/migrate-v1-to-v2.mjs`; do not run it over maintained canonical records.
 
 ## Workflow discovery and local collections

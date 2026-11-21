@@ -21,6 +21,25 @@ test('Workflow Finder handles constrained intent, brand terms, ambiguity and no 
  assert.deepEqual(findWorkflow(entries,'unfindable-quartz-waterfall'),[]);assert.deepEqual(findWorkflow(entries,''),[]);
  assert.deepEqual(result.map(r=>r.entry.id),findWorkflow(entries,query).map(r=>r.entry.id));
 });
+test('Workflow Finder separates caption tasks and applies explicitly requested Resolve setup',()=>{
+ const imported=findWorkflow(entries,'import an SRT subtitle file');
+ assert.ok(imported.some(row=>row.entry.id==='resolve-textplus-srt-importer'));
+ assert.ok(imported.every(row=>row.reasons.includes('Subtitle import')));
+ assert.equal(workflowIntent('automatic subtitle import from SRT').capability,'subtitle-import');
+ assert.ok(findWorkflow(entries,'import subtitles from SRT into Resolve').some(row=>row.entry.id==='resolve-textplus-srt-importer'));
+ const translated=findWorkflow(entries,'subtitle translation');
+ assert.ok(translated.some(row=>row.entry.id==='sub-translator'));
+ assert.ok(translated.every(row=>row.reasons.includes('Subtitle translation')));
+ assert.equal(findWorkflow(entries,'AutoSubs')[0].entry.id,'auto-subs');
+ assert.deepEqual(findWorkflow(entries,'?!'),[]);
+ assert.equal(workflowIntent('text to speech').capability,'');
+ assert.equal(workflowIntent('captions for Resolve Free').access,'');
+ assert.equal(workflowIntent('free captions for Resolve 20.1 Studio').access,'free');
+ const row=findWorkflow(entries,'free subtitles on Resolve Studio 20.1 for iPadOS',
+  {edition:'Free',version:'19',platform:'macOS'}).find(match=>match.entry.id==='auto-subs');
+ assert.deepEqual(row.verdict.checks.map(({key,selected})=>[key,selected]),
+  [['platforms','iPadOS'],['editions','Studio'],['resolve','20.1']]);
+});
 test('setup distinguishes missing requirements from explicit conflicts and honors edition ranges',()=>{
  const base={...byId('auto-subs'),platforms:[],requirements:{editions:[],resolve:[],architectures:[]}};
  assert.equal(assessSetup(base,{platform:'Windows'}).label,'Requirements unknown');

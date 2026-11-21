@@ -1205,10 +1205,6 @@ nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; t
 
 .site-footer .footer-support:disabled { cursor: not-allowed; opacity: 1; }
 
-.footer-visits { min-height: 24px; display: flex; align-items: center; justify-content: center; }
-.footer-visits a { display: inline-flex; align-items: center; min-height: 44px; }
-.footer-visits img { height: 20px; width: auto; }
-
 .release-notes h4, .creator-heading { font-size: 18px; margin-block: 28px 12px; color: var(--ink); }
 
 .updates-link { display:inline-flex; align-items:center; gap:8px; }

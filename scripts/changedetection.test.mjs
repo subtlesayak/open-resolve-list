@@ -99,8 +99,37 @@ test('rejects insecure remote services',async()=>{
   await assert.rejects(syncChangedetection({records:[],baseUrl:'http://remote.example',apiKey:'secret',fetchImpl:async()=>{throw new Error('unexpected fetch');}}),/Use HTTPS/);
 });
 
-test('summary labels detections as review candidates',()=>{
-  const text=renderChangedetectionSummary({catalogueResources:514,uniqueUrls:514,skippedNonHttps:0,created:514,adopted:0,alreadyManaged:0,intervalsUpdated:0,changed:[{title:'Example',url:'https://example.org'}]});
+test('reports observed watch coverage separately from configuration and keeps raw errors private',async()=>{
+  const timestamp=now.getTime()/1000;
+  const rows={
+    recent:{last_checked:String(timestamp-14*86400),last_error:false,last_changed:timestamp},
+    overdue:{last_checked:timestamp-14*86400-1,last_error:null},
+    failed:{last_checked:timestamp,last_error:'private watch error'},
+    paused:{last_checked:timestamp,last_error:false},
+    unchecked:{last_checked:0,last_error:false},
+    missingStatus:{last_checked:timestamp},
+    invalidTime:{last_checked:timestamp+1,last_error:false},
+  };
+  const watches=Object.fromEntries(Object.entries(rows).map(([key,fields])=>[key,{
+    url:`https://example.org/${key}`,tags:['tag1'],...fields,
+  }]));
+  const settings=Object.fromEntries(Object.keys(rows).map(key=>[key,{
+    time_between_check:{days:14},time_between_check_use_default:false,
+  }]));
+  settings.paused.paused=true;
+  const {calls,fetchImpl}=fakeApi({tags:{tag1:{title:'Open Resolve List'}},watches,settings});
+  const records=[...Object.keys(rows),'new-watch'].map(key=>item(key,`https://example.org/${key}`));
+  const stats=await syncChangedetection({records,baseUrl:'https://watch.example',apiKey:'test-key',fetchImpl,now});
+  assert.deepEqual(stats.coverage,{recent:1,overdue:1,failed:1,paused:1,unchecked:1,unknown:2});
+  assert.equal(stats.created,1);
+  assert.equal(Object.values(stats.coverage).reduce((sum,count)=>sum+count,stats.created),stats.uniqueUrls);
+  assert.equal(calls.filter(call=>call.method!=='GET').length,1);
+
+  const text=renderChangedetectionSummary(stats);
+  assert.match(text,/Latest check succeeded within 14 days: 1/);
+  assert.match(text,/Latest check reported an error: 1/);
+  assert.match(text,/New watches awaiting an observed check: 1/);
   assert.match(text,/Changes detected during the last 14 days: 1/);
-  assert.match(text,/do not edit listings/);
+  assert.match(text,/review candidates only/);
+  assert.doesNotMatch(text,/private watch error|tag1|watch\.example/);
 });

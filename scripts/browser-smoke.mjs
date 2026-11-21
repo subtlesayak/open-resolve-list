@@ -35,9 +35,11 @@ async function checkAnalytics(browser) {
  let blocked=false;
  let configured=true;
  let trackerRequests=0;
+ let retiredCounterRequests=0;
  try{
   await tab.route('**/*',async route=>{
    const url=route.request().url();
+   if(new URL(url).hostname==='countapi.mileshilliard.com')retiredCounterRequests++;
    if(url===tracker){
     trackerRequests++;
     if(blocked)return route.abort();
@@ -101,6 +103,7 @@ async function checkAnalytics(browser) {
   assert.equal(creatorEvents.length,2);
   assert.ok(creatorEvents.every(payload=>payload.data.id==='mononodes'&&payload.data.placement==='creator_profile'));
   assert.ok(creatorEvents.every(payload=>Object.keys(payload.data).sort().join(',')==='id,placement'));
+  assert.equal(retiredCounterRequests,0);
  }finally{
   await tab.close();
  }
@@ -391,6 +394,12 @@ try{
  assert.match(await page.locator('#workflow-results').textContent(),/auto-subs/);
  assert.match(await page.locator('#workflow-results').textContent(),/Why it matched/);
  assert.ok(await page.locator('#workflow-results .setup-assessment a').count()>0);
+ await page.getByRole('button',{name:'Import SRT subtitles',exact:true}).press('Enter');
+ assert.match(await page.locator('#workflow-results').textContent(),/Why it matched: Subtitle import/);
+ assert.equal(await page.locator('#workflow-results h3 a[href="resource/resolve-textplus-srt-importer/"]').count(),1);
+ await page.locator('#workflow-query').fill('free subtitles for Resolve 20.1 Studio on iPadOS');
+ await page.getByRole('button',{name:'Find tools',exact:true}).press('Enter');
+ assert.match(await page.locator('#workflow-count').textContent(),/iPadOS · Studio · Resolve 20\.1/);
  await page.locator('#workflow-query').fill('film look and automatic subtitles');
  await page.getByRole('button',{name:'Find tools',exact:true}).click();
  assert.match(await page.locator('#workflow-count').textContent(),/more than one workflow/);
@@ -435,6 +444,21 @@ try{
  assert.ok(await page.locator('#results article.resource > div').first().evaluate(el=>el.getBoundingClientRect().width)>220,'Card content must retain readable width at 320px');
  await page.goto(base+'/creator/casey-faris/',{waitUntil:'networkidle'});
  assert.match(await page.locator('main').textContent(),/Learning topics and lessons/);
+ await audit();
+ await page.goto(base+'/creators.html',{waitUntil:'networkidle'});
+ const caseyCard=page.locator('.creator-card').filter({has:page.getByRole('link',{name:'Casey Faris',exact:true})});
+ assert.match(await caseyCard.locator('.creator-meta').textContent(),/Learning guide/);
+ assert.doesNotMatch(await caseyCard.locator('.creator-meta').textContent(),/Advanced|0 catalogue resources/);
+ const monoCard=page.locator('.creator-card').filter({has:page.locator('h3 a[href="creator/mononodes/"]')});
+ const toolExample=monoCard.locator('a[href^="resource/"]');
+ assert.match(await toolExample.getAttribute('href'),/^resource\/[^/]+\/$/);
+ const creatorSearch=page.getByRole('searchbox',{name:'Search creators and topics'});
+ await creatorSearch.fill('team 2 films');
+ await page.getByRole('link',{name:'Team 2 Films',exact:true}).press('Enter');
+ await page.waitForURL(base+'/creator/team-2-films/');
+ assert.match(await page.getByRole('link',{name:'Try the free timeline track lesson'}).getAttribute('href'),/^https:\/\/training\.team2films\.com\//);
+ assert.match(await page.getByRole('main').textContent(),/A paid course with practice footage/);
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
  await audit();
  await page.goto(base+'/creators.html',{waitUntil:'networkidle'});
  const allTopics=page.getByRole('button',{name:'All topics',exact:true});
