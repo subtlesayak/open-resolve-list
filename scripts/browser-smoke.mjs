@@ -63,7 +63,10 @@ async function checkAnalytics(browser) {
   await tab.goto(production+'?q=secret-search#secret-fragment',{referer:'https://example.com/private?email=secret'});
   await tab.waitForFunction(()=>!!window.umami);
   const search=tab.getByRole('searchbox',{name:'Search tools'});
+  const searchEvent=tab.waitForResponse(response=>response.url()==='https://analytics.example/api/send'&&
+   response.request().postDataJSON()?.name==='search_performed');
   await search.fill('film emulation');
+  await searchEvent;
   const source=tab.locator('a[data-analytics-event="tool_outbound_click"]').first();
   await source.waitFor();
   await tab.evaluate(()=>document.addEventListener('click',event=>{
@@ -75,13 +78,14 @@ async function checkAnalytics(browser) {
   await checks.nth(1).check();
   await tab.getByRole('button',{name:'Compare selected'}).click();
   await tab.waitForLoadState('networkidle');
-  assert.deepEqual(payloads.map(payload=>payload.name||'pageview'),['pageview','tool_outbound_click','compare_opened']);
+  assert.deepEqual(payloads.map(payload=>payload.name||'pageview'),['pageview','search_performed','tool_outbound_click','compare_opened']);
   assert.ok(payloads.every(payload=>payload.url==='/open-resolve-list/'&&payload.referrer==='https://example.com'));
-  assert.deepEqual(payloads[1].data,{id:await source.getAttribute('data-analytics-id'),placement:'browse'});
+  assert.equal(payloads[1].data,undefined);
+  assert.deepEqual(payloads[2].data,{id:await source.getAttribute('data-analytics-id'),placement:'browse'});
   blocked=true;
   await tab.reload({waitUntil:'networkidle'});
   await source.waitFor();
-  assert.equal(payloads.length,3);
+  assert.equal(payloads.length,4);
   assert.equal(trackerRequests,2);
   configured=false;
   await tab.reload({waitUntil:'networkidle'});

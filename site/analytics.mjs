@@ -1,5 +1,7 @@
+import {installDiscoveryEvents} from './discovery-events.mjs';
+import {FORMAT_LABELS} from './model.mjs';
 import {resourceIds,creatorIds} from './analytics-ids.mjs';
-import {umamiConfig} from './analytics-config.mjs?v=1';
+import {umamiConfig} from './analytics-config.mjs?v=2';
 
 const origin = 'https://subtlesayak.github.io';
 const prefix = '/open-resolve-list/';
@@ -74,6 +76,7 @@ function startAnalytics() {
     if (event.button === 1) trackLink(event);
   });
   document.addEventListener('resolve:compare-opened', () => send('compare_opened'));
+  installDiscoveryEvents({send,page,creatorIds,formats:Object.keys(FORMAT_LABELS)});
 }
 
 if (typeof document !== 'undefined') startAnalytics();

@@ -29,6 +29,10 @@ jobs:
       - run: node scripts/rebuild.mjs
       - run: node --test --test-concurrency=1 scripts/*.test.mjs
       - run: git diff --exit-code
+      - name: Configure production page analytics
+        env:
+          UMAMI_WEBSITE_ID: ${{ secrets.UMAMI_WEBSITE_ID }}
+        run: node scripts/configure-pages-analytics.mjs
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
