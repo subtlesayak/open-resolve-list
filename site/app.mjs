@@ -92,7 +92,15 @@ function showMoreResults() {
  if (added <= 0) return;
  const firstNewResult = links[previous];
  firstNewResult.focus({preventScroll:true});
- firstNewResult.scrollIntoView({block:'start', inline:'nearest'});
+ requestAnimationFrame(() => {
+  if (document.activeElement !== firstNewResult) return;
+  const headerBottom = $('header').getBoundingClientRect().bottom;
+  const tray = $('#compare-tray');
+  const visibleBottom = tray.hidden ? innerHeight : tray.getBoundingClientRect().top;
+  const bounds = firstNewResult.getBoundingClientRect();
+  const distance = (bounds.top + bounds.bottom - headerBottom - visibleBottom) / 2;
+  window.scrollBy({top:distance, behavior:'instant'});
+ });
  const status = $('#pagination-status');
  status.textContent = 'Showing ' + links.length + ' resources. ' + added + ' added.';
 }
