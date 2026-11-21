@@ -11,13 +11,13 @@ test('HTML directory exposes every resource through a crawlable link',()=>{
  for(const entry of data.entries)assert.ok(directory.includes(`href="resource/${encodeURIComponent(entry.id)}/"`),entry.id);
  assert.match(directory,/<link rel="canonical" href="https:\/\/subtlesayak.github.io\/open-resolve-list\/directory.html"/);
 });
-test('homepage catalogue scale includes every profile shown in the creator directory',()=>{
- const home=fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8');
+test('About catalogue scale includes every profile shown in the creator directory',()=>{
+ const about=fs.readFileSync(new URL('../site/about.html',import.meta.url),'utf8');
  const directory=fs.readFileSync(new URL('../site/creators.html',import.meta.url),'utf8');
  const profileLinks=[...directory.matchAll(/<h3><a href="creator\/[^"\/]+\/"/g)];
  assert.match(directory,new RegExp('id="creator-count"[^>]*>'+profileLinks.length+' directory entries'));
  const formats=new Set(data.entries.map(entry=>entry.kind)).size;
- assert.match(home,new RegExp('id="site-stats"[^>]*>'+data.entries.length+' resources · '+profileLinks.length+' creator and training profiles · '+formats+' formats'));
+ assert.match(about,new RegExp('id="site-stats"[^>]*>'+data.entries.length+' resources · '+profileLinks.length+' creator and training profiles · '+formats+' formats'));
 });
 test('public release API preserves original GitHub release links',()=>{
  const api=JSON.parse(fs.readFileSync(new URL('../site/api/v1/releases.json',import.meta.url),'utf8'));

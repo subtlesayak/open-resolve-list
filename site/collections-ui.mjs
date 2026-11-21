@@ -1,10 +1,11 @@
 import {loadCatalogue} from './catalogue-loader.mjs?v=1';
 import {COLLECTION_KEY,readCollection,importCollection} from './collections.mjs';
 const root=document.querySelector('.catalogue-content');
-if(root)loadCatalogue().then(data=>{
+const panelSlot=document.querySelector('#collections-slot');
+if(root&&panelSlot)loadCatalogue().then(data=>{
  const ids=new Set(data.entries.map(e=>e.id)),panel=document.createElement('details');
  panel.innerHTML='<summary>My collections</summary><p>Bookmarks, shortlists and installed status stay on this device.</p><div class="collection-controls"><label>Show<select id="collection-view"><option value="">All resources</option><option value="bookmark">Bookmarked</option><option value="shortlist">Shortlisted</option><option value="installed">Installed</option></select></label><button type="button" id="collection-export" class="outline">Export collection</button><label>Import and merge JSON<input id="collection-import" type="file" accept=".json,application/json"></label></div><p role="status" id="collection-message"></p>';
- root.prepend(panel);const message=panel.querySelector('#collection-message');
+ panelSlot.append(panel);const message=panel.querySelector('#collection-message');
  const refreshFilter=()=>document.dispatchEvent(new CustomEvent('resolve:collection-filter',{detail:{ids:read().items.filter(item=>item.statuses.includes(panel.querySelector('select').value)).map(i=>i.id),active:!!panel.querySelector('select').value}}));
  const read=()=>{try{return readCollection(localStorage,ids);}catch{return {schema_version:1,items:[]};}};
  const statuses = [
@@ -88,6 +89,8 @@ if(root)loadCatalogue().then(data=>{
       if (replacement) {
        openSaveOptions(replacement);
        replacement.querySelector('[data-collection-status="' + status + '"]').focus();
+      } else if (panelSlot.closest('[hidden]')) {
+       document.querySelector('#filter-toggle').focus();
       } else {
        (panel.open ? panel.querySelector('#collection-view') : panel.querySelector('summary')).focus();
       }

@@ -163,6 +163,8 @@ try{
    const actions=card.querySelector('.row-actions').getBoundingClientRect();
    const metadata=card.querySelector('.metadata').getBoundingClientRect();
    const sort=document.querySelector('#sort').getBoundingClientRect();
+   const filters=document.querySelector('#filter-toggle').getBoundingClientRect();
+   const setup=document.querySelector('#my-setup summary').getBoundingClientRect();
    const creator=card.querySelector('.row-actions a.source-cta');
    const details=card.querySelector('.row-actions button');
    const doc=document.documentElement;
@@ -174,6 +176,8 @@ try{
     actionsFit:actions.left>=bounds.left&&actions.right<=bounds.right+1,
     oneToolbar:actions.top>=metadata.bottom&&actions.height<=44,
     sortHeight:sort.height,
+    compactControls:Math.abs(filters.top-setup.top)<1&&setup.left>=filters.right&&setup.right<=doc.clientWidth,
+    firstCardOnScreen:bounds.top+scrollY<innerHeight,
     cardHeight:bounds.height,
     creatorEmphasized:getComputedStyle(creator).backgroundColor===getComputedStyle(document.querySelector('#compare-open')).backgroundColor,
     creatorAligned:creator.getBoundingClientRect().height===details.getBoundingClientRect().height,
@@ -181,6 +185,8 @@ try{
   });
   assert.ok(layout.pageFits&&layout.searchFits&&layout.actionsFit, 'Page, search, and actions fit at '+width+'px');
   assert.ok(layout.sortHeight>=44,'Sort control keeps its height at '+width+'px');
+  assert.ok(layout.compactControls,'Filters and setup share a row at '+width+'px');
+  if(width===390||width===1440)assert.ok(layout.firstCardOnScreen,'The first result starts within the viewport at '+width+'px');
   assert.ok(layout.creatorEmphasized&&layout.creatorAligned,'Creator site is a prominent, aligned link at '+width+'px');
   if(layout.cardWidth<740)assert.ok(layout.textWidth>=layout.cardWidth-1,'Card description uses the full width at '+width+'px');
   else assert.ok(layout.textWidth>=320&&layout.textWidth<layout.cardWidth&&layout.oneToolbar,'Desktop card keeps readable columns and one action row at '+width+'px');
@@ -199,10 +205,18 @@ try{
  });
  assert.match(await page.locator('#pagination-status').textContent(),/30 added/);
  const searchInput=page.getByRole('searchbox',{name:'Search tools'});
+ const taskDiscovery=page.locator('#task-discovery');
+ assert.ok(await taskDiscovery.locator('.quick-task').first().isHidden());
+ await taskDiscovery.locator('summary').press('Enter');
+ assert.equal(await taskDiscovery.locator('.quick-task:visible').count(),6);
+ await taskDiscovery.locator('[data-search-example="captions"]').press('Enter');
+ assert.equal(await searchInput.inputValue(),'captions');
+ assert.ok(await searchInput.evaluate(input=>input===document.activeElement));
+ assert.ok(await taskDiscovery.isHidden());
  await searchInput.fill('zzq-no-catalogue-match-zzq');
- assert.equal(await page.locator('#search-result-count').textContent(),'0 matches');
+ assert.equal(await page.locator('#count').textContent(),'0 matches');
  await page.locator('#search-results-link').press('Enter');
- assert.equal(await page.evaluate(()=>document.activeElement.id),'result-controls');
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'results');
  assert.match(await page.locator('#results').textContent(),/No matches for “zzq-no-catalogue-match-zzq”/);
  await searchInput.fill('');
  await page.locator('#results article.resource').first().waitFor();
@@ -218,7 +232,7 @@ try{
  if(await page.locator('#filters select[name=kind]').isHidden())await page.locator('#filter-toggle').click();
  await page.locator('#filters select[name=kind]').selectOption('dctl');
  assert.match(page.url(),/kind=dctl/);
- assert.equal(await page.locator('#filter-result-count').textContent(),await page.locator('#search-result-count').textContent());
+ assert.equal(parseInt(await page.locator('#filter-result-count').textContent(),10),parseInt(await page.locator('#count').textContent(),10));
  await page.locator('#filter-results-link').press('Enter');
  assert.equal(await page.evaluate(()=>document.activeElement.id),'result-controls');
  await page.reload({waitUntil:'networkidle'});
@@ -426,6 +440,7 @@ try{
  assert.ok(await save.locator('.save-mark').isVisible());
  assert.equal(await save.evaluate(el=>el.closest('.row-actions').offsetHeight),toolbarHeight);
  await page.setViewportSize(originalViewport);
+ if(await page.locator('#filters').isHidden())await page.locator('#filter-toggle').click();
  await page.getByText('My collections',{exact:true}).click();
  const before=await page.evaluate(()=>localStorage.getItem('open-resolve-collections-v1'));
  await page.locator('#collection-import').setInputFiles({name:'invalid.json',mimeType:'application/json',buffer:Buffer.from('{"schema_version":1,"items":[{"id":"unknown","statuses":["installed"]}]}')});

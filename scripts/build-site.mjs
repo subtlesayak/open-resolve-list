@@ -78,7 +78,8 @@ function refreshSiteHeaders() {
   const target = path.join(root, 'site', file);
   const source = fs.readFileSync(target, 'utf8');
   const markup = replaceGeneratedSection(source, '<!-- site-header:start -->', '<!-- site-header:end -->', siteHeader('', current));
-  const next = replaceGeneratedSection(markup, '<!-- site-header-assets:start -->', '<!-- site-header-assets:end -->', siteHeaderAssets());
+  const assets = current === 'browse' ? siteHeaderAssets('', 38) : siteHeaderAssets();
+  const next = replaceGeneratedSection(markup, '<!-- site-header-assets:start -->', '<!-- site-header-assets:end -->', assets);
   if (next !== source) fs.writeFileSync(target, next);
  }
 }
@@ -105,13 +106,13 @@ export function buildSite(){
  const toolRecords=[...toolGroups.values()].map(group=>{const first=group.resources[0];const id=group.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');return {id,name:group.name,channel:first.url,website:first.url,evidence:first.evidence?.[0]?.source||first.url,focus:'',kind:'tool-creator',resources:group.resources,resourceCount:group.resources.length};});
  const trainingRecords=training.providers.map(provider=>({...provider,kind:'official-training',id:provider.id||provider.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),resources:[],resourceCount:0}));
  const creatorRecords=[...trainingRecords,...educatorRecords,...toolRecords];
- const homepage=path.join(root,'site/index.html');
- const homeMarkup=fs.readFileSync(homepage,'utf8');
+ const aboutPage=path.join(root,'site/about.html');
+ const aboutMarkup=fs.readFileSync(aboutPage,'utf8');
  const formatCount=new Set(entries.map(entry=>entry.kind)).size;
  const scale=`${entries.length} resources · ${creatorRecords.length} creator and training profiles · ${formatCount} formats`;
- const updatedHome=replaceGeneratedSection(homeMarkup,'<!-- catalogue-scale:start -->','<!-- catalogue-scale:end -->',
+ const updatedAbout=replaceGeneratedSection(aboutMarkup,'<!-- catalogue-scale:start -->','<!-- catalogue-scale:end -->',
   `<p class="site-stats" id="site-stats" aria-label="Catalogue scale">${scale}</p>`);
- if(updatedHome!==homeMarkup)fs.writeFileSync(homepage,updatedHome);
+ if(updatedAbout!==aboutMarkup)fs.writeFileSync(aboutPage,updatedAbout);
  for(const guide of read('data/creator-guides.json').guides){const creator=creatorRecords.find(c=>c.id===guide.creator_id);if(!creator||!guide.links?.length||!guide.links.every(link=>safeUrl(link.url)&&safeUrl(link.source)&&/^\d{4}-\d{2}-\d{2}$/.test(link.checked_at)))throw Error('Invalid creator learning guide: '+guide.creator_id);creator.guide=guide;}
  fs.writeFileSync(path.join(root,'site/analytics-ids.mjs'),'export const resourceIds='+JSON.stringify(entries.map(e=>e.id))+';\nexport const creatorIds='+JSON.stringify(creatorRecords.map(c=>c.id))+';\n');
  const resources=entries.map(entry=>({id:entry.id,name:entry.name,creator:entry.creator,url:entry.url,category:entry.category,kind:entry.kind,tasks:entry.tasks,description:entry.description,access:entry.access,platforms:entry.platforms,requirements:entry.requirements,version:entry.version,evidence:entry.evidence.map(item=>({field:item.field,level:item.level,source:item.source,checked_at:item.checked_at}))}));
