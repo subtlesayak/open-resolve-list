@@ -6,6 +6,8 @@ I made Open Resolve List to keep useful Resolve resources in one place instead o
 
 [🌐 Browse the searchable website](https://subtlesayak.github.io/open-resolve-list/) · [🎬 Creators and educators](https://subtlesayak.github.io/open-resolve-list/creators.html) · [🆕 Provider and catalogue updates](https://subtlesayak.github.io/open-resolve-list/updates.html) · [ℹ️ About](https://subtlesayak.github.io/open-resolve-list/about.html)
 
+<a href="https://www.buymeacoffee.com/subtlesayak"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="174" height="49"></a>
+
 ## 🔎 Find something for your workflow
 
 - Search names, creators, descriptions and reviewed tags, or try tasks such as **film emulation**, **captions** or **Fusion**.
