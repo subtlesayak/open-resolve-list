@@ -121,6 +121,8 @@ try{
  await page.locator('#results article.resource').first().waitFor();
  assert.ok(await page.locator('#results article.resource').count()>0);
  assert.match(await page.locator('#results article.resource .resource-page-link').first().getAttribute('href'),/^resource\//);
+ assert.equal(await page.locator('#results article.resource').first().locator('h3 a').count(),1);
+ assert.match(await page.locator('#count').textContent(),/community resources · \d+ official resources hidden/);
  assert.equal(requests.filter(url=>url.includes('catalogue-index.json')).length,1);
  const indexBytes=Buffer.byteLength(await readFile(new URL('../site/catalogue-index.json',import.meta.url)));assert.ok(indexBytes<=525329,'Browse index payload budget');
  assert.ok(Buffer.byteLength(await readFile(new URL('../site/creators.html',import.meta.url)))<=300000,'Creator HTML payload budget');
@@ -137,6 +139,36 @@ try{
     horizontalOverflow:document.documentElement.scrollWidth>innerWidth};
   })));
  }
+ const originalViewport=page.viewportSize();
+ for(const [width,height] of [[320,568],[390,844],[400,844],[401,844],[430,932],[667,375],[768,1024],[1024,768],[1440,900],[1920,1080]]){
+  await page.setViewportSize({width,height});
+  const layout=await page.locator('#results article.resource').first().evaluate(card=>{
+   const bounds=card.getBoundingClientRect();
+   const text=card.querySelector('.description').getBoundingClientRect();
+   const search=document.querySelector('#search').getBoundingClientRect();
+   const actions=card.querySelector('.row-actions').getBoundingClientRect();
+   const doc=document.documentElement;
+   return {
+    pageFits:doc.scrollWidth<=doc.clientWidth,
+    searchFits:search.top>=0&&search.bottom<=innerHeight,
+    cardWidth:bounds.width,
+    textWidth:text.width,
+    actionsFit:actions.left>=bounds.left&&actions.right<=bounds.right+1,
+   };
+  });
+  assert.ok(layout.pageFits&&layout.searchFits&&layout.actionsFit, 'Page, search, and actions fit at '+width+'px');
+  if(width<=1024)assert.ok(layout.textWidth>=layout.cardWidth-1,'Card description uses the full width at '+width+'px');
+  else assert.ok(layout.textWidth>=320&&layout.textWidth<layout.cardWidth,'Desktop card keeps readable columns at '+width+'px');
+ }
+ await page.setViewportSize(originalViewport);
+ const searchInput=page.getByRole('searchbox',{name:'Search tools'});
+ await searchInput.fill('zzq-no-catalogue-match-zzq');
+ assert.equal(await page.locator('#search-result-count').textContent(),'0 matches');
+ await page.locator('#search-results-link').press('Enter');
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'result-controls');
+ assert.match(await page.locator('#results').textContent(),/No matches for “zzq-no-catalogue-match-zzq”/);
+ await searchInput.fill('');
+ await page.locator('#results article.resource').first().waitFor();
  await page.locator('#results article.resource button').first().click();
  await page.locator('#dialog-body h3').filter({hasText:'Documentation completeness'}).waitFor();
  assert.equal(requests.filter(url=>url.includes('/api/v1/resources/')).length,1);
@@ -149,6 +181,8 @@ try{
  if(await page.locator('#filters select[name=kind]').isHidden())await page.locator('#filter-toggle').click();
  await page.locator('#filters select[name=kind]').selectOption('dctl');
  assert.match(page.url(),/kind=dctl/);
+ await page.locator('#filter-results-link').press('Enter');
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'result-controls');
  await page.reload({waitUntil:'networkidle'});
  assert.equal(await page.locator('#filters select[name=kind]').inputValue(),'dctl');
  await page.route('**/api/v1/resources/*.json',route=>route.abort());
@@ -177,6 +211,37 @@ try{
  assert.match(await page.locator('#compare-body').textContent(),/Side-by-side comparison/);
  assert.equal(await page.getByRole('heading',{name:'Material differences',exact:true}).count(),1);
  assert.equal(await page.getByRole('button',{name:'Export CSV'}).count(),1);
+ for(const [width,height] of [[320,568],[430,932],[768,1024],[1440,900]]){
+  await page.setViewportSize({width,height});
+  const comparisonLayout=await page.locator('#compare-dialog').evaluate(dialog=>{
+   const top=dialog.querySelector('.dialog-top');
+   const body=dialog.querySelector('#compare-body');
+   const compareTables=[...body.querySelectorAll('.compare-table-scroll')];
+   const before=top.getBoundingClientRect().left;
+   const tables=compareTables.map(scroller=>{
+    const hint=scroller.previousElementSibling;
+    scroller.scrollLeft=scroller.scrollWidth;
+    return {scrollable:scroller.scrollLeft>0,cue:hint.getClientRects().length>0,focusable:scroller.tabIndex===0};
+   });
+   return {contained:dialog.scrollWidth<=dialog.clientWidth&&body.scrollWidth<=body.clientWidth,
+    headingFixed:top.getBoundingClientRect().left===before,tables};
+  });
+  assert.ok(comparisonLayout.contained&&comparisonLayout.headingFixed,'Comparison chrome stays in view at '+width+'px');
+  assert.equal(comparisonLayout.tables.length,1);
+  for(const table of comparisonLayout.tables){
+   assert.ok(table.focusable);
+   assert.equal(table.cue,table.scrollable,'Scroll cue matches the table at '+width+'px');
+   if(width<=430)assert.ok(table.scrollable,'Comparison columns are reachable at '+width+'px');
+  }
+  if(width===320){
+   const scroller=page.getByRole('region',{name:'Side-by-side comparison table',exact:true});
+   await scroller.evaluate(region=>{region.scrollLeft=0;});
+   await scroller.press('ArrowRight');
+   await page.waitForFunction(()=>document.querySelector('.compare-table-scroll').scrollLeft>0);
+  }
+ }
+ await page.setViewportSize(originalViewport);
+ await audit();
  await page.getByLabel('Differences only',{exact:true}).check();
  assert.ok(await page.locator('.compare-table tbody tr[data-same=true]').evaluateAll(rows=>rows.every(row=>row.hidden)));
  await page.getByLabel('Differences only',{exact:true}).uncheck();
@@ -252,6 +317,22 @@ try{
  await page.goto(base+'/creator/casey-faris/',{waitUntil:'networkidle'});
  assert.match(await page.locator('main').textContent(),/Learning topics and lessons/);
  await audit();
+ await page.goto(base+'/creators.html',{waitUntil:'networkidle'});
+ const allTopics=page.getByRole('button',{name:'All topics',exact:true});
+ assert.equal(await allTopics.getAttribute('aria-pressed'),'true');
+ const creatorCount=page.locator('#creator-count[role=status]');
+ const totalCreators=await creatorCount.textContent();
+ const colorTopic=page.getByRole('button',{name:'Color',exact:true});
+ await colorTopic.press('Enter');
+ assert.equal(await allTopics.getAttribute('aria-pressed'),'false');
+ assert.equal(await colorTopic.getAttribute('aria-pressed'),'true');
+ assert.ok(await colorTopic.locator('.topic-check').isVisible());
+ assert.notEqual(await creatorCount.textContent(),totalCreators);
+ for(const scheme of ['light','dark']){
+  await page.emulateMedia({colorScheme:scheme});
+  await page.waitForFunction(theme=>document.documentElement.dataset.theme===theme,scheme);
+  await audit();
+ }
  if(engine==='chromium'&&!mobile)await checkAnalytics(browser);
  console.log(engine+(mobile?' mobile':' desktop')+' smoke passed: rendered catalogue, search, static page, dynamic API page, and keyboard skip link.');
 }finally{

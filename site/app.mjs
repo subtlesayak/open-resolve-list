@@ -45,6 +45,23 @@ function renderCompareTray(){const tray=$('#compare-tray');tray.hidden=!comparis
 function toggleCompare(entry,checked){lastCompareFocus=document.activeElement;if(checked){const selected=comparison.map(id=>data.entries.find(item=>item.id===id)).filter(Boolean);if(!comparisonCompatible(entry,selected)){notify('Choose alternatives with a shared capability. A shared format alone does not establish similarity.');return;}if(!comparison.includes(entry.id)&&comparison.length<MAX_COMPARE)comparison=[...comparison,entry.id];else if(comparison.length>=MAX_COMPARE){notify('Compare up to '+MAX_COMPARE+' resources at a time.');return;}}else comparison=comparison.filter(id=>id!==entry.id);syncUrl();render();$('#results article[data-resource-id="'+entry.id+'"] .compare-control input')?.focus();}
 function csvCell(value){return '"'+String(value??'').replaceAll('"','""')+'"';}
 function exportComparison(){const entries=comparison.map(id=>data.entries.find(entry=>entry.id===id)).filter(Boolean);const rows=[['Field',...entries.map(entry=>entry.name)],['Category',...entries.map(entry=>entry.category)],['Format',...entries.map(entry=>entry.kind)],['Access',...entries.map(entry=>entry.access)],['Platforms',...entries.map(entry=>entry.platforms.join(' · ')||'Not established')],['Resolve edition',...entries.map(entry=>reqText(entry,'editions'))],['Resolve version',...entries.map(entry=>reqText(entry,'resolve'))],['Evidence',...entries.map(entry=>{const coverage=evidenceCoverage(entry);return coverage.established+' / '+coverage.total+' fields established';})]];const blob=new Blob([rows.map(row=>row.map(csvCell).join(',')).join('\r\n')+'\r\n'],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),anchor=make('a');anchor.href=url;anchor.download='resolve-resource-comparison.csv';anchor.click();URL.revokeObjectURL(url);}
+function comparisonTableView(table) {
+ const group = make('div', undefined, 'compare-table-group');
+ const scroller = make('div', undefined, 'compare-table-scroll');
+ scroller.tabIndex = 0;
+ scroller.setAttribute('role', 'region');
+ scroller.setAttribute('aria-label', table.caption.textContent + ' table');
+ scroller.addEventListener('keydown', event => {
+  if (event.target !== scroller || event.metaKey || event.ctrlKey || event.altKey || scroller.scrollWidth <= scroller.clientWidth) return;
+  if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+  event.preventDefault();
+  const distance = Math.min(scroller.clientWidth, 160);
+  scroller.scrollBy({left: event.key === 'ArrowLeft' ? -distance : distance});
+ });
+ scroller.append(table);
+ group.append(make('p', 'Scroll sideways or use the arrow keys to see more columns.', 'compare-scroll-hint muted'), scroller);
+ return group;
+}
 function openComparison(event){
  const entries=comparison.map(id=>data.entries.find(entry=>entry.id===id)).filter(Boolean);
  if(entries.length<2){notify('Select at least two similar resources to compare.');return;}
@@ -82,7 +99,7 @@ function openComparison(event){
  if(!differences)explanations.append(make('p','No material differences are recorded in these fields. Review each tool’s sources for limitations that are not captured in the table.'));
  table.append(tbody);const differencesLabel=make('label','Differences only'),toggle=make('input');toggle.type='checkbox';
  toggle.addEventListener('change',()=>{for(const row of tbody.rows)row.hidden=toggle.checked&&row.dataset.same==='true';});differencesLabel.prepend(toggle);
- body.append(differencesLabel,table,explanations);
+ body.append(differencesLabel,comparisonTableView(table),explanations);
  if(Object.values(savedSetup).some(Boolean))for(const entry of entries){const section=make('section');section.append(make('h3',entry.name),setupVerdictView(assessSetup(entry,savedSetup),{entryId:entry.id}));body.append(section);}
  const related=make('section',undefined,'related-resources');related.append(make('h3','Related resources'));
  for(const entry of entries){
@@ -91,16 +108,80 @@ function openComparison(event){
   alternatives.forEach((other,index)=>{if(index)item.append(document.createTextNode(' · '));const a=make('a',other.name);a.href='resource/'+encodeURIComponent(other.id)+'/';item.append(a);});
   if(alternatives.length)related.append(item);
  }
- body.append(related);lastCompareFocus=event?.currentTarget||document.activeElement;$('#compare-dialog').showModal();document.dispatchEvent(new Event('resolve:compare-opened'));$('#compare-dialog-close').focus();
+ body.append(related);
+ lastCompareFocus=event?.currentTarget||document.activeElement;
+ $('#compare-dialog').showModal();
+ body.scrollTop=0;
+ document.dispatchEvent(new Event('resolve:compare-opened'));
+ $('#compare-dialog-close').focus();
 }
 function decorateCompareControls(found){const selected=comparison.map(id=>data.entries.find(item=>item.id===id)).filter(Boolean);for(const [index,article] of [...document.querySelectorAll('#results article.resource')].entries()){const entry=found[index];if(!entry)continue;const actions=article.querySelector('.row-actions');if(!actions||actions.querySelector('.compare-control'))continue;const control=make('label',comparisonCompatible(entry,selected)?'Compare':'Compare — similar only','compare-control'),input=make('input');input.type='checkbox';input.checked=comparison.includes(entry.id);input.disabled=!input.checked&&(comparison.length>=MAX_COMPARE||!comparisonCompatible(entry,selected));input.title=input.disabled&&!input.checked?'Select a compatible format, category, and task.':'';input.setAttribute('aria-label','Compare '+entry.name+(input.disabled&&!input.checked?' (similar resources only)':''));input.addEventListener('change',event=>toggleCompare(entry,event.target.checked));control.prepend(input);actions.append(control);}}
-function decorateResourceLinks(found){for(const [index,article] of [...document.querySelectorAll('#results article.resource')].entries()){const entry=found[index],heading=article.querySelector('h3');if(!entry||!heading||heading.querySelector('.resource-page-link'))continue;const page=make('a','Open listing ↗','resource-page-link');page.href='resource/'+encodeURIComponent(entry.id)+'/';heading.append(document.createTextNode(' '),page);}}
 function facts(e){const dl=make('dl',undefined,'facts');const fields=[['Creator',e.creator],['Platforms',e.reference?'Reference; see resource requirements':e.platforms.join(' · ')||'Not established'],['Platform caveats',e.platformNotes],['Resolve edition',reqText(e,'editions')],['Resolve version range',reqText(e,'resolve')],['Architecture',reqText(e,'architectures')],['GPU',reqText(e,'gpu')],['Access',e.access],['Payment model',reqText(e,'pricing')],['Processing',reqText(e,'processing')],['Account',reqText(e,'account')],['Dependencies',reqText(e,'dependencies')],['Installation',reqText(e,'installation')],['Tool version',versionText(e.version)],['Product release / update',e.releaseDate?relativeDate(e.releaseDate)+' · '+e.releaseDate:'Not established'],['Repository activity',e.activityDate?relativeDate(e.activityDate)+' · '+e.activityDate:'Not applicable'],['GitHub stars',e.stars===null?'Not applicable':String(e.stars)],['Testing',e.recommendation?.tested_setup]];for(const [k,v]of fields){if(v===null||v===undefined||!String(v).trim()||/^(?:[^\p{L}]*)(?:not established|not applicable|version unknown|unverified|unknown)$/iu.test(String(v).trim()))continue;dl.append(make('dt',k),make('dd',v));}return dl;}
 function evidenceCoverageList(e){const coverage=evidenceCoverage(e),ul=make('ul',undefined,'evidence-coverage-list');for(const field of coverage.fields){const li=make('li');li.append(make('strong',field.label),document.createTextNode(field.known?' — Established':' — Unknown'));if(field.evidence.length){const level=field.evidence.some(item=>item.level==='tested')?'tested':field.evidence.some(item=>item.level==='creator')?'creator':'documented';li.append(document.createTextNode(' · '+LEVELS[level]));for(const source of field.evidence)li.append(document.createTextNode(' · '),link('Source',source.source));}ul.append(li);}return ul;}
 function evidenceList(e){const ul=make('ul',undefined,'evidence-list');for(const x of e.evidence){const li=make('li');li.append(make('strong',LEVELS[x.level]+' — '+x.field),make('br'),link('Source',x.source),document.createTextNode(' · checked '+x.checked_at.slice(0,10)),make('br'),document.createTextNode(x.note||''));ul.append(li);}if(!e.evidence.length)ul.append(make('li','No field-level evidence established.'));return ul;}
 async function details(summary,trigger=document.activeElement){openDialog(summary.name);lastFocus=trigger;const request=++detailRequest;$('#dialog-body').append(make('p','Loading details…'));let e;try{e=await loadDetail(summary.id);}catch{if(request!==detailRequest||!$('#detail-dialog').open)return;const retry=make('button','Retry','outline');retry.addEventListener('click',()=>{const trigger=lastFocus;details(summary);lastFocus=trigger;});$('#dialog-body').replaceChildren(make('p','Details could not load. Your filters are unchanged.'),retry);return;}if(request!==detailRequest||!$('#detail-dialog').open)return;$('#dialog-body').replaceChildren();const b=$('#dialog-body'),coverage=evidenceCoverage(e);b.append(make('p',e.description),originalLink('Open original resource ↗',e,'detail'),facts(e),make('h3','Documentation completeness'),make('p','Established fields: '+coverage.established+' / '+coverage.total+'. This summary describes documented metadata, not blanket compatibility or installation testing.'),evidenceCoverageList(e));const verdict=setupVerdict(e);if(verdict)b.append(setupVerdictView(verdict,{heading:true,entryId:e.id}));if(e.worksTogether?.length){b.append(make('h3','Works well together'));for(const item of e.worksTogether){const p=make('p',item.reason+' ');const a=make('a',item.name);a.href='resource/'+encodeURIComponent(item.resourceId)+'/';p.append(a);for(const source of item.sources)p.append(document.createTextNode(' · '),link('Source',source));b.append(p);}}if(e.evidence.length)b.append(make('h3','Evidence sources and limitations'),evidenceList(e));if(e.history.length)b.append(make('h3','Version history'));if(e.history.length)for(const h of e.history){const p=make('p',h.from+' → '+h.to+' · '+h.summary+' ');p.append(link('Source',h.changelogs?.[0]?.url||h.source));b.append(p);b.append(changelogView(h));}const issue=new URL('https://github.com/subtlesayak/open-resolve-list/issues/new');issue.searchParams.set('template','creator-confirmation.yml');issue.searchParams.set('title','Confirm or correct: '+e.name);b.append(link('Confirm or correct this listing ↗',issue.href));}
 function setupVerdict(e){try {const setup=readSetup(localStorage);return Object.values(setup).some(Boolean)?assessSetup(e,setup):null;}catch{return null;}}
-function basicRow(e){const article=make('article',undefined,'resource'),main=make('div'),h=make('h3');article.dataset.resourceId=e.id;const titleLink=make('a',e.name);titleLink.href='resource/'+encodeURIComponent(e.id)+'/';h.append(titleLink);main.append(h,make('p',e.creator,'creator'),make('p',e.description,'description'));const tags=make('div',undefined,'resource-tags');if(e.kind)tags.append(make('span',FORMAT_LABELS[e.kind]||e.kind,'resource-tag'));for(const task of (e.tasks||[]).slice(0,2))if(TASKS[task])tags.append(make('span',TASKS[task],'resource-tag'));main.append(tags);const meta=make('div',undefined,'metadata');meta.append(make('p',e.reference?'📖 Reference':e.platforms.join(' · ')||'Platforms not established'),make('p',e.access),make('p',versionText(e.version),'version'));meta.append(make('p','Resolve: '+reqText(e,'editions')+' · '+reqText(e,'resolve')));const coverage=evidenceCoverage(e),highest=e.evidence.some(x=>x.level==='tested')?'tested':e.evidence.some(x=>x.level==='creator')?'creator':e.evidence.length?'documented':'unknown';const ev=make('p',coverage.established+'/'+coverage.total+' evidence fields','evidence-label');ev.title='Field coverage; open Details for the individual fields and sources.';ev.setAttribute('aria-label',coverage.established+' of '+coverage.total+' evidence fields established; highest source level '+LEVELS[highest]);meta.append(ev);const setup=setupVerdict(e);if(setup)meta.append(setupVerdictView(setup,{entryId:e.id}));if(state.edition)meta.append(make('p',e.requirements.editions.length?(state.edition==='Studio'&&!e.requirements.editions.includes('Studio')?'Studio: inferred from Free compatibility; not separately verified':'Resolve edition: '+e.requirements.editions.join(' / ')):'Resolve edition: requirements unknown','edition-status'));if(state.sort==='stars')meta.append(make('p',e.stars===null?'Stars not applicable':'⭐ '+e.stars));if(state.sort==='updated')meta.append(make('p','Release: '+relativeDate(e.releaseDate)));if(state.sort==='activity')meta.append(make('p','Repo activity: '+relativeDate(e.activityDate)));const source=make('p',undefined,'source-link');source.append(originalLink(e.official?'Official source ↗':'Creator site ↗',e,'browse'));const actions=make('div',undefined,'row-actions');const button=make('button','Details','outline');button.setAttribute('aria-label','Details for '+e.name+' by '+e.creator);button.addEventListener('click',()=>details(e,button));actions.append(button);article.append(main,meta,source,actions);return article;}
+function row(entry) {
+ const article = make('article', undefined, 'resource');
+ article.dataset.resourceId = entry.id;
+ const main = make('div');
+ const heading = make('h3');
+ const titleLink = make('a', entry.name, 'resource-page-link');
+ titleLink.href = 'resource/' + encodeURIComponent(entry.id) + '/';
+ heading.append(titleLink);
+
+ const creator = make('p', entry.creator, 'creator');
+ if (entry.creator) {
+  const profile = make('a', entry.creator);
+  profile.href = 'creator/' + entry.creator.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '/';
+  creator.replaceChildren(profile);
+ }
+ const tags = make('div', undefined, 'resource-tags');
+ if (entry.kind) tags.append(make('span', FORMAT_LABELS[entry.kind] || entry.kind, 'resource-tag'));
+ for (const task of (entry.tasks || []).slice(0, 2)) {
+  if (TASKS[task]) tags.append(make('span', TASKS[task], 'resource-tag'));
+ }
+ main.append(heading, creator, make('p', entry.description, 'description'), tags);
+
+ const metadata = make('div', undefined, 'metadata');
+ metadata.append(
+  make('p', entry.reference ? '📖 Reference' : entry.platforms.join(' · ') || 'Platforms not established'),
+  make('p', entry.access),
+  make('p', versionText(entry.version), 'version'),
+  make('p', 'Resolve: ' + reqText(entry, 'editions') + ' · ' + reqText(entry, 'resolve')),
+ );
+ const coverage = evidenceCoverage(entry);
+ const highest = entry.evidence.some(item => item.level === 'tested') ? 'tested'
+  : entry.evidence.some(item => item.level === 'creator') ? 'creator' : entry.evidence.length ? 'documented' : 'unknown';
+ const evidence = make('p', 'Documentation completeness: ' + coverage.established + '/' + coverage.total, 'evidence-label');
+ evidence.title = 'Documented fields; open Details for sources and unknowns.';
+ evidence.setAttribute('aria-label', coverage.established + ' of ' + coverage.total + ' evidence fields established; highest source level ' + LEVELS[highest]);
+ metadata.append(evidence);
+ const setup = setupVerdict(entry);
+ if (setup) metadata.append(setupVerdictView(setup, {entryId: entry.id}));
+ if (state.edition) {
+  let edition = 'Resolve edition: requirements unknown';
+  if (entry.requirements.editions.length) {
+   edition = state.edition === 'Studio' && !entry.requirements.editions.includes('Studio')
+    ? 'Studio: inferred from Free compatibility; not separately verified'
+    : 'Resolve edition: ' + entry.requirements.editions.join(' / ');
+  }
+  metadata.append(make('p', edition, 'edition-status'));
+ }
+ if (state.sort === 'stars') metadata.append(make('p', entry.stars === null ? 'Stars not applicable' : '⭐ ' + entry.stars));
+ if (state.sort === 'updated') metadata.append(make('p', 'Release: ' + relativeDate(entry.releaseDate)));
+ if (state.sort === 'activity') metadata.append(make('p', 'Repo activity: ' + relativeDate(entry.activityDate)));
+
+ const actions = make('div', undefined, 'row-actions');
+ const source = make('p', undefined, 'source-link');
+ source.append(originalLink(entry.official ? 'Official source ↗' : 'Creator site ↗', entry, 'browse'));
+ const button = make('button', 'Details', 'outline');
+ button.setAttribute('aria-label', 'Details for ' + entry.name + ' by ' + entry.creator);
+ button.addEventListener('click', () => details(entry, button));
+ actions.append(source, button);
+ article.append(main, metadata, actions);
+ return article;
+}
 
 const filterNames = {kind:'Format',platform:'Operating system',edition:'Resolve edition',resolve:'Resolve version',access:'Access',processing:'Processing',evidence:'Evidence',pricing:'Payment model',architecture:'Processor architecture',q:'Search',official:'Official BMD resources',task:'Task'};
 const originalOptions = new Map();
@@ -185,7 +266,67 @@ function renderFilterSummary() {
   }
 }
 
-function render(){if(!data)return;$('#search').value=state.q;for(const el of $('#filters').elements)if(el.name){if(el.type==='checkbox')el.checked=state[el.name]===el.value;else el.value=state[el.name]||'';}const effectiveSort=state.q&&state.sort==='name'?'relevance':state.sort;$('#sort').value=effectiveSort;updateFilterOptions();renderFilterSummary();renderVersionNote();$('#all-mode').setAttribute('aria-pressed',state.mode==='all');$('#tested-mode').setAttribute('aria-pressed',state.mode==='tested');const found=sortEntries(filterEntries(data.entries,state).filter(e=>!collectionIds||collectionIds.has(e.id)),effectiveSort,state.q);$('#count').textContent=found.length+' resource'+(found.length===1?'':'s')+(found.length!==data.entries.length?' · '+data.entries.length+' total':'')+(data.latestUpdate?.addedCount?' · '+data.latestUpdate.addedCount+' new in this update':'');$('#mode-note').hidden=state.mode!=='tested';$('#mode-note').textContent='Starting points require a reviewed test report with an exact setup and limitations. Source documentation alone is not enough.';const results=$('#results');results.replaceChildren();if(!found.length){const empty=make('div',undefined,'empty');empty.append(make('h3',state.mode==='tested'?'No reviewed starting points yet.':'No documented matches for this setup.'),make('p',state.mode==='tested'?'Help build this collection by sharing a reproducible workflow and its limitations.':'A missing match may mean the requirements are unknown. Try removing a filter, or open the complete catalogue to inspect the source.'),link(state.mode==='tested'?'Share a tested workflow ↗':'Browse the full catalogue ↗',state.mode==='tested'?'https://github.com/subtlesayak/open-resolve-list/issues/new?template=testing.yml':data.catalogue));renderRecovery(empty);results.append(empty);}let group=null;for(const e of found.slice(0,limit)){const next=e.official?'Official resources':'Community tools';if(group!==next){results.append(make('h2',next,'group-title'));group=next;}results.append(row(e));}$('#more').hidden=found.length<=limit;$('#more').textContent='Show more resources ('+Math.max(0,found.length-limit)+' remaining)';}
+function render() {
+ if (!data) return;
+ $('#search').value = state.q;
+ for (const control of $('#filters').elements) {
+  if (!control.name) continue;
+  if (control.type === 'checkbox') control.checked = state[control.name] === control.value;
+  else control.value = state[control.name] || '';
+ }
+ const effectiveSort = state.q && state.sort === 'name' ? 'relevance' : state.sort;
+ $('#sort').value = effectiveSort;
+ updateFilterOptions();
+ renderFilterSummary();
+ renderVersionNote();
+ $('#all-mode').setAttribute('aria-pressed', state.mode === 'all');
+ $('#tested-mode').setAttribute('aria-pressed', state.mode === 'tested');
+ const found = sortEntries(
+  filterEntries(data.entries, state).filter(entry => !collectionIds || collectionIds.has(entry.id)),
+  effectiveSort,
+  state.q,
+ );
+
+ const officialHidden = state.official !== 'show' ? data.entries.filter(entry => entry.official).length : 0;
+ const count = found.length + (officialHidden ? ' community' : '') + (found.length === 1 ? ' resource' : ' resources');
+ const scope = officialHidden ? ' · ' + officialHidden + (officialHidden === 1 ? ' official resource hidden' : ' official resources hidden') : '';
+ const added = data.latestUpdate?.addedCount;
+ const update = added ? ' · ' + added + ' new in this update' : '';
+ $('#count').textContent = count + scope + update;
+ $('#search-result-count').textContent = found.length + (found.length === 1 ? ' match' : ' matches');
+ $('#search-results-link').hidden = false;
+ $('#filter-results-link').hidden = false;
+
+ $('#mode-note').hidden = state.mode !== 'tested';
+ $('#mode-note').textContent = 'Starting points require a reviewed test report with an exact setup and limitations. Source documentation alone is not enough.';
+ const results = $('#results');
+ results.replaceChildren();
+ if (!found.length) {
+  const tested = state.mode === 'tested';
+  const title = tested ? 'No reviewed starting points yet.' : state.q ? 'No matches for “' + state.q + '”.' : 'No documented matches for these filters.';
+  const message = tested ? 'Help build this collection by sharing a reproducible workflow and its limitations.'
+   : 'Try a different search, remove a filter, or browse the complete catalogue.';
+  const catalogueLink = tested ? link('Share a tested workflow ↗', 'https://github.com/subtlesayak/open-resolve-list/issues/new?template=testing.yml')
+   : link('Browse the full catalogue ↗', data.catalogue);
+  const empty = make('div', undefined, 'empty');
+  empty.append(make('h3', title), make('p', message), catalogueLink);
+  renderRecovery(empty);
+  results.append(empty);
+ }
+ let group = null;
+ for (const entry of found.slice(0, limit)) {
+  const next = entry.official ? 'Official resources' : 'Community tools';
+  if (group !== next) {
+   results.append(make('h2', next, 'group-title'));
+   group = next;
+  }
+  results.append(row(entry));
+ }
+ $('#more').hidden = found.length <= limit;
+ $('#more').textContent = 'Show more resources (' + Math.max(0, found.length - limit) + ' remaining)';
+ decorateCompareControls(found);
+ renderCompareTray();
+}
 function changelogView(h){
  const box=make('details',undefined,'release-changelog');
  box.append(make('summary','Changes in '+h.to+' ('+(h.changes?.length||1)+')'));
@@ -194,9 +335,7 @@ function changelogView(h){
  for(const source of h.changelogs||[{label:"Full source changelog",url:h.source}]){const p=make('p');p.append(link(source.label+' ↗',source.url));box.append(p);}
  return box;
 }
-async function init(){const controls=[...document.querySelectorAll('#search, .modes button, #filters select, #filters input, #clear, #share, #sort')];controls.forEach(el=>el.disabled=true);try{data=await loadCatalogue();for(const e of data.entries)e.evidence=e.evidenceLevels.map(level=>({level}));for(const [value,label]of Object.entries(FORMAT_LABELS))if(data.entries.some(e=>e.kind===value))$('#filters [name=kind]').append(new Option(label,value));for(const value of collectResolveVersions(data.entries))$('#filters [name=resolve]').append(new Option(value,value));$('.brand').textContent=data.title;document.title=data.title+' — Find tools for your setup';for(const [v,t]of Object.entries(TASKS)){$('#filters [name=task]').append(new Option(t,v));}const restored=stateFromUrl(location.search);state=location.search?restored.state:UNFILTERED;try{if(!location.search){const saved=JSON.parse(localStorage.getItem("open-resolve-setup")||"null");if(saved&&typeof saved==="object")state={...state,platform:["Windows","macOS","Linux","iPadOS"].includes(saved.platform)?saved.platform:"",edition:["","Free","Studio"].includes(saved.edition)?saved.edition:"",resolve:typeof saved.resolve==="string"?saved.resolve:""};}}catch{}for(const el of [...$('#filters').elements,$('#sort')])if(el.tagName==='SELECT'){const key=el.name||'sort';if(![...el.options].some(o=>o.value===state[key]))state[key]=DEFAULTS[key];}if(!['all','tested'].includes(state.mode))state.mode='all';$('#filter-toggle').addEventListener('click',()=>{const closed=$('#filter-controls').dataset.collapsed==='true';$('#filter-controls').dataset.collapsed=String(!closed);$('#filter-toggle').setAttribute('aria-expanded',String(closed));});$('#search').addEventListener('input',e=>setState({q:e.target.value}));$('#filters').addEventListener('submit',e=>e.preventDefault());$('#filters').addEventListener('change',e=>{if(e.target.name)setState({[e.target.name]:e.target.type==='checkbox'?(e.target.name==='official'?(e.target.checked?'show':'hide'):(e.target.checked?e.target.value:'')):e.target.value});});$('#sort').addEventListener('change',e=>setState({sort:e.target.value}));$('#clear').addEventListener('click',()=>{setState({...DEFAULTS,q:state.q,sort:state.sort});notify('Filters cleared.');});$('#all-mode').addEventListener('click',()=>setState({mode:'all'}));$('#tested-mode').addEventListener('click',()=>setState({mode:'tested'}));$('#more').addEventListener('click',()=>{limit+=30;render();});$('#share').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);notify('View link copied.');}catch{notify('Copy the address from your browser to share this view.');}});enableBackdropClose($('#detail-dialog'));$('#dialog-close').addEventListener('click',()=>$('#detail-dialog').close());$('#detail-dialog').addEventListener('close',()=>lastFocus?.focus());window.addEventListener('popstate',()=>{state=stateFromUrl(location.search).state;limit=30;render();});controls.forEach(el=>el.disabled=false);render();}catch(error){$('#count').textContent='The catalogue could not load.';$('#results').append(make('p','Reload the page, or use the complete GitHub catalogue. This site needs an HTTP server rather than opening index.html directly.'),link('Open catalogue ↗','https://github.com/subtlesayak/open-resolve-list'));console.error(error);}}
-const catalogueRender=render;
-render=()=>{catalogueRender();if(data){const effectiveSort=state.q&&state.sort==='name'?'relevance':state.sort;const found=sortEntries(filterEntries(data.entries,state).filter(e=>!collectionIds||collectionIds.has(e.id)),effectiveSort,state.q).slice(0,limit);decorateCompareControls(found);decorateResourceLinks(found);renderCompareTray();}};
+async function init(){const controls=[...document.querySelectorAll('#search, .modes button, #filters select, #filters input, #clear, #share, #sort')];controls.forEach(el=>el.disabled=true);try{data=await loadCatalogue();for(const e of data.entries)e.evidence=e.evidenceLevels.map(level=>({level}));for(const [value,label]of Object.entries(FORMAT_LABELS))if(data.entries.some(e=>e.kind===value))$('#filters [name=kind]').append(new Option(label,value));for(const value of collectResolveVersions(data.entries))$('#filters [name=resolve]').append(new Option(value,value));$('.brand').textContent=data.title;document.title=data.title+' — Find tools for your setup';for(const [v,t]of Object.entries(TASKS)){$('#filters [name=task]').append(new Option(t,v));}const restored=stateFromUrl(location.search);state=location.search?restored.state:UNFILTERED;try{if(!location.search){const saved=JSON.parse(localStorage.getItem("open-resolve-setup")||"null");if(saved&&typeof saved==="object")state={...state,platform:["Windows","macOS","Linux","iPadOS"].includes(saved.platform)?saved.platform:"",edition:["","Free","Studio"].includes(saved.edition)?saved.edition:"",resolve:typeof saved.resolve==="string"?saved.resolve:""};}}catch{}for(const el of [...$('#filters').elements,$('#sort')])if(el.tagName==='SELECT'){const key=el.name||'sort';if(![...el.options].some(o=>o.value===state[key]))state[key]=DEFAULTS[key];}if(!['all','tested'].includes(state.mode))state.mode='all';$('#filter-toggle').addEventListener('click',()=>{const closed=$('#filter-controls').dataset.collapsed==='true';$('#filter-controls').dataset.collapsed=String(!closed);$('#filter-toggle').setAttribute('aria-expanded',String(closed));});$('#search').addEventListener('input',e=>setState({q:e.target.value}));$('#filters').addEventListener('submit',e=>e.preventDefault());$('#filters').addEventListener('change',e=>{if(e.target.name)setState({[e.target.name]:e.target.type==='checkbox'?(e.target.name==='official'?(e.target.checked?'show':'hide'):(e.target.checked?e.target.value:'')):e.target.value});});$('#sort').addEventListener('change',e=>setState({sort:e.target.value}));$('#clear').addEventListener('click',()=>{setState({...DEFAULTS,q:state.q,sort:state.sort});notify('Filters cleared.');});$('#all-mode').addEventListener('click',()=>setState({mode:'all'}));$('#tested-mode').addEventListener('click',()=>setState({mode:'tested'}));$('#more').addEventListener('click',()=>{limit+=30;render();});$('#share').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);notify('View link copied.');}catch{notify('Copy the address from your browser to share this view.');}});enableBackdropClose($('#detail-dialog'));$('#dialog-close').addEventListener('click',()=>$('#detail-dialog').close());$('#detail-dialog').addEventListener('close',()=>lastFocus?.focus());window.addEventListener('popstate',()=>{state=stateFromUrl(location.search).state;limit=30;render();});controls.forEach(el=>el.disabled=false);render();}catch(error){$('#count').textContent='The catalogue could not load.';$('#search-result-count').textContent='The catalogue could not load. Reload to try again.';$('#results').append(make('p','Reload the page, or use the complete GitHub catalogue. This site needs an HTTP server rather than opening index.html directly.'),link('Open catalogue ↗','https://github.com/subtlesayak/open-resolve-list'));console.error(error);}}
 init().then(()=>{
  if(!data)return;
  comparison=comparisonFromUrl(location.search).reduce((ids,id)=>{const e=data.entries.find(e=>e.id===id);return e&&comparisonCompatible(e,ids.map(id=>data.entries.find(e=>e.id===id)))?[...ids,id]:ids;},[]);
@@ -209,7 +348,6 @@ init().then(()=>{
  window.addEventListener('popstate',()=>{comparison=comparisonFromUrl(location.search).reduce((ids,id)=>{const e=data.entries.find(e=>e.id===id);return e&&comparisonCompatible(e,ids.map(id=>data.entries.find(e=>e.id===id)))?[...ids,id]:ids;},[]);render();});
  render();
 });
-function row(e){const article=basicRow(e);const creator=article.querySelector('.creator');if(creator&&e.creator){const anchor=document.createElement('a');anchor.href='creator/'+e.creator.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'/';anchor.textContent=e.creator;creator.replaceChildren(anchor);}const evidence=article.querySelector('.evidence-label');if(evidence){const coverage=evidenceCoverage(e);evidence.textContent='Documentation completeness: '+coverage.established+'/'+coverage.total;evidence.title='Documented fields; open Details for sources and unknowns.';}return article;}
 
 document.addEventListener('resolve:setup-changed',()=>render());
 document.addEventListener('resolve:collection-filter',event=>{collectionIds=event.detail.active?new Set(event.detail.ids):null;limit=30;render();});
