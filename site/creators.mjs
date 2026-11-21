@@ -3,7 +3,14 @@ const cards=[...document.querySelectorAll('.creator-card')];
 const groups=[...document.querySelectorAll('.creator-group')];
 const count=document.querySelector('#creator-count');
 const empty=document.querySelector('#creator-empty');
+const topics=document.querySelectorAll('.topic-chip');
 let topic='';
 function render(){const query=(input?.value||'').trim().toLowerCase();let visible=0;for(const card of cards){const show=(!query||card.dataset.search.includes(query))&&(!topic||card.dataset.topics.split('|').includes(topic));card.hidden=!show;if(show)visible++;}for(const group of groups){group.hidden=!group.querySelector('.creator-card:not([hidden])');}if(count)count.textContent=`${visible} directory entr${visible===1?'y':'ies'}`;if(empty)empty.hidden=visible!==0;}
 input?.addEventListener('input',render);
-document.querySelectorAll('.topic-chip').forEach(button=>button.addEventListener('click',()=>{topic=button.dataset.topic||'';document.querySelectorAll('.topic-chip').forEach(item=>item.classList.toggle('is-active',item===button));render();}));
+for (const button of topics) {
+ button.addEventListener('click', () => {
+  topic = button.dataset.topic || '';
+  for (const item of topics) item.setAttribute('aria-pressed', String(item === button));
+  render();
+ });
+}

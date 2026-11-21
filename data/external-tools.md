@@ -1072,7 +1072,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 resolve-tools.com
 
-| [Resolve Tools / Marker Madness Suite](https://resolve-tools.com/) | 🆓 Free | 🪟 🍎 | Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed. |
+| [Resolve Tools / Marker Madness Suite](https://resolve-tools.com/) | 🆓 Free | 🪟 🍎 | Five-tool desktop app for markers, clip names, tracks, VFX plates and continuity reports. Studio 21.1+ only; older Classic scripts are separately listed. |
 
 #### 👤 retrograde.tools
 

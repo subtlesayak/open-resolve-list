@@ -25,8 +25,8 @@
     "vfx turnover",
     "marker exchange"
   ],
-  "description": "Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed.",
-  "display_description": "Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed.",
+  "description": "Five-tool desktop app for markers, clip names, tracks, VFX plates and continuity reports. Studio 21.1+ only; older Classic scripts are separately listed.",
+  "display_description": "Five-tool desktop app for markers, clip names, tracks, VFX plates and continuity reports. Studio 21.1+ only; older Classic scripts are separately listed.",
   "access": "🆓 Free",
   "accessGroup": "free",
   "platforms": [
@@ -120,6 +120,13 @@
       "source": "https://resolve-tools.com/",
       "checked_at": "2026-11-21",
       "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://resolve-tools.com/",
+      "checked_at": "2026-11-21",
+      "note": "Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed."
     }
   ],
   "unknownFields": [

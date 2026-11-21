@@ -22,7 +22,7 @@
       "translation",
       "batch"
     ],
-    "description": "Apple Silicon subtitle utility with local Qwen recognition/alignment and optional Doubao cloud captions, plus batch processing, Chinese correction and translation. Cloud captions no longer require local Qwen models; local modes still need downloads. The full macOS package is unsigned. Exact Resolve edition compatibility and repository reuse license are not established.",
+    "description": "Apple Silicon subtitle utility with local Qwen recognition/alignment and optional Doubao cloud captions. Local models and cloud-service requirements differ; installer is unsigned.",
     "access": "Public",
     "accessGroup": "public",
     "platforms": [
@@ -84,6 +84,13 @@
         "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
         "checked_at": "2026-11-21",
         "note": "Local Qwen and optional Doubao cloud paths have different model and network requirements."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+        "checked_at": "2026-11-21",
+        "note": "Apple Silicon subtitle utility with local Qwen recognition/alignment and optional Doubao cloud captions, plus batch processing, Chinese correction and translation. Cloud captions no longer require local Qwen models; local modes still need downloads. The full macOS package is unsigned. Exact Resolve edition compatibility and repository reuse license are not established."
       }
     ],
     "unknownFields": [

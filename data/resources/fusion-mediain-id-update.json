@@ -25,8 +25,8 @@
     "relink media",
     "dry run"
   ],
-  "description": "Lua tool for repairing Media Pool-backed Fusion MediaIn links after moving projects or timelines. Scans clip compositions and optionally all timelines; Fusion effects and adjustment clips require Resolve 21.1.2+. Uses path/unique-name matching, can import missing files, and offers dry-run, undo and verification. Ambiguous matches are left untouched; Fusion Clips inaccessible through the API and Loader nodes are outside its scope.",
-  "display_description": "Lua tool for repairing Media Pool-backed Fusion MediaIn links after moving projects or timelines. Scans clip compositions and optionally all timelines; Fusion effects and adjustment clips require Resolve 21.1.2+. Uses path/unique-name matching, can import missing files, and offers dry-run, undo and verification. Ambiguous matches are left untouched; Fusion Clips inaccessible through the API and Loader nodes are outside its scope.",
+  "description": "Repair Media Pool-backed Fusion MediaIn links after moving projects, with path matching, dry-run and undo. Fusion-effect scans require Resolve 21.1.2+; ambiguous matches stay unchanged.",
+  "display_description": "Repair Media Pool-backed Fusion MediaIn links after moving projects, with path matching, dry-run and undo. Fusion-effect scans require Resolve 21.1.2+; ambiguous matches stay unchanged.",
   "access": "Free; MIT stated upstream",
   "accessGroup": "free",
   "platforms": [
@@ -93,6 +93,13 @@
       "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
       "checked_at": "2026-11-21",
       "note": "The 21.1.2 minimum applies to Fusion effects, not the older clip-composition path."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
+      "checked_at": "2026-11-21",
+      "note": "Lua tool for repairing Media Pool-backed Fusion MediaIn links after moving projects or timelines. Scans clip compositions and optionally all timelines; Fusion effects and adjustment clips require Resolve 21.1.2+. Uses path/unique-name matching, can import missing files, and offers dry-run, undo and verification. Ambiguous matches are left untouched; Fusion Clips inaccessible through the API and Loader nodes are outside its scope."
     }
   ],
   "unknownFields": [

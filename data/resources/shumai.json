@@ -26,8 +26,8 @@
     "comments",
     "nle export"
   ],
-  "description": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Version 0.4.5 adds comment export for Resolve and other NLEs, space-key previews and comment-count badges. Hosting and optional AI services have separate requirements.",
-  "display_description": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Version 0.4.5 adds comment export for Resolve and other NLEs, space-key previews and comment-count badges. Hosting and optional AI services have separate requirements.",
+  "description": "Self-hosted asset review with video previews, timestamped feedback and comment export for Resolve. Optional agent Bash workflows now need external Runners.",
+  "display_description": "Self-hosted asset review with video previews, timestamped feedback and comment export for Resolve. Optional agent Bash workflows now need external Runners.",
   "access": "Free; hosting and AI services separate",
   "accessGroup": "free",
   "platforms": [],
@@ -83,6 +83,13 @@
       "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
       "checked_at": "2026-11-21",
       "note": "Original provider release notes reviewed; not independently installation-tested."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+      "checked_at": "2026-11-21",
+      "note": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Version 0.4.5 adds comment export for Resolve and other NLEs, space-key previews and comment-count badges. Hosting and optional AI services have separate requirements."
     }
   ],
   "unknownFields": [

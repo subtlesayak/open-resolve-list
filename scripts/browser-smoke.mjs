@@ -121,6 +121,8 @@ try{
  await page.locator('#results article.resource').first().waitFor();
  assert.ok(await page.locator('#results article.resource').count()>0);
  assert.match(await page.locator('#results article.resource .resource-page-link').first().getAttribute('href'),/^resource\//);
+ assert.equal(await page.locator('#results article.resource').first().locator('h3 a').count(),1);
+ assert.match(await page.locator('#count').textContent(),/community resources · \d+ official resources hidden/);
  assert.equal(requests.filter(url=>url.includes('catalogue-index.json')).length,1);
  const indexBytes=Buffer.byteLength(await readFile(new URL('../site/catalogue-index.json',import.meta.url)));assert.ok(indexBytes<=525329,'Browse index payload budget');
  assert.ok(Buffer.byteLength(await readFile(new URL('../site/creators.html',import.meta.url)))<=300000,'Creator HTML payload budget');
@@ -137,6 +139,60 @@ try{
     horizontalOverflow:document.documentElement.scrollWidth>innerWidth};
   })));
  }
+ const originalViewport=page.viewportSize();
+ let lastCardWidth;
+ for(const [width,height] of [[320,568],[390,844],[400,844],[401,844],[430,932],[667,375],[768,1024],[1024,768],[1050,900],[1051,900],[1440,900],[1920,1080]]){
+  await page.setViewportSize({width,height});
+  const layout=await page.locator('#results article.resource').first().evaluate(card=>{
+   const bounds=card.getBoundingClientRect();
+   const text=card.querySelector('.description').getBoundingClientRect();
+   const search=document.querySelector('#search').getBoundingClientRect();
+   const actions=card.querySelector('.row-actions').getBoundingClientRect();
+   const metadata=card.querySelector('.metadata').getBoundingClientRect();
+   const sort=document.querySelector('#sort').getBoundingClientRect();
+   const creator=card.querySelector('.row-actions a.source-cta');
+   const details=card.querySelector('.row-actions button');
+   const doc=document.documentElement;
+   return {
+    pageFits:doc.scrollWidth<=doc.clientWidth,
+    searchFits:search.top>=0&&search.bottom<=innerHeight,
+    cardWidth:bounds.width,
+    textWidth:text.width,
+    actionsFit:actions.left>=bounds.left&&actions.right<=bounds.right+1,
+    oneToolbar:actions.top>=metadata.bottom&&actions.height<=44,
+    sortHeight:sort.height,
+    cardHeight:bounds.height,
+    creatorEmphasized:getComputedStyle(creator).backgroundColor===getComputedStyle(document.querySelector('#compare-open')).backgroundColor,
+    creatorAligned:creator.getBoundingClientRect().height===details.getBoundingClientRect().height,
+   };
+  });
+  assert.ok(layout.pageFits&&layout.searchFits&&layout.actionsFit, 'Page, search, and actions fit at '+width+'px');
+  assert.ok(layout.sortHeight>=44,'Sort control keeps its height at '+width+'px');
+  assert.ok(layout.creatorEmphasized&&layout.creatorAligned,'Creator site is a prominent, aligned link at '+width+'px');
+  if(layout.cardWidth<740)assert.ok(layout.textWidth>=layout.cardWidth-1,'Card description uses the full width at '+width+'px');
+  else assert.ok(layout.textWidth>=320&&layout.textWidth<layout.cardWidth&&layout.oneToolbar,'Desktop card keeps readable columns and one action row at '+width+'px');
+  if(width===1051)assert.ok(layout.cardWidth>=lastCardWidth,'Results must grow across the 1050px breakpoint');
+  if(width>=1440)assert.ok(layout.cardHeight<260,'Desktop cards avoid an action stack');
+  lastCardWidth=layout.cardWidth;
+ }
+ await page.setViewportSize(originalViewport);
+ await page.locator('#more').press('Enter');
+ const cards=page.locator('#results article.resource');
+ assert.equal(await cards.count(),60);
+ assert.ok(await cards.nth(30).locator('.resource-page-link').evaluate(link=>link===document.activeElement));
+ await page.waitForFunction(()=>{
+  const bounds=document.activeElement.getBoundingClientRect();
+  return bounds.top>=document.querySelector('header').getBoundingClientRect().bottom&&bounds.bottom<=innerHeight;
+ });
+ assert.match(await page.locator('#pagination-status').textContent(),/30 added/);
+ const searchInput=page.getByRole('searchbox',{name:'Search tools'});
+ await searchInput.fill('zzq-no-catalogue-match-zzq');
+ assert.equal(await page.locator('#search-result-count').textContent(),'0 matches');
+ await page.locator('#search-results-link').press('Enter');
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'result-controls');
+ assert.match(await page.locator('#results').textContent(),/No matches for “zzq-no-catalogue-match-zzq”/);
+ await searchInput.fill('');
+ await page.locator('#results article.resource').first().waitFor();
  await page.locator('#results article.resource button').first().click();
  await page.locator('#dialog-body h3').filter({hasText:'Documentation completeness'}).waitFor();
  assert.equal(requests.filter(url=>url.includes('/api/v1/resources/')).length,1);
@@ -149,6 +205,9 @@ try{
  if(await page.locator('#filters select[name=kind]').isHidden())await page.locator('#filter-toggle').click();
  await page.locator('#filters select[name=kind]').selectOption('dctl');
  assert.match(page.url(),/kind=dctl/);
+ assert.equal(await page.locator('#filter-result-count').textContent(),await page.locator('#search-result-count').textContent());
+ await page.locator('#filter-results-link').press('Enter');
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'result-controls');
  await page.reload({waitUntil:'networkidle'});
  assert.equal(await page.locator('#filters select[name=kind]').inputValue(),'dctl');
  await page.route('**/api/v1/resources/*.json',route=>route.abort());
@@ -171,12 +230,51 @@ try{
  assert.match(await page.evaluate(()=>document.activeElement?.getAttribute('aria-label')||''),/^Compare /);
  await compareChecks.nth(1).check();
  assert.match(page.url(),/compare=/);
+ assert.match(await page.locator('#compare-status').textContent(),/2 of 3 selected/);
+ assert.ok(await page.locator('#compare-tray').evaluate(tray=>{
+  const bounds=tray.getBoundingClientRect();
+  return bounds.top>=document.querySelector('header').getBoundingClientRect().bottom&&bounds.bottom<=innerHeight;
+ }));
+ const selectedCard=page.locator('#results article:has(.compare-control input:checked)').last();
+ assert.equal(await selectedCard.locator('.compare-control').textContent(),'Compare');
+ await selectedCard.getByRole('link',{name:'Go to comparison'}).press('Enter');
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'compare-open');
  await page.getByRole('button',{name:'Compare selected'}).click();
  await page.locator('#compare-dialog').waitFor({state:'visible'});
- assert.equal(await page.locator('.compare-table').count(),1);
  assert.match(await page.locator('#compare-body').textContent(),/Side-by-side comparison/);
  assert.equal(await page.getByRole('heading',{name:'Material differences',exact:true}).count(),1);
  assert.equal(await page.getByRole('button',{name:'Export CSV'}).count(),1);
+ for(const [width,height] of [[320,568],[430,932],[768,1024],[1440,900]]){
+  await page.setViewportSize({width,height});
+  const comparisonLayout=await page.locator('#compare-dialog').evaluate(dialog=>{
+   const top=dialog.querySelector('.dialog-top');
+   const body=dialog.querySelector('#compare-body');
+   const compareTables=[...body.querySelectorAll('.compare-table-scroll')];
+   const before=top.getBoundingClientRect().left;
+   const tables=compareTables.map(scroller=>{
+    const hint=scroller.previousElementSibling;
+    scroller.scrollLeft=scroller.scrollWidth;
+    return {scrollable:scroller.scrollLeft>0,cue:hint.getClientRects().length>0,focusable:scroller.tabIndex===0};
+   });
+   return {contained:dialog.scrollWidth<=dialog.clientWidth&&body.scrollWidth<=body.clientWidth,
+    headingFixed:top.getBoundingClientRect().left===before,tables};
+  });
+  assert.ok(comparisonLayout.contained&&comparisonLayout.headingFixed,'Comparison chrome stays in view at '+width+'px');
+  assert.equal(comparisonLayout.tables.length,1);
+  for(const table of comparisonLayout.tables){
+   assert.ok(table.focusable);
+   assert.equal(table.cue,table.scrollable,'Scroll cue matches the table at '+width+'px');
+   if(width<=430)assert.ok(table.scrollable,'Comparison columns are reachable at '+width+'px');
+  }
+  if(width===320){
+   const scroller=page.getByRole('region',{name:'Side-by-side comparison table',exact:true});
+   await scroller.evaluate(region=>{region.scrollLeft=0;});
+   await scroller.press('ArrowRight');
+   await page.waitForFunction(()=>document.querySelector('.compare-table-scroll').scrollLeft>0);
+  }
+ }
+ await page.setViewportSize(originalViewport);
+ await audit();
  await page.getByLabel('Differences only',{exact:true}).check();
  assert.ok(await page.locator('.compare-table tbody tr[data-same=true]').evaluateAll(rows=>rows.every(row=>row.hidden)));
  await page.getByLabel('Differences only',{exact:true}).uncheck();
@@ -196,10 +294,19 @@ try{
  console.log(engine+': checking resource pages');
  await page.goto(base+'/resource/36-cinematic-film-titles/',{waitUntil:'networkidle'});
  assert.equal(await page.locator('h1').textContent(),'36 Cinematic Film Titles');
+ assert.ok(await page.locator('.resource-actions .source-cta').isVisible());
  assert.equal(await page.locator('script[type="application/ld+json"]').count(),1);
  assert.ok(await page.locator('h2').filter({hasText:'Sources and limitations'}).count());
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
  await audit();
+ await page.setViewportSize({width:320,height:568});
+ const alternatives=page.getByRole('region',{name:'Similar alternatives',exact:true});
+ assert.ok(await page.locator('.alternatives-scroll-hint').isVisible());
+ assert.ok(await alternatives.evaluate(region=>region.scrollWidth>region.clientWidth));
+ await alternatives.press('ArrowRight');
+ await page.waitForFunction(()=>document.querySelector('.alternatives-table-wrap').scrollLeft>0);
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.setViewportSize(originalViewport);
 
  await page.goto(base+'/resource.html?id=36-cinematic-film-titles',{waitUntil:'networkidle'});
  assert.equal(await page.locator('#resource h1').textContent(),'36 Cinematic Film Titles');
@@ -230,9 +337,16 @@ try{
  await page.goto(base+'/open-resolve-list/?q=auto-subs',{waitUntil:'networkidle'});
  await page.locator('#results article.resource').first().waitFor();
  assert.equal(await page.locator('#filters [name=edition]').inputValue(),'');
+ const save=page.locator('#results article[data-resource-id="auto-subs"] .collection-save summary');
+ await save.press('Enter');
  const bookmark=page.getByRole('button',{name:'Bookmark auto-subs',exact:true});await bookmark.press('Space');
  assert.equal(await page.evaluate(()=>document.activeElement?.getAttribute('aria-label')),'Bookmark auto-subs');
  assert.equal(await bookmark.getAttribute('aria-pressed'),'true');
+ assert.ok(await bookmark.locator('.save-mark').isVisible());
+ assert.match(await page.locator('#notice').textContent(),/Bookmarked · auto-subs/);
+ await bookmark.press('Escape');
+ assert.ok(await save.evaluate(summary=>summary===document.activeElement&&!summary.parentElement.open));
+ assert.ok(await save.locator('.save-mark').isVisible());
  await page.getByText('My collections',{exact:true}).click();
  const before=await page.evaluate(()=>localStorage.getItem('open-resolve-collections-v1'));
  await page.locator('#collection-import').setInputFiles({name:'invalid.json',mimeType:'application/json',buffer:Buffer.from('{"schema_version":1,"items":[{"id":"unknown","statuses":["installed"]}]}')});
@@ -252,6 +366,26 @@ try{
  await page.goto(base+'/creator/casey-faris/',{waitUntil:'networkidle'});
  assert.match(await page.locator('main').textContent(),/Learning topics and lessons/);
  await audit();
+ await page.goto(base+'/creators.html',{waitUntil:'networkidle'});
+ const allTopics=page.getByRole('button',{name:'All topics',exact:true});
+ assert.equal(await allTopics.getAttribute('aria-pressed'),'true');
+ const creatorCount=page.locator('#creator-count[role=status]');
+ const totalCreators=await creatorCount.textContent();
+ const colorTopic=page.getByRole('button',{name:'Color',exact:true});
+ await colorTopic.press('Enter');
+ assert.equal(await allTopics.getAttribute('aria-pressed'),'false');
+ assert.equal(await colorTopic.getAttribute('aria-pressed'),'true');
+ assert.ok(await colorTopic.locator('.topic-check').isVisible());
+ assert.notEqual(await creatorCount.textContent(),totalCreators);
+ for(const scheme of ['light','dark']){
+  await page.emulateMedia({colorScheme:scheme});
+  await page.waitForFunction(theme=>document.documentElement.dataset.theme===theme,scheme);
+  await audit();
+ }
+ await page.goto(base+'/directory.html',{waitUntil:'networkidle'});
+ assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
+ assert.equal(await page.getByRole('navigation',{name:'Main',exact:true}).getByRole('link',{name:'Workflows',exact:true}).count(),1);
+ assert.ok(await page.locator('#theme').isVisible());
  if(engine==='chromium'&&!mobile)await checkAnalytics(browser);
  console.log(engine+(mobile?' mobile':' desktop')+' smoke passed: rendered catalogue, search, static page, dynamic API page, and keyboard skip link.');
 }finally{

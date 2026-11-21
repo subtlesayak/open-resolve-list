@@ -22,8 +22,8 @@
     "running time",
     "tracks"
   ],
-  "description": "Resolve Tools Classic 1.x: five frozen Python scripts for markers, clip renaming, tracks, running time and clip collection. Provider documents Resolve 18 through 21.0, Free or Studio. Python 3 is required. PolyForm Noncommercial 1.0.0; the newer Studio 21.1+ desktop app is a separate catalogue entry.",
-  "display_description": "Resolve Tools Classic 1.x: five frozen Python scripts for markers, clip renaming, tracks, running time and clip collection. Provider documents Resolve 18 through 21.0, Free or Studio. Python 3 is required. PolyForm Noncommercial 1.0.0; the newer Studio 21.1+ desktop app is a separate catalogue entry.",
+  "description": "Frozen Resolve Tools Classic scripts for markers, names, tracks and running time. Resolve 18–21.0 Free/Studio, Python 3. PolyForm Noncommercial license.",
+  "display_description": "Frozen Resolve Tools Classic scripts for markers, names, tracks and running time. Resolve 18–21.0 Free/Studio, Python 3. PolyForm Noncommercial license.",
   "access": "Free for noncommercial use; PolyForm Noncommercial 1.0.0",
   "accessGroup": "public",
   "platforms": [
@@ -118,6 +118,13 @@
       "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/blob/main/LICENSE",
       "checked_at": "2026-11-21",
       "note": "PolyForm Noncommercial 1.0.0, not an unrestricted open-source license."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+      "checked_at": "2026-11-21",
+      "note": "Resolve Tools Classic 1.x: five frozen Python scripts for markers, clip renaming, tracks, running time and clip collection. Provider documents Resolve 18 through 21.0, Free or Studio. Python 3 is required. PolyForm Noncommercial 1.0.0; the newer Studio 21.1+ desktop app is a separate catalogue entry."
     }
   ],
   "unknownFields": [

@@ -9048,6 +9048,13 @@
           "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
           "checked_at": "2026-11-21",
           "note": "The 21.1.2 minimum applies to Fusion effects, not the older clip-composition path."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
+          "checked_at": "2026-11-21",
+          "note": "Lua tool for repairing Media Pool-backed Fusion MediaIn links after moving projects or timelines. Scans clip compositions and optionally all timelines; Fusion effects and adjustment clips require Resolve 21.1.2+. Uses path/unique-name matching, can import missing files, and offers dry-run, undo and verification. Ambiguous matches are left untouched; Fusion Clips inaccessible through the API and Loader nodes are outside its scope."
         }
       ]
     },
@@ -10938,6 +10945,13 @@
           "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/blob/main/LICENSE",
           "checked_at": "2026-11-21",
           "note": "PolyForm Noncommercial 1.0.0, not an unrestricted open-source license."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+          "checked_at": "2026-11-21",
+          "note": "Resolve Tools Classic 1.x: five frozen Python scripts for markers, clip renaming, tracks, running time and clip collection. Provider documents Resolve 18 through 21.0, Free or Studio. Python 3 is required. PolyForm Noncommercial 1.0.0; the newer Studio 21.1+ desktop app is a separate catalogue entry."
         }
       ]
     },
@@ -15468,6 +15482,13 @@
           "source": "https://resolve-tools.com/",
           "checked_at": "2026-11-21",
           "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21",
+          "note": "Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed."
         }
       ]
     },
@@ -16220,6 +16241,13 @@
           "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
           "checked_at": "2026-11-21",
           "note": "Original provider release notes reviewed; not independently installation-tested."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+          "checked_at": "2026-11-21",
+          "note": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Version 0.4.5 adds comment export for Resolve and other NLEs, space-key previews and comment-count badges. Hosting and optional AI services have separate requirements."
         }
       ]
     },
@@ -16914,6 +16942,13 @@
           "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
           "checked_at": "2026-11-21",
           "note": "Local Qwen and optional Doubao cloud paths have different model and network requirements."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+          "checked_at": "2026-11-21",
+          "note": "Apple Silicon subtitle utility with local Qwen recognition/alignment and optional Doubao cloud captions, plus batch processing, Chinese correction and translation. Cloud captions no longer require local Qwen models; local modes still need downloads. The full macOS package is unsigned. Exact Resolve edition compatibility and repository reuse license are not established."
         }
       ]
     },

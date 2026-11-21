@@ -25,8 +25,8 @@
     "nvidia",
     "rocm"
   ],
-  "description": "Community Fedora container setup for Resolve Free or Studio 21.1 on Linux using Docker or Distrobox. Documents AMD ROCm/OpenCL and NVIDIA container setup. Provider tested AMD/X11; NVIDIA and Wayland validation remains incomplete. Supply the official Resolve installer and any required Studio license separately.",
-  "display_description": "Community Fedora container setup for Resolve Free or Studio 21.1 on Linux using Docker or Distrobox. Documents AMD ROCm/OpenCL and NVIDIA container setup. Provider tested AMD/X11; NVIDIA and Wayland validation remains incomplete. Supply the official Resolve installer and any required Studio license separately.",
+  "description": "Fedora container setup targeting Resolve Free/Studio 21.2 on Linux, using Docker or Distrobox. Supply the official installer/license. NVIDIA and Wayland validation remains incomplete.",
+  "display_description": "Fedora container setup targeting Resolve Free/Studio 21.2 on Linux, using Docker or Distrobox. Supply the official installer/license. NVIDIA and Wayland validation remains incomplete.",
   "access": "Free",
   "accessGroup": "free",
   "platforms": [
