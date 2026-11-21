@@ -102,10 +102,12 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-11-19T13:57:59Z",
         "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
-        "summary": "Combines Extract/Edit workspaces with a frame-timed timeline, draggable ranges and cue timing, expanded subtitle editing and WebVTT import. Improves cancellation, preview decoding and unsaved-edit protection. GPU OCR builds require GPU mode. Windows installers remain unsigned; setup downloads and verifies the app and OCR payloads.",
+        "summary": "Brings extraction and subtitle editing into one workspace.",
         "changes": [
-          "Combines Extract/Edit workspaces with a frame-timed timeline, draggable ranges and cue timing, expanded subtitle editing and WebVTT import.",
-          "Improves cancellation, preview decoding and unsaved-edit protection. GPU OCR builds require GPU mode. Windows installers remain unsigned; setup downloads and verifies the app and OCR payloads."
+          "Brings extraction and subtitle editing into one workspace.",
+          "Adds a timeline with draggable ranges and subtitle timing, plus WebVTT import.",
+          "Improves cancellation, previews and protection against losing unsaved edits.",
+          "Windows installers remain unsigned; GPU builds require GPU processing."
         ],
         "changelogs": [
           {
@@ -120,10 +122,15 @@
             "label": "Full provider changelog",
             "url": "https://github.com/BambooYC123/SubtitleYC/blob/main/CHANGELOG.md"
           }
-        ]
+        ],
+        "display_name": "SubtitleYC"
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.20",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.20"

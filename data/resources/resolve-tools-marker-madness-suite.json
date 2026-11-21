@@ -148,16 +148,19 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": null,
       "source": "https://resolve-tools.com/",
-      "summary": "The separate Resolve Tools app now brings five tools into one window for Studio 21.1+. Version 2.1 adds scene-level Master Continuity reports, workbook/PDF output and Premiere marker import. Classic Python scripts remain separately listed for older hosts.",
+      "summary": "Combines its five editing tools in one desktop app for Resolve Studio 21.1 or later.",
       "changes": [
-        "The separate Resolve Tools app now brings five tools into one window for Studio 21.1+. Version 2.1 adds scene-level Master Continuity reports, workbook/PDF output and Premiere marker import. Classic Python scripts remain separately listed for older hosts."
+        "Combines its five editing tools in one desktop app for Resolve Studio 21.1 or later.",
+        "Adds scene-level continuity reports as spreadsheets and PDFs.",
+        "Adds Premiere marker import alongside Avid workflows. Older Classic scripts are listed separately."
       ],
       "changelogs": [
         {
           "label": "Provider changelog",
           "url": "https://resolve-tools.com/"
         }
-      ]
+      ],
+      "display_name": "Resolve Tools"
     }
   ],
   "legacy_id": "1d42f28c9972",

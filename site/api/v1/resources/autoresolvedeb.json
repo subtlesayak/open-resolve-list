@@ -95,9 +95,10 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-11-14T15:41:11Z",
         "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
-        "summary": "Reworks shared disk-space and download helpers, dependency installation, FUSE handling and Rusticl setup across the Linux installer methods. Source revision; no published product release or installation test.",
+        "summary": "Improves free-space checks and download handling.",
         "changes": [
-          "Reworks shared disk-space and download helpers, dependency installation, FUSE handling and Rusticl setup across the Linux installer methods. Source revision; no published product release or installation test."
+          "Improves free-space checks and download handling.",
+          "Updates Linux dependencies and graphics-driver setup."
         ],
         "changelogs": [
           {
@@ -108,7 +109,8 @@
             "label": "Full source comparison",
             "url": "https://github.com/psygreg/autoresolvedeb/compare/2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e...5e1b3b003fa8229dbdc748d5efaa5df8f233cc24"
           }
-        ]
+        ],
+        "display_name": "AutoResolveDeb"
       },
       {
         "name": "psygreg/autoresolvedeb",
@@ -152,6 +154,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

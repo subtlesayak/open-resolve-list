@@ -93,9 +93,10 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-17T12:27:48Z",
       "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c",
-      "summary": "Updates the resource directory with audio and VHS-effect links and a revised SnapCaptions destination. These are directory changes, not plugin releases.",
+      "summary": "Adds links to audio resources and a VHS effect.",
       "changes": [
-        "Updates the resource directory with audio and VHS-effect links and a revised SnapCaptions destination. These are directory changes, not plugin releases."
+        "Adds links to audio resources and a VHS effect.",
+        "Updates the SnapCaptions link. These are directory changes, not plugin releases."
       ],
       "changelogs": [
         {
@@ -106,7 +107,8 @@
           "label": "Full source comparison",
           "url": "https://github.com/cutbypham/awesome-davinci-resolve/compare/86cd3895754822fd0a4ead1c241989d235921705...34686f6071ed82ec7b2c1945ec85585ed6883c3c"
         }
-      ]
+      ],
+      "display_name": "Awesome DaVinci Resolve directory"
     },
     {
       "name": "cutbypham/awesome-davinci-resolve",

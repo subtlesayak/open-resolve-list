@@ -2,6 +2,20 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {groupUpdates} from '../site/updates.mjs';
+import {updatePresentation} from '../site/updates.mjs';
+
+test('release presentation keeps exact revisions in data while showing readable labels and change lists',()=>{
+ const revision={name:'owner/repository',display_name:'Readable Tool',from:'a'.repeat(40),to:'b'.repeat(40),changes:['Fixes media matching.','Keeps ambiguous matches unchanged.'],summary:'Fixes media matching.'};
+ const result=updatePresentation(revision);
+ assert.equal(result.name,'Readable Tool');
+ assert.equal(result.version,'Source update');
+ assert.deepEqual(result.changes,revision.changes);
+ assert.equal(result.dateLabel,'Source updated');
+ assert.doesNotMatch(JSON.stringify(result),/[a-f0-9]{40}/);
+ assert.equal(revision.to,'b'.repeat(40));
+ assert.equal(updatePresentation({from:'1.0',to:'1.1',summary:'Fixes export.'}).version,'1.0 → 1.1');
+ assert.equal(updatePresentation({from:'Not established',to:'1.2',summary:'Version identified.'}).version,'Version now documented: 1.2');
+});
 test('release groups retain every provider change under its own catalogue version',()=>{
  const read=p=>JSON.parse(fs.readFileSync(new URL(p,import.meta.url),'utf8'));
  const releases=read('../data/catalogue-releases.json').releases,updates=read('../data/provider-updates.json').entries;

@@ -113,16 +113,19 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": null,
       "source": "https://nablast.com/release-notes/",
-      "summary": "Documents handles on rendered clips and on the graded return to Premiere, Premiere Pro 2027 readiness and faster startup for large transcodes. Version 1.1 adds transfers between two Mac/Windows computers using one license. The source gives November 2026 without an exact release day.",
+      "summary": "Keeps extra frames around rendered clips so they can be extended or recut in Resolve and on return to Premiere.",
       "changes": [
-        "Documents handles on rendered clips and on the graded return to Premiere, Premiere Pro 2027 readiness and faster startup for large transcodes. Version 1.1 adds transfers between two Mac/Windows computers using one license. The source gives November 2026 without an exact release day."
+        "Keeps extra frames around rendered clips so they can be extended or recut in Resolve and on return to Premiere.",
+        "Improves large transcodes and adds Premiere Pro 2027 support.",
+        "Also documents transfers between two Mac/Windows computers using one license."
       ],
       "changelogs": [
         {
           "label": "Provider changelog",
           "url": "https://nablast.com/release-notes/"
         }
-      ]
+      ],
+      "display_name": "CrossFlow"
     }
   ],
   "search_sources": [

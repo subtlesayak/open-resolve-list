@@ -111,16 +111,19 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-11-18",
         "source": "https://fcp2aaf.com/changelog/",
-        "summary": "Supports Final Cut Pro 13/FCPXML 1.15 and corrects placement of clips disconnected from the primary storyline. Adds progress and cancellation during final writes and improves unusual-timeline handling and responsiveness.",
+        "summary": "Adds support for Final Cut Pro 13 and FCPXML 1.15.",
         "changes": [
-          "Supports Final Cut Pro 13/FCPXML 1.15 and corrects placement of clips disconnected from the primary storyline. Adds progress and cancellation during final writes and improves unusual-timeline handling and responsiveness."
+          "Adds support for Final Cut Pro 13 and FCPXML 1.15.",
+          "Corrects placement of clips disconnected from the primary storyline.",
+          "Adds progress and cancellation during final writes and improves responsiveness."
         ],
         "changelogs": [
           {
             "label": "Provider changelog",
             "url": "https://fcp2aaf.com/changelog/"
           }
-        ]
+        ],
+        "display_name": "fcp2aaf"
       },
       {
         "name": "fcp2aaf",
@@ -227,6 +230,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.30",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"

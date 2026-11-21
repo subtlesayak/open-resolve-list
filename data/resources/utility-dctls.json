@@ -109,9 +109,11 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-10-28T13:58:48Z",
       "source": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb",
-      "summary": "Adds a scene-linear Dissolve DCTL transition with input transfer-function, alpha and easing controls. The provider places the display transform after the dissolve; this differs from a display-referred crossfade.",
+      "summary": "Adds a dissolve transition that blends scene-light values.",
       "changes": [
-        "Adds a scene-linear Dissolve DCTL transition with input transfer-function, alpha and easing controls. The provider places the display transform after the dissolve; this differs from a display-referred crossfade."
+        "Adds a dissolve transition that blends scene-light values.",
+        "Includes controls for easing, transparency and the input color encoding.",
+        "Use it before the display transform, following the provider’s color-workflow notes."
       ],
       "changelogs": [
         {
@@ -122,7 +124,8 @@
           "label": "Full source comparison",
           "url": "https://github.com/thatcherfreeman/utility-dctls/compare/771d6cbbb22c7f27141afaf1d8edbffda702dfd9...e78315c3600e23409f0f0cd7e1212af73323cbcb"
         }
-      ]
+      ],
+      "display_name": "Thatcher Freeman’s Utility DCTLs"
     },
     {
       "name": "thatcherfreeman/utility-dctls",

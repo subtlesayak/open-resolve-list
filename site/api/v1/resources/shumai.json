@@ -105,9 +105,11 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-11-18T13:25:32Z",
         "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
-        "summary": "Adds Korean UI and CLI publication/PATH fixes. Replaces the built-in server Bash sandbox with external Runners; Bash is disabled by default and existing Bash workflows need a separately configured Runner.",
+        "summary": "Adds a Korean interface and improves command-line setup.",
         "changes": [
-          "Adds Korean UI and CLI publication/PATH fixes. Replaces the built-in server Bash sandbox with external Runners; Bash is disabled by default and existing Bash workflows need a separately configured Runner."
+          "Adds a Korean interface and improves command-line setup.",
+          "Moves optional agent command execution into separately configured Runners.",
+          "Command execution is off by default; existing workflows that use it need a Runner."
         ],
         "changelogs": [
           {
@@ -122,7 +124,8 @@
             "label": "Full provider changelog",
             "url": "https://github.com/shumaiOne/shumai/blob/main/CHANGELOG.md"
           }
-        ]
+        ],
+        "display_name": "Shumai"
       },
       {
         "name": "shumaiOne/shumai",
@@ -289,6 +292,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.30",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"

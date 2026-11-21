@@ -137,9 +137,12 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-10-29T16:31:22Z",
         "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
-        "summary": "Labels the scripts Resolve Tools Classic 1.x, frozen for Resolve 18 through 21.0 (Free or Studio), with Python 3 required. Adds the PolyForm Noncommercial 1.0.0 license; commercial use is not covered by that license. Studio 21.1+ users are directed to the separate Resolve Tools app.",
+        "summary": "The old Python scripts are now frozen as the Classic edition.",
         "changes": [
-          "Labels the scripts Resolve Tools Classic 1.x, frozen for Resolve 18 through 21.0 (Free or Studio), with Python 3 required. Adds the PolyForm Noncommercial 1.0.0 license; commercial use is not covered by that license. Studio 21.1+ users are directed to the separate Resolve Tools app."
+          "The old Python scripts are now frozen as the Classic edition.",
+          "Documents support for Resolve 18 through 21.0, Free or Studio, with Python 3.",
+          "Adds the PolyForm Noncommercial license. Check it before using the scripts for commercial work.",
+          "The newer Studio 21.1+ app is listed separately."
         ],
         "changelogs": [
           {
@@ -150,7 +153,8 @@
             "label": "Full source comparison",
             "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/compare/5990c1c77919d0f847d5332b4d57a001f985d86b...fcfe653b7d2afdad8b926e8002c13d82ea86e8f0"
           }
-        ]
+        ],
+        "display_name": "Resolve Tools Classic"
       },
       {
         "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
@@ -174,6 +178,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

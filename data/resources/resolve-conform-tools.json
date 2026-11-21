@@ -93,9 +93,11 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-19T15:19:34Z",
       "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/bb17a7edf5c2ed92839053eb9570716ada4c1521",
-      "summary": "Adds orientation-independent long-edge and short-edge scaling to CreateExportTimelines, including even-pixel snapping and edge-aware no-upscale checks. Removes the older ExportTimelineGenerator script.",
+      "summary": "Can scale export timelines by the long or short edge, including mixed portrait and landscape footage.",
       "changes": [
-        "Adds orientation-independent long-edge and short-edge scaling to CreateExportTimelines, including even-pixel snapping and edge-aware no-upscale checks. Removes the older ExportTimelineGenerator script."
+        "Can scale export timelines by the long or short edge, including mixed portrait and landscape footage.",
+        "Improves even-pixel sizing and checks that prevent unwanted upscaling.",
+        "Removes the older ExportTimelineGenerator script."
       ],
       "changelogs": [
         {
@@ -106,7 +108,8 @@
           "label": "Full source comparison",
           "url": "https://github.com/Pinionist/Resolve-Conform-tools/compare/52b394069fadc47471c8629b61054b0d78323b38...bb17a7edf5c2ed92839053eb9570716ada4c1521"
         }
-      ]
+      ],
+      "display_name": "Resolve Conform Tools"
     },
     {
       "name": "Pinionist/Resolve-Conform-tools",

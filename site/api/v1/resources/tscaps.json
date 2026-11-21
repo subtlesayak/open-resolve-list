@@ -99,9 +99,11 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-11-21T02:01:32Z",
         "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0",
-        "summary": "Expands the web app from captions into short-video editing with b-roll, graphics, transitions, aspect ratios and audio controls, plus optional MCP/agent editing. Web 0.7.0 and engine 0.8 are separate component versions.",
+        "summary": "Adds b-roll, graphics, transitions, audio controls and aspect-ratio choices to the web editor.",
         "changes": [
-          "Expands the web app from captions into short-video editing with b-roll, graphics, transitions, aspect ratios and audio controls, plus optional MCP/agent editing. Web 0.7.0 and engine 0.8 are separate component versions."
+          "Adds b-roll, graphics, transitions, audio controls and aspect-ratio choices to the web editor.",
+          "Adds optional editing through an agent connection.",
+          "The web app is 0.7.0; its separate processing engine is 0.8."
         ],
         "changelogs": [
           {
@@ -116,7 +118,8 @@
             "label": "Full provider changelog",
             "url": "https://github.com/francozanardi/tscaps/blob/main/CHANGELOG.md"
           }
-        ]
+        ],
+        "display_name": "tscaps"
       },
       {
         "name": "francozanardi/tscaps",
@@ -180,6 +183,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

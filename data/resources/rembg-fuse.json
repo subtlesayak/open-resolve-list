@@ -93,9 +93,11 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-14T07:06:13Z",
       "source": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7",
-      "summary": "Fixes Resolve 21.1 compatibility and model updating. The README identifies Fuse 0.5, script 0.3 and setup manager 1.4; this catalogue tracks the source revision rather than treating those component labels as a published release.",
+      "summary": "Fixes compatibility with Resolve 21.1.",
       "changes": [
-        "Fixes Resolve 21.1 compatibility and model updating. The README identifies Fuse 0.5, script 0.3 and setup manager 1.4; this catalogue tracks the source revision rather than treating those component labels as a published release."
+        "Fixes compatibility with Resolve 21.1.",
+        "Fixes models not updating.",
+        "The README identifies Fuse 0.5 and setup manager 1.4; this listing tracks the source update, not a new packaged release."
       ],
       "changelogs": [
         {
@@ -106,7 +108,8 @@
           "label": "Full source comparison",
           "url": "https://github.com/Akascape/Rembg-Fuse/compare/9726f575d044494c66c70611109d90559191985f...5f5f9e681a54684fdff4205f444a589d3f58eba7"
         }
-      ]
+      ],
+      "display_name": "Rembg Fuse"
     }
   ],
   "legacy_id": "c40af9ff9273",

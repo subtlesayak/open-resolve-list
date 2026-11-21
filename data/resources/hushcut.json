@@ -104,9 +104,11 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-10T23:04:45Z",
       "source": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha",
-      "summary": "Publishes a 0.4.0 alpha with manual silence-region adjustments, multichannel audio fixes, revised silence removal and linked-clip handling. Moves to development Wails v3 and WaveSurfer v8. This remains a prerelease.",
+      "summary": "Adds manual adjustments to silence-removal regions.",
       "changes": [
-        "Publishes a 0.4.0 alpha with manual silence-region adjustments, multichannel audio fixes, revised silence removal and linked-clip handling. Moves to development Wails v3 and WaveSurfer v8. This remains a prerelease."
+        "Adds manual adjustments to silence-removal regions.",
+        "Improves multichannel audio and linked-clip handling.",
+        "Updates its interface framework and waveform viewer. This is still an alpha release."
       ],
       "changelogs": [
         {
@@ -117,7 +119,8 @@
           "label": "Full source comparison",
           "url": "https://github.com/oliwoli/HushCut/compare/160dfffed4739108c5e22fecdf734ab74460105b...v0.4.0-alpha"
         }
-      ]
+      ],
+      "display_name": "HushCut"
     }
   ],
   "legacy_id": "ddffc0596b1f",

@@ -74,7 +74,7 @@ export function buildSite(){
  for(const preview of previews){const entry=entries.find(e=>e.id===preview.resource_id);if(!entry||!/^[-a-z0-9]+\.svg$/.test(preview.file)||!preview.permission||!preview.color_context)throw Error('Invalid preview record');entry.preview=preview;}
  const complements=read('data/relationships.json').complements;
  for(const relation of complements){const from=entries.find(e=>e.id===relation.from),to=entries.find(e=>e.id===relation.to);if(!from||!to||!relation.reason||!relation.sources?.length)throw Error('Invalid complementary relationship');(from.worksTogether||=[]).push({...relation,resourceId:to.id,name:to.name});(to.worksTogether||=[]).push({...relation,resourceId:from.id,name:from.name});}
- const history={entries:entries.flatMap(entry=>entry.history)};
+ const history={entries:entries.flatMap(entry=>entry.history.map(change=>({...change,name:change.name||entry.name,url:change.url||entry.url})))};
  const releases=read('data/catalogue-releases.json').releases;
  for(const entry of entries) entry.catalogueReleases=releases.filter(release=>release.body?.includes(entry.url)).map(release=>({version:release.version,url:release.url}));
  const latestUpdate=read('data/latest-update.json');

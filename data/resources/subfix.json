@@ -132,9 +132,11 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-16T10:20:27Z",
       "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
-      "summary": "Fixes Doubao cloud-caption generation incorrectly requiring local Qwen models. Local Qwen recognition/alignment still requires model downloads. The full Apple Silicon package is unsigned and omits model weights.",
+      "summary": "Fixes cloud captions incorrectly asking for local Qwen models.",
       "changes": [
-        "Fixes Doubao cloud-caption generation incorrectly requiring local Qwen models. Local Qwen recognition/alignment still requires model downloads. The full Apple Silicon package is unsigned and omits model weights."
+        "Fixes cloud captions incorrectly asking for local Qwen models.",
+        "Local recognition and alignment still need model downloads.",
+        "The Apple Silicon installer remains unsigned and does not include model weights."
       ],
       "changelogs": [
         {
@@ -149,7 +151,8 @@
           "label": "Full provider changelog",
           "url": "https://github.com/HooperH/SubFix/blob/main/CHANGELOG.md"
         }
-      ]
+      ],
+      "display_name": "SubFix"
     },
     {
       "name": "HooperH/SubFix",

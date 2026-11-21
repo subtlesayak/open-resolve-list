@@ -110,9 +110,10 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-16T04:03:36Z",
       "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
-      "summary": "Adds the free macOS 14+ Pe sârma app to the manager and detects DMG/Homebrew installations. Recognition requires Manager 1.42.0 or later.",
+      "summary": "Adds the free Pe sârmă app for macOS 14 or later.",
       "changes": [
-        "Adds the free macOS 14+ Pe sârma app to the manager and detects DMG/Homebrew installations. Recognition requires Manager 1.42.0 or later."
+        "Adds the free Pe sârmă app for macOS 14 or later.",
+        "Recognizes installations made through a DMG or Homebrew. This needs Manager 1.42.0 or later."
       ],
       "changelogs": [
         {
@@ -123,7 +124,8 @@
           "label": "Full provider changelog",
           "url": "https://github.com/gordasgdc/gdc-plugin-manager/blob/main/CHANGELOG.md"
         }
-      ]
+      ],
+      "display_name": "GDC Plugin Manager"
     },
     {
       "name": "gordasgdc/gdc-plugin-manager",

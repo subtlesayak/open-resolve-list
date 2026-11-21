@@ -114,9 +114,12 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-10-27T15:53:28Z",
         "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
-        "summary": "Scans all timelines and clip compositions, with Fusion-effect and adjustment-clip support on Resolve 21.1.2+. Matches by path before unique names, can import missing media, and adds dry-run, undo and verification. Ambiguous matches remain unchanged; older hosts skip Fusion effects.",
+        "summary": "Repairs more broken media links when projects or timelines move between machines.",
         "changes": [
-          "Scans all timelines and clip compositions, with Fusion-effect and adjustment-clip support on Resolve 21.1.2+. Matches by path before unique names, can import missing media, and adds dry-run, undo and verification. Ambiguous matches remain unchanged; older hosts skip Fusion effects."
+          "Repairs more broken media links when projects or timelines move between machines.",
+          "Can scan every timeline, match media by file path and import missing files.",
+          "Adds preview-only checks, undo and verification; ambiguous matches are left alone.",
+          "Scanning Fusion effects and adjustment clips requires Resolve 21.1.2 or later."
         ],
         "changelogs": [
           {
@@ -127,10 +130,15 @@
             "label": "Full source comparison",
             "url": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/compare/99797ede9151cdb34c85419543082985a4372310...9f630a91c6433bb61025fe0efac880a2a596589c"
           }
-        ]
+        ],
+        "display_name": "Fusion MediaIn ID Update"
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.4",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.4"

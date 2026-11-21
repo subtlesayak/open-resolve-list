@@ -104,9 +104,10 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-08T15:56:16Z",
       "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
-      "summary": "Updates the bundled scripting API reference for Resolve 21.1.1, 21.1.2 and 21.2. This is a documentation revision, not a new runtime feature release.",
+      "summary": "Updates the scripting reference for Resolve 21.1.1, 21.1.2 and 21.2.",
       "changes": [
-        "Updates the bundled scripting API reference for Resolve 21.1.1, 21.1.2 and 21.2. This is a documentation revision, not a new runtime feature release."
+        "Updates the scripting reference for Resolve 21.1.1, 21.1.2 and 21.2.",
+        "This is a documentation update, not a new script feature release."
       ],
       "changelogs": [
         {
@@ -117,7 +118,8 @@
           "label": "Full source comparison",
           "url": "https://github.com/thatcherfreeman/resolve-scripts/compare/2ab9ed607bee8c35c773725e77ed09f316a8deee...b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee"
         }
-      ]
+      ],
+      "display_name": "Thatcher Freeman’s Resolve Scripts"
     },
     {
       "name": "thatcherfreeman/resolve-scripts",

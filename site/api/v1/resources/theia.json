@@ -111,9 +111,11 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-11-19T06:40:08Z",
         "source": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
-        "summary": "Improves EDL reel-name reading and dissolve handling, and displays scanned frames on the Elements tab. The source VERSION file reads 1.1.0, but no published release was established; the recorded version remains a source revision.",
+        "summary": "Improves reel-name reading and dissolve handling in EDL files.",
         "changes": [
-          "Improves EDL reel-name reading and dissolve handling, and displays scanned frames on the Elements tab. The source VERSION file reads 1.1.0, but no published release was established; the recorded version remains a source revision."
+          "Improves reel-name reading and dissolve handling in EDL files.",
+          "Shows scanned frames in the Elements tab.",
+          "The source identifies version 1.1.0, but no packaged release was established."
         ],
         "changelogs": [
           {
@@ -124,7 +126,8 @@
             "label": "Full source comparison",
             "url": "https://github.com/ming-qiu/theia/compare/7e4d8ffc3929ba78de9854e3bec0a8193677455e...ed30814352c9fb97c9abdb3eebb288fc29fba5c4"
           }
-        ]
+        ],
+        "display_name": "Theia"
       },
       {
         "name": "ming-qiu/theia",
@@ -148,6 +151,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.28",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.28"

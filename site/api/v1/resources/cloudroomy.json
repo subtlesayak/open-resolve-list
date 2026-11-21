@@ -87,6 +87,11 @@
     "stars": null,
     "metadataChecked": null,
     "history": [],
-    "catalogueReleases": []
+    "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      }
+    ]
   }
 }

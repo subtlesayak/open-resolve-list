@@ -101,9 +101,12 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-20",
       "source": "https://docs.getjumper.io/release-notes/macos",
-      "summary": "Speeds up Face Collections with a new storage format, adds a Summary Analysis timeline and watch-folder analysis, and improves visual analysis performance. Upgraded collections require current Jumper on every computer sharing them. Windows build 1637 is dated November 19.",
+      "summary": "Speeds up large face collections and analysis of long, high-resolution clips.",
       "changes": [
-        "Speeds up Face Collections with a new storage format, adds a Summary Analysis timeline and watch-folder analysis, and improves visual analysis performance. Upgraded collections require current Jumper on every computer sharing them. Windows build 1637 is dated November 19."
+        "Speeds up large face collections and analysis of long, high-resolution clips.",
+        "Adds a timeline for reading Summary Analysis and allows it to run from watch folders.",
+        "Upgraded face collections need current Jumper on every computer sharing them.",
+        "Mac builds are 3658/3659; Windows build 1637 was released November 19."
       ],
       "changelogs": [
         {
@@ -114,7 +117,9 @@
           "label": "Windows release notes",
           "url": "https://docs.getjumper.io/release-notes/windows"
         }
-      ]
+      ],
+      "display_name": "Jumper",
+      "display_version": "Mac: 3542 / 3543 → 3658 / 3659 · Windows: 1636 → 1637"
     },
     {
       "name": "Jumper",

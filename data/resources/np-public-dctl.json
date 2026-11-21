@@ -138,9 +138,10 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-16T18:35:17Z",
       "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d",
-      "summary": "Adds Lazy Banding, a mask-based creative banding DCTL. The documented collection requirements remain Resolve Studio 19.1+ with NVIDIA or Apple Silicon; other systems are untested by the provider.",
+      "summary": "Adds Lazy Banding, a mask-based creative banding effect.",
       "changes": [
-        "Adds Lazy Banding, a mask-based creative banding DCTL. The documented collection requirements remain Resolve Studio 19.1+ with NVIDIA or Apple Silicon; other systems are untested by the provider."
+        "Adds Lazy Banding, a mask-based creative banding effect.",
+        "The collection still requires Resolve Studio 19.1 or later. The provider documents NVIDIA and Apple Silicon; other systems are untested."
       ],
       "changelogs": [
         {
@@ -151,7 +152,8 @@
           "label": "Full source comparison",
           "url": "https://github.com/nikita-petrovich/np-public-dctl/compare/e13d3bf8af6943eb4745b62439812650da253cd7...8941f3bab4af8f45bc5a7907eac747a01899e35d"
         }
-      ]
+      ],
+      "display_name": "NP Public DCTLs"
     }
   ],
   "legacy_id": "6dde77bb170e",

@@ -99,19 +99,25 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": null,
         "source": "https://akascape.gumroad.com/l/blobtracker",
-        "summary": "Provider product attributes identify version 1.4. No dated release or detailed changelog was published on the reviewed page.",
+        "summary": "The product page now identifies version 1.4.",
         "changes": [
-          "Provider product attributes identify version 1.4. No dated release or detailed changelog was published on the reviewed page."
+          "The product page now identifies version 1.4.",
+          "No detailed change list or release date was published."
         ],
         "changelogs": [
           {
             "label": "Provider product/version evidence",
             "url": "https://akascape.gumroad.com/l/blobtracker"
           }
-        ]
+        ],
+        "display_name": "BlobTrackingFuse"
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.8",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.8"

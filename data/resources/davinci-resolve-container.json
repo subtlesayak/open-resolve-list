@@ -124,9 +124,11 @@
       "catalogue_date": "2026-11-21",
       "upstream_date": "2026-11-05T15:05:20Z",
       "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
-      "summary": "Updates the container setup from Resolve 21.1 through 21.1.1 and 21.1.2 to 21.2 build 6, and documents a minimal upgrade workflow. Repository now redirects to M45-Software; the existing catalogue ID and creator route are retained.",
+      "summary": "Updates the container setup to Resolve 21.2 build 6.",
       "changes": [
-        "Updates the container setup from Resolve 21.1 through 21.1.1 and 21.1.2 to 21.2 build 6, and documents a minimal upgrade workflow. Repository now redirects to M45-Software; the existing catalogue ID and creator route are retained."
+        "Updates the container setup to Resolve 21.2 build 6.",
+        "Adds instructions for upgrading an existing container.",
+        "The repository has moved to M45-Software; existing catalogue links still work."
       ],
       "changelogs": [
         {
@@ -137,7 +139,8 @@
           "label": "Full source comparison",
           "url": "https://github.com/M45-Software/DaVinci-Resolve-Container/compare/9e669d86eafb14bab58a96bc872ba7ab1cdd78df...f080b08ac1fd6f6d54b43c697a0383227c5de586"
         }
-      ]
+      ],
+      "display_name": "DaVinci Resolve Container"
     },
     {
       "name": "Distortions81/DaVinci-Resolve-Container",

@@ -98,11 +98,12 @@
         "catalogue_date": "2026-11-21",
         "upstream_date": "2026-11-20T03:33:05Z",
         "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0",
-        "summary": "Adds optional external transport-provider actions for playback state, transport and live or paused frame capture. No transport provider is bundled. Across the intervening releases, validates track indexes and misplaced arguments, reads back selected writes, fixes lowercase CDL keys and numeric project settings, and clarifies ripple-insert blockers. Adds timeline checks before appending to reduce cross-client edits to the wrong timeline; this is not a lock and a narrow race remains. Also fixes OFX choice/color decoding and DRP start-frame/drop-frame validation. Most new safeguards were tested offline by the provider, not independently here.",
+        "summary": "Adds optional playback controls and frame capture through a separately supplied helper.",
         "changes": [
-          "Adds optional external transport-provider actions for playback state, transport and live or paused frame capture. No transport provider is bundled.",
-          "Across the intervening releases, validates track indexes and misplaced arguments, reads back selected writes, fixes lowercase CDL keys and numeric project settings, and clarifies ripple-insert blockers.",
-          "Adds timeline checks before appending to reduce cross-client edits to the wrong timeline; this is not a lock and a narrow race remains. Also fixes OFX choice/color decoding and DRP start-frame/drop-frame validation. Most new safeguards were tested offline by the provider, not independently here."
+          "Adds optional playback controls and frame capture through a separately supplied helper.",
+          "Rejects invalid track numbers and misplaced arguments before editing.",
+          "Checks the active timeline before adding clips, reducing edits that land in another timeline. This check does not lock out other clients.",
+          "Fixes color-parameter decoding, project-setting writes and timeline start timecodes."
         ],
         "changelogs": [
           {
@@ -117,7 +118,8 @@
             "label": "Full provider changelog",
             "url": "https://github.com/samuelgursky/davinci-resolve-mcp/blob/main/CHANGELOG.md"
           }
-        ]
+        ],
+        "display_name": "DaVinci Resolve MCP"
       },
       {
         "name": "samuelgursky/davinci-resolve-mcp",
@@ -356,6 +358,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.31",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
+      },
       {
         "version": "v1.30",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"

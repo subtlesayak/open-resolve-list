@@ -1,52 +1,395 @@
 ## v1.31 - Verified provider updates and additions (2026-11-21)
 
+17 resources added, with updates and corrections to 25 existing listings.
+
 ## Verified provider updates
 
-- psygreg/autoresolvedeb: 2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e -> 5e1b3b003fa8229dbdc748d5efaa5df8f233cc24. Reworks shared disk-space and download helpers, dependency installation, FUSE handling and Rusticl setup across the Linux installer methods. Source revision; no published product release or installation test. https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24
-- cutbypham/awesome-davinci-resolve: 86cd3895754822fd0a4ead1c241989d235921705 -> 34686f6071ed82ec7b2c1945ec85585ed6883c3c. Updates the resource directory with audio and VHS-effect links and a revised SnapCaptions destination. These are directory changes, not plugin releases. https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c
-- M45-Software/DaVinci-Resolve-Container: 9e669d86eafb14bab58a96bc872ba7ab1cdd78df -> f080b08ac1fd6f6d54b43c697a0383227c5de586. Updates the container setup from Resolve 21.1 through 21.1.1 and 21.1.2 to 21.2 build 6, and documents a minimal upgrade workflow. Repository now redirects to M45-Software; the existing catalogue ID and creator route are retained. https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586
-- samuelgursky/davinci-resolve-mcp: v5.2.8 -> v5.4.0. Adds optional external transport-provider actions for playback state, transport and live or paused frame capture. No transport provider is bundled. Across the intervening releases, validates track indexes and misplaced arguments, reads back selected writes, fixes lowercase CDL keys and numeric project settings, and clarifies ripple-insert blockers. Adds timeline checks before appending to reduce cross-client edits to the wrong timeline; this is not a lock and a narrow race remains. Also fixes OFX choice/color decoding and DRP start-frame/drop-frame validation. Most new safeguards were tested offline by the provider, not independently here. https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0
-- DhaliwalX/fotufilm-engine: v1.16 -> v1.17. Uses Resolve GPU frames on Apple Silicon for faster renders. Revises scanned-negative balancing, film chemistry, print surfaces and histogram display; existing negative and color-film grades can render differently. macOS packages are signed and notarized. Linux desktop/Resolve and Android builds remain alpha, with platform-specific playback and export limits. https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17
-- postflows/Fusion-MediaIn-ID-Update-: 99797ede9151cdb34c85419543082985a4372310 -> 9f630a91c6433bb61025fe0efac880a2a596589c. Scans all timelines and clip compositions, with Fusion-effect and adjustment-clip support on Resolve 21.1.2+. Matches by path before unique names, can import missing media, and adds dry-run, undo and verification. Ambiguous matches remain unchanged; older hosts skip Fusion effects. https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c
-- gordasgdc/gdc-plugin-manager: v1.41.1 -> v1.42.0. Adds the free macOS 14+ Pe sârma app to the manager and detects DMG/Homebrew installations. Recognition requires Manager 1.42.0 or later. https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0
-- oliwoli/HushCut: 160dfffed4739108c5e22fecdf734ab74460105b -> v0.4.0-alpha. Publishes a 0.4.0 alpha with manual silence-region adjustments, multichannel audio fixes, revised silence removal and linked-clip handling. Moves to development Wails v3 and WaveSurfer v8. This remains a prerelease. https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha
-- h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve: 5990c1c77919d0f847d5332b4d57a001f985d86b -> fcfe653b7d2afdad8b926e8002c13d82ea86e8f0. Labels the scripts Resolve Tools Classic 1.x, frozen for Resolve 18 through 21.0 (Free or Studio), with Python 3 required. Adds the PolyForm Noncommercial 1.0.0 license; commercial use is not covered by that license. Studio 21.1+ users are directed to the separate Resolve Tools app. https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0
-- nikita-petrovich/np-public-dctl: e13d3bf8af6943eb4745b62439812650da253cd7 -> 8941f3bab4af8f45bc5a7907eac747a01899e35d. Adds Lazy Banding, a mask-based creative banding DCTL. The documented collection requirements remain Resolve Studio 19.1+ with NVIDIA or Apple Silicon; other systems are untested by the provider. https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d
-- Akascape/Rembg-Fuse: 9726f575d044494c66c70611109d90559191985f -> 5f5f9e681a54684fdff4205f444a589d3f58eba7. Fixes Resolve 21.1 compatibility and model updating. The README identifies Fuse 0.5, script 0.3 and setup manager 1.4; this catalogue tracks the source revision rather than treating those component labels as a published release. https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7
-- Pinionist/Resolve-Conform-tools: 52b394069fadc47471c8629b61054b0d78323b38 -> bb17a7edf5c2ed92839053eb9570716ada4c1521. Adds orientation-independent long-edge and short-edge scaling to CreateExportTimelines, including even-pixel snapping and edge-aware no-upscale checks. Removes the older ExportTimelineGenerator script. https://github.com/Pinionist/Resolve-Conform-tools/commit/bb17a7edf5c2ed92839053eb9570716ada4c1521
-- hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin: 232a5e04cb605236541cf0cd08bde3eed9f1f20a -> 337315fe50c752df2e162b815cf687bbddda7bd7. The provider explicitly deprecates this encoder and points to Resolve AAC Bridge (resolve-linux-aac-full) for the combined Linux decoder and encoder. The old listing remains available as legacy. https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7
-- thatcherfreeman/resolve-scripts: 2ab9ed607bee8c35c773725e77ed09f316a8deee -> b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee. Updates the bundled scripting API reference for Resolve 21.1.1, 21.1.2 and 21.2. This is a documentation revision, not a new runtime feature release. https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee
-- shumaiOne/shumai: v0.6.6 -> v0.7.0. Adds Korean UI and CLI publication/PATH fixes. Replaces the built-in server Bash sandbox with external Runners; Bash is disabled by default and existing Bash workflows need a separately configured Runner. https://github.com/shumaiOne/shumai/releases/tag/v0.7.0
-- HooperH/SubFix: v3.4.0 -> v3.4.1. Fixes Doubao cloud-caption generation incorrectly requiring local Qwen models. Local Qwen recognition/alignment still requires model downloads. The full Apple Silicon package is unsigned and omits model weights. https://github.com/HooperH/SubFix/releases/tag/v3.4.1
-- BambooYC123/SubtitleYC: v0.6.0 -> v0.7.0. Combines Extract/Edit workspaces with a frame-timed timeline, draggable ranges and cue timing, expanded subtitle editing and WebVTT import. Improves cancellation, preview decoding and unsaved-edit protection. GPU OCR builds require GPU mode. Windows installers remain unsigned; setup downloads and verifies the app and OCR payloads. https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0
-- ming-qiu/theia: 7e4d8ffc3929ba78de9854e3bec0a8193677455e -> ed30814352c9fb97c9abdb3eebb288fc29fba5c4. Improves EDL reel-name reading and dissolve handling, and displays scanned frames on the Elements tab. The source VERSION file reads 1.1.0, but no published release was established; the recorded version remains a source revision. https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4
-- francozanardi/tscaps: web-v0.6.0 -> web-v0.7.0. Expands the web app from captions into short-video editing with b-roll, graphics, transitions, aspect ratios and audio controls, plus optional MCP/agent editing. Web 0.7.0 and engine 0.8 are separate component versions. https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0
-- thatcherfreeman/utility-dctls: 771d6cbbb22c7f27141afaf1d8edbffda702dfd9 -> e78315c3600e23409f0f0cd7e1212af73323cbcb. Adds a scene-linear Dissolve DCTL transition with input transfer-function, alpha and easing controls. The provider places the display transform after the dissolve; this differs from a display-referred crossfade. https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb
-- BlobTrackingFuse: 1.3 -> 1.4. Provider product attributes identify version 1.4. No dated release or detailed changelog was published on the reviewed page. https://akascape.gumroad.com/l/blobtracker
-- Jumper: macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636 -> macOS 3658 (Apple silicon), 3659 (Intel); Windows 1637. Speeds up Face Collections with a new storage format, adds a Summary Analysis timeline and watch-folder analysis, and improves visual analysis performance. Upgraded collections require current Jumper on every computer sharing them. Windows build 1637 is dated November 19. https://docs.getjumper.io/release-notes/macos
-- fcp2aaf: 26.11.02 -> 26.11.03. Supports Final Cut Pro 13/FCPXML 1.15 and corrects placement of clips disconnected from the primary storyline. Adds progress and cancellation during final writes and improves unusual-timeline handling and responsiveness. https://fcp2aaf.com/changelog/
-- CrossFlow: Not established -> 1.2. Documents handles on rendered clips and on the graded return to Premiere, Premiere Pro 2027 readiness and faster startup for large transcodes. Version 1.1 adds transfers between two Mac/Windows computers using one license. The source gives November 2026 without an exact release day. https://nablast.com/release-notes/
-- Resolve Tools / Marker Madness Suite: Not established -> 2.1. The separate Resolve Tools app now brings five tools into one window for Studio 21.1+. Version 2.1 adds scene-level Master Continuity reports, workbook/PDF output and Premiere marker import. Classic Python scripts remain separately listed for older hosts. https://resolve-tools.com/
+### AutoResolveDeb
 
-## Added resource
+Source update · 2026-11-14
 
-- hexitnz/resolve-linux-aac-full: Experimental AAC import/playback and AAC-LC export bridge for Resolve Studio on Linux x86-64. Uses validated in-memory hooks; unknown layouts stay inactive. The provider reports selected Studio builds, with other profiles, multichannel and sample-accurate delay still needing validation. Replaces the deprecated standalone FDK encoder; not production-qualified native codec support. https://github.com/hexitnz/resolve-linux-aac-full
-- LIGHTOUCH/Resolve Telemetry Overlay: Builds editable activity-data gauges in Resolve from FIT files, including pace, speed, heart rate, power and route. Supports local FIT import on Apple Silicon macOS and Windows x64. Paid one-time major-version license with a seven-day trial. Activation and periodic license checks need internet; optional weather sends activity location/time to OpenWeather and may incur separate charges. https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en
-- Softworks/Cutdown: Standalone footage analysis that scores focus, exposure and motion, then exports adjustable selects and markers to Resolve through AAF, FCPXML, FCP7 XML or OTIO. Deterministic analysis runs locally; camera-movement estimates can be wrong. Lite includes unrestricted footage analysis and export; paid Pro adds weighting, watch folders and deeper controls. https://cutdown.app/
-- Final Frame/Final Frame: Standalone end-credit design and rendering companion for film/TV, exporting ProRes 4444 alpha, DNxHR, DPX, EXR and other deliverables for finishing. Masters render on the Mac; document intake and online team review have separate workflows. Watermarked exports are free; clean masters need a production/season license or subscription. Exact Resolve host requirements are not applicable to rendering independent plates. https://finalframe.cc/
-- Corridor Digital/CorridorKey 2.0 OFX and standalone: Commercial CorridorKey package for local chroma keying in Resolve/OpenFX and the standalone app, with temporal analysis, alpha hints and foreground/matte outputs. Separate from the public Python model/runtime and legacy open-source plugin. Provider manual still labels the 2.0 line beta; exact current installer build was not established. https://corridorkey.com/
-- DorwinDT/GpxToFusion: Windows app that exports a GPX or drawn route as an editable Fusion polyline, map image and optional Text+ labels. Includes timing data and route-drawing controls. Map tiles require internet and retain their providers’ attribution and usage terms; the MIT code license does not license map imagery. https://github.com/DorwinDT/GpxToFusion
-- mrchrisster/davinci-font-auditor: Local browser utility for scanning and mapping font-family usage in exported Resolve DRP projects, including subtitle and Fusion-title data. Requires Python 3.10+ and a browser; launchers install dependencies. The creator reports Mac use but warns that Windows-created projects may crash. README claims MIT; no standalone license file was established. https://github.com/mrchrisster/davinci-font-auditor
-- nikopueringer/CorridorKey2.0: Official CorridorKey 2.0 Python model/runtime for local chroma keying and foreground/matte output, separate from the commercial OFX package. Requires NVIDIA RTX 30-series+, CUDA PyTorch and FFmpeg. Ordinary video is display-referred; unclipped HDR uses the documented linear-EXR path. Custom license permits output work but restricts redistribution/services and requires plugin seats for organizations above its revenue threshold. https://github.com/nikopueringer/CorridorKey2.0
-- Totonoe/Totonoe Skin Retouch for DaVinci Resolve: Smooths skin selected by color, with texture restoration and mask controls. Mac-only Resolve OFX; does not detect or isolate faces, so similar skin tones can be affected together. Paid separate Resolve license with a watermarked trial. The creator checked Resolve Free 20.3.2 on Apple Silicon; Studio, Resolve 21 and Intel Macs remain untested. https://totonoe.designstudiomarimo.com/en/resolve/
-- bashframes/Lodge: Mac camera-card ingest companion that copies into custom folder/file templates, skips previously copied media and verifies each copy with SHA-256. Reads the card without overwriting destination files. Use before importing footage into an editor; this is a standalone offload utility rather than a Resolve plugin. https://bashfra.me/lodge/
-- huggeebear2011/Switcheroo: macOS Hammerspoon configuration that switches Resolve pages and named keyboard presets together while Resolve is frontmost. Requires external scripting set to Local and existing preset names. Its supplied configuration replaces the active Hammerspoon configuration unless manually combined. Exact Resolve edition/version support is not established. https://github.com/huggeebear2011/Switcheroo
-- Sputnik Digital Effects/VanityFilter: Standalone skin-retouching app that exports processed plates or grayscale mask mattes for Resolve compositing. Supports per-person selection and batch processing; skin processing runs on the CPU. The source audio is re-encoded on export. Paid perpetual license and a paid time-limited demo; activation and periodic checks need internet. https://www.vanityfilter.com/
-- Jahvix/CloudRoomy: Cloud-backed Finder drive documented for reading and writing footage from Resolve, with range-based downloads and uploads during export. Provider describes client-side encrypted storage; this catalogue has not audited security or editing performance. Hosted storage is a subscription, or use a separately billed S3-compatible bucket with a one-time app license. https://cloudroomy.app/
-- Adrian Sava/LogSortie: Sorts original DJI Osmo Pocket 4P, 4 and 3 footage into folders by documented Log/HLG/Normal profile, resolution, frame rate and slow motion before grading. Moves files without re-encoding and can undo sorting. Sort before editing: existing projects need relinking afterward. Edited clips without DJI metadata remain unknown. https://logsortie.com/
-- Formosa Soundworks Studio/WAVScribe: Windows audio-post companion for editing BWF/bext, iXML, XMP, LIST/INFO and ID3 metadata in WAV/RF64/BW64 files. Includes conflict inspection, UCS naming and spreadsheet round trips. Provider says audio bytes are not re-encoded; exact field visibility in Resolve is not established. Paid perpetual license with a seven-day trial. https://wavscribe.com/
-- Bipedal/BMD-MicroColorPanel-Tools: Documents the Micro Color Panel USB/Bluetooth protocol and provides a Python reference driver and live panel tester for use outside Resolve. Requires the physical panel, Python 3 and hidapi. The maintainer reports Windows 11 tests on one panel; macOS and Linux notes remain untested. MIDI/OSC and photo-editor backends are not included. https://github.com/Bipedal/BMD-MicroColorPanel-Tools
-- ciqueira/MCNexus: Desktop distribution and update manager for Resolve/OpenFX tools, with DCTL-to-OFX conversion and NexControl MIDI mapping. Plugin licenses remain separate. The developer platform also provides licensing/commerce infrastructure; community distribution is free, with separate commercial developer plans. Per-plugin host and GPU requirements still apply. https://mcnexus.app/
+- Improves free-space checks and download handling.
+- Updates Linux dependencies and graphics-driver setup.
+
+[Provider notes](https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24) · [Full comparison](https://github.com/psygreg/autoresolvedeb/compare/2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e...5e1b3b003fa8229dbdc748d5efaa5df8f233cc24)
+
+### Awesome DaVinci Resolve directory
+
+Source update · 2026-11-17
+
+- Adds links to audio resources and a VHS effect.
+- Updates the SnapCaptions link. These are directory changes, not plugin releases.
+
+[Provider notes](https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c) · [Full comparison](https://github.com/cutbypham/awesome-davinci-resolve/compare/86cd3895754822fd0a4ead1c241989d235921705...34686f6071ed82ec7b2c1945ec85585ed6883c3c)
+
+### DaVinci Resolve Container
+
+Source update · 2026-11-05
+
+- Updates the container setup to Resolve 21.2 build 6.
+- Adds instructions for upgrading an existing container.
+- The repository has moved to M45-Software; existing catalogue links still work.
+
+[Provider notes](https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586) · [Full comparison](https://github.com/M45-Software/DaVinci-Resolve-Container/compare/9e669d86eafb14bab58a96bc872ba7ab1cdd78df...f080b08ac1fd6f6d54b43c697a0383227c5de586)
+
+### DaVinci Resolve MCP
+
+v5.2.8 -> v5.4.0
+
+- Adds optional playback controls and frame capture through a separately supplied helper.
+- Rejects invalid track numbers and misplaced arguments before editing.
+- Checks the active timeline before adding clips, reducing edits that land in another timeline. This check does not lock out other clients.
+- Fixes color-parameter decoding, project-setting writes and timeline start timecodes.
+
+[Provider notes](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0) · [Full comparison](https://github.com/samuelgursky/davinci-resolve-mcp/compare/v5.2.8...v5.4.0)
+
+### Fotufilm
+
+v1.16 -> v1.17
+
+- Speeds up Resolve renders on Apple Silicon by processing frames on the GPU.
+- Improves scanned-negative balancing, film rendering and print surfaces. Existing grades may look different after updating.
+- Mac packages are signed and notarized. Linux and Android builds remain alpha.
+
+[Provider notes](https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17) · [Full comparison](https://github.com/DhaliwalX/fotufilm-engine/compare/v1.16...v1.17)
+
+### Fusion MediaIn ID Update
+
+Source update · 2026-10-27
+
+- Repairs more broken media links when projects or timelines move between machines.
+- Can scan every timeline, match media by file path and import missing files.
+- Adds preview-only checks, undo and verification; ambiguous matches are left alone.
+- Scanning Fusion effects and adjustment clips requires Resolve 21.1.2 or later.
+
+[Provider notes](https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c) · [Full comparison](https://github.com/postflows/Fusion-MediaIn-ID-Update-/compare/99797ede9151cdb34c85419543082985a4372310...9f630a91c6433bb61025fe0efac880a2a596589c)
+
+### GDC Plugin Manager
+
+v1.41.1 -> v1.42.0
+
+- Adds the free Pe sârmă app for macOS 14 or later.
+- Recognizes installations made through a DMG or Homebrew. This needs Manager 1.42.0 or later.
+
+[Provider notes](https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0)
+
+### HushCut
+
+First published alpha: v0.4.0-alpha
+
+- Adds manual adjustments to silence-removal regions.
+- Improves multichannel audio and linked-clip handling.
+- Updates its interface framework and waveform viewer. This is still an alpha release.
+
+[Provider notes](https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha) · [Full comparison](https://github.com/oliwoli/HushCut/compare/160dfffed4739108c5e22fecdf734ab74460105b...v0.4.0-alpha)
+
+### Resolve Tools Classic
+
+Source update · 2026-10-29
+
+- The old Python scripts are now frozen as the Classic edition.
+- Documents support for Resolve 18 through 21.0, Free or Studio, with Python 3.
+- Adds the PolyForm Noncommercial license. Check it before using the scripts for commercial work.
+- The newer Studio 21.1+ app is listed separately.
+
+[Provider notes](https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0) · [Full comparison](https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/compare/5990c1c77919d0f847d5332b4d57a001f985d86b...fcfe653b7d2afdad8b926e8002c13d82ea86e8f0)
+
+### NP Public DCTLs
+
+Source update · 2026-11-16
+
+- Adds Lazy Banding, a mask-based creative banding effect.
+- The collection still requires Resolve Studio 19.1 or later. The provider documents NVIDIA and Apple Silicon; other systems are untested.
+
+[Provider notes](https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d) · [Full comparison](https://github.com/nikita-petrovich/np-public-dctl/compare/e13d3bf8af6943eb4745b62439812650da253cd7...8941f3bab4af8f45bc5a7907eac747a01899e35d)
+
+### Rembg Fuse
+
+Source update · 2026-11-14
+
+- Fixes compatibility with Resolve 21.1.
+- Fixes models not updating.
+- The README identifies Fuse 0.5 and setup manager 1.4; this listing tracks the source update, not a new packaged release.
+
+[Provider notes](https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7) · [Full comparison](https://github.com/Akascape/Rembg-Fuse/compare/9726f575d044494c66c70611109d90559191985f...5f5f9e681a54684fdff4205f444a589d3f58eba7)
+
+### Resolve Conform Tools
+
+Source update · 2026-11-19
+
+- Can scale export timelines by the long or short edge, including mixed portrait and landscape footage.
+- Improves even-pixel sizing and checks that prevent unwanted upscaling.
+- Removes the older ExportTimelineGenerator script.
+
+[Provider notes](https://github.com/Pinionist/Resolve-Conform-tools/commit/bb17a7edf5c2ed92839053eb9570716ada4c1521) · [Full comparison](https://github.com/Pinionist/Resolve-Conform-tools/compare/52b394069fadc47471c8629b61054b0d78323b38...bb17a7edf5c2ed92839053eb9570716ada4c1521)
+
+### Linux Studio AAC FDK Encoder
+
+Source update · 2026-11-13
+
+- The provider has retired this standalone encoder.
+- Use the combined Resolve AAC Bridge project instead; the old listing remains available for reference.
+
+[Provider notes](https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7) · [Full comparison](https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/compare/232a5e04cb605236541cf0cd08bde3eed9f1f20a...337315fe50c752df2e162b815cf687bbddda7bd7)
+
+### Thatcher Freeman’s Resolve Scripts
+
+Source update · 2026-11-08
+
+- Updates the scripting reference for Resolve 21.1.1, 21.1.2 and 21.2.
+- This is a documentation update, not a new script feature release.
+
+[Provider notes](https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee) · [Full comparison](https://github.com/thatcherfreeman/resolve-scripts/compare/2ab9ed607bee8c35c773725e77ed09f316a8deee...b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee)
+
+### Shumai
+
+v0.6.6 -> v0.7.0
+
+- Adds a Korean interface and improves command-line setup.
+- Moves optional agent command execution into separately configured Runners.
+- Command execution is off by default; existing workflows that use it need a Runner.
+
+[Provider notes](https://github.com/shumaiOne/shumai/releases/tag/v0.7.0) · [Full comparison](https://github.com/shumaiOne/shumai/compare/v0.6.6...v0.7.0)
+
+### SubFix
+
+v3.4.0 -> v3.4.1
+
+- Fixes cloud captions incorrectly asking for local Qwen models.
+- Local recognition and alignment still need model downloads.
+- The Apple Silicon installer remains unsigned and does not include model weights.
+
+[Provider notes](https://github.com/HooperH/SubFix/releases/tag/v3.4.1) · [Full comparison](https://github.com/HooperH/SubFix/compare/v3.4.0...v3.4.1)
+
+### SubtitleYC
+
+v0.6.0 -> v0.7.0
+
+- Brings extraction and subtitle editing into one workspace.
+- Adds a timeline with draggable ranges and subtitle timing, plus WebVTT import.
+- Improves cancellation, previews and protection against losing unsaved edits.
+- Windows installers remain unsigned; GPU builds require GPU processing.
+
+[Provider notes](https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0) · [Full comparison](https://github.com/BambooYC123/SubtitleYC/compare/v0.6.0...v0.7.0)
+
+### Theia
+
+Source update · 2026-11-19
+
+- Improves reel-name reading and dissolve handling in EDL files.
+- Shows scanned frames in the Elements tab.
+- The source identifies version 1.1.0, but no packaged release was established.
+
+[Provider notes](https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4) · [Full comparison](https://github.com/ming-qiu/theia/compare/7e4d8ffc3929ba78de9854e3bec0a8193677455e...ed30814352c9fb97c9abdb3eebb288fc29fba5c4)
+
+### tscaps
+
+web-v0.6.0 -> web-v0.7.0
+
+- Adds b-roll, graphics, transitions, audio controls and aspect-ratio choices to the web editor.
+- Adds optional editing through an agent connection.
+- The web app is 0.7.0; its separate processing engine is 0.8.
+
+[Provider notes](https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0) · [Full comparison](https://github.com/francozanardi/tscaps/compare/web-v0.6.0...web-v0.7.0)
+
+### Thatcher Freeman’s Utility DCTLs
+
+Source update · 2026-10-28
+
+- Adds a dissolve transition that blends scene-light values.
+- Includes controls for easing, transparency and the input color encoding.
+- Use it before the display transform, following the provider’s color-workflow notes.
+
+[Provider notes](https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb) · [Full comparison](https://github.com/thatcherfreeman/utility-dctls/compare/771d6cbbb22c7f27141afaf1d8edbffda702dfd9...e78315c3600e23409f0f0cd7e1212af73323cbcb)
+
+### BlobTrackingFuse
+
+1.3 -> 1.4
+
+- The product page now identifies version 1.4.
+- No detailed change list or release date was published.
+
+[Provider notes](https://akascape.gumroad.com/l/blobtracker)
+
+### Jumper
+
+macOS 3658 / 3659 · Windows 1637
+
+- Speeds up large face collections and analysis of long, high-resolution clips.
+- Adds a timeline for reading Summary Analysis and allows it to run from watch folders.
+- Upgraded face collections need current Jumper on every computer sharing them.
+- Mac builds are 3658/3659; Windows build 1637 was released November 19.
+
+[Provider notes](https://docs.getjumper.io/release-notes/macos)
+
+### fcp2aaf
+
+26.11.02 -> 26.11.03
+
+- Adds support for Final Cut Pro 13 and FCPXML 1.15.
+- Corrects placement of clips disconnected from the primary storyline.
+- Adds progress and cancellation during final writes and improves responsiveness.
+
+[Provider notes](https://fcp2aaf.com/changelog/)
+
+### CrossFlow
+
+Version now documented: 1.2
+
+- Keeps extra frames around rendered clips so they can be extended or recut in Resolve and on return to Premiere.
+- Improves large transcodes and adds Premiere Pro 2027 support.
+- Also documents transfers between two Mac/Windows computers using one license.
+
+[Provider notes](https://nablast.com/release-notes/)
+
+### Resolve Tools
+
+Version now documented: 2.1
+
+- Combines its five editing tools in one desktop app for Resolve Studio 21.1 or later.
+- Adds scene-level continuity reports as spreadsheets and PDFs.
+- Adds Premiere marker import alongside Avid workflows. Older Classic scripts are listed separately.
+
+[Provider notes](https://resolve-tools.com/)
+
+## Added resources
+
+### Totonoe Skin Retouch for DaVinci Resolve
+
+- Mac OFX skin smoothing with texture restoration. Color-based selection can affect similar tones together. Creator checked Free 20.3.2 on Apple Silicon only.
+
+- Paid one-time license; watermarked free trial.
+
+[Original source](https://totonoe.designstudiomarimo.com/en/resolve/)
+
+### BMD Micro Color Panel Tools
+
+- Micro Color Panel HID protocol and Python driver for use outside Resolve. Requires the physical panel; maintainer testing covers Windows 11 only.
+
+- Free; CC0-1.0 code and documentation; physical panel separate.
+
+[Original source](https://github.com/Bipedal/BMD-MicroColorPanel-Tools)
+
+### Resolve Telemetry Overlay
+
+- Editable FIT activity gauges, routes and telemetry in Resolve. Mac Apple Silicon or Windows x64; license checks and optional weather/imports use the network.
+
+- Paid one-time major-version license; seven-day trial.
+
+[Original source](https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en)
+
+### Switcheroo
+
+- Switch Resolve pages and keyboard presets together with Hammerspoon on macOS. Requires local external scripting and matching preset names.
+
+- Free; MIT.
+
+[Original source](https://github.com/huggeebear2011/Switcheroo)
+
+### GPX to Fusion
+
+- Turn GPX or drawn routes into editable Fusion polylines, map images and Text+ labels. Windows app; map-provider licenses remain separate.
+
+- Free; MIT code; map-provider terms separate.
+
+[Original source](https://github.com/DorwinDT/GpxToFusion)
+
+### DaVinci Font Auditor
+
+- Audit and map fonts in exported DRP projects using a local Python/browser app. Windows-project parsing may crash; license file not established.
+
+- Public source; README claims MIT, license file not established.
+
+[Original source](https://github.com/mrchrisster/davinci-font-auditor)
+
+### Resolve AAC Bridge
+
+- Experimental Linux Studio AAC import/export bridge. Replaces the deprecated FDK encoder; host layouts and AAC profiles have limits.
+
+- Free source; GPL-2.0-only; dependency licenses separate.
+
+[Original source](https://github.com/hexitnz/resolve-linux-aac-full)
+
+### CorridorKey 2.0 — Python source
+
+- Official local Python chroma keyer with matte, foreground and linear-EXR outputs. Requires NVIDIA/CUDA; custom license restrictions apply.
+
+- Source available; custom CorridorKey license, not unrestricted open source.
+
+[Original source](https://github.com/nikopueringer/CorridorKey2.0)
+
+### Cutdown
+
+- Score footage for focus, exposure and motion, then export adjustable selects into Resolve. Free Lite; paid Pro. Local analysis with license checks.
+
+- Free Lite; paid one-time Pro.
+
+[Original source](https://cutdown.app/)
+
+### VanityFilter
+
+- Local skin retouching with per-person masks and plate/matte exports for Resolve. Paid license or paid demo; activation checks required.
+
+- Paid one-time license; paid 14-day demo.
+
+[Original source](https://www.vanityfilter.com/)
+
+### LogSortie
+
+- Sort original DJI Pocket footage by Log profile and recording mode before grading. Moves files; existing edits need relinking. Apple Silicon only.
+
+- First 30 clips free; paid one-time license.
+
+[Original source](https://logsortie.com/)
+
+### Lodge
+
+- Mac camera-card ingest with custom names, incremental copies and SHA-256 verification. Standalone companion with a paid license and trial.
+
+- Paid one-time license; three-day trial.
+
+[Original source](https://bashfra.me/lodge/)
+
+### MCNexus
+
+- OFX distribution, updates, DCTL conversion and MIDI-control companion for Resolve. Individual plugin licenses and requirements remain separate.
+
+- Free community distribution; individual plugin and developer-plan terms vary.
+
+[Original source](https://mcnexus.app/)
+
+### CloudRoomy
+
+- Cloud Finder drive documented for Resolve footage and exports. Apple Silicon only; requires a hosted plan or separately billed S3 storage.
+
+- Paid hosted subscription or one-time app with own storage; 30-day trial.
+
+[Original source](https://cloudroomy.app/)
+
+### Final Frame
+
+- Design and render end credits as ProRes alpha, DNxHR, DPX or EXR finishing plates. Mac app; clean exports need a license.
+
+- Free watermarked exports; paid production/season licenses or subscription.
+
+[Original source](https://finalframe.cc/)
+
+### CorridorKey 2.0 OFX and standalone
+
+- Commercial local chroma keyer for Resolve/OpenFX with temporal analysis and alpha hints. OS/GPU limits apply; manual still labels the line beta.
+
+- Paid one-time 2.x license; activation required.
+
+[Original source](https://corridorkey.com/)
+
+### WAVScribe
+
+- Windows audio-post metadata editor for WAV/BWF, iXML, XMP and ID3, with batch/spreadsheet tools. Resolve field visibility is not established.
+
+- Paid one-time 1.x license; seven-day trial.
+
+[Original source](https://wavscribe.com/)
+
 ## v1.30 - Verified provider updates (2026-11-14)
 
 - vulture-s/arkiv: v1.8.0 → v1.9.0. Adds an English interface and language selection, including translated API errors. [Source changelog](https://github.com/vulture-s/arkiv/releases/tag/v1.9.0).
