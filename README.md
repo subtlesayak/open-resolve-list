@@ -4,7 +4,7 @@ A personal, open directory of **DaVinci Resolve plugins, Fusion tools, DCTLs, LU
 
 I made Open Resolve List to keep useful Resolve resources in one place instead of repeatedly scouring scattered links. The website is hosted on GitHub Pages, with the catalogue and source records available in this repository. If it helps your workflow, you are welcome to use it and suggest improvements.
 
-[🌐 Browse the searchable website](https://subtlesayak.github.io/open-resolve-list/) · [🎬 Creators and educators](https://subtlesayak.github.io/open-resolve-list/creators.html) · [🆕 Provider and catalogue updates](https://subtlesayak.github.io/open-resolve-list/updates.html) · [ℹ️ About](https://subtlesayak.github.io/open-resolve-list/about.html)
+[Try the new website](https://resolvelist.framer.website/) · [🌐 Browse the searchable website](https://subtlesayak.github.io/open-resolve-list/) · [🎬 Creators and educators](https://subtlesayak.github.io/open-resolve-list/creators.html) · [🆕 Provider and catalogue updates](https://subtlesayak.github.io/open-resolve-list/updates.html) · [ℹ️ About](https://subtlesayak.github.io/open-resolve-list/about.html)
 
 <a href="https://www.buymeacoffee.com/subtlesayak"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="174" height="49"></a>
 
