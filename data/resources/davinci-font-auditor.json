@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "davinci-font-auditor",
+  "name": "davinci-font-auditor",
+  "creator": "mrchrisster",
+  "urls": {
+    "canonical": "https://github.com/mrchrisster/davinci-font-auditor",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "drp font audit",
+    "font mapping",
+    "subtitle fonts",
+    "fusion titles",
+    "project portability"
+  ],
+  "description": "Audit and map fonts in exported DRP projects using a local Python/browser app. Windows-project parsing may crash; license file not established.",
+  "display_description": "Audit and map fonts in exported DRP projects using a local Python/browser app. Windows-project parsing may crash; license file not established.",
+  "access": "Public source; README claims MIT, license file not established",
+  "accessGroup": "public",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "platform_notes": "macOS and Windows launchers documented; Windows-project parsing is explicitly incomplete. No Resolve installation is needed to scan an exported DRP.",
+  "display_platforms": "macOS;Windows",
+  "display_platform_notes": "macOS and Windows launchers documented; Windows-project parsing is explicitly incomplete. No Resolve installation is needed to scan an exported DRP.",
+  "platform_source": "https://github.com/mrchrisster/davinci-font-auditor",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": 0,
+  "last_pushed_at": "2026-05-27T17:46:20Z",
+  "metadata_checked_at": "2026-11-21",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": "Python 3.10+, modern browser and repository Python dependencies.",
+    "installation": "Run the local Python backend and open its loopback dashboard; no project files were processed for this review."
+  },
+  "version": {
+    "name": "mrchrisster/davinci-font-auditor",
+    "url": "https://github.com/mrchrisster/davinci-font-auditor",
+    "kind": "commit",
+    "version": "0ccf56282e7a501c2a38a4861d383887220babf3",
+    "source": "https://github.com/mrchrisster/davinci-font-auditor/commit/0ccf56282e7a501c2a38a4861d383887220babf3",
+    "date": "2026-05-27T17:46:20Z",
+    "date_kind": "commit",
+    "checked_at": "2026-11-21",
+    "note": "Source revision, not a published software release."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/mrchrisster/davinci-font-auditor",
+      "checked_at": "2026-11-21",
+      "note": "macOS and Windows launchers documented; Windows-project parsing is explicitly incomplete. No Resolve installation is needed to scan an exported DRP."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/mrchrisster/davinci-font-auditor",
+      "checked_at": "2026-11-21",
+      "note": "Local browser utility for scanning and mapping font-family usage in exported Resolve DRP projects, including subtitle and Fusion-title data. Requires Python 3.10+ and a browser; launchers install dependencies. The creator reports Mac use but warns that Windows-created projects may crash. README claims MIT; no standalone license file was established."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/mrchrisster/davinci-font-auditor/commit/0ccf56282e7a501c2a38a4861d383887220babf3",
+      "checked_at": "2026-11-21",
+      "note": "Source revision, not a published software release."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/mrchrisster/davinci-font-auditor",
+      "checked_at": "2026-11-21",
+      "note": "Local browser utility for scanning and mapping font-family usage in exported Resolve DRP projects, including subtitle and Fusion-title data. Requires Python 3.10+ and a browser; launchers install dependencies. The creator reports Mac use but warns that Windows-created projects may crash. README claims MIT; no standalone license file was established."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://github.com/mrchrisster/davinci-font-auditor",
+    "https://github.com/mrchrisster/davinci-font-auditor#readme",
+    "https://www.reddit.com/r/davinciresolve/comments/1rjtn8e/created_an_awesome_list_for_davinci_resolve_on/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

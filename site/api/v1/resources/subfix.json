@@ -22,7 +22,7 @@
       "translation",
       "batch"
     ],
-    "description": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established.",
+    "description": "Apple Silicon subtitle utility with local Qwen recognition/alignment and optional Doubao cloud captions, plus batch processing, Chinese correction and translation. Cloud captions no longer require local Qwen models; local modes still need downloads. The full macOS package is unsigned. Exact Resolve edition compatibility and repository reuse license are not established.",
     "access": "Public",
     "accessGroup": "public",
     "platforms": [
@@ -36,10 +36,10 @@
         "arm64"
       ],
       "gpu": null,
-      "processing": "unknown",
+      "processing": "hybrid",
       "pricing": "unknown",
       "account": "unknown",
-      "dependencies": "Initial Qwen model downloads",
+      "dependencies": "Qwen models for local recognition/alignment; optional Doubao cloud service uses its own connection and terms.",
       "installation": null
     },
     "evidence": [
@@ -63,12 +63,32 @@
         "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
         "checked_at": "2026-11-14T07:53:12.819Z",
         "note": "Provider release evidence."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+        "checked_at": "2026-11-21",
+        "note": "Original provider release notes reviewed; not independently installation-tested."
+      },
+      {
+        "field": "processing",
+        "level": "documented",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+        "checked_at": "2026-11-21",
+        "note": "Local Qwen and optional Doubao cloud paths have different model and network requirements."
+      },
+      {
+        "field": "dependencies",
+        "level": "documented",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+        "checked_at": "2026-11-21",
+        "note": "Local Qwen and optional Doubao cloud paths have different model and network requirements."
       }
     ],
     "unknownFields": [
       "Resolve edition",
-      "Resolve version",
-      "processing"
+      "Resolve version"
     ],
     "recommended": false,
     "recommendation": null,
@@ -77,18 +97,46 @@
       "name": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",
       "kind": "stable-release",
-      "version": "v3.4.0",
-      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
-      "date": "2026-11-10T05:53:36Z",
-      "checked_at": "2026-11-14T07:53:12.819Z",
+      "version": "v3.4.1",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+      "date": "2026-11-16T10:20:27Z",
+      "checked_at": "2026-11-21",
       "date_kind": "release",
-      "note": "Original provider source reviewed."
+      "note": "Original provider release notes reviewed; not independently installation-tested."
     },
-    "releaseDate": "2026-11-10T05:53:36Z",
-    "activityDate": "2026-11-10T05:49:19Z",
+    "releaseDate": "2026-11-16T10:20:27Z",
+    "activityDate": "2026-11-16T10:19:46Z",
     "stars": 42,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
     "history": [
+      {
+        "name": "HooperH/SubFix",
+        "url": "https://github.com/HooperH/SubFix",
+        "from": "v3.4.0",
+        "to": "v3.4.1",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-16T10:20:27Z",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+        "summary": "Fixes Doubao cloud-caption generation incorrectly requiring local Qwen models. Local Qwen recognition/alignment still requires model downloads. The full Apple Silicon package is unsigned and omits model weights.",
+        "changes": [
+          "Fixes Doubao cloud-caption generation incorrectly requiring local Qwen models. Local Qwen recognition/alignment still requires model downloads. The full Apple Silicon package is unsigned and omits model weights."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider release",
+            "url": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/HooperH/SubFix/compare/v3.4.0...v3.4.1"
+          },
+          {
+            "label": "Full provider changelog",
+            "url": "https://github.com/HooperH/SubFix/blob/main/CHANGELOG.md"
+          }
+        ]
+      },
       {
         "name": "HooperH/SubFix",
         "url": "https://github.com/HooperH/SubFix",

@@ -2,6 +2,618 @@
   "schema_version": 1,
   "entries": [
     {
+      "name": "psygreg/autoresolvedeb",
+      "url": "https://github.com/psygreg/autoresolvedeb",
+      "from": "2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
+      "to": "5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-14T15:41:11Z",
+      "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+      "summary": "Reworks shared disk-space and download helpers, dependency installation, FUSE handling and Rusticl setup across the Linux installer methods. Source revision; no published product release or installation test.",
+      "changes": [
+        "Reworks shared disk-space and download helpers, dependency installation, FUSE handling and Rusticl setup across the Linux installer methods. Source revision; no published product release or installation test."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/psygreg/autoresolvedeb/compare/2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e...5e1b3b003fa8229dbdc748d5efaa5df8f233cc24"
+        }
+      ]
+    },
+    {
+      "name": "cutbypham/awesome-davinci-resolve",
+      "url": "https://github.com/cutbypham/awesome-davinci-resolve",
+      "from": "86cd3895754822fd0a4ead1c241989d235921705",
+      "to": "34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-17T12:27:48Z",
+      "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+      "summary": "Updates the resource directory with audio and VHS-effect links and a revised SnapCaptions destination. These are directory changes, not plugin releases.",
+      "changes": [
+        "Updates the resource directory with audio and VHS-effect links and a revised SnapCaptions destination. These are directory changes, not plugin releases."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/cutbypham/awesome-davinci-resolve/compare/86cd3895754822fd0a4ead1c241989d235921705...34686f6071ed82ec7b2c1945ec85585ed6883c3c"
+        }
+      ]
+    },
+    {
+      "name": "M45-Software/DaVinci-Resolve-Container",
+      "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
+      "from": "9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+      "to": "f080b08ac1fd6f6d54b43c697a0383227c5de586",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-05T15:05:20Z",
+      "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+      "summary": "Updates the container setup from Resolve 21.1 through 21.1.1 and 21.1.2 to 21.2 build 6, and documents a minimal upgrade workflow. Repository now redirects to M45-Software; the existing catalogue ID and creator route are retained.",
+      "changes": [
+        "Updates the container setup from Resolve 21.1 through 21.1.1 and 21.1.2 to 21.2 build 6, and documents a minimal upgrade workflow. Repository now redirects to M45-Software; the existing catalogue ID and creator route are retained."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/M45-Software/DaVinci-Resolve-Container/compare/9e669d86eafb14bab58a96bc872ba7ab1cdd78df...f080b08ac1fd6f6d54b43c697a0383227c5de586"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v5.2.8",
+      "to": "v5.4.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-20T03:33:05Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0",
+      "summary": "Adds optional external transport-provider actions for playback state, transport and live or paused frame capture. No transport provider is bundled. Across the intervening releases, validates track indexes and misplaced arguments, reads back selected writes, fixes lowercase CDL keys and numeric project settings, and clarifies ripple-insert blockers. Adds timeline checks before appending to reduce cross-client edits to the wrong timeline; this is not a lock and a narrow race remains. Also fixes OFX choice/color decoding and DRP start-frame/drop-frame validation. Most new safeguards were tested offline by the provider, not independently here.",
+      "changes": [
+        "Adds optional external transport-provider actions for playback state, transport and live or paused frame capture. No transport provider is bundled.",
+        "Across the intervening releases, validates track indexes and misplaced arguments, reads back selected writes, fixes lowercase CDL keys and numeric project settings, and clarifies ripple-insert blockers.",
+        "Adds timeline checks before appending to reduce cross-client edits to the wrong timeline; this is not a lock and a narrow race remains. Also fixes OFX choice/color decoding and DRP start-frame/drop-frame validation. Most new safeguards were tested offline by the provider, not independently here."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/compare/v5.2.8...v5.4.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "from": "v1.16",
+      "to": "v1.17",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-16T00:07:15Z",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17",
+      "summary": "Uses Resolve GPU frames on Apple Silicon for faster renders. Revises scanned-negative balancing, film chemistry, print surfaces and histogram display; existing negative and color-film grades can render differently. macOS packages are signed and notarized. Linux desktop/Resolve and Android builds remain alpha, with platform-specific playback and export limits.",
+      "changes": [
+        "Uses Resolve GPU frames on Apple Silicon for faster renders. Revises scanned-negative balancing, film chemistry, print surfaces and histogram display; existing negative and color-film grades can render differently.",
+        "macOS packages are signed and notarized. Linux desktop/Resolve and Android builds remain alpha, with platform-specific playback and export limits."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/DhaliwalX/fotufilm-engine/compare/v1.16...v1.17"
+        }
+      ]
+    },
+    {
+      "name": "postflows/Fusion-MediaIn-ID-Update-",
+      "url": "https://github.com/postflows/Fusion-MediaIn-ID-Update-",
+      "from": "99797ede9151cdb34c85419543082985a4372310",
+      "to": "9f630a91c6433bb61025fe0efac880a2a596589c",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-10-27T15:53:28Z",
+      "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
+      "summary": "Scans all timelines and clip compositions, with Fusion-effect and adjustment-clip support on Resolve 21.1.2+. Matches by path before unique names, can import missing media, and adds dry-run, undo and verification. Ambiguous matches remain unchanged; older hosts skip Fusion effects.",
+      "changes": [
+        "Scans all timelines and clip compositions, with Fusion-effect and adjustment-clip support on Resolve 21.1.2+. Matches by path before unique names, can import missing media, and adds dry-run, undo and verification. Ambiguous matches remain unchanged; older hosts skip Fusion effects."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/compare/99797ede9151cdb34c85419543082985a4372310...9f630a91c6433bb61025fe0efac880a2a596589c"
+        }
+      ]
+    },
+    {
+      "name": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "from": "v1.41.1",
+      "to": "v1.42.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-16T04:03:36Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
+      "summary": "Adds the free macOS 14+ Pe sârma app to the manager and detects DMG/Homebrew installations. Recognition requires Manager 1.42.0 or later.",
+      "changes": [
+        "Adds the free macOS 14+ Pe sârma app to the manager and detects DMG/Homebrew installations. Recognition requires Manager 1.42.0 or later."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "oliwoli/HushCut",
+      "url": "https://github.com/oliwoli/HushCut",
+      "from": "160dfffed4739108c5e22fecdf734ab74460105b",
+      "to": "v0.4.0-alpha",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-10T23:04:45Z",
+      "source": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha",
+      "summary": "Publishes a 0.4.0 alpha with manual silence-region adjustments, multichannel audio fixes, revised silence removal and linked-clip handling. Moves to development Wails v3 and WaveSurfer v8. This remains a prerelease.",
+      "changes": [
+        "Publishes a 0.4.0 alpha with manual silence-region adjustments, multichannel audio fixes, revised silence removal and linked-clip handling. Moves to development Wails v3 and WaveSurfer v8. This remains a prerelease."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/oliwoli/HushCut/compare/160dfffed4739108c5e22fecdf734ab74460105b...v0.4.0-alpha"
+        }
+      ]
+    },
+    {
+      "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+      "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+      "from": "5990c1c77919d0f847d5332b4d57a001f985d86b",
+      "to": "fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-10-29T16:31:22Z",
+      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+      "summary": "Labels the scripts Resolve Tools Classic 1.x, frozen for Resolve 18 through 21.0 (Free or Studio), with Python 3 required. Adds the PolyForm Noncommercial 1.0.0 license; commercial use is not covered by that license. Studio 21.1+ users are directed to the separate Resolve Tools app.",
+      "changes": [
+        "Labels the scripts Resolve Tools Classic 1.x, frozen for Resolve 18 through 21.0 (Free or Studio), with Python 3 required. Adds the PolyForm Noncommercial 1.0.0 license; commercial use is not covered by that license. Studio 21.1+ users are directed to the separate Resolve Tools app."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/compare/5990c1c77919d0f847d5332b4d57a001f985d86b...fcfe653b7d2afdad8b926e8002c13d82ea86e8f0"
+        }
+      ]
+    },
+    {
+      "name": "nikita-petrovich/np-public-dctl",
+      "url": "https://github.com/nikita-petrovich/np-public-dctl",
+      "from": "e13d3bf8af6943eb4745b62439812650da253cd7",
+      "to": "8941f3bab4af8f45bc5a7907eac747a01899e35d",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-16T18:35:17Z",
+      "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d",
+      "summary": "Adds Lazy Banding, a mask-based creative banding DCTL. The documented collection requirements remain Resolve Studio 19.1+ with NVIDIA or Apple Silicon; other systems are untested by the provider.",
+      "changes": [
+        "Adds Lazy Banding, a mask-based creative banding DCTL. The documented collection requirements remain Resolve Studio 19.1+ with NVIDIA or Apple Silicon; other systems are untested by the provider."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/nikita-petrovich/np-public-dctl/compare/e13d3bf8af6943eb4745b62439812650da253cd7...8941f3bab4af8f45bc5a7907eac747a01899e35d"
+        }
+      ]
+    },
+    {
+      "name": "Akascape/Rembg-Fuse",
+      "url": "https://github.com/Akascape/Rembg-Fuse",
+      "from": "9726f575d044494c66c70611109d90559191985f",
+      "to": "5f5f9e681a54684fdff4205f444a589d3f58eba7",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-14T07:06:13Z",
+      "source": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7",
+      "summary": "Fixes Resolve 21.1 compatibility and model updating. The README identifies Fuse 0.5, script 0.3 and setup manager 1.4; this catalogue tracks the source revision rather than treating those component labels as a published release.",
+      "changes": [
+        "Fixes Resolve 21.1 compatibility and model updating. The README identifies Fuse 0.5, script 0.3 and setup manager 1.4; this catalogue tracks the source revision rather than treating those component labels as a published release."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/Akascape/Rembg-Fuse/compare/9726f575d044494c66c70611109d90559191985f...5f5f9e681a54684fdff4205f444a589d3f58eba7"
+        }
+      ]
+    },
+    {
+      "name": "Pinionist/Resolve-Conform-tools",
+      "url": "https://github.com/Pinionist/Resolve-Conform-tools",
+      "from": "52b394069fadc47471c8629b61054b0d78323b38",
+      "to": "bb17a7edf5c2ed92839053eb9570716ada4c1521",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-19T15:19:34Z",
+      "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/bb17a7edf5c2ed92839053eb9570716ada4c1521",
+      "summary": "Adds orientation-independent long-edge and short-edge scaling to CreateExportTimelines, including even-pixel snapping and edge-aware no-upscale checks. Removes the older ExportTimelineGenerator script.",
+      "changes": [
+        "Adds orientation-independent long-edge and short-edge scaling to CreateExportTimelines, including even-pixel snapping and edge-aware no-upscale checks. Removes the older ExportTimelineGenerator script."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/Pinionist/Resolve-Conform-tools/commit/bb17a7edf5c2ed92839053eb9570716ada4c1521"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/Pinionist/Resolve-Conform-tools/compare/52b394069fadc47471c8629b61054b0d78323b38...bb17a7edf5c2ed92839053eb9570716ada4c1521"
+        }
+      ]
+    },
+    {
+      "name": "hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+      "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+      "from": "232a5e04cb605236541cf0cd08bde3eed9f1f20a",
+      "to": "337315fe50c752df2e162b815cf687bbddda7bd7",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-13T03:14:20Z",
+      "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7",
+      "summary": "The provider explicitly deprecates this encoder and points to Resolve AAC Bridge (resolve-linux-aac-full) for the combined Linux decoder and encoder. The old listing remains available as legacy.",
+      "changes": [
+        "The provider explicitly deprecates this encoder and points to Resolve AAC Bridge (resolve-linux-aac-full) for the combined Linux decoder and encoder. The old listing remains available as legacy."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/compare/232a5e04cb605236541cf0cd08bde3eed9f1f20a...337315fe50c752df2e162b815cf687bbddda7bd7"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "thatcherfreeman/resolve-scripts",
+      "url": "https://github.com/thatcherfreeman/resolve-scripts",
+      "from": "2ab9ed607bee8c35c773725e77ed09f316a8deee",
+      "to": "b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-08T15:56:16Z",
+      "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+      "summary": "Updates the bundled scripting API reference for Resolve 21.1.1, 21.1.2 and 21.2. This is a documentation revision, not a new runtime feature release.",
+      "changes": [
+        "Updates the bundled scripting API reference for Resolve 21.1.1, 21.1.2 and 21.2. This is a documentation revision, not a new runtime feature release."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/thatcherfreeman/resolve-scripts/compare/2ab9ed607bee8c35c773725e77ed09f316a8deee...b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee"
+        }
+      ]
+    },
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.6.6",
+      "to": "v0.7.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-18T13:25:32Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+      "summary": "Adds Korean UI and CLI publication/PATH fixes. Replaces the built-in server Bash sandbox with external Runners; Bash is disabled by default and existing Bash workflows need a separately configured Runner.",
+      "changes": [
+        "Adds Korean UI and CLI publication/PATH fixes. Replaces the built-in server Bash sandbox with external Runners; Bash is disabled by default and existing Bash workflows need a separately configured Runner."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/shumaiOne/shumai/compare/v0.6.6...v0.7.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/shumaiOne/shumai/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "HooperH/SubFix",
+      "url": "https://github.com/HooperH/SubFix",
+      "from": "v3.4.0",
+      "to": "v3.4.1",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-16T10:20:27Z",
+      "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+      "summary": "Fixes Doubao cloud-caption generation incorrectly requiring local Qwen models. Local Qwen recognition/alignment still requires model downloads. The full Apple Silicon package is unsigned and omits model weights.",
+      "changes": [
+        "Fixes Doubao cloud-caption generation incorrectly requiring local Qwen models. Local Qwen recognition/alignment still requires model downloads. The full Apple Silicon package is unsigned and omits model weights."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/HooperH/SubFix/compare/v3.4.0...v3.4.1"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/HooperH/SubFix/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "BambooYC123/SubtitleYC",
+      "url": "https://github.com/BambooYC123/SubtitleYC",
+      "from": "v0.6.0",
+      "to": "v0.7.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-19T13:57:59Z",
+      "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
+      "summary": "Combines Extract/Edit workspaces with a frame-timed timeline, draggable ranges and cue timing, expanded subtitle editing and WebVTT import. Improves cancellation, preview decoding and unsaved-edit protection. GPU OCR builds require GPU mode. Windows installers remain unsigned; setup downloads and verifies the app and OCR payloads.",
+      "changes": [
+        "Combines Extract/Edit workspaces with a frame-timed timeline, draggable ranges and cue timing, expanded subtitle editing and WebVTT import.",
+        "Improves cancellation, preview decoding and unsaved-edit protection. GPU OCR builds require GPU mode. Windows installers remain unsigned; setup downloads and verifies the app and OCR payloads."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/BambooYC123/SubtitleYC/compare/v0.6.0...v0.7.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/BambooYC123/SubtitleYC/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "ming-qiu/theia",
+      "url": "https://github.com/ming-qiu/theia",
+      "from": "7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+      "to": "ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-19T06:40:08Z",
+      "source": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+      "summary": "Improves EDL reel-name reading and dissolve handling, and displays scanned frames on the Elements tab. The source VERSION file reads 1.1.0, but no published release was established; the recorded version remains a source revision.",
+      "changes": [
+        "Improves EDL reel-name reading and dissolve handling, and displays scanned frames on the Elements tab. The source VERSION file reads 1.1.0, but no published release was established; the recorded version remains a source revision."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/ming-qiu/theia/compare/7e4d8ffc3929ba78de9854e3bec0a8193677455e...ed30814352c9fb97c9abdb3eebb288fc29fba5c4"
+        }
+      ]
+    },
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.6.0",
+      "to": "web-v0.7.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-21T02:01:32Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0",
+      "summary": "Expands the web app from captions into short-video editing with b-roll, graphics, transitions, aspect ratios and audio controls, plus optional MCP/agent editing. Web 0.7.0 and engine 0.8 are separate component versions.",
+      "changes": [
+        "Expands the web app from captions into short-video editing with b-roll, graphics, transitions, aspect ratios and audio controls, plus optional MCP/agent editing. Web 0.7.0 and engine 0.8 are separate component versions."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/francozanardi/tscaps/compare/web-v0.6.0...web-v0.7.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/francozanardi/tscaps/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "name": "thatcherfreeman/utility-dctls",
+      "url": "https://github.com/thatcherfreeman/utility-dctls",
+      "from": "771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+      "to": "e78315c3600e23409f0f0cd7e1212af73323cbcb",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-10-28T13:58:48Z",
+      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb",
+      "summary": "Adds a scene-linear Dissolve DCTL transition with input transfer-function, alpha and easing controls. The provider places the display transform after the dissolve; this differs from a display-referred crossfade.",
+      "changes": [
+        "Adds a scene-linear Dissolve DCTL transition with input transfer-function, alpha and easing controls. The provider places the display transform after the dissolve; this differs from a display-referred crossfade."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/thatcherfreeman/utility-dctls/compare/771d6cbbb22c7f27141afaf1d8edbffda702dfd9...e78315c3600e23409f0f0cd7e1212af73323cbcb"
+        }
+      ]
+    },
+    {
+      "name": "BlobTrackingFuse",
+      "url": "https://akascape.gumroad.com/l/blobtracker",
+      "from": "1.3",
+      "to": "1.4",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": null,
+      "source": "https://akascape.gumroad.com/l/blobtracker",
+      "summary": "Provider product attributes identify version 1.4. No dated release or detailed changelog was published on the reviewed page.",
+      "changes": [
+        "Provider product attributes identify version 1.4. No dated release or detailed changelog was published on the reviewed page."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider product/version evidence",
+          "url": "https://akascape.gumroad.com/l/blobtracker"
+        }
+      ]
+    },
+    {
+      "name": "Jumper",
+      "url": "https://getjumper.io/",
+      "from": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
+      "to": "macOS 3658 (Apple silicon), 3659 (Intel); Windows 1637",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-20",
+      "source": "https://docs.getjumper.io/release-notes/macos",
+      "summary": "Speeds up Face Collections with a new storage format, adds a Summary Analysis timeline and watch-folder analysis, and improves visual analysis performance. Upgraded collections require current Jumper on every computer sharing them. Windows build 1637 is dated November 19.",
+      "changes": [
+        "Speeds up Face Collections with a new storage format, adds a Summary Analysis timeline and watch-folder analysis, and improves visual analysis performance. Upgraded collections require current Jumper on every computer sharing them. Windows build 1637 is dated November 19."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider changelog",
+          "url": "https://docs.getjumper.io/release-notes/macos"
+        },
+        {
+          "label": "Windows release notes",
+          "url": "https://docs.getjumper.io/release-notes/windows"
+        }
+      ]
+    },
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
+      "from": "26.11.02",
+      "to": "26.11.03",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-18",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Supports Final Cut Pro 13/FCPXML 1.15 and corrects placement of clips disconnected from the primary storyline. Adds progress and cancellation during final writes and improves unusual-timeline handling and responsiveness.",
+      "changes": [
+        "Supports Final Cut Pro 13/FCPXML 1.15 and corrects placement of clips disconnected from the primary storyline. Adds progress and cancellation during final writes and improves unusual-timeline handling and responsiveness."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
+    {
+      "name": "CrossFlow",
+      "url": "https://nablast.com/",
+      "from": "Not established",
+      "to": "1.2",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": null,
+      "source": "https://nablast.com/release-notes/",
+      "summary": "Documents handles on rendered clips and on the graded return to Premiere, Premiere Pro 2027 readiness and faster startup for large transcodes. Version 1.1 adds transfers between two Mac/Windows computers using one license. The source gives November 2026 without an exact release day.",
+      "changes": [
+        "Documents handles on rendered clips and on the graded return to Premiere, Premiere Pro 2027 readiness and faster startup for large transcodes. Version 1.1 adds transfers between two Mac/Windows computers using one license. The source gives November 2026 without an exact release day."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider changelog",
+          "url": "https://nablast.com/release-notes/"
+        }
+      ]
+    },
+    {
+      "name": "Resolve Tools / Marker Madness Suite",
+      "url": "https://resolve-tools.com/",
+      "from": "Not established",
+      "to": "2.1",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": null,
+      "source": "https://resolve-tools.com/",
+      "summary": "The separate Resolve Tools app now brings five tools into one window for Studio 21.1+. Version 2.1 adds scene-level Master Continuity reports, workbook/PDF output and Premiere marker import. Classic Python scripts remain separately listed for older hosts.",
+      "changes": [
+        "The separate Resolve Tools app now brings five tools into one window for Studio 21.1+. Version 2.1 adds scene-level Master Continuity reports, workbook/PDF output and Premiere marker import. Classic Python scripts remain separately listed for older hosts."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider changelog",
+          "url": "https://resolve-tools.com/"
+        }
+      ]
+    },
+    {
       "name": "vulture-s/arkiv",
       "url": "https://github.com/vulture-s/arkiv",
       "from": "v1.8.0",

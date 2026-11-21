@@ -462,6 +462,15 @@
       "kind": "workflow-app"
     },
     {
+      "id": "bmd-micro-color-panel-tools",
+      "name": "BMD-MicroColorPanel-Tools",
+      "creator": "Bipedal",
+      "url": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+      "origin": "github",
+      "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface"
+    },
+    {
       "id": "boilify",
       "name": "boilify",
       "creator": "Microck",
@@ -723,6 +732,15 @@
       "kind": "subtitle-tool"
     },
     {
+      "id": "cloudroomy",
+      "name": "CloudRoomy",
+      "creator": "Jahvix",
+      "url": "https://cloudroomy.app/",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "workflow-app"
+    },
+    {
       "id": "cogwheel",
       "name": "cogwheel",
       "creator": "stoatworks-labs",
@@ -795,6 +813,24 @@
       "kind": "control-surface"
     },
     {
+      "id": "corridorkey-2-ofx",
+      "name": "CorridorKey 2.0 OFX and standalone",
+      "creator": "Corridor Digital",
+      "url": "https://corridorkey.com/",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "ofx"
+    },
+    {
+      "id": "corridorkey-2-source",
+      "name": "CorridorKey2.0",
+      "creator": "nikopueringer",
+      "url": "https://github.com/nikopueringer/CorridorKey2.0",
+      "origin": "github",
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "workflow-app"
+    },
+    {
       "id": "corridorkey-runtime",
       "name": "CorridorKey-Runtime",
       "creator": "alexandremendoncaalvaro",
@@ -826,6 +862,15 @@
       "name": "CutDetect",
       "creator": "Cutpoint Labs",
       "url": "https://cutpointlabs.com/cutdetect/",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "workflow-app"
+    },
+    {
+      "id": "cutdown",
+      "name": "Cutdown",
+      "creator": "Softworks",
+      "url": "https://cutdown.app/",
       "origin": "external",
       "category": "Community discoveries",
       "kind": "workflow-app"
@@ -910,6 +955,15 @@
       "origin": "github",
       "category": "Color grading, DCTLs, film looks, and color science",
       "kind": "dctl"
+    },
+    {
+      "id": "davinci-font-auditor",
+      "name": "davinci-font-auditor",
+      "creator": "mrchrisster",
+      "url": "https://github.com/mrchrisster/davinci-font-auditor",
+      "origin": "github",
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app"
     },
     {
       "id": "davinci-gate",
@@ -2028,6 +2082,15 @@
       "kind": "ofx"
     },
     {
+      "id": "final-frame",
+      "name": "Final Frame",
+      "creator": "Final Frame",
+      "url": "https://finalframe.cc/",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "workflow-app"
+    },
+    {
       "id": "firecut",
       "name": "FireCut",
       "creator": "FireCut",
@@ -2388,6 +2451,15 @@
       "kind": "fuse"
     },
     {
+      "id": "gpx-to-fusion",
+      "name": "GpxToFusion",
+      "creator": "DorwinDT",
+      "url": "https://github.com/DorwinDT/GpxToFusion",
+      "origin": "github",
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app"
+    },
+    {
       "id": "gpx-visualization-davinci",
       "name": "GPX-Visualization-Davinci",
       "creator": "VladasTamosiunas",
@@ -2595,6 +2667,24 @@
       "kind": "ofx"
     },
     {
+      "id": "lodge",
+      "name": "Lodge",
+      "creator": "bashframes",
+      "url": "https://bashfra.me/lodge/",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "workflow-app"
+    },
+    {
+      "id": "logsortie",
+      "name": "LogSortie",
+      "creator": "Adrian Sava",
+      "url": "https://logsortie.com/",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "workflow-app"
+    },
+    {
       "id": "lowcat",
       "name": "lowcat",
       "creator": "debuxxed",
@@ -2710,6 +2800,15 @@
       "origin": "external",
       "category": "Color and PowerGrades",
       "kind": "powergrade"
+    },
+    {
+      "id": "mcnexus",
+      "name": "MCNexus",
+      "creator": "ciqueira",
+      "url": "https://mcnexus.app/",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "workflow-app"
     },
     {
       "id": "me-opendrt-ofx",
@@ -3423,6 +3522,15 @@
       "kind": "dctl"
     },
     {
+      "id": "resolve-aac-bridge",
+      "name": "resolve-linux-aac-full",
+      "creator": "hexitnz",
+      "url": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "origin": "github",
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "encoder"
+    },
+    {
       "id": "resolve-aces",
       "name": "resolve-aces",
       "creator": "xtremestuff",
@@ -3682,6 +3790,15 @@
       "origin": "github",
       "category": "Productivity scripts, workflow bridges, and integrations",
       "kind": "workflow-app"
+    },
+    {
+      "id": "resolve-telemetry-overlay",
+      "name": "Resolve Telemetry Overlay",
+      "creator": "LIGHTOUCH",
+      "url": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+      "origin": "external",
+      "category": "Fusion / Motion Graphics",
+      "kind": "ofx"
     },
     {
       "id": "resolve-text-index",
@@ -4296,6 +4413,15 @@
       "kind": "lut"
     },
     {
+      "id": "switcheroo",
+      "name": "Switcheroo",
+      "creator": "huggeebear2011",
+      "url": "https://github.com/huggeebear2011/Switcheroo",
+      "origin": "github",
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "resolve-script"
+    },
+    {
       "id": "syncpass",
       "name": "SyncPass",
       "creator": "JKL Editing",
@@ -4422,13 +4548,22 @@
       "kind": "workflow-app"
     },
     {
+      "id": "totonoe-skin-retouch",
+      "name": "Totonoe Skin Retouch for DaVinci Resolve",
+      "creator": "Totonoe",
+      "url": "https://totonoe.designstudiomarimo.com/en/resolve/",
+      "origin": "external",
+      "category": "Color / Film",
+      "kind": "ofx"
+    },
+    {
       "id": "tscaps",
       "name": "tscaps",
       "creator": "francozanardi",
       "url": "https://github.com/francozanardi/tscaps",
       "origin": "github",
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
-      "kind": "subtitle-tool"
+      "kind": "workflow-app"
     },
     {
       "id": "typeflare",
@@ -4518,6 +4653,15 @@
       "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
       "origin": "external",
       "category": "Audio / Fairlight companions",
+      "kind": "workflow-app"
+    },
+    {
+      "id": "vanityfilter",
+      "name": "VanityFilter",
+      "creator": "Sputnik Digital Effects",
+      "url": "https://www.vanityfilter.com/",
+      "origin": "external",
+      "category": "Community discoveries",
       "kind": "workflow-app"
     },
     {
@@ -4636,6 +4780,15 @@
       "origin": "external",
       "category": "Effects and animation",
       "kind": "fuse"
+    },
+    {
+      "id": "wavscribe",
+      "name": "WAVScribe",
+      "creator": "Formosa Soundworks Studio",
+      "url": "https://wavscribe.com/",
+      "origin": "external",
+      "category": "Community discoveries",
+      "kind": "workflow-app"
     },
     {
       "id": "what-s-new-in-davinci-resolve-21-1",

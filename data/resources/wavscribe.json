@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "wavscribe",
+  "name": "WAVScribe",
+  "creator": "Formosa Soundworks Studio",
+  "urls": {
+    "canonical": "https://wavscribe.com/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [
+    "audio",
+    "workflow"
+  ],
+  "tags": [
+    "wav metadata",
+    "broadcast wave",
+    "bwf",
+    "ixml",
+    "ucs naming",
+    "batch metadata"
+  ],
+  "description": "Windows audio-post metadata editor for WAV/BWF, iXML, XMP and ID3, with batch/spreadsheet tools. Resolve field visibility is not established.",
+  "display_description": "Windows audio-post metadata editor for WAV/BWF, iXML, XMP and ID3, with batch/spreadsheet tools. Resolve field visibility is not established.",
+  "access": "Paid one-time 1.x license; seven-day trial",
+  "accessGroup": "paid",
+  "platforms": [
+    "Windows"
+  ],
+  "platform_notes": "Windows 10 1809+/11 x64, 4 GB RAM minimum. Local/external/NAS files supported; cloud-synced folders are not officially supported.",
+  "display_platforms": "Windows",
+  "display_platform_notes": "Windows 10 1809+/11 x64, 4 GB RAM minimum. Local/external/NAS files supported; cloud-synced folders are not officially supported.",
+  "platform_source": "https://wavscribe.com/",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [
+      "x64"
+    ],
+    "gpu": null,
+    "processing": "hybrid",
+    "pricing": "one-time",
+    "account": "not-required",
+    "dependencies": "Internet activation and periodic checks; up to 30 days offline between checks.",
+    "installation": null
+  },
+  "version": {
+    "name": "WAVScribe",
+    "url": "https://wavscribe.com/",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://wavscribe.com/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-11-21",
+    "note": "No product version established from the reviewed original source."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://wavscribe.com/",
+      "checked_at": "2026-11-21",
+      "note": "Windows 10 1809+/11 x64, 4 GB RAM minimum. Local/external/NAS files supported; cloud-synced folders are not officially supported."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://wavscribe.com/",
+      "checked_at": "2026-11-21",
+      "note": "Windows audio-post companion for editing BWF/bext, iXML, XMP, LIST/INFO and ID3 metadata in WAV/RF64/BW64 files. Includes conflict inspection, UCS naming and spreadsheet round trips. Provider says audio bytes are not re-encoded; exact field visibility in Resolve is not established. Paid perpetual license with a seven-day trial."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://wavscribe.com/",
+      "checked_at": "2026-11-21",
+      "note": "Windows audio-post companion for editing BWF/bext, iXML, XMP, LIST/INFO and ID3 metadata in WAV/RF64/BW64 files. Includes conflict inspection, UCS naming and spreadsheet round trips. Provider says audio bytes are not re-encoded; exact field visibility in Resolve is not established. Paid perpetual license with a seven-day trial."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://wavscribe.com/",
+    "https://www.reddit.com/r/AudioPost/comments/1xl1avf/the_audiopost_mine_november_2026_tell_us_about_your/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

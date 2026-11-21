@@ -245,6 +245,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 | [Super 8 Film Emulation PowerGrades](https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade) | 💰 Paid | ❔ Not established | Seventeen customizable Resolve PowerGrades for a Super 8 home-movie look, with log and Rec.709 workflows. Creator lists 8-bit footage support; exact edition and OS requirements are not given. |
 
+#### 👤 Totonoe
+
+| [Totonoe Skin Retouch for DaVinci Resolve](https://totonoe.designstudiomarimo.com/en/resolve/) | Paid one-time license; watermarked free trial | macOS | Mac OFX skin smoothing with texture restoration. Color-based selection can affect similar tones together. Creator checked Free 20.3.2 on Apple Silicon only. |
+
 #### 👤 Veres Deni Alex
 
 | [VHS Retro Camcorder PowerGrades](https://www.veresdenialex.com/product-page/vhs-emulation) | 💰 Paid | ❔ Not established | Six adjustable Resolve PowerGrade variations for a retro VHS camcorder appearance. Sold under an individual license. |
@@ -392,9 +396,17 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 | [CinePacks free samples](https://cinepacks.store/collections/free-packs) | 🆓 Sample packs; 💰 Full collections | ❔ Check individual asset formats | Free sample collections of overlays, textures, LUTs and sound effects for editing. These are media assets rather than a shared Resolve plugin; check each pack’s format and usage terms. |
 
+#### 👤 Jahvix
+
+| [CloudRoomy](https://cloudroomy.app/) | Paid hosted subscription or one-time app with own storage; 30-day trial | macOS | Cloud Finder drive documented for Resolve footage and exports. Apple Silicon only; requires a hosted plan or separately billed S3 storage. |
+
 #### 👤 AlbertoGZ
 
 | [ColorLabels](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ColorLabels/com.AlbertoGZ.ColorLabels.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Assigns node tile/text colors using palettes. Python script for Fusion; current Resolve edition requirements are unverified. |
+
+#### 👤 Corridor Digital
+
+| [CorridorKey 2.0 OFX and standalone](https://corridorkey.com/) | Paid one-time 2.x license; activation required | Windows;macOS | Commercial local chroma keyer for Resolve/OpenFX with temporal analysis and alpha hints. OS/GPU limits apply; manual still labels the line beta. |
 
 #### 👤 Blackmagic forum community
 
@@ -407,6 +419,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 #### 👤 Cutpoint Labs
 
 | [CutDetect](https://cutpointlabs.com/cutdetect/) | 📦 Public listing; price/download access not established | 🍎 macOS | Standalone hard-cut detection with visual review, manual adjustment and CMX3600 EDL export for conform workflows. Processes media locally. A versioned demonstration does not establish the latest downloadable build. |
+
+#### 👤 Softworks
+
+| [Cutdown](https://cutdown.app/) | Free Lite; paid one-time Pro | macOS;Windows | Score footage for focus, exposure and motion, then export adjustable selects into Resolve. Free Lite; paid Pro. Local analysis with license checks. |
 
 #### 👤 Cutpoint Labs
 
@@ -484,6 +500,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 | [Filmkid 16 PowerGrade and LUT](https://filmkid.com/products/filmkid-16) | 💰 Paid PowerGrade or LUT | ❓ Unverified | 16mm-inspired film look offered as a Resolve PowerGrade or LUT package, with camera-log profiles and monitoring LUTs. PowerGrade includes DRX/DPX files. The number 16 is the product name, not a software version; exact Resolve edition and OS support are not established. |
 
+#### 👤 Final Frame
+
+| [Final Frame](https://finalframe.cc/) | Free watermarked exports; paid production/season licenses or subscription | macOS | Design and render end credits as ProRes alpha, DNxHR, DPX or EXR finishing plates. Mac app; clean exports need a license. |
+
 #### 👤 FireCut
 
 | [FireCut](https://firecut.ai/pricing/davinci-resolve/) | 🆓 Basic tools; 💰 Paid plans with 7-day trial | 🪟 Windows · 🍎 macOS · 🐧 Linux | Free tools cover silence removal, multichannel audio splitting and marker management. Paid plans add captions and AI editing features. Supports Resolve Free; online AI, transcription and asset services require internet access. |
@@ -556,6 +576,14 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 | [Lacerta Film Lab](https://lacertafilmlab.com/) | 🆓 Watermarked demo; 💰 perpetual license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Resolve OpenFX film-emulation plugin with modeled negatives, printer lights, print response, halation, grain and LUT export. Windows/Linux 64-bit and macOS Intel/Apple Silicon builds. $249 perpetual license for one machine with online activation; unlimited demo has a watermark and disables LUT export. Exact Resolve edition/version is not established. |
 
+#### 👤 bashframes
+
+| [Lodge](https://bashfra.me/lodge/) | Paid one-time license; three-day trial | macOS | Mac camera-card ingest with custom names, incremental copies and SHA-256 verification. Standalone companion with a paid license and trial. |
+
+#### 👤 Adrian Sava
+
+| [LogSortie](https://logsortie.com/) | First 30 clips free; paid one-time license | macOS | Sort original DJI Pocket footage by Log profile and recording mode before grading. Moves files; existing edits need relinking. Apple Silicon only. |
+
 #### 👤 Lowepost
 
 | [Lowepost training](https://lowepost.com/home/) | 💰 Paid course access | 📖 Browser reference; lesson requirements vary | Post-production training with Resolve grading, film-look development, beauty retouching and Fusion lessons. The provider also teaches other applications; select the Resolve course and review its exercise requirements. |
@@ -587,6 +615,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 #### 👤 Clipizo
 
 | [Matchizo](https://clipizo.com/matchizo) | 🆓 Free; Discord download | ❔ Not established | Fusion Fuse for multi-image and newspaper-word match cuts, with timing, highlights, camera movement and timeline markers. Distributed through the creator Discord. |
+
+#### 👤 ciqueira
+
+| [MCNexus](https://mcnexus.app/) | Free community distribution; individual plugin and developer-plan terms vary | macOS;Windows | OFX distribution, updates, DCTL conversion and MIDI-control companion for Resolve. Individual plugin licenses and requirements remain separate. |
 
 #### 👤 MediaArea
 
@@ -764,6 +796,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 | [TypeFlare](https://tagger.mov/typeflare/) | 🆓 Free SRT and limited Fusion exports; 💰 Pro | Windows · macOS | Local Whisper transcription and translation with editable word-level Text+ Fusion captions. Free tier has unlimited SRT and 60-second Fusion exports; Pro adds presets and styling. macOS 12+ and Windows 10+. |
 
+#### 👤 Sputnik Digital Effects
+
+| [VanityFilter](https://www.vanityfilter.com/) | Paid one-time license; paid 14-day demo | Windows;macOS | Local skin retouching with per-person masks and plate/matte exports for Resolve. Paid license or paid demo; activation checks required. |
+
 #### 👤 Visual Effects Society
 
 | [VES On-Set VFX Data Collection and Usage Guide](https://ves-on-set-data.org/dashboard/) | 🆓 Free reference; CC BY 4.0 | 📖 Reference | Online and PDF reference for camera/lens metadata, color references, folder structure and on-set data handoff to VFX and editorial. Created for the VES Technology Committee by Sheena Duggal and contributors; licensed CC BY 4.0. General production reference, not a Resolve plugin. Linked PDF filename says 1.1.0 while its footer says 1.0.0, so current version remains unverified. |
@@ -779,6 +815,10 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 #### 👤 fxphd
 
 | [Warren Eagles Resolve 18 training](https://www.fxphd.com/resolve18/) | 💰 Paid courses | 📖 Browser reference; lesson requirements vary | Resolve 18 fundamentals, advanced grading and look-development courses with 18.1/18.6 update lessons. This is an older course edition, not evidence of current Resolve software or newer-version coverage. |
+
+#### 👤 Formosa Soundworks Studio
+
+| [WAVScribe](https://wavscribe.com/) | Paid one-time 1.x license; seven-day trial | Windows | Windows audio-post metadata editor for WAV/BWF, iXML, XMP and ID3, with batch/spreadsheet tools. Resolve field visibility is not established. |
 
 #### 👤 Stefan Ihringer
 
@@ -991,6 +1031,15 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 | [Voukoder Pro](https://www.voukoder.org/) | 💳 Paid; trial available | 🪟 🍎 | FFmpeg-based encoding service with a Resolve Studio connector. The current connector matrix supports Windows x64 and macOS Apple Silicon beta; Windows ARM64 and Linux connectors remain in development. Current Pro licensing is paid despite older articles describing the predecessor as free. |
 
+## Fusion / Motion Graphics
+
+| Resource | Access | Platforms | Description |
+| :--- | :--- | :--- | :--- |
+
+#### 👤 LIGHTOUCH
+
+| [Resolve Telemetry Overlay](https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en) | Paid one-time major-version license; seven-day trial | macOS;Windows | Editable FIT activity gauges, routes and telemetry in Resolve. Mac Apple Silicon or Windows x64; license checks and optional weather/imports use the network. |
+
 ## Fusion, animation, and effects
 
 | Resource | Access | Platforms | Description |
@@ -1023,7 +1072,7 @@ Generated from data/resources/*.json. Edit canonical records, then run npm run b
 
 #### 👤 resolve-tools.com
 
-| [Resolve Tools / Marker Madness Suite](https://resolve-tools.com/) | 🆓 Free | 🪟 🍎 | Five tools for markers, clip renaming, tracks, running-time planning, and clip collection. Python scripts plus a standalone Reel Time Plus app. The [source repository](https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve) is also included in the catalogue. |
+| [Resolve Tools / Marker Madness Suite](https://resolve-tools.com/) | 🆓 Free | 🪟 🍎 | Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed. |
 
 #### 👤 retrograde.tools
 

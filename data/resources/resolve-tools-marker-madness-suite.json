@@ -20,19 +20,22 @@
     "clip renaming",
     "markers",
     "running time",
-    "tracks"
+    "tracks",
+    "continuity report",
+    "vfx turnover",
+    "marker exchange"
   ],
-  "description": "Five tools for markers, clip renaming, tracks, running-time planning, and clip collection. Python scripts plus a standalone Reel Time Plus app. The source repository is also included in the catalogue.",
-  "display_description": "Five tools for markers, clip renaming, tracks, running-time planning, and clip collection. Python scripts plus a standalone Reel Time Plus app. The [source repository](https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve) is also included in the catalogue.",
+  "description": "Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed.",
+  "display_description": "Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed.",
   "access": "🆓 Free",
   "accessGroup": "free",
   "platforms": [
     "Windows",
     "macOS"
   ],
-  "platform_notes": "🪟 🍎",
+  "platform_notes": "macOS 12+ or Windows 10/11 x64. Studio 21.1+; installers are unsigned. No independent catalogue installation test.",
   "display_platforms": "🪟 🍎",
-  "display_platform_notes": "",
+  "display_platform_notes": "macOS 12+ or Windows 10/11 x64. Studio 21.1+; installers are unsigned. No independent catalogue installation test.",
   "platform_source": null,
   "platform_checked_at": "2026-09-06T12:10:21.388Z",
   "research_snapshot": null,
@@ -40,25 +43,33 @@
   "last_pushed_at": null,
   "metadata_checked_at": null,
   "requirements": {
-    "editions": [],
-    "resolve": [],
+    "editions": [
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "min": "21.1",
+        "edition": "Studio"
+      }
+    ],
     "architectures": [],
     "gpu": null,
     "processing": "unknown",
-    "pricing": "unknown",
-    "account": "unknown",
-    "dependencies": null,
-    "installation": null
+    "pricing": "free",
+    "account": "not-required",
+    "dependencies": "Resolve Studio with External scripting using set to Local. Windows requires WebView2.",
+    "installation": "macOS DMG or Windows EXE; provider documents unsigned installers."
   },
   "version": {
     "name": "Resolve Tools / Marker Madness Suite",
     "url": "https://resolve-tools.com/",
-    "kind": "unverified",
-    "version": null,
+    "kind": "vendor-version",
+    "version": "2.1",
     "source": "https://resolve-tools.com/",
     "date": null,
     "date_kind": null,
-    "checked_at": "2026-09-06T12:10:21.388Z"
+    "checked_at": "2026-11-21",
+    "note": "Original provider source reviewed. An exact publication date is recorded only when explicit."
   },
   "evidence": [
     {
@@ -67,6 +78,48 @@
       "source": "https://resolve-tools.com/",
       "checked_at": "2026-09-06T12:10:21.388Z",
       "note": "Provider-listed platforms; see limitations and exact builds."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://resolve-tools.com/",
+      "checked_at": "2026-11-21",
+      "note": "Explicit provider version; no date is inferred when absent."
+    },
+    {
+      "field": "editions",
+      "level": "documented",
+      "source": "https://resolve-tools.com/",
+      "checked_at": "2026-11-21",
+      "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+    },
+    {
+      "field": "resolve",
+      "level": "documented",
+      "source": "https://resolve-tools.com/",
+      "checked_at": "2026-11-21",
+      "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+    },
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://resolve-tools.com/",
+      "checked_at": "2026-11-21",
+      "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+    },
+    {
+      "field": "dependencies",
+      "level": "documented",
+      "source": "https://resolve-tools.com/",
+      "checked_at": "2026-11-21",
+      "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+    },
+    {
+      "field": "installation",
+      "level": "documented",
+      "source": "https://resolve-tools.com/",
+      "checked_at": "2026-11-21",
+      "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
     }
   ],
   "unknownFields": [
@@ -78,11 +131,32 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "Resolve Tools / Marker Madness Suite",
+      "url": "https://resolve-tools.com/",
+      "from": "Not established",
+      "to": "2.1",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": null,
+      "source": "https://resolve-tools.com/",
+      "summary": "The separate Resolve Tools app now brings five tools into one window for Studio 21.1+. Version 2.1 adds scene-level Master Continuity reports, workbook/PDF output and Premiere marker import. Classic Python scripts remain separately listed for older hosts.",
+      "changes": [
+        "The separate Resolve Tools app now brings five tools into one window for Studio 21.1+. Version 2.1 adds scene-level Master Continuity reports, workbook/PDF output and Premiere marker import. Classic Python scripts remain separately listed for older hosts."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider changelog",
+          "url": "https://resolve-tools.com/"
+        }
+      ]
+    }
+  ],
   "legacy_id": "1d42f28c9972",
   "search_sources": [
     "https://resolve-tools.com/"
   ],
-  "tags_reviewed_at": "2026-09-08",
-  "requirements_reviewed": false
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
 }

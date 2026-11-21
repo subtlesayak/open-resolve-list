@@ -57,12 +57,12 @@
     "name": "fcp2aaf",
     "url": "https://fcp2aaf.com/",
     "kind": "vendor-version",
-    "version": "26.11.02",
+    "version": "26.11.03",
     "source": "https://fcp2aaf.com/changelog/",
-    "date": "2026-11-06",
+    "date": "2026-11-18",
     "date_kind": "release",
-    "checked_at": "2026-11-14T07:53:12.819Z",
-    "note": "Original provider source reviewed."
+    "checked_at": "2026-11-21",
+    "note": "Original provider source reviewed. An exact publication date is recorded only when explicit."
   },
   "evidence": [
     {
@@ -92,6 +92,13 @@
       "source": "https://fcp2aaf.com/changelog/",
       "checked_at": "2026-11-14T07:53:12.819Z",
       "note": "Provider release evidence."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://fcp2aaf.com/changelog/",
+      "checked_at": "2026-11-21",
+      "note": "Explicit provider version; no date is inferred when absent."
     }
   ],
   "unknownFields": [
@@ -101,6 +108,26 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
+      "from": "26.11.02",
+      "to": "26.11.03",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-18",
+      "source": "https://fcp2aaf.com/changelog/",
+      "summary": "Supports Final Cut Pro 13/FCPXML 1.15 and corrects placement of clips disconnected from the primary storyline. Adds progress and cancellation during final writes and improves unusual-timeline handling and responsiveness.",
+      "changes": [
+        "Supports Final Cut Pro 13/FCPXML 1.15 and corrects placement of clips disconnected from the primary storyline. Adds progress and cancellation during final writes and improves unusual-timeline handling and responsiveness."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider changelog",
+          "url": "https://fcp2aaf.com/changelog/"
+        }
+      ]
+    },
     {
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",

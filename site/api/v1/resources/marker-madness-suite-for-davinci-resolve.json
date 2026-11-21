@@ -20,23 +20,31 @@
       "running time",
       "tracks"
     ],
-    "description": "Five-tool suite for marker management, clip renaming, tracks, running-time planning, and clip collection. Upstream claims Resolve 18+ Free/Studio; Python 3 required for scripts.",
-    "access": "Free; upstream download terms",
-    "accessGroup": "free",
+    "description": "Resolve Tools Classic 1.x: five frozen Python scripts for markers, clip renaming, tracks, running time and clip collection. Provider documents Resolve 18 through 21.0, Free or Studio. Python 3 is required. PolyForm Noncommercial 1.0.0; the newer Studio 21.1+ desktop app is a separate catalogue entry.",
+    "access": "Free for noncommercial use; PolyForm Noncommercial 1.0.0",
+    "accessGroup": "public",
     "platforms": [
       "Windows",
       "macOS"
     ],
     "platformNotes": "Windows;macOS",
     "requirements": {
-      "editions": [],
-      "resolve": [],
+      "editions": [
+        "Free",
+        "Studio"
+      ],
+      "resolve": [
+        {
+          "min": "18",
+          "max": "21.0"
+        }
+      ],
       "architectures": [],
       "gpu": null,
       "processing": "unknown",
-      "pricing": "unknown",
+      "pricing": "free",
       "account": "unknown",
-      "dependencies": null,
+      "dependencies": "Python 3; classic scripts are frozen for Resolve 18 through 21.0.",
       "installation": null
     },
     "evidence": [
@@ -53,11 +61,44 @@
         "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/21b14063c82f1ddfab50a34c2678c10de3cecd4b",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Source revision, not a software release."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+        "checked_at": "2026-11-21",
+        "note": "Reviewed source revision, not a published software release."
+      },
+      {
+        "field": "editions",
+        "level": "documented",
+        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+        "checked_at": "2026-11-21",
+        "note": "Creator explicitly limits the Classic scripts to Resolve 18 through 21.0."
+      },
+      {
+        "field": "resolve",
+        "level": "documented",
+        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+        "checked_at": "2026-11-21",
+        "note": "Creator explicitly limits the Classic scripts to Resolve 18 through 21.0."
+      },
+      {
+        "field": "dependencies",
+        "level": "documented",
+        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+        "checked_at": "2026-11-21",
+        "note": "Creator explicitly limits the Classic scripts to Resolve 18 through 21.0."
+      },
+      {
+        "field": "license",
+        "level": "documented",
+        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/blob/main/LICENSE",
+        "checked_at": "2026-11-21",
+        "note": "PolyForm Noncommercial 1.0.0, not an unrestricted open-source license."
       }
     ],
     "unknownFields": [
-      "Resolve edition",
-      "Resolve version",
       "architecture",
       "processing"
     ],
@@ -68,18 +109,42 @@
       "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "kind": "commit",
-      "version": "5990c1c77919d0f847d5332b4d57a001f985d86b",
-      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/5990c1c77919d0f847d5332b4d57a001f985d86b",
-      "date": "2026-10-14T17:54:12Z",
-      "checked_at": "2026-10-26T08:25:01.033Z",
+      "version": "fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+      "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+      "date": "2026-10-29T16:31:22Z",
+      "checked_at": "2026-11-21",
       "date_kind": "commit",
-      "note": "Source revision, not a published software release."
+      "note": "Reviewed source revision, not a published software release."
     },
     "releaseDate": null,
     "activityDate": "2026-10-29T16:37:20Z",
     "stars": 2,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
     "history": [
+      {
+        "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+        "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+        "from": "5990c1c77919d0f847d5332b4d57a001f985d86b",
+        "to": "fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-10-29T16:31:22Z",
+        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+        "summary": "Labels the scripts Resolve Tools Classic 1.x, frozen for Resolve 18 through 21.0 (Free or Studio), with Python 3 required. Adds the PolyForm Noncommercial 1.0.0 license; commercial use is not covered by that license. Studio 21.1+ users are directed to the separate Resolve Tools app.",
+        "changes": [
+          "Labels the scripts Resolve Tools Classic 1.x, frozen for Resolve 18 through 21.0 (Free or Studio), with Python 3 required. Adds the PolyForm Noncommercial 1.0.0 license; commercial use is not covered by that license. Studio 21.1+ users are directed to the separate Resolve Tools app."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/compare/5990c1c77919d0f847d5332b4d57a001f985d86b...fcfe653b7d2afdad8b926e8002c13d82ea86e8f0"
+          }
+        ]
+      },
       {
         "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
         "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",

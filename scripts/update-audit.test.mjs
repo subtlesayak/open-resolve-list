@@ -28,9 +28,12 @@ test('audit snapshot plus later discoveries cover every destination exactly once
  const repos=parseCsv(read('data/repositories.csv'));
  const urls=[...read('data/external-tools.md').matchAll(/^\| \[[^\]]+\]\((https:\/\/[^)]+)\)/gm)].map(m=>m[1]);
  const later=JSON.parse(read('data/community-discoveries.json'));
- assert.equal(audit.scope.github,repos.length);assert.equal(audit.scope.external,audit.external.length);
+ const auditedRepositories=new Set(audit.github.map(e=>e.repository));
+ const laterGithub=JSON.parse(read('data/web-discoveries.json')).additions.filter(e=>!auditedRepositories.has(e.repository));
+ for(const entry of laterGithub){assert.ok(Date.parse(entry.research_snapshot)>Date.parse(audit.checked_at),'Later additions must retain their own review date rather than rewrite the historical audit');assert.ok(entry.discovery_sources.length&&entry.evidence_source);}
+ assert.equal(audit.scope.github,audit.github.length);assert.equal(audit.scope.external,audit.external.length);
  assert.equal(audit.scope.external,later.baseline_count);
- assert.deepEqual(audit.github.map(e=>e.repository).sort(),repos.map(e=>e.repository).sort());
+ assert.deepEqual([...audit.github,...laterGithub].map(e=>e.repository).sort(),repos.map(e=>e.repository).sort());
  assert.deepEqual([...audit.external,...later.additions].map(e=>e.url).sort(),urls.sort());
  for(const e of audit.github){
   const r=repos.find(r=>r.repository===e.repository);

@@ -67,13 +67,13 @@
   "version": {
     "name": "CrossFlow",
     "url": "https://nablast.com/",
-    "kind": "unverified",
-    "version": null,
-    "source": "https://nablast.com/download/",
+    "kind": "vendor-version",
+    "version": "1.2",
+    "source": "https://nablast.com/release-notes/",
     "date": null,
     "date_kind": null,
-    "checked_at": "2026-10-26T08:19:35.198Z",
-    "note": "Download page release-note widget did not expose a verified version number."
+    "checked_at": "2026-11-21",
+    "note": "Original provider source reviewed. An exact publication date is recorded only when explicit."
   },
   "evidence": [
     {
@@ -89,6 +89,13 @@
       "source": "https://nablast.com/",
       "checked_at": "2026-10-26",
       "note": "Original provider documentation reviewed; limitations are stated in the description."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://nablast.com/release-notes/",
+      "checked_at": "2026-11-21",
+      "note": "Explicit provider version; no date is inferred when absent."
     }
   ],
   "unknownFields": [
@@ -96,7 +103,28 @@
   ],
   "recommended": false,
   "recommendation": null,
-  "history": [],
+  "history": [
+    {
+      "name": "CrossFlow",
+      "url": "https://nablast.com/",
+      "from": "Not established",
+      "to": "1.2",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": null,
+      "source": "https://nablast.com/release-notes/",
+      "summary": "Documents handles on rendered clips and on the graded return to Premiere, Premiere Pro 2027 readiness and faster startup for large transcodes. Version 1.1 adds transfers between two Mac/Windows computers using one license. The source gives November 2026 without an exact release day.",
+      "changes": [
+        "Documents handles on rendered clips and on the graded return to Premiere, Premiere Pro 2027 readiness and faster startup for large transcodes. Version 1.1 adds transfers between two Mac/Windows computers using one license. The source gives November 2026 without an exact release day."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider changelog",
+          "url": "https://nablast.com/release-notes/"
+        }
+      ]
+    }
+  ],
   "search_sources": [
     "https://nablast.com/",
     "https://nablast.com/download/",

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "logsortie",
+  "name": "LogSortie",
+  "creator": "Adrian Sava",
+  "urls": {
+    "canonical": "https://logsortie.com/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow",
+    "color"
+  ],
+  "tags": [
+    "dji osmo pocket",
+    "d-log",
+    "d-log 2",
+    "d-log m",
+    "camera metadata",
+    "footage sorting"
+  ],
+  "description": "Sort original DJI Pocket footage by Log profile and recording mode before grading. Moves files; existing edits need relinking. Apple Silicon only.",
+  "display_description": "Sort original DJI Pocket footage by Log profile and recording mode before grading. Moves files; existing edits need relinking. Apple Silicon only.",
+  "access": "First 30 clips free; paid one-time license",
+  "accessGroup": "mixed",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "Apple Silicon macOS 13+ only; Windows and Intel Macs unsupported. Independent unsigned app; other cameras are not supported.",
+  "display_platforms": "macOS",
+  "display_platform_notes": "Apple Silicon macOS 13+ only; Windows and Intel Macs unsupported. Independent unsigned app; other cameras are not supported.",
+  "platform_source": "https://logsortie.com/",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [
+      "arm64"
+    ],
+    "gpu": null,
+    "processing": "hybrid",
+    "pricing": "one-time",
+    "account": "unknown",
+    "dependencies": "Online license activation once; sorting and preview processing remain local.",
+    "installation": null
+  },
+  "version": {
+    "name": "LogSortie",
+    "url": "https://logsortie.com/",
+    "kind": "vendor-version",
+    "version": "1.1.1",
+    "source": "https://logsortie.com/changelog/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-11-21",
+    "note": "Provider gives November 2026 without an exact release day."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://logsortie.com/",
+      "checked_at": "2026-11-21",
+      "note": "Apple Silicon macOS 13+ only; Windows and Intel Macs unsupported. Independent unsigned app; other cameras are not supported."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://logsortie.com/",
+      "checked_at": "2026-11-21",
+      "note": "Sorts original DJI Osmo Pocket 4P, 4 and 3 footage into folders by documented Log/HLG/Normal profile, resolution, frame rate and slow motion before grading. Moves files without re-encoding and can undo sorting. Sort before editing: existing projects need relinking afterward. Edited clips without DJI metadata remain unknown."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://logsortie.com/changelog/",
+      "checked_at": "2026-11-21",
+      "note": "Provider gives November 2026 without an exact release day."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://logsortie.com/",
+      "checked_at": "2026-11-21",
+      "note": "Sorts original DJI Osmo Pocket 4P, 4 and 3 footage into folders by documented Log/HLG/Normal profile, resolution, frame rate and slow motion before grading. Moves files without re-encoding and can undo sorting. Sort before editing: existing projects need relinking afterward. Edited clips without DJI metadata remain unknown."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://logsortie.com/",
+    "https://logsortie.com/changelog/",
+    "https://logsortie.com/guides/d-log-2-to-rec709-osmo-pocket-4p/",
+    "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

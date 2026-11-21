@@ -37,8 +37,8 @@
       ],
       "resolve": [
         {
-          "min": "21.1",
-          "max": "21.1"
+          "min": "21.2",
+          "max": "21.2"
         }
       ],
       "architectures": [],
@@ -70,6 +70,20 @@
         "source": "https://github.com/Distortions81/DaVinci-Resolve-Container#readme",
         "checked_at": "2026-09-15",
         "note": "Community Fedora container setup for Resolve Free or Studio 21.1 on Linux using Docker or Distrobox. Documents AMD ROCm/OpenCL and NVIDIA container setup. Provider tested AMD/X11; NVIDIA and Wayland validation remains incomplete. Supply the official Resolve installer and any required Studio license separately."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+        "checked_at": "2026-11-21",
+        "note": "Reviewed source revision, not a published software release."
+      },
+      {
+        "field": "resolve",
+        "level": "documented",
+        "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+        "checked_at": "2026-11-21",
+        "note": "Current setup targets Resolve 21.2 build 6. This is the container target, not a promise about all earlier installers."
       }
     ],
     "unknownFields": [
@@ -83,18 +97,42 @@
       "name": "Distortions81/DaVinci-Resolve-Container",
       "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
       "kind": "commit",
-      "version": "9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
-      "source": "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
-      "date": "2026-09-22T05:48:42Z",
-      "checked_at": "2026-10-26T08:25:01.030Z",
+      "version": "f080b08ac1fd6f6d54b43c697a0383227c5de586",
+      "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+      "date": "2026-11-05T15:05:20Z",
+      "checked_at": "2026-11-21",
       "date_kind": "commit",
-      "note": "Source revision, not a published software release."
+      "note": "Reviewed source revision, not a published software release."
     },
     "releaseDate": null,
-    "activityDate": "2026-11-05T15:05:32Z",
+    "activityDate": "2026-11-16T16:49:45Z",
     "stars": 3,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
     "history": [
+      {
+        "name": "M45-Software/DaVinci-Resolve-Container",
+        "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
+        "from": "9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
+        "to": "f080b08ac1fd6f6d54b43c697a0383227c5de586",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-05T15:05:20Z",
+        "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+        "summary": "Updates the container setup from Resolve 21.1 through 21.1.1 and 21.1.2 to 21.2 build 6, and documents a minimal upgrade workflow. Repository now redirects to M45-Software; the existing catalogue ID and creator route are retained.",
+        "changes": [
+          "Updates the container setup from Resolve 21.1 through 21.1.1 and 21.1.2 to 21.2 build 6, and documents a minimal upgrade workflow. Repository now redirects to M45-Software; the existing catalogue ID and creator route are retained."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/M45-Software/DaVinci-Resolve-Container/compare/9e669d86eafb14bab58a96bc872ba7ab1cdd78df...f080b08ac1fd6f6d54b43c697a0383227c5de586"
+          }
+        ]
+      },
       {
         "name": "Distortions81/DaVinci-Resolve-Container",
         "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",

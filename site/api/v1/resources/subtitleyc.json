@@ -60,6 +60,13 @@
         "source": "https://github.com/BambooYC123/SubtitleYC",
         "checked_at": "2026-09-08",
         "note": "Windows setup downloads FFmpeg and CPU OCR; NVIDIA GPU OCR is optional."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
+        "checked_at": "2026-11-21",
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       }
     ],
     "unknownFields": [
@@ -74,16 +81,48 @@
       "name": "BambooYC123/SubtitleYC",
       "url": "https://github.com/BambooYC123/SubtitleYC",
       "kind": "stable-release",
-      "version": "v0.6.0",
-      "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.6.0",
-      "date": "2026-09-06T14:23:23Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v0.7.0",
+      "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
+      "date": "2026-11-19T13:57:59Z",
+      "checked_at": "2026-11-21",
+      "date_kind": "release",
+      "note": "Original provider release notes reviewed; not independently installation-tested."
     },
-    "releaseDate": "2026-09-06T14:23:23Z",
-    "activityDate": "2026-09-06T14:53:38Z",
+    "releaseDate": "2026-11-19T13:57:59Z",
+    "activityDate": "2026-11-19T13:36:19Z",
     "stars": 11,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
-    "history": [],
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
+    "history": [
+      {
+        "name": "BambooYC123/SubtitleYC",
+        "url": "https://github.com/BambooYC123/SubtitleYC",
+        "from": "v0.6.0",
+        "to": "v0.7.0",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-19T13:57:59Z",
+        "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
+        "summary": "Combines Extract/Edit workspaces with a frame-timed timeline, draggable ranges and cue timing, expanded subtitle editing and WebVTT import. Improves cancellation, preview decoding and unsaved-edit protection. GPU OCR builds require GPU mode. Windows installers remain unsigned; setup downloads and verifies the app and OCR payloads.",
+        "changes": [
+          "Combines Extract/Edit workspaces with a frame-timed timeline, draggable ranges and cue timing, expanded subtitle editing and WebVTT import.",
+          "Improves cancellation, preview decoding and unsaved-edit protection. GPU OCR builds require GPU mode. Windows installers remain unsigned; setup downloads and verifies the app and OCR payloads."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider release",
+            "url": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/BambooYC123/SubtitleYC/compare/v0.6.0...v0.7.0"
+          },
+          {
+            "label": "Full provider changelog",
+            "url": "https://github.com/BambooYC123/SubtitleYC/blob/main/CHANGELOG.md"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.20",

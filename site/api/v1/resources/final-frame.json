@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "resource": {
+    "id": "final-frame",
+    "name": "Final Frame",
+    "creator": "Final Frame",
+    "url": "https://finalframe.cc/",
+    "origin": "external",
+    "official": false,
+    "reference": false,
+    "category": "Community discoveries",
+    "kind": "workflow-app",
+    "tasks": [
+      "fusion",
+      "workflow"
+    ],
+    "tags": [
+      "end credits",
+      "credit roll",
+      "prores 4444",
+      "alpha titles",
+      "dpx",
+      "exr"
+    ],
+    "description": "Design and render end credits as ProRes alpha, DNxHR, DPX or EXR finishing plates. Mac app; clean exports need a license.",
+    "access": "Free watermarked exports; paid production/season licenses or subscription",
+    "accessGroup": "mixed",
+    "platforms": [
+      "macOS"
+    ],
+    "platformNotes": "macOS 13+, Apple Silicon or Intel. No independent rendering, guild-compliance or Resolve-import test.",
+    "requirements": {
+      "editions": [],
+      "resolve": [],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "gpu": null,
+      "processing": "hybrid",
+      "pricing": "mixed",
+      "account": "unknown",
+      "dependencies": "Online account/review features have separate network use; master rendering is local.",
+      "installation": null
+    },
+    "evidence": [
+      {
+        "field": "platforms",
+        "level": "documented",
+        "source": "https://finalframe.cc/",
+        "checked_at": "2026-11-21",
+        "note": "macOS 13+, Apple Silicon or Intel. No independent rendering, guild-compliance or Resolve-import test."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://finalframe.cc/",
+        "checked_at": "2026-11-21",
+        "note": "Standalone end-credit design and rendering companion for film/TV, exporting ProRes 4444 alpha, DNxHR, DPX, EXR and other deliverables for finishing. Masters render on the Mac; document intake and online team review have separate workflows. Watermarked exports are free; clean masters need a production/season license or subscription. Exact Resolve host requirements are not applicable to rendering independent plates."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://finalframe.cc/",
+        "checked_at": "2026-11-21",
+        "note": "Standalone end-credit design and rendering companion for film/TV, exporting ProRes 4444 alpha, DNxHR, DPX, EXR and other deliverables for finishing. Masters render on the Mac; document intake and online team review have separate workflows. Watermarked exports are free; clean masters need a production/season license or subscription. Exact Resolve host requirements are not applicable to rendering independent plates."
+      }
+    ],
+    "unknownFields": [
+      "Resolve edition",
+      "Resolve version",
+      "tool version"
+    ],
+    "recommended": false,
+    "recommendation": null,
+    "previousUrls": [],
+    "version": {
+      "name": "Final Frame",
+      "url": "https://finalframe.cc/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://finalframe.cc/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-11-21",
+      "note": "No product version established from the reviewed original source."
+    },
+    "releaseDate": null,
+    "activityDate": null,
+    "stars": null,
+    "metadataChecked": null,
+    "history": [],
+    "catalogueReleases": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "resolve-aac-bridge",
+  "name": "resolve-linux-aac-full",
+  "creator": "hexitnz",
+  "urls": {
+    "canonical": "https://github.com/hexitnz/resolve-linux-aac-full",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "encoder",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "aac import",
+    "aac export",
+    "linux audio",
+    "fdk aac",
+    "aac lc",
+    "codec bridge"
+  ],
+  "description": "Experimental Linux Studio AAC import/export bridge. Replaces the deprecated FDK encoder; host layouts and AAC profiles have limits.",
+  "display_description": "Experimental Linux Studio AAC import/export bridge. Replaces the deprecated FDK encoder; host layouts and AAC profiles have limits.",
+  "access": "Free source; GPL-2.0-only; dependency licenses separate",
+  "accessGroup": "free",
+  "platforms": [
+    "Linux"
+  ],
+  "platform_notes": "Linux x86-64 Resolve Studio. Provider build labels are not converted into a supported Resolve version range. GPU/video codec support is unchanged.",
+  "display_platforms": "Linux",
+  "display_platform_notes": "Linux x86-64 Resolve Studio. Provider build labels are not converted into a supported Resolve version range. GPU/video codec support is unchanged.",
+  "platform_source": "https://github.com/hexitnz/resolve-linux-aac-full",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": 3,
+  "last_pushed_at": "2026-11-15T23:01:28Z",
+  "metadata_checked_at": "2026-11-21",
+  "requirements": {
+    "editions": [
+      "Studio"
+    ],
+    "resolve": [],
+    "architectures": [
+      "x64"
+    ],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": "Resolve Studio; source builds need Python 3.8+, a Linux Podman/Docker engine, internet and the Resolve codec SDK.",
+    "installation": "Use the original release/build and conflict instructions; the combined package contains decoder and encoder components."
+  },
+  "version": {
+    "name": "hexitnz/resolve-linux-aac-full",
+    "url": "https://github.com/hexitnz/resolve-linux-aac-full",
+    "kind": "stable-release",
+    "version": "v21.2.6-adts",
+    "source": "https://github.com/hexitnz/resolve-linux-aac-full/releases/tag/v21.2.6-adts",
+    "date": "2026-11-15T22:59:44Z",
+    "date_kind": "release",
+    "checked_at": "2026-11-21",
+    "note": "Provider release tag v21.2.6-adts is a package label, not evidence of a Resolve 21.2.6 host release."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "checked_at": "2026-11-21",
+      "note": "Linux x86-64 Resolve Studio. Provider build labels are not converted into a supported Resolve version range. GPU/video codec support is unchanged."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "checked_at": "2026-11-21",
+      "note": "Experimental AAC import/playback and AAC-LC export bridge for Resolve Studio on Linux x86-64. Uses validated in-memory hooks; unknown layouts stay inactive. The provider reports selected Studio builds, with other profiles, multichannel and sample-accurate delay still needing validation. Replaces the deprecated standalone FDK encoder; not production-qualified native codec support."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/resolve-linux-aac-full/releases/tag/v21.2.6-adts",
+      "checked_at": "2026-11-21",
+      "note": "Original provider release; not independently installation-tested."
+    },
+    {
+      "field": "license",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/resolve-linux-aac-full/blob/main/LICENSE",
+      "checked_at": "2026-11-21",
+      "note": "GPL-2.0-only for project code; third-party licenses remain separate."
+    },
+    {
+      "field": "resolve",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/resolve-linux-aac-full#readme",
+      "checked_at": "2026-11-21",
+      "note": "Exact provider-reported builds do not establish an open-ended host version range. The unusual 21.2.6 label is not normalized into an official host release."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "checked_at": "2026-11-21",
+      "note": "Experimental AAC import/playback and AAC-LC export bridge for Resolve Studio on Linux x86-64. Uses validated in-memory hooks; unknown layouts stay inactive. The provider reports selected Studio builds, with other profiles, multichannel and sample-accurate delay still needing validation. Replaces the deprecated standalone FDK encoder; not production-qualified native codec support."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://github.com/hexitnz/resolve-linux-aac-full",
+    "https://github.com/hexitnz/resolve-linux-aac-full#readme",
+    "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

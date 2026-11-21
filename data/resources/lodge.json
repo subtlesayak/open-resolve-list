@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "lodge",
+  "name": "Lodge",
+  "creator": "bashframes",
+  "urls": {
+    "canonical": "https://bashfra.me/lodge/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "camera card ingest",
+    "media offload",
+    "sha256 verification",
+    "folder naming",
+    "incremental copy"
+  ],
+  "description": "Mac camera-card ingest with custom names, incremental copies and SHA-256 verification. Standalone companion with a paid license and trial.",
+  "display_description": "Mac camera-card ingest with custom names, incremental copies and SHA-256 verification. Standalone companion with a paid license and trial.",
+  "access": "Paid one-time license; three-day trial",
+  "accessGroup": "paid",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "Universal Apple Silicon/Intel app; macOS 14+. Provider says the app is not notarized. No independent offload or data-integrity test.",
+  "display_platforms": "macOS",
+  "display_platform_notes": "Universal Apple Silicon/Intel app; macOS 14+. Provider says the app is not notarized. No independent offload or data-integrity test.",
+  "platform_source": "https://bashfra.me/lodge/",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [
+      "arm64",
+      "x64"
+    ],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "one-time",
+    "account": "not-required",
+    "dependencies": "Removable-volume access; optional daily update check can be disabled.",
+    "installation": "Mac DMG; follow the original unsigned-app installation instructions."
+  },
+  "version": {
+    "name": "Lodge",
+    "url": "https://bashfra.me/lodge/",
+    "kind": "vendor-version",
+    "version": "1.0",
+    "source": "https://bashfra.me/lodge/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-11-21",
+    "note": "Original product page explicitly identifies Lodge 1.0; release date not established."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://bashfra.me/lodge/",
+      "checked_at": "2026-11-21",
+      "note": "Universal Apple Silicon/Intel app; macOS 14+. Provider says the app is not notarized. No independent offload or data-integrity test."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://bashfra.me/lodge/",
+      "checked_at": "2026-11-21",
+      "note": "Mac camera-card ingest companion that copies into custom folder/file templates, skips previously copied media and verifies each copy with SHA-256. Reads the card without overwriting destination files. Use before importing footage into an editor; this is a standalone offload utility rather than a Resolve plugin."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://bashfra.me/lodge/",
+      "checked_at": "2026-11-21",
+      "note": "Original product page explicitly identifies Lodge 1.0; release date not established."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://bashfra.me/lodge/",
+      "checked_at": "2026-11-21",
+      "note": "Mac camera-card ingest companion that copies into custom folder/file templates, skips previously copied media and verifies each copy with SHA-256. Reads the card without overwriting destination files. Use before importing footage into an editor; this is a standalone offload utility rather than a Resolve plugin."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://bashfra.me/lodge/",
+    "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

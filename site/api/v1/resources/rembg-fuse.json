@@ -43,6 +43,13 @@
         "source": "https://github.com/Akascape/Rembg-Fuse/commit/9726f575d044494c66c70611109d90559191985f",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Source revision, not a software release."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7",
+        "checked_at": "2026-11-21",
+        "note": "Reviewed source revision, not a published software release."
       }
     ],
     "unknownFields": [
@@ -59,16 +66,43 @@
       "name": "Akascape/Rembg-Fuse",
       "url": "https://github.com/Akascape/Rembg-Fuse",
       "kind": "commit",
-      "version": "9726f575d044494c66c70611109d90559191985f",
-      "source": "https://github.com/Akascape/Rembg-Fuse/commit/9726f575d044494c66c70611109d90559191985f",
-      "date": "2026-07-05T20:40:39Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "5f5f9e681a54684fdff4205f444a589d3f58eba7",
+      "source": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7",
+      "date": "2026-11-14T07:06:13Z",
+      "checked_at": "2026-11-21",
+      "date_kind": "commit",
+      "note": "Reviewed source revision, not a published software release."
     },
     "releaseDate": null,
     "activityDate": "2026-11-14T07:06:14Z",
-    "stars": 227,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
-    "history": [],
+    "stars": 230,
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
+    "history": [
+      {
+        "name": "Akascape/Rembg-Fuse",
+        "url": "https://github.com/Akascape/Rembg-Fuse",
+        "from": "9726f575d044494c66c70611109d90559191985f",
+        "to": "5f5f9e681a54684fdff4205f444a589d3f58eba7",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-14T07:06:13Z",
+        "source": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7",
+        "summary": "Fixes Resolve 21.1 compatibility and model updating. The README identifies Fuse 0.5, script 0.3 and setup manager 1.4; this catalogue tracks the source revision rather than treating those component labels as a published release.",
+        "changes": [
+          "Fixes Resolve 21.1 compatibility and model updating. The README identifies Fuse 0.5, script 0.3 and setup manager 1.4; this catalogue tracks the source revision rather than treating those component labels as a published release."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/Akascape/Rembg-Fuse/compare/9726f575d044494c66c70611109d90559191985f...5f5f9e681a54684fdff4205f444a589d3f58eba7"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.0",

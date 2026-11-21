@@ -22,7 +22,10 @@
       "saturation",
       "halftone",
       "banding suppression",
-      "dot printing"
+      "dot printing",
+      "scene linear dissolve",
+      "transition",
+      "alpha compositing"
     ],
     "description": "Extensive creative and technical tools for exposure, contrast, saturation, diagnostics, and image effects.",
     "access": "Free",
@@ -57,6 +60,13 @@
         "source": "https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Source revision, not a software release."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb",
+        "checked_at": "2026-11-21",
+        "note": "Reviewed source revision, not a published software release."
       }
     ],
     "unknownFields": [
@@ -72,18 +82,42 @@
       "name": "thatcherfreeman/utility-dctls",
       "url": "https://github.com/thatcherfreeman/utility-dctls",
       "kind": "commit",
-      "version": "771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
-      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
-      "date": "2026-10-09T08:39:40Z",
-      "checked_at": "2026-10-26T08:25:01.040Z",
+      "version": "e78315c3600e23409f0f0cd7e1212af73323cbcb",
+      "source": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb",
+      "date": "2026-10-28T13:58:48Z",
+      "checked_at": "2026-11-21",
       "date_kind": "commit",
-      "note": "Source revision, not a published software release."
+      "note": "Reviewed source revision, not a published software release."
     },
     "releaseDate": null,
     "activityDate": "2026-10-28T13:58:59Z",
-    "stars": 442,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
+    "stars": 446,
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
     "history": [
+      {
+        "name": "thatcherfreeman/utility-dctls",
+        "url": "https://github.com/thatcherfreeman/utility-dctls",
+        "from": "771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
+        "to": "e78315c3600e23409f0f0cd7e1212af73323cbcb",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-10-28T13:58:48Z",
+        "source": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb",
+        "summary": "Adds a scene-linear Dissolve DCTL transition with input transfer-function, alpha and easing controls. The provider places the display transform after the dissolve; this differs from a display-referred crossfade.",
+        "changes": [
+          "Adds a scene-linear Dissolve DCTL transition with input transfer-function, alpha and easing controls. The provider places the display transform after the dissolve; this differs from a display-referred crossfade."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/thatcherfreeman/utility-dctls/compare/771d6cbbb22c7f27141afaf1d8edbffda702dfd9...e78315c3600e23409f0f0cd7e1212af73323cbcb"
+          }
+        ]
+      },
       {
         "name": "thatcherfreeman/utility-dctls",
         "url": "https://github.com/thatcherfreeman/utility-dctls",

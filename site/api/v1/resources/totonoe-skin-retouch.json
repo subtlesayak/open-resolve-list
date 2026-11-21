@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "resource": {
+    "id": "totonoe-skin-retouch",
+    "name": "Totonoe Skin Retouch for DaVinci Resolve",
+    "creator": "Totonoe",
+    "url": "https://totonoe.designstudiomarimo.com/en/resolve/",
+    "origin": "external",
+    "official": false,
+    "reference": false,
+    "category": "Color / Film",
+    "kind": "ofx",
+    "tasks": [
+      "color"
+    ],
+    "tags": [
+      "skin retouch",
+      "skin smoothing",
+      "texture restoration",
+      "skin color mask",
+      "openfx",
+      "beauty"
+    ],
+    "description": "Mac OFX skin smoothing with texture restoration. Color-based selection can affect similar tones together. Creator checked Free 20.3.2 on Apple Silicon only.",
+    "access": "Paid one-time license; watermarked free trial",
+    "accessGroup": "paid",
+    "platforms": [
+      "macOS"
+    ],
+    "platformNotes": "macOS 13+; Universal Binary for Apple Silicon and Intel, but creator testing covers Apple Silicon only. Windows is unsupported. Wide-gamut HDR can weaken skin detection; no viewer eyedropper.",
+    "requirements": {
+      "editions": [
+        "Free"
+      ],
+      "resolve": [],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "gpu": null,
+      "processing": "unknown",
+      "pricing": "one-time",
+      "account": "not-required",
+      "dependencies": "macOS 13+. Resolve version range is not established; the creator reports one tested setup, not a minimum or maximum version.",
+      "installation": "Notarized macOS PKG installer; administrator permission and a Resolve restart are required."
+    },
+    "evidence": [
+      {
+        "field": "platforms",
+        "level": "documented",
+        "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+        "checked_at": "2026-11-21",
+        "note": "Mac only, macOS 13+. Windows unsupported; Intel build supplied but not tested."
+      },
+      {
+        "field": "architectures",
+        "level": "documented",
+        "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+        "checked_at": "2026-11-21",
+        "note": "Universal Binary for Apple Silicon and Intel. Build availability is not independent installation testing."
+      },
+      {
+        "field": "editions",
+        "level": "creator",
+        "source": "https://github.com/subtlesayak/open-resolve-list/issues/1",
+        "checked_at": "2026-11-21",
+        "note": "Developer reports testing Resolve Free 20.3.2 on Apple Silicon. Studio is untested."
+      },
+      {
+        "field": "resolve",
+        "level": "creator",
+        "source": "https://totonoe.designstudiomarimo.com/en/resolve/#free-version",
+        "checked_at": "2026-11-21",
+        "note": "20.3.2 is a creator-reported test point, not a supported version range. Resolve 21 is untested."
+      },
+      {
+        "field": "installation",
+        "level": "documented",
+        "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+        "checked_at": "2026-11-21",
+        "note": "Creator documents a notarized PKG, administrator permission and restarting Resolve."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://totonoe.designstudiomarimo.com/en/resolve/#params",
+        "checked_at": "2026-11-21",
+        "note": "Skin-color selection can affect multiple people and skin-like objects. Use a window or mask to isolate an area; wide-gamut HDR can weaken detection."
+      },
+      {
+        "field": "pricing",
+        "level": "documented",
+        "source": "https://totonoe.designstudiomarimo.com/en/resolve/#pricing",
+        "checked_at": "2026-11-21",
+        "note": "One-time Resolve license, separate from the Adobe versions; watermarked trial. The English checkout states that no Gumroad account is needed."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://totonoe.designstudiomarimo.com/en/resolve/",
+        "checked_at": "2026-11-21",
+        "note": "Smooths skin selected by color, with texture restoration and mask controls. Mac-only Resolve OFX; does not detect or isolate faces, so similar skin tones can be affected together. Paid separate Resolve license with a watermarked trial. The creator checked Resolve Free 20.3.2 on Apple Silicon; Studio, Resolve 21 and Intel Macs remain untested."
+      }
+    ],
+    "unknownFields": [
+      "Resolve version",
+      "processing",
+      "tool version"
+    ],
+    "recommended": false,
+    "recommendation": null,
+    "previousUrls": [
+      "https://fukudafukuo.github.io/totonoe/en/resolve/"
+    ],
+    "version": {
+      "name": "Totonoe Skin Retouch for DaVinci Resolve",
+      "url": "https://totonoe.designstudiomarimo.com/en/resolve/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://totonoe.designstudiomarimo.com/en/resolve/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-11-21",
+      "note": "No product version established from the reviewed original source."
+    },
+    "releaseDate": null,
+    "activityDate": null,
+    "stars": null,
+    "metadataChecked": null,
+    "history": [],
+    "catalogueReleases": []
+  }
+}

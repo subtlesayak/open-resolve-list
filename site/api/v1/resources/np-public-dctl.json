@@ -18,9 +18,11 @@
       "dctl",
       "film",
       "grain",
-      "saturation"
+      "saturation",
+      "creative banding",
+      "banding mask"
     ],
-    "description": "Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools.",
+    "description": "Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools. Includes Lazy Banding, a creative banding mask.",
     "access": "Free",
     "accessGroup": "free",
     "platforms": [
@@ -35,12 +37,12 @@
       ],
       "resolve": [
         {
-          "edition": "Studio",
-          "min": "19.1"
+          "min": "19.1",
+          "edition": "Studio"
         }
       ],
       "architectures": [],
-      "gpu": null,
+      "gpu": "NVIDIA GPU or Apple Silicon; other systems untested by provider.",
       "processing": "unknown",
       "pricing": "unknown",
       "account": "unknown",
@@ -68,6 +70,34 @@
         "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
         "checked_at": "2026-09-06",
         "note": "Structured from the existing source-backed catalogue description; no new installation test: Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d",
+        "checked_at": "2026-11-21",
+        "note": "Reviewed source revision, not a published software release."
+      },
+      {
+        "field": "editions",
+        "level": "documented",
+        "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+        "checked_at": "2026-11-21",
+        "note": "Provider documents Studio 19.1+ and NVIDIA or Apple Silicon."
+      },
+      {
+        "field": "resolve",
+        "level": "documented",
+        "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+        "checked_at": "2026-11-21",
+        "note": "Provider documents Studio 19.1+ and NVIDIA or Apple Silicon."
+      },
+      {
+        "field": "gpu",
+        "level": "documented",
+        "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+        "checked_at": "2026-11-21",
+        "note": "Provider documents Studio 19.1+ and NVIDIA or Apple Silicon."
       }
     ],
     "unknownFields": [
@@ -81,16 +111,43 @@
       "name": "nikita-petrovich/np-public-dctl",
       "url": "https://github.com/nikita-petrovich/np-public-dctl",
       "kind": "commit",
-      "version": "e13d3bf8af6943eb4745b62439812650da253cd7",
-      "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/e13d3bf8af6943eb4745b62439812650da253cd7",
-      "date": "2026-06-26T12:15:43Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "8941f3bab4af8f45bc5a7907eac747a01899e35d",
+      "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d",
+      "date": "2026-11-16T18:35:17Z",
+      "checked_at": "2026-11-21",
+      "date_kind": "commit",
+      "note": "Reviewed source revision, not a published software release."
     },
     "releaseDate": null,
-    "activityDate": "2026-06-26T12:15:47Z",
-    "stars": 12,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
-    "history": [],
+    "activityDate": "2026-11-16T18:35:25Z",
+    "stars": 14,
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
+    "history": [
+      {
+        "name": "nikita-petrovich/np-public-dctl",
+        "url": "https://github.com/nikita-petrovich/np-public-dctl",
+        "from": "e13d3bf8af6943eb4745b62439812650da253cd7",
+        "to": "8941f3bab4af8f45bc5a7907eac747a01899e35d",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-16T18:35:17Z",
+        "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d",
+        "summary": "Adds Lazy Banding, a mask-based creative banding DCTL. The documented collection requirements remain Resolve Studio 19.1+ with NVIDIA or Apple Silicon; other systems are untested by the provider.",
+        "changes": [
+          "Adds Lazy Banding, a mask-based creative banding DCTL. The documented collection requirements remain Resolve Studio 19.1+ with NVIDIA or Apple Silicon; other systems are untested by the provider."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/nikita-petrovich/np-public-dctl/compare/e13d3bf8af6943eb4745b62439812650da253cd7...8941f3bab4af8f45bc5a7907eac747a01899e35d"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.4",

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "corridorkey-2-source",
+  "name": "CorridorKey2.0",
+  "creator": "nikopueringer",
+  "urls": {
+    "canonical": "https://github.com/nikopueringer/CorridorKey2.0",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Fusion, motion graphics, visual effects, and package management",
+  "kind": "workflow-app",
+  "tasks": [
+    "fusion"
+  ],
+  "tags": [
+    "chroma key",
+    "green screen",
+    "blue screen",
+    "alpha matte",
+    "linear exr",
+    "temporal keying"
+  ],
+  "description": "Official local Python chroma keyer with matte, foreground and linear-EXR outputs. Requires NVIDIA/CUDA; custom license restrictions apply.",
+  "display_description": "Official local Python chroma keyer with matte, foreground and linear-EXR outputs. Requires NVIDIA/CUDA; custom license restrictions apply.",
+  "access": "Source available; custom CorridorKey license, not unrestricted open source",
+  "accessGroup": "public",
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "platform_notes": "NVIDIA RTX 30-series+; 4 GB VRAM for up to 1440p or 6 GB for 4K. Windows/Linux launchers documented; macOS source support not established.",
+  "display_platforms": "Windows;Linux",
+  "display_platform_notes": "NVIDIA RTX 30-series+; 4 GB VRAM for up to 1440p or 6 GB for 4K. Windows/Linux launchers documented; macOS source support not established.",
+  "platform_source": "https://github.com/nikopueringer/CorridorKey2.0",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": 2245,
+  "last_pushed_at": "2026-10-15T18:09:53Z",
+  "metadata_checked_at": "2026-11-21",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": "NVIDIA RTX 30-series+; 4 GB VRAM up to 1440p, 6 GB for 4K.",
+    "processing": "local",
+    "pricing": "unknown",
+    "account": "unknown",
+    "dependencies": "CUDA-enabled PyTorch, Python environment, FFmpeg and model downloads.",
+    "installation": null
+  },
+  "version": {
+    "name": "nikopueringer/CorridorKey2.0",
+    "url": "https://github.com/nikopueringer/CorridorKey2.0",
+    "kind": "commit",
+    "version": "485f5e9ab759ead6138cc990776184b59d6ea971",
+    "source": "https://github.com/nikopueringer/CorridorKey2.0/commit/485f5e9ab759ead6138cc990776184b59d6ea971",
+    "date": "2026-10-15T18:09:53Z",
+    "date_kind": "commit",
+    "checked_at": "2026-11-21",
+    "note": "Source revision; product-family name is not a published release."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/nikopueringer/CorridorKey2.0",
+      "checked_at": "2026-11-21",
+      "note": "NVIDIA RTX 30-series+; 4 GB VRAM for up to 1440p or 6 GB for 4K. Windows/Linux launchers documented; macOS source support not established."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/nikopueringer/CorridorKey2.0",
+      "checked_at": "2026-11-21",
+      "note": "Official CorridorKey 2.0 Python model/runtime for local chroma keying and foreground/matte output, separate from the commercial OFX package. Requires NVIDIA RTX 30-series+, CUDA PyTorch and FFmpeg. Ordinary video is display-referred; unclipped HDR uses the documented linear-EXR path. Custom license permits output work but restricts redistribution/services and requires plugin seats for organizations above its revenue threshold."
+    },
+    {
+      "field": "license",
+      "level": "documented",
+      "source": "https://github.com/nikopueringer/CorridorKey2.0/blob/master/LICENSE",
+      "checked_at": "2026-11-21",
+      "note": "CC BY-NC-SA 4.0 with additional terms. Commercial output is permitted subject to the license; organizations above US$20 million annual revenue need per-user plugin seats. Paid redistribution/API services and commercial integration have separate restrictions."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/nikopueringer/CorridorKey2.0",
+      "checked_at": "2026-11-21",
+      "note": "Official CorridorKey 2.0 Python model/runtime for local chroma keying and foreground/matte output, separate from the commercial OFX package. Requires NVIDIA RTX 30-series+, CUDA PyTorch and FFmpeg. Ordinary video is display-referred; unclipped HDR uses the documented linear-EXR path. Custom license permits output work but restricts redistribution/services and requires plugin seats for organizations above its revenue threshold."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://github.com/nikopueringer/CorridorKey2.0",
+    "https://github.com/nikopueringer/CorridorKey2.0#readme",
+    "https://github.com/nikopueringer/CorridorKey2.0/blob/master/LICENSE",
+    "https://www.reddit.com/r/vfx/comments/1xykcs3/breakdown_for_scifi_short_jetset_blender_and_of/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

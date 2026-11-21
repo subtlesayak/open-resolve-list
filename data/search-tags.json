@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy": "Generated from data/resources/*.json. Edit canonical records, then run npm run build.",
-  "reviewed_at": "2026-11-14",
+  "reviewed_at": "2026-11-21",
   "entries": [
     {
       "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
@@ -709,6 +709,24 @@
       ]
     },
     {
+      "url": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+      "name": "BMD-MicroColorPanel-Tools",
+      "tags": [
+        "micro color panel",
+        "hid protocol",
+        "usb",
+        "bluetooth",
+        "python driver",
+        "control surface"
+      ],
+      "sources": [
+        "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+        "https://github.com/subtlesayak/open-resolve-list/issues/2",
+        "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+        "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/blob/main/LICENSE"
+      ]
+    },
+    {
       "url": "https://github.com/Microck/boilify",
       "name": "boilify",
       "tags": [
@@ -1149,6 +1167,21 @@
       ]
     },
     {
+      "url": "https://cloudroomy.app/",
+      "name": "CloudRoomy",
+      "tags": [
+        "cloud footage",
+        "finder drive",
+        "streaming media",
+        "s3 storage",
+        "remote editing"
+      ],
+      "sources": [
+        "https://cloudroomy.app/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ]
+    },
+    {
       "url": "https://github.com/stoatworks-labs/cogwheel",
       "name": "cogwheel",
       "tags": [
@@ -1269,6 +1302,43 @@
       ]
     },
     {
+      "url": "https://corridorkey.com/",
+      "name": "CorridorKey 2.0 OFX and standalone",
+      "tags": [
+        "chroma key",
+        "green screen",
+        "blue screen",
+        "temporal keying",
+        "alpha hints",
+        "despill"
+      ],
+      "sources": [
+        "https://corridorkey.com/",
+        "https://help.corridorkey.com/docs/manual/",
+        "https://corridorkey.com/download/",
+        "https://corridorkey.com/faq/",
+        "https://www.reddit.com/r/vfx/comments/1xykcs3/breakdown_for_scifi_short_jetset_blender_and_of/"
+      ]
+    },
+    {
+      "url": "https://github.com/nikopueringer/CorridorKey2.0",
+      "name": "CorridorKey2.0",
+      "tags": [
+        "chroma key",
+        "green screen",
+        "blue screen",
+        "alpha matte",
+        "linear exr",
+        "temporal keying"
+      ],
+      "sources": [
+        "https://github.com/nikopueringer/CorridorKey2.0",
+        "https://github.com/nikopueringer/CorridorKey2.0#readme",
+        "https://github.com/nikopueringer/CorridorKey2.0/blob/master/LICENSE",
+        "https://www.reddit.com/r/vfx/comments/1xykcs3/breakdown_for_scifi_short_jetset_blender_and_of/"
+      ]
+    },
+    {
       "url": "https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime",
       "name": "CorridorKey-Runtime",
       "tags": [
@@ -1327,6 +1397,25 @@
       ],
       "sources": [
         "https://cutpointlabs.com/cutdetect/"
+      ]
+    },
+    {
+      "url": "https://cutdown.app/",
+      "name": "Cutdown",
+      "tags": [
+        "selects timeline",
+        "footage analysis",
+        "focus scoring",
+        "exposure scoring",
+        "motion scoring",
+        "aaf",
+        "fcpxml",
+        "opentimelineio"
+      ],
+      "sources": [
+        "https://cutdown.app/",
+        "https://cutdown.app/changelog",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
       ]
     },
     {
@@ -1452,6 +1541,22 @@
       ],
       "sources": [
         "https://github.com/Georj01/davinci-dctl"
+      ]
+    },
+    {
+      "url": "https://github.com/mrchrisster/davinci-font-auditor",
+      "name": "davinci-font-auditor",
+      "tags": [
+        "drp font audit",
+        "font mapping",
+        "subtitle fonts",
+        "fusion titles",
+        "project portability"
+      ],
+      "sources": [
+        "https://github.com/mrchrisster/davinci-font-auditor",
+        "https://github.com/mrchrisster/davinci-font-auditor#readme",
+        "https://www.reddit.com/r/davinciresolve/comments/1rjtn8e/created_an_awesome_list_for_davinci_resolve_on/"
       ]
     },
     {
@@ -3175,6 +3280,22 @@
       ]
     },
     {
+      "url": "https://finalframe.cc/",
+      "name": "Final Frame",
+      "tags": [
+        "end credits",
+        "credit roll",
+        "prores 4444",
+        "alpha titles",
+        "dpx",
+        "exr"
+      ],
+      "sources": [
+        "https://finalframe.cc/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ]
+    },
+    {
       "url": "https://firecut.ai/pricing/davinci-resolve/",
       "name": "FireCut",
       "tags": [
@@ -3511,10 +3632,15 @@
         "fusion",
         "media pool",
         "media relinking",
-        "project transfer"
+        "project transfer",
+        "fusion effects",
+        "adjustment clips",
+        "relink media",
+        "dry run"
       ],
       "sources": [
-        "https://github.com/postflows/Fusion-MediaIn-ID-Update-"
+        "https://github.com/postflows/Fusion-MediaIn-ID-Update-",
+        "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c"
       ]
     },
     {
@@ -3743,6 +3869,24 @@
       ]
     },
     {
+      "url": "https://github.com/DorwinDT/GpxToFusion",
+      "name": "GpxToFusion",
+      "tags": [
+        "gpx route",
+        "map animation",
+        "fusion polyline",
+        "write on",
+        "gps track",
+        "map labels"
+      ],
+      "sources": [
+        "https://github.com/DorwinDT/GpxToFusion",
+        "https://github.com/DorwinDT/GpxToFusion#readme",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/",
+        "https://dorwindt.github.io/GpxToFusion/"
+      ]
+    },
+    {
       "url": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci",
       "name": "GPX-Visualization-Davinci",
       "tags": [
@@ -3858,10 +4002,13 @@
       "tags": [
         "automatic editing",
         "dialogue",
-        "silence removal"
+        "silence removal",
+        "manual regions",
+        "linked clips"
       ],
       "sources": [
-        "https://github.com/oliwoli/HushCut"
+        "https://github.com/oliwoli/HushCut",
+        "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha"
       ]
     },
     {
@@ -4073,6 +4220,39 @@
       ]
     },
     {
+      "url": "https://bashfra.me/lodge/",
+      "name": "Lodge",
+      "tags": [
+        "camera card ingest",
+        "media offload",
+        "sha256 verification",
+        "folder naming",
+        "incremental copy"
+      ],
+      "sources": [
+        "https://bashfra.me/lodge/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ]
+    },
+    {
+      "url": "https://logsortie.com/",
+      "name": "LogSortie",
+      "tags": [
+        "dji osmo pocket",
+        "d-log",
+        "d-log 2",
+        "d-log m",
+        "camera metadata",
+        "footage sorting"
+      ],
+      "sources": [
+        "https://logsortie.com/",
+        "https://logsortie.com/changelog/",
+        "https://logsortie.com/guides/d-log-2-to-rec709-osmo-pocket-4p/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ]
+    },
+    {
       "url": "https://github.com/debuxxed/lowcat",
       "name": "lowcat",
       "tags": [
@@ -4263,6 +4443,23 @@
       ],
       "sources": [
         "https://mark-bone.sellfy.store/p/power-grade-mbnp/"
+      ]
+    },
+    {
+      "url": "https://mcnexus.app/",
+      "name": "MCNexus",
+      "tags": [
+        "ofx plugin manager",
+        "dctl to ofx",
+        "midi control",
+        "plugin updates",
+        "license management"
+      ],
+      "sources": [
+        "https://mcnexus.app/",
+        "https://mcnexus.app/docs/user-guide/",
+        "https://mcnexus.app/pricing/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
       ]
     },
     {
@@ -4644,10 +4841,13 @@
         "dctl",
         "film",
         "grain",
-        "saturation"
+        "saturation",
+        "creative banding",
+        "banding mask"
       ],
       "sources": [
-        "https://github.com/nikita-petrovich/np-public-dctl"
+        "https://github.com/nikita-petrovich/np-public-dctl",
+        "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d"
       ]
     },
     {
@@ -5392,6 +5592,23 @@
       ]
     },
     {
+      "url": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "name": "resolve-linux-aac-full",
+      "tags": [
+        "aac import",
+        "aac export",
+        "linux audio",
+        "fdk aac",
+        "aac lc",
+        "codec bridge"
+      ],
+      "sources": [
+        "https://github.com/hexitnz/resolve-linux-aac-full",
+        "https://github.com/hexitnz/resolve-linux-aac-full#readme",
+        "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme"
+      ]
+    },
+    {
       "url": "https://github.com/xtremestuff/resolve-aces",
       "name": "resolve-aces",
       "tags": [
@@ -5787,6 +6004,25 @@
       ]
     },
     {
+      "url": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+      "name": "Resolve Telemetry Overlay",
+      "tags": [
+        "fit activity data",
+        "telemetry gauges",
+        "cycling",
+        "running",
+        "route overlay",
+        "heart rate",
+        "openfx"
+      ],
+      "sources": [
+        "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+        "https://github.com/subtlesayak/open-resolve-list/issues/3",
+        "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+        "https://ligh-t-ouch.com/resolve-telemetry-overlay/history?lang=en"
+      ]
+    },
+    {
       "url": "https://github.com/postflows/resolve-text-index",
       "name": "resolve-text-index",
       "tags": [
@@ -5848,7 +6084,10 @@
         "clip renaming",
         "markers",
         "running time",
-        "tracks"
+        "tracks",
+        "continuity report",
+        "vfx turnover",
+        "marker exchange"
       ],
       "sources": [
         "https://resolve-tools.com/"
@@ -6727,6 +6966,21 @@
       ]
     },
     {
+      "url": "https://github.com/huggeebear2011/Switcheroo",
+      "name": "Switcheroo",
+      "tags": [
+        "keyboard presets",
+        "page switching",
+        "hammerspoon",
+        "shortcuts"
+      ],
+      "sources": [
+        "https://github.com/huggeebear2011/Switcheroo",
+        "https://github.com/huggeebear2011/Switcheroo#readme",
+        "https://www.reddit.com/r/davinciresolve/comments/1y1m9bp/switcheroo_switch_resolve_pages_and_keyboard/"
+      ]
+    },
+    {
       "url": "https://jklediting.com/syncpass",
       "name": "SyncPass",
       "tags": [
@@ -6920,6 +7174,24 @@
       ]
     },
     {
+      "url": "https://totonoe.designstudiomarimo.com/en/resolve/",
+      "name": "Totonoe Skin Retouch for DaVinci Resolve",
+      "tags": [
+        "skin retouch",
+        "skin smoothing",
+        "texture restoration",
+        "skin color mask",
+        "openfx",
+        "beauty"
+      ],
+      "sources": [
+        "https://totonoe.designstudiomarimo.com/en/resolve/",
+        "https://github.com/subtlesayak/open-resolve-list/issues/1",
+        "https://totonoe.designstudiomarimo.com/en/resolve/#params",
+        "https://totonoe.designstudiomarimo.com/en/resolve/#specs"
+      ]
+    },
+    {
       "url": "https://github.com/francozanardi/tscaps",
       "name": "tscaps",
       "tags": [
@@ -6929,10 +7201,14 @@
         "srt",
         "animation",
         "browser",
-        "transcription"
+        "transcription",
+        "b-roll",
+        "short video editing",
+        "transitions"
       ],
       "sources": [
-        "https://github.com/francozanardi/tscaps"
+        "https://github.com/francozanardi/tscaps",
+        "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0"
       ]
     },
     {
@@ -7052,10 +7328,14 @@
         "saturation",
         "halftone",
         "banding suppression",
-        "dot printing"
+        "dot printing",
+        "scene linear dissolve",
+        "transition",
+        "alpha compositing"
       ],
       "sources": [
-        "https://github.com/thatcherfreeman/utility-dctls"
+        "https://github.com/thatcherfreeman/utility-dctls",
+        "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb"
       ]
     },
     {
@@ -7082,6 +7362,24 @@
       ],
       "sources": [
         "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
+      ]
+    },
+    {
+      "url": "https://www.vanityfilter.com/",
+      "name": "VanityFilter",
+      "tags": [
+        "skin smoothing",
+        "face masks",
+        "beauty retouch",
+        "prores plates",
+        "mask matte",
+        "batch retouch"
+      ],
+      "sources": [
+        "https://www.vanityfilter.com/",
+        "https://www.vanityfilter.com/changelog",
+        "https://www.vanityfilter.com/articles/skin-smoothing-davinci-resolve",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
       ]
     },
     {
@@ -7271,6 +7569,22 @@
       ],
       "sources": [
         "https://akascape.gumroad.com/l/watermemory"
+      ]
+    },
+    {
+      "url": "https://wavscribe.com/",
+      "name": "WAVScribe",
+      "tags": [
+        "wav metadata",
+        "broadcast wave",
+        "bwf",
+        "ixml",
+        "ucs naming",
+        "batch metadata"
+      ],
+      "sources": [
+        "https://wavscribe.com/",
+        "https://www.reddit.com/r/AudioPost/comments/1xl1avf/the_audiopost_mine_november_2026_tell_us_about_your/"
       ]
     },
     {

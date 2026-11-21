@@ -31,6 +31,14 @@
       "source": "https://github.com/in03/squawk",
       "checked_at": "2026-09-06T18:02:28.198Z",
       "reason": "Repository archived on GitHub; retained for historical workflows."
+    },
+    {
+      "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+      "repository": "hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+      "status": "deprecated",
+      "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
+      "checked_at": "2026-11-21",
+      "reason": "Provider explicitly deprecates the encoder in favor of Resolve AAC Bridge."
     }
   ]
 }

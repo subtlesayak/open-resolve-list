@@ -37,8 +37,8 @@
   "platform_checked_at": "2026-09-15",
   "research_snapshot": "2026-09-15",
   "stars": 1,
-  "last_pushed_at": "2026-11-14T07:28:27Z",
-  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
+  "last_pushed_at": "2026-11-20T19:59:54Z",
+  "metadata_checked_at": "2026-11-21T06:10:41.855Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -56,12 +56,12 @@
     "name": "gordasgdc/gdc-plugin-manager",
     "url": "https://github.com/gordasgdc/gdc-plugin-manager",
     "kind": "stable-release",
-    "version": "v1.41.1",
-    "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
-    "date": "2026-11-01T23:01:55Z",
-    "checked_at": "2026-11-06T08:18:50.375Z",
+    "version": "v1.42.0",
+    "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
+    "date": "2026-11-16T04:03:36Z",
+    "checked_at": "2026-11-21",
     "date_kind": "release",
-    "note": "Original source reviewed; catalogue review date is separate from the release date."
+    "note": "Original provider release notes reviewed; not independently installation-tested."
   },
   "evidence": [
     {
@@ -84,6 +84,13 @@
       "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
       "checked_at": "2026-11-06T08:18:50.375Z",
       "note": "Recorded provider release evidence, not installation testing."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
+      "checked_at": "2026-11-21",
+      "note": "Original provider release notes reviewed; not independently installation-tested."
     }
   ],
   "unknownFields": [
@@ -94,6 +101,30 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "from": "v1.41.1",
+      "to": "v1.42.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-16T04:03:36Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
+      "summary": "Adds the free macOS 14+ Pe sârma app to the manager and detects DMG/Homebrew installations. Recognition requires Manager 1.42.0 or later.",
+      "changes": [
+        "Adds the free macOS 14+ Pe sârma app to the manager and detects DMG/Homebrew installations. Recognition requires Manager 1.42.0 or later."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
     {
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",

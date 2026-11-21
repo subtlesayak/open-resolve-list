@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "resolve-telemetry-overlay",
+  "name": "Resolve Telemetry Overlay",
+  "creator": "LIGHTOUCH",
+  "urls": {
+    "canonical": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Fusion / Motion Graphics",
+  "kind": "ofx",
+  "tasks": [
+    "fusion",
+    "workflow"
+  ],
+  "tags": [
+    "fit activity data",
+    "telemetry gauges",
+    "cycling",
+    "running",
+    "route overlay",
+    "heart rate",
+    "openfx"
+  ],
+  "description": "Editable FIT activity gauges, routes and telemetry in Resolve. Mac Apple Silicon or Windows x64; license checks and optional weather/imports use the network.",
+  "display_description": "Editable FIT activity gauges, routes and telemetry in Resolve. Mac Apple Silicon or Windows x64; license checks and optional weather/imports use the network.",
+  "access": "Paid one-time major-version license; seven-day trial",
+  "accessGroup": "paid",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "platform_notes": "Resolve 18.6.6+ (Free or Studio), Apple Silicon macOS 12+ or Windows x64. Windows ARM64 is unsupported; Windows MSI is self-signed. Architecture targets are OS-specific, not interchangeable. Source documentation only; no catalogue installation test.",
+  "display_platforms": "macOS;Windows",
+  "display_platform_notes": "Resolve 18.6.6+ (Free or Studio), Apple Silicon macOS 12+ or Windows x64. Windows ARM64 is unsupported; Windows MSI is self-signed. Architecture targets are OS-specific, not interchangeable. Source documentation only; no catalogue installation test.",
+  "platform_source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [
+      "Free",
+      "Studio"
+    ],
+    "resolve": [
+      {
+        "min": "18.6.6"
+      }
+    ],
+    "architectures": [],
+    "gpu": null,
+    "processing": "hybrid",
+    "pricing": "one-time",
+    "account": "unknown",
+    "dependencies": "Internet for activation and periodic license checks. Optional weather needs an OpenWeather account/API key and can incur external charges. Garmin/COROS imports use external accounts.",
+    "installation": "macOS DMG with Activator, or manual Windows x64 MSI. Windows installer is self-signed; verify the provider download page and checksum."
+  },
+  "version": {
+    "name": "Resolve Telemetry Overlay",
+    "url": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+    "kind": "vendor-version",
+    "version": "1.1.27 (build 202611191)",
+    "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/history?lang=en",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-11-21",
+    "note": "Version and build are explicit in provider history and the Windows download page; no publication date is inferred from the build number."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "Apple Silicon macOS 12+ or Windows x64. Windows ARM64 is unsupported; Windows installer is self-signed."
+    },
+    {
+      "field": "editions",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "Current guide explicitly lists Resolve Free or Studio. This is provider documentation, not independent installation testing."
+    },
+    {
+      "field": "resolve",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "Requires DaVinci Resolve 18.6.6 or later."
+    },
+    {
+      "field": "architectures",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "Targets differ by OS: Apple Silicon on macOS, x64 on Windows. The unscoped architecture filter is left unknown to avoid claiming every OS/CPU combination."
+    },
+    {
+      "field": "installation",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "macOS DMG/Activator and manual Windows MSI; follow the original verification and installation instructions."
+    },
+    {
+      "field": "processing",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "FIT and video processing remain local. License checks and optional account imports use the network; optional weather sends location/time and the user-supplied key to OpenWeather."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "One-time major-version license; seven-day trial. Paid use permits up to ten consecutive days offline between successful checks. Optional OpenWeather usage is separate."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/history?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "Provider history identifies 1.1.27, build 202611191. No date is inferred from the build label."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/download-windows",
+      "checked_at": "2026-11-21",
+      "note": "Windows download page explicitly lists 1.1.27 and build 202611191 and states that the version/license are shared with macOS."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+      "checked_at": "2026-11-21",
+      "note": "Builds editable activity-data gauges in Resolve from FIT files, including pace, speed, heart rate, power and route. Supports local FIT import on Apple Silicon macOS and Windows x64. Paid one-time major-version license with a seven-day trial. Activation and periodic license checks need internet; optional weather sends activity location/time to OpenWeather and may incur separate charges."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+    "https://github.com/subtlesayak/open-resolve-list/issues/3",
+    "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+    "https://ligh-t-ouch.com/resolve-telemetry-overlay/history?lang=en"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

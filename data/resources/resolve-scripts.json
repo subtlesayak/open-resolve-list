@@ -40,7 +40,7 @@
   "research_snapshot": "2026-09-06",
   "stars": 18,
   "last_pushed_at": "2026-11-08T15:56:28Z",
-  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
+  "metadata_checked_at": "2026-11-21T06:10:41.855Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -56,10 +56,12 @@
     "name": "thatcherfreeman/resolve-scripts",
     "url": "https://github.com/thatcherfreeman/resolve-scripts",
     "kind": "commit",
-    "version": "2ab9ed607bee8c35c773725e77ed09f316a8deee",
-    "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/2ab9ed607bee8c35c773725e77ed09f316a8deee",
-    "date": "2026-09-08T07:00:46Z",
-    "checked_at": "2026-09-15T05:06:04.860Z"
+    "version": "b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+    "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+    "date": "2026-11-08T15:56:16Z",
+    "checked_at": "2026-11-21",
+    "date_kind": "commit",
+    "note": "Reviewed source revision, not a published software release."
   },
   "evidence": [
     {
@@ -75,6 +77,13 @@
       "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/2ab9ed607bee8c35c773725e77ed09f316a8deee",
       "checked_at": "2026-09-15T05:06:04.860Z",
       "note": "Source revision, not a software release."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+      "checked_at": "2026-11-21",
+      "note": "Reviewed source revision, not a published software release."
     }
   ],
   "unknownFields": [
@@ -86,6 +95,30 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "thatcherfreeman/resolve-scripts",
+      "url": "https://github.com/thatcherfreeman/resolve-scripts",
+      "from": "2ab9ed607bee8c35c773725e77ed09f316a8deee",
+      "to": "b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-08T15:56:16Z",
+      "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+      "summary": "Updates the bundled scripting API reference for Resolve 21.1.1, 21.1.2 and 21.2. This is a documentation revision, not a new runtime feature release.",
+      "changes": [
+        "Updates the bundled scripting API reference for Resolve 21.1.1, 21.1.2 and 21.2. This is a documentation revision, not a new runtime feature release."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/thatcherfreeman/resolve-scripts/compare/2ab9ed607bee8c35c773725e77ed09f316a8deee...b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee"
+        }
+      ]
+    },
     {
       "name": "thatcherfreeman/resolve-scripts",
       "url": "https://github.com/thatcherfreeman/resolve-scripts",

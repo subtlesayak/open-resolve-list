@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "mcnexus",
+  "name": "MCNexus",
+  "creator": "ciqueira",
+  "urls": {
+    "canonical": "https://mcnexus.app/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow",
+    "hardware",
+    "development"
+  ],
+  "tags": [
+    "ofx plugin manager",
+    "dctl to ofx",
+    "midi control",
+    "plugin updates",
+    "license management"
+  ],
+  "description": "OFX distribution, updates, DCTL conversion and MIDI-control companion for Resolve. Individual plugin licenses and requirements remain separate.",
+  "display_description": "OFX distribution, updates, DCTL conversion and MIDI-control companion for Resolve. Individual plugin licenses and requirements remain separate.",
+  "access": "Free community distribution; individual plugin and developer-plan terms vary",
+  "accessGroup": "mixed",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "platform_notes": "macOS 15+ Universal app; Windows 10/11 x64 and Windows 11 ARM package. A supported manager package does not establish that each plugin supports every architecture.",
+  "display_platforms": "macOS;Windows",
+  "display_platform_notes": "macOS 15+ Universal app; Windows 10/11 x64 and Windows 11 ARM package. A supported manager package does not establish that each plugin supports every architecture.",
+  "platform_source": "https://mcnexus.app/",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "hybrid",
+    "pricing": "mixed",
+    "account": "unknown",
+    "dependencies": "Internet for distribution/activation; compatible OFX plugins and MIDI hardware for NexControl.",
+    "installation": "Mac DMG or Windows Microsoft Store package."
+  },
+  "version": {
+    "name": "MCNexus",
+    "url": "https://mcnexus.app/",
+    "kind": "unverified",
+    "version": null,
+    "source": "https://mcnexus.app/",
+    "date": null,
+    "date_kind": null,
+    "checked_at": "2026-11-21",
+    "note": "No product version established from the reviewed original source."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://mcnexus.app/",
+      "checked_at": "2026-11-21",
+      "note": "macOS 15+ Universal app; Windows 10/11 x64 and Windows 11 ARM package. A supported manager package does not establish that each plugin supports every architecture."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://mcnexus.app/",
+      "checked_at": "2026-11-21",
+      "note": "Desktop distribution and update manager for Resolve/OpenFX tools, with DCTL-to-OFX conversion and NexControl MIDI mapping. Plugin licenses remain separate. The developer platform also provides licensing/commerce infrastructure; community distribution is free, with separate commercial developer plans. Per-plugin host and GPU requirements still apply."
+    },
+    {
+      "field": "pricing",
+      "level": "documented",
+      "source": "https://mcnexus.app/pricing/",
+      "checked_at": "2026-11-21",
+      "note": "Community distribution and commercial developer plans differ; do not treat all hosted plugins as free."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://mcnexus.app/",
+      "checked_at": "2026-11-21",
+      "note": "Desktop distribution and update manager for Resolve/OpenFX tools, with DCTL-to-OFX conversion and NexControl MIDI mapping. Plugin licenses remain separate. The developer platform also provides licensing/commerce infrastructure; community distribution is free, with separate commercial developer plans. Per-plugin host and GPU requirements still apply."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://mcnexus.app/",
+    "https://mcnexus.app/docs/user-guide/",
+    "https://mcnexus.app/pricing/",
+    "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

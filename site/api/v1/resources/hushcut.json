@@ -17,9 +17,11 @@
     "tags": [
       "automatic editing",
       "dialogue",
-      "silence removal"
+      "silence removal",
+      "manual regions",
+      "linked clips"
     ],
-    "description": "Silence-based editing helper for Resolve workflows.",
+    "description": "Alpha silence-editing helper for Resolve workflows, with multichannel audio, linked-clip handling and manually adjustable silence regions. The published 0.4.0-alpha remains experimental; exact Resolve host requirements are not established.",
     "access": "Public",
     "accessGroup": "public",
     "platforms": [
@@ -53,6 +55,13 @@
         "source": "https://github.com/oliwoli/HushCut/commit/160dfffed4739108c5e22fecdf734ab74460105b",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Source revision, not a software release."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha",
+        "checked_at": "2026-11-21",
+        "note": "Provider prerelease; not independently installation-tested."
       }
     ],
     "unknownFields": [
@@ -67,17 +76,44 @@
     "version": {
       "name": "oliwoli/HushCut",
       "url": "https://github.com/oliwoli/HushCut",
-      "kind": "commit",
-      "version": "160dfffed4739108c5e22fecdf734ab74460105b",
-      "source": "https://github.com/oliwoli/HushCut/commit/160dfffed4739108c5e22fecdf734ab74460105b",
-      "date": "2025-12-30T15:39:02Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "kind": "prerelease",
+      "version": "v0.4.0-alpha",
+      "source": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha",
+      "date": "2026-11-10T23:04:45Z",
+      "checked_at": "2026-11-21",
+      "date_kind": "release",
+      "note": "Provider prerelease; not independently installation-tested."
     },
-    "releaseDate": null,
+    "releaseDate": "2026-11-10T23:04:45Z",
     "activityDate": "2026-11-10T22:56:57Z",
     "stars": 21,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
-    "history": [],
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
+    "history": [
+      {
+        "name": "oliwoli/HushCut",
+        "url": "https://github.com/oliwoli/HushCut",
+        "from": "160dfffed4739108c5e22fecdf734ab74460105b",
+        "to": "v0.4.0-alpha",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-10T23:04:45Z",
+        "source": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha",
+        "summary": "Publishes a 0.4.0 alpha with manual silence-region adjustments, multichannel audio fixes, revised silence removal and linked-clip handling. Moves to development Wails v3 and WaveSurfer v8. This remains a prerelease.",
+        "changes": [
+          "Publishes a 0.4.0 alpha with manual silence-region adjustments, multichannel audio fixes, revised silence removal and linked-clip handling. Moves to development Wails v3 and WaveSurfer v8. This remains a prerelease."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider release",
+            "url": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/oliwoli/HushCut/compare/160dfffed4739108c5e22fecdf734ab74460105b...v0.4.0-alpha"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.0",

@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "id": "gpx-to-fusion",
+  "name": "GpxToFusion",
+  "creator": "DorwinDT",
+  "urls": {
+    "canonical": "https://github.com/DorwinDT/GpxToFusion",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "workflow-app",
+  "tasks": [
+    "fusion",
+    "workflow"
+  ],
+  "tags": [
+    "gpx route",
+    "map animation",
+    "fusion polyline",
+    "write on",
+    "gps track",
+    "map labels"
+  ],
+  "description": "Turn GPX or drawn routes into editable Fusion polylines, map images and Text+ labels. Windows app; map-provider licenses remain separate.",
+  "display_description": "Turn GPX or drawn routes into editable Fusion polylines, map images and Text+ labels. Windows app; map-provider licenses remain separate.",
+  "access": "Free; MIT code; map-provider terms separate",
+  "accessGroup": "free",
+  "platforms": [
+    "Windows"
+  ],
+  "platform_notes": "Windows 10/11 x64, unsigned portable ZIP with the .NET runtime included. Exact Resolve version range is unknown.",
+  "display_platforms": "Windows",
+  "display_platform_notes": "Windows 10/11 x64, unsigned portable ZIP with the .NET runtime included. Exact Resolve version range is unknown.",
+  "platform_source": "https://github.com/DorwinDT/GpxToFusion",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": 1,
+  "last_pushed_at": "2026-11-11T14:53:56Z",
+  "metadata_checked_at": "2026-11-21",
+  "requirements": {
+    "editions": [
+      "Free"
+    ],
+    "resolve": [],
+    "architectures": [
+      "x64"
+    ],
+    "gpu": null,
+    "processing": "hybrid",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": "Online map tiles from the selected provider; exported nodes are edited in Resolve Fusion.",
+    "installation": "Extract the Windows x64 ZIP and import the exported .setting into Fusion."
+  },
+  "version": {
+    "name": "DorwinDT/GpxToFusion",
+    "url": "https://github.com/DorwinDT/GpxToFusion",
+    "kind": "stable-release",
+    "version": "v1.5.0",
+    "source": "https://github.com/DorwinDT/GpxToFusion/releases/tag/v1.5.0",
+    "date": "2026-11-08T10:23:45Z",
+    "date_kind": "release",
+    "checked_at": "2026-11-21",
+    "note": "Original provider release; not independently installation-tested."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/DorwinDT/GpxToFusion",
+      "checked_at": "2026-11-21",
+      "note": "Windows 10/11 x64, unsigned portable ZIP with the .NET runtime included. Exact Resolve version range is unknown."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/DorwinDT/GpxToFusion",
+      "checked_at": "2026-11-21",
+      "note": "Windows app that exports a GPX or drawn route as an editable Fusion polyline, map image and optional Text+ labels. Includes timing data and route-drawing controls. Map tiles require internet and retain their providers’ attribution and usage terms; the MIT code license does not license map imagery."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/DorwinDT/GpxToFusion/releases/tag/v1.5.0",
+      "checked_at": "2026-11-21",
+      "note": "Original provider release; not independently installation-tested."
+    },
+    {
+      "field": "editions",
+      "level": "creator",
+      "source": "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/",
+      "checked_at": "2026-11-21",
+      "note": "The attributable creator post documents Free-edition use; this is a creator claim, not independent catalogue testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/DorwinDT/GpxToFusion",
+      "checked_at": "2026-11-21",
+      "note": "Windows app that exports a GPX or drawn route as an editable Fusion polyline, map image and optional Text+ labels. Includes timing data and route-drawing controls. Map tiles require internet and retain their providers’ attribution and usage terms; the MIT code license does not license map imagery."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://github.com/DorwinDT/GpxToFusion",
+    "https://github.com/DorwinDT/GpxToFusion#readme",
+    "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/",
+    "https://dorwindt.github.io/GpxToFusion/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

@@ -1,8 +1,8 @@
 {
   "checked_at": "2026-10-26",
   "baseline_count": 130,
-  "added_count": 135,
-  "total_count": 265,
+  "added_count": 141,
+  "total_count": 271,
   "searches": [
     {
       "query": "topic:davinci-resolve fork:false",
@@ -339,7 +339,7 @@
       "repository": "nikita-petrovich/np-public-dctl",
       "url": "https://github.com/nikita-petrovich/np-public-dctl",
       "category": "Color grading, DCTLs, film looks, and color science",
-      "description": "Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools.",
+      "description": "Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools. Includes Lazy Banding, a creative banding mask.",
       "access": "Free",
       "platforms": "Windows;macOS;Linux",
       "platform_notes": "NVIDIA and Apple Silicon documented; other GPUs are untested.",
@@ -1902,8 +1902,8 @@
       "repository": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "category": "Productivity scripts, workflow bridges, and integrations",
-      "description": "Five-tool suite for marker management, clip renaming, tracks, running-time planning, and clip collection. Upstream claims Resolve 18+ Free/Studio; Python 3 required for scripts.",
-      "access": "Free; upstream download terms",
+      "description": "Resolve Tools Classic 1.x: five frozen Python scripts for markers, clip renaming, tracks, running time and clip collection. Provider documents Resolve 18 through 21.0, Free or Studio. Python 3 is required. PolyForm Noncommercial 1.0.0; the newer Studio 21.1+ desktop app is a separate catalogue entry.",
+      "access": "Free for noncommercial use; PolyForm Noncommercial 1.0.0",
       "platforms": "Windows;macOS",
       "platform_notes": "",
       "platform_source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
@@ -1924,7 +1924,7 @@
       "repository": "postflows/Fusion-MediaIn-ID-Update-",
       "url": "https://github.com/postflows/Fusion-MediaIn-ID-Update-",
       "category": "Productivity scripts, workflow bridges, and integrations",
-      "description": "Repair Fusion MediaIn IDs after transferring projects by matching files in the current Media Pool. Filename collisions can choose the wrong source.",
+      "description": "Lua tool for repairing Media Pool-backed Fusion MediaIn links after moving projects or timelines. Scans clip compositions and optionally all timelines; Fusion effects and adjustment clips require Resolve 21.1.2+. Uses path/unique-name matching, can import missing files, and offers dry-run, undo and verification. Ambiguous matches are left untouched; Fusion Clips inaccessible through the API and Loader nodes are outside its scope.",
       "access": "Free; MIT stated upstream",
       "platforms": "Windows;macOS;Linux",
       "platform_notes": "",
@@ -2253,7 +2253,7 @@
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
       "repository": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",
-      "description": "Browser subtitle editor with local Whisper transcription, animated captions, SRT export and burned-in video export. Useful alongside Resolve through subtitle/media files; it does not create editable Fusion captions.",
+      "description": "Browser video and subtitle editor with local Whisper transcription, animated captions, b-roll, graphics, transitions, audio and optional MCP/agent editing. Exports subtitles and rendered media for Resolve; it does not create editable Fusion captions. Web app 0.7.0 and engine 0.8 are separate versions.",
       "access": "Free; separate paid cloud service",
       "research_snapshot": "2026-09-08",
       "platforms": "Unverified",
@@ -2502,7 +2502,7 @@
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
       "repository": "HooperH/SubFix",
       "url": "https://github.com/HooperH/SubFix",
-      "description": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established.",
+      "description": "Apple Silicon subtitle utility with local Qwen recognition/alignment and optional Doubao cloud captions, plus batch processing, Chinese correction and translation. Cloud captions no longer require local Qwen models; local modes still need downloads. The full macOS package is unsigned. Exact Resolve edition compatibility and repository reuse license are not established.",
       "access": "Public",
       "research_snapshot": "2026-09-15",
       "platforms": "macOS",
@@ -3023,6 +3023,123 @@
       "evidence_source": "https://github.com/laurentchicoine/braw-pack",
       "discovery_sources": [
         "https://www.reddit.com/r/blackmagicdesign/comments/1x76d8r/tool_to_shrink_braw_footage_for_archival/"
+      ]
+    },
+    {
+      "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "repository": "Bipedal/BMD-MicroColorPanel-Tools",
+      "url": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+      "description": "Micro Color Panel HID protocol and Python driver for use outside Resolve. Requires the physical panel; maintainer testing covers Windows 11 only.",
+      "access": "Free; CC0-1.0 code and documentation; physical panel separate",
+      "research_snapshot": "2026-11-21",
+      "platforms": "Windows",
+      "platform_notes": "Maintainer tested Windows 11, Python 3.14 and hidapi 0.15 on one panel over USB and Bluetooth. Linux/macOS guidance is untested. Close Resolve before using the driver; Windows requires the stock HID driver.",
+      "platform_source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+      "platform_checked_at": "2026-11-21",
+      "stars": "0",
+      "last_pushed_at": "2026-11-17T23:49:43Z",
+      "metadata_checked_at": "2026-11-21",
+      "upstream_license": "CC0-1.0",
+      "upstream_archived": false,
+      "upstream_fork": false,
+      "evidence_source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+      "discovery_sources": [
+        "https://github.com/subtlesayak/open-resolve-list/issues/2"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "huggeebear2011/Switcheroo",
+      "url": "https://github.com/huggeebear2011/Switcheroo",
+      "description": "Switch Resolve pages and keyboard presets together with Hammerspoon on macOS. Requires local external scripting and matching preset names.",
+      "access": "Free; MIT",
+      "research_snapshot": "2026-11-21",
+      "platforms": "macOS",
+      "platform_notes": "macOS with Hammerspoon and the Python runtime/scripting module bundled with Resolve. No independent installation test.",
+      "platform_source": "https://github.com/huggeebear2011/Switcheroo",
+      "platform_checked_at": "2026-11-21",
+      "stars": "0",
+      "last_pushed_at": "2026-11-21T02:26:06Z",
+      "metadata_checked_at": "2026-11-21",
+      "evidence_source": "https://github.com/huggeebear2011/Switcheroo",
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1y1m9bp/switcheroo_switch_resolve_pages_and_keyboard/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "DorwinDT/GpxToFusion",
+      "url": "https://github.com/DorwinDT/GpxToFusion",
+      "description": "Turn GPX or drawn routes into editable Fusion polylines, map images and Text+ labels. Windows app; map-provider licenses remain separate.",
+      "access": "Free; MIT code; map-provider terms separate",
+      "research_snapshot": "2026-11-21",
+      "platforms": "Windows",
+      "platform_notes": "Windows 10/11 x64, unsigned portable ZIP with the .NET runtime included. Exact Resolve version range is unknown.",
+      "platform_source": "https://github.com/DorwinDT/GpxToFusion",
+      "platform_checked_at": "2026-11-21",
+      "stars": "1",
+      "last_pushed_at": "2026-11-11T14:53:56Z",
+      "metadata_checked_at": "2026-11-21",
+      "evidence_source": "https://github.com/DorwinDT/GpxToFusion",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "mrchrisster/davinci-font-auditor",
+      "url": "https://github.com/mrchrisster/davinci-font-auditor",
+      "description": "Audit and map fonts in exported DRP projects using a local Python/browser app. Windows-project parsing may crash; license file not established.",
+      "access": "Public source; README claims MIT, license file not established",
+      "research_snapshot": "2026-11-21",
+      "platforms": "macOS;Windows",
+      "platform_notes": "macOS and Windows launchers documented; Windows-project parsing is explicitly incomplete. No Resolve installation is needed to scan an exported DRP.",
+      "platform_source": "https://github.com/mrchrisster/davinci-font-auditor",
+      "platform_checked_at": "2026-11-21",
+      "stars": "0",
+      "last_pushed_at": "2026-05-27T17:46:20Z",
+      "metadata_checked_at": "2026-11-21",
+      "evidence_source": "https://github.com/mrchrisster/davinci-font-auditor",
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1rjtn8e/created_an_awesome_list_for_davinci_resolve_on/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "hexitnz/resolve-linux-aac-full",
+      "url": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "description": "Experimental Linux Studio AAC import/export bridge. Replaces the deprecated FDK encoder; host layouts and AAC profiles have limits.",
+      "access": "Free source; GPL-2.0-only; dependency licenses separate",
+      "research_snapshot": "2026-11-21",
+      "platforms": "Linux",
+      "platform_notes": "Linux x86-64 Resolve Studio. Provider build labels are not converted into a supported Resolve version range. GPU/video codec support is unchanged.",
+      "platform_source": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "platform_checked_at": "2026-11-21",
+      "stars": "3",
+      "last_pushed_at": "2026-11-15T23:01:28Z",
+      "metadata_checked_at": "2026-11-21",
+      "evidence_source": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "discovery_sources": [
+        "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "nikopueringer/CorridorKey2.0",
+      "url": "https://github.com/nikopueringer/CorridorKey2.0",
+      "description": "Official local Python chroma keyer with matte, foreground and linear-EXR outputs. Requires NVIDIA/CUDA; custom license restrictions apply.",
+      "access": "Source available; custom CorridorKey license, not unrestricted open source",
+      "research_snapshot": "2026-11-21",
+      "platforms": "Windows;Linux",
+      "platform_notes": "NVIDIA RTX 30-series+; 4 GB VRAM for up to 1440p or 6 GB for 4K. Windows/Linux launchers documented; macOS source support not established.",
+      "platform_source": "https://github.com/nikopueringer/CorridorKey2.0",
+      "platform_checked_at": "2026-11-21",
+      "stars": "2245",
+      "last_pushed_at": "2026-10-15T18:09:53Z",
+      "metadata_checked_at": "2026-11-21",
+      "evidence_source": "https://github.com/nikopueringer/CorridorKey2.0",
+      "discovery_sources": [
+        "https://www.reddit.com/r/vfx/comments/1xykcs3/breakdown_for_scifi_short_jetset_blender_and_of/"
       ]
     }
   ],

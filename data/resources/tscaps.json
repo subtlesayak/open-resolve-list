@@ -11,9 +11,10 @@
   "official": false,
   "reference": false,
   "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
-  "kind": "subtitle-tool",
+  "kind": "workflow-app",
   "tasks": [
-    "captions"
+    "captions",
+    "workflow"
   ],
   "tags": [
     "captions",
@@ -22,10 +23,13 @@
     "srt",
     "animation",
     "browser",
-    "transcription"
+    "transcription",
+    "b-roll",
+    "short video editing",
+    "transitions"
   ],
-  "description": "Browser subtitle editor with local Whisper transcription, animated captions, SRT export and burned-in video export. Useful alongside Resolve through subtitle/media files; it does not create editable Fusion captions.",
-  "display_description": "Browser subtitle editor with local Whisper transcription, animated captions, SRT export and burned-in video export. Useful alongside Resolve through subtitle/media files; it does not create editable Fusion captions.",
+  "description": "Browser video and subtitle editor with local Whisper transcription, animated captions, b-roll, graphics, transitions, audio and optional MCP/agent editing. Exports subtitles and rendered media for Resolve; it does not create editable Fusion captions. Web app 0.7.0 and engine 0.8 are separate versions.",
+  "display_description": "Browser video and subtitle editor with local Whisper transcription, animated captions, b-roll, graphics, transitions, audio and optional MCP/agent editing. Exports subtitles and rendered media for Resolve; it does not create editable Fusion captions. Web app 0.7.0 and engine 0.8 are separate versions.",
   "access": "Free; separate paid cloud service",
   "accessGroup": "mixed",
   "platforms": [],
@@ -35,9 +39,9 @@
   "platform_source": "https://github.com/francozanardi/tscaps#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 120,
-  "last_pushed_at": "2026-11-01T23:57:39Z",
-  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
+  "stars": 123,
+  "last_pushed_at": "2026-11-21T03:40:31Z",
+  "metadata_checked_at": "2026-11-21T06:10:41.855Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -53,12 +57,12 @@
     "name": "francozanardi/tscaps",
     "url": "https://github.com/francozanardi/tscaps",
     "kind": "stable-release",
-    "version": "web-v0.6.0",
-    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
-    "date": "2026-10-14T16:24:34Z",
-    "checked_at": "2026-10-26T08:19:35.198Z",
+    "version": "web-v0.7.0",
+    "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0",
+    "date": "2026-11-21T02:01:32Z",
+    "checked_at": "2026-11-21",
     "date_kind": "release",
-    "note": "Original provider evidence reviewed; review date is separate from product release date."
+    "note": "Original provider release notes reviewed; not independently installation-tested."
   },
   "evidence": [
     {
@@ -74,6 +78,13 @@
       "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
       "checked_at": "2026-10-26T08:19:35.198Z",
       "note": "Recorded provider release evidence, not installation testing."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0",
+      "checked_at": "2026-11-21",
+      "note": "Original provider release notes reviewed; not independently installation-tested."
     }
   ],
   "unknownFields": [
@@ -85,6 +96,34 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "from": "web-v0.6.0",
+      "to": "web-v0.7.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-21T02:01:32Z",
+      "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0",
+      "summary": "Expands the web app from captions into short-video editing with b-roll, graphics, transitions, aspect ratios and audio controls, plus optional MCP/agent editing. Web 0.7.0 and engine 0.8 are separate component versions.",
+      "changes": [
+        "Expands the web app from captions into short-video editing with b-roll, graphics, transitions, aspect ratios and audio controls, plus optional MCP/agent editing. Web 0.7.0 and engine 0.8 are separate component versions."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/francozanardi/tscaps/compare/web-v0.6.0...web-v0.7.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/francozanardi/tscaps/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
     {
       "name": "francozanardi/tscaps",
       "url": "https://github.com/francozanardi/tscaps",
@@ -148,9 +187,10 @@
   ],
   "legacy_id": "222ea3354263",
   "search_sources": [
-    "https://github.com/francozanardi/tscaps"
+    "https://github.com/francozanardi/tscaps",
+    "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0"
   ],
-  "tags_reviewed_at": "2026-09-08",
+  "tags_reviewed_at": "2026-11-21",
   "requirements_reviewed": true,
   "version_checked_at": "2026-09-29T00:00:00Z"
 }

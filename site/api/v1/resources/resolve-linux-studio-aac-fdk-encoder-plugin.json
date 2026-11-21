@@ -20,7 +20,7 @@
       "fdk",
       "linux"
     ],
-    "description": "FDK-based AAC audio encoding on Linux. Studio required.",
+    "description": "Deprecated Linux Studio AAC encoder. The provider recommends the combined Resolve AAC Bridge project instead. Retained for historical workflows; do not install alongside the replacement without checking its instructions.",
     "access": "Public",
     "accessGroup": "public",
     "platforms": [
@@ -61,6 +61,20 @@
         "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
         "checked_at": "2026-09-06",
         "note": "Structured from the existing source-backed catalogue description; no new installation test: FDK-based AAC audio encoding on Linux. Studio required."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7",
+        "checked_at": "2026-11-21",
+        "note": "Reviewed source revision, not a published software release."
+      },
+      {
+        "field": "maintenance",
+        "level": "documented",
+        "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
+        "checked_at": "2026-11-21",
+        "note": "Explicit upstream deprecation, not inferred from inactivity."
       }
     ],
     "unknownFields": [
@@ -75,16 +89,47 @@
       "name": "hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
       "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
       "kind": "commit",
-      "version": "232a5e04cb605236541cf0cd08bde3eed9f1f20a",
-      "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/232a5e04cb605236541cf0cd08bde3eed9f1f20a",
-      "date": "2026-06-21T21:59:38Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "337315fe50c752df2e162b815cf687bbddda7bd7",
+      "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7",
+      "date": "2026-11-13T03:14:20Z",
+      "checked_at": "2026-11-21",
+      "date_kind": "commit",
+      "note": "Reviewed source revision, not a published software release."
     },
     "releaseDate": null,
     "activityDate": "2026-11-13T03:14:20Z",
     "stars": 29,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
-    "history": [],
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
+    "history": [
+      {
+        "name": "hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+        "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+        "from": "232a5e04cb605236541cf0cd08bde3eed9f1f20a",
+        "to": "337315fe50c752df2e162b815cf687bbddda7bd7",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-13T03:14:20Z",
+        "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7",
+        "summary": "The provider explicitly deprecates this encoder and points to Resolve AAC Bridge (resolve-linux-aac-full) for the combined Linux decoder and encoder. The old listing remains available as legacy.",
+        "changes": [
+          "The provider explicitly deprecates this encoder and points to Resolve AAC Bridge (resolve-linux-aac-full) for the combined Linux decoder and encoder. The old listing remains available as legacy."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/compare/232a5e04cb605236541cf0cd08bde3eed9f1f20a...337315fe50c752df2e162b815cf687bbddda7bd7"
+          },
+          {
+            "label": "Full provider changelog",
+            "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/blob/main/CHANGELOG.md"
+          }
+        ]
+      }
+    ],
     "catalogueReleases": [
       {
         "version": "v1.0",

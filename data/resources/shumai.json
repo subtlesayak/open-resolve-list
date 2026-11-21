@@ -37,9 +37,9 @@
   "platform_source": "https://github.com/shumaiOne/shumai#readme",
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
-  "stars": 263,
-  "last_pushed_at": "2026-11-14T07:15:55Z",
-  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
+  "stars": 271,
+  "last_pushed_at": "2026-11-21T02:32:48Z",
+  "metadata_checked_at": "2026-11-21T06:10:41.855Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -55,12 +55,12 @@
     "name": "shumaiOne/shumai",
     "url": "https://github.com/shumaiOne/shumai",
     "kind": "stable-release",
-    "version": "v0.6.6",
-    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
-    "date": "2026-11-13T12:38:25Z",
-    "checked_at": "2026-11-14T07:53:12.819Z",
+    "version": "v0.7.0",
+    "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+    "date": "2026-11-18T13:25:32Z",
+    "checked_at": "2026-11-21",
     "date_kind": "release",
-    "note": "Original provider source reviewed."
+    "note": "Original provider release notes reviewed; not independently installation-tested."
   },
   "evidence": [
     {
@@ -76,6 +76,13 @@
       "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
       "checked_at": "2026-11-14T07:53:12.819Z",
       "note": "Provider release evidence."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+      "checked_at": "2026-11-21",
+      "note": "Original provider release notes reviewed; not independently installation-tested."
     }
   ],
   "unknownFields": [
@@ -88,6 +95,34 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "from": "v0.6.6",
+      "to": "v0.7.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-18T13:25:32Z",
+      "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+      "summary": "Adds Korean UI and CLI publication/PATH fixes. Replaces the built-in server Bash sandbox with external Runners; Bash is disabled by default and existing Bash workflows need a separately configured Runner.",
+      "changes": [
+        "Adds Korean UI and CLI publication/PATH fixes. Replaces the built-in server Bash sandbox with external Runners; Bash is disabled by default and existing Bash workflows need a separately configured Runner."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/shumaiOne/shumai/compare/v0.6.6...v0.7.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/shumaiOne/shumai/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
     {
       "name": "shumaiOne/shumai",
       "url": "https://github.com/shumaiOne/shumai",

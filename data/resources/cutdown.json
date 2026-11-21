@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "cutdown",
+  "name": "Cutdown",
+  "creator": "Softworks",
+  "urls": {
+    "canonical": "https://cutdown.app/",
+    "previous": []
+  },
+  "origin": "external",
+  "official": false,
+  "reference": false,
+  "category": "Community discoveries",
+  "kind": "workflow-app",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "selects timeline",
+    "footage analysis",
+    "focus scoring",
+    "exposure scoring",
+    "motion scoring",
+    "aaf",
+    "fcpxml",
+    "opentimelineio"
+  ],
+  "description": "Score footage for focus, exposure and motion, then export adjustable selects into Resolve. Free Lite; paid Pro. Local analysis with license checks.",
+  "display_description": "Score footage for focus, exposure and motion, then export adjustable selects into Resolve. Free Lite; paid Pro. Local analysis with license checks.",
+  "access": "Free Lite; paid one-time Pro",
+  "accessGroup": "mixed",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "platform_notes": "Apple Silicon macOS 12+ or Windows 10/11 x64. Windows ARM is not natively supported; Linux is planned. Resolve edition/version range is not established.",
+  "display_platforms": "macOS;Windows",
+  "display_platform_notes": "Apple Silicon macOS 12+ or Windows 10/11 x64. Windows ARM is not natively supported; Linux is planned. Resolve edition/version range is not established.",
+  "platform_source": "https://cutdown.app/",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": null,
+  "last_pushed_at": null,
+  "metadata_checked_at": null,
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "hybrid",
+    "pricing": "mixed",
+    "account": "not-required",
+    "dependencies": "Internet for license/update checks; media analysis remains on-device.",
+    "installation": "Standalone Mac or Windows app; Apple Pro Video Formats is optional for wider Mac preview support."
+  },
+  "version": {
+    "name": "Cutdown",
+    "url": "https://cutdown.app/",
+    "kind": "vendor-version",
+    "version": "1.3.0",
+    "source": "https://cutdown.app/changelog",
+    "date": "2026-11-03",
+    "date_kind": "release",
+    "checked_at": "2026-11-21",
+    "note": "Provider changelog dates 1.3.0 to November 3, 2026."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://cutdown.app/",
+      "checked_at": "2026-11-21",
+      "note": "Apple Silicon macOS 12+ or Windows 10/11 x64. Windows ARM is not natively supported; Linux is planned. Resolve edition/version range is not established."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://cutdown.app/",
+      "checked_at": "2026-11-21",
+      "note": "Standalone footage analysis that scores focus, exposure and motion, then exports adjustable selects and markers to Resolve through AAF, FCPXML, FCP7 XML or OTIO. Deterministic analysis runs locally; camera-movement estimates can be wrong. Lite includes unrestricted footage analysis and export; paid Pro adds weighting, watch folders and deeper controls."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://cutdown.app/changelog",
+      "checked_at": "2026-11-21",
+      "note": "Provider changelog dates 1.3.0 to November 3, 2026."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://cutdown.app/",
+      "checked_at": "2026-11-21",
+      "note": "Standalone footage analysis that scores focus, exposure and motion, then exports adjustable selects and markers to Resolve through AAF, FCPXML, FCP7 XML or OTIO. Deterministic analysis runs locally; camera-movement estimates can be wrong. Lite includes unrestricted footage analysis and export; paid Pro adds weighting, watch folders and deeper controls."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://cutdown.app/",
+    "https://cutdown.app/changelog",
+    "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

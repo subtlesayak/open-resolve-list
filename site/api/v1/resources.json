@@ -1509,12 +1509,12 @@
         "name": "psygreg/autoresolvedeb",
         "url": "https://github.com/psygreg/autoresolvedeb",
         "kind": "commit",
-        "version": "2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
-        "source": "https://github.com/psygreg/autoresolvedeb/commit/2d7b16c3fc07b5149ba9bb5256d5b33d76aad25e",
-        "date": "2026-10-08T19:26:35Z",
-        "checked_at": "2026-10-26T08:25:01.028Z",
+        "version": "5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+        "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+        "date": "2026-11-14T15:41:11Z",
+        "checked_at": "2026-11-21",
         "date_kind": "commit",
-        "note": "Source revision, not a published software release."
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -1528,6 +1528,12 @@
           "level": "documented",
           "source": "https://github.com/psygreg/autoresolvedeb/commit/7b403e1055c6db70ddd93aa18aa1d0433349957f",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -1609,12 +1615,12 @@
         "name": "cutbypham/awesome-davinci-resolve",
         "url": "https://github.com/cutbypham/awesome-davinci-resolve",
         "kind": "commit",
-        "version": "86cd3895754822fd0a4ead1c241989d235921705",
-        "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/86cd3895754822fd0a4ead1c241989d235921705",
-        "date": "2026-10-19T01:59:10Z",
-        "checked_at": "2026-10-26T08:25:01.029Z",
+        "version": "34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+        "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+        "date": "2026-11-17T12:27:48Z",
+        "checked_at": "2026-11-21",
         "date_kind": "commit",
-        "note": "Source revision, not a published software release."
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -1622,6 +1628,12 @@
           "level": "documented",
           "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -2449,11 +2461,12 @@
         "name": "BlobTrackingFuse",
         "url": "https://akascape.gumroad.com/l/blobtracker",
         "kind": "vendor-version",
-        "version": "1.3",
+        "version": "1.4",
         "source": "https://akascape.gumroad.com/l/blobtracker",
         "date": null,
         "date_kind": null,
-        "checked_at": "2026-09-06T12:10:28.541Z"
+        "checked_at": "2026-11-21",
+        "note": "Original provider source reviewed. An exact publication date is recorded only when explicit."
       },
       "evidence": [
         {
@@ -2467,6 +2480,12 @@
           "level": "documented",
           "source": "https://akascape.gumroad.com/l/blobtracker",
           "checked_at": "2026-09-06T12:10:28.541Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/blobtracker",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -2559,6 +2578,89 @@
           "level": "documented",
           "source": "https://github.com/Kartopod/BMD-FusionExtras/commit/c5b8eac81d7dfeb3048c166dc3e32054f81e4ca7",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        }
+      ]
+    },
+    {
+      "id": "bmd-micro-color-panel-tools",
+      "name": "BMD-MicroColorPanel-Tools",
+      "creator": "Bipedal",
+      "url": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+      "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+      "kind": "control-surface",
+      "tasks": [
+        "hardware",
+        "development"
+      ],
+      "description": "Micro Color Panel HID protocol and Python driver for use outside Resolve. Requires the physical panel; maintainer testing covers Windows 11 only.",
+      "access": "Free; CC0-1.0 code and documentation; physical panel separate",
+      "platforms": [
+        "Windows"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "Blackmagic Design Micro Color Panel, Python 3 and hidapi>=0.14. The live tester also uses Tkinter.",
+        "installation": "Install the Python requirements and run the reference driver or panel tester. Close Resolve first to avoid competing writes to the panel."
+      },
+      "version": {
+        "name": "Bipedal/BMD-MicroColorPanel-Tools",
+        "url": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+        "kind": "commit",
+        "version": "f044256c15ad024b92b401687ace3d106c67e41a",
+        "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/commit/f044256c15ad024b92b401687ace3d106c67e41a",
+        "date": "2026-11-17T23:49:39Z",
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "Source revision; the repository has no published release."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "installation",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#quick-start",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "processing",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/blob/main/requirements.txt",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/blob/main/LICENSE",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/commit/f044256c15ad024b92b401687ace3d106c67e41a",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -3975,6 +4077,66 @@
       ]
     },
     {
+      "id": "cloudroomy",
+      "name": "CloudRoomy",
+      "creator": "Jahvix",
+      "url": "https://cloudroomy.app/",
+      "category": "Community discoveries",
+      "kind": "workflow-app",
+      "tasks": [
+        "workflow"
+      ],
+      "description": "Cloud Finder drive documented for Resolve footage and exports. Apple Silicon only; requires a hosted plan or separately billed S3 storage.",
+      "access": "Paid hosted subscription or one-time app with own storage; 30-day trial",
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "mixed",
+        "account": "required",
+        "dependencies": "CloudRoomy account and hosted or S3-compatible storage. Files are uploaded; this is not an offline media drive.",
+        "installation": null
+      },
+      "version": {
+        "name": "CloudRoomy",
+        "url": "https://cloudroomy.app/",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://cloudroomy.app/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "No product version established from the reviewed original source."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://cloudroomy.app/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://cloudroomy.app/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://cloudroomy.app/",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
       "id": "cogwheel",
       "name": "cogwheel",
       "creator": "stoatworks-labs",
@@ -4397,6 +4559,136 @@
       ]
     },
     {
+      "id": "corridorkey-2-ofx",
+      "name": "CorridorKey 2.0 OFX and standalone",
+      "creator": "Corridor Digital",
+      "url": "https://corridorkey.com/",
+      "category": "Community discoveries",
+      "kind": "ofx",
+      "tasks": [
+        "fusion"
+      ],
+      "description": "Commercial local chroma keyer for Resolve/OpenFX with temporal analysis and alpha hints. OS/GPU limits apply; manual still labels the line beta.",
+      "access": "Paid one-time 2.x license; activation required",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": "NVIDIA RTX on Windows; Apple Silicon on macOS; OS-specific targets.",
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "Model downloads and online activation. Provider minimum is 4 GB VRAM up to 1440p or 6 GB for 4K.",
+        "installation": null
+      },
+      "version": {
+        "name": "CorridorKey 2.0 OFX and standalone",
+        "url": "https://corridorkey.com/",
+        "kind": "vendor-version",
+        "version": "2.0",
+        "source": "https://help.corridorkey.com/docs/manual/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "Product-family version only; manual labels beta and no exact current installer build is established."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://corridorkey.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://corridorkey.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://help.corridorkey.com/docs/manual/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://corridorkey.com/",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "corridorkey-2-source",
+      "name": "CorridorKey2.0",
+      "creator": "nikopueringer",
+      "url": "https://github.com/nikopueringer/CorridorKey2.0",
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "kind": "workflow-app",
+      "tasks": [
+        "fusion"
+      ],
+      "description": "Official local Python chroma keyer with matte, foreground and linear-EXR outputs. Requires NVIDIA/CUDA; custom license restrictions apply.",
+      "access": "Source available; custom CorridorKey license, not unrestricted open source",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": "NVIDIA RTX 30-series+; 4 GB VRAM up to 1440p, 6 GB for 4K.",
+        "processing": "local",
+        "pricing": "unknown",
+        "account": "unknown",
+        "dependencies": "CUDA-enabled PyTorch, Python environment, FFmpeg and model downloads.",
+        "installation": null
+      },
+      "version": {
+        "name": "nikopueringer/CorridorKey2.0",
+        "url": "https://github.com/nikopueringer/CorridorKey2.0",
+        "kind": "commit",
+        "version": "485f5e9ab759ead6138cc990776184b59d6ea971",
+        "source": "https://github.com/nikopueringer/CorridorKey2.0/commit/485f5e9ab759ead6138cc990776184b59d6ea971",
+        "date": "2026-10-15T18:09:53Z",
+        "date_kind": "commit",
+        "checked_at": "2026-11-21",
+        "note": "Source revision; product-family name is not a published release."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/nikopueringer/CorridorKey2.0",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/nikopueringer/CorridorKey2.0",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/nikopueringer/CorridorKey2.0/blob/master/LICENSE",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/nikopueringer/CorridorKey2.0",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
       "id": "corridorkey-runtime",
       "name": "CorridorKey-Runtime",
       "creator": "alexandremendoncaalvaro",
@@ -4528,13 +4820,13 @@
       "version": {
         "name": "CrossFlow",
         "url": "https://nablast.com/",
-        "kind": "unverified",
-        "version": null,
-        "source": "https://nablast.com/download/",
+        "kind": "vendor-version",
+        "version": "1.2",
+        "source": "https://nablast.com/release-notes/",
         "date": null,
         "date_kind": null,
-        "checked_at": "2026-10-26T08:19:35.198Z",
-        "note": "Download page release-note widget did not expose a verified version number."
+        "checked_at": "2026-11-21",
+        "note": "Original provider source reviewed. An exact publication date is recorded only when explicit."
       },
       "evidence": [
         {
@@ -4548,6 +4840,12 @@
           "level": "documented",
           "source": "https://nablast.com/",
           "checked_at": "2026-10-26"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://nablast.com/release-notes/",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -4591,6 +4889,71 @@
           "level": "documented",
           "source": "https://cutpointlabs.com/cutdetect/",
           "checked_at": "2026-09-07"
+        }
+      ]
+    },
+    {
+      "id": "cutdown",
+      "name": "Cutdown",
+      "creator": "Softworks",
+      "url": "https://cutdown.app/",
+      "category": "Community discoveries",
+      "kind": "workflow-app",
+      "tasks": [
+        "workflow"
+      ],
+      "description": "Score footage for focus, exposure and motion, then export adjustable selects into Resolve. Free Lite; paid Pro. Local analysis with license checks.",
+      "access": "Free Lite; paid one-time Pro",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "mixed",
+        "account": "not-required",
+        "dependencies": "Internet for license/update checks; media analysis remains on-device.",
+        "installation": "Standalone Mac or Windows app; Apple Pro Video Formats is optional for wider Mac preview support."
+      },
+      "version": {
+        "name": "Cutdown",
+        "url": "https://cutdown.app/",
+        "kind": "vendor-version",
+        "version": "1.3.0",
+        "source": "https://cutdown.app/changelog",
+        "date": "2026-11-03",
+        "date_kind": "release",
+        "checked_at": "2026-11-21",
+        "note": "Provider changelog dates 1.3.0 to November 3, 2026."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://cutdown.app/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://cutdown.app/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://cutdown.app/changelog",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://cutdown.app/",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -5036,6 +5399,71 @@
           "level": "documented",
           "source": "https://github.com/Georj01/davinci-dctl/commit/8a51f004f9426f97e5469cbff05b6fd5e76f61ea",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        }
+      ]
+    },
+    {
+      "id": "davinci-font-auditor",
+      "name": "davinci-font-auditor",
+      "creator": "mrchrisster",
+      "url": "https://github.com/mrchrisster/davinci-font-auditor",
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
+      "tasks": [
+        "workflow"
+      ],
+      "description": "Audit and map fonts in exported DRP projects using a local Python/browser app. Windows-project parsing may crash; license file not established.",
+      "access": "Public source; README claims MIT, license file not established",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "unknown",
+        "account": "unknown",
+        "dependencies": "Python 3.10+, modern browser and repository Python dependencies.",
+        "installation": "Run the local Python backend and open its loopback dashboard; no project files were processed for this review."
+      },
+      "version": {
+        "name": "mrchrisster/davinci-font-auditor",
+        "url": "https://github.com/mrchrisster/davinci-font-auditor",
+        "kind": "commit",
+        "version": "0ccf56282e7a501c2a38a4861d383887220babf3",
+        "source": "https://github.com/mrchrisster/davinci-font-auditor/commit/0ccf56282e7a501c2a38a4861d383887220babf3",
+        "date": "2026-05-27T17:46:20Z",
+        "date_kind": "commit",
+        "checked_at": "2026-11-21",
+        "note": "Source revision, not a published software release."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/mrchrisster/davinci-font-auditor",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/mrchrisster/davinci-font-auditor",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/mrchrisster/davinci-font-auditor/commit/0ccf56282e7a501c2a38a4861d383887220babf3",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/mrchrisster/davinci-font-auditor",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -5745,8 +6173,8 @@
         ],
         "resolve": [
           {
-            "min": "21.1",
-            "max": "21.1"
+            "min": "21.2",
+            "max": "21.2"
           }
         ],
         "architectures": [],
@@ -5761,12 +6189,12 @@
         "name": "Distortions81/DaVinci-Resolve-Container",
         "url": "https://github.com/Distortions81/DaVinci-Resolve-Container",
         "kind": "commit",
-        "version": "9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
-        "source": "https://github.com/Distortions81/DaVinci-Resolve-Container/commit/9e669d86eafb14bab58a96bc872ba7ab1cdd78df",
-        "date": "2026-09-22T05:48:42Z",
-        "checked_at": "2026-10-26T08:25:01.030Z",
+        "version": "f080b08ac1fd6f6d54b43c697a0383227c5de586",
+        "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+        "date": "2026-11-05T15:05:20Z",
+        "checked_at": "2026-11-21",
         "date_kind": "commit",
-        "note": "Source revision, not a published software release."
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -5786,6 +6214,18 @@
           "level": "documented",
           "source": "https://github.com/Distortions81/DaVinci-Resolve-Container#readme",
           "checked_at": "2026-09-15"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -6206,12 +6646,12 @@
         "name": "samuelgursky/davinci-resolve-mcp",
         "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
         "kind": "stable-release",
-        "version": "v5.2.8",
-        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
-        "date": "2026-11-14T00:46:43Z",
-        "checked_at": "2026-11-14T07:53:12.819Z",
+        "version": "v5.4.0",
+        "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0",
+        "date": "2026-11-20T03:33:05Z",
+        "checked_at": "2026-11-21",
         "date_kind": "release",
-        "note": "Original provider source reviewed."
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       },
       "evidence": [
         {
@@ -6225,6 +6665,12 @@
           "level": "documented",
           "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
           "checked_at": "2026-11-14T07:53:12.819Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -10367,12 +10813,12 @@
         "name": "fcp2aaf",
         "url": "https://fcp2aaf.com/",
         "kind": "vendor-version",
-        "version": "26.11.02",
+        "version": "26.11.03",
         "source": "https://fcp2aaf.com/changelog/",
-        "date": "2026-11-06",
+        "date": "2026-11-18",
         "date_kind": "release",
-        "checked_at": "2026-11-14T07:53:12.819Z",
-        "note": "Original provider source reviewed."
+        "checked_at": "2026-11-21",
+        "note": "Original provider source reviewed. An exact publication date is recorded only when explicit."
       },
       "evidence": [
         {
@@ -10398,6 +10844,12 @@
           "level": "documented",
           "source": "https://fcp2aaf.com/changelog/",
           "checked_at": "2026-11-14T07:53:12.819Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://fcp2aaf.com/changelog/",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -10910,6 +11362,68 @@
       ]
     },
     {
+      "id": "final-frame",
+      "name": "Final Frame",
+      "creator": "Final Frame",
+      "url": "https://finalframe.cc/",
+      "category": "Community discoveries",
+      "kind": "workflow-app",
+      "tasks": [
+        "fusion",
+        "workflow"
+      ],
+      "description": "Design and render end credits as ProRes alpha, DNxHR, DPX or EXR finishing plates. Mac app; clean exports need a license.",
+      "access": "Free watermarked exports; paid production/season licenses or subscription",
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64",
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "mixed",
+        "account": "unknown",
+        "dependencies": "Online account/review features have separate network use; master rendering is local.",
+        "installation": null
+      },
+      "version": {
+        "name": "Final Frame",
+        "url": "https://finalframe.cc/",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://finalframe.cc/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "No product version established from the reviewed original source."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://finalframe.cc/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://finalframe.cc/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://finalframe.cc/",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
       "id": "firecut",
       "name": "FireCut",
       "creator": "FireCut",
@@ -11321,12 +11835,12 @@
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",
         "kind": "stable-release",
-        "version": "v1.16",
-        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
-        "date": "2026-11-11T18:58:11Z",
-        "checked_at": "2026-11-14T07:53:12.819Z",
+        "version": "v1.17",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17",
+        "date": "2026-11-16T00:07:15Z",
+        "checked_at": "2026-11-21",
         "date_kind": "release",
-        "note": "Original provider source reviewed."
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       },
       "evidence": [
         {
@@ -11346,6 +11860,12 @@
           "level": "documented",
           "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
           "checked_at": "2026-11-14T07:53:12.819Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -12081,7 +12601,7 @@
       "tasks": [
         "workflow"
       ],
-      "description": "Repair Fusion MediaIn IDs after transferring projects by matching files in the current Media Pool. Filename collisions can choose the wrong source.",
+      "description": "Lua tool for repairing Media Pool-backed Fusion MediaIn links after moving projects or timelines. Scans clip compositions and optionally all timelines; Fusion effects and adjustment clips require Resolve 21.1.2+. Uses path/unique-name matching, can import missing files, and offers dry-run, undo and verification. Ambiguous matches are left untouched; Fusion Clips inaccessible through the API and Loader nodes are outside its scope.",
       "access": "Free; MIT stated upstream",
       "platforms": [
         "Windows",
@@ -12096,17 +12616,19 @@
         "processing": "unknown",
         "pricing": "unknown",
         "account": "unknown",
-        "dependencies": null,
+        "dependencies": "Resolve Lua scripting; Resolve 21.1.2+ only for the optional Fusion-effect scan. Older hosts skip that feature.",
         "installation": null
       },
       "version": {
         "name": "postflows/Fusion-MediaIn-ID-Update-",
         "url": "https://github.com/postflows/Fusion-MediaIn-ID-Update-",
         "kind": "commit",
-        "version": "99797ede9151cdb34c85419543082985a4372310",
-        "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/99797ede9151cdb34c85419543082985a4372310",
-        "date": "2026-04-20T18:52:43Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "9f630a91c6433bb61025fe0efac880a2a596589c",
+        "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
+        "date": "2026-10-27T15:53:28Z",
+        "checked_at": "2026-11-21",
+        "date_kind": "commit",
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -12120,6 +12642,18 @@
           "level": "documented",
           "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/99797ede9151cdb34c85419543082985a4372310",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "dependencies",
+          "level": "documented",
+          "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -12824,12 +13358,12 @@
         "name": "gordasgdc/gdc-plugin-manager",
         "url": "https://github.com/gordasgdc/gdc-plugin-manager",
         "kind": "stable-release",
-        "version": "v1.41.1",
-        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
-        "date": "2026-11-01T23:01:55Z",
-        "checked_at": "2026-11-06T08:18:50.375Z",
+        "version": "v1.42.0",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
+        "date": "2026-11-16T04:03:36Z",
+        "checked_at": "2026-11-21",
         "date_kind": "release",
-        "note": "Original source reviewed; catalogue review date is separate from the release date."
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       },
       "evidence": [
         {
@@ -12849,6 +13383,12 @@
           "level": "documented",
           "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
           "checked_at": "2026-11-06T08:18:50.375Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -12900,6 +13440,81 @@
           "level": "documented",
           "source": "https://github.com/ChrisRidings/GifSaverFuse/commit/076a3edab08e8a04431aa2895c693eef4152ff1d",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        }
+      ]
+    },
+    {
+      "id": "gpx-to-fusion",
+      "name": "GpxToFusion",
+      "creator": "DorwinDT",
+      "url": "https://github.com/DorwinDT/GpxToFusion",
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "workflow-app",
+      "tasks": [
+        "fusion",
+        "workflow"
+      ],
+      "description": "Turn GPX or drawn routes into editable Fusion polylines, map images and Text+ labels. Windows app; map-provider licenses remain separate.",
+      "access": "Free; MIT code; map-provider terms separate",
+      "platforms": [
+        "Windows"
+      ],
+      "requirements": {
+        "editions": [
+          "Free"
+        ],
+        "resolve": [],
+        "architectures": [
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "Online map tiles from the selected provider; exported nodes are edited in Resolve Fusion.",
+        "installation": "Extract the Windows x64 ZIP and import the exported .setting into Fusion."
+      },
+      "version": {
+        "name": "DorwinDT/GpxToFusion",
+        "url": "https://github.com/DorwinDT/GpxToFusion",
+        "kind": "stable-release",
+        "version": "v1.5.0",
+        "source": "https://github.com/DorwinDT/GpxToFusion/releases/tag/v1.5.0",
+        "date": "2026-11-08T10:23:45Z",
+        "date_kind": "release",
+        "checked_at": "2026-11-21",
+        "note": "Original provider release; not independently installation-tested."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/DorwinDT/GpxToFusion",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/DorwinDT/GpxToFusion",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/DorwinDT/GpxToFusion/releases/tag/v1.5.0",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "editions",
+          "level": "creator",
+          "source": "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/DorwinDT/GpxToFusion",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -13298,7 +13913,7 @@
         "captions",
         "workflow"
       ],
-      "description": "Silence-based editing helper for Resolve workflows.",
+      "description": "Alpha silence-editing helper for Resolve workflows, with multichannel audio, linked-clip handling and manually adjustable silence regions. The published 0.4.0-alpha remains experimental; exact Resolve host requirements are not established.",
       "access": "Public",
       "platforms": [
         "Windows",
@@ -13319,11 +13934,13 @@
       "version": {
         "name": "oliwoli/HushCut",
         "url": "https://github.com/oliwoli/HushCut",
-        "kind": "commit",
-        "version": "160dfffed4739108c5e22fecdf734ab74460105b",
-        "source": "https://github.com/oliwoli/HushCut/commit/160dfffed4739108c5e22fecdf734ab74460105b",
-        "date": "2025-12-30T15:39:02Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "kind": "prerelease",
+        "version": "v0.4.0-alpha",
+        "source": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha",
+        "date": "2026-11-10T23:04:45Z",
+        "checked_at": "2026-11-21",
+        "date_kind": "release",
+        "note": "Provider prerelease; not independently installation-tested."
       },
       "evidence": [
         {
@@ -13337,6 +13954,12 @@
           "level": "documented",
           "source": "https://github.com/oliwoli/HushCut/commit/160dfffed4739108c5e22fecdf734ab74460105b",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -13414,12 +14037,12 @@
         "name": "Jumper",
         "url": "https://getjumper.io/",
         "kind": "vendor-version",
-        "version": "macOS 3542 (Apple silicon), 3543 (Intel); Windows 1636",
+        "version": "macOS 3658 (Apple silicon), 3659 (Intel); Windows 1637",
         "source": "https://docs.getjumper.io/release-notes/macos",
-        "date": "2026-11-09",
+        "date": "2026-11-20",
         "date_kind": "release",
-        "checked_at": "2026-11-14T07:53:12.819Z",
-        "note": "Original provider source reviewed."
+        "checked_at": "2026-11-21",
+        "note": "Original provider source reviewed. An exact publication date is recorded only when explicit."
       },
       "evidence": [
         {
@@ -13433,6 +14056,12 @@
           "level": "documented",
           "source": "https://docs.getjumper.io/release-notes/macos",
           "checked_at": "2026-11-14T07:53:12.819Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://docs.getjumper.io/release-notes/macos",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -13990,6 +14619,140 @@
       ]
     },
     {
+      "id": "lodge",
+      "name": "Lodge",
+      "creator": "bashframes",
+      "url": "https://bashfra.me/lodge/",
+      "category": "Community discoveries",
+      "kind": "workflow-app",
+      "tasks": [
+        "workflow"
+      ],
+      "description": "Mac camera-card ingest with custom names, incremental copies and SHA-256 verification. Standalone companion with a paid license and trial.",
+      "access": "Paid one-time license; three-day trial",
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64",
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "one-time",
+        "account": "not-required",
+        "dependencies": "Removable-volume access; optional daily update check can be disabled.",
+        "installation": "Mac DMG; follow the original unsigned-app installation instructions."
+      },
+      "version": {
+        "name": "Lodge",
+        "url": "https://bashfra.me/lodge/",
+        "kind": "vendor-version",
+        "version": "1.0",
+        "source": "https://bashfra.me/lodge/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "Original product page explicitly identifies Lodge 1.0; release date not established."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://bashfra.me/lodge/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://bashfra.me/lodge/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://bashfra.me/lodge/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://bashfra.me/lodge/",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "logsortie",
+      "name": "LogSortie",
+      "creator": "Adrian Sava",
+      "url": "https://logsortie.com/",
+      "category": "Community discoveries",
+      "kind": "workflow-app",
+      "tasks": [
+        "workflow",
+        "color"
+      ],
+      "description": "Sort original DJI Pocket footage by Log profile and recording mode before grading. Moves files; existing edits need relinking. Apple Silicon only.",
+      "access": "First 30 clips free; paid one-time license",
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "Online license activation once; sorting and preview processing remain local.",
+        "installation": null
+      },
+      "version": {
+        "name": "LogSortie",
+        "url": "https://logsortie.com/",
+        "kind": "vendor-version",
+        "version": "1.1.1",
+        "source": "https://logsortie.com/changelog/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "Provider gives November 2026 without an exact release day."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://logsortie.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://logsortie.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://logsortie.com/changelog/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://logsortie.com/",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
       "id": "lowcat",
       "name": "lowcat",
       "creator": "debuxxed",
@@ -14410,33 +15173,41 @@
       "tasks": [
         "workflow"
       ],
-      "description": "Five-tool suite for marker management, clip renaming, tracks, running-time planning, and clip collection. Upstream claims Resolve 18+ Free/Studio; Python 3 required for scripts.",
-      "access": "Free; upstream download terms",
+      "description": "Resolve Tools Classic 1.x: five frozen Python scripts for markers, clip renaming, tracks, running time and clip collection. Provider documents Resolve 18 through 21.0, Free or Studio. Python 3 is required. PolyForm Noncommercial 1.0.0; the newer Studio 21.1+ desktop app is a separate catalogue entry.",
+      "access": "Free for noncommercial use; PolyForm Noncommercial 1.0.0",
       "platforms": [
         "Windows",
         "macOS"
       ],
       "requirements": {
-        "editions": [],
-        "resolve": [],
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18",
+            "max": "21.0"
+          }
+        ],
         "architectures": [],
         "gpu": null,
         "processing": "unknown",
-        "pricing": "unknown",
+        "pricing": "free",
         "account": "unknown",
-        "dependencies": null,
+        "dependencies": "Python 3; classic scripts are frozen for Resolve 18 through 21.0.",
         "installation": null
       },
       "version": {
         "name": "h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
         "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
         "kind": "commit",
-        "version": "5990c1c77919d0f847d5332b4d57a001f985d86b",
-        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/5990c1c77919d0f847d5332b4d57a001f985d86b",
-        "date": "2026-10-14T17:54:12Z",
-        "checked_at": "2026-10-26T08:25:01.033Z",
+        "version": "fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+        "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+        "date": "2026-10-29T16:31:22Z",
+        "checked_at": "2026-11-21",
         "date_kind": "commit",
-        "note": "Source revision, not a published software release."
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -14450,6 +15221,36 @@
           "level": "documented",
           "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/21b14063c82f1ddfab50a34c2678c10de3cecd4b",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "editions",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "dependencies",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/blob/main/LICENSE",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -14622,6 +15423,73 @@
         "checked_at": "2026-09-06T12:10:32.439Z"
       },
       "evidence": []
+    },
+    {
+      "id": "mcnexus",
+      "name": "MCNexus",
+      "creator": "ciqueira",
+      "url": "https://mcnexus.app/",
+      "category": "Community discoveries",
+      "kind": "workflow-app",
+      "tasks": [
+        "workflow",
+        "hardware",
+        "development"
+      ],
+      "description": "OFX distribution, updates, DCTL conversion and MIDI-control companion for Resolve. Individual plugin licenses and requirements remain separate.",
+      "access": "Free community distribution; individual plugin and developer-plan terms vary",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "mixed",
+        "account": "unknown",
+        "dependencies": "Internet for distribution/activation; compatible OFX plugins and MIDI hardware for NexControl.",
+        "installation": "Mac DMG or Windows Microsoft Store package."
+      },
+      "version": {
+        "name": "MCNexus",
+        "url": "https://mcnexus.app/",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://mcnexus.app/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "No product version established from the reviewed original source."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://mcnexus.app/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://mcnexus.app/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "pricing",
+          "level": "documented",
+          "source": "https://mcnexus.app/pricing/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://mcnexus.app/",
+          "checked_at": "2026-11-21"
+        }
+      ]
     },
     {
       "id": "me-opendrt-ofx",
@@ -15897,7 +16765,7 @@
       "tasks": [
         "color"
       ],
-      "description": "Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools.",
+      "description": "Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools. Includes Lazy Banding, a creative banding mask.",
       "access": "Free",
       "platforms": [
         "Windows",
@@ -15910,12 +16778,12 @@
         ],
         "resolve": [
           {
-            "edition": "Studio",
-            "min": "19.1"
+            "min": "19.1",
+            "edition": "Studio"
           }
         ],
         "architectures": [],
-        "gpu": null,
+        "gpu": "NVIDIA GPU or Apple Silicon; other systems untested by provider.",
         "processing": "unknown",
         "pricing": "unknown",
         "account": "unknown",
@@ -15926,10 +16794,12 @@
         "name": "nikita-petrovich/np-public-dctl",
         "url": "https://github.com/nikita-petrovich/np-public-dctl",
         "kind": "commit",
-        "version": "e13d3bf8af6943eb4745b62439812650da253cd7",
-        "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/e13d3bf8af6943eb4745b62439812650da253cd7",
-        "date": "2026-06-26T12:15:43Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "8941f3bab4af8f45bc5a7907eac747a01899e35d",
+        "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d",
+        "date": "2026-11-16T18:35:17Z",
+        "checked_at": "2026-11-21",
+        "date_kind": "commit",
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -15949,6 +16819,30 @@
           "level": "documented",
           "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
           "checked_at": "2026-09-06"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "editions",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "gpu",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -18339,10 +19233,12 @@
         "name": "Akascape/Rembg-Fuse",
         "url": "https://github.com/Akascape/Rembg-Fuse",
         "kind": "commit",
-        "version": "9726f575d044494c66c70611109d90559191985f",
-        "source": "https://github.com/Akascape/Rembg-Fuse/commit/9726f575d044494c66c70611109d90559191985f",
-        "date": "2026-07-05T20:40:39Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "5f5f9e681a54684fdff4205f444a589d3f58eba7",
+        "source": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7",
+        "date": "2026-11-14T07:06:13Z",
+        "checked_at": "2026-11-21",
+        "date_kind": "commit",
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -18350,6 +19246,12 @@
           "level": "documented",
           "source": "https://github.com/Akascape/Rembg-Fuse/commit/9726f575d044494c66c70611109d90559191985f",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -18452,6 +19354,86 @@
           "level": "documented",
           "source": "https://github.com/Senthil360/RenderHub-DCTLs/releases/tag/September-2026-Bundle",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        }
+      ]
+    },
+    {
+      "id": "resolve-aac-bridge",
+      "name": "resolve-linux-aac-full",
+      "creator": "hexitnz",
+      "url": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "encoder",
+      "tasks": [
+        "workflow"
+      ],
+      "description": "Experimental Linux Studio AAC import/export bridge. Replaces the deprecated FDK encoder; host layouts and AAC profiles have limits.",
+      "access": "Free source; GPL-2.0-only; dependency licenses separate",
+      "platforms": [
+        "Linux"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [],
+        "architectures": [
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "Resolve Studio; source builds need Python 3.8+, a Linux Podman/Docker engine, internet and the Resolve codec SDK.",
+        "installation": "Use the original release/build and conflict instructions; the combined package contains decoder and encoder components."
+      },
+      "version": {
+        "name": "hexitnz/resolve-linux-aac-full",
+        "url": "https://github.com/hexitnz/resolve-linux-aac-full",
+        "kind": "stable-release",
+        "version": "v21.2.6-adts",
+        "source": "https://github.com/hexitnz/resolve-linux-aac-full/releases/tag/v21.2.6-adts",
+        "date": "2026-11-15T22:59:44Z",
+        "date_kind": "release",
+        "checked_at": "2026-11-21",
+        "note": "Provider release tag v21.2.6-adts is a package label, not evidence of a Resolve 21.2.6 host release."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full/releases/tag/v21.2.6-adts",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full/blob/main/LICENSE",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full#readme",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -19065,12 +20047,12 @@
         "name": "Pinionist/Resolve-Conform-tools",
         "url": "https://github.com/Pinionist/Resolve-Conform-tools",
         "kind": "commit",
-        "version": "52b394069fadc47471c8629b61054b0d78323b38",
-        "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/52b394069fadc47471c8629b61054b0d78323b38",
-        "date": "2026-10-23T20:29:14Z",
-        "checked_at": "2026-10-26T08:25:01.035Z",
+        "version": "bb17a7edf5c2ed92839053eb9570716ada4c1521",
+        "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/bb17a7edf5c2ed92839053eb9570716ada4c1521",
+        "date": "2026-11-19T15:19:34Z",
+        "checked_at": "2026-11-21",
         "date_kind": "commit",
-        "note": "Source revision, not a published software release."
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -19078,6 +20060,12 @@
           "level": "documented",
           "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/8916f83e8e82da5bf2058b372fe640cc711eab61",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/bb17a7edf5c2ed92839053eb9570716ada4c1521",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -19536,7 +20524,7 @@
       "tasks": [
         "media"
       ],
-      "description": "FDK-based AAC audio encoding on Linux. Studio required.",
+      "description": "Deprecated Linux Studio AAC encoder. The provider recommends the combined Resolve AAC Bridge project instead. Retained for historical workflows; do not install alongside the replacement without checking its instructions.",
       "access": "Public",
       "platforms": [
         "Linux"
@@ -19558,10 +20546,12 @@
         "name": "hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
         "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
         "kind": "commit",
-        "version": "232a5e04cb605236541cf0cd08bde3eed9f1f20a",
-        "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/232a5e04cb605236541cf0cd08bde3eed9f1f20a",
-        "date": "2026-06-21T21:59:38Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "337315fe50c752df2e162b815cf687bbddda7bd7",
+        "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7",
+        "date": "2026-11-13T03:14:20Z",
+        "checked_at": "2026-11-21",
+        "date_kind": "commit",
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -19581,6 +20571,18 @@
           "level": "documented",
           "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
           "checked_at": "2026-09-06"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "maintenance",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -19988,10 +20990,12 @@
         "name": "thatcherfreeman/resolve-scripts",
         "url": "https://github.com/thatcherfreeman/resolve-scripts",
         "kind": "commit",
-        "version": "2ab9ed607bee8c35c773725e77ed09f316a8deee",
-        "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/2ab9ed607bee8c35c773725e77ed09f316a8deee",
-        "date": "2026-09-08T07:00:46Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+        "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+        "date": "2026-11-08T15:56:16Z",
+        "checked_at": "2026-11-21",
+        "date_kind": "commit",
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -20005,6 +21009,121 @@
           "level": "documented",
           "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/2ab9ed607bee8c35c773725e77ed09f316a8deee",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "resolve-telemetry-overlay",
+      "name": "Resolve Telemetry Overlay",
+      "creator": "LIGHTOUCH",
+      "url": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+      "category": "Fusion / Motion Graphics",
+      "kind": "ofx",
+      "tasks": [
+        "fusion",
+        "workflow"
+      ],
+      "description": "Editable FIT activity gauges, routes and telemetry in Resolve. Mac Apple Silicon or Windows x64; license checks and optional weather/imports use the network.",
+      "access": "Paid one-time major-version license; seven-day trial",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18.6.6"
+          }
+        ],
+        "architectures": [],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "Internet for activation and periodic license checks. Optional weather needs an OpenWeather account/API key and can incur external charges. Garmin/COROS imports use external accounts.",
+        "installation": "macOS DMG with Activator, or manual Windows x64 MSI. Windows installer is self-signed; verify the provider download page and checksum."
+      },
+      "version": {
+        "name": "Resolve Telemetry Overlay",
+        "url": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+        "kind": "vendor-version",
+        "version": "1.1.27 (build 202611191)",
+        "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/history?lang=en",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "Version and build are explicit in provider history and the Windows download page; no publication date is inferred from the build number."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "editions",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "architectures",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "installation",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "processing",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/history?lang=en",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/download-windows",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -20244,32 +21363,40 @@
       "tasks": [
         "workflow"
       ],
-      "description": "Five tools for markers, clip renaming, tracks, running-time planning, and clip collection. Python scripts plus a standalone Reel Time Plus app. The source repository is also included in the catalogue.",
+      "description": "Resolve Tools 2.1 combines Marker Madness, Clip Renamer Pro, Track Command, Clipper and Reel Time Plus in one desktop app. Adds scene-level continuity workbooks/PDF reports and Premiere/Avid marker exchange. Requires Resolve Studio 21.1+; the frozen Classic Python scripts for older versions remain separately listed.",
       "access": "🆓 Free",
       "platforms": [
         "Windows",
         "macOS"
       ],
       "requirements": {
-        "editions": [],
-        "resolve": [],
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21.1",
+            "edition": "Studio"
+          }
+        ],
         "architectures": [],
         "gpu": null,
         "processing": "unknown",
-        "pricing": "unknown",
-        "account": "unknown",
-        "dependencies": null,
-        "installation": null
+        "pricing": "free",
+        "account": "not-required",
+        "dependencies": "Resolve Studio with External scripting using set to Local. Windows requires WebView2.",
+        "installation": "macOS DMG or Windows EXE; provider documents unsigned installers."
       },
       "version": {
         "name": "Resolve Tools / Marker Madness Suite",
         "url": "https://resolve-tools.com/",
-        "kind": "unverified",
-        "version": null,
+        "kind": "vendor-version",
+        "version": "2.1",
         "source": "https://resolve-tools.com/",
         "date": null,
         "date_kind": null,
-        "checked_at": "2026-09-06T12:10:21.388Z"
+        "checked_at": "2026-11-21",
+        "note": "Original provider source reviewed. An exact publication date is recorded only when explicit."
       },
       "evidence": [
         {
@@ -20277,6 +21404,42 @@
           "level": "documented",
           "source": "https://resolve-tools.com/",
           "checked_at": "2026-09-06T12:10:21.388Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "editions",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "dependencies",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "installation",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -21282,12 +22445,12 @@
         "name": "shumaiOne/shumai",
         "url": "https://github.com/shumaiOne/shumai",
         "kind": "stable-release",
-        "version": "v0.6.6",
-        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
-        "date": "2026-11-13T12:38:25Z",
-        "checked_at": "2026-11-14T07:53:12.819Z",
+        "version": "v0.7.0",
+        "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+        "date": "2026-11-18T13:25:32Z",
+        "checked_at": "2026-11-21",
         "date_kind": "release",
-        "note": "Original provider source reviewed."
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       },
       "evidence": [
         {
@@ -21301,6 +22464,12 @@
           "level": "documented",
           "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
           "checked_at": "2026-11-14T07:53:12.819Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -22206,7 +23375,7 @@
       "tasks": [
         "captions"
       ],
-      "description": "Apple Silicon subtitle utility using local Qwen speech recognition and alignment, batch processing, Chinese text correction, translation and simplified/traditional conversion. Includes an unsigned macOS installer; initial model downloads are required. Exact Resolve edition compatibility and repository reuse license are not established.",
+      "description": "Apple Silicon subtitle utility with local Qwen recognition/alignment and optional Doubao cloud captions, plus batch processing, Chinese correction and translation. Cloud captions no longer require local Qwen models; local modes still need downloads. The full macOS package is unsigned. Exact Resolve edition compatibility and repository reuse license are not established.",
       "access": "Public",
       "platforms": [
         "macOS"
@@ -22218,22 +23387,22 @@
           "arm64"
         ],
         "gpu": null,
-        "processing": "unknown",
+        "processing": "hybrid",
         "pricing": "unknown",
         "account": "unknown",
-        "dependencies": "Initial Qwen model downloads",
+        "dependencies": "Qwen models for local recognition/alignment; optional Doubao cloud service uses its own connection and terms.",
         "installation": null
       },
       "version": {
         "name": "HooperH/SubFix",
         "url": "https://github.com/HooperH/SubFix",
         "kind": "stable-release",
-        "version": "v3.4.0",
-        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
-        "date": "2026-11-10T05:53:36Z",
-        "checked_at": "2026-11-14T07:53:12.819Z",
+        "version": "v3.4.1",
+        "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+        "date": "2026-11-16T10:20:27Z",
+        "checked_at": "2026-11-21",
         "date_kind": "release",
-        "note": "Original provider source reviewed."
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       },
       "evidence": [
         {
@@ -22253,6 +23422,24 @@
           "level": "documented",
           "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
           "checked_at": "2026-11-14T07:53:12.819Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "processing",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "dependencies",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -22286,10 +23473,12 @@
         "name": "BambooYC123/SubtitleYC",
         "url": "https://github.com/BambooYC123/SubtitleYC",
         "kind": "stable-release",
-        "version": "v0.6.0",
-        "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.6.0",
-        "date": "2026-09-06T14:23:23Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "v0.7.0",
+        "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
+        "date": "2026-11-19T13:57:59Z",
+        "checked_at": "2026-11-21",
+        "date_kind": "release",
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       },
       "evidence": [
         {
@@ -22309,6 +23498,12 @@
           "level": "documented",
           "source": "https://github.com/BambooYC123/SubtitleYC",
           "checked_at": "2026-09-08"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -23563,6 +24758,76 @@
       ]
     },
     {
+      "id": "switcheroo",
+      "name": "Switcheroo",
+      "creator": "huggeebear2011",
+      "url": "https://github.com/huggeebear2011/Switcheroo",
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "kind": "resolve-script",
+      "tasks": [
+        "workflow"
+      ],
+      "description": "Switch Resolve pages and keyboard presets together with Hammerspoon on macOS. Requires local external scripting and matching preset names.",
+      "access": "Free; MIT",
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "Hammerspoon; Resolve external scripting set to Local; matching named keyboard presets.",
+        "installation": "Load the supplied Hammerspoon configuration, preserving any existing configuration first."
+      },
+      "version": {
+        "name": "huggeebear2011/Switcheroo",
+        "url": "https://github.com/huggeebear2011/Switcheroo",
+        "kind": "commit",
+        "version": "c30f7276bbf856689ecae16369ad6c4ae395b1a9",
+        "source": "https://github.com/huggeebear2011/Switcheroo/commit/c30f7276bbf856689ecae16369ad6c4ae395b1a9",
+        "date": "2026-11-21T02:26:06Z",
+        "date_kind": "commit",
+        "checked_at": "2026-11-21",
+        "note": "Source revision, not a published software release."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo/commit/c30f7276bbf856689ecae16369ad6c4ae395b1a9",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo/blob/main/LICENSE",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
       "id": "syncpass",
       "name": "SyncPass",
       "creator": "JKL Editing",
@@ -24034,12 +25299,12 @@
         "name": "ming-qiu/theia",
         "url": "https://github.com/ming-qiu/theia",
         "kind": "commit",
-        "version": "7e4d8ffc3929ba78de9854e3bec0a8193677455e",
-        "source": "https://github.com/ming-qiu/theia/commit/7e4d8ffc3929ba78de9854e3bec0a8193677455e",
-        "date": "2026-10-16T04:44:20Z",
-        "checked_at": "2026-10-26T08:25:01.038Z",
+        "version": "ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+        "source": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+        "date": "2026-11-19T06:40:08Z",
+        "checked_at": "2026-11-21",
         "date_kind": "commit",
-        "note": "Source revision, not a published software release."
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -24065,6 +25330,12 @@
           "level": "documented",
           "source": "https://theia-docs.ming-q.com/installation/",
           "checked_at": "2026-09-08"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -24250,16 +25521,110 @@
       ]
     },
     {
+      "id": "totonoe-skin-retouch",
+      "name": "Totonoe Skin Retouch for DaVinci Resolve",
+      "creator": "Totonoe",
+      "url": "https://totonoe.designstudiomarimo.com/en/resolve/",
+      "category": "Color / Film",
+      "kind": "ofx",
+      "tasks": [
+        "color"
+      ],
+      "description": "Mac OFX skin smoothing with texture restoration. Color-based selection can affect similar tones together. Creator checked Free 20.3.2 on Apple Silicon only.",
+      "access": "Paid one-time license; watermarked free trial",
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [
+          "Free"
+        ],
+        "resolve": [],
+        "architectures": [
+          "arm64",
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "not-required",
+        "dependencies": "macOS 13+. Resolve version range is not established; the creator reports one tested setup, not a minimum or maximum version.",
+        "installation": "Notarized macOS PKG installer; administrator permission and a Resolve restart are required."
+      },
+      "version": {
+        "name": "Totonoe Skin Retouch for DaVinci Resolve",
+        "url": "https://totonoe.designstudiomarimo.com/en/resolve/",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://totonoe.designstudiomarimo.com/en/resolve/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "No product version established from the reviewed original source."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "architectures",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "editions",
+          "level": "creator",
+          "source": "https://github.com/subtlesayak/open-resolve-list/issues/1",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "resolve",
+          "level": "creator",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#free-version",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "installation",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#params",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "pricing",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#pricing",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
       "id": "tscaps",
       "name": "tscaps",
       "creator": "francozanardi",
       "url": "https://github.com/francozanardi/tscaps",
       "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
-      "kind": "subtitle-tool",
+      "kind": "workflow-app",
       "tasks": [
-        "captions"
+        "captions",
+        "workflow"
       ],
-      "description": "Browser subtitle editor with local Whisper transcription, animated captions, SRT export and burned-in video export. Useful alongside Resolve through subtitle/media files; it does not create editable Fusion captions.",
+      "description": "Browser video and subtitle editor with local Whisper transcription, animated captions, b-roll, graphics, transitions, audio and optional MCP/agent editing. Exports subtitles and rendered media for Resolve; it does not create editable Fusion captions. Web app 0.7.0 and engine 0.8 are separate versions.",
       "access": "Free; separate paid cloud service",
       "platforms": [],
       "requirements": {
@@ -24277,12 +25642,12 @@
         "name": "francozanardi/tscaps",
         "url": "https://github.com/francozanardi/tscaps",
         "kind": "stable-release",
-        "version": "web-v0.6.0",
-        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
-        "date": "2026-10-14T16:24:34Z",
-        "checked_at": "2026-10-26T08:19:35.198Z",
+        "version": "web-v0.7.0",
+        "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0",
+        "date": "2026-11-21T02:01:32Z",
+        "checked_at": "2026-11-21",
         "date_kind": "release",
-        "note": "Original provider evidence reviewed; review date is separate from product release date."
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       },
       "evidence": [
         {
@@ -24296,6 +25661,12 @@
           "level": "documented",
           "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
           "checked_at": "2026-10-26T08:19:35.198Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -24660,12 +26031,12 @@
         "name": "thatcherfreeman/utility-dctls",
         "url": "https://github.com/thatcherfreeman/utility-dctls",
         "kind": "commit",
-        "version": "771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
-        "source": "https://github.com/thatcherfreeman/utility-dctls/commit/771d6cbbb22c7f27141afaf1d8edbffda702dfd9",
-        "date": "2026-10-09T08:39:40Z",
-        "checked_at": "2026-10-26T08:25:01.040Z",
+        "version": "e78315c3600e23409f0f0cd7e1212af73323cbcb",
+        "source": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb",
+        "date": "2026-10-28T13:58:48Z",
+        "checked_at": "2026-11-21",
         "date_kind": "commit",
-        "note": "Source revision, not a published software release."
+        "note": "Reviewed source revision, not a published software release."
       },
       "evidence": [
         {
@@ -24679,6 +26050,12 @@
           "level": "documented",
           "source": "https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -24773,6 +26150,71 @@
           "level": "documented",
           "source": "https://valhalladsp.com/demos-downloads/",
           "checked_at": "2026-09-06T12:10:27.497Z"
+        }
+      ]
+    },
+    {
+      "id": "vanityfilter",
+      "name": "VanityFilter",
+      "creator": "Sputnik Digital Effects",
+      "url": "https://www.vanityfilter.com/",
+      "category": "Community discoveries",
+      "kind": "workflow-app",
+      "tasks": [
+        "color"
+      ],
+      "description": "Local skin retouching with per-person masks and plate/matte exports for Resolve. Paid license or paid demo; activation checks required.",
+      "access": "Paid one-time license; paid 14-day demo",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "not-required",
+        "dependencies": "Internet activation/license checks; models and codecs are included.",
+        "installation": null
+      },
+      "version": {
+        "name": "VanityFilter",
+        "url": "https://www.vanityfilter.com/",
+        "kind": "vendor-version",
+        "version": "3.3.1",
+        "source": "https://www.vanityfilter.com/changelog",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "Explicit provider version; exact release date not established."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://www.vanityfilter.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.vanityfilter.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://www.vanityfilter.com/changelog",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.vanityfilter.com/",
+          "checked_at": "2026-11-21"
         }
       ]
     },
@@ -25423,6 +26865,67 @@
           "level": "documented",
           "source": "https://akascape.gumroad.com/l/watermemory",
           "checked_at": "2026-09-16T15:58:29.413Z"
+        }
+      ]
+    },
+    {
+      "id": "wavscribe",
+      "name": "WAVScribe",
+      "creator": "Formosa Soundworks Studio",
+      "url": "https://wavscribe.com/",
+      "category": "Community discoveries",
+      "kind": "workflow-app",
+      "tasks": [
+        "audio",
+        "workflow"
+      ],
+      "description": "Windows audio-post metadata editor for WAV/BWF, iXML, XMP and ID3, with batch/spreadsheet tools. Resolve field visibility is not established.",
+      "access": "Paid one-time 1.x license; seven-day trial",
+      "platforms": [
+        "Windows"
+      ],
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "not-required",
+        "dependencies": "Internet activation and periodic checks; up to 30 days offline between checks.",
+        "installation": null
+      },
+      "version": {
+        "name": "WAVScribe",
+        "url": "https://wavscribe.com/",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://wavscribe.com/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-11-21",
+        "note": "No product version established from the reviewed original source."
+      },
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://wavscribe.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://wavscribe.com/",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://wavscribe.com/",
+          "checked_at": "2026-11-21"
         }
       ]
     },

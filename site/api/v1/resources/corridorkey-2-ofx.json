@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "resource": {
+    "id": "corridorkey-2-ofx",
+    "name": "CorridorKey 2.0 OFX and standalone",
+    "creator": "Corridor Digital",
+    "url": "https://corridorkey.com/",
+    "origin": "external",
+    "official": false,
+    "reference": false,
+    "category": "Community discoveries",
+    "kind": "ofx",
+    "tasks": [
+      "fusion"
+    ],
+    "tags": [
+      "chroma key",
+      "green screen",
+      "blue screen",
+      "temporal keying",
+      "alpha hints",
+      "despill"
+    ],
+    "description": "Commercial local chroma keyer for Resolve/OpenFX with temporal analysis and alpha hints. OS/GPU limits apply; manual still labels the line beta.",
+    "access": "Paid one-time 2.x license; activation required",
+    "accessGroup": "paid",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "platformNotes": "Windows 10 22H2/11 with NVIDIA RTX, or Apple Silicon macOS 14+. RTX 30-series+ recommended; RTX 20-series beta. AMD, Linux and Intel Macs unsupported for this package.",
+    "requirements": {
+      "editions": [],
+      "resolve": [],
+      "architectures": [],
+      "gpu": "NVIDIA RTX on Windows; Apple Silicon on macOS; OS-specific targets.",
+      "processing": "hybrid",
+      "pricing": "one-time",
+      "account": "unknown",
+      "dependencies": "Model downloads and online activation. Provider minimum is 4 GB VRAM up to 1440p or 6 GB for 4K.",
+      "installation": null
+    },
+    "evidence": [
+      {
+        "field": "platforms",
+        "level": "documented",
+        "source": "https://corridorkey.com/",
+        "checked_at": "2026-11-21",
+        "note": "Windows 10 22H2/11 with NVIDIA RTX, or Apple Silicon macOS 14+. RTX 30-series+ recommended; RTX 20-series beta. AMD, Linux and Intel Macs unsupported for this package."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://corridorkey.com/",
+        "checked_at": "2026-11-21",
+        "note": "Commercial CorridorKey package for local chroma keying in Resolve/OpenFX and the standalone app, with temporal analysis, alpha hints and foreground/matte outputs. Separate from the public Python model/runtime and legacy open-source plugin. Provider manual still labels the 2.0 line beta; exact current installer build was not established."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://help.corridorkey.com/docs/manual/",
+        "checked_at": "2026-11-21",
+        "note": "Product-family version only; manual labels beta and no exact current installer build is established."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://corridorkey.com/",
+        "checked_at": "2026-11-21",
+        "note": "Commercial CorridorKey package for local chroma keying in Resolve/OpenFX and the standalone app, with temporal analysis, alpha hints and foreground/matte outputs. Separate from the public Python model/runtime and legacy open-source plugin. Provider manual still labels the 2.0 line beta; exact current installer build was not established."
+      }
+    ],
+    "unknownFields": [
+      "Resolve edition",
+      "Resolve version",
+      "architecture"
+    ],
+    "recommended": false,
+    "recommendation": null,
+    "previousUrls": [],
+    "version": {
+      "name": "CorridorKey 2.0 OFX and standalone",
+      "url": "https://corridorkey.com/",
+      "kind": "vendor-version",
+      "version": "2.0",
+      "source": "https://help.corridorkey.com/docs/manual/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-11-21",
+      "note": "Product-family version only; manual labels beta and no exact current installer build is established."
+    },
+    "releaseDate": null,
+    "activityDate": null,
+    "stars": null,
+    "metadataChecked": null,
+    "history": [],
+    "catalogueReleases": []
+  }
+}

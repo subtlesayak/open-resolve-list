@@ -69,6 +69,13 @@
         "source": "https://theia-docs.ming-q.com/installation/",
         "checked_at": "2026-09-08",
         "note": "macOS-only installer, Python 3.9+ and FFmpeg."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+        "checked_at": "2026-11-21",
+        "note": "Reviewed source revision, not a published software release."
       }
     ],
     "unknownFields": [
@@ -83,18 +90,42 @@
       "name": "ming-qiu/theia",
       "url": "https://github.com/ming-qiu/theia",
       "kind": "commit",
-      "version": "7e4d8ffc3929ba78de9854e3bec0a8193677455e",
-      "source": "https://github.com/ming-qiu/theia/commit/7e4d8ffc3929ba78de9854e3bec0a8193677455e",
-      "date": "2026-10-16T04:44:20Z",
-      "checked_at": "2026-10-26T08:25:01.038Z",
+      "version": "ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+      "source": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+      "date": "2026-11-19T06:40:08Z",
+      "checked_at": "2026-11-21",
       "date_kind": "commit",
-      "note": "Source revision, not a published software release."
+      "note": "Reviewed source revision, not a published software release."
     },
     "releaseDate": null,
-    "activityDate": "2026-11-10T20:19:32Z",
+    "activityDate": "2026-11-19T06:40:08Z",
     "stars": 6,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
     "history": [
+      {
+        "name": "ming-qiu/theia",
+        "url": "https://github.com/ming-qiu/theia",
+        "from": "7e4d8ffc3929ba78de9854e3bec0a8193677455e",
+        "to": "ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-19T06:40:08Z",
+        "source": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+        "summary": "Improves EDL reel-name reading and dissolve handling, and displays scanned frames on the Elements tab. The source VERSION file reads 1.1.0, but no published release was established; the recorded version remains a source revision.",
+        "changes": [
+          "Improves EDL reel-name reading and dissolve handling, and displays scanned frames on the Elements tab. The source VERSION file reads 1.1.0, but no published release was established; the recorded version remains a source revision."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/ming-qiu/theia/compare/7e4d8ffc3929ba78de9854e3bec0a8193677455e...ed30814352c9fb97c9abdb3eebb288fc29fba5c4"
+          }
+        ]
+      },
       {
         "name": "ming-qiu/theia",
         "url": "https://github.com/ming-qiu/theia",

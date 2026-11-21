@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "resource": {
+    "id": "bmd-micro-color-panel-tools",
+    "name": "BMD-MicroColorPanel-Tools",
+    "creator": "Bipedal",
+    "url": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+    "origin": "github",
+    "official": false,
+    "reference": false,
+    "category": "Hardware, control surfaces, MIDI, and Speed Editor tools",
+    "kind": "control-surface",
+    "tasks": [
+      "hardware",
+      "development"
+    ],
+    "tags": [
+      "micro color panel",
+      "hid protocol",
+      "usb",
+      "bluetooth",
+      "python driver",
+      "control surface"
+    ],
+    "description": "Micro Color Panel HID protocol and Python driver for use outside Resolve. Requires the physical panel; maintainer testing covers Windows 11 only.",
+    "access": "Free; CC0-1.0 code and documentation; physical panel separate",
+    "accessGroup": "free",
+    "platforms": [
+      "Windows"
+    ],
+    "platformNotes": "Maintainer tested Windows 11, Python 3.14 and hidapi 0.15 on one panel over USB and Bluetooth. Linux/macOS guidance is untested. Close Resolve before using the driver; Windows requires the stock HID driver.",
+    "requirements": {
+      "editions": [],
+      "resolve": [],
+      "architectures": [],
+      "gpu": null,
+      "processing": "local",
+      "pricing": "free",
+      "account": "unknown",
+      "dependencies": "Blackmagic Design Micro Color Panel, Python 3 and hidapi>=0.14. The live tester also uses Tkinter.",
+      "installation": "Install the Python requirements and run the reference driver or panel tester. Close Resolve first to avoid competing writes to the panel."
+    },
+    "evidence": [
+      {
+        "field": "platforms",
+        "level": "documented",
+        "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+        "checked_at": "2026-11-21",
+        "note": "Maintainer reports Windows 11 USB/Bluetooth tests on one physical panel. Linux and macOS notes are explicitly untested."
+      },
+      {
+        "field": "installation",
+        "level": "documented",
+        "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#quick-start",
+        "checked_at": "2026-11-21",
+        "note": "Python 3 and hidapi are required; close Resolve first and retain the stock Windows HID driver."
+      },
+      {
+        "field": "processing",
+        "level": "documented",
+        "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+        "checked_at": "2026-11-21",
+        "note": "Python reference driver communicates with the local panel through HID; no Resolve-hosted plugin is installed."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/blob/main/requirements.txt",
+        "checked_at": "2026-11-21",
+        "note": "hidapi>=0.14. A physical Micro Color Panel is needed for real input; optional tester demo mode is not a hardware test."
+      },
+      {
+        "field": "license",
+        "level": "documented",
+        "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/blob/main/LICENSE",
+        "checked_at": "2026-11-21",
+        "note": "CC0-1.0 public-domain dedication for code, protocol documentation and logs. No upstream logs are copied into the catalogue."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/commit/f044256c15ad024b92b401687ace3d106c67e41a",
+        "checked_at": "2026-11-21",
+        "note": "Source commit, not a published software version."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+        "checked_at": "2026-11-21",
+        "note": "Documents the Micro Color Panel USB/Bluetooth protocol and provides a Python reference driver and live panel tester for use outside Resolve. Requires the physical panel, Python 3 and hidapi. The maintainer reports Windows 11 tests on one panel; macOS and Linux notes remain untested. MIDI/OSC and photo-editor backends are not included."
+      }
+    ],
+    "unknownFields": [
+      "Resolve edition",
+      "Resolve version",
+      "architecture"
+    ],
+    "recommended": false,
+    "recommendation": null,
+    "previousUrls": [],
+    "version": {
+      "name": "Bipedal/BMD-MicroColorPanel-Tools",
+      "url": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+      "kind": "commit",
+      "version": "f044256c15ad024b92b401687ace3d106c67e41a",
+      "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/commit/f044256c15ad024b92b401687ace3d106c67e41a",
+      "date": "2026-11-17T23:49:39Z",
+      "date_kind": null,
+      "checked_at": "2026-11-21",
+      "note": "Source revision; the repository has no published release."
+    },
+    "releaseDate": null,
+    "activityDate": "2026-11-17T23:49:43Z",
+    "stars": 0,
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
+    "history": [],
+    "catalogueReleases": []
+  }
+}

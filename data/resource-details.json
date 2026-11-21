@@ -1124,6 +1124,13 @@
           "source": "https://github.com/psygreg/autoresolvedeb/commit/7b403e1055c6db70ddd93aa18aa1d0433349957f",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
         }
       ]
     },
@@ -1189,6 +1196,13 @@
           "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
         }
       ]
     },
@@ -1771,6 +1785,13 @@
           "source": "https://akascape.gumroad.com/l/blobtracker",
           "checked_at": "2026-09-06T12:10:28.541Z",
           "note": "Structured from the existing source-backed catalogue description; no new installation test: Motion-responsive lines, rectangles, and text effects. Resolve 17+ Free or Studio. Creator warns that AMD devices may not work properly."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/blobtracker",
+          "checked_at": "2026-11-21",
+          "note": "Explicit provider version; no date is inferred when absent."
         }
       ]
     },
@@ -1834,6 +1855,79 @@
           "source": "https://github.com/Kartopod/BMD-FusionExtras/commit/c5b8eac81d7dfeb3048c166dc3e32054f81e4ca7",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "Blackmagic Design Micro Color Panel, Python 3 and hidapi>=0.14. The live tester also uses Tkinter.",
+        "installation": "Install the Python requirements and run the reference driver or panel tester. Close Resolve first to avoid competing writes to the panel."
+      },
+      "tasks": [
+        "hardware",
+        "development"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "accessGroup": "free",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+          "checked_at": "2026-11-21",
+          "note": "Maintainer reports Windows 11 USB/Bluetooth tests on one physical panel. Linux and macOS notes are explicitly untested."
+        },
+        {
+          "field": "installation",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#quick-start",
+          "checked_at": "2026-11-21",
+          "note": "Python 3 and hidapi are required; close Resolve first and retain the stock Windows HID driver."
+        },
+        {
+          "field": "processing",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools#readme",
+          "checked_at": "2026-11-21",
+          "note": "Python reference driver communicates with the local panel through HID; no Resolve-hosted plugin is installed."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/blob/main/requirements.txt",
+          "checked_at": "2026-11-21",
+          "note": "hidapi>=0.14. A physical Micro Color Panel is needed for real input; optional tester demo mode is not a hardware test."
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/blob/main/LICENSE",
+          "checked_at": "2026-11-21",
+          "note": "CC0-1.0 public-domain dedication for code, protocol documentation and logs. No upstream logs are copied into the catalogue."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools/commit/f044256c15ad024b92b401687ace3d106c67e41a",
+          "checked_at": "2026-11-21",
+          "note": "Source commit, not a published software version."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
+          "checked_at": "2026-11-21",
+          "note": "Documents the Micro Color Panel USB/Bluetooth protocol and provides a Python reference driver and live panel tester for use outside Resolve. Requires the physical panel, Python 3 and hidapi. The maintainer reports Windows 11 tests on one panel; macOS and Linux notes remain untested. MIDI/OSC and photo-editor backends are not included."
         }
       ]
     },
@@ -2836,6 +2930,52 @@
       ]
     },
     {
+      "url": "https://cloudroomy.app/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "mixed",
+        "account": "required",
+        "dependencies": "CloudRoomy account and hosted or S3-compatible storage. Files are uploaded; this is not an offline media drive.",
+        "installation": null
+      },
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://cloudroomy.app/",
+          "checked_at": "2026-11-21",
+          "note": "Apple Silicon macOS 26.2+. Requires internet/cloud storage; provider-supported Resolve edition/version range is unknown."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://cloudroomy.app/",
+          "checked_at": "2026-11-21",
+          "note": "Cloud-backed Finder drive documented for reading and writing footage from Resolve, with range-based downloads and uploads during export. Provider describes client-side encrypted storage; this catalogue has not audited security or editing performance. Hosted storage is a subscription, or use a separately billed S3-compatible bucket with a one-time app license."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://cloudroomy.app/",
+          "checked_at": "2026-11-21",
+          "note": "Cloud-backed Finder drive documented for reading and writing footage from Resolve, with range-based downloads and uploads during export. Provider describes client-side encrypted storage; this catalogue has not audited security or editing performance. Hosted storage is a subscription, or use a separately billed S3-compatible bucket with a one-time app license."
+        }
+      ]
+    },
+    {
       "url": "https://github.com/stoatworks-labs/cogwheel",
       "requirements": {
         "editions": [],
@@ -3149,6 +3289,110 @@
       ]
     },
     {
+      "url": "https://corridorkey.com/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": "NVIDIA RTX on Windows; Apple Silicon on macOS; OS-specific targets.",
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "Model downloads and online activation. Provider minimum is 4 GB VRAM up to 1440p or 6 GB for 4K.",
+        "installation": null
+      },
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://corridorkey.com/",
+          "checked_at": "2026-11-21",
+          "note": "Windows 10 22H2/11 with NVIDIA RTX, or Apple Silicon macOS 14+. RTX 30-series+ recommended; RTX 20-series beta. AMD, Linux and Intel Macs unsupported for this package."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://corridorkey.com/",
+          "checked_at": "2026-11-21",
+          "note": "Commercial CorridorKey package for local chroma keying in Resolve/OpenFX and the standalone app, with temporal analysis, alpha hints and foreground/matte outputs. Separate from the public Python model/runtime and legacy open-source plugin. Provider manual still labels the 2.0 line beta; exact current installer build was not established."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://help.corridorkey.com/docs/manual/",
+          "checked_at": "2026-11-21",
+          "note": "Product-family version only; manual labels beta and no exact current installer build is established."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://corridorkey.com/",
+          "checked_at": "2026-11-21",
+          "note": "Commercial CorridorKey package for local chroma keying in Resolve/OpenFX and the standalone app, with temporal analysis, alpha hints and foreground/matte outputs. Separate from the public Python model/runtime and legacy open-source plugin. Provider manual still labels the 2.0 line beta; exact current installer build was not established."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/nikopueringer/CorridorKey2.0",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": "NVIDIA RTX 30-series+; 4 GB VRAM up to 1440p, 6 GB for 4K.",
+        "processing": "local",
+        "pricing": "unknown",
+        "account": "unknown",
+        "dependencies": "CUDA-enabled PyTorch, Python environment, FFmpeg and model downloads.",
+        "installation": null
+      },
+      "tasks": [
+        "fusion"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "accessGroup": "public",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/nikopueringer/CorridorKey2.0",
+          "checked_at": "2026-11-21",
+          "note": "NVIDIA RTX 30-series+; 4 GB VRAM for up to 1440p or 6 GB for 4K. Windows/Linux launchers documented; macOS source support not established."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/nikopueringer/CorridorKey2.0",
+          "checked_at": "2026-11-21",
+          "note": "Official CorridorKey 2.0 Python model/runtime for local chroma keying and foreground/matte output, separate from the commercial OFX package. Requires NVIDIA RTX 30-series+, CUDA PyTorch and FFmpeg. Ordinary video is display-referred; unclipped HDR uses the documented linear-EXR path. Custom license permits output work but restricts redistribution/services and requires plugin seats for organizations above its revenue threshold."
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/nikopueringer/CorridorKey2.0/blob/master/LICENSE",
+          "checked_at": "2026-11-21",
+          "note": "CC BY-NC-SA 4.0 with additional terms. Commercial output is permitted subject to the license; organizations above US$20 million annual revenue need per-user plugin seats. Paid redistribution/API services and commercial integration have separate restrictions."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/nikopueringer/CorridorKey2.0",
+          "checked_at": "2026-11-21",
+          "note": "Official CorridorKey 2.0 Python model/runtime for local chroma keying and foreground/matte output, separate from the commercial OFX package. Requires NVIDIA RTX 30-series+, CUDA PyTorch and FFmpeg. Ordinary video is display-referred; unclipped HDR uses the documented linear-EXR path. Custom license permits output work but restricts redistribution/services and requires plugin seats for organizations above its revenue threshold."
+        }
+      ]
+    },
+    {
       "url": "https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime",
       "requirements": {
         "editions": [],
@@ -3256,6 +3500,13 @@
           "source": "https://nablast.com/",
           "checked_at": "2026-10-26",
           "note": "Original provider documentation reviewed; limitations are stated in the description."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://nablast.com/release-notes/",
+          "checked_at": "2026-11-21",
+          "note": "Explicit provider version; no date is inferred when absent."
         }
       ]
     },
@@ -3284,6 +3535,58 @@
           "source": "https://cutpointlabs.com/cutdetect/",
           "checked_at": "2026-09-07",
           "note": "Provider-listed platforms; see limitations and exact builds."
+        }
+      ]
+    },
+    {
+      "url": "https://cutdown.app/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "mixed",
+        "account": "not-required",
+        "dependencies": "Internet for license/update checks; media analysis remains on-device.",
+        "installation": "Standalone Mac or Windows app; Apple Pro Video Formats is optional for wider Mac preview support."
+      },
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "accessGroup": "mixed",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://cutdown.app/",
+          "checked_at": "2026-11-21",
+          "note": "Apple Silicon macOS 12+ or Windows 10/11 x64. Windows ARM is not natively supported; Linux is planned. Resolve edition/version range is not established."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://cutdown.app/",
+          "checked_at": "2026-11-21",
+          "note": "Standalone footage analysis that scores focus, exposure and motion, then exports adjustable selects and markers to Resolve through AAF, FCPXML, FCP7 XML or OTIO. Deterministic analysis runs locally; camera-movement estimates can be wrong. Lite includes unrestricted footage analysis and export; paid Pro adds weighting, watch folders and deeper controls."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://cutdown.app/changelog",
+          "checked_at": "2026-11-21",
+          "note": "Provider changelog dates 1.3.0 to November 3, 2026."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://cutdown.app/",
+          "checked_at": "2026-11-21",
+          "note": "Standalone footage analysis that scores focus, exposure and motion, then exports adjustable selects and markers to Resolve through AAF, FCPXML, FCP7 XML or OTIO. Deterministic analysis runs locally; camera-movement estimates can be wrong. Lite includes unrestricted footage analysis and export; paid Pro adds weighting, watch folders and deeper controls."
         }
       ]
     },
@@ -3607,6 +3910,58 @@
           "source": "https://github.com/Georj01/davinci-dctl/commit/8a51f004f9426f97e5469cbff05b6fd5e76f61ea",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/mrchrisster/davinci-font-auditor",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "unknown",
+        "account": "unknown",
+        "dependencies": "Python 3.10+, modern browser and repository Python dependencies.",
+        "installation": "Run the local Python backend and open its loopback dashboard; no project files were processed for this review."
+      },
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "accessGroup": "public",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/mrchrisster/davinci-font-auditor",
+          "checked_at": "2026-11-21",
+          "note": "macOS and Windows launchers documented; Windows-project parsing is explicitly incomplete. No Resolve installation is needed to scan an exported DRP."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/mrchrisster/davinci-font-auditor",
+          "checked_at": "2026-11-21",
+          "note": "Local browser utility for scanning and mapping font-family usage in exported Resolve DRP projects, including subtitle and Fusion-title data. Requires Python 3.10+ and a browser; launchers install dependencies. The creator reports Mac use but warns that Windows-created projects may crash. README claims MIT; no standalone license file was established."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/mrchrisster/davinci-font-auditor/commit/0ccf56282e7a501c2a38a4861d383887220babf3",
+          "checked_at": "2026-11-21",
+          "note": "Source revision, not a published software release."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/mrchrisster/davinci-font-auditor",
+          "checked_at": "2026-11-21",
+          "note": "Local browser utility for scanning and mapping font-family usage in exported Resolve DRP projects, including subtitle and Fusion-title data. Requires Python 3.10+ and a browser; launchers install dependencies. The creator reports Mac use but warns that Windows-created projects may crash. README claims MIT; no standalone license file was established."
         }
       ]
     },
@@ -4102,8 +4457,8 @@
         ],
         "resolve": [
           {
-            "min": "21.1",
-            "max": "21.1"
+            "min": "21.2",
+            "max": "21.2"
           }
         ],
         "architectures": [],
@@ -4142,6 +4497,20 @@
           "source": "https://github.com/Distortions81/DaVinci-Resolve-Container#readme",
           "checked_at": "2026-09-15",
           "note": "Community Fedora container setup for Resolve Free or Studio 21.1 on Linux using Docker or Distrobox. Documents AMD ROCm/OpenCL and NVIDIA container setup. Provider tested AMD/X11; NVIDIA and Wayland validation remains incomplete. Supply the official Resolve installer and any required Studio license separately."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://github.com/M45-Software/DaVinci-Resolve-Container/commit/f080b08ac1fd6f6d54b43c697a0383227c5de586",
+          "checked_at": "2026-11-21",
+          "note": "Current setup targets Resolve 21.2 build 6. This is the container target, not a promise about all earlier installers."
         }
       ]
     },
@@ -4455,6 +4824,13 @@
           "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release notes reviewed; not independently installation-tested."
         }
       ]
     },
@@ -7369,6 +7745,13 @@
           "source": "https://fcp2aaf.com/changelog/",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://fcp2aaf.com/changelog/",
+          "checked_at": "2026-11-21",
+          "note": "Explicit provider version; no date is inferred when absent."
         }
       ]
     },
@@ -7721,6 +8104,54 @@
       ]
     },
     {
+      "url": "https://finalframe.cc/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64",
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "mixed",
+        "account": "unknown",
+        "dependencies": "Online account/review features have separate network use; master rendering is local.",
+        "installation": null
+      },
+      "tasks": [
+        "fusion",
+        "workflow"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "accessGroup": "mixed",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://finalframe.cc/",
+          "checked_at": "2026-11-21",
+          "note": "macOS 13+, Apple Silicon or Intel. No independent rendering, guild-compliance or Resolve-import test."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://finalframe.cc/",
+          "checked_at": "2026-11-21",
+          "note": "Standalone end-credit design and rendering companion for film/TV, exporting ProRes 4444 alpha, DNxHR, DPX, EXR and other deliverables for finishing. Masters render on the Mac; document intake and online team review have separate workflows. Watermarked exports are free; clean masters need a production/season license or subscription. Exact Resolve host requirements are not applicable to rendering independent plates."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://finalframe.cc/",
+          "checked_at": "2026-11-21",
+          "note": "Standalone end-credit design and rendering companion for film/TV, exporting ProRes 4444 alpha, DNxHR, DPX, EXR and other deliverables for finishing. Masters render on the Mac; document intake and online team review have separate workflows. Watermarked exports are free; clean masters need a production/season license or subscription. Exact Resolve host requirements are not applicable to rendering independent plates."
+        }
+      ]
+    },
+    {
       "url": "https://firecut.ai/pricing/davinci-resolve/",
       "requirements": {
         "editions": [
@@ -8050,6 +8481,13 @@
           "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release notes reviewed; not independently installation-tested."
         }
       ]
     },
@@ -8570,7 +9008,7 @@
         "processing": "unknown",
         "pricing": "unknown",
         "account": "unknown",
-        "dependencies": null,
+        "dependencies": "Resolve Lua scripting; Resolve 21.1.2+ only for the optional Fusion-effect scan. Older hosts skip that feature.",
         "installation": null
       },
       "tasks": [
@@ -8596,6 +9034,20 @@
           "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/99797ede9151cdb34c85419543082985a4372310",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
+        },
+        {
+          "field": "dependencies",
+          "level": "documented",
+          "source": "https://github.com/postflows/Fusion-MediaIn-ID-Update-/commit/9f630a91c6433bb61025fe0efac880a2a596589c",
+          "checked_at": "2026-11-21",
+          "note": "The 21.1.2 minimum applies to Fusion effects, not the older clip-composition path."
         }
       ]
     },
@@ -9121,6 +9573,13 @@
           "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.41.1",
           "checked_at": "2026-11-06T08:18:50.375Z",
           "note": "Recorded provider release evidence, not installation testing."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release notes reviewed; not independently installation-tested."
         }
       ]
     },
@@ -9159,6 +9618,69 @@
           "source": "https://github.com/ChrisRidings/GifSaverFuse/commit/076a3edab08e8a04431aa2895c693eef4152ff1d",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/DorwinDT/GpxToFusion",
+      "requirements": {
+        "editions": [
+          "Free"
+        ],
+        "resolve": [],
+        "architectures": [
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "Online map tiles from the selected provider; exported nodes are edited in Resolve Fusion.",
+        "installation": "Extract the Windows x64 ZIP and import the exported .setting into Fusion."
+      },
+      "tasks": [
+        "fusion",
+        "workflow"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "accessGroup": "free",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/DorwinDT/GpxToFusion",
+          "checked_at": "2026-11-21",
+          "note": "Windows 10/11 x64, unsigned portable ZIP with the .NET runtime included. Exact Resolve version range is unknown."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/DorwinDT/GpxToFusion",
+          "checked_at": "2026-11-21",
+          "note": "Windows app that exports a GPX or drawn route as an editable Fusion polyline, map image and optional Text+ labels. Includes timing data and route-drawing controls. Map tiles require internet and retain their providers’ attribution and usage terms; the MIT code license does not license map imagery."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/DorwinDT/GpxToFusion/releases/tag/v1.5.0",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release; not independently installation-tested."
+        },
+        {
+          "field": "editions",
+          "level": "creator",
+          "source": "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/",
+          "checked_at": "2026-11-21",
+          "note": "The attributable creator post documents Free-edition use; this is a creator claim, not independent catalogue testing."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/DorwinDT/GpxToFusion",
+          "checked_at": "2026-11-21",
+          "note": "Windows app that exports a GPX or drawn route as an editable Fusion polyline, map image and optional Text+ labels. Includes timing data and route-drawing controls. Map tiles require internet and retain their providers’ attribution and usage terms; the MIT code license does not license map imagery."
         }
       ]
     },
@@ -9470,6 +9992,13 @@
           "source": "https://github.com/oliwoli/HushCut/commit/160dfffed4739108c5e22fecdf734ab74460105b",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/oliwoli/HushCut/releases/tag/v0.4.0-alpha",
+          "checked_at": "2026-11-21",
+          "note": "Provider prerelease; not independently installation-tested."
         }
       ]
     },
@@ -9536,6 +10065,13 @@
           "source": "https://docs.getjumper.io/release-notes/macos",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://docs.getjumper.io/release-notes/macos",
+          "checked_at": "2026-11-21",
+          "note": "Explicit provider version; no date is inferred when absent."
         }
       ]
     },
@@ -9919,6 +10455,114 @@
       ]
     },
     {
+      "url": "https://bashfra.me/lodge/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64",
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "one-time",
+        "account": "not-required",
+        "dependencies": "Removable-volume access; optional daily update check can be disabled.",
+        "installation": "Mac DMG; follow the original unsigned-app installation instructions."
+      },
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://bashfra.me/lodge/",
+          "checked_at": "2026-11-21",
+          "note": "Universal Apple Silicon/Intel app; macOS 14+. Provider says the app is not notarized. No independent offload or data-integrity test."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://bashfra.me/lodge/",
+          "checked_at": "2026-11-21",
+          "note": "Mac camera-card ingest companion that copies into custom folder/file templates, skips previously copied media and verifies each copy with SHA-256. Reads the card without overwriting destination files. Use before importing footage into an editor; this is a standalone offload utility rather than a Resolve plugin."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://bashfra.me/lodge/",
+          "checked_at": "2026-11-21",
+          "note": "Original product page explicitly identifies Lodge 1.0; release date not established."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://bashfra.me/lodge/",
+          "checked_at": "2026-11-21",
+          "note": "Mac camera-card ingest companion that copies into custom folder/file templates, skips previously copied media and verifies each copy with SHA-256. Reads the card without overwriting destination files. Use before importing footage into an editor; this is a standalone offload utility rather than a Resolve plugin."
+        }
+      ]
+    },
+    {
+      "url": "https://logsortie.com/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "arm64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "Online license activation once; sorting and preview processing remain local.",
+        "installation": null
+      },
+      "tasks": [
+        "workflow",
+        "color"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "accessGroup": "mixed",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://logsortie.com/",
+          "checked_at": "2026-11-21",
+          "note": "Apple Silicon macOS 13+ only; Windows and Intel Macs unsupported. Independent unsigned app; other cameras are not supported."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://logsortie.com/",
+          "checked_at": "2026-11-21",
+          "note": "Sorts original DJI Osmo Pocket 4P, 4 and 3 footage into folders by documented Log/HLG/Normal profile, resolution, frame rate and slow motion before grading. Moves files without re-encoding and can undo sorting. Sort before editing: existing projects need relinking afterward. Edited clips without DJI metadata remain unknown."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://logsortie.com/changelog/",
+          "checked_at": "2026-11-21",
+          "note": "Provider gives November 2026 without an exact release day."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://logsortie.com/",
+          "checked_at": "2026-11-21",
+          "note": "Sorts original DJI Osmo Pocket 4P, 4 and 3 footage into folders by documented Log/HLG/Normal profile, resolution, frame rate and slow motion before grading. Moves files without re-encoding and can undo sorting. Sort before editing: existing projects need relinking afterward. Edited clips without DJI metadata remain unknown."
+        }
+      ]
+    },
+    {
       "url": "https://github.com/debuxxed/lowcat",
       "requirements": {
         "editions": [],
@@ -10219,14 +10863,22 @@
     {
       "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
       "requirements": {
-        "editions": [],
-        "resolve": [],
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18",
+            "max": "21.0"
+          }
+        ],
         "architectures": [],
         "gpu": null,
         "processing": "unknown",
-        "pricing": "unknown",
+        "pricing": "free",
         "account": "unknown",
-        "dependencies": null,
+        "dependencies": "Python 3; classic scripts are frozen for Resolve 18 through 21.0.",
         "installation": null
       },
       "tasks": [
@@ -10236,7 +10888,7 @@
         "Windows",
         "macOS"
       ],
-      "accessGroup": "free",
+      "accessGroup": "public",
       "evidence": [
         {
           "field": "platforms",
@@ -10251,6 +10903,41 @@
           "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/21b14063c82f1ddfab50a34c2678c10de3cecd4b",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/commit/fcfe653b7d2afdad8b926e8002c13d82ea86e8f0",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
+        },
+        {
+          "field": "editions",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+          "checked_at": "2026-11-21",
+          "note": "Creator explicitly limits the Classic scripts to Resolve 18 through 21.0."
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+          "checked_at": "2026-11-21",
+          "note": "Creator explicitly limits the Classic scripts to Resolve 18 through 21.0."
+        },
+        {
+          "field": "dependencies",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve#readme",
+          "checked_at": "2026-11-21",
+          "note": "Creator explicitly limits the Classic scripts to Resolve 18 through 21.0."
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve/blob/main/LICENSE",
+          "checked_at": "2026-11-21",
+          "note": "PolyForm Noncommercial 1.0.0, not an unrestricted open-source license."
         }
       ]
     },
@@ -10364,6 +11051,60 @@
       "platforms": [],
       "accessGroup": "paid",
       "evidence": []
+    },
+    {
+      "url": "https://mcnexus.app/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "mixed",
+        "account": "unknown",
+        "dependencies": "Internet for distribution/activation; compatible OFX plugins and MIDI hardware for NexControl.",
+        "installation": "Mac DMG or Windows Microsoft Store package."
+      },
+      "tasks": [
+        "workflow",
+        "hardware",
+        "development"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "accessGroup": "mixed",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://mcnexus.app/",
+          "checked_at": "2026-11-21",
+          "note": "macOS 15+ Universal app; Windows 10/11 x64 and Windows 11 ARM package. A supported manager package does not establish that each plugin supports every architecture."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://mcnexus.app/",
+          "checked_at": "2026-11-21",
+          "note": "Desktop distribution and update manager for Resolve/OpenFX tools, with DCTL-to-OFX conversion and NexControl MIDI mapping. Plugin licenses remain separate. The developer platform also provides licensing/commerce infrastructure; community distribution is free, with separate commercial developer plans. Per-plugin host and GPU requirements still apply."
+        },
+        {
+          "field": "pricing",
+          "level": "documented",
+          "source": "https://mcnexus.app/pricing/",
+          "checked_at": "2026-11-21",
+          "note": "Community distribution and commercial developer plans differ; do not treat all hosted plugins as free."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://mcnexus.app/",
+          "checked_at": "2026-11-21",
+          "note": "Desktop distribution and update manager for Resolve/OpenFX tools, with DCTL-to-OFX conversion and NexControl MIDI mapping. Plugin licenses remain separate. The developer platform also provides licensing/commerce infrastructure; community distribution is free, with separate commercial developer plans. Per-plugin host and GPU requirements still apply."
+        }
+      ]
     },
     {
       "url": "https://github.com/MoazElgabry/ME_OpenDRT-OFX",
@@ -11264,12 +12005,12 @@
         ],
         "resolve": [
           {
-            "edition": "Studio",
-            "min": "19.1"
+            "min": "19.1",
+            "edition": "Studio"
           }
         ],
         "architectures": [],
-        "gpu": null,
+        "gpu": "NVIDIA GPU or Apple Silicon; other systems untested by provider.",
         "processing": "unknown",
         "pricing": "unknown",
         "account": "unknown",
@@ -11306,6 +12047,34 @@
           "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
           "checked_at": "2026-09-06",
           "note": "Structured from the existing source-backed catalogue description; no new installation test: Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl/commit/8941f3bab4af8f45bc5a7907eac747a01899e35d",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
+        },
+        {
+          "field": "editions",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+          "checked_at": "2026-11-21",
+          "note": "Provider documents Studio 19.1+ and NVIDIA or Apple Silicon."
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+          "checked_at": "2026-11-21",
+          "note": "Provider documents Studio 19.1+ and NVIDIA or Apple Silicon."
+        },
+        {
+          "field": "gpu",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+          "checked_at": "2026-11-21",
+          "note": "Provider documents Studio 19.1+ and NVIDIA or Apple Silicon."
         }
       ]
     },
@@ -12996,6 +13765,13 @@
           "source": "https://github.com/Akascape/Rembg-Fuse/commit/9726f575d044494c66c70611109d90559191985f",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/Akascape/Rembg-Fuse/commit/5f5f9e681a54684fdff4205f444a589d3f58eba7",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
         }
       ]
     },
@@ -13072,6 +13848,75 @@
           "source": "https://github.com/Senthil360/RenderHub-DCTLs/releases/tag/September-2026-Bundle",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Recorded version evidence, not installation testing."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/hexitnz/resolve-linux-aac-full",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [],
+        "architectures": [
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "Resolve Studio; source builds need Python 3.8+, a Linux Podman/Docker engine, internet and the Resolve codec SDK.",
+        "installation": "Use the original release/build and conflict instructions; the combined package contains decoder and encoder components."
+      },
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "accessGroup": "free",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+          "checked_at": "2026-11-21",
+          "note": "Linux x86-64 Resolve Studio. Provider build labels are not converted into a supported Resolve version range. GPU/video codec support is unchanged."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+          "checked_at": "2026-11-21",
+          "note": "Experimental AAC import/playback and AAC-LC export bridge for Resolve Studio on Linux x86-64. Uses validated in-memory hooks; unknown layouts stay inactive. The provider reports selected Studio builds, with other profiles, multichannel and sample-accurate delay still needing validation. Replaces the deprecated standalone FDK encoder; not production-qualified native codec support."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full/releases/tag/v21.2.6-adts",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release; not independently installation-tested."
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full/blob/main/LICENSE",
+          "checked_at": "2026-11-21",
+          "note": "GPL-2.0-only for project code; third-party licenses remain separate."
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full#readme",
+          "checked_at": "2026-11-21",
+          "note": "Exact provider-reported builds do not establish an open-ended host version range. The unusual 21.2.6 label is not normalized into an official host release."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/resolve-linux-aac-full",
+          "checked_at": "2026-11-21",
+          "note": "Experimental AAC import/playback and AAC-LC export bridge for Resolve Studio on Linux x86-64. Uses validated in-memory hooks; unknown layouts stay inactive. The provider reports selected Studio builds, with other profiles, multichannel and sample-accurate delay still needing validation. Replaces the deprecated standalone FDK encoder; not production-qualified native codec support."
         }
       ]
     },
@@ -13538,6 +14383,13 @@
           "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/8916f83e8e82da5bf2058b372fe640cc711eab61",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/Pinionist/Resolve-Conform-tools/commit/bb17a7edf5c2ed92839053eb9570716ada4c1521",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
         }
       ]
     },
@@ -13900,6 +14752,20 @@
           "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
           "checked_at": "2026-09-06",
           "note": "Structured from the existing source-backed catalogue description; no new installation test: FDK-based AAC audio encoding on Linux. Studio required."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin/commit/337315fe50c752df2e162b815cf687bbddda7bd7",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
+        },
+        {
+          "field": "maintenance",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
+          "checked_at": "2026-11-21",
+          "note": "Explicit upstream deprecation, not inferred from inactivity."
         }
       ]
     },
@@ -14237,6 +15103,115 @@
           "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/2ab9ed607bee8c35c773725e77ed09f316a8deee",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/b85f76e79c605782eff44ffd6d5e8a60f2a6e5ee",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
+        }
+      ]
+    },
+    {
+      "url": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18.6.6"
+          }
+        ],
+        "architectures": [],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "Internet for activation and periodic license checks. Optional weather needs an OpenWeather account/API key and can incur external charges. Garmin/COROS imports use external accounts.",
+        "installation": "macOS DMG with Activator, or manual Windows x64 MSI. Windows installer is self-signed; verify the provider download page and checksum."
+      },
+      "tasks": [
+        "fusion",
+        "workflow"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "Apple Silicon macOS 12+ or Windows x64. Windows ARM64 is unsupported; Windows installer is self-signed."
+        },
+        {
+          "field": "editions",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "Current guide explicitly lists Resolve Free or Studio. This is provider documentation, not independent installation testing."
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "Requires DaVinci Resolve 18.6.6 or later."
+        },
+        {
+          "field": "architectures",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "Targets differ by OS: Apple Silicon on macOS, x64 on Windows. The unscoped architecture filter is left unknown to avoid claiming every OS/CPU combination."
+        },
+        {
+          "field": "installation",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "macOS DMG/Activator and manual Windows MSI; follow the original verification and installation instructions."
+        },
+        {
+          "field": "processing",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "FIT and video processing remain local. License checks and optional account imports use the network; optional weather sends location/time and the user-supplied key to OpenWeather."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "One-time major-version license; seven-day trial. Paid use permits up to ten consecutive days offline between successful checks. Optional OpenWeather usage is separate."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/history?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "Provider history identifies 1.1.27, build 202611191. No date is inferred from the build label."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/download-windows",
+          "checked_at": "2026-11-21",
+          "note": "Windows download page explicitly lists 1.1.27 and build 202611191 and states that the version/license are shared with macOS."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+          "checked_at": "2026-11-21",
+          "note": "Builds editable activity-data gauges in Resolve from FIT files, including pace, speed, heart rate, power and route. Supports local FIT import on Apple Silicon macOS and Windows x64. Paid one-time major-version license with a seven-day trial. Activation and periodic license checks need internet; optional weather sends activity location/time to OpenWeather and may incur separate charges."
         }
       ]
     },
@@ -14419,15 +15394,22 @@
     {
       "url": "https://resolve-tools.com/",
       "requirements": {
-        "editions": [],
-        "resolve": [],
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21.1",
+            "edition": "Studio"
+          }
+        ],
         "architectures": [],
         "gpu": null,
         "processing": "unknown",
-        "pricing": "unknown",
-        "account": "unknown",
-        "dependencies": null,
-        "installation": null
+        "pricing": "free",
+        "account": "not-required",
+        "dependencies": "Resolve Studio with External scripting using set to Local. Windows requires WebView2.",
+        "installation": "macOS DMG or Windows EXE; provider documents unsigned installers."
       },
       "tasks": [
         "workflow"
@@ -14444,6 +15426,48 @@
           "source": "https://resolve-tools.com/",
           "checked_at": "2026-09-06T12:10:21.388Z",
           "note": "Provider-listed platforms; see limitations and exact builds."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21",
+          "note": "Explicit provider version; no date is inferred when absent."
+        },
+        {
+          "field": "editions",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21",
+          "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+        },
+        {
+          "field": "resolve",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21",
+          "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+        },
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21",
+          "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+        },
+        {
+          "field": "dependencies",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21",
+          "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
+        },
+        {
+          "field": "installation",
+          "level": "documented",
+          "source": "https://resolve-tools.com/",
+          "checked_at": "2026-11-21",
+          "note": "Original current app page specifies Studio 21.1+, Mac/Windows targets, local scripting and installer requirements."
         }
       ]
     },
@@ -15189,6 +16213,13 @@
           "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.6.6",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/shumaiOne/shumai/releases/tag/v0.7.0",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release notes reviewed; not independently installation-tested."
         }
       ]
     },
@@ -15828,10 +16859,10 @@
           "arm64"
         ],
         "gpu": null,
-        "processing": "unknown",
+        "processing": "hybrid",
         "pricing": "unknown",
         "account": "unknown",
-        "dependencies": "Initial Qwen model downloads",
+        "dependencies": "Qwen models for local recognition/alignment; optional Doubao cloud service uses its own connection and terms.",
         "installation": null
       },
       "tasks": [
@@ -15862,6 +16893,27 @@
           "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.0",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release notes reviewed; not independently installation-tested."
+        },
+        {
+          "field": "processing",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+          "checked_at": "2026-11-21",
+          "note": "Local Qwen and optional Doubao cloud paths have different model and network requirements."
+        },
+        {
+          "field": "dependencies",
+          "level": "documented",
+          "source": "https://github.com/HooperH/SubFix/releases/tag/v3.4.1",
+          "checked_at": "2026-11-21",
+          "note": "Local Qwen and optional Doubao cloud paths have different model and network requirements."
         }
       ]
     },
@@ -15906,6 +16958,13 @@
           "source": "https://github.com/BambooYC123/SubtitleYC",
           "checked_at": "2026-09-08",
           "note": "Windows setup downloads FFmpeg and CPU OCR; NVIDIA GPU OCR is optional."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release notes reviewed; not independently installation-tested."
         }
       ]
     },
@@ -16860,6 +17919,64 @@
       ]
     },
     {
+      "url": "https://github.com/huggeebear2011/Switcheroo",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "local",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": "Hammerspoon; Resolve external scripting set to Local; matching named keyboard presets.",
+        "installation": "Load the supplied Hammerspoon configuration, preserving any existing configuration first."
+      },
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "accessGroup": "free",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo",
+          "checked_at": "2026-11-21",
+          "note": "macOS with Hammerspoon and the Python runtime/scripting module bundled with Resolve. No independent installation test."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo",
+          "checked_at": "2026-11-21",
+          "note": "macOS Hammerspoon configuration that switches Resolve pages and named keyboard presets together while Resolve is frontmost. Requires external scripting set to Local and existing preset names. Its supplied configuration replaces the active Hammerspoon configuration unless manually combined. Exact Resolve edition/version support is not established."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo/commit/c30f7276bbf856689ecae16369ad6c4ae395b1a9",
+          "checked_at": "2026-11-21",
+          "note": "Source revision, not a published software release."
+        },
+        {
+          "field": "license",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo/blob/main/LICENSE",
+          "checked_at": "2026-11-21",
+          "note": "MIT license."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/huggeebear2011/Switcheroo",
+          "checked_at": "2026-11-21",
+          "note": "macOS Hammerspoon configuration that switches Resolve pages and named keyboard presets together while Resolve is frontmost. Requires external scripting set to Local and existing preset names. Its supplied configuration replaces the active Hammerspoon configuration unless manually combined. Exact Resolve edition/version support is not established."
+        }
+      ]
+    },
+    {
       "url": "https://jklediting.com/syncpass",
       "requirements": {
         "editions": [
@@ -17223,6 +18340,13 @@
           "source": "https://theia-docs.ming-q.com/installation/",
           "checked_at": "2026-09-08",
           "note": "macOS-only installer, Python 3.9+ and FFmpeg."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/ming-qiu/theia/commit/ed30814352c9fb97c9abdb3eebb288fc29fba5c4",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
         }
       ]
     },
@@ -17351,6 +18475,90 @@
       ]
     },
     {
+      "url": "https://totonoe.designstudiomarimo.com/en/resolve/",
+      "requirements": {
+        "editions": [
+          "Free"
+        ],
+        "resolve": [],
+        "architectures": [
+          "arm64",
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "not-required",
+        "dependencies": "macOS 13+. Resolve version range is not established; the creator reports one tested setup, not a minimum or maximum version.",
+        "installation": "Notarized macOS PKG installer; administrator permission and a Resolve restart are required."
+      },
+      "tasks": [
+        "color"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+          "checked_at": "2026-11-21",
+          "note": "Mac only, macOS 13+. Windows unsupported; Intel build supplied but not tested."
+        },
+        {
+          "field": "architectures",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+          "checked_at": "2026-11-21",
+          "note": "Universal Binary for Apple Silicon and Intel. Build availability is not independent installation testing."
+        },
+        {
+          "field": "editions",
+          "level": "creator",
+          "source": "https://github.com/subtlesayak/open-resolve-list/issues/1",
+          "checked_at": "2026-11-21",
+          "note": "Developer reports testing Resolve Free 20.3.2 on Apple Silicon. Studio is untested."
+        },
+        {
+          "field": "resolve",
+          "level": "creator",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#free-version",
+          "checked_at": "2026-11-21",
+          "note": "20.3.2 is a creator-reported test point, not a supported version range. Resolve 21 is untested."
+        },
+        {
+          "field": "installation",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#specs",
+          "checked_at": "2026-11-21",
+          "note": "Creator documents a notarized PKG, administrator permission and restarting Resolve."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#params",
+          "checked_at": "2026-11-21",
+          "note": "Skin-color selection can affect multiple people and skin-like objects. Use a window or mask to isolate an area; wide-gamut HDR can weaken detection."
+        },
+        {
+          "field": "pricing",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/#pricing",
+          "checked_at": "2026-11-21",
+          "note": "One-time Resolve license, separate from the Adobe versions; watermarked trial. The English checkout states that no Gumroad account is needed."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://totonoe.designstudiomarimo.com/en/resolve/",
+          "checked_at": "2026-11-21",
+          "note": "Smooths skin selected by color, with texture restoration and mask controls. Mac-only Resolve OFX; does not detect or isolate faces, so similar skin tones can be affected together. Paid separate Resolve license with a watermarked trial. The creator checked Resolve Free 20.3.2 on Apple Silicon; Studio, Resolve 21 and Intel Macs remain untested."
+        }
+      ]
+    },
+    {
       "url": "https://github.com/francozanardi/tscaps",
       "requirements": {
         "editions": [],
@@ -17364,7 +18572,8 @@
         "installation": null
       },
       "tasks": [
-        "captions"
+        "captions",
+        "workflow"
       ],
       "platforms": [],
       "accessGroup": "mixed",
@@ -17382,6 +18591,13 @@
           "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.6.0",
           "checked_at": "2026-10-26T08:19:35.198Z",
           "note": "Recorded provider release evidence, not installation testing."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.7.0",
+          "checked_at": "2026-11-21",
+          "note": "Original provider release notes reviewed; not independently installation-tested."
         }
       ]
     },
@@ -17653,6 +18869,13 @@
           "source": "https://github.com/thatcherfreeman/utility-dctls/commit/5f6f4e55a932c9b4599b8e53727305aad73eb4b1",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/thatcherfreeman/utility-dctls/commit/e78315c3600e23409f0f0cd7e1212af73323cbcb",
+          "checked_at": "2026-11-21",
+          "note": "Reviewed source revision, not a published software release."
         }
       ]
     },
@@ -17719,6 +18942,58 @@
           "source": "https://valhalladsp.com/demos-downloads/",
           "checked_at": "2026-09-06T12:10:27.497Z",
           "note": "Recorded version evidence, not installation testing."
+        }
+      ]
+    },
+    {
+      "url": "https://www.vanityfilter.com/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "not-required",
+        "dependencies": "Internet activation/license checks; models and codecs are included.",
+        "installation": null
+      },
+      "tasks": [
+        "color"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://www.vanityfilter.com/",
+          "checked_at": "2026-11-21",
+          "note": "Windows 10 1809+/11 x64 or Apple Silicon macOS 14+. No Intel Mac support. Local video processing; up to 30 days offline between license checks."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.vanityfilter.com/",
+          "checked_at": "2026-11-21",
+          "note": "Standalone skin-retouching app that exports processed plates or grayscale mask mattes for Resolve compositing. Supports per-person selection and batch processing; skin processing runs on the CPU. The source audio is re-encoded on export. Paid perpetual license and a paid time-limited demo; activation and periodic checks need internet."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://www.vanityfilter.com/changelog",
+          "checked_at": "2026-11-21",
+          "note": "Explicit provider version; exact release date not established."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.vanityfilter.com/",
+          "checked_at": "2026-11-21",
+          "note": "Standalone skin-retouching app that exports processed plates or grayscale mask mattes for Resolve compositing. Supports per-person selection and batch processing; skin processing runs on the CPU. The source audio is re-encoded on export. Paid perpetual license and a paid time-limited demo; activation and periodic checks need internet."
         }
       ]
     },
@@ -18186,6 +19461,53 @@
           "source": "https://akascape.gumroad.com/l/watermemory",
           "checked_at": "2026-09-16T15:58:29.413Z",
           "note": "Creator product listing explicitly identifies the delivered Fuse."
+        }
+      ]
+    },
+    {
+      "url": "https://wavscribe.com/",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [
+          "x64"
+        ],
+        "gpu": null,
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "account": "not-required",
+        "dependencies": "Internet activation and periodic checks; up to 30 days offline between checks.",
+        "installation": null
+      },
+      "tasks": [
+        "audio",
+        "workflow"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "accessGroup": "paid",
+      "evidence": [
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://wavscribe.com/",
+          "checked_at": "2026-11-21",
+          "note": "Windows 10 1809+/11 x64, 4 GB RAM minimum. Local/external/NAS files supported; cloud-synced folders are not officially supported."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://wavscribe.com/",
+          "checked_at": "2026-11-21",
+          "note": "Windows audio-post companion for editing BWF/bext, iXML, XMP, LIST/INFO and ID3 metadata in WAV/RF64/BW64 files. Includes conflict inspection, UCS naming and spreadsheet round trips. Provider says audio bytes are not re-encoded; exact field visibility in Resolve is not established. Paid perpetual license with a seven-day trial."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://wavscribe.com/",
+          "checked_at": "2026-11-21",
+          "note": "Windows audio-post companion for editing BWF/bext, iXML, XMP, LIST/INFO and ID3 metadata in WAV/RF64/BW64 files. Includes conflict inspection, UCS naming and spreadsheet round trips. Provider says audio bytes are not re-encoded; exact field visibility in Resolve is not established. Paid perpetual license with a seven-day trial."
         }
       ]
     },

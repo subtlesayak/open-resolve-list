@@ -43,6 +43,13 @@
         "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Source revision, not a software release."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+        "checked_at": "2026-11-21",
+        "note": "Reviewed source revision, not a published software release."
       }
     ],
     "unknownFields": [
@@ -59,18 +66,42 @@
       "name": "cutbypham/awesome-davinci-resolve",
       "url": "https://github.com/cutbypham/awesome-davinci-resolve",
       "kind": "commit",
-      "version": "86cd3895754822fd0a4ead1c241989d235921705",
-      "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/86cd3895754822fd0a4ead1c241989d235921705",
-      "date": "2026-10-19T01:59:10Z",
-      "checked_at": "2026-10-26T08:25:01.029Z",
+      "version": "34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+      "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+      "date": "2026-11-17T12:27:48Z",
+      "checked_at": "2026-11-21",
       "date_kind": "commit",
-      "note": "Source revision, not a published software release."
+      "note": "Reviewed source revision, not a published software release."
     },
     "releaseDate": null,
-    "activityDate": "2026-11-12T07:42:32Z",
-    "stars": 71,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
+    "activityDate": "2026-11-17T12:27:48Z",
+    "stars": 72,
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
     "history": [
+      {
+        "name": "cutbypham/awesome-davinci-resolve",
+        "url": "https://github.com/cutbypham/awesome-davinci-resolve",
+        "from": "86cd3895754822fd0a4ead1c241989d235921705",
+        "to": "34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-17T12:27:48Z",
+        "source": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c",
+        "summary": "Updates the resource directory with audio and VHS-effect links and a revised SnapCaptions destination. These are directory changes, not plugin releases.",
+        "changes": [
+          "Updates the resource directory with audio and VHS-effect links and a revised SnapCaptions destination. These are directory changes, not plugin releases."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/cutbypham/awesome-davinci-resolve/commit/34686f6071ed82ec7b2c1945ec85585ed6883c3c"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/cutbypham/awesome-davinci-resolve/compare/86cd3895754822fd0a4ead1c241989d235921705...34686f6071ed82ec7b2c1945ec85585ed6883c3c"
+          }
+        ]
+      },
       {
         "name": "cutbypham/awesome-davinci-resolve",
         "url": "https://github.com/cutbypham/awesome-davinci-resolve",

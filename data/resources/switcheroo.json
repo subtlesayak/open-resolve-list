@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "switcheroo",
+  "name": "Switcheroo",
+  "creator": "huggeebear2011",
+  "urls": {
+    "canonical": "https://github.com/huggeebear2011/Switcheroo",
+    "previous": []
+  },
+  "origin": "github",
+  "official": false,
+  "reference": false,
+  "category": "Productivity scripts, workflow bridges, and integrations",
+  "kind": "resolve-script",
+  "tasks": [
+    "workflow"
+  ],
+  "tags": [
+    "keyboard presets",
+    "page switching",
+    "hammerspoon",
+    "shortcuts"
+  ],
+  "description": "Switch Resolve pages and keyboard presets together with Hammerspoon on macOS. Requires local external scripting and matching preset names.",
+  "display_description": "Switch Resolve pages and keyboard presets together with Hammerspoon on macOS. Requires local external scripting and matching preset names.",
+  "access": "Free; MIT",
+  "accessGroup": "free",
+  "platforms": [
+    "macOS"
+  ],
+  "platform_notes": "macOS with Hammerspoon and the Python runtime/scripting module bundled with Resolve. No independent installation test.",
+  "display_platforms": "macOS",
+  "display_platform_notes": "macOS with Hammerspoon and the Python runtime/scripting module bundled with Resolve. No independent installation test.",
+  "platform_source": "https://github.com/huggeebear2011/Switcheroo",
+  "platform_checked_at": "2026-11-21",
+  "research_snapshot": "2026-11-21",
+  "stars": 0,
+  "last_pushed_at": "2026-11-21T02:26:06Z",
+  "metadata_checked_at": "2026-11-21",
+  "requirements": {
+    "editions": [],
+    "resolve": [],
+    "architectures": [],
+    "gpu": null,
+    "processing": "local",
+    "pricing": "free",
+    "account": "unknown",
+    "dependencies": "Hammerspoon; Resolve external scripting set to Local; matching named keyboard presets.",
+    "installation": "Load the supplied Hammerspoon configuration, preserving any existing configuration first."
+  },
+  "version": {
+    "name": "huggeebear2011/Switcheroo",
+    "url": "https://github.com/huggeebear2011/Switcheroo",
+    "kind": "commit",
+    "version": "c30f7276bbf856689ecae16369ad6c4ae395b1a9",
+    "source": "https://github.com/huggeebear2011/Switcheroo/commit/c30f7276bbf856689ecae16369ad6c4ae395b1a9",
+    "date": "2026-11-21T02:26:06Z",
+    "date_kind": "commit",
+    "checked_at": "2026-11-21",
+    "note": "Source revision, not a published software release."
+  },
+  "evidence": [
+    {
+      "field": "platforms",
+      "level": "documented",
+      "source": "https://github.com/huggeebear2011/Switcheroo",
+      "checked_at": "2026-11-21",
+      "note": "macOS with Hammerspoon and the Python runtime/scripting module bundled with Resolve. No independent installation test."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/huggeebear2011/Switcheroo",
+      "checked_at": "2026-11-21",
+      "note": "macOS Hammerspoon configuration that switches Resolve pages and named keyboard presets together while Resolve is frontmost. Requires external scripting set to Local and existing preset names. Its supplied configuration replaces the active Hammerspoon configuration unless manually combined. Exact Resolve edition/version support is not established."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/huggeebear2011/Switcheroo/commit/c30f7276bbf856689ecae16369ad6c4ae395b1a9",
+      "checked_at": "2026-11-21",
+      "note": "Source revision, not a published software release."
+    },
+    {
+      "field": "license",
+      "level": "documented",
+      "source": "https://github.com/huggeebear2011/Switcheroo/blob/main/LICENSE",
+      "checked_at": "2026-11-21",
+      "note": "MIT license."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/huggeebear2011/Switcheroo",
+      "checked_at": "2026-11-21",
+      "note": "macOS Hammerspoon configuration that switches Resolve pages and named keyboard presets together while Resolve is frontmost. Requires external scripting set to Local and existing preset names. Its supplied configuration replaces the active Hammerspoon configuration unless manually combined. Exact Resolve edition/version support is not established."
+    }
+  ],
+  "unknownFields": [],
+  "recommended": false,
+  "recommendation": null,
+  "history": [],
+  "search_sources": [
+    "https://github.com/huggeebear2011/Switcheroo",
+    "https://github.com/huggeebear2011/Switcheroo#readme",
+    "https://www.reddit.com/r/davinciresolve/comments/1y1m9bp/switcheroo_switch_resolve_pages_and_keyboard/"
+  ],
+  "tags_reviewed_at": "2026-11-21",
+  "requirements_reviewed": true
+}

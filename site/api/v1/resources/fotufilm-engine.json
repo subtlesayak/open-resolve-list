@@ -63,6 +63,13 @@
         "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
         "checked_at": "2026-11-14T07:53:12.819Z",
         "note": "Provider release evidence."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17",
+        "checked_at": "2026-11-21",
+        "note": "Original provider release notes reviewed; not independently installation-tested."
       }
     ],
     "unknownFields": [
@@ -77,18 +84,43 @@
       "name": "DhaliwalX/fotufilm-engine",
       "url": "https://github.com/DhaliwalX/fotufilm-engine",
       "kind": "stable-release",
-      "version": "v1.16",
-      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.16",
-      "date": "2026-11-11T18:58:11Z",
-      "checked_at": "2026-11-14T07:53:12.819Z",
+      "version": "v1.17",
+      "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17",
+      "date": "2026-11-16T00:07:15Z",
+      "checked_at": "2026-11-21",
       "date_kind": "release",
-      "note": "Original provider source reviewed."
+      "note": "Original provider release notes reviewed; not independently installation-tested."
     },
-    "releaseDate": "2026-11-11T18:58:11Z",
-    "activityDate": "2026-11-13T02:59:45Z",
-    "stars": 213,
-    "metadataChecked": "2026-11-14T07:47:18.816Z",
+    "releaseDate": "2026-11-16T00:07:15Z",
+    "activityDate": "2026-11-16T00:07:15Z",
+    "stars": 218,
+    "metadataChecked": "2026-11-21T06:10:41.855Z",
     "history": [
+      {
+        "name": "DhaliwalX/fotufilm-engine",
+        "url": "https://github.com/DhaliwalX/fotufilm-engine",
+        "from": "v1.16",
+        "to": "v1.17",
+        "release": "v1.31",
+        "catalogue_date": "2026-11-21",
+        "upstream_date": "2026-11-16T00:07:15Z",
+        "source": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17",
+        "summary": "Uses Resolve GPU frames on Apple Silicon for faster renders. Revises scanned-negative balancing, film chemistry, print surfaces and histogram display; existing negative and color-film grades can render differently. macOS packages are signed and notarized. Linux desktop/Resolve and Android builds remain alpha, with platform-specific playback and export limits.",
+        "changes": [
+          "Uses Resolve GPU frames on Apple Silicon for faster renders. Revises scanned-negative balancing, film chemistry, print surfaces and histogram display; existing negative and color-film grades can render differently.",
+          "macOS packages are signed and notarized. Linux desktop/Resolve and Android builds remain alpha, with platform-specific playback and export limits."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider release",
+            "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.17"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/DhaliwalX/fotufilm-engine/compare/v1.16...v1.17"
+          }
+        ]
+      },
       {
         "name": "DhaliwalX/fotufilm-engine",
         "url": "https://github.com/DhaliwalX/fotufilm-engine",

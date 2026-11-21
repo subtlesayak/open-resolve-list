@@ -38,9 +38,9 @@
   "platform_source": "https://github.com/samuelgursky/davinci-resolve-mcp#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 4098,
-  "last_pushed_at": "2026-11-14T03:16:22Z",
-  "metadata_checked_at": "2026-11-14T07:47:18.816Z",
+  "stars": 4258,
+  "last_pushed_at": "2026-11-20T03:32:48Z",
+  "metadata_checked_at": "2026-11-21T06:10:41.855Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -56,12 +56,12 @@
     "name": "samuelgursky/davinci-resolve-mcp",
     "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
     "kind": "stable-release",
-    "version": "v5.2.8",
-    "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
-    "date": "2026-11-14T00:46:43Z",
-    "checked_at": "2026-11-14T07:53:12.819Z",
+    "version": "v5.4.0",
+    "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0",
+    "date": "2026-11-20T03:33:05Z",
+    "checked_at": "2026-11-21",
     "date_kind": "release",
-    "note": "Original provider source reviewed."
+    "note": "Original provider release notes reviewed; not independently installation-tested."
   },
   "evidence": [
     {
@@ -77,6 +77,13 @@
       "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.2.8",
       "checked_at": "2026-11-14T07:53:12.819Z",
       "note": "Provider release evidence."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0",
+      "checked_at": "2026-11-21",
+      "note": "Original provider release notes reviewed; not independently installation-tested."
     }
   ],
   "unknownFields": [
@@ -88,6 +95,36 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v5.2.8",
+      "to": "v5.4.0",
+      "release": "v1.31",
+      "catalogue_date": "2026-11-21",
+      "upstream_date": "2026-11-20T03:33:05Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0",
+      "summary": "Adds optional external transport-provider actions for playback state, transport and live or paused frame capture. No transport provider is bundled. Across the intervening releases, validates track indexes and misplaced arguments, reads back selected writes, fixes lowercase CDL keys and numeric project settings, and clarifies ripple-insert blockers. Adds timeline checks before appending to reduce cross-client edits to the wrong timeline; this is not a lock and a narrow race remains. Also fixes OFX choice/color decoding and DRP start-frame/drop-frame validation. Most new safeguards were tested offline by the provider, not independently here.",
+      "changes": [
+        "Adds optional external transport-provider actions for playback state, transport and live or paused frame capture. No transport provider is bundled.",
+        "Across the intervening releases, validates track indexes and misplaced arguments, reads back selected writes, fixes lowercase CDL keys and numeric project settings, and clarifies ripple-insert blockers.",
+        "Adds timeline checks before appending to reduce cross-client edits to the wrong timeline; this is not a lock and a narrow race remains. Also fixes OFX choice/color decoding and DRP start-frame/drop-frame validation. Most new safeguards were tested offline by the provider, not independently here."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v5.4.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/compare/v5.2.8...v5.4.0"
+        },
+        {
+          "label": "Full provider changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
     {
       "name": "samuelgursky/davinci-resolve-mcp",
       "url": "https://github.com/samuelgursky/davinci-resolve-mcp",

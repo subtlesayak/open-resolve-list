@@ -1,8 +1,8 @@
 {
   "checked_at": "2026-11-14",
   "baseline_count": 72,
-  "added_count": 184,
-  "total_count": 256,
+  "added_count": 195,
+  "total_count": 267,
   "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added. Follow-up 2026-09-08: targeted deeper search across eleven Reddit communities, accessible comments and highlighted threads; eleven external additions verified against original sources. This is not a complete archive or all-comments crawl. Follow-up 2026-09-15: accumulated sources revisited, including five GitHub directories, creator stores, Reactor and eleven Reddit communities. Direct Reddit feeds and some forums were inaccessible; indexed and selected rendered checks are partial. Only verified additions and provider changes are published.",
   "additions": [
     {
@@ -3652,6 +3652,218 @@
         "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
       ],
       "checked_at": "2026-11-14"
+    },
+    {
+      "creator": "Totonoe",
+      "name": "Totonoe Skin Retouch for DaVinci Resolve",
+      "url": "https://totonoe.designstudiomarimo.com/en/resolve/",
+      "category": "Color / Film",
+      "access": "Paid one-time license; watermarked free trial",
+      "platforms": "macOS",
+      "description": "Mac OFX skin smoothing with texture restoration. Color-based selection can affect similar tones together. Creator checked Free 20.3.2 on Apple Silicon only.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed original provider documentation; creator-submitted GitHub issue; not independently tested",
+      "sources": [
+        "https://totonoe.designstudiomarimo.com/en/resolve/",
+        "https://github.com/subtlesayak/open-resolve-list/issues/1",
+        "https://totonoe.designstudiomarimo.com/en/resolve/#params",
+        "https://totonoe.designstudiomarimo.com/en/resolve/#specs"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "LIGHTOUCH",
+      "name": "Resolve Telemetry Overlay",
+      "url": "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+      "category": "Fusion / Motion Graphics",
+      "access": "Paid one-time major-version license; seven-day trial",
+      "platforms": "macOS;Windows",
+      "description": "Editable FIT activity gauges, routes and telemetry in Resolve. Mac Apple Silicon or Windows x64; license checks and optional weather/imports use the network.",
+      "version": "1.1.27 (build 202611191)",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed original provider documentation; creator-submitted GitHub issue; not independently tested",
+      "sources": [
+        "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
+        "https://github.com/subtlesayak/open-resolve-list/issues/3",
+        "https://ligh-t-ouch.com/resolve-telemetry-overlay/guide?lang=en",
+        "https://ligh-t-ouch.com/resolve-telemetry-overlay/history?lang=en"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "Softworks",
+      "name": "Cutdown",
+      "url": "https://cutdown.app/",
+      "category": "Community discoveries",
+      "access": "Free Lite; paid one-time Pro",
+      "platforms": "macOS;Windows",
+      "description": "Score footage for focus, exposure and motion, then export adjustable selects into Resolve. Free Lite; paid Pro. Local analysis with license checks.",
+      "version": "1.3.0",
+      "updated": "2026-11-03",
+      "date_kind": "release",
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://cutdown.app/",
+        "https://cutdown.app/changelog",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "Sputnik Digital Effects",
+      "name": "VanityFilter",
+      "url": "https://www.vanityfilter.com/",
+      "category": "Community discoveries",
+      "access": "Paid one-time license; paid 14-day demo",
+      "platforms": "Windows;macOS",
+      "description": "Local skin retouching with per-person masks and plate/matte exports for Resolve. Paid license or paid demo; activation checks required.",
+      "version": "3.3.1",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://www.vanityfilter.com/",
+        "https://www.vanityfilter.com/changelog",
+        "https://www.vanityfilter.com/articles/skin-smoothing-davinci-resolve",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "Adrian Sava",
+      "name": "LogSortie",
+      "url": "https://logsortie.com/",
+      "category": "Community discoveries",
+      "access": "First 30 clips free; paid one-time license",
+      "platforms": "macOS",
+      "description": "Sort original DJI Pocket footage by Log profile and recording mode before grading. Moves files; existing edits need relinking. Apple Silicon only.",
+      "version": "1.1.1",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://logsortie.com/",
+        "https://logsortie.com/changelog/",
+        "https://logsortie.com/guides/d-log-2-to-rec709-osmo-pocket-4p/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "bashframes",
+      "name": "Lodge",
+      "url": "https://bashfra.me/lodge/",
+      "category": "Community discoveries",
+      "access": "Paid one-time license; three-day trial",
+      "platforms": "macOS",
+      "description": "Mac camera-card ingest with custom names, incremental copies and SHA-256 verification. Standalone companion with a paid license and trial.",
+      "version": "1.0",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://bashfra.me/lodge/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "ciqueira",
+      "name": "MCNexus",
+      "url": "https://mcnexus.app/",
+      "category": "Community discoveries",
+      "access": "Free community distribution; individual plugin and developer-plan terms vary",
+      "platforms": "macOS;Windows",
+      "description": "OFX distribution, updates, DCTL conversion and MIDI-control companion for Resolve. Individual plugin licenses and requirements remain separate.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://mcnexus.app/",
+        "https://mcnexus.app/docs/user-guide/",
+        "https://mcnexus.app/pricing/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "Jahvix",
+      "name": "CloudRoomy",
+      "url": "https://cloudroomy.app/",
+      "category": "Community discoveries",
+      "access": "Paid hosted subscription or one-time app with own storage; 30-day trial",
+      "platforms": "macOS",
+      "description": "Cloud Finder drive documented for Resolve footage and exports. Apple Silicon only; requires a hosted plan or separately billed S3 storage.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://cloudroomy.app/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "Final Frame",
+      "name": "Final Frame",
+      "url": "https://finalframe.cc/",
+      "category": "Community discoveries",
+      "access": "Free watermarked exports; paid production/season licenses or subscription",
+      "platforms": "macOS",
+      "description": "Design and render end credits as ProRes alpha, DNxHR, DPX or EXR finishing plates. Mac app; clean exports need a license.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://finalframe.cc/",
+        "https://www.reddit.com/r/editors/comments/1xmg00r/november_2026_developer_and_ai_megathread/"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "Corridor Digital",
+      "name": "CorridorKey 2.0 OFX and standalone",
+      "url": "https://corridorkey.com/",
+      "category": "Community discoveries",
+      "access": "Paid one-time 2.x license; activation required",
+      "platforms": "Windows;macOS",
+      "description": "Commercial local chroma keyer for Resolve/OpenFX with temporal analysis and alpha hints. OS/GPU limits apply; manual still labels the line beta.",
+      "version": "2.0",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://corridorkey.com/",
+        "https://help.corridorkey.com/docs/manual/",
+        "https://corridorkey.com/download/",
+        "https://corridorkey.com/faq/",
+        "https://www.reddit.com/r/vfx/comments/1xykcs3/breakdown_for_scifi_short_jetset_blender_and_of/"
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "creator": "Formosa Soundworks Studio",
+      "name": "WAVScribe",
+      "url": "https://wavscribe.com/",
+      "category": "Community discoveries",
+      "access": "Paid one-time 1.x license; seven-day trial",
+      "platforms": "Windows",
+      "description": "Windows audio-post metadata editor for WAV/BWF, iXML, XMP and ID3, with batch/spreadsheet tools. Resolve field visibility is not established.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original provider documentation; no independent installation test",
+      "sources": [
+        "https://wavscribe.com/",
+        "https://www.reddit.com/r/AudioPost/comments/1xl1avf/the_audiopost_mine_november_2026_tell_us_about_your/"
+      ],
+      "checked_at": "2026-11-21"
     }
   ],
   "held_candidates": [
