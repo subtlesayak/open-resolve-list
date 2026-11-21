@@ -14,6 +14,7 @@ test('light and dark semantic colors meet WCAG AA text and control contrast',()=
    for(const fg of ['control-border','focus'])assert.ok(ratio(p[fg],p[bg])>=3,`${name}: ${fg}/${bg}`);
   }
   assert.ok(ratio(p['on-accent'],p['button-bg'])>=4.5,name+' primary button');
+  assert.ok(ratio(p['on-accent'],p['button-hover-bg'])>=4.5,name+' primary button hover');
  }
 });
 test('latest update count is tied to unique current catalogue additions',()=>{

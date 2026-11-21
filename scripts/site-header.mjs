@@ -20,5 +20,5 @@ export function siteHeader(prefix = '', current = '') {
 }
 
 export function siteHeaderAssets(prefix = '') {
- return `<script src="${prefix}theme.mjs?v=5"></script><link rel="stylesheet" href="${prefix}style.css?v=36"><script type="module" src="${prefix}update-indicator.mjs?v=3"></script>`;
+ return `<script src="${prefix}theme.mjs?v=5"></script><link rel="stylesheet" href="${prefix}style.css?v=37"><script type="module" src="${prefix}update-indicator.mjs?v=3"></script>`;
 }

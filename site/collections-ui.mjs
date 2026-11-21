@@ -13,13 +13,51 @@ if(root)loadCatalogue().then(data=>{
   ['installed', 'Installed', 'Marked installed', 'Installed status removed'],
  ];
  const report = detail => document.dispatchEvent(new CustomEvent('resolve:notice', {detail}));
+ const header = document.querySelector('.site-header');
+ const compareTray = document.querySelector('#compare-tray');
+ let openSave;
+
+ function positionSaveOptions(disclosure) {
+  const [summary, options] = disclosure.children;
+  const trigger = summary.getBoundingClientRect();
+  const viewport = window.visualViewport;
+  const viewportTop = viewport?.offsetTop ?? 0;
+  const viewportBottom = viewportTop + (viewport?.height ?? innerHeight);
+  const gap = 8;
+  const top = Math.max(viewportTop, header.getBoundingClientRect().bottom) + gap;
+  const bottom = Math.min(viewportBottom, compareTray.hidden ? viewportBottom : compareTray.getBoundingClientRect().top) - gap;
+  const height = Math.min(options.scrollHeight + options.offsetHeight - options.clientHeight, Math.max(0, bottom - top));
+  const below = Math.max(top, trigger.bottom + gap);
+  const above = Math.min(bottom, trigger.top - gap) - height;
+  const menuTop = below + height <= bottom ? below : Math.max(top, above);
+  options.style.setProperty('--save-options-top', `${menuTop - trigger.top}px`);
+  options.style.setProperty('--save-options-height', `${height}px`);
+ }
+
+ function updateSavePosition() {
+  if (openSave?.isConnected && openSave.open) positionSaveOptions(openSave);
+ }
+
+ function openSaveOptions(disclosure) {
+  openSave = disclosure;
+  disclosure.open = true;
+  positionSaveOptions(disclosure);
+ }
+
+ window.addEventListener('scroll', updateSavePosition, {passive:true});
+ window.addEventListener('resize', updateSavePosition);
+ window.visualViewport?.addEventListener('resize', updateSavePosition);
+ window.visualViewport?.addEventListener('scroll', updateSavePosition);
+ const chromeSize = new ResizeObserver(updateSavePosition);
+ chromeSize.observe(header);
+ chromeSize.observe(compareTray);
 
  function saveOptions(article, entry) {
   const disclosure = document.createElement('details');
   disclosure.className = 'collection-save';
   const summary = document.createElement('summary');
   summary.className = 'outline';
-  summary.innerHTML = '<span class="save-mark" aria-hidden="true" hidden>✓</span><span>Save</span>';
+  summary.innerHTML = '<span class="save-mark" aria-hidden="true">✓</span><span>Save</span>';
   const options = document.createElement('div');
   options.className = 'collection-save-options';
   for (const [status, label, addedMessage, removedMessage] of statuses) {
@@ -48,7 +86,7 @@ if(root)loadCatalogue().then(data=>{
      if (restoreFocus && !article.isConnected) {
       const replacement = root.querySelector('[data-resource-id="' + entry.id + '"] .collection-save');
       if (replacement) {
-       replacement.open = true;
+       openSaveOptions(replacement);
        replacement.querySelector('[data-collection-status="' + status + '"]').focus();
       } else {
        (panel.open ? panel.querySelector('#collection-view') : panel.querySelector('summary')).focus();
@@ -62,6 +100,11 @@ if(root)loadCatalogue().then(data=>{
    options.append(button);
   }
   disclosure.append(summary, options);
+  summary.addEventListener('click', event => {
+   event.preventDefault();
+   if (disclosure.open) disclosure.open = false;
+   else openSaveOptions(disclosure);
+  });
   disclosure.addEventListener('keydown', event => {
    if (event.key !== 'Escape' || !disclosure.open) return;
    event.preventDefault();
@@ -86,7 +129,6 @@ if(root)loadCatalogue().then(data=>{
    const count = selected.length;
    summary.setAttribute('aria-label', 'Save options for ' + entry.name + (count ? ', ' + count + ' selected' : ''));
    summary.dataset.saved = String(count > 0);
-   summary.querySelector('.save-mark').hidden = count === 0;
    for (const button of disclosure.querySelectorAll('button')) {
     button.setAttribute('aria-pressed', String(selected.includes(button.dataset.collectionStatus)));
    }

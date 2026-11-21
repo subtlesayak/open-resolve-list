@@ -237,6 +237,24 @@ try{
  }));
  const selectedCard=page.locator('#results article:has(.compare-control input:checked)').last();
  assert.equal(await selectedCard.locator('.compare-control').textContent(),'Compare');
+ await page.setViewportSize({width:320,height:568});
+ const compareSave=selectedCard.locator('.collection-save summary');
+ await compareSave.evaluate(summary=>{
+  const tray=document.querySelector('#compare-tray').getBoundingClientRect();
+  window.scrollBy(0,summary.getBoundingClientRect().bottom-tray.top+8);
+ });
+ await compareSave.press('Enter');
+ assert.ok(await selectedCard.locator('.collection-save-options').evaluate(menu=>{
+  const bounds=menu.getBoundingClientRect();
+  const bookmark=menu.querySelector('button');
+  const target=bookmark.getBoundingClientRect();
+  const hit=document.elementFromPoint(target.x+target.width/2,target.y+target.height/2);
+  return bounds.top>=document.querySelector('header').getBoundingClientRect().bottom
+   && bounds.bottom<=document.querySelector('#compare-tray').getBoundingClientRect().top
+   && bookmark.contains(hit);
+ }), 'Save options stay above the comparison tray at 320px');
+ await compareSave.press('Escape');
+ await page.setViewportSize(originalViewport);
  await selectedCard.getByRole('link',{name:'Go to comparison'}).press('Enter');
  assert.equal(await page.evaluate(()=>document.activeElement.id),'compare-open');
  await page.getByRole('button',{name:'Compare selected'}).click();
@@ -294,7 +312,8 @@ try{
  console.log(engine+': checking resource pages');
  await page.goto(base+'/resource/36-cinematic-film-titles/',{waitUntil:'networkidle'});
  assert.equal(await page.locator('h1').textContent(),'36 Cinematic Film Titles');
- assert.ok(await page.locator('.resource-actions .source-cta').isVisible());
+ assert.ok(await page.getByRole('link',{name:'Open original resource ↗',exact:true}).isVisible());
+ assert.equal(await page.getByText('View examples at the original source ↗',{exact:true}).count(),0);
  assert.equal(await page.locator('script[type="application/ld+json"]').count(),1);
  assert.ok(await page.locator('h2').filter({hasText:'Sources and limitations'}).count());
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
@@ -337,7 +356,9 @@ try{
  await page.goto(base+'/open-resolve-list/?q=auto-subs',{waitUntil:'networkidle'});
  await page.locator('#results article.resource').first().waitFor();
  assert.equal(await page.locator('#filters [name=edition]').inputValue(),'');
+ await page.setViewportSize({width:412,height:915});
  const save=page.locator('#results article[data-resource-id="auto-subs"] .collection-save summary');
+ const toolbarHeight=await save.evaluate(el=>el.closest('.row-actions').offsetHeight);
  await save.press('Enter');
  const bookmark=page.getByRole('button',{name:'Bookmark auto-subs',exact:true});await bookmark.press('Space');
  assert.equal(await page.evaluate(()=>document.activeElement?.getAttribute('aria-label')),'Bookmark auto-subs');
@@ -347,6 +368,8 @@ try{
  await bookmark.press('Escape');
  assert.ok(await save.evaluate(summary=>summary===document.activeElement&&!summary.parentElement.open));
  assert.ok(await save.locator('.save-mark').isVisible());
+ assert.equal(await save.evaluate(el=>el.closest('.row-actions').offsetHeight),toolbarHeight);
+ await page.setViewportSize(originalViewport);
  await page.getByText('My collections',{exact:true}).click();
  const before=await page.evaluate(()=>localStorage.getItem('open-resolve-collections-v1'));
  await page.locator('#collection-import').setInputFiles({name:'invalid.json',mimeType:'application/json',buffer:Buffer.from('{"schema_version":1,"items":[{"id":"unknown","statuses":["installed"]}]}')});

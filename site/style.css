@@ -10,6 +10,7 @@
   --focus:#a64b00;
   --on-accent:#1a1a1a;
   --button-bg:#f48c00;
+  --button-hover-bg:#dc7900;
   font-family:Inter,Segoe UI,system-ui,sans-serif;
   font-size:15px;
   line-height:1.55;
@@ -82,10 +83,13 @@ button:disabled {
   text-decoration:none;
 }
 @media (hover:hover) {
-  button:not(:disabled):hover, .link-button:hover, .source-cta:hover,
+  button:not(:disabled):hover, .link-button:hover,
   .compare-control:not(:has(:disabled)):hover, .collection-save > summary:hover {
     background-color:var(--wash);
     color:var(--accent);
+  }
+  .source-cta:hover {
+    background-color:var(--button-hover-bg);
   }
 }
 :focus-visible {
@@ -283,6 +287,15 @@ p {
   grid-template-columns:clamp(210px, calc(10vw + 105px), 250px) minmax(0,1fr);
   gap:clamp(25px, calc(3.75vw - 14.375px), 40px);
 }
+main:has(.workspace) { max-inline-size:80rem; }
+.workspace:has(#filter-controls[data-collapsed=true]) {
+  grid-template-columns:minmax(0,1fr);
+  row-gap:16px;
+}
+aside:has(#filter-controls[data-collapsed=true]) {
+  border:0;
+  padding:0;
+}
 aside {
   border-inline-end:1px solid var(--line);
   padding-inline-end:30px
@@ -407,6 +420,17 @@ select {
 }
 .row-actions .source-cta {
   padding-inline:8px;
+}
+@container (width < 400px) {
+  .row-actions {
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    align-items:stretch;
+  }
+  .row-actions :is(.source-cta, .compare-control, .collection-save > summary) {
+    justify-content:center;
+  }
+  .collection-save > summary { inline-size:100%; }
 }
 .source-link {
   margin: 12px 0 0;
@@ -1033,15 +1057,20 @@ dialog[open] {
 }
 @container (min-width: 740px) {
   .resource {
-    --row-control-height:40px;
-    grid-template-columns:minmax(0,1fr) minmax(160px,26%);
-    column-gap:24px;
+    grid-template-columns:minmax(0,34rem) minmax(0,1fr);
+    gap:12px 24px;
+    padding-block:20px;
   }
   .metadata {
     flex-direction:column;
     flex-wrap:nowrap;
   }
   .row-actions { grid-column:1 / -1; }
+}
+@media (min-width:1025px) and (pointer:fine) {
+  @container (min-width:740px) {
+    .resource { --row-control-height:40px; }
+  }
 }
 @media (max-width: 700px) {
   #filter-toggle {
@@ -1288,6 +1317,7 @@ nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; t
 #my-setup { margin-block:1.5rem; padding:1rem; border:1px solid var(--line); border-radius:.5rem; }
 #my-setup summary { cursor:pointer; }
 .collection-controls { display:flex; align-items:end; flex-wrap:wrap; gap:var(--control-gap); margin-block:.75rem; }
+.collection-save { position:relative; }
 .collection-save > summary { list-style:none; }
 .collection-save > summary::-webkit-details-marker { display:none; }
 .collection-save > summary::after {
@@ -1301,15 +1331,19 @@ nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; t
 }
 .collection-save[open] > summary::after { rotate:225deg; margin-block-start:3px; }
 .collection-save > summary[data-saved=true] { color:var(--accent); border-color:var(--accent); }
+.collection-save > summary:not([data-saved=true]) .save-mark { visibility:hidden; }
 .collection-save-options {
   position:absolute;
-  z-index:3;
-  inset-inline-start:0;
-  inset-block-start:calc(100% + 6px);
+  z-index:6;
+  inset-inline-end:0;
+  inset-block-start:var(--save-options-top, calc(100% + 8px));
   display:flex;
   flex-wrap:wrap;
   gap:var(--control-gap);
-  max-inline-size:100%;
+  inline-size:max-content;
+  max-inline-size:100cqi;
+  max-block-size:var(--save-options-height, none);
+  overflow:auto;
   padding:10px;
   border:1px solid var(--control-border);
   border-radius:var(--control-radius);
