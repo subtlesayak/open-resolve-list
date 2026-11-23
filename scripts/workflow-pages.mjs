@@ -22,7 +22,7 @@ export function buildWorkflowPages(root,entries){
   }).join('');
   const sources=recipe.sources.map(s=>`<li><a href="${esc(s.url)}">${esc(s.label)}</a></li>`).join('');
   const dir=path.join(root,'site/workflow',recipe.id);fs.mkdirSync(dir,{recursive:true});
-  fs.writeFileSync(path.join(dir,'index.html'),page(recipe.title,`<p><a href="../../workflows.html">All workflows</a></p><h2>Expected result</h2><p>${esc(recipe.result)}</p><h2>Setup</h2><p>${esc(recipe.setup)}</p><h2>Steps</h2><ol>${recipe.steps.map(step=>`<li>${esc(step)}</li>`).join('')}</ol><h2>Tools and references</h2><ul>${links}</ul><h2>Alternatives</h2><ul>${alternatives}</ul><h2>Limitations</h2><p>${esc(recipe.limitations)}</p><h2>Original sources</h2><ul>${sources}</ul>`,'../../'));
+  fs.writeFileSync(path.join(dir,'index.html'),page(recipe.title,`<p><a href="../../workflows.html">All workflows</a></p><h2>Expected result</h2><p>${esc(recipe.result)}</p><h2>Setup</h2><p>${esc(recipe.setup)}</p><h2>Steps</h2><ol>${recipe.steps.map(step=>`<li>${esc(step)}</li>`).join('')}</ol>${links ? '<h2>Tools and references</h2><ul>'+links+'</ul>' : ''}<h2>Alternatives</h2><ul>${alternatives}</ul><h2>Limitations</h2><p>${esc(recipe.limitations)}</p><h2>Original sources</h2><ul>${sources}</ul>`,'../../'));
  }
  return ['workflows.html',...recipes.map(r=>'workflow/'+r.id+'/')];
 }
