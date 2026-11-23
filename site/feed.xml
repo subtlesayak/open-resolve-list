@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>Open Resolve List — new tools and updates</title><link>https://subtlesayak.github.io/open-resolve-list/</link><description>New catalogue additions and recorded provider updates, grouped by catalogue release.</description><item><title>v1.32 - Six verified listing updates</title><link>https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32</link><guid isPermaLink="true">https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32</guid><pubDate>Mon, 23 Nov 2026 12:33:58 GMT</pubDate><description>Six existing listings were updated. Four tools have new releases and two have reviewed source changes.
+<rss version="2.0"><channel><title>Open Resolve List — new tools and updates</title><link>https://subtlesayak.github.io/open-resolve-list/</link><description>New catalogue additions and recorded provider updates, grouped by catalogue release.</description><item><title>v1.32 - Six verified listing updates</title><link>https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32</link><guid isPermaLink="true">https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32</guid><pubDate>Mon, 23 Nov 2026 12:38:43 GMT</pubDate><description>Six existing listings were updated. Four tools have new releases and two have reviewed source changes.
 
 ## Verified provider updates
 
@@ -56,7 +56,8 @@ Source update · 2026-11-21
 - Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.
 - Adds a separate input transform for Pixboom Spark Rec.709 footage.
 
-[Provider revision](https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a) · [Full comparison](https://github.com/thatcherfreeman/dwg-transforms/compare/22f2134e5b2f62a8508ebe02f77f2691d4794d8a...5bb40b4b99a4222ed6c9a93e1495a93148245c7a)</description></item><item><title>v1.31 - Provider updates and 17 additions</title><link>https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31</link><guid isPermaLink="true">https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31</guid><pubDate>Sat, 21 Nov 2026 06:47:53 GMT</pubDate><description>17 resources added, with updates and corrections to 25 existing listings.
+[Provider revision](https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a) · [Full comparison](https://github.com/thatcherfreeman/dwg-transforms/compare/22f2134e5b2f62a8508ebe02f77f2691d4794d8a...5bb40b4b99a4222ed6c9a93e1495a93148245c7a)
+</description></item><item><title>v1.31 - Provider updates and 17 additions</title><link>https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31</link><guid isPermaLink="true">https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31</guid><pubDate>Sat, 21 Nov 2026 06:47:53 GMT</pubDate><description>17 resources added, with updates and corrections to 25 existing listings.
 
 ## Verified provider updates
 
