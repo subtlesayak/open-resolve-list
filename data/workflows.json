@@ -246,6 +246,83 @@
           "description": "If the timeline is already empty, adjust its Timeline Settings before inserting clips and skip the transfer."
         }
       ]
+    },
+    {
+      "id": "remove-black-bars-from-vertical-exports",
+      "title": "Remove black bars from vertical exports",
+      "result": "Match the timeline and export to 9:16, then reframe clips that leave black bars.",
+      "setup": "Use this for a portrait export with unwanted bars. Keep a copy of the original edit if you also need a horizontal version.",
+      "steps": [
+        "Duplicate the timeline in the Media Pool. Right-click the copy and open Timelines → Timeline Settings.",
+        "Turn off Use Project Settings. In Format, set the timeline to 1080 × 1920. Use vertical resolution swaps the width and height, so confirm the displayed dimensions.",
+        "Check the timeline viewer. For clips with a different aspect ratio, choose Scale full frame with crop under Mismatched resolution to fill the portrait frame. Use Zoom and Position in the Inspector to keep the subject in view.",
+        "On Deliver, confirm the export is 1080 × 1920 and uses the timeline framing. Render a short range that includes the clips you reframed.",
+        "Play the test file outside Resolve. If the file fills the portrait frame and bars appear only after uploading, check the destination’s crop or fit setting."
+      ],
+      "resources": [],
+      "limitations": "Filling a portrait frame with landscape footage crops the sides. Bars already baked into a source file need per-clip cropping or a clean source.",
+      "sources": [
+        {
+          "label": "Blackmagic Design reference manual · vertical resolution and input scaling",
+          "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850812000"
+        },
+        {
+          "label": "Solved r/davinciresolve thread · black bars from a horizontal timeline",
+          "url": "https://www.reddit.com/r/davinciresolve/comments/1uyp3s1/black_bars_on_sides_of_video/"
+        },
+        {
+          "label": "r/davinciresolve confirmed fix · matching the timeline to a vertical crop",
+          "url": "https://www.reddit.com/r/davinciresolve/comments/1uokcgd/exporting_with_crop_settings/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Fit the whole image",
+          "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850812000",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850812000",
+          "description": "Choose Scale entire image to fit when the whole source frame matters. Use a deliberate background behind the clip to fill the remaining space."
+        }
+      ]
+    },
+    {
+      "id": "fix-video-importing-as-audio-only",
+      "title": "Fix video importing as audio only",
+      "result": "Identify an unsupported video codec or profile and convert a test clip before importing the rest.",
+      "setup": "Use this when an MP4 or MOV plays with picture in another app but appears as audio only in Resolve’s Media Pool. Keep the camera originals.",
+      "steps": [
+        "Open Resolve → About DaVinci Resolve and note the version and edition. In Shutter Encoder, right-click a source file and choose File(s) information to check its video codec, bit depth, and chroma subsampling.",
+        "Check Blackmagic’s codec list for your version and operating system. If the clip shows picture in the Media Pool and loses it only when added to the timeline, check video track targeting first.",
+        "Convert one affected clip in Shutter Encoder to DNxHR HQX in a MOV container. Keep the source resolution and frame rate for this test and save the copy to a separate folder.",
+        "Import the converted copy as a new clip. Check picture, audio channels, sync, and color in Resolve. Convert the remaining clips after the test passes."
+      ],
+      "resources": [],
+      "limitations": "Codec support varies by version, operating system, edition, and profile. DNxHR HQX takes substantially more disk space. Review timecode and metadata before replacing any media in an existing edit.",
+      "sources": [
+        {
+          "label": "Blackmagic Design · Resolve supported formats and codecs",
+          "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf?_v=1751871610000"
+        },
+        {
+          "label": "Shutter Encoder documentation · file information and DNxHR",
+          "url": "https://www.shutterencoder.com/documentation/"
+        },
+        {
+          "label": "r/davinciresolve confirmed fix · converting footage Resolve Free could not import",
+          "url": "https://www.reddit.com/r/davinciresolve/comments/1naifon/"
+        },
+        {
+          "label": "r/davinciresolve discussion · HEVC imports as audio only",
+          "url": "https://www.reddit.com/r/davinciresolve/comments/r1bxbv/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Convert a smaller test copy with HandBrake",
+          "url": "https://handbrake.fr/docs/en/latest/technical/video-codecs.html",
+          "source": "https://handbrake.fr/docs/en/latest/technical/video-codecs.html",
+          "description": "The solved thread used H.264 in MP4. Try an 8-bit H.264 test copy if file size matters and the source can tolerate the compression and bit-depth reduction."
+        }
+      ]
     }
   ]
 }
