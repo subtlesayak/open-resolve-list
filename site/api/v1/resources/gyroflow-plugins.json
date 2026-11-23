@@ -29,15 +29,18 @@
     ],
     "platformNotes": "Windows;macOS;Linux",
     "requirements": {
-      "editions": [],
+      "editions": [
+        "Free",
+        "Studio"
+      ],
       "resolve": [],
       "architectures": [],
       "gpu": null,
       "processing": "unknown",
       "pricing": "unknown",
       "account": "unknown",
-      "dependencies": null,
-      "installation": null
+      "dependencies": "The saved-project workflow uses the Gyroflow app and footage with gyro data.",
+      "installation": "In Resolve Free, save a project in Gyroflow and load it in the OpenFX plugin. Load for current file requires Resolve Studio and external scripting."
     },
     "evidence": [
       {
@@ -53,10 +56,16 @@
         "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
         "checked_at": "2026-11-14T07:53:12.819Z",
         "note": "Provider release evidence."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://github.com/gyroflow/docs.gyroflow.xyz/blob/main/video-editor-plugins/davinci-resolve-openfx.md",
+        "checked_at": "2026-11-23",
+        "note": "Provider documents loading a saved Gyroflow project in Resolve Free. Automatic loading for the current clip requires Studio with external scripting enabled."
       }
     ],
     "unknownFields": [
-      "Resolve edition",
       "Resolve version",
       "architecture",
       "processing"

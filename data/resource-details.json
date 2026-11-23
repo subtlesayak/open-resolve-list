@@ -9794,15 +9794,18 @@
     {
       "url": "https://github.com/gyroflow/gyroflow-plugins",
       "requirements": {
-        "editions": [],
+        "editions": [
+          "Free",
+          "Studio"
+        ],
         "resolve": [],
         "architectures": [],
         "gpu": null,
         "processing": "unknown",
         "pricing": "unknown",
         "account": "unknown",
-        "dependencies": null,
-        "installation": null
+        "dependencies": "The saved-project workflow uses the Gyroflow app and footage with gyro data.",
+        "installation": "In Resolve Free, save a project in Gyroflow and load it in the OpenFX plugin. Load for current file requires Resolve Studio and external scripting."
       },
       "tasks": [
         "fusion"
@@ -9827,6 +9830,13 @@
           "source": "https://github.com/gyroflow/gyroflow-plugins/releases/tag/v3.0.0",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/gyroflow/docs.gyroflow.xyz/blob/main/video-editor-plugins/davinci-resolve-openfx.md",
+          "checked_at": "2026-11-23",
+          "note": "Provider documents loading a saved Gyroflow project in Resolve Free. Automatic loading for the current clip requires Studio with external scripting enabled."
         }
       ]
     },
@@ -13488,7 +13498,10 @@
     {
       "url": "https://github.com/Kartaverse/Reactor-Standalone",
       "requirements": {
-        "editions": [],
+        "editions": [
+          "Free",
+          "Studio"
+        ],
         "resolve": [],
         "architectures": [],
         "gpu": null,
@@ -13496,7 +13509,7 @@
         "pricing": "unknown",
         "account": "unknown",
         "dependencies": null,
-        "installation": null
+        "installation": "Run the standalone desktop beta on Windows, macOS, or Linux. Check each package for its own Resolve edition, version, and license requirements."
       },
       "tasks": [
         "fusion"
@@ -13521,6 +13534,13 @@
           "source": "https://github.com/Kartaverse/Reactor-Standalone/releases/tag/4.0.5",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/Kartaverse/Reactor-Standalone/blob/main/README.md",
+          "checked_at": "2026-11-23",
+          "note": "The provider lists Resolve Free and Studio as supported hosts for the standalone package manager. Compatibility and licenses vary by installed package."
         }
       ]
     },

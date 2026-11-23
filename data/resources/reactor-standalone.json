@@ -40,7 +40,10 @@
   "last_pushed_at": "2026-11-02T15:01:22Z",
   "metadata_checked_at": "2026-11-21T06:10:41.855Z",
   "requirements": {
-    "editions": [],
+    "editions": [
+      "Free",
+      "Studio"
+    ],
     "resolve": [],
     "architectures": [],
     "gpu": null,
@@ -48,7 +51,7 @@
     "pricing": "unknown",
     "account": "unknown",
     "dependencies": null,
-    "installation": null
+    "installation": "Run the standalone desktop beta on Windows, macOS, or Linux. Check each package for its own Resolve edition, version, and license requirements."
   },
   "version": {
     "name": "Kartaverse/Reactor-Standalone",
@@ -73,10 +76,16 @@
       "source": "https://github.com/Kartaverse/Reactor-Standalone/releases/tag/4.0.5",
       "checked_at": "2026-09-15T05:06:04.860Z",
       "note": "Recorded version evidence, not installation testing."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/Kartaverse/Reactor-Standalone/blob/main/README.md",
+      "checked_at": "2026-11-23",
+      "note": "The provider lists Resolve Free and Studio as supported hosts for the standalone package manager. Compatibility and licenses vary by installed package."
     }
   ],
   "unknownFields": [
-    "Resolve edition",
     "Resolve version",
     "architecture",
     "processing"
@@ -89,5 +98,5 @@
     "https://github.com/Kartaverse/Reactor-Standalone"
   ],
   "tags_reviewed_at": "2026-09-08",
-  "requirements_reviewed": false
+  "requirements_reviewed": true
 }
