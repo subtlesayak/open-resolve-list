@@ -19,9 +19,12 @@
       "gopro",
       "gp log",
       "input transform",
-      "wide gamut"
+      "wide gamut",
+      "pixboom spark",
+      "dng",
+      "rec 709"
     ],
-    "description": "DCTL input transforms from camera and other color spaces into DaVinci Wide Gamut/Intermediate, including a GoPro GP-Log transform.",
+    "description": "DCTL input transforms into DaVinci Wide Gamut and Intermediate, including GoPro GP-Log and Pixboom Spark DNG and Rec.709 footage.",
     "access": "Public",
     "accessGroup": "public",
     "platforms": [],
@@ -44,6 +47,13 @@
         "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Source revision, not a software release."
+      },
+      {
+        "field": "repository revision",
+        "level": "documented",
+        "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+        "checked_at": "2026-11-23",
+        "note": "Reviewed the original provider source comparison."
       }
     ],
     "unknownFields": [
@@ -60,17 +70,50 @@
       "name": "thatcherfreeman/dwg-transforms",
       "url": "https://github.com/thatcherfreeman/dwg-transforms",
       "kind": "commit",
-      "version": "22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
-      "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
-      "date": "2026-07-27T16:22:31Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+      "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+      "date": "2026-11-21T08:47:11Z",
+      "checked_at": "2026-11-23",
+      "date_kind": "commit",
+      "note": "Reviewed the original provider source comparison."
     },
     "releaseDate": null,
-    "activityDate": "2026-07-27T16:22:44Z",
+    "activityDate": "2026-11-21T08:47:21Z",
     "stars": 114,
-    "metadataChecked": "2026-11-21T06:10:41.855Z",
-    "history": [],
+    "metadataChecked": "2026-11-23T12:33:58.729Z",
+    "history": [
+      {
+        "name": "thatcherfreeman/dwg-transforms",
+        "url": "https://github.com/thatcherfreeman/dwg-transforms",
+        "from": "22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
+        "to": "5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+        "release": "v1.32",
+        "catalogue_date": "2026-11-23",
+        "upstream_date": "2026-11-21T08:47:11Z",
+        "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+        "summary": "Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.",
+        "changes": [
+          "Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.",
+          "Adds a separate input transform for Pixboom Spark Rec.709 footage."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider source revision",
+            "url": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/thatcherfreeman/dwg-transforms/compare/22f2134e5b2f62a8508ebe02f77f2691d4794d8a...5bb40b4b99a4222ed6c9a93e1495a93148245c7a"
+          }
+        ],
+        "display_name": "DaVinci Wide Gamut Transforms"
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.32",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+      },
       {
         "version": "v1.1",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.1"

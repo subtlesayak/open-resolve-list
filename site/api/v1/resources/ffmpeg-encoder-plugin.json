@@ -17,7 +17,8 @@
       "codec",
       "encoding",
       "export",
-      "ffmpeg"
+      "ffmpeg",
+      "aac export"
     ],
     "description": "FFmpeg-powered export/encoding plugin for Resolve Studio.",
     "access": "Free",
@@ -29,7 +30,9 @@
     ],
     "platformNotes": "Windows;macOS;Linux",
     "requirements": {
-      "editions": [],
+      "editions": [
+        "Studio"
+      ],
       "resolve": [],
       "architectures": [],
       "gpu": null,
@@ -37,7 +40,7 @@
       "pricing": "unknown",
       "account": "unknown",
       "dependencies": null,
-      "installation": null
+      "installation": "DaVinci Resolve Studio is required for the encoder plug-in."
     },
     "evidence": [
       {
@@ -53,10 +56,23 @@
         "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.4.0",
         "checked_at": "2026-09-15T05:06:04.860Z",
         "note": "Recorded version evidence, not installation testing."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+        "checked_at": "2026-11-23",
+        "note": "Reviewed the original provider release notes."
+      },
+      {
+        "field": "requirements",
+        "level": "documented",
+        "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin#readme",
+        "checked_at": "2026-11-23",
+        "note": "DaVinci Resolve Studio is required for the encoder plug-in."
       }
     ],
     "unknownFields": [
-      "Resolve edition",
       "Resolve version",
       "architecture",
       "processing"
@@ -68,17 +84,50 @@
       "name": "EdvinNilsson/ffmpeg_encoder_plugin",
       "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
       "kind": "stable-release",
-      "version": "v1.4.0",
-      "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.4.0",
-      "date": "2026-08-10T19:49:33Z",
-      "checked_at": "2026-09-15T05:06:04.860Z"
+      "version": "v1.5.0",
+      "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+      "date": "2026-11-21T18:22:32Z",
+      "checked_at": "2026-11-23",
+      "date_kind": "release",
+      "note": "Reviewed the original provider release notes."
     },
-    "releaseDate": "2026-08-10T19:49:33Z",
-    "activityDate": "2026-11-18T16:42:35Z",
-    "stars": 270,
-    "metadataChecked": "2026-11-21T06:10:41.855Z",
-    "history": [],
+    "releaseDate": "2026-11-21T18:22:32Z",
+    "activityDate": "2026-11-21T18:22:31Z",
+    "stars": 273,
+    "metadataChecked": "2026-11-23T12:33:58.729Z",
+    "history": [
+      {
+        "name": "EdvinNilsson/ffmpeg_encoder_plugin",
+        "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
+        "from": "v1.4.0",
+        "to": "v1.5.0",
+        "release": "v1.32",
+        "catalogue_date": "2026-11-23",
+        "upstream_date": "2026-11-21T18:22:32Z",
+        "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+        "summary": "Adds AAC audio export using the AAC encoder introduced in FFmpeg 9.1.",
+        "changes": [
+          "Adds AAC audio export using the AAC encoder introduced in FFmpeg 9.1.",
+          "Fixes a Resolve crash on Linux systems with LSFG-VK installed."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider release notes",
+            "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/compare/v1.4.0...v1.5.0"
+          }
+        ],
+        "display_name": "FFmpeg Encoder Plugin"
+      }
+    ],
     "catalogueReleases": [
+      {
+        "version": "v1.32",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+      },
       {
         "version": "v1.0",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.0"

@@ -1,28 +1,10 @@
 {
   "latestUpdate": {
     "schema_version": 1,
-    "date": "2026-11-21",
-    "release": "v1.31",
-    "added_urls": [
-      "https://totonoe.designstudiomarimo.com/en/resolve/",
-      "https://github.com/Bipedal/BMD-MicroColorPanel-Tools",
-      "https://ligh-t-ouch.com/resolve-telemetry-overlay/?lang=en",
-      "https://github.com/huggeebear2011/Switcheroo",
-      "https://github.com/DorwinDT/GpxToFusion",
-      "https://github.com/mrchrisster/davinci-font-auditor",
-      "https://github.com/hexitnz/resolve-linux-aac-full",
-      "https://github.com/nikopueringer/CorridorKey2.0",
-      "https://cutdown.app/",
-      "https://www.vanityfilter.com/",
-      "https://logsortie.com/",
-      "https://bashfra.me/lodge/",
-      "https://mcnexus.app/",
-      "https://cloudroomy.app/",
-      "https://finalframe.cc/",
-      "https://corridorkey.com/",
-      "https://wavscribe.com/"
-    ],
-    "addedCount": 17
+    "date": "2026-11-23",
+    "release": "v1.32",
+    "added_urls": [],
+    "addedCount": 0
   },
   "schema_version": 1,
   "title": "Open Resolve List",
@@ -1980,7 +1962,9 @@
         "automatic editing",
         "nle",
         "standalone",
-        "timeline export"
+        "timeline export",
+        "timeline markers",
+        "fcpxml"
       ],
       "description": "Standalone automatic editing with NLE timeline-export workflows; not a native Resolve plugin.",
       "access": "Public",
@@ -2012,6 +1996,13 @@
           "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider release notes."
         }
       ],
       "unknownFields": [
@@ -2028,18 +2019,45 @@
         "name": "WyattBlue/auto-editor",
         "url": "https://github.com/WyattBlue/auto-editor",
         "kind": "stable-release",
-        "version": "31.9.0",
-        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
-        "date": "2026-11-13T18:17:27Z",
-        "checked_at": "2026-11-14T07:53:12.819Z",
+        "version": "31.10.0",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+        "date": "2026-11-23T07:05:00Z",
+        "checked_at": "2026-11-23",
         "date_kind": "release",
-        "note": "Original provider source reviewed."
+        "note": "Reviewed the original provider release notes."
       },
-      "releaseDate": "2026-11-13T18:17:27Z",
-      "activityDate": "2026-11-21T04:27:47Z",
-      "stars": 6033,
-      "metadataChecked": "2026-11-21T06:10:41.855Z",
+      "releaseDate": "2026-11-23T07:05:00Z",
+      "activityDate": "2026-11-23T07:08:08Z",
+      "stars": 6063,
+      "metadataChecked": "2026-11-23T12:33:58.729Z",
       "history": [
+        {
+          "name": "WyattBlue/auto-editor",
+          "url": "https://github.com/WyattBlue/auto-editor",
+          "from": "31.9.0",
+          "to": "31.10.0",
+          "release": "v1.32",
+          "catalogue_date": "2026-11-23",
+          "upstream_date": "2026-11-23T07:05:00Z",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+          "summary": "Adds named timeline markers that follow cuts and carry through supported timeline exports. Video exports write them as chapters by default.",
+          "changes": [
+            "Adds named timeline markers that follow cuts and carry through supported timeline exports. Video exports write them as chapters by default.",
+            "Accepts clock time and timecode in time ranges.",
+            "Keeps separate clip names and lengths when exporting an FCPXML timeline with multiple sources."
+          ],
+          "changelogs": [
+            {
+              "label": "Provider release notes",
+              "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0"
+            },
+            {
+              "label": "Full source comparison",
+              "url": "https://github.com/WyattBlue/auto-editor/compare/31.9.0...31.10.0"
+            }
+          ],
+          "display_name": "Auto-Editor"
+        },
         {
           "name": "WyattBlue/auto-editor",
           "url": "https://github.com/WyattBlue/auto-editor",
@@ -2127,6 +2145,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.32",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+        },
         {
           "version": "v1.30",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.30"
@@ -2817,6 +2839,13 @@
           "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
           "checked_at": "2026-11-21",
           "note": "Reviewed source revision, not a published software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider source comparison."
         }
       ],
       "unknownFields": [
@@ -2832,18 +2861,43 @@
         "name": "psygreg/autoresolvedeb",
         "url": "https://github.com/psygreg/autoresolvedeb",
         "kind": "commit",
-        "version": "5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
-        "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
-        "date": "2026-11-14T15:41:11Z",
-        "checked_at": "2026-11-21",
+        "version": "a914f425e800862f3f1fbee4ba0f840a57f5be57",
+        "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+        "date": "2026-11-23T01:44:01Z",
+        "checked_at": "2026-11-23",
         "date_kind": "commit",
-        "note": "Reviewed source revision, not a published software release."
+        "note": "Reviewed the original provider source comparison."
       },
       "releaseDate": null,
-      "activityDate": "2026-11-14T15:41:14Z",
+      "activityDate": "2026-11-23T01:44:03Z",
       "stars": 31,
-      "metadataChecked": "2026-11-21T06:10:41.855Z",
+      "metadataChecked": "2026-11-23T12:33:58.729Z",
       "history": [
+        {
+          "name": "psygreg/autoresolvedeb",
+          "url": "https://github.com/psygreg/autoresolvedeb",
+          "from": "5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+          "to": "a914f425e800862f3f1fbee4ba0f840a57f5be57",
+          "release": "v1.32",
+          "catalogue_date": "2026-11-23",
+          "upstream_date": "2026-11-23T01:44:01Z",
+          "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+          "summary": "Adds a workaround for NVIDIA container startup on Podman 6.2.0 in the optional AutoDaVinciBox setup.",
+          "changes": [
+            "Adds a workaround for NVIDIA container startup on Podman 6.2.0 in the optional AutoDaVinciBox setup."
+          ],
+          "changelogs": [
+            {
+              "label": "Provider source revision",
+              "url": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57"
+            },
+            {
+              "label": "Full source comparison",
+              "url": "https://github.com/psygreg/autoresolvedeb/compare/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24...a914f425e800862f3f1fbee4ba0f840a57f5be57"
+            }
+          ],
+          "display_name": "AutoResolveDeb"
+        },
         {
           "name": "psygreg/autoresolvedeb",
           "url": "https://github.com/psygreg/autoresolvedeb",
@@ -2912,6 +2966,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.32",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+        },
         {
           "version": "v1.31",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
@@ -18213,9 +18271,12 @@
         "gopro",
         "gp log",
         "input transform",
-        "wide gamut"
+        "wide gamut",
+        "pixboom spark",
+        "dng",
+        "rec 709"
       ],
-      "description": "DCTL input transforms from camera and other color spaces into DaVinci Wide Gamut/Intermediate, including a GoPro GP-Log transform.",
+      "description": "DCTL input transforms into DaVinci Wide Gamut and Intermediate, including GoPro GP-Log and Pixboom Spark DNG and Rec.709 footage.",
       "access": "Public",
       "accessGroup": "public",
       "platforms": [],
@@ -18238,6 +18299,13 @@
           "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider source comparison."
         }
       ],
       "unknownFields": [
@@ -18254,17 +18322,50 @@
         "name": "thatcherfreeman/dwg-transforms",
         "url": "https://github.com/thatcherfreeman/dwg-transforms",
         "kind": "commit",
-        "version": "22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
-        "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
-        "date": "2026-07-27T16:22:31Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+        "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+        "date": "2026-11-21T08:47:11Z",
+        "checked_at": "2026-11-23",
+        "date_kind": "commit",
+        "note": "Reviewed the original provider source comparison."
       },
       "releaseDate": null,
-      "activityDate": "2026-07-27T16:22:44Z",
+      "activityDate": "2026-11-21T08:47:21Z",
       "stars": 114,
-      "metadataChecked": "2026-11-21T06:10:41.855Z",
-      "history": [],
+      "metadataChecked": "2026-11-23T12:33:58.729Z",
+      "history": [
+        {
+          "name": "thatcherfreeman/dwg-transforms",
+          "url": "https://github.com/thatcherfreeman/dwg-transforms",
+          "from": "22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
+          "to": "5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+          "release": "v1.32",
+          "catalogue_date": "2026-11-23",
+          "upstream_date": "2026-11-21T08:47:11Z",
+          "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+          "summary": "Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.",
+          "changes": [
+            "Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.",
+            "Adds a separate input transform for Pixboom Spark Rec.709 footage."
+          ],
+          "changelogs": [
+            {
+              "label": "Provider source revision",
+              "url": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a"
+            },
+            {
+              "label": "Full source comparison",
+              "url": "https://github.com/thatcherfreeman/dwg-transforms/compare/22f2134e5b2f62a8508ebe02f77f2691d4794d8a...5bb40b4b99a4222ed6c9a93e1495a93148245c7a"
+            }
+          ],
+          "display_name": "DaVinci Wide Gamut Transforms"
+        }
+      ],
       "catalogueReleases": [
+        {
+          "version": "v1.32",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+        },
         {
           "version": "v1.1",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.1"
@@ -20438,7 +20539,8 @@
         "codec",
         "encoding",
         "export",
-        "ffmpeg"
+        "ffmpeg",
+        "aac export"
       ],
       "description": "FFmpeg-powered export/encoding plugin for Resolve Studio.",
       "access": "Free",
@@ -20450,7 +20552,9 @@
       ],
       "platformNotes": "Windows;macOS;Linux",
       "requirements": {
-        "editions": [],
+        "editions": [
+          "Studio"
+        ],
         "resolve": [],
         "architectures": [],
         "gpu": null,
@@ -20458,7 +20562,7 @@
         "pricing": "unknown",
         "account": "unknown",
         "dependencies": null,
-        "installation": null
+        "installation": "DaVinci Resolve Studio is required for the encoder plug-in."
       },
       "evidence": [
         {
@@ -20474,10 +20578,23 @@
           "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.4.0",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider release notes."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin#readme",
+          "checked_at": "2026-11-23",
+          "note": "DaVinci Resolve Studio is required for the encoder plug-in."
         }
       ],
       "unknownFields": [
-        "Resolve edition",
         "Resolve version",
         "architecture",
         "processing"
@@ -20489,17 +20606,50 @@
         "name": "EdvinNilsson/ffmpeg_encoder_plugin",
         "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
         "kind": "stable-release",
-        "version": "v1.4.0",
-        "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.4.0",
-        "date": "2026-08-10T19:49:33Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "v1.5.0",
+        "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+        "date": "2026-11-21T18:22:32Z",
+        "checked_at": "2026-11-23",
+        "date_kind": "release",
+        "note": "Reviewed the original provider release notes."
       },
-      "releaseDate": "2026-08-10T19:49:33Z",
-      "activityDate": "2026-11-18T16:42:35Z",
-      "stars": 270,
-      "metadataChecked": "2026-11-21T06:10:41.855Z",
-      "history": [],
+      "releaseDate": "2026-11-21T18:22:32Z",
+      "activityDate": "2026-11-21T18:22:31Z",
+      "stars": 273,
+      "metadataChecked": "2026-11-23T12:33:58.729Z",
+      "history": [
+        {
+          "name": "EdvinNilsson/ffmpeg_encoder_plugin",
+          "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
+          "from": "v1.4.0",
+          "to": "v1.5.0",
+          "release": "v1.32",
+          "catalogue_date": "2026-11-23",
+          "upstream_date": "2026-11-21T18:22:32Z",
+          "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+          "summary": "Adds AAC audio export using the AAC encoder introduced in FFmpeg 9.1.",
+          "changes": [
+            "Adds AAC audio export using the AAC encoder introduced in FFmpeg 9.1.",
+            "Fixes a Resolve crash on Linux systems with LSFG-VK installed."
+          ],
+          "changelogs": [
+            {
+              "label": "Provider release notes",
+              "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0"
+            },
+            {
+              "label": "Full source comparison",
+              "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/compare/v1.4.0...v1.5.0"
+            }
+          ],
+          "display_name": "FFmpeg Encoder Plugin"
+        }
+      ],
       "catalogueReleases": [
+        {
+          "version": "v1.32",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+        },
         {
           "version": "v1.0",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.0"
@@ -25040,6 +25190,13 @@
           "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
           "checked_at": "2026-11-21",
           "note": "Original provider release notes reviewed; not independently installation-tested."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider release notes."
         }
       ],
       "unknownFields": [
@@ -25054,18 +25211,44 @@
         "name": "gordasgdc/gdc-plugin-manager",
         "url": "https://github.com/gordasgdc/gdc-plugin-manager",
         "kind": "stable-release",
-        "version": "v1.42.0",
-        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
-        "date": "2026-11-16T04:03:36Z",
-        "checked_at": "2026-11-21",
+        "version": "v1.43.0",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+        "date": "2026-11-21T22:46:10Z",
+        "checked_at": "2026-11-23",
         "date_kind": "release",
-        "note": "Original provider release notes reviewed; not independently installation-tested."
+        "note": "Reviewed the original provider release notes."
       },
-      "releaseDate": "2026-11-16T04:03:36Z",
-      "activityDate": "2026-11-20T19:59:54Z",
+      "releaseDate": "2026-11-21T22:46:10Z",
+      "activityDate": "2026-11-21T22:48:24Z",
       "stars": 1,
-      "metadataChecked": "2026-11-21T06:10:41.855Z",
+      "metadataChecked": "2026-11-23T12:33:58.729Z",
       "history": [
+        {
+          "name": "gordasgdc/gdc-plugin-manager",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+          "from": "v1.42.0",
+          "to": "v1.43.0",
+          "release": "v1.32",
+          "catalogue_date": "2026-11-23",
+          "upstream_date": "2026-11-21T22:46:10Z",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+          "summary": "Adds Scaner GDC to Apps and recognizes installed disk-image copies by their app identity and Apple signature.",
+          "changes": [
+            "Adds Scaner GDC to Apps and recognizes installed disk-image copies by their app identity and Apple signature.",
+            "Recognition through a catalogue refresh requires Manager 1.43.0 or later."
+          ],
+          "changelogs": [
+            {
+              "label": "Provider release notes",
+              "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0"
+            },
+            {
+              "label": "Full source comparison",
+              "url": "https://github.com/gordasgdc/gdc-plugin-manager/compare/v1.42.0...v1.43.0"
+            }
+          ],
+          "display_name": "GDC Plugin Manager"
+        },
         {
           "name": "gordasgdc/gdc-plugin-manager",
           "url": "https://github.com/gordasgdc/gdc-plugin-manager",
@@ -25177,6 +25360,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.32",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+        },
         {
           "version": "v1.31",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
@@ -43612,7 +43799,8 @@
         "ocr",
         "burned in",
         "srt",
-        "translation"
+        "translation",
+        "gpu ocr"
       ],
       "description": "Extracts burned-in subtitles with OCR, supports frame-accurate review and exports SRT, ASS or text. Standalone subtitle preparation utility; not a Resolve plugin.",
       "access": "Free",
@@ -43630,7 +43818,7 @@
         "pricing": "free",
         "account": "unknown",
         "dependencies": "FFmpeg and VideOCR/PaddleOCR installed by setup",
-        "installation": null
+        "installation": "Windows setup requires internet access. CPU OCR is required and runs locally after installation. Optional GPU OCR requires a supported NVIDIA GTX 16 or RTX 20–50 card and driver 576.57 or newer."
       },
       "evidence": [
         {
@@ -43660,6 +43848,20 @@
           "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
           "checked_at": "2026-11-21",
           "note": "Original provider release notes reviewed; not independently installation-tested."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider release notes."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+          "checked_at": "2026-11-23",
+          "note": "Windows setup requires internet access. CPU OCR is required and runs locally after installation. Optional GPU OCR requires a supported NVIDIA GTX 16 or RTX 20–50 card and driver 576.57 or newer."
         }
       ],
       "unknownFields": [
@@ -43674,18 +43876,45 @@
         "name": "BambooYC123/SubtitleYC",
         "url": "https://github.com/BambooYC123/SubtitleYC",
         "kind": "stable-release",
-        "version": "v0.7.0",
-        "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
-        "date": "2026-11-19T13:57:59Z",
-        "checked_at": "2026-11-21",
+        "version": "v0.7.1",
+        "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+        "date": "2026-11-21T07:32:07Z",
+        "checked_at": "2026-11-23",
         "date_kind": "release",
-        "note": "Original provider release notes reviewed; not independently installation-tested."
+        "note": "Reviewed the original provider release notes."
       },
-      "releaseDate": "2026-11-19T13:57:59Z",
-      "activityDate": "2026-11-19T13:36:19Z",
+      "releaseDate": "2026-11-21T07:32:07Z",
+      "activityDate": "2026-11-21T07:10:36Z",
       "stars": 11,
-      "metadataChecked": "2026-11-21T06:10:41.855Z",
+      "metadataChecked": "2026-11-23T12:33:58.729Z",
       "history": [
+        {
+          "name": "BambooYC123/SubtitleYC",
+          "url": "https://github.com/BambooYC123/SubtitleYC",
+          "from": "v0.7.0",
+          "to": "v0.7.1",
+          "release": "v1.32",
+          "catalogue_date": "2026-11-23",
+          "upstream_date": "2026-11-21T07:32:07Z",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+          "summary": "Guides Windows users through optional NVIDIA GPU OCR during setup. CPU OCR remains required.",
+          "changes": [
+            "Guides Windows users through optional NVIDIA GPU OCR during setup. CPU OCR remains required.",
+            "Offers GPU OCR on supported NVIDIA GTX 16 and RTX 20–50 cards with driver 576.57 or newer.",
+            "Shows progress for the first-launch GPU download and lets users pause, resume, or retry it."
+          ],
+          "changelogs": [
+            {
+              "label": "Provider release notes",
+              "url": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1"
+            },
+            {
+              "label": "Full source comparison",
+              "url": "https://github.com/BambooYC123/SubtitleYC/compare/v0.7.0...v0.7.1"
+            }
+          ],
+          "display_name": "SubtitleYC"
+        },
         {
           "name": "BambooYC123/SubtitleYC",
           "url": "https://github.com/BambooYC123/SubtitleYC",
@@ -43720,6 +43949,10 @@
         }
       ],
       "catalogueReleases": [
+        {
+          "version": "v1.32",
+          "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+        },
         {
           "version": "v1.31",
           "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"
@@ -50231,6 +50464,13 @@
   ],
   "releases": [
     {
+      "version": "v1.32",
+      "title": "v1.32 - Six verified listing updates",
+      "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32",
+      "date": "2026-11-23T12:33:58.729Z",
+      "body": "Six existing listings were updated. Four tools have new releases and two have reviewed source changes.\n\n## Verified provider updates\n\n### Auto-Editor\n\n31.9.0 → 31.10.0\n\n- Adds named timeline markers that follow cuts and carry through supported timeline exports. Video exports write them as chapters by default.\n- Accepts clock time and timecode in time ranges.\n- Keeps separate clip names and lengths when exporting an FCPXML timeline with multiple sources.\n\n[Provider release notes](https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0) · [Full comparison](https://github.com/WyattBlue/auto-editor/compare/31.9.0...31.10.0)\n\n### FFmpeg Encoder Plugin\n\nv1.4.0 → v1.5.0\n\n- Adds AAC audio export using the AAC encoder introduced in FFmpeg 9.1.\n- Fixes a Resolve crash on Linux systems with LSFG-VK installed.\n\n[Provider release notes](https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0) · [Full comparison](https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/compare/v1.4.0...v1.5.0)\n\n### GDC Plugin Manager\n\nv1.42.0 → v1.43.0\n\n- Adds Scaner GDC to Apps and recognizes installed disk-image copies by their app identity and Apple signature.\n- Recognition through a catalogue refresh requires Manager 1.43.0 or later.\n\n[Provider release notes](https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0) · [Full comparison](https://github.com/gordasgdc/gdc-plugin-manager/compare/v1.42.0...v1.43.0)\n\n### SubtitleYC\n\nv0.7.0 → v0.7.1\n\n- Guides Windows users through optional NVIDIA GPU OCR during setup. CPU OCR remains required.\n- Offers GPU OCR on supported NVIDIA GTX 16 and RTX 20–50 cards with driver 576.57 or newer.\n- Shows progress for the first-launch GPU download and lets users pause, resume, or retry it.\n\n[Provider release notes](https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1) · [Full comparison](https://github.com/BambooYC123/SubtitleYC/compare/v0.7.0...v0.7.1)\n\n### AutoResolveDeb\n\nSource update · 2026-11-23\n\n- Adds a workaround for NVIDIA container startup on Podman 6.2.0 in the optional AutoDaVinciBox setup.\n\n[Provider revision](https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57) · [Full comparison](https://github.com/psygreg/autoresolvedeb/compare/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24...a914f425e800862f3f1fbee4ba0f840a57f5be57)\n\n### DaVinci Wide Gamut Transforms\n\nSource update · 2026-11-21\n\n- Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.\n- Adds a separate input transform for Pixboom Spark Rec.709 footage.\n\n[Provider revision](https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a) · [Full comparison](https://github.com/thatcherfreeman/dwg-transforms/compare/22f2134e5b2f62a8508ebe02f77f2691d4794d8a...5bb40b4b99a4222ed6c9a93e1495a93148245c7a)"
+    },
+    {
       "version": "v1.31",
       "title": "v1.31 - Provider updates and 17 additions",
       "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31",
@@ -50512,6 +50752,33 @@
     {
       "name": "WyattBlue/auto-editor",
       "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.9.0",
+      "to": "31.10.0",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-23T07:05:00Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+      "summary": "Adds named timeline markers that follow cuts and carry through supported timeline exports. Video exports write them as chapters by default.",
+      "changes": [
+        "Adds named timeline markers that follow cuts and carry through supported timeline exports. Video exports write them as chapters by default.",
+        "Accepts clock time and timecode in time ranges.",
+        "Keeps separate clip names and lengths when exporting an FCPXML timeline with multiple sources."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release notes",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/WyattBlue/auto-editor/compare/31.9.0...31.10.0"
+        }
+      ],
+      "display_name": "Auto-Editor"
+    },
+    {
+      "name": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
       "from": "31.8.0",
       "to": "31.9.0",
       "release": "v1.30",
@@ -50633,6 +50900,31 @@
       ],
       "name": "auto-subs",
       "url": "https://github.com/tmoroney/auto-subs"
+    },
+    {
+      "name": "psygreg/autoresolvedeb",
+      "url": "https://github.com/psygreg/autoresolvedeb",
+      "from": "5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+      "to": "a914f425e800862f3f1fbee4ba0f840a57f5be57",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-23T01:44:01Z",
+      "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+      "summary": "Adds a workaround for NVIDIA container startup on Podman 6.2.0 in the optional AutoDaVinciBox setup.",
+      "changes": [
+        "Adds a workaround for NVIDIA container startup on Podman 6.2.0 in the optional AutoDaVinciBox setup."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/psygreg/autoresolvedeb/compare/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24...a914f425e800862f3f1fbee4ba0f840a57f5be57"
+        }
+      ],
+      "display_name": "AutoResolveDeb"
     },
     {
       "name": "psygreg/autoresolvedeb",
@@ -51860,6 +52152,32 @@
       "url": "https://github.com/mhadifilms/dvr"
     },
     {
+      "name": "thatcherfreeman/dwg-transforms",
+      "url": "https://github.com/thatcherfreeman/dwg-transforms",
+      "from": "22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
+      "to": "5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-21T08:47:11Z",
+      "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+      "summary": "Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.",
+      "changes": [
+        "Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.",
+        "Adds a separate input transform for Pixboom Spark Rec.709 footage."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/thatcherfreeman/dwg-transforms/compare/22f2134e5b2f62a8508ebe02f77f2691d4794d8a...5bb40b4b99a4222ed6c9a93e1495a93148245c7a"
+        }
+      ],
+      "display_name": "DaVinci Wide Gamut Transforms"
+    },
+    {
       "name": "fcp2aaf",
       "url": "https://fcp2aaf.com/",
       "from": "26.11.02",
@@ -51984,6 +52302,32 @@
           "url": "https://fcp2aaf.com/changelog/"
         }
       ]
+    },
+    {
+      "name": "EdvinNilsson/ffmpeg_encoder_plugin",
+      "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
+      "from": "v1.4.0",
+      "to": "v1.5.0",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-21T18:22:32Z",
+      "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+      "summary": "Adds AAC audio export using the AAC encoder introduced in FFmpeg 9.1.",
+      "changes": [
+        "Adds AAC audio export using the AAC encoder introduced in FFmpeg 9.1.",
+        "Fixes a Resolve crash on Linux systems with LSFG-VK installed."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release notes",
+          "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/compare/v1.4.0...v1.5.0"
+        }
+      ],
+      "display_name": "FFmpeg Encoder Plugin"
     },
     {
       "name": "Filmbox Pro",
@@ -52425,6 +52769,32 @@
       ],
       "name": "galactic-crawl-fusion-title",
       "url": "https://github.com/pacoestrada/galactic-crawl-fusion-title"
+    },
+    {
+      "name": "gordasgdc/gdc-plugin-manager",
+      "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+      "from": "v1.42.0",
+      "to": "v1.43.0",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-21T22:46:10Z",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+      "summary": "Adds Scaner GDC to Apps and recognizes installed disk-image copies by their app identity and Apple signature.",
+      "changes": [
+        "Adds Scaner GDC to Apps and recognizes installed disk-image copies by their app identity and Apple signature.",
+        "Recognition through a catalogue refresh requires Manager 1.43.0 or later."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release notes",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/gordasgdc/gdc-plugin-manager/compare/v1.42.0...v1.43.0"
+        }
+      ],
+      "display_name": "GDC Plugin Manager"
     },
     {
       "name": "gordasgdc/gdc-plugin-manager",
@@ -53850,6 +54220,33 @@
       ],
       "name": "SubFix",
       "url": "https://github.com/HooperH/SubFix"
+    },
+    {
+      "name": "BambooYC123/SubtitleYC",
+      "url": "https://github.com/BambooYC123/SubtitleYC",
+      "from": "v0.7.0",
+      "to": "v0.7.1",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-21T07:32:07Z",
+      "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+      "summary": "Guides Windows users through optional NVIDIA GPU OCR during setup. CPU OCR remains required.",
+      "changes": [
+        "Guides Windows users through optional NVIDIA GPU OCR during setup. CPU OCR remains required.",
+        "Offers GPU OCR on supported NVIDIA GTX 16 and RTX 20–50 cards with driver 576.57 or newer.",
+        "Shows progress for the first-launch GPU download and lets users pause, resume, or retry it."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release notes",
+          "url": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/BambooYC123/SubtitleYC/compare/v0.7.0...v0.7.1"
+        }
+      ],
+      "display_name": "SubtitleYC"
     },
     {
       "name": "BambooYC123/SubtitleYC",

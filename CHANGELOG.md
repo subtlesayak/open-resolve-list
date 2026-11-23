@@ -1,3 +1,64 @@
+## v1.32 - Six verified listing updates (2026-11-23)
+
+Six existing listings were updated. Four tools have new releases and two have reviewed source changes.
+
+## Verified provider updates
+
+### Auto-Editor
+
+31.9.0 → 31.10.0
+
+- Adds named timeline markers that follow cuts and carry through supported timeline exports. Video exports write them as chapters by default.
+- Accepts clock time and timecode in time ranges.
+- Keeps separate clip names and lengths when exporting an FCPXML timeline with multiple sources.
+
+[Provider release notes](https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0) · [Full comparison](https://github.com/WyattBlue/auto-editor/compare/31.9.0...31.10.0)
+
+### FFmpeg Encoder Plugin
+
+v1.4.0 → v1.5.0
+
+- Adds AAC audio export using the AAC encoder introduced in FFmpeg 9.1.
+- Fixes a Resolve crash on Linux systems with LSFG-VK installed.
+
+[Provider release notes](https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0) · [Full comparison](https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/compare/v1.4.0...v1.5.0)
+
+### GDC Plugin Manager
+
+v1.42.0 → v1.43.0
+
+- Adds Scaner GDC to Apps and recognizes installed disk-image copies by their app identity and Apple signature.
+- Recognition through a catalogue refresh requires Manager 1.43.0 or later.
+
+[Provider release notes](https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0) · [Full comparison](https://github.com/gordasgdc/gdc-plugin-manager/compare/v1.42.0...v1.43.0)
+
+### SubtitleYC
+
+v0.7.0 → v0.7.1
+
+- Guides Windows users through optional NVIDIA GPU OCR during setup. CPU OCR remains required.
+- Offers GPU OCR on supported NVIDIA GTX 16 and RTX 20–50 cards with driver 576.57 or newer.
+- Shows progress for the first-launch GPU download and lets users pause, resume, or retry it.
+
+[Provider release notes](https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1) · [Full comparison](https://github.com/BambooYC123/SubtitleYC/compare/v0.7.0...v0.7.1)
+
+### AutoResolveDeb
+
+Source update · 2026-11-23
+
+- Adds a workaround for NVIDIA container startup on Podman 6.2.0 in the optional AutoDaVinciBox setup.
+
+[Provider revision](https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57) · [Full comparison](https://github.com/psygreg/autoresolvedeb/compare/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24...a914f425e800862f3f1fbee4ba0f840a57f5be57)
+
+### DaVinci Wide Gamut Transforms
+
+Source update · 2026-11-21
+
+- Adds a DaVinci Wide Gamut input transform for Pixboom Spark DNG footage.
+- Adds a separate input transform for Pixboom Spark Rec.709 footage.
+
+[Provider revision](https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a) · [Full comparison](https://github.com/thatcherfreeman/dwg-transforms/compare/22f2134e5b2f62a8508ebe02f77f2691d4794d8a...5bb40b4b99a4222ed6c9a93e1495a93148245c7a)
+
 ## v1.31 - Verified provider updates and additions (2026-11-21)
 
 17 resources added, with updates and corrections to 25 existing listings.

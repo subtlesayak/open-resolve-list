@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy": "Generated from data/resources/*.json. Edit canonical records, then run npm run build.",
-  "reviewed_at": "2026-11-21",
+  "reviewed_at": "2026-11-23",
   "entries": [
     {
       "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
@@ -309,10 +309,13 @@
         "automatic editing",
         "nle",
         "standalone",
-        "timeline export"
+        "timeline export",
+        "timeline markers",
+        "fcpxml"
       ],
       "sources": [
-        "https://github.com/WyattBlue/auto-editor"
+        "https://github.com/WyattBlue/auto-editor",
+        "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0"
       ]
     },
     {
@@ -2796,10 +2799,14 @@
         "gopro",
         "gp log",
         "input transform",
-        "wide gamut"
+        "wide gamut",
+        "pixboom spark",
+        "dng",
+        "rec 709"
       ],
       "sources": [
-        "https://github.com/thatcherfreeman/dwg-transforms"
+        "https://github.com/thatcherfreeman/dwg-transforms",
+        "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a"
       ]
     },
     {
@@ -3154,10 +3161,12 @@
         "codec",
         "encoding",
         "export",
-        "ffmpeg"
+        "ffmpeg",
+        "aac export"
       ],
       "sources": [
-        "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin"
+        "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
+        "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0"
       ]
     },
     {
@@ -6663,10 +6672,12 @@
         "ocr",
         "burned in",
         "srt",
-        "translation"
+        "translation",
+        "gpu ocr"
       ],
       "sources": [
-        "https://github.com/BambooYC123/SubtitleYC"
+        "https://github.com/BambooYC123/SubtitleYC",
+        "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1"
       ]
     },
     {

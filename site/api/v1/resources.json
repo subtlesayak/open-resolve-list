@@ -1116,12 +1116,12 @@
         "name": "WyattBlue/auto-editor",
         "url": "https://github.com/WyattBlue/auto-editor",
         "kind": "stable-release",
-        "version": "31.9.0",
-        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
-        "date": "2026-11-13T18:17:27Z",
-        "checked_at": "2026-11-14T07:53:12.819Z",
+        "version": "31.10.0",
+        "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+        "date": "2026-11-23T07:05:00Z",
+        "checked_at": "2026-11-23",
         "date_kind": "release",
-        "note": "Original provider source reviewed."
+        "note": "Reviewed the original provider release notes."
       },
       "evidence": [
         {
@@ -1135,6 +1135,12 @@
           "level": "documented",
           "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
           "checked_at": "2026-11-14T07:53:12.819Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+          "checked_at": "2026-11-23"
         }
       ]
     },
@@ -1509,12 +1515,12 @@
         "name": "psygreg/autoresolvedeb",
         "url": "https://github.com/psygreg/autoresolvedeb",
         "kind": "commit",
-        "version": "5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
-        "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
-        "date": "2026-11-14T15:41:11Z",
-        "checked_at": "2026-11-21",
+        "version": "a914f425e800862f3f1fbee4ba0f840a57f5be57",
+        "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+        "date": "2026-11-23T01:44:01Z",
+        "checked_at": "2026-11-23",
         "date_kind": "commit",
-        "note": "Reviewed source revision, not a published software release."
+        "note": "Reviewed the original provider source comparison."
       },
       "evidence": [
         {
@@ -1534,6 +1540,12 @@
           "level": "documented",
           "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
           "checked_at": "2026-11-21"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+          "checked_at": "2026-11-23"
         }
       ]
     },
@@ -9760,7 +9772,7 @@
       "tasks": [
         "color"
       ],
-      "description": "DCTL input transforms from camera and other color spaces into DaVinci Wide Gamut/Intermediate, including a GoPro GP-Log transform.",
+      "description": "DCTL input transforms into DaVinci Wide Gamut and Intermediate, including GoPro GP-Log and Pixboom Spark DNG and Rec.709 footage.",
       "access": "Public",
       "platforms": [],
       "requirements": {
@@ -9778,10 +9790,12 @@
         "name": "thatcherfreeman/dwg-transforms",
         "url": "https://github.com/thatcherfreeman/dwg-transforms",
         "kind": "commit",
-        "version": "22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
-        "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
-        "date": "2026-07-27T16:22:31Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+        "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+        "date": "2026-11-21T08:47:11Z",
+        "checked_at": "2026-11-23",
+        "date_kind": "commit",
+        "note": "Reviewed the original provider source comparison."
       },
       "evidence": [
         {
@@ -9789,6 +9803,12 @@
           "level": "documented",
           "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+          "checked_at": "2026-11-23"
         }
       ]
     },
@@ -10964,7 +10984,9 @@
         "Linux"
       ],
       "requirements": {
-        "editions": [],
+        "editions": [
+          "Studio"
+        ],
         "resolve": [],
         "architectures": [],
         "gpu": null,
@@ -10972,16 +10994,18 @@
         "pricing": "unknown",
         "account": "unknown",
         "dependencies": null,
-        "installation": null
+        "installation": "DaVinci Resolve Studio is required for the encoder plug-in."
       },
       "version": {
         "name": "EdvinNilsson/ffmpeg_encoder_plugin",
         "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
         "kind": "stable-release",
-        "version": "v1.4.0",
-        "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.4.0",
-        "date": "2026-08-10T19:49:33Z",
-        "checked_at": "2026-09-15T05:06:04.860Z"
+        "version": "v1.5.0",
+        "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+        "date": "2026-11-21T18:22:32Z",
+        "checked_at": "2026-11-23",
+        "date_kind": "release",
+        "note": "Reviewed the original provider release notes."
       },
       "evidence": [
         {
@@ -10995,6 +11019,18 @@
           "level": "documented",
           "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.4.0",
           "checked_at": "2026-09-15T05:06:04.860Z"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin#readme",
+          "checked_at": "2026-11-23"
         }
       ]
     },
@@ -13364,12 +13400,12 @@
         "name": "gordasgdc/gdc-plugin-manager",
         "url": "https://github.com/gordasgdc/gdc-plugin-manager",
         "kind": "stable-release",
-        "version": "v1.42.0",
-        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
-        "date": "2026-11-16T04:03:36Z",
-        "checked_at": "2026-11-21",
+        "version": "v1.43.0",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+        "date": "2026-11-21T22:46:10Z",
+        "checked_at": "2026-11-23",
         "date_kind": "release",
-        "note": "Original provider release notes reviewed; not independently installation-tested."
+        "note": "Reviewed the original provider release notes."
       },
       "evidence": [
         {
@@ -13395,6 +13431,12 @@
           "level": "documented",
           "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
           "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+          "checked_at": "2026-11-23"
         }
       ]
     },
@@ -23515,18 +23557,18 @@
         "pricing": "free",
         "account": "unknown",
         "dependencies": "FFmpeg and VideOCR/PaddleOCR installed by setup",
-        "installation": null
+        "installation": "Windows setup requires internet access. CPU OCR is required and runs locally after installation. Optional GPU OCR requires a supported NVIDIA GTX 16 or RTX 20–50 card and driver 576.57 or newer."
       },
       "version": {
         "name": "BambooYC123/SubtitleYC",
         "url": "https://github.com/BambooYC123/SubtitleYC",
         "kind": "stable-release",
-        "version": "v0.7.0",
-        "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
-        "date": "2026-11-19T13:57:59Z",
-        "checked_at": "2026-11-21",
+        "version": "v0.7.1",
+        "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+        "date": "2026-11-21T07:32:07Z",
+        "checked_at": "2026-11-23",
         "date_kind": "release",
-        "note": "Original provider release notes reviewed; not independently installation-tested."
+        "note": "Reviewed the original provider release notes."
       },
       "evidence": [
         {
@@ -23552,6 +23594,18 @@
           "level": "documented",
           "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
           "checked_at": "2026-11-21"
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+          "checked_at": "2026-11-23"
         }
       ]
     },

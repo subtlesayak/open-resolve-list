@@ -21,7 +21,8 @@
     "ocr",
     "burned in",
     "srt",
-    "translation"
+    "translation",
+    "gpu ocr"
   ],
   "description": "Extracts burned-in subtitles with OCR, supports frame-accurate review and exports SRT, ASS or text. Standalone subtitle preparation utility; not a Resolve plugin.",
   "display_description": "Extracts burned-in subtitles with OCR, supports frame-accurate review and exports SRT, ASS or text. Standalone subtitle preparation utility; not a Resolve plugin.",
@@ -37,8 +38,8 @@
   "platform_checked_at": "2026-09-08",
   "research_snapshot": "2026-09-08",
   "stars": 11,
-  "last_pushed_at": "2026-11-19T13:36:19Z",
-  "metadata_checked_at": "2026-11-21T06:10:41.855Z",
+  "last_pushed_at": "2026-11-21T07:10:36Z",
+  "metadata_checked_at": "2026-11-23T12:33:58.729Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -48,18 +49,18 @@
     "pricing": "free",
     "account": "unknown",
     "dependencies": "FFmpeg and VideOCR/PaddleOCR installed by setup",
-    "installation": null
+    "installation": "Windows setup requires internet access. CPU OCR is required and runs locally after installation. Optional GPU OCR requires a supported NVIDIA GTX 16 or RTX 20–50 card and driver 576.57 or newer."
   },
   "version": {
     "name": "BambooYC123/SubtitleYC",
     "url": "https://github.com/BambooYC123/SubtitleYC",
     "kind": "stable-release",
-    "version": "v0.7.0",
-    "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
-    "date": "2026-11-19T13:57:59Z",
-    "checked_at": "2026-11-21",
+    "version": "v0.7.1",
+    "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+    "date": "2026-11-21T07:32:07Z",
+    "checked_at": "2026-11-23",
     "date_kind": "release",
-    "note": "Original provider release notes reviewed; not independently installation-tested."
+    "note": "Reviewed the original provider release notes."
   },
   "evidence": [
     {
@@ -89,6 +90,20 @@
       "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
       "checked_at": "2026-11-21",
       "note": "Original provider release notes reviewed; not independently installation-tested."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+      "checked_at": "2026-11-23",
+      "note": "Reviewed the original provider release notes."
+    },
+    {
+      "field": "requirements",
+      "level": "documented",
+      "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+      "checked_at": "2026-11-23",
+      "note": "Windows setup requires internet access. CPU OCR is required and runs locally after installation. Optional GPU OCR requires a supported NVIDIA GTX 16 or RTX 20–50 card and driver 576.57 or newer."
     }
   ],
   "unknownFields": [
@@ -99,6 +114,33 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "BambooYC123/SubtitleYC",
+      "url": "https://github.com/BambooYC123/SubtitleYC",
+      "from": "v0.7.0",
+      "to": "v0.7.1",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-21T07:32:07Z",
+      "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+      "summary": "Guides Windows users through optional NVIDIA GPU OCR during setup. CPU OCR remains required.",
+      "changes": [
+        "Guides Windows users through optional NVIDIA GPU OCR during setup. CPU OCR remains required.",
+        "Offers GPU OCR on supported NVIDIA GTX 16 and RTX 20–50 cards with driver 576.57 or newer.",
+        "Shows progress for the first-launch GPU download and lets users pause, resume, or retry it."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release notes",
+          "url": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/BambooYC123/SubtitleYC/compare/v0.7.0...v0.7.1"
+        }
+      ],
+      "display_name": "SubtitleYC"
+    },
     {
       "name": "BambooYC123/SubtitleYC",
       "url": "https://github.com/BambooYC123/SubtitleYC",
@@ -134,8 +176,9 @@
   ],
   "legacy_id": "66ee60e177fd",
   "search_sources": [
-    "https://github.com/BambooYC123/SubtitleYC"
+    "https://github.com/BambooYC123/SubtitleYC",
+    "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1"
   ],
-  "tags_reviewed_at": "2026-09-08",
+  "tags_reviewed_at": "2026-11-23",
   "requirements_reviewed": true
 }

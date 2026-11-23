@@ -1,1 +1,1 @@
-export const catalogueVersion="f5d5ba3fb285edb6";
+export const catalogueVersion="545900e46d7c2541";

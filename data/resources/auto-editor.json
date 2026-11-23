@@ -20,7 +20,9 @@
     "automatic editing",
     "nle",
     "standalone",
-    "timeline export"
+    "timeline export",
+    "timeline markers",
+    "fcpxml"
   ],
   "description": "Standalone automatic editing with NLE timeline-export workflows; not a native Resolve plugin.",
   "display_description": "Standalone automatic editing with NLE timeline-export workflows; not a native Resolve plugin.",
@@ -33,9 +35,9 @@
   "platform_source": "https://github.com/WyattBlue/auto-editor#readme",
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
-  "stars": 6033,
-  "last_pushed_at": "2026-11-21T04:27:47Z",
-  "metadata_checked_at": "2026-11-21T06:10:41.855Z",
+  "stars": 6063,
+  "last_pushed_at": "2026-11-23T07:08:08Z",
+  "metadata_checked_at": "2026-11-23T12:33:58.729Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -51,12 +53,12 @@
     "name": "WyattBlue/auto-editor",
     "url": "https://github.com/WyattBlue/auto-editor",
     "kind": "stable-release",
-    "version": "31.9.0",
-    "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
-    "date": "2026-11-13T18:17:27Z",
-    "checked_at": "2026-11-14T07:53:12.819Z",
+    "version": "31.10.0",
+    "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+    "date": "2026-11-23T07:05:00Z",
+    "checked_at": "2026-11-23",
     "date_kind": "release",
-    "note": "Original provider source reviewed."
+    "note": "Reviewed the original provider release notes."
   },
   "evidence": [
     {
@@ -72,6 +74,13 @@
       "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
       "checked_at": "2026-11-14T07:53:12.819Z",
       "note": "Provider release evidence."
+    },
+    {
+      "field": "version",
+      "level": "documented",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+      "checked_at": "2026-11-23",
+      "note": "Reviewed the original provider release notes."
     }
   ],
   "unknownFields": [
@@ -84,6 +93,33 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.9.0",
+      "to": "31.10.0",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-23T07:05:00Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+      "summary": "Adds named timeline markers that follow cuts and carry through supported timeline exports. Video exports write them as chapters by default.",
+      "changes": [
+        "Adds named timeline markers that follow cuts and carry through supported timeline exports. Video exports write them as chapters by default.",
+        "Accepts clock time and timecode in time ranges.",
+        "Keeps separate clip names and lengths when exporting an FCPXML timeline with multiple sources."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider release notes",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/WyattBlue/auto-editor/compare/31.9.0...31.10.0"
+        }
+      ],
+      "display_name": "Auto-Editor"
+    },
     {
       "name": "WyattBlue/auto-editor",
       "url": "https://github.com/WyattBlue/auto-editor",
@@ -172,8 +208,9 @@
   ],
   "legacy_id": "6596d4caae50",
   "search_sources": [
-    "https://github.com/WyattBlue/auto-editor"
+    "https://github.com/WyattBlue/auto-editor",
+    "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0"
   ],
-  "tags_reviewed_at": "2026-09-08",
+  "tags_reviewed_at": "2026-11-23",
   "requirements_reviewed": true
 }

@@ -69,6 +69,13 @@
         "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
         "checked_at": "2026-11-21",
         "note": "Original provider release notes reviewed; not independently installation-tested."
+      },
+      {
+        "field": "version",
+        "level": "documented",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+        "checked_at": "2026-11-23",
+        "note": "Reviewed the original provider release notes."
       }
     ],
     "unknownFields": [
@@ -83,18 +90,44 @@
       "name": "gordasgdc/gdc-plugin-manager",
       "url": "https://github.com/gordasgdc/gdc-plugin-manager",
       "kind": "stable-release",
-      "version": "v1.42.0",
-      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
-      "date": "2026-11-16T04:03:36Z",
-      "checked_at": "2026-11-21",
+      "version": "v1.43.0",
+      "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+      "date": "2026-11-21T22:46:10Z",
+      "checked_at": "2026-11-23",
       "date_kind": "release",
-      "note": "Original provider release notes reviewed; not independently installation-tested."
+      "note": "Reviewed the original provider release notes."
     },
-    "releaseDate": "2026-11-16T04:03:36Z",
-    "activityDate": "2026-11-20T19:59:54Z",
+    "releaseDate": "2026-11-21T22:46:10Z",
+    "activityDate": "2026-11-21T22:48:24Z",
     "stars": 1,
-    "metadataChecked": "2026-11-21T06:10:41.855Z",
+    "metadataChecked": "2026-11-23T12:33:58.729Z",
     "history": [
+      {
+        "name": "gordasgdc/gdc-plugin-manager",
+        "url": "https://github.com/gordasgdc/gdc-plugin-manager",
+        "from": "v1.42.0",
+        "to": "v1.43.0",
+        "release": "v1.32",
+        "catalogue_date": "2026-11-23",
+        "upstream_date": "2026-11-21T22:46:10Z",
+        "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+        "summary": "Adds Scaner GDC to Apps and recognizes installed disk-image copies by their app identity and Apple signature.",
+        "changes": [
+          "Adds Scaner GDC to Apps and recognizes installed disk-image copies by their app identity and Apple signature.",
+          "Recognition through a catalogue refresh requires Manager 1.43.0 or later."
+        ],
+        "changelogs": [
+          {
+            "label": "Provider release notes",
+            "url": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0"
+          },
+          {
+            "label": "Full source comparison",
+            "url": "https://github.com/gordasgdc/gdc-plugin-manager/compare/v1.42.0...v1.43.0"
+          }
+        ],
+        "display_name": "GDC Plugin Manager"
+      },
       {
         "name": "gordasgdc/gdc-plugin-manager",
         "url": "https://github.com/gordasgdc/gdc-plugin-manager",
@@ -206,6 +239,10 @@
       }
     ],
     "catalogueReleases": [
+      {
+        "version": "v1.32",
+        "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.32"
+      },
       {
         "version": "v1.31",
         "url": "https://github.com/subtlesayak/open-resolve-list/releases/tag/v1.31"

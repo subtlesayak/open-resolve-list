@@ -824,6 +824,13 @@
           "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
           "checked_at": "2026-11-14T07:53:12.819Z",
           "note": "Provider release evidence."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider release notes."
         }
       ]
     },
@@ -1131,6 +1138,13 @@
           "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
           "checked_at": "2026-11-21",
           "note": "Reviewed source revision, not a published software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider source comparison."
         }
       ]
     },
@@ -7026,6 +7040,13 @@
           "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/22f2134e5b2f62a8508ebe02f77f2691d4794d8a",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Source revision, not a software release."
+        },
+        {
+          "field": "repository revision",
+          "level": "documented",
+          "source": "https://github.com/thatcherfreeman/dwg-transforms/commit/5bb40b4b99a4222ed6c9a93e1495a93148245c7a",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider source comparison."
         }
       ]
     },
@@ -7823,7 +7844,9 @@
     {
       "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
       "requirements": {
-        "editions": [],
+        "editions": [
+          "Studio"
+        ],
         "resolve": [],
         "architectures": [],
         "gpu": null,
@@ -7831,7 +7854,7 @@
         "pricing": "unknown",
         "account": "unknown",
         "dependencies": null,
-        "installation": null
+        "installation": "DaVinci Resolve Studio is required for the encoder plug-in."
       },
       "tasks": [
         "media"
@@ -7856,6 +7879,20 @@
           "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.4.0",
           "checked_at": "2026-09-15T05:06:04.860Z",
           "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin/releases/tag/v1.5.0",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider release notes."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin#readme",
+          "checked_at": "2026-11-23",
+          "note": "DaVinci Resolve Studio is required for the encoder plug-in."
         }
       ]
     },
@@ -9587,6 +9624,13 @@
           "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.42.0",
           "checked_at": "2026-11-21",
           "note": "Original provider release notes reviewed; not independently installation-tested."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/gordasgdc/gdc-plugin-manager/releases/tag/v1.43.0",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider release notes."
         }
       ]
     },
@@ -16983,7 +17027,7 @@
         "pricing": "free",
         "account": "unknown",
         "dependencies": "FFmpeg and VideOCR/PaddleOCR installed by setup",
-        "installation": null
+        "installation": "Windows setup requires internet access. CPU OCR is required and runs locally after installation. Optional GPU OCR requires a supported NVIDIA GTX 16 or RTX 20–50 card and driver 576.57 or newer."
       },
       "tasks": [
         "captions"
@@ -17020,6 +17064,20 @@
           "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.0",
           "checked_at": "2026-11-21",
           "note": "Original provider release notes reviewed; not independently installation-tested."
+        },
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+          "checked_at": "2026-11-23",
+          "note": "Reviewed the original provider release notes."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.7.1",
+          "checked_at": "2026-11-23",
+          "note": "Windows setup requires internet access. CPU OCR is required and runs locally after installation. Optional GPU OCR requires a supported NVIDIA GTX 16 or RTX 20–50 card and driver 576.57 or newer."
         }
       ]
     },

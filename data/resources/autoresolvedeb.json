@@ -36,8 +36,8 @@
   "platform_checked_at": "2026-09-06",
   "research_snapshot": "2026-09-06",
   "stars": 31,
-  "last_pushed_at": "2026-11-14T15:41:14Z",
-  "metadata_checked_at": "2026-11-21T06:10:41.855Z",
+  "last_pushed_at": "2026-11-23T01:44:03Z",
+  "metadata_checked_at": "2026-11-23T12:33:58.729Z",
   "requirements": {
     "editions": [],
     "resolve": [],
@@ -53,12 +53,12 @@
     "name": "psygreg/autoresolvedeb",
     "url": "https://github.com/psygreg/autoresolvedeb",
     "kind": "commit",
-    "version": "5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
-    "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
-    "date": "2026-11-14T15:41:11Z",
-    "checked_at": "2026-11-21",
+    "version": "a914f425e800862f3f1fbee4ba0f840a57f5be57",
+    "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+    "date": "2026-11-23T01:44:01Z",
+    "checked_at": "2026-11-23",
     "date_kind": "commit",
-    "note": "Reviewed source revision, not a published software release."
+    "note": "Reviewed the original provider source comparison."
   },
   "evidence": [
     {
@@ -81,6 +81,13 @@
       "source": "https://github.com/psygreg/autoresolvedeb/commit/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
       "checked_at": "2026-11-21",
       "note": "Reviewed source revision, not a published software release."
+    },
+    {
+      "field": "repository revision",
+      "level": "documented",
+      "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+      "checked_at": "2026-11-23",
+      "note": "Reviewed the original provider source comparison."
     }
   ],
   "unknownFields": [
@@ -92,6 +99,31 @@
   "recommended": false,
   "recommendation": null,
   "history": [
+    {
+      "name": "psygreg/autoresolvedeb",
+      "url": "https://github.com/psygreg/autoresolvedeb",
+      "from": "5e1b3b003fa8229dbdc748d5efaa5df8f233cc24",
+      "to": "a914f425e800862f3f1fbee4ba0f840a57f5be57",
+      "release": "v1.32",
+      "catalogue_date": "2026-11-23",
+      "upstream_date": "2026-11-23T01:44:01Z",
+      "source": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57",
+      "summary": "Adds a workaround for NVIDIA container startup on Podman 6.2.0 in the optional AutoDaVinciBox setup.",
+      "changes": [
+        "Adds a workaround for NVIDIA container startup on Podman 6.2.0 in the optional AutoDaVinciBox setup."
+      ],
+      "changelogs": [
+        {
+          "label": "Provider source revision",
+          "url": "https://github.com/psygreg/autoresolvedeb/commit/a914f425e800862f3f1fbee4ba0f840a57f5be57"
+        },
+        {
+          "label": "Full source comparison",
+          "url": "https://github.com/psygreg/autoresolvedeb/compare/5e1b3b003fa8229dbdc748d5efaa5df8f233cc24...a914f425e800862f3f1fbee4ba0f840a57f5be57"
+        }
+      ],
+      "display_name": "AutoResolveDeb"
+    },
     {
       "name": "psygreg/autoresolvedeb",
       "url": "https://github.com/psygreg/autoresolvedeb",
